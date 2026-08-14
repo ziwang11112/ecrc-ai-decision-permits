@@ -1,0 +1,234 @@
+{
+  "artifacts": {
+    "FIG2_CAPTION.md": {
+      "bytes": 488,
+      "sha256": "34c7131632a0e6ca2fcee847ff28093aaec4e1f6517b57972469163f737b83b3"
+    },
+    "FIG2_CONTRACT.md": {
+      "bytes": 2435,
+      "sha256": "9007ec809c9930ef78b2ea8b79eba72cd5e8ef6dd4c75b47903ead869cc29e39"
+    },
+    "FIG2_QA_REPORT.md": {
+      "bytes": 3901,
+      "sha256": "8f373fe84b6ca777d7e7616204080af8ad6df961b03d9bf10878ceb9ef275696"
+    },
+    "fig2_capacity_tradeoff.jpg": {
+      "bytes": 469001,
+      "sha256": "9f4c8999e8684536c4240b906e5c3d93f4db7f1444497fdb253662637614c945"
+    },
+    "fig2_capacity_tradeoff.pdf": {
+      "bytes": 39763,
+      "sha256": "de8d49e67c5133bbefd3033d172f99af2de820dfd0f40b296beb63b465afab7b"
+    },
+    "fig2_capacity_tradeoff.png": {
+      "bytes": 217577,
+      "sha256": "c3ff24a88870b04f6f85f1867d1700850888814ab92faa487b686b2bc78a1806"
+    },
+    "fig2_capacity_tradeoff.svg": {
+      "bytes": 27910,
+      "sha256": "0c627334457cbb2ec7df22469d4aa9f20dd8a4f87667f34aa35fcd7c1e4744e9"
+    },
+    "fig2_capacity_tradeoff_grayscale.png": {
+      "bytes": 96264,
+      "sha256": "e4b66e56c83efd43a19ee6833426b3e866f3751ea70754e2cae07b065a7bda6a"
+    },
+    "fig2_capacity_tradeoff_source_data.csv": {
+      "bytes": 10028,
+      "sha256": "4dfe388a4b7f2f696cddac66ad42d2c6170926dfd1e3ad8539d0862518cc0c6a"
+    },
+    "fig2_point_check.csv": {
+      "bytes": 11024,
+      "sha256": "97c2aa19f7b1fa00ed10e2c8e0a491fcaf10be2aa540ebe787ddae68effc7fba"
+    },
+    "make_fig2_capacity_tradeoff.py": {
+      "bytes": 34518,
+      "sha256": "39d18e03712370a6115d9b1632001ab66a9936337853436194cc18cd2811bb09"
+    }
+  },
+  "audit": {
+    "expected_raster_pixels_at_600_dpi": [
+      3755,
+      1464
+    ],
+    "ink_bbox_margins_px": {
+      "bottom_px": 68,
+      "left_px": 82,
+      "right_px": 51,
+      "top_px": 35
+    },
+    "line_connection": {
+      "all_segments_pass": true,
+      "expected_series_checks": 4,
+      "observed_series_checks": 4,
+      "policy": "finite per-participant caps 2, 4, 6 and 8 connected; no unbounded point plotted",
+      "series": [
+        {
+          "dataset_id": "many_labs_igt",
+          "finite_cap_labels": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "finite_cap_x": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "panel": "a",
+          "pass": true
+        },
+        {
+          "dataset_id": "mendeley_igt_official_v2",
+          "finite_cap_labels": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "finite_cap_x": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "panel": "a",
+          "pass": true
+        },
+        {
+          "dataset_id": "many_labs_igt",
+          "finite_cap_labels": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "finite_cap_x": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "panel": "b",
+          "pass": true
+        },
+        {
+          "dataset_id": "mendeley_igt_official_v2",
+          "finite_cap_labels": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "finite_cap_x": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "panel": "b",
+          "pass": true
+        }
+      ]
+    },
+    "pdf_size_mm": [
+      158.99999999999193,
+      62.000000000013046
+    ],
+    "raster": {
+      "fig2_capacity_tradeoff.jpg": {
+        "dpi_metadata": [
+          600,
+          600
+        ],
+        "pixels": [
+          3755,
+          1464
+        ]
+      },
+      "fig2_capacity_tradeoff.png": {
+        "dpi_metadata": [
+          599.9988,
+          599.9988
+        ],
+        "pixels": [
+          3755,
+          1464
+        ]
+      },
+      "fig2_capacity_tradeoff_grayscale.png": {
+        "dpi_metadata": [
+          599.9988,
+          599.9988
+        ],
+        "pixels": [
+          3755,
+          1464
+        ]
+      }
+    },
+    "redundant_series_encoding": {
+      "Many Labs": "solid line + circle",
+      "Mendeley cohort": "dashed line + square"
+    },
+    "revised_panel_a_title_present": true,
+    "sample_unbounded_absent": true,
+    "series_grayscale_luminance_delta": 39.328,
+    "svg_minimum_text_pass": true,
+    "svg_minimum_text_pt": 7.5,
+    "svg_size_mm": [
+      158.99999985277776,
+      61.999999824999996
+    ],
+    "svg_text_nodes": 26
+  },
+  "backend": "Python/matplotlib",
+  "figure_id": "Figure 3",
+  "figure_size_mm": [
+    159.0,
+    62.0
+  ],
+  "inputs": {
+    "bootstrap_confidence_intervals.csv": "f47d31ee04c772b44daa480031bfb8f840c6b2b72bc836b5d49138b499395a6d",
+    "route_workload_metrics.csv": "9bc3a3682bf70ab983301596a3f9be5216ded1e4ab9a96277d58fca6491af355"
+  },
+  "minimum_text_pt": 7.5,
+  "raster_dpi": 600,
+  "selection": {
+    "cap_labels": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "datasets": [
+      "many_labs_igt",
+      "mendeley_igt_official_v2"
+    ],
+    "metrics": [
+      "event_coverage_by_action",
+      "false_alerts_per_100"
+    ],
+    "model_name": "hist_gradient_boosting"
+  },
+  "statistics": {
+    "bootstrap_method": "cluster percentile; participants sampled with replacement",
+    "bootstrap_replicates": 2000,
+    "bootstrap_unit": "participant",
+    "confidence_level": 0.95
+  },
+  "stem": "fig2_capacity_tradeoff",
+  "typography": {
+    "font_stack": [
+      "Calibri",
+      "Arial",
+      "Helvetica",
+      "DejaVu Sans",
+      "Liberation Sans"
+    ],
+    "minimum_font_pt": 7.5,
+    "pdf_fonttype": 42,
+    "svg_text_editable": true
+  }
+}

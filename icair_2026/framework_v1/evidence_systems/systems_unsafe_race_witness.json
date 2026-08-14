@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "accepted": true,
+      "observed_committed": 0,
+      "worker_id": 0
+    },
+    {
+      "accepted": true,
+      "observed_committed": 0,
+      "worker_id": 1
+    }
+  ],
+  "barrier_forced_interleaving": true,
+  "capacity": 1,
+  "fixture_type": "unsafe_non_atomic_race_witness",
+  "logical_acceptances": 2,
+  "lost_update_count": 1,
+  "oversubscription_count": 1,
+  "passed": true,
+  "production_comparator": false,
+  "stored_counter": 1
+}

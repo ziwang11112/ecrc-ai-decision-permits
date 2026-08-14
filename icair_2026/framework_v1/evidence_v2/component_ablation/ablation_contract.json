@@ -1,0 +1,80 @@
+{
+  "boundaries": [
+    "No action reached a participant or operational system.",
+    "The PEP side effect is simulated; receipts do not establish external execution.",
+    "SQLite atomicity does not establish atomicity with an external service.",
+    "Fault sensitivity applies only to the prespecified families.",
+    "The evidence stress is a conformance fixture, not a prevalence estimate.",
+    "No component receives credit for predictive improvement."
+  ],
+  "experiment": "matched_component_ablation",
+  "record_axis": {
+    "claim_faults": [
+      "claim_scope_substitution",
+      "evidence_hash_substitution"
+    ],
+    "fault_stages": {
+      "claim_faults": "pre_execution_permit",
+      "receipt_faults": "post_execution_receipt"
+    },
+    "faults_per_family": 12,
+    "fixture": "32 deterministic decisions issued and consumed through the real ECRC adjudicator, trusted SQLite ledger, PEP simulator, and verifier",
+    "outcomes": [
+      "clean_false_positive_rate",
+      "fault_sensitivity"
+    ],
+    "predictive_metrics_applicable": false,
+    "receipt_faults": [
+      "side_effect_id_tamper",
+      "previous_receipt_hash_tamper",
+      "receipt_reorder",
+      "permit_replay",
+      "missing_receipt"
+    ],
+    "validators": [
+      "ordinary_log",
+      "claim_binding_off",
+      "receipt_state_verification_off",
+      "full_binding_and_receipt"
+    ]
+  },
+  "routing_axis": {
+    "arms": [
+      "full_controls",
+      "evidence_gate_off",
+      "uncertainty_gate_off",
+      "shared_capacity",
+      "capacity_off"
+    ],
+    "evidence_stress_assignment": "SHA256(dataset_id, subject_id, trial_id, seed) mod 20; 0=missing, 1=stale, otherwise admitted",
+    "evidence_stress_is_real_prevalence_estimate": false,
+    "outcomes": [
+      "alert_rate",
+      "human_review_rate",
+      "abstain_rate",
+      "no_action_rate",
+      "event_coverage_by_alert",
+      "alert_precision",
+      "false_alerts_per_100",
+      "event_coverage_by_human_review",
+      "non_event_human_reviews_per_100",
+      "auto_capacity_blocks_per_100",
+      "review_capacity_overflow_abstentions_per_100",
+      "invalid_evidence_action_acceptance_rate",
+      "direct_evidence_gate_blocks_per_100"
+    ],
+    "proposal_scores_refit_or_changed": false,
+    "reference_auto_cap": 8,
+    "reference_review_cap": 2,
+    "scenarios": [
+      "clean",
+      "missing_stale_stress"
+    ],
+    "shared_capacity_estimand": "route/workload difference under one FIFO quota of 10 versus separate FIFO alert=8 and review=2 quotas, conditional on frozen proposals",
+    "shared_overflow_routes": {
+      "alert_candidate": "no_action",
+      "review_candidate": "abstain"
+    }
+  },
+  "script_version": "1.1.0"
+}

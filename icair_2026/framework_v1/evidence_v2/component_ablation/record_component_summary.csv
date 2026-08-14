@@ -1,0 +1,9 @@
+expected_component,validator,n_cases,n_detected,sensitivity
+stateful_receipt_verification,claim_binding_off,60,60,1.0
+stateful_receipt_verification,full_binding_and_receipt,60,60,1.0
+stateful_receipt_verification,ordinary_log,60,0,0.0
+stateful_receipt_verification,receipt_state_verification_off,60,0,0.0
+trusted_permit_claim_binding,claim_binding_off,24,0,0.0
+trusted_permit_claim_binding,full_binding_and_receipt,24,24,1.0
+trusted_permit_claim_binding,ordinary_log,24,0,0.0
+trusted_permit_claim_binding,receipt_state_verification_off,24,24,1.0

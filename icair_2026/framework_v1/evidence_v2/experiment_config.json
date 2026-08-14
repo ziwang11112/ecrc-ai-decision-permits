@@ -1,0 +1,29 @@
+{
+  "action_precision_floor": 0.6,
+  "automated_alert_caps": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "block_size": 20,
+  "bootstrap_confidence_level": 0.95,
+  "bootstrap_replicates": 2000,
+  "false_action_limit_per_100": 9.0,
+  "history_windows": [
+    5,
+    10,
+    20
+  ],
+  "inner_folds": 3,
+  "outer_folds": 5,
+  "reference_alert_cap": 8,
+  "review_band_width": 0.03,
+  "review_cap": 2,
+  "seed": 20260813,
+  "threshold_grid_start": 0.3,
+  "threshold_grid_step": 0.01,
+  "threshold_grid_stop": 0.85,
+  "uncertainty_mode": "probability_margin",
+  "uncertainty_threshold": 0.9
+}

@@ -1,0 +1,79 @@
+{
+  "artifacts": {
+    "case_results": "validator_case_results.csv",
+    "clean_results": "clean_false_positive_results.csv",
+    "family_summary": "validator_family_summary.csv",
+    "fault_manifest": "sequence_fault_manifest.csv",
+    "sequence_findings": "sequence_findings.csv"
+  },
+  "benchmark": "E7_sequence_only_fault_benchmark",
+  "clean_false_positive_results": [
+    {
+      "clean_participant_segments": 617,
+      "clean_row_false_positive_rate": 0.0,
+      "clean_rows": 19965,
+      "clean_rows_flagged": 0,
+      "clean_segment_false_positive_rate": 0.0,
+      "clean_segments_flagged": 0,
+      "validator": "primitive_presence_type"
+    },
+    {
+      "clean_participant_segments": 617,
+      "clean_row_false_positive_rate": 0.0,
+      "clean_rows": 19965,
+      "clean_rows_flagged": 0,
+      "clean_segment_false_positive_rate": 0.0,
+      "clean_segments_flagged": 0,
+      "validator": "independent_row_conditional"
+    },
+    {
+      "clean_participant_segments": 617,
+      "clean_row_false_positive_rate": 0.0,
+      "clean_rows": 19965,
+      "clean_rows_flagged": 0,
+      "clean_segment_false_positive_rate": 0.0,
+      "clean_segments_flagged": 0,
+      "validator": "sequence_aware"
+    }
+  ],
+  "fault_contract": {
+    "all_injected_rows_must_pass_existing_independent_row_conditional": true,
+    "all_injected_rows_must_pass_existing_primitive": true,
+    "cases_per_family": 100,
+    "each_case_must_have_exactly_one_sequence_finding": true,
+    "families": [
+      "adjacent_auto_counter_discontinuity",
+      "adjacent_review_counter_discontinuity",
+      "segment_start_nonzero",
+      "duplicate_decision_index",
+      "missing_decision_index",
+      "participant_boundary_not_reset"
+    ],
+    "family_descriptions": {
+      "adjacent_auto_counter_discontinuity": "Raise the final row's automated-alert before/after counters together by one.  The row transition remains valid, but its count-before no longer equals the preceding row's count-after.",
+      "adjacent_review_counter_discontinuity": "Raise the final row's review before/after counters together by one.  The row transition remains valid, but adjacent review state is broken.",
+      "duplicate_decision_index": "Duplicate one interior no-increment record.  Each copy is row-valid and counter continuity is preserved, but the participant index is repeated.",
+      "missing_decision_index": "Remove one interior no-increment record.  Remaining rows are row-valid and counters remain continuous, but the participant index has a gap.",
+      "participant_boundary_not_reset": "Carry a nonzero terminal counter from one participant into the first row of the next participant, preserving the new row's local transition.",
+      "segment_start_nonzero": "Offset a standalone participant's complete automated-alert counter path by one.  All local and adjacent transitions remain valid, but the segment no longer starts at zero."
+    },
+    "sequence_validator_uses_fault_metadata": false,
+    "total_cases": 600,
+    "unique_mutated_case_hashes": 600
+  },
+  "interpretation": [
+    "Primitive and row-conditional sensitivity is expected to be zero because every injected row preserves their observable invariants.",
+    "Sequence-aware sensitivity and localisation apply only to the six prespecified sequence families.",
+    "The benchmark does not establish unknown-fault, adversarial, security, semantic-correctness, or deployment coverage.",
+    "decision_index is an absolute task index in the archived trace, so segment-start validation concerns counter reset rather than requiring decision_index zero.",
+    "Participant-boundary cases use a complete preceding segment plus the first next-participant row; the schema declares no segment endpoint, so this is not presented as a truncation test."
+  ],
+  "script_version": "1.0.0",
+  "seed": 20260813,
+  "source_trace": {
+    "participant_segments": 617,
+    "path_role": "existing_read_only_heldout_claim_licence_trace",
+    "rows": 19965,
+    "sha256": "ac01609d57ba465f604bf0c658289bbd634c6b543528b1d10f27130aef55225c"
+  }
+}

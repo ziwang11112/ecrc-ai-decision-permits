@@ -1,0 +1,185 @@
+{
+  "annotation_policy": "exact transactional stress counts are caption-only; only the distinct constructed unsafe-witness ratio is directly labelled",
+  "artifacts": {
+    "FIG3_CAPTION.md": {
+      "bytes": 904,
+      "sha256": "89b133dfe326c409abe6dfb5ef72af03237a6d692907236c04b2c69d75f73f13"
+    },
+    "FIG3_CONTRACT.md": {
+      "bytes": 2180,
+      "sha256": "057319d53ffb26fe520b77330ed16dfabb67820b9e439bc1d41ee66aacc59f1b"
+    },
+    "FIG3_QA_REPORT.md": {
+      "bytes": 2595,
+      "sha256": "ac7e534ba4107fe62068dda4ed963f6a2aa6a9fa6fd9e5df0bdb55fce6bfcc4a"
+    },
+    "fig3_layered_evaluation.jpg": {
+      "bytes": 402322,
+      "sha256": "be69e54f5a4116e1d8b899ee1f38a7c8cba330fe9280f303325f0279d54043bc"
+    },
+    "fig3_layered_evaluation.pdf": {
+      "bytes": 36679,
+      "sha256": "018b2a2d32158603505c296d317a28ac4044114718ddad73e3e7cab1b1e537fe"
+    },
+    "fig3_layered_evaluation.png": {
+      "bytes": 198346,
+      "sha256": "de991db1df0602b3c4e07285365cb6dbb8c245e9bb786a2173a9907d98c58d7b"
+    },
+    "fig3_layered_evaluation.svg": {
+      "bytes": 20233,
+      "sha256": "8d95bcb4ac53aa7573ffeb7e2809cf0ff8c2c004521babd3ff30ce8ded133786"
+    },
+    "fig3_layered_evaluation_grayscale.png": {
+      "bytes": 92715,
+      "sha256": "6458d719ea58c2af9826166dafd515bae582823d76745e5df6d8ba2e00d903f3"
+    },
+    "fig3_layered_evaluation_source_data.csv": {
+      "bytes": 6006,
+      "sha256": "a760ee8743378d703237ce9cf2aba7ce8ff6eed0f6fd8dfb4b3f0a3db513157d"
+    },
+    "fig3_point_range_audit.csv": {
+      "bytes": 6458,
+      "sha256": "7c52d9f4e95b5629b4f62caf4e219c82b396afe81b3af4f51e01d9087343c4d1"
+    },
+    "make_fig3_layered_evaluation.py": {
+      "bytes": 39368,
+      "sha256": "e858558e76c995d87ea142fa473c1e69b7a7e09cddc50d48532cc01c8166fbf7"
+    }
+  },
+  "audit": {
+    "ecrc_unsafe_grayscale_luminance_delta": 12.49199999999999,
+    "expected_raster_pixels_at_600_dpi": [
+      3755,
+      1559
+    ],
+    "ink_bbox_margins_px": {
+      "bottom_px": 217,
+      "left_px": 40,
+      "right_px": 51,
+      "top_px": 196
+    },
+    "latency_axis_scale": "log",
+    "logical_panel_count": 2,
+    "minimum_observed_text_pt": 7.5,
+    "no_embedded_table_cards_or_bridge_annotation": true,
+    "no_hatch": true,
+    "pdf_size_mm": [
+      158.99999999999193,
+      65.99999999999
+    ],
+    "plotted_point_count": 12,
+    "raster": {
+      "fig3_layered_evaluation.jpg": {
+        "dpi_metadata": [
+          600,
+          600
+        ],
+        "pixels": [
+          3755,
+          1559
+        ]
+      },
+      "fig3_layered_evaluation.png": {
+        "dpi_metadata": [
+          599.9988,
+          599.9988
+        ],
+        "pixels": [
+          3755,
+          1559
+        ]
+      },
+      "fig3_layered_evaluation_grayscale.png": {
+        "dpi_metadata": [
+          599.9988,
+          599.9988
+        ],
+        "pixels": [
+          3755,
+          1559
+        ]
+      }
+    },
+    "redundant_encoding": {
+      "constructed unsafe witness": "muted red + diamond",
+      "latency": "ordered line + circles + min-max whiskers",
+      "transactional reservation": "muted blue + circles"
+    },
+    "stale_dashboard_text_absent": true,
+    "svg_calibri_first_choice": true,
+    "svg_editable_text": true,
+    "svg_size_mm": [
+      158.99999985277776,
+      65.99999993888888
+    ],
+    "svg_text_nodes": 28
+  },
+  "backend": "Python/matplotlib",
+  "core_conclusion": "Transactional reservation preserved configured capacity on the declared trusted single-node runtime, while SQLite contention increased tail latency.",
+  "estimand_boundaries": [
+    "trusted single-node SQLite WAL with simulated side effects",
+    "constructed unsafe witness is not a production comparator",
+    "timing is descriptive and not portable",
+    "no distributed or external-service atomicity claim"
+  ],
+  "excluded_from_figure": [
+    "bridge equivalence",
+    "evidence admission",
+    "model discrimination",
+    "operating-point transfer"
+  ],
+  "figure_id": "Figure 2",
+  "figure_size_mm": [
+    159.0,
+    66.0
+  ],
+  "font_stack": [
+    "Calibri",
+    "Arial",
+    "Helvetica",
+    "DejaVu Sans",
+    "Liberation Sans"
+  ],
+  "inputs": {
+    "systems_performance_aggregate": {
+      "path": "systems_performance_aggregate.csv",
+      "sha256": "a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0"
+    },
+    "systems_performance_runs": {
+      "path": "systems_performance_runs.csv",
+      "sha256": "fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1"
+    },
+    "unsafe_race_witness": {
+      "path": "systems_unsafe_race_witness.json",
+      "sha256": "f53998e441cd3c8cb1e16e4ba1a1c22b888c8b47b0dc4f895dd4c9155c908b85"
+    }
+  },
+  "logical_panels": {
+    "a": "capacity correctness and separate unsafe mechanism witness",
+    "b": "single-node worker-sweep tail latency"
+  },
+  "minimum_text_pt": 7.5,
+  "raster_dpi": 600,
+  "selection": {
+    "panel_a_cases": [
+      "concurrent_24_cap3",
+      "concurrent_96_cap8",
+      "unsafe_cap1"
+    ],
+    "panel_b_cases": [
+      "worker_sweep_96_cap8_w1",
+      "worker_sweep_96_cap8_w2",
+      "worker_sweep_96_cap8_w4",
+      "worker_sweep_96_cap8_w8",
+      "worker_sweep_96_cap8_w16"
+    ],
+    "panel_b_metric": "end_to_end_latency.p95_ms",
+    "panel_b_summary": "median with observed minimum and maximum over three runs"
+  },
+  "statistics": {
+    "panel_a": "deterministic exact counts; no sampling intervals",
+    "panel_b": "three-run median and observed min-max; not confidence intervals"
+  },
+  "stem": "fig3_layered_evaluation",
+  "visual_inspection": "PASS \u2014 color and grayscale 159 \u00d7 66 mm renders inspected at full-frame and original resolution; the single unsafe-witness label, log-scale ticks and min\u2013max whiskers remain legible with no clipping or overlap"
+}

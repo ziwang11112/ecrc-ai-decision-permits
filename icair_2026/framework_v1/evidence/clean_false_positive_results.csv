@@ -1,0 +1,4 @@
+validator,clean_rows,clean_rows_flagged,clean_row_false_positive_rate,clean_participant_segments,clean_segments_flagged,clean_segment_false_positive_rate
+primitive_presence_type,19965,0,0.0,617,0,0.0
+independent_row_conditional,19965,0,0.0,617,0,0.0
+sequence_aware,19965,0,0.0,617,0,0.0

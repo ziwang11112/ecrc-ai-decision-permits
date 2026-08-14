@@ -1,0 +1,4 @@
+model_name,prompt_threshold,selection_constraints_satisfied,selection_source,reference_alert_cap,review_cap,review_band_width,uncertainty_mode,uncertainty_threshold,n_many_labs_oof_participants,n_many_labs_oof_decisions,external_dataset_used_for_selection
+history_baseline,0.43,True,all Many Labs participant-grouped outer-CV OOF predictions; no Mendeley labels or scores used,8,2,0.03,probability_margin,0.9,617,66525,False
+regularised_logistic,0.58,True,all Many Labs participant-grouped outer-CV OOF predictions; no Mendeley labels or scores used,8,2,0.03,probability_margin,0.9,617,66525,False
+hist_gradient_boosting,0.6,True,all Many Labs participant-grouped outer-CV OOF predictions; no Mendeley labels or scores used,8,2,0.03,probability_margin,0.9,617,66525,False

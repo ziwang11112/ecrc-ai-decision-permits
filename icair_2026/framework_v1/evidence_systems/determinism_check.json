@@ -1,0 +1,9 @@
+{
+  "comparison_scope": "Timing-free scenario structure, seeded input consequences, route and receipt counts, rejection classes, commit/release counts, and invariants.",
+  "digests_identical": true,
+  "first_structural_digest": "e592aa1d702d72d0506e4409caa3d68f6850ea9d19e60c2142debe713f6ed192",
+  "passed": true,
+  "second_structural_digest": "e592aa1d702d72d0506e4409caa3d68f6850ea9d19e60c2142debe713f6ed192",
+  "structures_identical": true,
+  "timing_excluded": true
+}

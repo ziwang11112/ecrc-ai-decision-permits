@@ -1,0 +1,8 @@
+{
+  "cases_per_family": 100,
+  "core_artifact_count": 6,
+  "core_bundle_sha256": "e6728386bdcd6b5a08101524db328b356a731f5f50038d0f5a67a3d89eceb0fe",
+  "method": "independent_full_benchmark_rebuild_and_byte_comparison",
+  "passed": true,
+  "seed": 20260813
+}

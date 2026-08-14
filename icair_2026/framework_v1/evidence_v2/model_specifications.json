@@ -1,0 +1,31 @@
+{
+  "hist_gradient_boosting": {
+    "early_stopping": false,
+    "family": "hist_gradient_boosting",
+    "fit_required": true,
+    "imputer": "training-fold median; empty columns retained",
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 30,
+    "random_state": 20260813
+  },
+  "history_baseline": {
+    "family": "causal_smoothed_history_rule",
+    "fit_required": false,
+    "score": "(prior A/B choices + 1) / (prior choices + 2)",
+    "uses_current_choice": false
+  },
+  "regularised_logistic": {
+    "C": 1.0,
+    "family": "logistic_regression",
+    "fit_required": true,
+    "imputer": "training-fold median; empty columns retained",
+    "max_iter": 2000,
+    "penalty": "L2",
+    "random_state": 20260813,
+    "scaler": "training-fold StandardScaler",
+    "solver": "lbfgs"
+  }
+}

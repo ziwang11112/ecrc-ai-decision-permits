@@ -1,0 +1,39 @@
+{
+  "interpretation": "Routing components affect route/workload properties; record/state components affect conformance-fault observability only.",
+  "record_clean_false_positives": 0,
+  "record_fault_cases": 84,
+  "record_fault_families": [
+    "claim_scope_substitution",
+    "evidence_hash_substitution",
+    "side_effect_id_tamper",
+    "previous_receipt_hash_tamper",
+    "receipt_reorder",
+    "permit_replay",
+    "missing_receipt"
+  ],
+  "record_fixture_permits": 32,
+  "record_fixture_receipts": 32,
+  "record_fixture_trusted_tail_hash": "e0653631b8258281ef03019e6eb529c657934124875ba4089248503041f8b674",
+  "route_checks": {
+    "all_routes_mutually_exclusive_and_exhaustive": true,
+    "capacity_off_capacity_block_count": 0,
+    "clean_evidence_gate_off_matches_full": true,
+    "clean_full_matches_e1_cap8_routes": true,
+    "full_gate_invalid_evidence_action_count": 0,
+    "prediction_scores_changed_across_arms": false,
+    "runtime_labels_consulted": false,
+    "shared_capacity_total_quota_exceeded": false,
+    "uncertainty_gate_off_admitted_evidence_blocks": 0
+  },
+  "routing_datasets": [
+    "many_labs_igt",
+    "mendeley_igt_official_v2"
+  ],
+  "routing_models": [
+    "hist_gradient_boosting",
+    "history_baseline",
+    "regularised_logistic"
+  ],
+  "routing_participants": 676,
+  "routing_rows": 2349750
+}

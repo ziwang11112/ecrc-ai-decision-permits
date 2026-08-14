@@ -1,0 +1,683 @@
+{
+  "artifact": "ecrc-ai-decision-permits",
+  "data_policy": "no raw or participant-level data",
+  "files": [
+    {
+      "bytes": 335,
+      "path": ".github/workflows/tests.yml",
+      "sha256": "1d0a48b490352e8848cc48d812e6b3b854c2db55abe593ff59a7eb63daca8e94"
+    },
+    {
+      "bytes": 142,
+      "path": ".gitignore",
+      "sha256": "727c8ad77b14e57e16b2dd44dc727de7818aadf0b88285e0b4182afa8bcd7497"
+    },
+    {
+      "bytes": 2005,
+      "path": "docs/CLAIM_TO_ARTIFACT.md",
+      "sha256": "a22a36a6e203505e146a666f2206c8deafcb18019f4d8f3e637e21f88f50509a"
+    },
+    {
+      "bytes": 2120,
+      "path": "docs/DATA_ACCESS.md",
+      "sha256": "f2e2885189632de6c4ab940f123044735369505cf96f9243da335f40cd7af803"
+    },
+    {
+      "bytes": 2350,
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "ce9451a1455044a029a848fa5482774d1b320f4b8167ec54a15da95870e28ed7"
+    },
+    {
+      "bytes": 67,
+      "path": "icair_2026/framework_v1/__init__.py",
+      "sha256": "0a1c5af225433af3c6389b1f69994b69f560b14a5b7a3fb72b57888a9a942845"
+    },
+    {
+      "bytes": 62241,
+      "path": "icair_2026/framework_v1/component_ablation.py",
+      "sha256": "e14d62efa4af4079307d1c822fc83e8c4b081a863a5303a49425444eee7b9a59"
+    },
+    {
+      "bytes": 128,
+      "path": "icair_2026/framework_v1/e1/__init__.py",
+      "sha256": "3a4e7e0c06e4979e0fdfdb0dbf41d9f6d54b94cd0ac288b87d55e7e0ab8a4aa4"
+    },
+    {
+      "bytes": 1291,
+      "path": "icair_2026/framework_v1/e1/config.py",
+      "sha256": "29866ca4c628ac70f8b66b8b650325ae60bdcb9dc6d2d2871ccb6843eabf565c"
+    },
+    {
+      "bytes": 23045,
+      "path": "icair_2026/framework_v1/e1/data.py",
+      "sha256": "279775ab5b26fdc8e974ce4cc5b5f45be30895ba81206edc5413cd5fc7fe2bbc"
+    },
+    {
+      "bytes": 16555,
+      "path": "icair_2026/framework_v1/e1/metrics.py",
+      "sha256": "af8bcb843b8148bf79fd5e752118f7a7f41afb0c3eb76e8f5f7e10ac77c952b8"
+    },
+    {
+      "bytes": 7576,
+      "path": "icair_2026/framework_v1/e1/models.py",
+      "sha256": "a20dc7efd4b5099be3ef17674bc0c4bf17fec853f0d4fbedcb60a12f49f79c11"
+    },
+    {
+      "bytes": 7100,
+      "path": "icair_2026/framework_v1/e1/provenance.py",
+      "sha256": "abf0cea88b86a63e20f487f16f8e74ee80130c1ba9d9aeb9c6f0585683ba380c"
+    },
+    {
+      "bytes": 10542,
+      "path": "icair_2026/framework_v1/e1/routing.py",
+      "sha256": "bc1374f97a7e4e0abf453d295d48b4b90e6a98df3f853ba91cd932b5135a7185"
+    },
+    {
+      "bytes": 2972,
+      "path": "icair_2026/framework_v1/E7_README.md",
+      "sha256": "f4e68c3146394d162590887fa4bde8406faaf3982d3d93972766906d58f24c07"
+    },
+    {
+      "bytes": 923,
+      "path": "icair_2026/framework_v1/evidence/artifact_hashes.json",
+      "sha256": "5c1a4aa80c1a47e190c9cbcc988a7f7f36a5b40e2b6b806512c37b1945254fe0"
+    },
+    {
+      "bytes": 4076,
+      "path": "icair_2026/framework_v1/evidence/benchmark_summary.json",
+      "sha256": "1aa5b72910314d85cc1300740f43d4676d04287f2685f8c99ccd22b876e593a9"
+    },
+    {
+      "bytes": 287,
+      "path": "icair_2026/framework_v1/evidence/clean_false_positive_results.csv",
+      "sha256": "625c28adf65d03a9b8ebd295db40e22dcd7e9dcb705370b08cac513043f81c55"
+    },
+    {
+      "bytes": 258,
+      "path": "icair_2026/framework_v1/evidence/determinism_check.json",
+      "sha256": "938049de448cfe46c1b617ccb44cd12f825c23d4c76f7972cae19f0657610fb6"
+    },
+    {
+      "bytes": 1998,
+      "path": "icair_2026/framework_v1/evidence/validator_family_summary.csv",
+      "sha256": "fc47af3ad4603c4b6b0db90ecee5eb3b162c7b8c606e5685b77aa117e85583a7"
+    },
+    {
+      "bytes": 1374,
+      "path": "icair_2026/framework_v1/evidence_bridge/bridge_summary.json",
+      "sha256": "c6b81a70a7ca7b4b0115349df5ab9a86b6a169702a0018a4a1917edf98d21543"
+    },
+    {
+      "bytes": 1832,
+      "path": "icair_2026/framework_v1/evidence_bridge/policy_manifest.json",
+      "sha256": "9503a73a3cf37dd244717922bc5c13e6c80368cbf6a34d04fd506ca99b311e09"
+    },
+    {
+      "bytes": 704,
+      "path": "icair_2026/framework_v1/evidence_bridge/README.md",
+      "sha256": "c0bbfea34a9cb1325de9c5dbfc290c06f366fb94467d14c00a5cd1152063e863"
+    },
+    {
+      "bytes": 1190,
+      "path": "icair_2026/framework_v1/evidence_bridge/runtime_input_contract.json",
+      "sha256": "bfe70feb9abca2e3537624d1e1be6c43dd1c544c203ba3d66eb8eeba6fafd57b"
+    },
+    {
+      "bytes": 529,
+      "path": "icair_2026/framework_v1/EVIDENCE_LICENSE.md",
+      "sha256": "3f82ac93d99224c88d85a30ddf83ae3957a250f0eccc477a9bcf11b05f7564e7"
+    },
+    {
+      "bytes": 479,
+      "path": "icair_2026/framework_v1/evidence_systems/determinism_check.json",
+      "sha256": "941f8b852bf3fe7fa2b3b3301d7bc1785d16362906e2c844aceaece85ce5d0cc"
+    },
+    {
+      "bytes": 15577,
+      "path": "icair_2026/framework_v1/evidence_systems/systems_benchmark_structure.json",
+      "sha256": "406014d50a690a657060ac7cfe871ca180b23817aaafcdc065782fd54d545c13"
+    },
+    {
+      "bytes": 39588,
+      "path": "icair_2026/framework_v1/evidence_systems/systems_benchmark_summary.json",
+      "sha256": "17d01455a438ae6637413fe08b75f8fb5c6f15e7211202620b16b322376b7438"
+    },
+    {
+      "bytes": 604,
+      "path": "icair_2026/framework_v1/evidence_systems/systems_fault_scenarios.csv",
+      "sha256": "5d19faf8a87626bc4b218acd0ee22a214641c548c3dd4dcb26a0be1df32d8ccf"
+    },
+    {
+      "bytes": 3375,
+      "path": "icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+      "sha256": "a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0"
+    },
+    {
+      "bytes": 5949,
+      "path": "icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv",
+      "sha256": "fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1"
+    },
+    {
+      "bytes": 490,
+      "path": "icair_2026/framework_v1/evidence_systems/systems_unsafe_race_witness.json",
+      "sha256": "f53998e441cd3c8cb1e16e4ba1a1c22b888c8b47b0dc4f895dd4c9155c908b85"
+    },
+    {
+      "bytes": 102624,
+      "path": "icair_2026/framework_v1/evidence_v2/bootstrap_confidence_intervals.csv",
+      "sha256": "f47d31ee04c772b44daa480031bfb8f840c6b2b72bc836b5d49138b499395a6d"
+    },
+    {
+      "bytes": 880,
+      "path": "icair_2026/framework_v1/evidence_v2/code_hashes.csv",
+      "sha256": "0fe95a3187c33bebcd6d8ce05f495a5bd57bfc4c00ac6213bcc0811d7f40a7cf"
+    },
+    {
+      "bytes": 2788,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/ablation_contract.json",
+      "sha256": "04caf4434875da290e57f8300a97bfd593abdc7b6188bcd01c899fb7d59f8145"
+    },
+    {
+      "bytes": 1372,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/ablation_summary.json",
+      "sha256": "23e731a05d08ae1191dd41b1cef90c66f656db1079df0714a729cd18b66871ba"
+    },
+    {
+      "bytes": 700,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/code_hashes.csv",
+      "sha256": "66acca7950da6fe4a91702ae2b6fded0706114d3fa2b5b0e7035972a34c38a3a"
+    },
+    {
+      "bytes": 2581,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/README.md",
+      "sha256": "b460ec50f571e84f81c2b52b3bfd2a040142ff3ca7df7f15309079a9a835f886"
+    },
+    {
+      "bytes": 192,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+      "sha256": "906b4252c8648d8cc07682fc48386d544dd4485b550816debd254d85d5e957ff"
+    },
+    {
+      "bytes": 546,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "sha256": "3246e8448c4c1945914679980a07ee1dc1f683317280859ff02acebccff4844f"
+    },
+    {
+      "bytes": 2376,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/record_fault_family_summary.csv",
+      "sha256": "ee48f4082ee8c732bbcc5353f13d21d22513959bf1430d67369e5727b0da6160"
+    },
+    {
+      "bytes": 148928,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/route_component_bootstrap.csv",
+      "sha256": "152e93af10732a1e879712894981c86c7f7522ae07917acc28d6d41a5d6d1374"
+    },
+    {
+      "bytes": 119655,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/route_component_deltas.csv",
+      "sha256": "b81ade3d3b14d738fcbd8ed5371160c770940d7072de752d0e69970b04f2f986"
+    },
+    {
+      "bytes": 28838,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/route_component_metrics.csv",
+      "sha256": "9e8d60e96478a2f1e8a0a5050de29279d941a7ac8425f6ccf37f97b699861283"
+    },
+    {
+      "bytes": 443,
+      "path": "icair_2026/framework_v1/evidence_v2/component_ablation/route_validation_checks.json",
+      "sha256": "e6dceeb448626c9a1364202399ebdbb476af8140de1fe744532b911649284d46"
+    },
+    {
+      "bytes": 639,
+      "path": "icair_2026/framework_v1/evidence_v2/dataset_summary.csv",
+      "sha256": "afdc0ecf6c78fa22e81f99c1d49e0cdfbb756501d3a2019a17f478c5a192204c"
+    },
+    {
+      "bytes": 607,
+      "path": "icair_2026/framework_v1/evidence_v2/experiment_config.json",
+      "sha256": "dc45ce82df7475beb575991fe51fcbcf31cb3baf6446c0a12acb4d350875cc39"
+    },
+    {
+      "bytes": 969,
+      "path": "icair_2026/framework_v1/evidence_v2/feature_schema.json",
+      "sha256": "d411c3c722f39d9ef97790651c50fee059a5660291ff7cd4578fb6298cf37147"
+    },
+    {
+      "bytes": 772,
+      "path": "icair_2026/framework_v1/evidence_v2/frozen_operating_points.csv",
+      "sha256": "bfb41f620d363c40e4c6954b733162c625c6226ef3627d0dc3ad1170149e4502"
+    },
+    {
+      "bytes": 8553,
+      "path": "icair_2026/framework_v1/evidence_v2/input_hashes.csv",
+      "sha256": "d8571e4e2c323a1757c8abb9038b5f2fb3ce7a26d6df5f9d51ed6091a3d3037e"
+    },
+    {
+      "bytes": 5014,
+      "path": "icair_2026/framework_v1/evidence_v2/model_performance.csv",
+      "sha256": "c015dc6657989688ceec98cd0dbf586df0eca09f05d3c0e0f09d93829573c08f"
+    },
+    {
+      "bytes": 899,
+      "path": "icair_2026/framework_v1/evidence_v2/model_specifications.json",
+      "sha256": "7ed365c7768f155e63ec4268b85cdc809a089cd104143465f1ba6e1209cad81c"
+    },
+    {
+      "bytes": 7415,
+      "path": "icair_2026/framework_v1/evidence_v2/outer_fold_operating_points.csv",
+      "sha256": "8c12119eae506bb2e7036299295f6b97504bb68498d93df220ac1a6fa6e6b041"
+    },
+    {
+      "bytes": 1156,
+      "path": "icair_2026/framework_v1/evidence_v2/RESULTS_README.md",
+      "sha256": "024d8f08eb4661b82d8e8a6d0c11e686af9502d6a6bcae386a9c6cd54b6fe00e"
+    },
+    {
+      "bytes": 40954,
+      "path": "icair_2026/framework_v1/evidence_v2/route_workload_metrics.csv",
+      "sha256": "9bc3a3682bf70ab983301596a3f9be5216ded1e4ab9a96277d58fca6491af355"
+    },
+    {
+      "bytes": 989,
+      "path": "icair_2026/framework_v1/evidence_v2/validation_checks.json",
+      "sha256": "ece0fd8328219db59e489052d51a5ced7129f92684f757d49c5a84590b98d260"
+    },
+    {
+      "bytes": 2007,
+      "path": "icair_2026/framework_v1/finalize_bridge_evidence.py",
+      "sha256": "6ce09b18cb6b46f0b21971a6c82a028ae1f78731b270fe09ed697652103730ca"
+    },
+    {
+      "bytes": 30252,
+      "path": "icair_2026/framework_v1/run_e1.py",
+      "sha256": "47f54734eb5ae1cf71ed1df789c6ecdc07825dba4321f8a85bbb516a76fdd0ac"
+    },
+    {
+      "bytes": 23207,
+      "path": "icair_2026/framework_v1/run_official_v2_runtime_bridge.py",
+      "sha256": "0da0cf83ceeaca804c5d1bd8fef801804af6f7ad13b9d666aaf326c08f528061"
+    },
+    {
+      "bytes": 26788,
+      "path": "icair_2026/framework_v1/run_systems_benchmark.py",
+      "sha256": "e0ab5a9a25ac45e4752a04d951dc171e9f2f5bd568409cc959ee27f94674ca02"
+    },
+    {
+      "bytes": 43131,
+      "path": "icair_2026/framework_v1/sequence_fault_benchmark.py",
+      "sha256": "3229ddd5ba0ec960e5b662c34e09a5d23cf4e2df2caa6fafae4e24a65067cac0"
+    },
+    {
+      "bytes": 3310,
+      "path": "icair_2026/framework_v1/tests/test_component_ablation.py",
+      "sha256": "9b7ff81b6cff1eca53c0c0d0e16bd79abb887e5dac77749f2b1234d3c6a56fbb"
+    },
+    {
+      "bytes": 3175,
+      "path": "icair_2026/framework_v1/tests/test_e1.py",
+      "sha256": "ab9744d7919a9637fd7e8e7408a32532eff561dcfcbe6a6996d959acd8c78bbb"
+    },
+    {
+      "bytes": 1750,
+      "path": "icair_2026/framework_v1/verify_systems_determinism.py",
+      "sha256": "7a7e3caa2e1a78e173e44cdbc3e127638190890d5a918c83c1d22d74b4795233"
+    },
+    {
+      "bytes": 28799,
+      "path": "icair_2026/run_conditional_validator_baseline.py",
+      "sha256": "467a4c6f7f10c5ff9a640ae9cf4ac23eff9ff1fbee1ffa1878160a9a172a5058"
+    },
+    {
+      "bytes": 76640,
+      "path": "icair_2026/run_end_to_end_claim_license_audit.py",
+      "sha256": "f859a6c9a88a157869e28a1d081ead43bce3ba8c7bcf4d154d9cfaa4efe44c62"
+    },
+    {
+      "bytes": 1074,
+      "path": "LICENSE",
+      "sha256": "1d0dde41ece0f9620937f1a81a67e295ace0eae180c009d862006e8f3b288458"
+    },
+    {
+      "bytes": 881,
+      "path": "LICENSES.md",
+      "sha256": "ab2e9a67d4990602b4dcc6ec089af4c0397825afd2a2e4a2b282b97d40ab18bc"
+    },
+    {
+      "bytes": 274,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG1_CAPTION.md",
+      "sha256": "72a6c7cc4f89607bb8939d9aa3e1229c963a408b29cb7a4e630758a1c1cb659b"
+    },
+    {
+      "bytes": 525886,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig1_ecrc_overview.jpg",
+      "sha256": "2e14d1ff546e2bf24f82841a048da940bf788602248c302083cb9078ee60e1d6"
+    },
+    {
+      "bytes": 39529,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig1_ecrc_overview.pdf",
+      "sha256": "f0b9f91817b91efda0b417bc926c9e18f1a1f0b659ad7d18f311e75557176106"
+    },
+    {
+      "bytes": 271409,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig1_ecrc_overview.png",
+      "sha256": "5818b6260fd8f460ee8d92761dc4c65c888b6c3179fb262da3b1601ca1ee82ea"
+    },
+    {
+      "bytes": 19254,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig1_ecrc_overview.svg",
+      "sha256": "6ce52ea47d6a7570d72c352fe75c0e30b9a2983486e693503154e4e91fb02122"
+    },
+    {
+      "bytes": 121493,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig1_ecrc_overview_grayscale.png",
+      "sha256": "b8fb9af7796c4a5a26bc59c6f4e34ffb7ce7e7ecb19a6ea76f45e2dd24ce195e"
+    },
+    {
+      "bytes": 469001,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig2_capacity_tradeoff.jpg",
+      "sha256": "9f4c8999e8684536c4240b906e5c3d93f4db7f1444497fdb253662637614c945"
+    },
+    {
+      "bytes": 39763,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig2_capacity_tradeoff.pdf",
+      "sha256": "de8d49e67c5133bbefd3033d172f99af2de820dfd0f40b296beb63b465afab7b"
+    },
+    {
+      "bytes": 217577,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig2_capacity_tradeoff.png",
+      "sha256": "c3ff24a88870b04f6f85f1867d1700850888814ab92faa487b686b2bc78a1806"
+    },
+    {
+      "bytes": 27910,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig2_capacity_tradeoff.svg",
+      "sha256": "0c627334457cbb2ec7df22469d4aa9f20dd8a4f87667f34aa35fcd7c1e4744e9"
+    },
+    {
+      "bytes": 96264,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig2_capacity_tradeoff_grayscale.png",
+      "sha256": "e4b66e56c83efd43a19ee6833426b3e866f3751ea70754e2cae07b065a7bda6a"
+    },
+    {
+      "bytes": 10028,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig2_capacity_tradeoff_source_data.csv",
+      "sha256": "4dfe388a4b7f2f696cddac66ad42d2c6170926dfd1e3ad8539d0862518cc0c6a"
+    },
+    {
+      "bytes": 488,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG2_CAPTION.md",
+      "sha256": "34c7131632a0e6ca2fcee847ff28093aaec4e1f6517b57972469163f737b83b3"
+    },
+    {
+      "bytes": 2435,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG2_CONTRACT.md",
+      "sha256": "9007ec809c9930ef78b2ea8b79eba72cd5e8ef6dd4c75b47903ead869cc29e39"
+    },
+    {
+      "bytes": 5697,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG2_MANIFEST.json",
+      "sha256": "061e9476b7e1cb846584eeb3dbc4547d4e86d4d0dcb150e0dcbd42c5161e4945"
+    },
+    {
+      "bytes": 11024,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig2_point_check.csv",
+      "sha256": "97c2aa19f7b1fa00ed10e2c8e0a491fcaf10be2aa540ebe787ddae68effc7fba"
+    },
+    {
+      "bytes": 3901,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG2_QA_REPORT.md",
+      "sha256": "8f373fe84b6ca777d7e7616204080af8ad6df961b03d9bf10878ceb9ef275696"
+    },
+    {
+      "bytes": 904,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG3_CAPTION.md",
+      "sha256": "89b133dfe326c409abe6dfb5ef72af03237a6d692907236c04b2c69d75f73f13"
+    },
+    {
+      "bytes": 2180,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG3_CONTRACT.md",
+      "sha256": "057319d53ffb26fe520b77330ed16dfabb67820b9e439bc1d41ee66aacc59f1b"
+    },
+    {
+      "bytes": 402322,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig3_layered_evaluation.jpg",
+      "sha256": "be69e54f5a4116e1d8b899ee1f38a7c8cba330fe9280f303325f0279d54043bc"
+    },
+    {
+      "bytes": 36679,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig3_layered_evaluation.pdf",
+      "sha256": "018b2a2d32158603505c296d317a28ac4044114718ddad73e3e7cab1b1e537fe"
+    },
+    {
+      "bytes": 198346,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig3_layered_evaluation.png",
+      "sha256": "de991db1df0602b3c4e07285365cb6dbb8c245e9bb786a2173a9907d98c58d7b"
+    },
+    {
+      "bytes": 20233,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig3_layered_evaluation.svg",
+      "sha256": "8d95bcb4ac53aa7573ffeb7e2809cf0ff8c2c004521babd3ff30ce8ded133786"
+    },
+    {
+      "bytes": 92715,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig3_layered_evaluation_grayscale.png",
+      "sha256": "6458d719ea58c2af9826166dafd515bae582823d76745e5df6d8ba2e00d903f3"
+    },
+    {
+      "bytes": 6006,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig3_layered_evaluation_source_data.csv",
+      "sha256": "a760ee8743378d703237ce9cf2aba7ce8ff6eed0f6fd8dfb4b3f0a3db513157d"
+    },
+    {
+      "bytes": 5815,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG3_MANIFEST.json",
+      "sha256": "bc303d17a240c5a0a12682c89753128f0373046794dfb2f396582980cc1238fd"
+    },
+    {
+      "bytes": 6458,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig3_point_range_audit.csv",
+      "sha256": "7c52d9f4e95b5629b4f62caf4e219c82b396afe81b3af4f51e01d9087343c4d1"
+    },
+    {
+      "bytes": 2595,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG3_QA_REPORT.md",
+      "sha256": "ac7e534ba4107fe62068dda4ed963f6a2aa6a9fa6fd9e5df0bdb55fce6bfcc4a"
+    },
+    {
+      "bytes": 1159,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG4_CAPTION.md",
+      "sha256": "5a9612835a2029833d40d2f0904f2360d67f7f3264fae8b7af3e285616c541ac"
+    },
+    {
+      "bytes": 2873,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG4_CONTRACT.md",
+      "sha256": "8e770839e8be4d34479090ae403cae2322df436ba415ccec274bcdd9447e0997"
+    },
+    {
+      "bytes": 8200,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG4_MANIFEST.json",
+      "sha256": "cb7ef88d27fa1f9501e311634f9548efdfd944d8d6cc3424d1541638f490eca0"
+    },
+    {
+      "bytes": 442397,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig4_prediction_permission.jpg",
+      "sha256": "8e567bdf683b93a07dac5df2093e992db9063c81b655a15bb026d83ac07f1b86"
+    },
+    {
+      "bytes": 41232,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig4_prediction_permission.pdf",
+      "sha256": "74a0a65f16c060cf68f0f11f036e5076a51222530e13bfe295be00043b231a5d"
+    },
+    {
+      "bytes": 187824,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig4_prediction_permission.png",
+      "sha256": "835ba933f5a419be49ce0b038694bb2f11ca4e3073a06e4800cc785fb1c70935"
+    },
+    {
+      "bytes": 20827,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig4_prediction_permission.svg",
+      "sha256": "05a95a9c8e8ca95649e3941b115a912663859031bfa22e5fba22e3dc5851f41f"
+    },
+    {
+      "bytes": 1127,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig4_prediction_permission_audit.csv",
+      "sha256": "68db23209e72f011bbafe988b823cedd3d83a04489c8bf1bac35d1a100f3dfeb"
+    },
+    {
+      "bytes": 2339,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig4_prediction_permission_determinism.json",
+      "sha256": "67245101c24169abe54315eb868305308a16761b6f95dd44148aa3e8aa4d34c9"
+    },
+    {
+      "bytes": 87308,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig4_prediction_permission_grayscale.png",
+      "sha256": "0e2dceaa44525ce5efda53f867d120edca761e216223e392e9212f905555fcee"
+    },
+    {
+      "bytes": 2489,
+      "path": "manuscript/icair_2026/framework_v1/figures/fig4_prediction_permission_source_data.csv",
+      "sha256": "fbb376e46f3874b264871eefe0eee5f7c2ead36907b77ce9927c8a09652849d9"
+    },
+    {
+      "bytes": 3668,
+      "path": "manuscript/icair_2026/framework_v1/figures/FIG4_QA_REPORT.md",
+      "sha256": "7d0ed3416f4ac2aeda43b14d2017a210a82345234032cb0f73e08c54b3c9c109"
+    },
+    {
+      "bytes": 4631,
+      "path": "manuscript/icair_2026/framework_v1/figures/FINAL_FIGURE_QA.md",
+      "sha256": "03041049b78bdd844bc551b1aeb0074dcf80761e9bdd47b1e5d6b44b3a1e2f6f"
+    },
+    {
+      "bytes": 34518,
+      "path": "manuscript/icair_2026/framework_v1/figures/make_fig2_capacity_tradeoff.py",
+      "sha256": "39d18e03712370a6115d9b1632001ab66a9936337853436194cc18cd2811bb09"
+    },
+    {
+      "bytes": 39368,
+      "path": "manuscript/icair_2026/framework_v1/figures/make_fig3_layered_evaluation.py",
+      "sha256": "e858558e76c995d87ea142fa473c1e69b7a7e09cddc50d48532cc01c8166fbf7"
+    },
+    {
+      "bytes": 51795,
+      "path": "manuscript/icair_2026/framework_v1/figures/make_fig4_prediction_permission.py",
+      "sha256": "a9cfe4a92a509399891e2af7e75c0f873138aaabfc4a66819560591f597b6fbc"
+    },
+    {
+      "bytes": 30850,
+      "path": "manuscript/icair_2026/framework_v1/figures/make_framework_figures.py",
+      "sha256": "d85c4543928dff0f2fc19e115569ba63677bd6d56543c5357247bea6c9dd777c"
+    },
+    {
+      "bytes": 7191,
+      "path": "manuscript/icair_2026/framework_v1/figures/manifest.json",
+      "sha256": "0d7262dd4bff0c31c3eb1fcbe80b969a0adeaa6488e08f3c23c1eae87cbb2a62"
+    },
+    {
+      "bytes": 3058,
+      "path": "manuscript/icair_2026/framework_v1/figures/QA_REPORT.md",
+      "sha256": "6270fd0aa965377eac01a51b09b75ffc1a5bda355a78cd17f74aab4bed4d740a"
+    },
+    {
+      "bytes": 954,
+      "path": "pyproject.toml",
+      "sha256": "d0d92bb8ae9266d3d178d669f9be51aff75349f9e0edf9f59c40b71d8191937c"
+    },
+    {
+      "bytes": 7381,
+      "path": "README.md",
+      "sha256": "6038c617d8ff44c713a5ba5f2eb9dd840fb4eaff518ea028232d04432a57a4e9"
+    },
+    {
+      "bytes": 163,
+      "path": "RELEASE_QA.json",
+      "sha256": "f55fec50909cd4788f2bc1bb030bd602b1f51df443a31f677263e0dac8088f26"
+    },
+    {
+      "bytes": 13526,
+      "path": "scripts/download_mendeley_v2_igt.py",
+      "sha256": "d61e097503ae822a9e41fac2dca842b5213688ee8ae4ab06aa1b3ee97f74e2af"
+    },
+    {
+      "bytes": 5738,
+      "path": "scripts/prepare_many_labs_igt_behavior.py",
+      "sha256": "ca7ae42cf9b0a4bf830aab318c74e0e7ae9eb905e9a846b951efae29d857ef47"
+    },
+    {
+      "bytes": 8241,
+      "path": "scripts/verify_mendeley_v2_replay.py",
+      "sha256": "254a609d5b30f8789095bb4169a5ff2793daf0b1f3b0de899ac3f9c3691c5680"
+    },
+    {
+      "bytes": 1001,
+      "path": "scripts/verify_release.py",
+      "sha256": "a37768972e3534ad2b09fb9b7580ea01d8e55c18ccef1db70ba6929209d9c863"
+    },
+    {
+      "bytes": 100,
+      "path": "src/agentic_eeg_dm/__init__.py",
+      "sha256": "ac5dc53b9663d5ac855907e8bb0f7724ef97a37ee35d18e2ec928f42874e5e1f"
+    },
+    {
+      "bytes": 1840,
+      "path": "src/agentic_eeg_dm/governance/__init__.py",
+      "sha256": "6b36849327c1c2be3526e58813a902a609b4dbbb33ee29426aa3a7f48b54dbf6"
+    },
+    {
+      "bytes": 11723,
+      "path": "src/agentic_eeg_dm/governance/adjudicator.py",
+      "sha256": "c6dd01b71a6a686a553128d0b147f8dd8f8044398d9a0d0ac949bec42e76d00b"
+    },
+    {
+      "bytes": 3103,
+      "path": "src/agentic_eeg_dm/governance/canonical.py",
+      "sha256": "f08cd0a8677253fcb14340393b1c828196f3d769b2c3eabf897c0816d64399e5"
+    },
+    {
+      "bytes": 3807,
+      "path": "src/agentic_eeg_dm/governance/enforcement.py",
+      "sha256": "997efca4c14705b35907f1e144fd8cc77953402eb4603876bd3a88dba818eee4"
+    },
+    {
+      "bytes": 773,
+      "path": "src/agentic_eeg_dm/governance/exceptions.py",
+      "sha256": "2b992f9055a132d3919bf07c7ca3863d519b809b651de5a35cf71120a7f53987"
+    },
+    {
+      "bytes": 43027,
+      "path": "src/agentic_eeg_dm/governance/ledger.py",
+      "sha256": "51a995c7a80c628a0fc487cb7d255091b02455a3d7f4bb2a548a5c3a62eeb303"
+    },
+    {
+      "bytes": 34750,
+      "path": "src/agentic_eeg_dm/governance/models.py",
+      "sha256": "60d3e6f5c5c18ffa136da6d1464bba1ebe6e2e57534524fd69588a4a3f976337"
+    },
+    {
+      "bytes": 3983,
+      "path": "src/agentic_eeg_dm/governance/verifier.py",
+      "sha256": "d894537f4571fc8463c5a97e93f7d46a5ef41d593059ec13d0f284527a8c9c5b"
+    },
+    {
+      "bytes": 1977,
+      "path": "tests/test_ecrc_governance_concurrency.py",
+      "sha256": "9b324b7a5f3a3c56a2554faab9add5cdf07028be180e2f3586822071f7e0d087"
+    },
+    {
+      "bytes": 20243,
+      "path": "tests/test_ecrc_governance_core.py",
+      "sha256": "c0c7c1f3ffead61698724bfb8d04171663f4119a3197df4fccf8f89c8eee2b84"
+    },
+    {
+      "bytes": 3960,
+      "path": "tests/test_ecrc_systems_benchmark.py",
+      "sha256": "706ffb728e5d90c6a47565096ce753fbc14a6f310ae609de2032c642c551a5f3"
+    },
+    {
+      "bytes": 5089,
+      "path": "tests/test_mendeley_v2_behavior_replay.py",
+      "sha256": "45ca592e2db0c35ca93bb019dadb314bad675aa9d0a8257155309fe9f05fd94e"
+    }
+  ],
+  "history_policy": "fresh single-commit repository; no development history",
+  "release_role": "research code and aggregate evidence artifact"
+}

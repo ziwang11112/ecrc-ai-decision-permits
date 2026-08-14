@@ -1,0 +1,11 @@
+{
+  "all_routes_mutually_exclusive_and_exhaustive": true,
+  "capacity_off_capacity_block_count": 0,
+  "clean_evidence_gate_off_matches_full": true,
+  "clean_full_matches_e1_cap8_routes": true,
+  "full_gate_invalid_evidence_action_count": 0,
+  "prediction_scores_changed_across_arms": false,
+  "runtime_labels_consulted": false,
+  "shared_capacity_total_quota_exceeded": false,
+  "uncertainty_gate_off_admitted_evidence_blocks": 0
+}

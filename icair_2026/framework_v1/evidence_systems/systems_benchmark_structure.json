@@ -1,0 +1,647 @@
+{
+  "faults": [
+    {
+      "expected_result": "same_permit",
+      "observed_result": "same_permit",
+      "passed": true,
+      "scenario": "duplicate_adjudication"
+    },
+    {
+      "expected_result": "PermitReplayError",
+      "observed_result": "PermitReplayError",
+      "passed": true,
+      "scenario": "permit_replay"
+    },
+    {
+      "expected_result": "PolicyExpiredError",
+      "observed_result": "PolicyExpiredError",
+      "passed": true,
+      "scenario": "expired_policy"
+    },
+    {
+      "expected_result": "RevokedPolicyError",
+      "observed_result": "RevokedPolicyError",
+      "passed": true,
+      "scenario": "revoked_policy"
+    },
+    {
+      "expected_result": "StalePolicyError",
+      "observed_result": "StalePolicyError",
+      "passed": true,
+      "scenario": "stale_policy"
+    },
+    {
+      "expected_result": "failed_receipt_and_release",
+      "observed_result": "failed;released=1;committed=0",
+      "passed": true,
+      "scenario": "simulated_pre_execution_failure"
+    },
+    {
+      "expected_result": "InvalidPermitError",
+      "observed_result": "InvalidPermitError",
+      "passed": true,
+      "scenario": "forged_permit_content"
+    },
+    {
+      "expected_result": "expired_unissued_reservation_reaped",
+      "observed_result": "reaped=1;released=1;next_route=alert",
+      "passed": true,
+      "scenario": "crash_after_reserve_lease_recovery"
+    }
+  ],
+  "performance": [
+    {
+      "capacity": 96,
+      "capacity_rejections": 0,
+      "case": "single_thread",
+      "execution_status_counts": {
+        "executed": 96
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 0,
+      "reservation_counts": {
+        "committed": 96,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 96
+      },
+      "workers": 1
+    },
+    {
+      "capacity": 96,
+      "capacity_rejections": 0,
+      "case": "single_thread",
+      "execution_status_counts": {
+        "executed": 96
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 1,
+      "reservation_counts": {
+        "committed": 96,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 96
+      },
+      "workers": 1
+    },
+    {
+      "capacity": 96,
+      "capacity_rejections": 0,
+      "case": "single_thread",
+      "execution_status_counts": {
+        "executed": 96
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 2,
+      "reservation_counts": {
+        "committed": 96,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 96
+      },
+      "workers": 1
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w1",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 0,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 1
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w1",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 1,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 1
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w1",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 2,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 1
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w2",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 0,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 2
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w2",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 1,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 2
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w2",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 2,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 2
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w4",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 0,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 4
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w4",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 1,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 4
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w4",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 2,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 4
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w8",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 0,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 8
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w8",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 1,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 8
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w8",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 2,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 8
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w16",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 0,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 16
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w16",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 1,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 16
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "worker_sweep_96_cap8_w16",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 2,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 16
+    },
+    {
+      "capacity": 3,
+      "capacity_rejections": 21,
+      "case": "concurrent_24_cap3",
+      "execution_status_counts": {
+        "executed": 3,
+        "not_executed": 21
+      },
+      "invariant_violations": 0,
+      "n_requests": 24,
+      "oversubscription_count": 0,
+      "receipt_count": 24,
+      "repetition": 0,
+      "reservation_counts": {
+        "committed": 3,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 3,
+        "no_action": 21
+      },
+      "workers": 16
+    },
+    {
+      "capacity": 3,
+      "capacity_rejections": 21,
+      "case": "concurrent_24_cap3",
+      "execution_status_counts": {
+        "executed": 3,
+        "not_executed": 21
+      },
+      "invariant_violations": 0,
+      "n_requests": 24,
+      "oversubscription_count": 0,
+      "receipt_count": 24,
+      "repetition": 1,
+      "reservation_counts": {
+        "committed": 3,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 3,
+        "no_action": 21
+      },
+      "workers": 16
+    },
+    {
+      "capacity": 3,
+      "capacity_rejections": 21,
+      "case": "concurrent_24_cap3",
+      "execution_status_counts": {
+        "executed": 3,
+        "not_executed": 21
+      },
+      "invariant_violations": 0,
+      "n_requests": 24,
+      "oversubscription_count": 0,
+      "receipt_count": 24,
+      "repetition": 2,
+      "reservation_counts": {
+        "committed": 3,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 3,
+        "no_action": 21
+      },
+      "workers": 16
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "concurrent_96_cap8",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 0,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 16
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "concurrent_96_cap8",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 1,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 16
+    },
+    {
+      "capacity": 8,
+      "capacity_rejections": 88,
+      "case": "concurrent_96_cap8",
+      "execution_status_counts": {
+        "executed": 8,
+        "not_executed": 88
+      },
+      "invariant_violations": 0,
+      "n_requests": 96,
+      "oversubscription_count": 0,
+      "receipt_count": 96,
+      "repetition": 2,
+      "reservation_counts": {
+        "committed": 8,
+        "released": 0,
+        "reserved": 0
+      },
+      "route_counts": {
+        "alert": 8,
+        "no_action": 88
+      },
+      "workers": 16
+    }
+  ],
+  "unsafe_race_witness": {
+    "attempts": [
+      {
+        "accepted": true,
+        "observed_committed": 0,
+        "worker_id": 0
+      },
+      {
+        "accepted": true,
+        "observed_committed": 0,
+        "worker_id": 1
+      }
+    ],
+    "barrier_forced_interleaving": true,
+    "capacity": 1,
+    "fixture_type": "unsafe_non_atomic_race_witness",
+    "logical_acceptances": 2,
+    "lost_update_count": 1,
+    "oversubscription_count": 1,
+    "passed": true,
+    "production_comparator": false,
+    "stored_counter": 1
+  }
+}

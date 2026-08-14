@@ -1,0 +1,81 @@
+{
+  "alert_capacity": 8,
+  "allowed_routes": [
+    "alert",
+    "review",
+    "abstain",
+    "no_action"
+  ],
+  "approved_models": [
+    {
+      "model_hash": "e92c17ed67629ea788f9c54d745b9df25d23534eb912b67659be4d752af13dc1",
+      "model_id": "hist_gradient_boosting"
+    }
+  ],
+  "blocked_claim_ids": [
+    "clinical_diagnosis",
+    "intervention_efficacy"
+  ],
+  "capacity_scope": "subject_session",
+  "claim_rules": [
+    {
+      "claim_id": "task_alert",
+      "reason_codes": [],
+      "required_evidence_types": [
+        "behavior_score"
+      ],
+      "routes": [
+        "alert"
+      ]
+    },
+    {
+      "claim_id": "task_review",
+      "reason_codes": [],
+      "required_evidence_types": [
+        "behavior_score"
+      ],
+      "routes": [
+        "review"
+      ]
+    },
+    {
+      "claim_id": "task_abstention",
+      "reason_codes": [],
+      "required_evidence_types": [],
+      "routes": [
+        "abstain"
+      ]
+    },
+    {
+      "claim_id": "task_no_action",
+      "reason_codes": [],
+      "required_evidence_types": [],
+      "routes": [
+        "no_action"
+      ]
+    }
+  ],
+  "effective_from": "2026-01-01T00:00:00.000000Z",
+  "evidence_rules": [
+    {
+      "allowed_schema_versions": [
+        "1.0"
+      ],
+      "allowed_sources": [
+        "frozen-official-v2-predictions"
+      ],
+      "evidence_type": "behavior_score",
+      "max_age_seconds": 60,
+      "use_allowed": true
+    }
+  ],
+  "expires_at": "2026-01-02T00:00:00.000000Z",
+  "failure_mode": "fail_closed",
+  "issuer_id": "retrospective-technical-replay-authority",
+  "policy_id": "official-v2-hgb-cap8-runtime-bridge",
+  "review_band_width": 0.03,
+  "review_capacity": 2,
+  "revision": 1,
+  "score_threshold": 0.6,
+  "uncertainty_threshold": 0.9
+}

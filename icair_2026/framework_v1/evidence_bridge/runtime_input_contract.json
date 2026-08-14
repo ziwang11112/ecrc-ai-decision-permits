@@ -1,0 +1,43 @@
+{
+  "array_comparison_columns": [
+    "dataset_id",
+    "model_name",
+    "subject_id",
+    "trial_id",
+    "cap_label",
+    "score",
+    "primary_route",
+    "reason_code"
+  ],
+  "current_label_in_evidence": false,
+  "current_label_in_proposal": false,
+  "current_label_in_routing": false,
+  "current_label_read": false,
+  "eeg_columns_read": [],
+  "eeg_files_read": 0,
+  "processing_order": "subject_id then trial_id; one subject_session scope per participant",
+  "reason_map": {
+    "alert_capacity_exhausted": "auto_alert_capacity_exhausted",
+    "review_capacity_exhausted": "review_capacity_exhausted",
+    "score_above_review_band": "risk_above_review_band",
+    "score_below_threshold": "risk_below_prompt_threshold",
+    "score_within_review_band": "risk_within_threshold_review_band",
+    "uncertainty_gate": "uncertainty_gate"
+  },
+  "route_map": {
+    "abstain": "abstain",
+    "alert": "alert",
+    "no_action": "no_action",
+    "review": "human_review"
+  },
+  "runtime_input_columns": [
+    "dataset_id",
+    "evaluation_scope",
+    "model_name",
+    "subject_id",
+    "study_id",
+    "trial_id",
+    "outer_fold",
+    "score"
+  ]
+}

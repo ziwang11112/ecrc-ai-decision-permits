@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecrc-ai-decision-permits"
+version = "1.0.0"
+description = "Transactional route-specific decision permits for sequential AI support"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Anonymous Authors" }]
+dependencies = [
+  "joblib==1.5.3",
+  "numpy==2.4.5",
+  "pandas==3.0.3",
+  "scikit-learn==1.9.0",
+  "scipy==1.17.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.3", "ruff==0.15.20"]
+figures = [
+  "matplotlib==3.10.9",
+  "pillow==12.2.0",
+  "PyPDF2==3.0.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "icair_2026/framework_v1/tests"]
+pythonpath = ["src"]
+addopts = "--basetemp=.pytest_tmp"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

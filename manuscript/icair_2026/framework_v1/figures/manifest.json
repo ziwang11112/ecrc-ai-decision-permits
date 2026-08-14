@@ -1,0 +1,241 @@
+{
+  "figure_id": "Figure 1",
+  "name": "ECRC reservation-permit-receipt framework overview",
+  "script_version": "3.3.0",
+  "contract": {
+    "core_conclusion": "A frozen AI proposal becomes an operational route only after ECRC checks decision-time evidence and reserves the selected alert or review pool; the first valid enforcement attempt writes a matching receipt and reconciles state.",
+    "archetype": "schematic-led framework with four stages and one subordinate trace",
+    "target": "ICAIR full-paper, 159 mm publication width",
+    "backend": "Python / matplotlib only",
+    "final_size_mm": [
+      159.0,
+      58.0
+    ],
+    "panel_map": "proposal -> adjudication -> permit and exclusive route -> receipt; subordinate trace shows the stateful action-permit record",
+    "evidence_hierarchy": "hero: the four-stage decision path; support: separate alert/review pools and the reservation-permit-receipt trace",
+    "statistics": "none; the overview contains no empirical results",
+    "source_data": "none; geometry and labels are fully specified in this script",
+    "reviewer_risk": "Readers could infer that every route consumes capacity or that technical permits confer institutional authority; action-specific labels and the caption restrict the lifecycle to the evaluated technical mechanism."
+  },
+  "canvas": {
+    "width_mm": 159.0,
+    "height_mm": 58.0,
+    "aspect_ratio": 2.7414
+  },
+  "backend": {
+    "language": "Python",
+    "renderer": "matplotlib",
+    "matplotlib_version": "3.10.9",
+    "raster_dpi": 600
+  },
+  "typography": {
+    "font_stack": [
+      "Calibri",
+      "Arial",
+      "Helvetica",
+      "DejaVu Sans",
+      "Liberation Sans"
+    ],
+    "minimum_font_pt": 7.5,
+    "svg_text_editable": true,
+    "pdf_fonttype": 42
+  },
+  "text": {
+    "labels": [
+      "a  Proposal",
+      "b  Adjudicate",
+      "c  Permit",
+      "d  Receipt",
+      "Frozen AI output",
+      "score + context",
+      "ECRC gate",
+      "policy + decision-time evidence",
+      "reserve first",
+      "Alert pool",
+      "Review pool",
+      "Decision permit",
+      "route + claims\naction: reservation ID",
+      "Alert · Review\nAbstain · No action",
+      "Enforce",
+      "receipt",
+      "commit or release",
+      "ACTION-PERMIT TRACE",
+      "Request\nbound",
+      "Capacity\nreserved",
+      "Permit\nissued",
+      "Receipt + capacity\none transaction",
+      "Next\nstate"
+    ],
+    "word_count": 55,
+    "word_limit": 55
+  },
+  "palette": {
+    "ink": "#26323B",
+    "muted_ink": "#53616D",
+    "connector": "#5E788D",
+    "boundary": "#7891A5",
+    "blue_edge": "#5B7FA2",
+    "blue_fill": "#EAF2F8",
+    "green_edge": "#4F8878",
+    "green_fill": "#E8F2EE",
+    "green_chip": "#F4F8F6",
+    "gold_edge": "#AA7B36",
+    "gold_fill": "#F8F0DF",
+    "gold_chip": "#FCF8EF",
+    "violet_edge": "#7B688D",
+    "violet_fill": "#F0ECF5",
+    "trace_fill": "#FAFBFC",
+    "white": "#FFFFFF"
+  },
+  "caption": "Figure 1. ECRC reservation–permit–receipt lifecycle. ECRC checks evidence and route-specific capacity before issuance. An action permit binds one route, finite claims and a reservation; one transaction records the receipt and reconciles capacity.",
+  "qa": {
+    "checks": {
+      "exact_canvas": true,
+      "minimum_text_pt": 7.5,
+      "minimum_text_pass": true,
+      "word_count": 55,
+      "word_count_pass": true,
+      "caption_word_count": 33,
+      "caption_word_count_pass": true,
+      "no_numeric_content": true,
+      "no_slashes": true,
+      "editable_svg_text": true,
+      "pdf_size_and_text": true,
+      "crop_margin_pass": true,
+      "white_space_pass": true,
+      "ink_on_white_contrast": 13.11,
+      "blue_edge_on_white_contrast": 4.2,
+      "green_edge_on_white_contrast": 4.1,
+      "gold_edge_on_white_contrast": 3.75,
+      "violet_edge_on_white_contrast": 4.99,
+      "grayscale_preview_written": true,
+      "label_layout_pass": true,
+      "route_chip_containment_pass": true,
+      "subtle_outer_boundary": true,
+      "stage_headers": true,
+      "no_hatch": true,
+      "no_shadow": true,
+      "single_reading_direction": true,
+      "separate_route_specific_pools": true,
+      "subordinate_state_trace": true,
+      "overall_pass": true
+    },
+    "raster": {
+      "size_px": [
+        3755,
+        1370
+      ],
+      "expected_size_px": [
+        3756,
+        1370
+      ],
+      "size_pass": true,
+      "content_bbox_px": [
+        63,
+        63,
+        3693,
+        1307
+      ],
+      "crop_margins_mm": {
+        "left": 2.67,
+        "right": 2.62,
+        "top": 2.67,
+        "bottom": 2.67
+      },
+      "minimum_crop_margin_mm": 2.62,
+      "near_white_pixel_fraction": 0.5768
+    },
+    "svg": {
+      "width": "159mm",
+      "height": "58mm",
+      "viewBox": "0 0 450.708661 164.409449",
+      "text_node_count": 30,
+      "editable_text_pass": true,
+      "all_labels_present": true
+    },
+    "pdf": {
+      "checked": true,
+      "page_size_mm": [
+        159.0,
+        58.0
+      ],
+      "size_pass": true,
+      "selectable_text_pass": true
+    },
+    "layout": {
+      "label_overlap_count": 0,
+      "label_overlaps": [],
+      "labels_out_of_bounds": [],
+      "minimum_artist_font_pt": 7.5,
+      "route_chip_padding_mm": {
+        "left": 5.943,
+        "right": 5.943,
+        "bottom": 0.95,
+        "top": 0.95
+      },
+      "route_chip_containment_pass": true,
+      "label_layout_pass": true
+    }
+  },
+  "artifacts": {
+    "svg": {
+      "file": "fig1_ecrc_overview.svg",
+      "bytes": 19254,
+      "sha256": "6ce52ea47d6a7570d72c352fe75c0e30b9a2983486e693503154e4e91fb02122"
+    },
+    "pdf": {
+      "file": "fig1_ecrc_overview.pdf",
+      "bytes": 39529,
+      "sha256": "f0b9f91817b91efda0b417bc926c9e18f1a1f0b659ad7d18f311e75557176106"
+    },
+    "png": {
+      "file": "fig1_ecrc_overview.png",
+      "bytes": 271409,
+      "sha256": "5818b6260fd8f460ee8d92761dc4c65c888b6c3179fb262da3b1601ca1ee82ea",
+      "pixels": [
+        3755,
+        1370
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "jpg": {
+      "file": "fig1_ecrc_overview.jpg",
+      "bytes": 525886,
+      "sha256": "2e14d1ff546e2bf24f82841a048da940bf788602248c302083cb9078ee60e1d6",
+      "pixels": [
+        3755,
+        1370
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "grayscale_png": {
+      "file": "fig1_ecrc_overview_grayscale.png",
+      "bytes": 121493,
+      "sha256": "b8fb9af7796c4a5a26bc59c6f4e34ffb7ce7e7ecb19a6ea76f45e2dd24ce195e",
+      "pixels": [
+        3755,
+        1370
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "caption": {
+      "file": "FIG1_CAPTION.md",
+      "bytes": 274,
+      "sha256": "72a6c7cc4f89607bb8939d9aa3e1229c963a408b29cb7a4e630758a1c1cb659b"
+    },
+    "script": {
+      "file": "make_framework_figures.py",
+      "bytes": 30850,
+      "sha256": "d85c4543928dff0f2fc19e115569ba63677bd6d56543c5357247bea6c9dd777c"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "artifact_checksum_verification_on_finalize": "pass",
+  "causal_suffix_mutation_many_labs": "pass",
+  "causal_suffix_mutation_mendeley": "pass",
+  "eeg_columns_read": [],
+  "eeg_files_read": 0,
+  "effective_unbounded_has_zero_capacity_blocks": "pass",
+  "external_labels_or_scores_used_for_fit_or_threshold": false,
+  "frozen_selection_uses_many_labs_oof_only": "pass",
+  "inner_participant_disjointness": "pass",
+  "many_labs_external_subject_id_overlap_zero": "pass",
+  "official_v2_api_size_sha256_gate": "pass",
+  "official_v2_igt_only_download_gate": "pass",
+  "official_v2_manifest_metadata_gate": "pass",
+  "one_prediction_per_decision_model": "pass",
+  "outer_participant_disjointness": "pass",
+  "participant_capacity_bounds": "pass",
+  "posthoc_label_shuffle_route_invariance": "pass",
+  "posthoc_label_shuffle_route_invariance_groups_checked": 90,
+  "route_mutual_exclusivity_and_exhaustiveness": "pass",
+  "v1_v2_behavior_equivalence_audit": "pass"
+}

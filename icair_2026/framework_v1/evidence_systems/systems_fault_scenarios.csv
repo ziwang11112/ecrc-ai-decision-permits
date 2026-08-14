@@ -1,0 +1,9 @@
+expected_result,observed_result,passed,scenario
+same_permit,same_permit,True,duplicate_adjudication
+PermitReplayError,PermitReplayError,True,permit_replay
+PolicyExpiredError,PolicyExpiredError,True,expired_policy
+RevokedPolicyError,RevokedPolicyError,True,revoked_policy
+StalePolicyError,StalePolicyError,True,stale_policy
+failed_receipt_and_release,failed;released=1;committed=0,True,simulated_pre_execution_failure
+InvalidPermitError,InvalidPermitError,True,forged_permit_content
+expired_unissued_reservation_reaped,reaped=1;released=1;next_route=alert,True,crash_after_reserve_lease_recovery

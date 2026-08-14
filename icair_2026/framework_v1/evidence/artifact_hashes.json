@@ -1,0 +1,13 @@
+{
+  "artifact_bundle_sha256": "58395cde4d54018ff5d00a9875ae584ff4c22adf7e02ba3fe8723d051578cd17",
+  "artifacts": {
+    "benchmark_summary.json": "1aa5b72910314d85cc1300740f43d4676d04287f2685f8c99ccd22b876e593a9",
+    "clean_false_positive_results.csv": "625c28adf65d03a9b8ebd295db40e22dcd7e9dcb705370b08cac513043f81c55",
+    "determinism_check.json": "938049de448cfe46c1b617ccb44cd12f825c23d4c76f7972cae19f0657610fb6",
+    "sequence_fault_manifest.csv": "d0a944cef3b7b2c8c8bbfb016e763fbc1d09d356e41fd884b4e6e16177ba45d2",
+    "sequence_findings.csv": "c7da7b80cc1b846f3bb5aa325a550e49511142367e8800fa8f425cf336cc12ab",
+    "validator_case_results.csv": "d4dfb6e38ba87de6d8e70b2b31b7d8bb7d6a18c42a6da96251b3419c01a2a9b7",
+    "validator_family_summary.csv": "fc47af3ad4603c4b6b0db90ecee5eb3b162c7b8c606e5685b77aa117e85583a7"
+  },
+  "source_trace_sha256": "ac01609d57ba465f604bf0c658289bbd634c6b543528b1d10f27130aef55225c"
+}
