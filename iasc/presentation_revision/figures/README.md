@@ -1,0 +1,17 @@
+# Restructured main figures
+
+Five locally drawn Matplotlib figures, using the existing frozen reproducibility bundle. No model training, bootstrap or runtime experiment is performed. Figure 1 is explicitly illustrative; Figure 2 is a state/transaction schematic; Figures 3–5 show stored state or statistical evidence. Original six figures remain outside this new directory and are unchanged.
+
+Run `python -B build_figures.py` from this directory after installing `requirements.txt` and making Arial available. The included `data/input/` snapshots and `data/input_manifest.json` are sufficient; no original workspace files are needed for a rebuild. Source-relative paths in the manifest identify their original provenance. Initial capture used `--capture-from output/AIR-014_IASC_Reproducibility`; do not capture again into this frozen snapshot directory.
+
+`exports/` contains PDF, SVG, 600-dpi PNG and 600-dpi LZW TIFF for each figure. Figures are 6.6 inches wide, use embedded Arial fonts in PDF and vector glyphs in SVG, black text, and a single blue data color. Minimum source type is 9.5 pt; at a 6.4-inch manuscript width it is 9.21 pt. Do not reduce below 6.4 inches in the manuscript. Figure heights are 3.6, 4.25, 5.8, 5.4 and 6.4 inches respectively; use a dedicated figure page for Figure 5 if necessary to preserve readability.
+
+`data/fig*_*.csv` are the editable plot-value exports. `fig3_checkpoint_counts.csv` includes every selected phase for both implementations and all three repetitions (54 checkpoint observations), plus 12 current-final observations. The plotted cells aggregate all six observations per phase; there is no winner/run selection. The copied SQLite inputs are copied again before querying, so SQLite cannot change their SHM/WAL state. `fig5_plot_data.csv` has 36 pooled and 24 participant-equal estimates, covering every requested cell with saved intervals.
+
+`figure_evidence_index.csv` and `.json` record manuscript item, source file, exact key/filter, transformation, evidence type and source SHA-256. `build_manifest.json` records input/source/output hashes. `CAPTIONS.md` provides English drafts, including estimand and denominator limits. `verify_exports.py` checks embedded fonts, minimum type, page bounds, black text, raster size/resolution and source hashes; it renders the actual PDFs for visual review. Its PyMuPDF dependency is only needed for that QA step.
+
+Current graphical choices preserve the data: no connecting lines between different AUROC populations, no time-series lines between checkpoint counts, no selective omission of online cells, and no new confidence intervals. The History policy's action/gate overlap is the interval-union width (0.10); the legacy max-component field is not used as that union.
+
+Figure 5 displays native proportion differences (pacing minus FIFO), consistent with the manuscript contrasts and Table 5. No multiplication by 100 is applied. `UNITS_REVISION_QA.json` verifies every exported point and interval against the frozen inputs, preservation of Figures 1–4, and the complete clean graphical rebuild in `units_revision_portable/`. Historical percentage-point exports and QA are retained under `units_revision_before/`; those are superseded, not the current outputs.
+
+The units_revision_before/ and units_revision_portable/ directories mentioned above are local authoring QA archives and are not distributed. Their recorded checks are supplied in UNITS_REVISION_QA.json and PORTABILITY_CHECK.json; the published sources and frozen inputs support a fresh rebuild.

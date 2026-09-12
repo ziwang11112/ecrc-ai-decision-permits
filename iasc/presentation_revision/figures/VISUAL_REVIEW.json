@@ -1,0 +1,40 @@
+{
+  "reviewer": "source_assets",
+  "date": "2026-09-12",
+  "passed": true,
+  "all_five_actual_pdf_renders_visually_inspected": true,
+  "no_clipping_or_text_overlap_observed": true,
+  "figure_1_explicitly_illustrative": true,
+  "figure_3_all_six_runs_per_phase": true,
+  "figure_5_all_twelve_cells_preserved": true,
+  "reviewed_pdfs": [
+    {
+      "path": "exports/fig1_budget_responsibility.pdf",
+      "sha256": "042ea228826972d8b86ec16ec56d52407d619781367a6921745a898f5941752e",
+      "bytes": 43651
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.pdf",
+      "sha256": "9f0fbb9951a36f5fa44106c23674dcfc9fa700767313ff565eae5da1cdbcbe39",
+      "bytes": 45186
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.pdf",
+      "sha256": "46c8ce0937a4d13fe89a1dff4059a72a422c7139ef00f5cb79826dd584136ed2",
+      "bytes": 40623
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.pdf",
+      "sha256": "34a5fc29735a9e3a652cc9fc8e51f750b9b51e86118c6a3b4e2eb9bdeada3ad9",
+      "bytes": 52079
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.pdf",
+      "sha256": "67a698eb527c92f181630bf268e27e29385dc362f9e4118152f9584b0649cbcb",
+      "bytes": 57492
+    }
+  ],
+  "notes": "Figures 1–4 remain byte-identical to their previously reviewed final PDFs. The latest Figure 5 PDF was re-rendered and actually viewed after the native proportion-difference correction; readable separated axis ticks, no clipping or overlap. All text black, Arial embedded, minimum 9.5 pt (9.21 pt at 6.4-inch manuscript width). No experiment, refit, or bootstrap was run.",
+  "figure_5_units": "proportion difference",
+  "figure_5_native_value_checks": "UNITS_REVISION_QA.json: 60 rows / 180 native point and interval values"
+}

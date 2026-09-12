@@ -1,0 +1,23 @@
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Evaluation design and denominators. The lifecycle experiments compare information-matched implementations. Allocation comparisons distinguish equal hard ceilings from resource ablations and retrospective references. Scenario repetitions, fault records, decisions and participants are different observation units and are not pooled into a single success rate.}
+\label{tab:evaluation-design}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.18\linewidth}@{}}
+\toprule
+Experiment & Input and boundary & Comparison and interpretation & Observations\\
+\midrule
+Raw-request lifecycle (S8) & Identical synthetic raw requests; journal, issuance, arm, independent sink and reconciliation. & ECRC and ordinary full issuance/delivery implementations; same information and budgets. Specified contention, cancellation and recovery composition; no failure-rate estimate. & 6 scenarios $\times$ 3 repetitions $\times$ 2 implementations = 36 runs. \\
+Preissued-permit delivery (S6) & Identical preissued permits; arm, independent sink and reconciliation. & ECRC and ordinary delivery implementations; same information and budgets. Delivery/recovery boundary; no raw-request issuance or unarmed recovery claim. & 9 scenarios $\times$ 5 repetitions $\times$ 2 implementations = 90 runs. \\
+Replay-to-simulator bridge & External frozen HGB replay into the single-database simulator. & Vectorised router versus adjudicator route/reason correspondence. Route correspondence and single-database execution; retained summary, not retained runtime database. & 11,800 decisions; 59 participants. \\
+Offline semantic validation & Archived clean and faulted records; no HTTP execution. & Full ECRC, ordinary semantic validator and mechanism-removal controls. Detection of specified archived violations; not an execution-success denominator. & 84 fault cases; 1 clean trace with 32 permits and 32 receipts. \\
+Frozen-proposal replay & Development and independent cohorts in the same behavioural task; fixed scores and operating points. & Same-ceiling pacing/FIFO; resource ablations; retrospective allocation references. Allocation and weighting sensitivity; participant is the resampling unit. & 617/59 participants; 66,525/11,800 decisions. \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+\begin{minipage}{\linewidth}\small
+S7 participant-equal sensitivity and S8 raw-request lifecycle tests are post hoc extensions with their own protocols fixed before numerical execution. This table orders the evidence by its role, not by study chronology. The 12 S6 boundary checks (six cases in each of two implementations), performance runs, 41 ordinary-issuer development checks, ten supplemental wrapper/cleanup QA cases, auditor QA and complete reruns are separate from the 90 S6 and 36 S8 formal runs. The S7 archive contains 36 policy arms and 18 comparisons, each with precision and coverage records (72 and 36 metric rows respectively). No behavioural replay record is represented as entering the S8 synthetic-request experiment.
+\end{minipage}
+\end{table}

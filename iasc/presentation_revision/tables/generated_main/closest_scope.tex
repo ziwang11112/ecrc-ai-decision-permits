@@ -1,0 +1,21 @@
+% Draft destination: tables/closest_scope.tex. Exact versions checked 2026-09-12.
+\begin{table}[!htbp]
+\centering
+\caption{Authorization and recovery boundaries of related work. Versions identify the reviewed preprints. Relations describe scope, not performance rankings or features that other systems could not implement.}
+\label{tab:closest_scope}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.14}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.16\linewidth}>{\raggedright\arraybackslash}p{0.19\linewidth}>{\raggedright\arraybackslash}p{0.31\linewidth}>{\raggedright\arraybackslash}p{\dimexpr0.34\linewidth-6\tabcolsep\relax}@{}}
+\hline
+Work / version & Governed object & Authorization and recovery boundary & Relation to this study \\
+\hline
+Right-to-Act, v1~\cite{lavi2026right} & Proposed executable decision & Conjunction of required conditions before execution; an abstract admissibility rule. & Motivates non-compensatory admission; here admission is linked to persistent lifecycle state. \\
+Before the Tool Call, v1~\cite{uchibeke2026before} & Individual tool invocation & Passport and declarative policy evaluated at a framework hook; signed authorization record. & Pre-action decision evidence is distinct from the sink-backed completion receipt studied here. \\
+Agent Contracts, v3~\cite{ye2026contracts} & Resource-bounded task and delegated subcontracts & Resource reservation at activation; guarded termination and monitoring between actions. Single-call token overruns remain possible. & Here each admitted action binds one unit of a fixed cumulative budget to its external effect. \\
+Cordon, v1~\cite{chen2026cordon} & Task-level semantic transaction & Composed lineage/authority validation before release; shadow-state recovery and outbox dispatch tracking; uncertain crossed boundaries can require manual recovery. & Here the narrower target is permit--unit--effect--receipt accounting, without inferred semantic lineage. \\
+MasuGate, v2~\cite{peng2026masugate} & Governed operation over mutable policy state & Scoped policy/effect coordination and reservations; nontransactional API recovery left open. & ECRC's irrevocable arm fixes a different authorization point; the conditional counting property does not establish general PSS. \\
+ECRC, this study & Decision permit and unit reservation & Durable arm, independent deduplicating sink, retained unresolved unit, atomic local reconciliation. & Specifies bindings and evaluates two implementations; cumulative-budget conformance is separate from allocation quality. \\
+\hline
+\end{tabular}
+\end{table}

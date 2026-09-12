@@ -1,0 +1,8 @@
+state,scope
+Durable raw request journal,S8; S6 begins with preissued permits
+Atomic issuance commit,S8; S6 begins with preissued permits
+"Issued, unarmed",S8; S6 begins with preissued permits
+Arm commit (durable intent),S8; S6 begins with preissued permits
+Separate sink commit,S8; S6 begins with preissued permits
+Unarmed expiry: atomic cancel/release; future dispatch forbidden,S8
+"Local reconcile: receipt, commitment and completion in one local transaction",S6/S8

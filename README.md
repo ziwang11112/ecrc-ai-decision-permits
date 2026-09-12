@@ -1,12 +1,19 @@
 # ECRC: decision permits for capacity-bounded AI actions
 
-Code and reproducibility materials for **Permission Is Not Prediction: Decision
-Permits for Capacity-Bounded Artificial Intelligence Actions**.
+Code and reproducibility materials for **Decision Permits for Capacity-Bounded Artificial Intelligence Actions: Binding Authorization to Effects**.
 
-**Fixed IASC version:** [iasc-r2-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12).
+**Fixed IASC version:** [iasc-restructured-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-restructured-2026-09-12).
 The release contains the full S1–S8 reproducibility archive, including both S8
 run sets, and checksums. This repository also exposes the current implementation,
 analysis and plotting sources in [iasc/](iasc/README.md).
+
+The [current result index](iasc/presentation_revision/README.md) maps five main
+figures, five editable tables and seven equations to their sources, row keys,
+transformations and hashes. New plots read retained data; this revision adds no
+training, bootstrap or formal experiment. The older
+[iasc-r2-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12)
+release remains fixed and accessible. All its scientific files are unchanged;
+the current full artifact adds presentation_revision/ and updated root indices.
 
 ## What is evaluated
 
@@ -40,8 +47,8 @@ or multi-node deployment guarantee is established.
 ## Download the complete artifact
 
 Use Python 3.12. The downloader uses only the standard library, verifies the
-fixed ZIP SHA-256 plus all 9,203 member paths/hashes, and requires a fresh output.
-It downloads approximately 95 MB without credentials or a paid API.
+fixed ZIP SHA-256 plus all 9,744 member paths/hashes, and requires a fresh output.
+It downloads approximately 100 MB without credentials or a paid API.
 
 ```console
 git clone https://github.com/ziwang11112/ecrc-ai-decision-permits.git
@@ -50,7 +57,7 @@ python scripts/download_iasc_artifact.py --output artifacts/iasc
 ```
 
 Or download **AIR-014_IASC_Code_and_Reproducibility.zip** directly from the
-[fixed release](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12); verify it against SHA256SUMS.txt there.
+[fixed release](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-restructured-2026-09-12); verify it against SHA256SUMS.txt there.
 Read the extracted README.md and DATA_SOURCES_AND_LICENSES.md. For the original
 saved models' environment use the methods provenance, not the later plotting
 environment. Source-only post hoc checks do not require model refitting.
@@ -64,7 +71,8 @@ environment. Source-only post hoc checks do not require model refitting.
 | [iasc/statistics/](iasc/statistics/README.md) | S7: participant-equal estimates, bootstrap and input/output bundle |
 | [iasc/calibration/](iasc/calibration/README.md) | Frozen calibration-grid audit and corrected pooled-total bound |
 | [iasc/methods/](iasc/methods/README.md) | Features, models, selection and source-version provenance |
-| [iasc/figures/](iasc/figures/) | Local plotting code, inputs and vector exports; full artifact has all 24 exports |
+| [iasc/presentation_revision/](iasc/presentation_revision/GIT_README.md) | Current five figures, five tables and source indices; download full ZIP for copied inputs and all 20 exports |
+| [iasc/figures/](iasc/figures/) | Retained original six figures, now supplementary; full artifact has all 24 exports |
 | [iasc/revision_reviews/runtime_review/](iasc/revision_reviews/runtime_review/README_PORTABLE_WRAPPER.md) | Ten supplemental wrapper/cleanup QA cases |
 | src/, icair_2026/, tests/ | Historical original simulator and its focused tests |
 
@@ -102,6 +110,6 @@ restoration. Post hoc analyses condition on frozen predictions and operating
 points. The paper remains a single-task retrospective/synthetic evaluation.
 
 The initial repository release is retained in Git history; its original README
-and inventories are under docs/legacy_release/. Current publication preparation
-changes packaging and documentation, not experimental values. Author-side cover
+and inventories are under docs/legacy_release/. Current presentation preparation
+changes figures, table layout and documentation, not experimental values. Author-side cover
 letters and editorial notes are not part of the public code artifact.

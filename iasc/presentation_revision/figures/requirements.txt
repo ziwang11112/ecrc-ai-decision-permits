@@ -1,0 +1,4 @@
+matplotlib==3.10.9
+Pillow==12.3.0
+# Only for verify_exports.py / PDF rendering:
+PyMuPDF

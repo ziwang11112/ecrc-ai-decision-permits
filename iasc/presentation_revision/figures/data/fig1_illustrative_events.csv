@@ -1,0 +1,11 @@
+chain,event_order,event,budget,evidence_type
+timeout_release,1,A authorized; unit held,1,illustrative; not observed experimental failure
+timeout_release,2,Sink commits A; response lost; locally unknown,1,illustrative; not observed experimental failure
+timeout_release,3,Timeout releases the held unit,1,illustrative; not observed experimental failure
+timeout_release,4,B authorized; sink commits B,1,illustrative; not observed experimental failure
+timeout_release,5,2 effects for 1 unit,1,illustrative; not observed experimental failure
+retain_until_reconciled,1,A authorized; unit held,1,illustrative; not observed experimental failure
+retain_until_reconciled,2,Sink commits A; response lost; locally unknown,1,illustrative; not observed experimental failure
+retain_until_reconciled,3,Keep unit held; B is not admitted,1,illustrative; not observed experimental failure
+retain_until_reconciled,4,Reconcile A; held to committed,1,illustrative; not observed experimental failure
+retain_until_reconciled,5,1 effect for 1 unit,1,illustrative; not observed experimental failure

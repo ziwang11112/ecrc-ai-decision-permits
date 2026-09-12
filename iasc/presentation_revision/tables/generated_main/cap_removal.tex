@@ -1,0 +1,41 @@
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.14}
+\caption{Complete cap-removal sensitivity grid (S7; resource ablation with unequal action volumes). All differences are capacity removed minus fixed separate caps of eight alerts and two reviews per participant episode, with frozen proposals, gates and thresholds. Panel A reports alert precision; Panel B reports proxy-positive alert coverage and actual route totals. Differences use proportion units.}
+\label{tab:cap-removal}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xrr>{\raggedright\arraybackslash}p{0.36\linewidth}@{}}
+\toprule
+\multicolumn{4}{@{}l}{Panel A: Alert precision}\\
+\midrule
+Cohort / generator & $n_P$ & Pooled $\Delta$ & Participant-equal $\Delta$ [95\% CI]\\
+\midrule
+Development HGB & 614 & $+0.021$ & $-0.030\;[-0.040, -0.021]$ \\
+Development Logistic & 612 & $+0.009$ & $-0.035\;[-0.046, -0.023]$ \\
+Development History & 576 & $-0.049$ & $-0.108\;[-0.123, -0.093]$ \\
+External HGB & 59 & $+0.103$ & $+0.037\;[0.00015, 0.079]$ \\
+External Logistic & 58 & $+0.154$ & $+0.091\;[0.047, 0.136]$ \\
+External History & 54 & $+0.125$ & $+0.027\;[-0.013, 0.071]$ \\
+\bottomrule
+\end{tabularx}
+\par\medskip
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.16\linewidth}rr>{\raggedright\arraybackslash}Xrr@{}}
+\toprule
+\multicolumn{6}{@{}l}{Panel B: Proxy-positive alert coverage and workload}\\
+\midrule
+Cohort / generator & $n_C$ & \shortstack{Pooled\\$\Delta$} & \shortstack[l]{Participant-equal\\$\Delta$ [95\% CI]} & \shortstack{Alerts\\fixed $\to$ removed} & \shortstack{Reviews\\fixed $\to$ removed}\\
+\midrule
+Development HGB & 615 & $+0.323$ & $+0.273\;[0.256, 0.291]$ & 4,774\,$\to$\,17,079 & 1,222\,$\to$\,6,218 \\
+Development Logistic & 615 & $+0.337$ & $+0.277\;[0.260, 0.294]$ & 4,734\,$\to$\,19,347 & 1,223\,$\to$\,5,976 \\
+Development History & 615 & $+0.441$ & $+0.364\;[0.339, 0.390]$ & 4,274\,$\to$\,27,693 & 871\,$\to$\,5,945 \\
+External HGB & 59 & $+0.318$ & $+0.285\;[0.225, 0.344]$ & 466\,$\to$\,2,790 & 118\,$\to$\,1,215 \\
+External Logistic & 59 & $+0.342$ & $+0.302\;[0.247, 0.358]$ & 462\,$\to$\,3,361 & 118\,$\to$\,1,115 \\
+External History & 59 & $+0.422$ & $+0.358\;[0.265, 0.452]$ & 396\,$\to$\,4,571 & 80\,$\to$\,1,446 \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+\begin{minipage}{\linewidth}\small
+$n_P$ is the number with alerts in both arms; no-alert precision is undefined. Of 617 development and 59 external participants, the excluded precision counts are respectively 3/5/41 and 0/1/5 for HGB/Logistic/History. $n_C$ counts participants with at least one proxy positive: two development participants and no external participant were excluded; a positive-bearing participant with no alert contributes zero coverage. Eligibility sets matched across these paired arms. Pooled ratios weight alerts (precision) or proxy positives (coverage); participant-equal differences average paired individual ratios over the common valid set. Intervals are the retained 2,000-replicate paired participant-cluster percentile bootstrap intervals, conditional on frozen predictions, thresholds, histories, routes and eligibility; they are exploratory and unadjusted. The small positive external-HGB precision lower bound is retained as 0.00015. Workload counts are deterministic totals, with no confidence intervals; removing caps changes the resource constraint and does not establish equal-resource benefit or observed human-review benefit.
+\end{minipage}
+\end{table}

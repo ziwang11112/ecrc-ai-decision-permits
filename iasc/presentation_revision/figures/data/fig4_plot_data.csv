@@ -1,0 +1,22 @@
+panel,dataset_id,cohort,model_name,estimand,estimate,ci_low,ci_high,n_participants,n_eligible,source,threshold,review_low,review_high,gate_low,gate_high,alert_low_exclusive,alert_high_inclusive,action_gate_union_width
+a,many_labs_igt,Development,hist_gradient_boosting,all_pairs_pooled,0.8035643976935194,,,617,all observations,discrimination.csv,,,,,,,,
+a,many_labs_igt,Development,hist_gradient_boosting,within_participant_pair_weighted,0.7279075033186487,0.7162389874320262,0.7391585064864776,617,615,discrimination.csv + discrimination_ci.csv,,,,,,,,
+a,many_labs_igt,Development,hist_gradient_boosting,alert_candidate_within_participant_pair_weighted,0.5757320590278509,0.5609227491540474,0.5899550148528225,617,601,candidate.csv,,,,,,,,
+a,many_labs_igt,Development,regularised_logistic,all_pairs_pooled,0.7476685697459046,,,617,all observations,discrimination.csv,,,,,,,,
+a,many_labs_igt,Development,regularised_logistic,within_participant_pair_weighted,0.6512719102353721,0.6360765623471815,0.6660942904160653,617,615,discrimination.csv + discrimination_ci.csv,,,,,,,,
+a,many_labs_igt,Development,regularised_logistic,alert_candidate_within_participant_pair_weighted,0.529040893001515,0.5135680969317622,0.5430758486531538,617,596,candidate.csv,,,,,,,,
+a,many_labs_igt,Development,history_baseline,all_pairs_pooled,0.6683508358489841,,,617,all observations,discrimination.csv,,,,,,,,
+a,many_labs_igt,Development,history_baseline,within_participant_pair_weighted,0.5213208408653494,0.5094342962158415,0.5331424830232064,617,615,discrimination.csv + discrimination_ci.csv,,,,,,,,
+a,many_labs_igt,Development,history_baseline,alert_candidate_within_participant_pair_weighted,0.5025235602535573,0.48946876025528213,0.5159030455724263,617,543,candidate.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,hist_gradient_boosting,all_pairs_pooled,0.7543615393640959,,,59,all observations,discrimination.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,hist_gradient_boosting,within_participant_pair_weighted,0.7007140487597957,0.6741176721098262,0.7275971508431757,59,59,discrimination.csv + discrimination_ci.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,hist_gradient_boosting,alert_candidate_within_participant_pair_weighted,0.5769866711658512,0.5358732185194447,0.616905578426041,59,59,candidate.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,regularised_logistic,all_pairs_pooled,0.6749244817693703,,,59,all observations,discrimination.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,regularised_logistic,within_participant_pair_weighted,0.6059407986687042,0.5695462927719556,0.6445336806581697,59,59,discrimination.csv + discrimination_ci.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,regularised_logistic,alert_candidate_within_participant_pair_weighted,0.522091089426333,0.4862258704819309,0.5566186910595446,59,58,candidate.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,history_baseline,all_pairs_pooled,0.6121017797551398,,,59,all observations,discrimination.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,history_baseline,within_participant_pair_weighted,0.478157068973956,0.4584522745924611,0.5009035270026821,59,59,discrimination.csv + discrimination_ci.csv,,,,,,,,
+a,mendeley_igt_official_v2,External,history_baseline,alert_candidate_within_participant_pair_weighted,0.4695070324643322,0.4533588990017554,0.487079475498203,59,50,candidate.csv,,,,,,,,
+b,,,hist_gradient_boosting,,,,,,,interval_algebra.csv,0.6,0.57,0.63,.45,.55,0.63,1,0
+b,,,regularised_logistic,,,,,,,interval_algebra.csv,0.58,0.55,0.61,.45,.55,0.61,1,0
+b,,,history_baseline,,,,,,,interval_algebra.csv,0.43,0.40,0.46,.45,.55,0.46,1,0.10

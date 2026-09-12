@@ -11,3 +11,9 @@ end_to_end/ contains the full 34-file frozen code/input set and can run the S8
 formal suite in a new output directory. statistics/ and calibration/ retain
 their full small input/output bundles. Original src/ and icair_2026/ at the
 repository root remain the historical simulator, distinct from these extensions.
+
+Current manuscript figures/tables and their exact index are in
+presentation_revision/. Its Git mirror omits the copied input databases and
+raster exports; download the fixed full artifact for complete regeneration.
+The 255-file SOURCE_MIRROR_MANIFEST remains the unchanged original code mirror;
+presentation_revision/GIT_MIRROR.json separately indexes the added sources.

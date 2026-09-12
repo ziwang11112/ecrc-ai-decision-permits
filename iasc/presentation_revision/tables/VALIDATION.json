@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "numerical_cells_key_selected": true,
+  "table4_checkpoint_observations": 36,
+  "table4_final_runs": 36,
+  "table4_snapshot_pairs": 126,
+  "table4_nonfinal_snapshots": 90,
+  "table4_final_backups": 36,
+  "table5_complete_cells": 6,
+  "table5_metric_contrasts": 12,
+  "preserved_source_files": 206,
+  "sqlite_mode": "ro&immutable=1; nonempty WAL rejected",
+  "no_training": true,
+  "no_new_bootstrap": true,
+  "editable_latex": true
+}

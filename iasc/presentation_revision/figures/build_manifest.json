@@ -1,0 +1,117 @@
+{
+  "width_inches": 6.6,
+  "minimum_font_pt": 9.5,
+  "font": "Arial",
+  "text_color": "black",
+  "dpi_png_tiff": 600,
+  "evidence_scope": "Illustrative/specified state diagrams, saved checkpoint counts and frozen paired intervals; no new training, experiment or bootstrap.",
+  "input_manifest_sha256": "a1fbc1abe8f751595dae89bf3e2844f0c80f8140a2adb70e2678956d0c1bb37a",
+  "outputs": [
+    {
+      "path": "exports/fig1_budget_responsibility.pdf",
+      "sha256": "042ea228826972d8b86ec16ec56d52407d619781367a6921745a898f5941752e",
+      "bytes": 43651
+    },
+    {
+      "path": "exports/fig1_budget_responsibility.svg",
+      "sha256": "9cc8a3837ad5dc13658efb312a0d77294b73e268de1ba7b7b3379b445eaf1f6a",
+      "bytes": 70581
+    },
+    {
+      "path": "exports/fig1_budget_responsibility.png",
+      "sha256": "656a2adaedf60daa5c67de0a35120384bfa4811262d244e7af5fd3fccee77f3c",
+      "bytes": 315155
+    },
+    {
+      "path": "exports/fig1_budget_responsibility.tiff",
+      "sha256": "6bce14946d444f5c5f66788a672155d6f323cf26e94b7c6e1a953285b36a2188",
+      "bytes": 560554
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.pdf",
+      "sha256": "9f0fbb9951a36f5fa44106c23674dcfc9fa700767313ff565eae5da1cdbcbe39",
+      "bytes": 45186
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.svg",
+      "sha256": "554fc6e81f3d84d868b01cb73d257d1979851d70a09668bd71af38714039d012",
+      "bytes": 78234
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.png",
+      "sha256": "4389ff128a2451c8c3190f5d6f4e7b6678b9fc77f895ca5d760ae8cf748fe476",
+      "bytes": 403759
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.tiff",
+      "sha256": "86b3a79faa71cfbccd94e5921f0d329c7ccc0e844cab68b5c77859e0d356df5b",
+      "bytes": 704752
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.pdf",
+      "sha256": "46c8ce0937a4d13fe89a1dff4059a72a422c7139ef00f5cb79826dd584136ed2",
+      "bytes": 40623
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.svg",
+      "sha256": "ffbdd2b2961eeb833540f455e4d8db050a30f8579bbfae7aded1a053b39ec475",
+      "bytes": 77644
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.png",
+      "sha256": "f32f30e316b0ec110a9b7928999602197c377ba95c837984c60498318dc46c95",
+      "bytes": 386164
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.tiff",
+      "sha256": "1793020965f3b88fb3091f4d32166821856d082af13c7576cc35b9f14221a0a1",
+      "bytes": 1068266
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.pdf",
+      "sha256": "34a5fc29735a9e3a652cc9fc8e51f750b9b51e86118c6a3b4e2eb9bdeada3ad9",
+      "bytes": 52079
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.svg",
+      "sha256": "c8f45cd402a8c5df3be2dddbbc53e188e06e1c04bb2dde636c02d1af7432b7c9",
+      "bytes": 99635
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.png",
+      "sha256": "83933a2f5949b5a827f1c862e962ad4f54eb91aac76ec2ecaff2c797cc686c80",
+      "bytes": 402036
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.tiff",
+      "sha256": "7de95833317d79ecaf9ef460bda6cbe35434e06e982701e57298847a25596da9",
+      "bytes": 804200
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.pdf",
+      "sha256": "67a698eb527c92f181630bf268e27e29385dc362f9e4118152f9584b0649cbcb",
+      "bytes": 57492
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.svg",
+      "sha256": "a2539a9a8c7a311b22c3e887ac3ec940dfd082241948793c190138e5aa6d01c8",
+      "bytes": 134698
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.png",
+      "sha256": "b1aad9535a964a5e4888988bd03eeeedffda8544f5115313d91445059490cd8c",
+      "bytes": 503048
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.tiff",
+      "sha256": "7eb20fe18bc0cb787db6741bf78a607482d8baef98141940e13a83a101fc4af0",
+      "bytes": 953610
+    }
+  ],
+  "source_hashes": {
+    "build_figures.py": "1bda7e9829dbd409434a1d77913b34871d1847be8877db5f85fbe591f4838498",
+    "journal_style.py": "1c1d718987684e5d058c995a92bd47c9aae78d35f0678d91b4e8521f7a828928",
+    "statistical_figures.py": "926f08a09acc6a44740d18dae08e14284e193d1579647373f70f5dc8d759a599",
+    "verify_exports.py": "71d73569ae18b8c86eff9802d359432ee2f9ba75c190a34e2fccded5cc4252e0"
+  }
+}

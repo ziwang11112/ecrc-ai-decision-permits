@@ -1,0 +1,825 @@
+{
+  "passed": true,
+  "scope": "Figure 5 display units only; fixed axis ticks for legibility",
+  "unchanged_figures_1_to_4_export_files": 16,
+  "unchanged_figures_1_to_4_data_csv_files": 5,
+  "unchanged_figures_1_to_4_evidence_index": true,
+  "checks_unchanged": [
+    {
+      "path": "data/fig1_illustrative_events.csv",
+      "before_sha256": "dcc64adb3ae7aecc4634454478183475fbf599a0020ea10fa455f4da8d91fb0d",
+      "current_sha256": "dcc64adb3ae7aecc4634454478183475fbf599a0020ea10fa455f4da8d91fb0d",
+      "unchanged": true
+    },
+    {
+      "path": "data/fig2_lifecycle_states.csv",
+      "before_sha256": "88756ece9d15159edede7ff37765a0ff5369cba857b4abc66618aff964723c6d",
+      "current_sha256": "88756ece9d15159edede7ff37765a0ff5369cba857b4abc66618aff964723c6d",
+      "unchanged": true
+    },
+    {
+      "path": "data/fig3_checkpoint_counts.csv",
+      "before_sha256": "143c9ac02a6aeb60f8a768a8056289680d9b4570b29718b147b8bdbc9b92c8ae",
+      "current_sha256": "143c9ac02a6aeb60f8a768a8056289680d9b4570b29718b147b8bdbc9b92c8ae",
+      "unchanged": true
+    },
+    {
+      "path": "data/fig3_plot_data.csv",
+      "before_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+      "current_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+      "unchanged": true
+    },
+    {
+      "path": "data/fig4_plot_data.csv",
+      "before_sha256": "5ef6ad2ef3b0e5fca864c9b6f0cbb4816b8c59fc58fd3309e47d3cf6f331b4cb",
+      "current_sha256": "5ef6ad2ef3b0e5fca864c9b6f0cbb4816b8c59fc58fd3309e47d3cf6f331b4cb",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig1_budget_responsibility.pdf",
+      "before_sha256": "042ea228826972d8b86ec16ec56d52407d619781367a6921745a898f5941752e",
+      "current_sha256": "042ea228826972d8b86ec16ec56d52407d619781367a6921745a898f5941752e",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig1_budget_responsibility.png",
+      "before_sha256": "656a2adaedf60daa5c67de0a35120384bfa4811262d244e7af5fd3fccee77f3c",
+      "current_sha256": "656a2adaedf60daa5c67de0a35120384bfa4811262d244e7af5fd3fccee77f3c",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig1_budget_responsibility.svg",
+      "before_sha256": "9cc8a3837ad5dc13658efb312a0d77294b73e268de1ba7b7b3379b445eaf1f6a",
+      "current_sha256": "9cc8a3837ad5dc13658efb312a0d77294b73e268de1ba7b7b3379b445eaf1f6a",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig1_budget_responsibility.tiff",
+      "before_sha256": "6bce14946d444f5c5f66788a672155d6f323cf26e94b7c6e1a953285b36a2188",
+      "current_sha256": "6bce14946d444f5c5f66788a672155d6f323cf26e94b7c6e1a953285b36a2188",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.pdf",
+      "before_sha256": "9f0fbb9951a36f5fa44106c23674dcfc9fa700767313ff565eae5da1cdbcbe39",
+      "current_sha256": "9f0fbb9951a36f5fa44106c23674dcfc9fa700767313ff565eae5da1cdbcbe39",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.png",
+      "before_sha256": "4389ff128a2451c8c3190f5d6f4e7b6678b9fc77f895ca5d760ae8cf748fe476",
+      "current_sha256": "4389ff128a2451c8c3190f5d6f4e7b6678b9fc77f895ca5d760ae8cf748fe476",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.svg",
+      "before_sha256": "554fc6e81f3d84d868b01cb73d257d1979851d70a09668bd71af38714039d012",
+      "current_sha256": "554fc6e81f3d84d868b01cb73d257d1979851d70a09668bd71af38714039d012",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.tiff",
+      "before_sha256": "86b3a79faa71cfbccd94e5921f0d329c7ccc0e844cab68b5c77859e0d356df5b",
+      "current_sha256": "86b3a79faa71cfbccd94e5921f0d329c7ccc0e844cab68b5c77859e0d356df5b",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.pdf",
+      "before_sha256": "46c8ce0937a4d13fe89a1dff4059a72a422c7139ef00f5cb79826dd584136ed2",
+      "current_sha256": "46c8ce0937a4d13fe89a1dff4059a72a422c7139ef00f5cb79826dd584136ed2",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.png",
+      "before_sha256": "f32f30e316b0ec110a9b7928999602197c377ba95c837984c60498318dc46c95",
+      "current_sha256": "f32f30e316b0ec110a9b7928999602197c377ba95c837984c60498318dc46c95",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.svg",
+      "before_sha256": "ffbdd2b2961eeb833540f455e4d8db050a30f8579bbfae7aded1a053b39ec475",
+      "current_sha256": "ffbdd2b2961eeb833540f455e4d8db050a30f8579bbfae7aded1a053b39ec475",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.tiff",
+      "before_sha256": "1793020965f3b88fb3091f4d32166821856d082af13c7576cc35b9f14221a0a1",
+      "current_sha256": "1793020965f3b88fb3091f4d32166821856d082af13c7576cc35b9f14221a0a1",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.pdf",
+      "before_sha256": "34a5fc29735a9e3a652cc9fc8e51f750b9b51e86118c6a3b4e2eb9bdeada3ad9",
+      "current_sha256": "34a5fc29735a9e3a652cc9fc8e51f750b9b51e86118c6a3b4e2eb9bdeada3ad9",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.png",
+      "before_sha256": "83933a2f5949b5a827f1c862e962ad4f54eb91aac76ec2ecaff2c797cc686c80",
+      "current_sha256": "83933a2f5949b5a827f1c862e962ad4f54eb91aac76ec2ecaff2c797cc686c80",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.svg",
+      "before_sha256": "c8f45cd402a8c5df3be2dddbbc53e188e06e1c04bb2dde636c02d1af7432b7c9",
+      "current_sha256": "c8f45cd402a8c5df3be2dddbbc53e188e06e1c04bb2dde636c02d1af7432b7c9",
+      "unchanged": true
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.tiff",
+      "before_sha256": "7de95833317d79ecaf9ef460bda6cbe35434e06e982701e57298847a25596da9",
+      "current_sha256": "7de95833317d79ecaf9ef460bda6cbe35434e06e982701e57298847a25596da9",
+      "unchanged": true
+    }
+  ],
+  "figure_5_native_value_rows": 60,
+  "figure_5_native_numeric_values": 180,
+  "value_checks": [
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_precision",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "alert_coverage",
+      "estimand": "participant_equal_common_valid",
+      "native_source": "participant_equal.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "many_labs_igt",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_episode",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "hist_gradient_boosting",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_episode",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "regularised_logistic",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_episode",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "model_name": "history_baseline",
+      "capacity_basis": "eight_per_100_planned",
+      "metric": "budget_utilization",
+      "estimand": "pooled",
+      "native_source": "online_intervals.csv",
+      "exact_native_values": true,
+      "prior_percentage_points_divided_by_100": true,
+      "denominators_and_all_other_fields_unchanged": true
+    }
+  ],
+  "clean_rebuild_checked_files": 29,
+  "clean_rebuild_all_identical": true,
+  "frozen_bundle_inputs_unchanged": 477,
+  "experiments_training_bootstrap_run": false,
+  "current_fig5_outputs": [
+    {
+      "path": "exports/fig5_online_tradeoffs.pdf",
+      "sha256": "67a698eb527c92f181630bf268e27e29385dc362f9e4118152f9584b0649cbcb",
+      "bytes": 57492
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.svg",
+      "sha256": "a2539a9a8c7a311b22c3e887ac3ec940dfd082241948793c190138e5aa6d01c8",
+      "bytes": 134698
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.png",
+      "sha256": "b1aad9535a964a5e4888988bd03eeeedffda8544f5115313d91445059490cd8c",
+      "bytes": 503048
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.tiff",
+      "sha256": "7eb20fe18bc0cb787db6741bf78a607482d8baef98141940e13a83a101fc4af0",
+      "bytes": 953610
+    }
+  ]
+}

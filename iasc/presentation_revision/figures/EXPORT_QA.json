@@ -1,0 +1,122 @@
+{
+  "pdfs": [
+    {
+      "path": "exports/fig1_budget_responsibility.pdf",
+      "width_inches": 6.600000169542101,
+      "height_inches": 3.600000169542101,
+      "minimum_font_pt": 9.5,
+      "maximum_font_pt": 10.0,
+      "all_text_black": true,
+      "fonts": [
+        {
+          "name": "ELUGPM+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 38108
+        },
+        {
+          "name": "ELUGPM+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 25412
+        }
+      ],
+      "text_outside_page": [],
+      "potential_text_overlaps": []
+    },
+    {
+      "path": "exports/fig2_lifecycle_boundaries.pdf",
+      "width_inches": 6.600000169542101,
+      "height_inches": 4.25,
+      "minimum_font_pt": 9.5,
+      "maximum_font_pt": 10.0,
+      "all_text_black": true,
+      "fonts": [
+        {
+          "name": "ELUGPM+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 41696
+        },
+        {
+          "name": "ELUGPM+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 23568
+        }
+      ],
+      "text_outside_page": [],
+      "potential_text_overlaps": []
+    },
+    {
+      "path": "exports/fig3_observed_cleanup_states.pdf",
+      "width_inches": 6.600000169542101,
+      "height_inches": 5.8000000847710504,
+      "minimum_font_pt": 9.5,
+      "maximum_font_pt": 11.0,
+      "all_text_black": true,
+      "fonts": [
+        {
+          "name": "ELUGPM+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 37172
+        },
+        {
+          "name": "ELUGPM+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 20856
+        }
+      ],
+      "text_outside_page": [],
+      "potential_text_overlaps": []
+    },
+    {
+      "path": "exports/fig4_prediction_and_gate.pdf",
+      "width_inches": 6.600000169542101,
+      "height_inches": 5.399999830457899,
+      "minimum_font_pt": 9.5,
+      "maximum_font_pt": 10.0,
+      "all_text_black": true,
+      "fonts": [
+        {
+          "name": "ELUGPM+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 47768
+        },
+        {
+          "name": "ELUGPM+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 23068
+        }
+      ],
+      "text_outside_page": [],
+      "potential_text_overlaps": []
+    },
+    {
+      "path": "exports/fig5_online_tradeoffs.pdf",
+      "width_inches": 6.600000169542101,
+      "height_inches": 6.399999830457899,
+      "minimum_font_pt": 9.5,
+      "maximum_font_pt": 10.0,
+      "all_text_black": true,
+      "fonts": [
+        {
+          "name": "ELUGPM+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 45264
+        },
+        {
+          "name": "ELUGPM+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 24704
+        }
+      ],
+      "text_outside_page": [],
+      "potential_text_overlaps": []
+    }
+  ],
+  "source_snapshots_unchanged": true,
+  "fig3_cells": 36,
+  "fig3_all_six_observations_common": true,
+  "fig5_estimates": 60,
+  "fig5_pooled_estimates": 36,
+  "fig5_participant_equal_estimates": 24,
+  "minimum_font_at_6_4_inches": 9.212121212121213,
+  "visual_inspection_record": "VISUAL_REVIEW.json (separate agent review)"
+}

@@ -1,0 +1,20 @@
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\caption{Specified obligations and supporting checks. The possible violation in the first column explains the obligation; it is not a measured outcome of removing that mechanism. The map distinguishes offline semantic detection, preissued-permit delivery (S6) and raw-request lifecycle execution (S8). It is neither a necessary-and-sufficient characterization nor an exhaustive concurrency proof.}
+\label{tab:obligations}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+Obligation and possible violation & Implementation boundary & Supporting checks and scope\\
+\midrule
+O1: Bind raw request and issued content. A decision identity could name changed request content. & Canonical raw journal, content hashes and unique decision registration. & S8 raw-input/registry audit and replay checks; input mutations are separate development and offline checks. \\\addlinespace[3pt]
+O2: Issue the complete permit atomically. A crash could leave an orphan hold or partial permit. & S8 outer transaction commits reserve/release, registry and full permit journal together. & S8 issuance interruption before commit; separate wrapper exception QA. S6 starts with preissued permits. \\\addlinespace[3pt]
+O3: Bind each action to its scoped unit. Distinct operations could reuse one unit; unsupported claims could strand holds. & Route/scope reservation and trusted registration; release provisional capacity on claim fallback. & S8 distinct-request contention and mixed-claim release/reuse; offline reservation-binding faults. \\\addlinespace[3pt]
+O4: Keep delivery identity and payload immutable. A retry could change content or create a duplicate effect. & Durable arm intent binds permit, operation key and payload; trusted sink commits effect and deduplication together. & S6/S8 delivery and recovery records; separate service same-key and conflicting-payload QA. \\\addlinespace[3pt]
+O5: Retain armed responsibility during cleanup. An existing or delayed effect could lose its counted budget unit. & Serialize arm with unarmed cancellation; retain armed unknown outcomes despite expiry or timeout. & S8 pre-expiry retention, unarmed expiry and accepted-timeout cleanup; ordering QA is separate. \\\addlinespace[3pt]
+O6: Reconcile effect-backed completion atomically. A receipt could lack its effect, or completion could consume capacity twice. & Match acknowledgement identity/payload; commit held capacity, receipt and local completion in one transaction. & S6 reconciliation crash/retry and separate adapter QA; S8 effect/receipt database audit. \\
+\bottomrule
+\end{tabularx}
+\end{table}

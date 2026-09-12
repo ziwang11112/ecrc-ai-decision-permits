@@ -1,7 +1,7 @@
 {
   "artifact": "ecrc-ai-decision-permits",
-  "version": "iasc-r2-2026-09-12",
-  "data_policy": "Public-source derived participant/decision data in selected inputs and release archive; no raw EEG.",
+  "version": "iasc-restructured-2026-09-12",
+  "data_policy": "Public-source derived participant/decision data; no raw EEG or new participant data.",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,8 +20,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1017,
-      "sha256": "854115534e3907613d514a8b90455a48a52e049f115a09677047c4d4a9351946"
+      "bytes": 1051,
+      "sha256": "282d2ed5b10e9c18fdeb919e48066776084bff863d2f47acda7f89c62792c9c9"
     },
     {
       "path": "LICENSE",
@@ -35,8 +35,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6655,
-      "sha256": "a425db817806481f072f9febf9c2337d207d627d3eb60814633652b4d339fb8f"
+      "bytes": 7459,
+      "sha256": "b47d31e3223f3d9f91aeee9fee18ad51d5ae6045f95963b07f4b037f9b4af402"
     },
     {
       "path": "RELEASE_QA.json",
@@ -90,13 +90,13 @@
     },
     {
       "path": "iasc/README.md",
-      "bytes": 815,
-      "sha256": "8c3ed773909061fface867783b0b3be49eea6b17c2ec09236c0cc1978843be37"
+      "bytes": 1193,
+      "sha256": "a853577f19b20ef743a2478d01cbb260ace12438349db0a35be0e00cca34be49"
     },
     {
       "path": "iasc/RELEASE_ARTIFACT.json",
-      "bytes": 348,
-      "sha256": "2d0efee27f7a3c6896845c35d211be53b25d6ddb3f451b9a7e99e856aa28dc69"
+      "bytes": 369,
+      "sha256": "64bdc61273343378853ad6381e60488d9c99e8a16a90bc8f7f7b6c7a240ce4c5"
     },
     {
       "path": "iasc/SOURCE_MIRROR_MANIFEST.json",
@@ -967,6 +967,271 @@
       "path": "iasc/methods/source/run_e1.py",
       "bytes": 30252,
       "sha256": "47f54734eb5ae1cf71ed1df789c6ecdc07825dba4321f8a85bbb516a76fdd0ac"
+    },
+    {
+      "path": "iasc/presentation_revision/GIT_MIRROR.json",
+      "bytes": 7855,
+      "sha256": "5a78021f46537da6373e15855191c2aebc48745bc709659a27a9211ca6d049a9"
+    },
+    {
+      "path": "iasc/presentation_revision/GIT_README.md",
+      "bytes": 408,
+      "sha256": "5d765a2a780263a49099662d020c5f2d9962d0583829bac56095db1668aac962"
+    },
+    {
+      "path": "iasc/presentation_revision/MANIFEST.json",
+      "bytes": 124179,
+      "sha256": "5ce45b806d03e6c7184191e9453d7144bbd116ef1c42727ab15a9ff6c069bb5d"
+    },
+    {
+      "path": "iasc/presentation_revision/README.md",
+      "bytes": 4566,
+      "sha256": "1b90f4e5aebd8724ec6254b69d7862e50eeac30c0d3178ff0ae4f5059f518437"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/CAPTIONS.md",
+      "bytes": 5970,
+      "sha256": "6e6ef9cfc6625af04d39b21c0c172e7546d018f0a019720f13767c3308a9987c"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/EXPORT_QA.json",
+      "bytes": 3329,
+      "sha256": "b6bccfb7ff7db348e7a6f72d693bbb4fdfe963de1fc11e1ca2d6cd75d26ffe04"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/PORTABILITY_CHECK.json",
+      "bytes": 8469,
+      "sha256": "2b508835829275498dd28fdc4ad56834d85708dff8c83acd0fb6799839df6529"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/README.md",
+      "bytes": 3571,
+      "sha256": "2ebbecc77ca66cdb22e1f4c2151f6bfa8e5615e5f6037f09aa91b7d3f2f3af1a"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/UNITS_REVISION_QA.json",
+      "bytes": 32600,
+      "sha256": "179d49d30996dc256007afc06af0591fb5c198cb07db8c7e8caaa078f6102efe"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/VISUAL_REVIEW.json",
+      "bytes": 1786,
+      "sha256": "ef0e3a7cb157608574a7f20a01ef803c96ef4e4addea1c9db44bd115e7de2983"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/build_figures.py",
+      "bytes": 17436,
+      "sha256": "1bda7e9829dbd409434a1d77913b34871d1847be8877db5f85fbe591f4838498"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/build_manifest.json",
+      "bytes": 4380,
+      "sha256": "5a139ea5670341bbeb25ea7a24d050159972f2c2c87f43f0eba76431f88c5968"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/data/fig1_illustrative_events.csv",
+      "bytes": 1084,
+      "sha256": "dcc64adb3ae7aecc4634454478183475fbf599a0020ea10fa455f4da8d91fb0d"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/data/fig2_lifecycle_states.csv",
+      "bytes": 476,
+      "sha256": "88756ece9d15159edede7ff37765a0ff5369cba857b4abc66618aff964723c6d"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/data/fig3_checkpoint_counts.csv",
+      "bytes": 4756,
+      "sha256": "143c9ac02a6aeb60f8a768a8056289680d9b4570b29718b147b8bdbc9b92c8ae"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/data/fig3_plot_data.csv",
+      "bytes": 2558,
+      "sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/data/fig4_plot_data.csv",
+      "bytes": 3641,
+      "sha256": "5ef6ad2ef3b0e5fca864c9b6f0cbb4816b8c59fc58fd3309e47d3cf6f331b4cb"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/data/fig5_plot_data.csv",
+      "bytes": 15690,
+      "sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/data/input_manifest.json",
+      "bytes": 176446,
+      "sha256": "a1fbc1abe8f751595dae89bf3e2844f0c80f8140a2adb70e2678956d0c1bb37a"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig1_budget_responsibility.pdf",
+      "bytes": 43651,
+      "sha256": "042ea228826972d8b86ec16ec56d52407d619781367a6921745a898f5941752e"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig1_budget_responsibility.svg",
+      "bytes": 70581,
+      "sha256": "9cc8a3837ad5dc13658efb312a0d77294b73e268de1ba7b7b3379b445eaf1f6a"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig2_lifecycle_boundaries.pdf",
+      "bytes": 45186,
+      "sha256": "9f0fbb9951a36f5fa44106c23674dcfc9fa700767313ff565eae5da1cdbcbe39"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig2_lifecycle_boundaries.svg",
+      "bytes": 78234,
+      "sha256": "554fc6e81f3d84d868b01cb73d257d1979851d70a09668bd71af38714039d012"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig3_observed_cleanup_states.pdf",
+      "bytes": 40623,
+      "sha256": "46c8ce0937a4d13fe89a1dff4059a72a422c7139ef00f5cb79826dd584136ed2"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig3_observed_cleanup_states.svg",
+      "bytes": 77644,
+      "sha256": "ffbdd2b2961eeb833540f455e4d8db050a30f8579bbfae7aded1a053b39ec475"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig4_prediction_and_gate.pdf",
+      "bytes": 52079,
+      "sha256": "34a5fc29735a9e3a652cc9fc8e51f750b9b51e86118c6a3b4e2eb9bdeada3ad9"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig4_prediction_and_gate.svg",
+      "bytes": 99635,
+      "sha256": "c8f45cd402a8c5df3be2dddbbc53e188e06e1c04bb2dde636c02d1af7432b7c9"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig5_online_tradeoffs.pdf",
+      "bytes": 57492,
+      "sha256": "67a698eb527c92f181630bf268e27e29385dc362f9e4118152f9584b0649cbcb"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/exports/fig5_online_tradeoffs.svg",
+      "bytes": 134698,
+      "sha256": "a2539a9a8c7a311b22c3e887ac3ec940dfd082241948793c190138e5aa6d01c8"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/figure_evidence_index.csv",
+      "bytes": 80196,
+      "sha256": "16cf7a33102f09109f4b6049ca0d6fcd8abdcf8bb41555c10f951fe909a44476"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/figure_evidence_index.json",
+      "bytes": 110004,
+      "sha256": "c9784946919b59da42800b620c2dedef6c7fed938bd779377b7ca17d926d3478"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/journal_style.py",
+      "bytes": 2727,
+      "sha256": "1c1d718987684e5d058c995a92bd47c9aae78d35f0678d91b4e8521f7a828928"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/requirements.txt",
+      "bytes": 88,
+      "sha256": "e82a766991ef68da7214d801c0652c0575d1cfc70257ff4d8d380cec8ae2cd1f"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/statistical_figures.py",
+      "bytes": 12448,
+      "sha256": "926f08a09acc6a44740d18dae08e14284e193d1579647373f70f5dc8d759a599"
+    },
+    {
+      "path": "iasc/presentation_revision/figures/verify_exports.py",
+      "bytes": 3234,
+      "sha256": "71d73569ae18b8c86eff9802d359432ee2f9ba75c190a34e2fccded5cc4252e0"
+    },
+    {
+      "path": "iasc/presentation_revision/index/CONDITIONAL_ACCOUNTING.md",
+      "bytes": 3046,
+      "sha256": "44892ddab81101e309cd8168d2379cce69509b01b01f9c55f3a0952066e7c976"
+    },
+    {
+      "path": "iasc/presentation_revision/index/LITERATURE_SOURCE_NOTES.md",
+      "bytes": 2781,
+      "sha256": "83e662ba1f7f2c3d2f914f81f6db5c1dead6a147b351b5ea30a8e4a65a2a941d"
+    },
+    {
+      "path": "iasc/presentation_revision/index/NOTATION_AND_PROPERTY_INDEX.md",
+      "bytes": 15600,
+      "sha256": "adaa36349866ad0fabdaf903765d2f7840babce251f11c83242e86e7c6f9a809"
+    },
+    {
+      "path": "iasc/presentation_revision/index/NOTATION_AND_PROPERTY_MAPPING.csv",
+      "bytes": 16759,
+      "sha256": "6951ed0221bd1146e53a8250762844d67d0f9d3f4fa7f71f4e5c229fb8f0dbe5"
+    },
+    {
+      "path": "iasc/presentation_revision/index/NOTATION_AND_PROPERTY_SOURCE_HASHES.csv",
+      "bytes": 5460,
+      "sha256": "b793bd34feb7d225ea2fab87cc8e6a19f10f149cee2f0908d01baef58fdcd9d2"
+    },
+    {
+      "path": "iasc/presentation_revision/index/masugate.bib",
+      "bytes": 511,
+      "sha256": "b43a610a1519a27cbe009c9bd446b30c6155475dad46e91312ef30013a445fec"
+    },
+    {
+      "path": "iasc/presentation_revision/index/references.bib",
+      "bytes": 11601,
+      "sha256": "9096c1b1ae7f87845d53077cff741ad248c3e5ea83c0540229b18c6edc5de8d6"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/MANUSCRIPT_RESULT_INDEX_TABLES.csv",
+      "bytes": 19531,
+      "sha256": "15deb079b43ad17d888e97f507a17f3278c4c130bc998f31df98f1e9bcce8947"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/SOURCE_MANIFEST.json",
+      "bytes": 42293,
+      "sha256": "b9cbbc675d168cc6bf31e46b3d0c8c52256be8cc3e3f4ff4f738664679fba669"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/VALIDATION.json",
+      "bytes": 472,
+      "sha256": "2ff0fc047d3f541cdabef7c9b1a2fa9787ee71a9fa6ff3d7a02f443d6f986cbf"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/build_tables.py",
+      "bytes": 33628,
+      "sha256": "53def12e1f934be189fb23e0e736fb979dd80e59f4e10de72defe397bffda207"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/generated_main/cap_removal.tex",
+      "bytes": 3582,
+      "sha256": "0c9359d40088f53e714b2952fac03777773458624fddf7c5ea93a3f64383327f"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/generated_main/closest_scope.tex",
+      "bytes": 2599,
+      "sha256": "9252e7d64f190d897be6cac1e473af6ea5b88ca61ad374072aef47bf44e3a702"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/generated_main/evaluation_design.tex",
+      "bytes": 3300,
+      "sha256": "015da269cc9ffde06589aa0dd14c74d790915e01b989a655c70a47476001a016"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/generated_main/lifecycle_states.tex",
+      "bytes": 1765,
+      "sha256": "a2e30c4bdf7b0c27e3207baa6af176376e6b794288556b8ee43b652e5d5b2e52"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/generated_main/obligations.tex",
+      "bytes": 2791,
+      "sha256": "80b0a1043cd6bd48a167f0a878caaa547ed56cbc1a8e12b406fd07cf9a8b7789"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/table2_obligation_sources.md",
+      "bytes": 4031,
+      "sha256": "9a35c831bc5a023b07b83d28c379a96003c2fcf630d09efdbe4e606344b1f496"
+    },
+    {
+      "path": "iasc/presentation_revision/tables/table5_cap_removal_complete.csv",
+      "bytes": 1910,
+      "sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4"
     },
     {
       "path": "iasc/revision_reviews/runtime_review/README_PORTABLE_WRAPPER.md",
