@@ -1,0 +1,192 @@
+[
+  {
+    "retained_key": "runs\\v1\\tlc\\normal_2_1\\stdout.txt",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\normal_2_1\\stdout.txt",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/normal_2_1/stdout.txt",
+    "normalized_path_is_file": true,
+    "expected_sha256": "2d886e3e71d837bdb44461e59b50703db6088edf739d0b6fc2725fb524dc4844",
+    "actual_sha256": "2d886e3e71d837bdb44461e59b50703db6088edf739d0b6fc2725fb524dc4844",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\normal_2_1\\stderr.txt",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\normal_2_1\\stderr.txt",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/normal_2_1/stderr.txt",
+    "normalized_path_is_file": true,
+    "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\normal_2_1\\RESULT.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\normal_2_1\\RESULT.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/normal_2_1/RESULT.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "71f5b2f93bf97595e9d4997d3c00e81c219cd77d64638e191efb80d7a5171f7f",
+    "actual_sha256": "71f5b2f93bf97595e9d4997d3c00e81c219cd77d64638e191efb80d7a5171f7f",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\normal_2_1\\COMMAND.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\normal_2_1\\COMMAND.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/normal_2_1/COMMAND.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "dba332876ebb448b4ac065e0a840fd778fa4975b0d130fcb86ced0de0195af89",
+    "actual_sha256": "dba332876ebb448b4ac065e0a840fd778fa4975b0d130fcb86ced0de0195af89",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\exact\\normal_2_1\\RESULT.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\exact\\normal_2_1\\RESULT.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/exact/normal_2_1/RESULT.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "1f9d145964b63d4f1da83e828e87899963e6bfa8156f7b74e7aa9dab01de510c",
+    "actual_sha256": "1f9d145964b63d4f1da83e828e87899963e6bfa8156f7b74e7aa9dab01de510c",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\exact\\normal_2_1\\WITNESSES.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\exact\\normal_2_1\\WITNESSES.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/exact/normal_2_1/WITNESSES.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "bf99cc28e533c3e0f06203cd2b100754e48ce2072d359b9369aeaf7cbde1d69c",
+    "actual_sha256": "bf99cc28e533c3e0f06203cd2b100754e48ce2072d359b9369aeaf7cbde1d69c",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\normal_3_2\\stdout.txt",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\normal_3_2\\stdout.txt",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/normal_3_2/stdout.txt",
+    "normalized_path_is_file": true,
+    "expected_sha256": "23a57b22766e1f161ed1674083026311b0fdf708888643ee2d0e3b92def6ca01",
+    "actual_sha256": "23a57b22766e1f161ed1674083026311b0fdf708888643ee2d0e3b92def6ca01",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\normal_3_2\\stderr.txt",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\normal_3_2\\stderr.txt",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/normal_3_2/stderr.txt",
+    "normalized_path_is_file": true,
+    "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\normal_3_2\\RESULT.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\normal_3_2\\RESULT.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/normal_3_2/RESULT.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "f765e12720d75840ae6dd2a3c8fc8cb4a7f3228faeb5fc7257e702af0803f6e5",
+    "actual_sha256": "f765e12720d75840ae6dd2a3c8fc8cb4a7f3228faeb5fc7257e702af0803f6e5",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\normal_3_2\\COMMAND.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\normal_3_2\\COMMAND.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/normal_3_2/COMMAND.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "bfade27ceb3639a0120ab09448def89f71210cf8b083a5faa90d7586540c2606",
+    "actual_sha256": "bfade27ceb3639a0120ab09448def89f71210cf8b083a5faa90d7586540c2606",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\exact\\normal_3_2\\RESULT.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\exact\\normal_3_2\\RESULT.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/exact/normal_3_2/RESULT.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "bc15cda301c22f58ef4f8761a1367db1e69e4b6f62e10d1ac3738494ff8bd370",
+    "actual_sha256": "bc15cda301c22f58ef4f8761a1367db1e69e4b6f62e10d1ac3738494ff8bd370",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\exact\\normal_3_2\\WITNESSES.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\exact\\normal_3_2\\WITNESSES.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/exact/normal_3_2/WITNESSES.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "bda5873f8272a3b051d39a57979767c104f6741a2471365a56ca5a3f001f46ec",
+    "actual_sha256": "bda5873f8272a3b051d39a57979767c104f6741a2471365a56ca5a3f001f46ec",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\unsafe_2_1\\stdout.txt",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\unsafe_2_1\\stdout.txt",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/unsafe_2_1/stdout.txt",
+    "normalized_path_is_file": true,
+    "expected_sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+    "actual_sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\unsafe_2_1\\stderr.txt",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\unsafe_2_1\\stderr.txt",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/unsafe_2_1/stderr.txt",
+    "normalized_path_is_file": true,
+    "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\unsafe_2_1\\RESULT.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\unsafe_2_1\\RESULT.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/unsafe_2_1/RESULT.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "afda62df3ab8abbfb3d88c1aaafb1e25cdea0efeb4f3b0ea95ac58fd681375b1",
+    "actual_sha256": "afda62df3ab8abbfb3d88c1aaafb1e25cdea0efeb4f3b0ea95ac58fd681375b1",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\tlc\\unsafe_2_1\\COMMAND.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\tlc\\unsafe_2_1\\COMMAND.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/tlc/unsafe_2_1/COMMAND.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "34eef96a5df27cd75a51865cd9823f286d1e6638c0221d50f175736208b8fb36",
+    "actual_sha256": "34eef96a5df27cd75a51865cd9823f286d1e6638c0221d50f175736208b8fb36",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\exact\\unsafe_2_1\\RESULT.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\exact\\unsafe_2_1\\RESULT.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/exact/unsafe_2_1/RESULT.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "41149e418334cdfc804913f3884b1aa8f135b5b9c6c97aec408594c717eb7109",
+    "actual_sha256": "41149e418334cdfc804913f3884b1aa8f135b5b9c6c97aec408594c717eb7109",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\exact\\unsafe_2_1\\WITNESSES.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\exact\\unsafe_2_1\\WITNESSES.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/exact/unsafe_2_1/WITNESSES.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "ea6842fadc6d0c4332620184b0feb83c855826216c99983b40458f981b787e2f",
+    "actual_sha256": "ea6842fadc6d0c4332620184b0feb83c855826216c99983b40458f981b787e2f",
+    "hash_matches": true
+  },
+  {
+    "retained_key": "runs\\v1\\exact\\unsafe_2_1\\COUNTEREXAMPLE.json",
+    "literal_posix_path": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/runs\\v1\\exact\\unsafe_2_1\\COUNTEREXAMPLE.json",
+    "literal_path_is_file": false,
+    "normalized_relative_path": "runs/v1/exact/unsafe_2_1/COUNTEREXAMPLE.json",
+    "normalized_path_is_file": true,
+    "expected_sha256": "3adf1e589e6f75dcf56145e229c10d43d1c45e9363c1f800444a072ac1a4ee31",
+    "actual_sha256": "3adf1e589e6f75dcf56145e229c10d43d1c45e9363c1f800444a072ac1a4ee31",
+    "hash_matches": true
+  }
+]

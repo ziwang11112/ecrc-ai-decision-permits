@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "platform": "wsl_linux",
+  "returncode": 0,
+  "zip_sha256": "f4479dd6a5caa3e9aae5ca58368cb23783e847d020d29cec370ff446ae41bf6d",
+  "wrapper_sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47",
+  "frozen_sources_verified": 15,
+  "retained_evidence_hashes_verified": 19,
+  "all_manifest_files_unchanged": true,
+  "original_zip_unchanged": true,
+  "new_zip_unchanged": true,
+  "scope": "Default verifier from the independently extracted new ZIP only; no enumeration or Java."
+}

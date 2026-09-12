@@ -1,5 +1,3 @@
-> **Post-study portability revision (2026-09-12).** This package preserves the original S10 primary study and `runs/v1` results. Only the post-run verification wrapper and package documentation/manifest are revised. The wrapper now reads retained Windows-style relative evidence keys on POSIX while rejecting absolute, drive, UNC and escaping paths. No TLC or model enumeration was rerun for this correction. See `portability_revision/RELEASE_NOTE.md` for the original artifact digest, exact change and verification evidence.
-
 # S10 — Finite lifecycle specification checks
 
 This post hoc study checks the paper's existing lifecycle abstraction for two fixed finite instances and a deliberately changed retention rule. Both normal instances completed in TLC and a separately implemented exact breadth-first enumerator: **684 reachable states for N=2 / Capacity=1 and 21,960 for N=3 / Capacity=2**, with all nine specified safety invariants satisfied. All 17 normal action families have nonzero coverage in both instances, with matching per-action edge counts. The changed-release variant produces an independently replayed 12-transition counterexample.

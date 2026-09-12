@@ -2,7 +2,17 @@
 
 Code and reproducibility materials for **Decision Permits for Capacity-Bounded Artificial Intelligence Actions: Binding Authorization to Effects**.
 
-**New finite lifecycle study (S10):** [iasc-model-check-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-model-check-2026-09-12).
+**Current S10 tool repair:** [iasc-portability-fix-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-portability-fix-2026-09-12).
+The post-study portable wrapper now resolves archived Windows separators on
+POSIX while rejecting rooted or escaping paths. Windows and Linux verify-only
+checks cover both the source and the extracted revision ZIP. All 15 frozen
+study files and the 19 retained evidence digests match the original study.
+The old wrapper, original POSIX failure and focused repair checks are retained
+under [portability_revision/](iasc_model_check/portability_revision/).
+This is an artifact usability correction; no model exploration, TLC run or S9
+experiment was added. Original tags and assets remain unchanged.
+
+**Original finite lifecycle study (S10):** [iasc-model-check-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-model-check-2026-09-12).
 The [model, results and limits](iasc_model_check/README.md) provide two fully
 explored normal instances (684 and 21,960 reachable states), cross-checked by
 TLC and independent exact enumeration, plus a replayed 12-transition
@@ -34,7 +44,10 @@ The [S1–S8 presentation index](iasc/presentation_revision/README.md) maps five
 figures, five editable tables and seven equations to their sources, row keys,
 transformations and hashes. That earlier presentation revision added no
 training, bootstrap or formal experiment. S9 is a separate new experiment,
-with Table 6 and an extension of the design table documented in its own index.
+with the original Table 6 and an extension of the design table documented in
+its own index. The current manuscript places application results before the
+allocation analysis: application is now Table 5 and cap removal is Table 6.
+Archived table identifiers retain their original meaning.
 The older
 [iasc-r2-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12)
 release remains fixed and accessible. All its scientific files are unchanged;
@@ -133,7 +146,9 @@ The historical training entrypoint run_e1.py does not match its old manifest;
 seven core training modules match, but the missing entrypoint bytes have not
 been recovered. This release does not claim full historical training-source
 restoration. Post hoc analyses condition on frozen predictions and operating
-points. The paper remains a single-task retrospective/synthetic evaluation.
+points. The behavioural replay remains a single-task retrospective evaluation; S9 adds
+a controlled program-verification workflow, and S10 adds finite specification
+checks under the separately documented limits.
 
 The initial repository release is retained in Git history; its original README
 and inventories are under docs/legacy_release/. Current presentation preparation

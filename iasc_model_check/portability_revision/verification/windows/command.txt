@@ -1,0 +1,1 @@
+C:\Users\ziwan\AppData\Local\Programs\Python\Python312\python.exe -B D:\AIR-014_ECRC_Paper_Clean_2026-08-16\research_pilots\iasc_model_check_2026-09-12\portable_reproduce.py --report D:\AIR-014_ECRC_Paper_Clean_2026-08-16\qa\iasc_pro_final_revision_2026-09-12\portability\windows\VERIFICATION.json

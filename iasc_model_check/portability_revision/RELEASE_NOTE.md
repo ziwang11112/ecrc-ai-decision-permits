@@ -1,0 +1,17 @@
+# S10 portable-verifier correction
+
+Release identifier: `iasc-portability-fix-2026-09-12`.
+
+This is a post-study tool revision, not a new research experiment. The original primary study, all 15 pre-run frozen files, historical final enumeration review, all 19 evidence files bound by that review, and all `runs/v1` records remain byte-identical. The original study release remains `iasc-model-check-2026-09-12`.
+
+Original asset: `AIR-014_IASC_S10_Code_and_Results.zip`, SHA256 `c0d17694ccefaf35c85ec5f097f0462e99af25a6b8dd7ca230e394977e385938`. Its 75 members are all retained; only `portable_reproduce.py`, `PUBLIC_MANIFEST.json`, `README.md` and `PORTABLE_REPRODUCTION.md` are replaced. Other original members, including the study's original technical audit and interpretation records, remain unchanged. This revision adds no manuscript, author editorial discussion, external paper-review transcript, Java runtime or TLC binary.
+
+The original default verifier failed on Ubuntu WSL because its `relative_file` function treated backslashes in retained evidence keys as literal POSIX filename characters. The original error/output and environment are preserved under `original/posix_failure/`. All 19 corresponding slash-normalized files existed and matched their retained hashes. The original wrapper and public manifest are preserved under `original/`, together with the two original documentation files.
+
+The corrected helper rejects non-relative paths using platform-independent Windows root/drive parsing, normalizes archived separators, and retains resolved archive containment and file-existence checks. Old wrapper SHA256: `06f7263aa8c36e400959abd081a92014a1ea9b54dcba68b3c2d96a3af1821f98`. Revised wrapper SHA256: `ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47`. See `portable_reproduce.diff` for the complete code change.
+
+Verification used Windows Python 3.12.10 and Ubuntu WSL Python 3.12.3. The default retained-evidence CLI passed on both platforms and verified all 15 source and 19 evidence hashes. Path/output-guard tests passed 30/30 on Windows and 32/32 on WSL. The additional WSL cases exercised actual internal and escaping symlinks; Windows symlink creation was unavailable because the process lacked that privilege, and those two tests are explicitly not claimed there. Both platforms refused an existing report path and preserved its bytes. Raw commands, environment, outputs, test cases and verification reports are under `verification/`.
+
+The included `verification/audit_portability.py` is the exact historical QA harness, whose paths depend on the recorded author QA/workspace hierarchy; it is retained as provenance, not advertised as a standalone archive command. For portable archive verification, use the root `portable_reproduce.py` as documented in `PORTABLE_REPRODUCTION.md`. Historical command paths are provenance only. The original failure report remains a failure record, not a claim about the corrected wrapper.
+
+No model/TLC/S9 execution was performed for this correction. No primary counts, effects, counterexample chronology, citations or research conclusions were recomputed or changed. The finite-model scope and trust assumptions remain those of the original study. Package extraction checks are separately recorded by the archive maintainer; this archive's new QA evidence does not represent another independent model enumerator or a broader protocol guarantee.

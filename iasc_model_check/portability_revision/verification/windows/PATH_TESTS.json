@@ -1,0 +1,158 @@
+{
+  "cases": [
+    {
+      "case": "accept:nested/evidence.txt",
+      "pass": true,
+      "detail": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\nested\\evidence.txt"
+    },
+    {
+      "case": "accept:nested\\evidence.txt",
+      "pass": true,
+      "detail": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\nested\\evidence.txt"
+    },
+    {
+      "case": "accept:nested/./evidence.txt",
+      "pass": true,
+      "detail": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\nested\\evidence.txt"
+    },
+    {
+      "case": "accept:nested//evidence.txt",
+      "pass": true,
+      "detail": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\nested\\evidence.txt"
+    },
+    {
+      "case": "accept:nested\\.\\evidence.txt",
+      "pass": true,
+      "detail": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\nested\\evidence.txt"
+    },
+    {
+      "case": "accept:nested/../nested/evidence.txt",
+      "pass": true,
+      "detail": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\nested\\evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\nested\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\nested\\evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:/tmp/evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: /tmp/evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:\\nested\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: \\nested\\evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:C:/evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: C:/evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:C:\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: C:\\evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:C:evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: C:evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:C:",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: C:"
+    },
+    {
+      "case": "reject_absolute_or_drive:\\\\server\\share\\file",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: \\\\server\\share\\file"
+    },
+    {
+      "case": "reject_absolute_or_drive://server/share/file",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: //server/share/file"
+    },
+    {
+      "case": "reject_absolute_or_drive:\\\\?\\C:\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: \\\\?\\C:\\evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:\\\\.\\C:\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: \\\\.\\C:\\evidence.txt"
+    },
+    {
+      "case": "reject_escape:../outside.txt",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: ../outside.txt"
+    },
+    {
+      "case": "reject_escape:..\\outside.txt",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: ..\\outside.txt"
+    },
+    {
+      "case": "reject_escape:nested/../../outside.txt",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: nested/../../outside.txt"
+    },
+    {
+      "case": "reject_escape:nested\\..\\..\\outside.txt",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: nested\\..\\..\\outside.txt"
+    },
+    {
+      "case": "reject_empty",
+      "pass": true,
+      "detail": "ValueError: Archive path must be a nonempty string"
+    },
+    {
+      "case": "reject_nonstring",
+      "pass": true,
+      "detail": "ValueError: Archive path must be a nonempty string"
+    },
+    {
+      "case": "reject_missing",
+      "pass": true,
+      "detail": "ValueError: Required archive file missing: nested/missing.txt"
+    },
+    {
+      "case": "reject_directory",
+      "pass": true,
+      "detail": "ValueError: Required archive file missing: nested"
+    },
+    {
+      "case": "reject_output_inside:D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive",
+      "pass": true,
+      "detail": "ValueError: New output must be outside the archive root"
+    },
+    {
+      "case": "reject_output_inside:D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\archive\\new-report.json",
+      "pass": true,
+      "detail": "ValueError: New output must be outside the archive root"
+    },
+    {
+      "case": "reject_output_overwrite",
+      "pass": true,
+      "detail": "ValueError: Refusing to overwrite existing path: D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\outside.txt"
+    },
+    {
+      "case": "accept_new_outside_output",
+      "pass": true,
+      "detail": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\fixture\\new-report.json"
+    },
+    {
+      "case": "output_guard_does_not_write",
+      "pass": true,
+      "detail": "False"
+    }
+  ],
+  "symlink": {
+    "status": "UNAVAILABLE",
+    "error": "OSError: [WinError 1314] A required privilege is not held by the client: 'D:\\\\AIR-014_ECRC_Paper_Clean_2026-08-16\\\\qa\\\\iasc_pro_final_revision_2026-09-12\\\\portability\\\\windows\\\\fixture\\\\outside.txt' -> 'D:\\\\AIR-014_ECRC_Paper_Clean_2026-08-16\\\\qa\\\\iasc_pro_final_revision_2026-09-12\\\\portability\\\\windows\\\\fixture\\\\archive\\\\external_link'"
+  }
+}

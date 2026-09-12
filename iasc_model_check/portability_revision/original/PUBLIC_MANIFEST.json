@@ -1,0 +1,2030 @@
+{
+  "release": "iasc-model-check-2026-09-12",
+  "study": "S10 fixed finite lifecycle model check",
+  "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+  "files": [
+    {
+      "path": "ARTIFACT_BASELINE.json",
+      "sha256": "c8e0a60d82d2078a5ba489d3a9ac95895ba4ef43668360b15f8deaab01cf8380",
+      "bytes": 28033
+    },
+    {
+      "path": "audit_completed_records.py",
+      "sha256": "e815eaf79d915153fa2c6e94d8d8b208237aa6b0d57b8e9e821123514827b32e",
+      "bytes": 12036
+    },
+    {
+      "path": "CHECKPOINT_PREFIX_MAPPING.md",
+      "sha256": "0938f93eef3ac054772f03a3d8850caa572f204afc2c8d9e1d6b6cc319c64cf9",
+      "bytes": 6178
+    },
+    {
+      "path": "ECRCLifecycle.tla",
+      "sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+      "bytes": 8126
+    },
+    {
+      "path": "exact_check.py",
+      "sha256": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e",
+      "bytes": 27105
+    },
+    {
+      "path": "FINAL_ENUMERATION_REVIEW.json",
+      "sha256": "ed9da58d5f279ceaed7a3db6f6c8d9d7b475adc33a7d5c8b089f12139e8cb3bb",
+      "bytes": 17355
+    },
+    {
+      "path": "FINAL_MODEL_REVIEW.json",
+      "sha256": "b3deeccfd354acd7dae0d1dec4eb02d8b1f0fc3c7812c833748b73d9d793341d",
+      "bytes": 2937
+    },
+    {
+      "path": "FINAL_MODEL_REVIEW.md",
+      "sha256": "af5c7f83f4b1f27c35c5c41e8db1cfe78b8b2b8da0ffde0481030740aaaaf5a6",
+      "bytes": 9250
+    },
+    {
+      "path": "FINAL_MODEL_REVIEW_RECORDS.json",
+      "sha256": "37671684568da4fc43c38360dc1fc8048522ac5406decdb390abee315877e396",
+      "bytes": 12895
+    },
+    {
+      "path": "FREEZE.json",
+      "sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+      "bytes": 2234
+    },
+    {
+      "path": "INCLUSION_DECISION.json",
+      "sha256": "b8fab187273cbac192488521faee1abd788714c7d602b6c082491892c245e5f8",
+      "bytes": 8257
+    },
+    {
+      "path": "MODEL_REVIEW.json",
+      "sha256": "1ac59b6de33441088fd30f4ed648c3f78ace115ffd02c2d154fb1a5b3286bad7",
+      "bytes": 6966
+    },
+    {
+      "path": "normal_2_1.cfg",
+      "sha256": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
+      "bytes": 221
+    },
+    {
+      "path": "normal_3_2.cfg",
+      "sha256": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
+      "bytes": 221
+    },
+    {
+      "path": "portable_reproduce.py",
+      "sha256": "06f7263aa8c36e400959abd081a92014a1ea9b54dcba68b3c2d96a3af1821f98",
+      "bytes": 17202
+    },
+    {
+      "path": "PORTABLE_REPRODUCTION.md",
+      "sha256": "d269718c249db7c808bd8735a73ba294c7dbd683d66f837771ba72fff1e3e6b3",
+      "bytes": 4661
+    },
+    {
+      "path": "preparation/SANY_01.json",
+      "sha256": "f6e63d9cb36854125af233000f1bd896b8ceda40d4eadba61be74463086c93bd",
+      "bytes": 1134
+    },
+    {
+      "path": "prepare_model.py",
+      "sha256": "38b59c866cf58dcaf5df72ae127027fbfeccd0e4310a9d2ea789d3da01af46a2",
+      "bytes": 4948
+    },
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "102ec22ddff809e9103a20b61fe12bfaac70adccd0a1a386598d64d514fc70f4",
+      "bytes": 7157
+    },
+    {
+      "path": "README.md",
+      "sha256": "691b9df1abd5ed4f0a22a3bd7e5ca491a64b8c5bb741c613cd560f2531db9788",
+      "bytes": 21538
+    },
+    {
+      "path": "RESULTS_ZH.md",
+      "sha256": "ebf09536f6c70d91d9e5d7987d13d2e648273c007bc71f070485f099551453a4",
+      "bytes": 8607
+    },
+    {
+      "path": "review_preparation/audit_completed_records_v1.py",
+      "sha256": "cd6df9aa5e129f565d9f30a8175fa7881257c02c233f4eeb33878080fdc16613",
+      "bytes": 11444
+    },
+    {
+      "path": "REVIEW_REQUIREMENTS.md",
+      "sha256": "2657720c3a92176d5d4b84ad4acd60cee979884b4f9ba70798432a4b405157f9",
+      "bytes": 15854
+    },
+    {
+      "path": "run_models.py",
+      "sha256": "690a8994c8bb0f62d834a4d9b4f155442e83f7c5896fc8fe37e1d78d6b8637a4",
+      "bytes": 5966
+    },
+    {
+      "path": "runs/v1/COUNTEREXAMPLE.csv",
+      "sha256": "e4a106e43f38a9f2f671d56981d84be8ee3b783cb4118d1a4858c59b49807d1b",
+      "bytes": 515
+    },
+    {
+      "path": "runs/v1/exact/normal_2_1/RESULT.json",
+      "sha256": "1f9d145964b63d4f1da83e828e87899963e6bfa8156f7b74e7aa9dab01de510c",
+      "bytes": 5998
+    },
+    {
+      "path": "runs/v1/exact/normal_2_1/WITNESSES.json",
+      "sha256": "bf99cc28e533c3e0f06203cd2b100754e48ce2072d359b9369aeaf7cbde1d69c",
+      "bytes": 120809
+    },
+    {
+      "path": "runs/v1/exact/normal_3_2/RESULT.json",
+      "sha256": "bc15cda301c22f58ef4f8761a1367db1e69e4b6f62e10d1ac3738494ff8bd370",
+      "bytes": 6237
+    },
+    {
+      "path": "runs/v1/exact/normal_3_2/WITNESSES.json",
+      "sha256": "bda5873f8272a3b051d39a57979767c104f6741a2471365a56ca5a3f001f46ec",
+      "bytes": 126814
+    },
+    {
+      "path": "runs/v1/exact/START.json",
+      "sha256": "19d717969fe3a8b116e841e25def28a90d656ebd5f4d70ba3752db7b31a1bf84",
+      "bytes": 263
+    },
+    {
+      "path": "runs/v1/exact/SUMMARY.json",
+      "sha256": "819f0741243774eac1edb6d01d3890583a7823aa6a11543708e935eae93bbe2f",
+      "bytes": 20981
+    },
+    {
+      "path": "runs/v1/exact/TLC_COMPARISON.json",
+      "sha256": "ce798470ebac8456ce9581f9eaa26df6fe2384c3902fd3bf7117c5a782a4e8f1",
+      "bytes": 2242
+    },
+    {
+      "path": "runs/v1/exact/unsafe_2_1/COUNTEREXAMPLE.json",
+      "sha256": "3adf1e589e6f75dcf56145e229c10d43d1c45e9363c1f800444a072ac1a4ee31",
+      "bytes": 12359
+    },
+    {
+      "path": "runs/v1/exact/unsafe_2_1/RESULT.json",
+      "sha256": "41149e418334cdfc804913f3884b1aa8f135b5b9c6c97aec408594c717eb7109",
+      "bytes": 6015
+    },
+    {
+      "path": "runs/v1/exact/unsafe_2_1/WITNESSES.json",
+      "sha256": "ea6842fadc6d0c4332620184b0feb83c855826216c99983b40458f981b787e2f",
+      "bytes": 173998
+    },
+    {
+      "path": "runs/v1/RESULT_SUMMARY.json",
+      "sha256": "b14e2d5eb33106bec43f95982549fe2cb5ec882ad17b9de9c901a3fac83f6da0",
+      "bytes": 9755
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/COMMAND.json",
+      "sha256": "dba332876ebb448b4ac065e0a840fd778fa4975b0d130fcb86ced0de0195af89",
+      "bytes": 870
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/ECRCLifecycle.tla",
+      "sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+      "bytes": 8126
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/normal_2_1.cfg",
+      "sha256": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
+      "bytes": 221
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/RESULT.json",
+      "sha256": "71f5b2f93bf97595e9d4997d3c00e81c219cd77d64638e191efb80d7a5171f7f",
+      "bytes": 685
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/stdout.txt",
+      "sha256": "2d886e3e71d837bdb44461e59b50703db6088edf739d0b6fc2725fb524dc4844",
+      "bytes": 13242
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/COMMAND.json",
+      "sha256": "bfade27ceb3639a0120ab09448def89f71210cf8b083a5faa90d7586540c2606",
+      "bytes": 870
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/ECRCLifecycle.tla",
+      "sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+      "bytes": 8126
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/normal_3_2.cfg",
+      "sha256": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
+      "bytes": 221
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/RESULT.json",
+      "sha256": "f765e12720d75840ae6dd2a3c8fc8cb4a7f3228faeb5fc7257e702af0803f6e5",
+      "bytes": 689
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/stdout.txt",
+      "sha256": "23a57b22766e1f161ed1674083026311b0fdf708888643ee2d0e3b92def6ca01",
+      "bytes": 13591
+    },
+    {
+      "path": "runs/v1/tlc/START.json",
+      "sha256": "420890056ae188be650034a5ffecffc2cfa9130c9189f5c49b8bb7f0e1874600",
+      "bytes": 139
+    },
+    {
+      "path": "runs/v1/tlc/SUMMARY.json",
+      "sha256": "e8b8e5d8c92e1937c5bdb11b2c7aa3a38e6069783314e3766f213d11da547b23",
+      "bytes": 18324
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/COMMAND.json",
+      "sha256": "34eef96a5df27cd75a51865cd9823f286d1e6638c0221d50f175736208b8fb36",
+      "bytes": 869
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/ECRCLifecycle.tla",
+      "sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+      "bytes": 8126
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/RESULT.json",
+      "sha256": "afda62df3ab8abbfb3d88c1aaafb1e25cdea0efeb4f3b0ea95ac58fd681375b1",
+      "bytes": 699
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/stdout.txt",
+      "sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+      "bytes": 17722
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/unsafe_2_1.cfg",
+      "sha256": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
+      "bytes": 138
+    },
+    {
+      "path": "runs/v1/TLC_COUNTEREXAMPLE_REPLAY.json",
+      "sha256": "88ed176eb11d7d8d7797b7330b3c1665c2299bb92d30476079a858429cce8cf5",
+      "bytes": 12305
+    },
+    {
+      "path": "SOURCE_MAPPING.md",
+      "sha256": "98323f3c60484b113e5550e4db9ad082380398c97cd3c350eca6bbee210e257f",
+      "bytes": 20683
+    },
+    {
+      "path": "summarize_results.py",
+      "sha256": "00f343cf3038d6834b9618a2df1f6db4f597590d5986be6dcf07347244b6bc76",
+      "bytes": 8926
+    },
+    {
+      "path": "tools/java_version_stderr.txt",
+      "sha256": "5b4412738541184e84f6b2d7520d4f4a7c2a455f60650491464c61adcbbbdeb0",
+      "bytes": 205
+    },
+    {
+      "path": "tools/java_version_stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tools/prepare_toolchain.py",
+      "sha256": "083151e98a9b0ab16c43a1bff61fd2f980b3f4f74db302fcd40d0922ee788aeb",
+      "bytes": 9066
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "6f59582890b61f1fafb26ba84ab38f8f3699703dcee03a2daf9eb043e35c4d48",
+      "bytes": 2353
+    },
+    {
+      "path": "tools/run_tlc.py",
+      "sha256": "afc066975e930b07742bc93bad988303d14642f6c14f26ea6ac87d3d806d2658",
+      "bytes": 1035
+    },
+    {
+      "path": "tools/temurin.sha256.txt",
+      "sha256": "0e45e55b12036c39a2f18178063dc9c0a3d316976c181329c94de125f5bcd481",
+      "bytes": 117
+    },
+    {
+      "path": "tools/temurin_release_metadata.json",
+      "sha256": "4b1a4add481c3be0b02fd76f999124f64e95f23877c2e32c845e75e4aae63c00",
+      "bytes": 538287
+    },
+    {
+      "path": "tools/TLAPLUS_LICENSE",
+      "sha256": "45364edd2a021d51b9d75bfc96a49ca5573286f00034acf324f0ffc067f2f9c4",
+      "bytes": 1079
+    },
+    {
+      "path": "tools/tlaplus_release_metadata.json",
+      "sha256": "2e1d10ad55766993dd6d9e62d16b832887ab35a666ce8648f46e05a8b4c43e47",
+      "bytes": 12142
+    },
+    {
+      "path": "tools/tlc_help_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tools/tlc_help_stdout.txt",
+      "sha256": "dcbe9230424fe81007a3192d3160d71521e3df562fddcab3e54e2b31ac863fab",
+      "bytes": 6841
+    },
+    {
+      "path": "tools/tlc_jar_manifest.txt",
+      "sha256": "4b779480fedf8e1bf24411052bfbd00a914b1c80caee1c7b4719d8cb67c7b7ce",
+      "bytes": 596
+    },
+    {
+      "path": "tools/TOOLCHAIN.json",
+      "sha256": "e967ccd118ac448cb0bf1f90b17c837bb82dedf26e2484f3b7fb3c3d82b49c51",
+      "bytes": 14375
+    },
+    {
+      "path": "unsafe_2_1.cfg",
+      "sha256": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
+      "bytes": 138
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1d0dde41ece0f9620937f1a81a67e295ace0eae180c009d862006e8f3b288458",
+      "bytes": 1074
+    }
+  ],
+  "excluded_local_files": [
+    {
+      "path": "PROPOSED_ADDITION.md",
+      "bytes": 10961,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/states/26-09-12-13-19-31/ECRCLifecycle-0.st",
+      "bytes": 8192,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/states/26-09-12-13-19-31/ECRCLifecycle.st",
+      "bytes": 0,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/states/26-09-12-13-19-31/ECRCLifecycle_0.fp",
+      "bytes": 0,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/states/26-09-12-13-19-31/ECRCLifecycle_1.fp",
+      "bytes": 0,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/states/26-09-12-13-19-32/ECRCLifecycle-0.st",
+      "bytes": 278528,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/states/26-09-12-13-19-32/ECRCLifecycle.st",
+      "bytes": 0,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/states/26-09-12-13-19-32/ECRCLifecycle_0.fp",
+      "bytes": 87840,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/states/26-09-12-13-19-32/ECRCLifecycle_1.fp",
+      "bytes": 87840,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/states/26-09-12-13-19-34/ECRCLifecycle-0.st",
+      "bytes": 12142,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/states/26-09-12-13-19-34/ECRCLifecycle.st",
+      "bytes": 0,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/states/26-09-12-13-19-34/ECRCLifecycle_0.fp",
+      "bytes": 0,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "runs/v1/tlc/unsafe_2_1/states/26-09-12-13-19-34/ECRCLifecycle_1.fp",
+      "bytes": 0,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-console-l1-1-0.dll",
+      "bytes": 22072,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-console-l1-2-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-datetime-l1-1-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-debug-l1-1-0.dll",
+      "bytes": 21944,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-errorhandling-l1-1-0.dll",
+      "bytes": 22096,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-fibers-l1-1-0.dll",
+      "bytes": 22072,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-fibers-l1-1-1.dll",
+      "bytes": 22072,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-file-l1-1-0.dll",
+      "bytes": 26152,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-file-l1-2-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-file-l2-1-0.dll",
+      "bytes": 21960,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-handle-l1-1-0.dll",
+      "bytes": 21944,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-heap-l1-1-0.dll",
+      "bytes": 22072,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-interlocked-l1-1-0.dll",
+      "bytes": 22072,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+      "bytes": 22080,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-libraryloader-l1-1-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-localization-l1-2-0.dll",
+      "bytes": 22080,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-memory-l1-1-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-namedpipe-l1-1-0.dll",
+      "bytes": 22096,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-processenvironment-l1-1-0.dll",
+      "bytes": 21968,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-processthreads-l1-1-0.dll",
+      "bytes": 22096,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-processthreads-l1-1-1.dll",
+      "bytes": 22072,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-profile-l1-1-0.dll",
+      "bytes": 22080,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "bytes": 21960,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-string-l1-1-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-synch-l1-1-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-synch-l1-2-0.dll",
+      "bytes": 22080,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-sysinfo-l1-1-0.dll",
+      "bytes": 22072,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-sysinfo-l1-2-0.dll",
+      "bytes": 22080,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-timezone-l1-1-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-core-util-l1-1-0.dll",
+      "bytes": 21944,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-conio-l1-1-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-convert-l1-1-0.dll",
+      "bytes": 26056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-environment-l1-1-0.dll",
+      "bytes": 22080,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-filesystem-l1-1-0.dll",
+      "bytes": 22056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-heap-l1-1-0.dll",
+      "bytes": 22096,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-locale-l1-1-0.dll",
+      "bytes": 22080,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-math-l1-1-0.dll",
+      "bytes": 30248,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-multibyte-l1-1-0.dll",
+      "bytes": 30248,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-private-l1-1-0.dll",
+      "bytes": 75328,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-process-l1-1-0.dll",
+      "bytes": 22096,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-runtime-l1-1-0.dll",
+      "bytes": 26152,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-stdio-l1-1-0.dll",
+      "bytes": 26168,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-string-l1-1-0.dll",
+      "bytes": 26176,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-time-l1-1-0.dll",
+      "bytes": 22096,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/api-ms-win-crt-utility-l1-1-0.dll",
+      "bytes": 21952,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/awt.dll",
+      "bytes": 1484928,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/dt_socket.dll",
+      "bytes": 36472,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/extnet.dll",
+      "bytes": 24696,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/fontmanager.dll",
+      "bytes": 1030264,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/freetype.dll",
+      "bytes": 560760,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/instrument.dll",
+      "bytes": 52344,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/j2gss.dll",
+      "bytes": 50808,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/j2pcsc.dll",
+      "bytes": 26752,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/j2pkcs11.dll",
+      "bytes": 81024,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jaas.dll",
+      "bytes": 28792,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jabswitch.exe",
+      "bytes": 45184,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jaccessinspector.exe",
+      "bytes": 106104,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jaccesswalker.exe",
+      "bytes": 71288,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/java.dll",
+      "bytes": 122488,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/java.exe",
+      "bytes": 50304,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/javaaccessbridge.dll",
+      "bytes": 308864,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/javajpeg.dll",
+      "bytes": 180856,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/javaw.exe",
+      "bytes": 50296,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jawt.dll",
+      "bytes": 21624,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jdwp.dll",
+      "bytes": 236152,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jfr.exe",
+      "bytes": 24184,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jimage.dll",
+      "bytes": 34424,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jli.dll",
+      "bytes": 89720,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jrunscript.exe",
+      "bytes": 24696,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jsound.dll",
+      "bytes": 61048,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jsvml.dll",
+      "bytes": 870008,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/jwebserver.exe",
+      "bytes": 24704,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/keytool.exe",
+      "bytes": 24696,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/kinit.exe",
+      "bytes": 24696,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/klist.exe",
+      "bytes": 24704,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/ktab.exe",
+      "bytes": 24192,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/lcms.dll",
+      "bytes": 260728,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/management.dll",
+      "bytes": 29816,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/management_agent.dll",
+      "bytes": 25216,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/management_ext.dll",
+      "bytes": 36472,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/mlib_image.dll",
+      "bytes": 521344,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/msvcp140.dll",
+      "bytes": 575056,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/net.dll",
+      "bytes": 60024,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/nio.dll",
+      "bytes": 80504,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/prefs.dll",
+      "bytes": 25728,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/rmi.dll",
+      "bytes": 21112,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/rmiregistry.exe",
+      "bytes": 24696,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/server/classes.jsa",
+      "bytes": 12451840,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/server/classes_nocoops.jsa",
+      "bytes": 12451840,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/server/jvm.dll",
+      "bytes": 13919872,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/splashscreen.dll",
+      "bytes": 216696,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/sspi_bridge.dll",
+      "bytes": 45184,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/sunmscapi.dll",
+      "bytes": 48768,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/syslookup.dll",
+      "bytes": 28792,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/ucrtbase.dll",
+      "bytes": 1361448,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/vcruntime140.dll",
+      "bytes": 119888,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/vcruntime140_1.dll",
+      "bytes": 49640,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/verify.dll",
+      "bytes": 54912,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/w2k_lsa_auth.dll",
+      "bytes": 31352,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/windowsaccessbridge-64.dll",
+      "bytes": 72824,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/bin/zip.dll",
+      "bytes": 87168,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/jaxp.properties",
+      "bytes": 7302,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/logging.properties",
+      "bytes": 2732,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/management/jmxremote.access",
+      "bytes": 3997,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/management/jmxremote.password.template",
+      "bytes": 5690,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/management/management.properties",
+      "bytes": 14988,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/net.properties",
+      "bytes": 7504,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/security/java.policy",
+      "bytes": 2294,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/security/java.security",
+      "bytes": 73067,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/security/policy/limited/default_local.policy",
+      "bytes": 647,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/security/policy/limited/default_US_export.policy",
+      "bytes": 146,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/security/policy/limited/exempt_local.policy",
+      "bytes": 566,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/security/policy/README.txt",
+      "bytes": 2390,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/security/policy/unlimited/default_local.policy",
+      "bytes": 193,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/security/policy/unlimited/default_US_export.policy",
+      "bytes": 146,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/conf/sound.properties",
+      "bytes": 1210,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/aes.md",
+      "bytes": 1444,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/asm.md",
+      "bytes": 1582,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/c-libutl.md",
+      "bytes": 1556,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/cldr.md",
+      "bytes": 9601,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/icu.md",
+      "bytes": 30197,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/LICENSE",
+      "bytes": 19274,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/public_suffix.md",
+      "bytes": 17783,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/siphash.md",
+      "bytes": 8256,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/unicode.md",
+      "bytes": 9078,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/wepoll.md",
+      "bytes": 1454,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.base/zlib.md",
+      "bytes": 1010,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.compiler/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.compiler/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.compiler/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.datatransfer/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.datatransfer/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/colorimaging.md",
+      "bytes": 167,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/freetype.md",
+      "bytes": 30465,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/giflib.md",
+      "bytes": 1689,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/harfbuzz.md",
+      "bytes": 3629,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/jpeg.md",
+      "bytes": 3474,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/lcms.md",
+      "bytes": 2654,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/libpng.md",
+      "bytes": 7519,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.desktop/mesa3d.md",
+      "bytes": 5732,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.instrument/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.instrument/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.instrument/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.logging/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.logging/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.logging/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.management/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.management/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.management/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.management.rmi/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.management.rmi/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.naming/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.naming/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.naming/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.net.http/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.net.http/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.net.http/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.prefs/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.prefs/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.prefs/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.rmi/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.rmi/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.rmi/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.scripting/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.scripting/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.scripting/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.se/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.se/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.se/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.security.jgss/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.security.jgss/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.security.sasl/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.security.sasl/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.smartcardio/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.smartcardio/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.sql/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.sql/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.sql/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.sql.rowset/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.sql.rowset/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.transaction.xa/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.transaction.xa/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml/bcel.md",
+      "bytes": 11196,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml/dom.md",
+      "bytes": 3761,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml/jcup.md",
+      "bytes": 1448,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml/xalan.md",
+      "bytes": 13477,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml/xerces.md",
+      "bytes": 11848,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml.crypto/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml.crypto/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/java.xml.crypto/santuario.md",
+      "bytes": 11505,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.accessibility/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.accessibility/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.charsets/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.charsets/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.cryptoki/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md",
+      "bytes": 4095,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.cryptoki/pkcs11wrapper.md",
+      "bytes": 2131,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.ec/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.mscapi/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.mscapi/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.crypto.mscapi/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.dynalink/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.dynalink/dynalink.md",
+      "bytes": 1502,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.dynalink/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.httpserver/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.httpserver/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.incubator.vector/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.ci/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.compiler/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.internal.vm.compiler.management/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jdwp.agent/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jfr/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jfr/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jsobject/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.jsobject/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.localedata/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.localedata/cldr.md",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.localedata/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.localedata/thaidict.md",
+      "bytes": 1346,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management.agent/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management.agent/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.management.jfr/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.naming.dns/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.naming.rmi/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.net/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.net/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.net/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.nio.mapmode/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.sctp/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.sctp/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.security.auth/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.security.auth/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.security.jgss/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.unsupported/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.unsupported/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.xml.dom/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO",
+      "bytes": 49,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.zipfs/ASSEMBLY_EXCEPTION",
+      "bytes": 44,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/legal/jdk.zipfs/LICENSE",
+      "bytes": 33,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/classlist",
+      "bytes": 78927,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/fontconfig.bfc",
+      "bytes": 4836,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/fontconfig.properties.src",
+      "bytes": 12612,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/jawt.lib",
+      "bytes": 1682,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/jfr/default.jfc",
+      "bytes": 37449,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/jfr/profile.jfc",
+      "bytes": 37401,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/jrt-fs.jar",
+      "bytes": 110124,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/jvm.cfg",
+      "bytes": 29,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/jvm.lib",
+      "bytes": 1190266,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/modules",
+      "bytes": 99677961,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/psfont.properties.ja",
+      "bytes": 3793,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/psfontj2d.properties",
+      "bytes": 11390,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/security/blocked.certs",
+      "bytes": 2527,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/security/cacerts",
+      "bytes": 153428,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/security/default.policy",
+      "bytes": 11380,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/security/public_suffix_list.dat",
+      "bytes": 229254,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/tzdb.dat",
+      "bytes": 102956,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/lib/tzmappings",
+      "bytes": 22190,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/NOTICE",
+      "bytes": 2400,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/java/jdk-21.0.12.1+1-jre/release",
+      "bytes": 1664,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/OpenJDK21U-jre_x64_windows_hotspot_21.0.12.1_1.zip",
+      "bytes": 48999141,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    },
+    {
+      "path": "tools/tla2tools.jar",
+      "bytes": 2274532,
+      "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
+    }
+  ],
+  "scope": "Frozen study inputs and retained outputs preserve original bytes. Original workspace gates reference earlier artifacts; portable_reproduce.py is the separate post-study public reproduction entry point. Java and TLC binaries must be obtained from documented official URLs. No manuscript PDF or Overleaf sources are included."
+}

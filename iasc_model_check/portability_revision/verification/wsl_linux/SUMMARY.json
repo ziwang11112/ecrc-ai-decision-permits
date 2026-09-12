@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "platform": "wsl_linux",
+  "path_cases": 32,
+  "path_cases_passed": 32,
+  "symlink": {
+    "status": "TESTED"
+  },
+  "verify_returncode": 0,
+  "verify_status": "PASS",
+  "overwrite_rejection_passed": true,
+  "protected_files_unchanged": true,
+  "wrapper_sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47",
+  "scope": "Path fixture checks and default retained-evidence CLI only; no --execute, TLC, model enumeration or S9 execution."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "REPRODUCED",
+  "returncode": 1,
+  "stdout_byte_count": 0,
+  "stderr_utf8": "{\"status\": \"FAIL\", \"type\": \"ValueError\", \"message\": \"Required archive file missing: runs\\\\v1\\\\tlc\\\\normal_2_1\\\\stdout.txt\"}\n",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "4fd662eb836d99f51a82d2cbe6e5d0a871c294394b66934886ab251291ef00c6",
+  "wrapper_sha256": "06f7263aa8c36e400959abd081a92014a1ea9b54dcba68b3c2d96a3af1821f98",
+  "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+  "final_review_sha256": "ed9da58d5f279ceaed7a3db6f6c8d9d7b475adc33a7d5c8b089f12139e8cb3bb",
+  "retained_evidence_count": 19,
+  "all_literal_posix_paths_missing": true,
+  "all_normalized_evidence_hashes_match": true,
+  "all_tracked_bytes_unchanged": true,
+  "all_15_frozen_sources_match": true,
+  "cause": "Path(name) on POSIX treats retained Windows backslashes as literal filename characters. relative_file joins the unnormalized evidence key to HERE, so the first retained evidence lookup fails even though the slash-normalized file exists with its expected digest.",
+  "scope": "Original default verify-only CLI, run once in Ubuntu WSL. No wrapper edits or monkeypatches, no model enumeration, no Java process, no candidate workload. Independent normalized-path hashing is diagnostic only and does not convert the failed original verifier into a pass.",
+  "impact": "The default retained-evidence verifier cannot complete on this POSIX environment. --execute uses the same verification preflight and is therefore also blocked before enumeration; that branch was not executed. This failure alone does not invalidate retained model results or establish failure on every POSIX installation."
+}

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-12T19:34:30.218796+00:00",
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3",
+  "os_name": "posix",
+  "wsl_distribution": "Ubuntu-24.04",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/portable_reproduce.py",
+    "--report",
+    "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/VERIFICATION.json"
+  ],
+  "cwd": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux",
+  "wrapper_sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47"
+}

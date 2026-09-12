@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-12T19:16:57.064130+00:00",
+  "sys_platform": "linux",
+  "os_name": "posix",
+  "python_executable": "/usr/bin/python3",
+  "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "uname": [
+    "Linux",
+    "DESKTOP-DPMQMBN",
+    "6.6.114.1-microsoft-standard-WSL2",
+    "#1 SMP PREEMPT_DYNAMIC Mon Dec  1 20:46:23 UTC 2025",
+    "x86_64",
+    "x86_64"
+  ],
+  "os_release": "PRETTY_NAME=\"Ubuntu 24.04.4 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.4 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "wsl_distribution": "Ubuntu-24.04",
+  "cwd": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_review_2026-09-12/posix_verification",
+  "archive": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/portable_reproduce.py"
+  ],
+  "shell_command": "/usr/bin/python3 -B /mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/portable_reproduce.py",
+  "timeout_seconds": 30,
+  "wrapper_sha256": "06f7263aa8c36e400959abd081a92014a1ea9b54dcba68b3c2d96a3af1821f98",
+  "audit_script_sha256": "7af1288e6816669a2a273e3a403e0781484033728a43e5a33680748d375b3e63"
+}

@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 import hashlib
 import importlib.util
 import json
-from pathlib import Path, PureWindowsPath
+from pathlib import Path
 import re
 import shutil
 import subprocess
@@ -49,12 +49,8 @@ def write_new(path, value):
 
 
 def relative_file(name):
-    """Read either archived separator style without accepting rooted paths."""
-    require(isinstance(name, str) and bool(name), "Archive path must be a nonempty string")
-    # Parse Windows roots on every host, including drive-relative and UNC paths.
-    archived = PureWindowsPath(name)
-    require(not archived.drive and not archived.root, "Archive path must be relative: " + name)
-    path = (HERE / name.replace("\\", "/")).resolve()
+    """Archive paths are relative; never follow retained author-machine paths."""
+    path = (HERE / name).resolve()
     require(HERE in path.parents, "Path escapes the archive: " + name)
     require(path.is_file(), "Required archive file missing: " + name)
     return path

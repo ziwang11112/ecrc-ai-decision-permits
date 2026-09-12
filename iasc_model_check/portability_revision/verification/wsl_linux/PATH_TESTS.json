@@ -1,0 +1,167 @@
+{
+  "cases": [
+    {
+      "case": "accept:nested/evidence.txt",
+      "pass": true,
+      "detail": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt"
+    },
+    {
+      "case": "accept:nested\\evidence.txt",
+      "pass": true,
+      "detail": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt"
+    },
+    {
+      "case": "accept:nested/./evidence.txt",
+      "pass": true,
+      "detail": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt"
+    },
+    {
+      "case": "accept:nested//evidence.txt",
+      "pass": true,
+      "detail": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt"
+    },
+    {
+      "case": "accept:nested\\.\\evidence.txt",
+      "pass": true,
+      "detail": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt"
+    },
+    {
+      "case": "accept:nested/../nested/evidence.txt",
+      "pass": true,
+      "detail": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: /mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:/tmp/evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: /tmp/evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:\\nested\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: \\nested\\evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:C:/evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: C:/evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:C:\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: C:\\evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:C:evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: C:evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:C:",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: C:"
+    },
+    {
+      "case": "reject_absolute_or_drive:\\\\server\\share\\file",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: \\\\server\\share\\file"
+    },
+    {
+      "case": "reject_absolute_or_drive://server/share/file",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: //server/share/file"
+    },
+    {
+      "case": "reject_absolute_or_drive:\\\\?\\C:\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: \\\\?\\C:\\evidence.txt"
+    },
+    {
+      "case": "reject_absolute_or_drive:\\\\.\\C:\\evidence.txt",
+      "pass": true,
+      "detail": "ValueError: Archive path must be relative: \\\\.\\C:\\evidence.txt"
+    },
+    {
+      "case": "reject_escape:../outside.txt",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: ../outside.txt"
+    },
+    {
+      "case": "reject_escape:..\\outside.txt",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: ..\\outside.txt"
+    },
+    {
+      "case": "reject_escape:nested/../../outside.txt",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: nested/../../outside.txt"
+    },
+    {
+      "case": "reject_escape:nested\\..\\..\\outside.txt",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: nested\\..\\..\\outside.txt"
+    },
+    {
+      "case": "reject_empty",
+      "pass": true,
+      "detail": "ValueError: Archive path must be a nonempty string"
+    },
+    {
+      "case": "reject_nonstring",
+      "pass": true,
+      "detail": "ValueError: Archive path must be a nonempty string"
+    },
+    {
+      "case": "reject_missing",
+      "pass": true,
+      "detail": "ValueError: Required archive file missing: nested/missing.txt"
+    },
+    {
+      "case": "reject_directory",
+      "pass": true,
+      "detail": "ValueError: Required archive file missing: nested"
+    },
+    {
+      "case": "reject_symlink_escape",
+      "pass": true,
+      "detail": "ValueError: Path escapes the archive: external_link"
+    },
+    {
+      "case": "accept_internal_symlink",
+      "pass": true,
+      "detail": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/nested/evidence.txt"
+    },
+    {
+      "case": "reject_output_inside:/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive",
+      "pass": true,
+      "detail": "ValueError: New output must be outside the archive root"
+    },
+    {
+      "case": "reject_output_inside:/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/archive/new-report.json",
+      "pass": true,
+      "detail": "ValueError: New output must be outside the archive root"
+    },
+    {
+      "case": "reject_output_overwrite",
+      "pass": true,
+      "detail": "ValueError: Refusing to overwrite existing path: /mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/outside.txt"
+    },
+    {
+      "case": "accept_new_outside_output",
+      "pass": true,
+      "detail": "/mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_revision_2026-09-12/portability/wsl_linux/fixture/new-report.json"
+    },
+    {
+      "case": "output_guard_does_not_write",
+      "pass": true,
+      "detail": "False"
+    }
+  ],
+  "symlink": {
+    "status": "TESTED"
+  }
+}

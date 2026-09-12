@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-12T19:34:27.550836+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\ziwan\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "os_name": "nt",
+  "wsl_distribution": null,
+  "command": [
+    "C:\\Users\\ziwan\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\portable_reproduce.py",
+    "--report",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows\\VERIFICATION.json"
+  ],
+  "cwd": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\portability\\windows",
+  "wrapper_sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47"
+}

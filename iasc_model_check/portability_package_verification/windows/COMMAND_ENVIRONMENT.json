@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\ziwan\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\packaging_verification_v2\\extracted\\AIR-014_IASC_S10\\portable_reproduce.py",
+    "--report",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\packaging_verification_v2\\windows\\VERIFICATION.json"
+  ],
+  "cwd": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_pro_final_revision_2026-09-12\\packaging_verification_v2\\windows",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "wsl_distribution": null,
+  "zip_sha256": "f4479dd6a5caa3e9aae5ca58368cb23783e847d020d29cec370ff446ae41bf6d",
+  "wrapper_sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47"
+}

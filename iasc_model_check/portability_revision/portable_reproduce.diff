@@ -1,0 +1,26 @@
+--- before/portable_reproduce.py
++++ after/portable_reproduce.py
+@@ -12,7 +12,7 @@
+ import hashlib
+ import importlib.util
+ import json
+-from pathlib import Path
++from pathlib import Path, PureWindowsPath
+ import re
+ import shutil
+ import subprocess
+@@ -49,8 +49,12 @@
+ 
+ 
+ def relative_file(name):
+-    """Archive paths are relative; never follow retained author-machine paths."""
+-    path = (HERE / name).resolve()
++    """Read either archived separator style without accepting rooted paths."""
++    require(isinstance(name, str) and bool(name), "Archive path must be a nonempty string")
++    # Parse Windows roots on every host, including drive-relative and UNC paths.
++    archived = PureWindowsPath(name)
++    require(not archived.drive and not archived.root, "Archive path must be relative: " + name)
++    path = (HERE / name.replace("\\", "/")).resolve()
+     require(HERE in path.parents, "Path escapes the archive: " + name)
+     require(path.is_file(), "Required archive file missing: " + name)
+     return path

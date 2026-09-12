@@ -1,3 +1,16 @@
+# Current S10 portability revision and historical contents
+
+The current PUBLIC_MANIFEST.json describes the separate portability-revision ZIP.
+It keeps the original frozen study and repairs only the post-study wrapper plus
+its documentation. Original wrapper bytes, original public manifest and the
+original POSIX error are retained in portability_revision/. New verification
+does not rerun TLC or change runs/v1.
+
+The Git-only packaging_reproduction/ files below remain the original Windows
+reproduction from the first S10 release. They predate this portability repair;
+they are not the new Linux verification records. The following earlier contents
+note is retained as historical documentation:
+
 # S10 release contents
 
 The fixed release ZIP supplies 75 files (74 source/evidence/license files plus PUBLIC_MANIFEST.json). Java, the TLC jar and TLC scratch state directories are excluded; exact official download URLs, hashes and licensing provenance are retained. No manuscript PDF, Overleaf source or preliminary manuscript text is included.

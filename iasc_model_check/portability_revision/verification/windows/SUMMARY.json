@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "platform": "windows",
+  "path_cases": 30,
+  "path_cases_passed": 30,
+  "symlink": {
+    "status": "UNAVAILABLE",
+    "error": "OSError: [WinError 1314] A required privilege is not held by the client: 'D:\\\\AIR-014_ECRC_Paper_Clean_2026-08-16\\\\qa\\\\iasc_pro_final_revision_2026-09-12\\\\portability\\\\windows\\\\fixture\\\\outside.txt' -> 'D:\\\\AIR-014_ECRC_Paper_Clean_2026-08-16\\\\qa\\\\iasc_pro_final_revision_2026-09-12\\\\portability\\\\windows\\\\fixture\\\\archive\\\\external_link'"
+  },
+  "verify_returncode": 0,
+  "verify_status": "PASS",
+  "overwrite_rejection_passed": true,
+  "protected_files_unchanged": true,
+  "wrapper_sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47",
+  "scope": "Path fixture checks and default retained-evidence CLI only; no --execute, TLC, model enumeration or S9 execution."
+}

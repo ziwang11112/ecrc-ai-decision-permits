@@ -1,0 +1,2 @@
+cd /mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/qa/iasc_pro_final_review_2026-09-12/posix_verification
+/usr/bin/python3 -B /mnt/d/AIR-014_ECRC_Paper_Clean_2026-08-16/research_pilots/iasc_model_check_2026-09-12/portable_reproduce.py

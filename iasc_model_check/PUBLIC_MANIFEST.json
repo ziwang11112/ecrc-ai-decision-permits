@@ -1,5 +1,5 @@
 {
-  "release": "iasc-model-check-2026-09-12",
+  "release": "iasc-portability-fix-2026-09-12",
   "study": "S10 fixed finite lifecycle model check",
   "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
   "files": [
@@ -7,11 +7,6 @@
       "path": "ARTIFACT_BASELINE.json",
       "sha256": "c8e0a60d82d2078a5ba489d3a9ac95895ba4ef43668360b15f8deaab01cf8380",
       "bytes": 28033
-    },
-    {
-      "path": "audit_completed_records.py",
-      "sha256": "e815eaf79d915153fa2c6e94d8d8b208237aa6b0d57b8e9e821123514827b32e",
-      "bytes": 12036
     },
     {
       "path": "CHECKPOINT_PREFIX_MAPPING.md",
@@ -22,11 +17,6 @@
       "path": "ECRCLifecycle.tla",
       "sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
       "bytes": 8126
-    },
-    {
-      "path": "exact_check.py",
-      "sha256": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e",
-      "bytes": 27105
     },
     {
       "path": "FINAL_ENUMERATION_REVIEW.json",
@@ -59,9 +49,54 @@
       "bytes": 8257
     },
     {
+      "path": "LICENSE",
+      "sha256": "1d0dde41ece0f9620937f1a81a67e295ace0eae180c009d862006e8f3b288458",
+      "bytes": 1074
+    },
+    {
       "path": "MODEL_REVIEW.json",
       "sha256": "1ac59b6de33441088fd30f4ed648c3f78ace115ffd02c2d154fb1a5b3286bad7",
       "bytes": 6966
+    },
+    {
+      "path": "PORTABLE_REPRODUCTION.md",
+      "sha256": "34ae0b796f256a2b82e5696cbdf422bac7294c0890180ba2aecb4b3ec6039c26",
+      "bytes": 5188
+    },
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "102ec22ddff809e9103a20b61fe12bfaac70adccd0a1a386598d64d514fc70f4",
+      "bytes": 7157
+    },
+    {
+      "path": "README.md",
+      "sha256": "d970c7d53e44472866b62a6a9b04bffe4accbc11087721b0b6810af04718dec1",
+      "bytes": 22065
+    },
+    {
+      "path": "RESULTS_ZH.md",
+      "sha256": "ebf09536f6c70d91d9e5d7987d13d2e648273c007bc71f070485f099551453a4",
+      "bytes": 8607
+    },
+    {
+      "path": "REVIEW_REQUIREMENTS.md",
+      "sha256": "2657720c3a92176d5d4b84ad4acd60cee979884b4f9ba70798432a4b405157f9",
+      "bytes": 15854
+    },
+    {
+      "path": "SOURCE_MAPPING.md",
+      "sha256": "98323f3c60484b113e5550e4db9ad082380398c97cd3c350eca6bbee210e257f",
+      "bytes": 20683
+    },
+    {
+      "path": "audit_completed_records.py",
+      "sha256": "e815eaf79d915153fa2c6e94d8d8b208237aa6b0d57b8e9e821123514827b32e",
+      "bytes": 12036
+    },
+    {
+      "path": "exact_check.py",
+      "sha256": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e",
+      "bytes": 27105
     },
     {
       "path": "normal_2_1.cfg",
@@ -74,14 +109,169 @@
       "bytes": 221
     },
     {
-      "path": "portable_reproduce.py",
+      "path": "portability_revision/RELEASE_NOTE.md",
+      "sha256": "026dbe9377ff9eafb287483301fecd9ee7dffe4cd2729d166014427cbf232cca",
+      "bytes": 3426
+    },
+    {
+      "path": "portability_revision/REVISION_VERIFICATION.json",
+      "sha256": "2a9acb16f4a2b9b415ea110e82736117e4e82111d7c4f17e2b9b9164043c3b10",
+      "bytes": 7594
+    },
+    {
+      "path": "portability_revision/original/PORTABLE_REPRODUCTION.md",
+      "sha256": "d269718c249db7c808bd8735a73ba294c7dbd683d66f837771ba72fff1e3e6b3",
+      "bytes": 4661
+    },
+    {
+      "path": "portability_revision/original/PUBLIC_MANIFEST.json",
+      "sha256": "d7764c2709a421685782f58ff478e88107d90b6cbb747b812fc48e0065db8858",
+      "bytes": 82537
+    },
+    {
+      "path": "portability_revision/original/README.md",
+      "sha256": "691b9df1abd5ed4f0a22a3bd7e5ca491a64b8c5bb741c613cd560f2531db9788",
+      "bytes": 21538
+    },
+    {
+      "path": "portability_revision/original/portable_reproduce.py",
       "sha256": "06f7263aa8c36e400959abd081a92014a1ea9b54dcba68b3c2d96a3af1821f98",
       "bytes": 17202
     },
     {
-      "path": "PORTABLE_REPRODUCTION.md",
-      "sha256": "d269718c249db7c808bd8735a73ba294c7dbd683d66f837771ba72fff1e3e6b3",
-      "bytes": 4661
+      "path": "portability_revision/original/posix_failure/COMMAND_ENVIRONMENT.json",
+      "sha256": "dec199178acee1d6130f2f55204849609f6f25e195a67102997a312051dc25f6",
+      "bytes": 1699
+    },
+    {
+      "path": "portability_revision/original/posix_failure/NORMALIZED_EVIDENCE_HASHES.json",
+      "sha256": "6ad29b26ba53702d74dc5d73fad280a3ebca13ac737775ed2a3ebb4a449e17dd",
+      "bytes": 10974
+    },
+    {
+      "path": "portability_revision/original/posix_failure/REPORT.json",
+      "sha256": "1d44cc12348812d626190bd49afe56c5f0c46f92b3008d7daa5d5dc84e95217e",
+      "bytes": 1783
+    },
+    {
+      "path": "portability_revision/original/posix_failure/command.txt",
+      "sha256": "628d26507ee5d7a5b2be5ab82e8a7d2cf9458c3570d55923ac7d2f4e6d5b61f1",
+      "bytes": 230
+    },
+    {
+      "path": "portability_revision/original/posix_failure/stderr.txt",
+      "sha256": "4fd662eb836d99f51a82d2cbe6e5d0a871c294394b66934886ab251291ef00c6",
+      "bytes": 124
+    },
+    {
+      "path": "portability_revision/original/posix_failure/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "portability_revision/portable_reproduce.diff",
+      "sha256": "27a61c9c1f3100cef7035668b5f7f4124966936d9dd311e7c6c120f61de8c1f3",
+      "bytes": 1048
+    },
+    {
+      "path": "portability_revision/verification/audit_portability.py",
+      "sha256": "861a45bd05a55c524e6247c3c15c5bdf80e39f997bdd7ce01ee41a265b593baa",
+      "bytes": 10260
+    },
+    {
+      "path": "portability_revision/verification/windows/COMMAND_ENVIRONMENT.json",
+      "sha256": "923524903789108b3561cc2b39100ec6db9321a739e10c6b77f62f81c558f3f5",
+      "bytes": 925
+    },
+    {
+      "path": "portability_revision/verification/windows/PATH_TESTS.json",
+      "sha256": "f048c2b210d57c764dbb3d109953fc32e4bb3c0ee1f23386c7b128992062cbdc",
+      "bytes": 6531
+    },
+    {
+      "path": "portability_revision/verification/windows/SUMMARY.json",
+      "sha256": "73b6f4d96144c18ac2de8f00aeb0712fe2c278adf76981c635bccd2cf954a1dc",
+      "bytes": 888
+    },
+    {
+      "path": "portability_revision/verification/windows/VERIFICATION.json",
+      "sha256": "c272c2a1037ec5acb7912d88fee8dc542ca8ca560f575f82a2da8b36dbe2c8ad",
+      "bytes": 1650
+    },
+    {
+      "path": "portability_revision/verification/windows/command.txt",
+      "sha256": "ab865c6a4a6ab8fc866a800f0611abf94d9f694b1349a14c48d8d17a73e9d5f5",
+      "bytes": 299
+    },
+    {
+      "path": "portability_revision/verification/windows/overwrite_stderr.txt",
+      "sha256": "8181e196e6e3873ae7c2518fbd1cf52c34f543fa98212933721dee60d229ed27",
+      "bytes": 214
+    },
+    {
+      "path": "portability_revision/verification/windows/overwrite_stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "portability_revision/verification/windows/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "portability_revision/verification/windows/stdout.txt",
+      "sha256": "c272c2a1037ec5acb7912d88fee8dc542ca8ca560f575f82a2da8b36dbe2c8ad",
+      "bytes": 1650
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/COMMAND_ENVIRONMENT.json",
+      "sha256": "c828cfcd589299f083e91d1abed916220b5cad3c078016714d0bc9bf9bdc3e1d",
+      "bytes": 811
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/PATH_TESTS.json",
+      "sha256": "1e4f55a1e48c2242a1c01cf91eaee1c0d57c7ed5daef2e67ea02fe58f80cebdf",
+      "bytes": 6327
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/SUMMARY.json",
+      "sha256": "fbf92913af782394fb13a4f57e826c672c46c11b3da157b06db6b55f3f1761c4",
+      "bytes": 484
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/VERIFICATION.json",
+      "sha256": "fd372b8d9a5b9f6aa73bb9c8b6e4f629a7e8f6411c9eca9a11cffcb6fb392f8b",
+      "bytes": 1606
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/command.txt",
+      "sha256": "d5e0a5e0b0a4bb1c25e448cf50784fc548903d2b5349a0bfeb1d7386157f983f",
+      "bytes": 259
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/overwrite_stderr.txt",
+      "sha256": "3ab824397417dad3a235b38f623cc7851127b10c61ab6f2c8a6d0c9f2376fd30",
+      "bytes": 213
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/overwrite_stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "portability_revision/verification/wsl_linux/stdout.txt",
+      "sha256": "fd372b8d9a5b9f6aa73bb9c8b6e4f629a7e8f6411c9eca9a11cffcb6fb392f8b",
+      "bytes": 1606
+    },
+    {
+      "path": "portable_reproduce.py",
+      "sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47",
+      "bytes": 17541
     },
     {
       "path": "preparation/SANY_01.json",
@@ -94,29 +284,9 @@
       "bytes": 4948
     },
     {
-      "path": "PROTOCOL.md",
-      "sha256": "102ec22ddff809e9103a20b61fe12bfaac70adccd0a1a386598d64d514fc70f4",
-      "bytes": 7157
-    },
-    {
-      "path": "README.md",
-      "sha256": "691b9df1abd5ed4f0a22a3bd7e5ca491a64b8c5bb741c613cd560f2531db9788",
-      "bytes": 21538
-    },
-    {
-      "path": "RESULTS_ZH.md",
-      "sha256": "ebf09536f6c70d91d9e5d7987d13d2e648273c007bc71f070485f099551453a4",
-      "bytes": 8607
-    },
-    {
       "path": "review_preparation/audit_completed_records_v1.py",
       "sha256": "cd6df9aa5e129f565d9f30a8175fa7881257c02c233f4eeb33878080fdc16613",
       "bytes": 11444
-    },
-    {
-      "path": "REVIEW_REQUIREMENTS.md",
-      "sha256": "2657720c3a92176d5d4b84ad4acd60cee979884b4f9ba70798432a4b405157f9",
-      "bytes": 15854
     },
     {
       "path": "run_models.py",
@@ -127,6 +297,31 @@
       "path": "runs/v1/COUNTEREXAMPLE.csv",
       "sha256": "e4a106e43f38a9f2f671d56981d84be8ee3b783cb4118d1a4858c59b49807d1b",
       "bytes": 515
+    },
+    {
+      "path": "runs/v1/RESULT_SUMMARY.json",
+      "sha256": "b14e2d5eb33106bec43f95982549fe2cb5ec882ad17b9de9c901a3fac83f6da0",
+      "bytes": 9755
+    },
+    {
+      "path": "runs/v1/TLC_COUNTEREXAMPLE_REPLAY.json",
+      "sha256": "88ed176eb11d7d8d7797b7330b3c1665c2299bb92d30476079a858429cce8cf5",
+      "bytes": 12305
+    },
+    {
+      "path": "runs/v1/exact/START.json",
+      "sha256": "19d717969fe3a8b116e841e25def28a90d656ebd5f4d70ba3752db7b31a1bf84",
+      "bytes": 263
+    },
+    {
+      "path": "runs/v1/exact/SUMMARY.json",
+      "sha256": "819f0741243774eac1edb6d01d3890583a7823aa6a11543708e935eae93bbe2f",
+      "bytes": 20981
+    },
+    {
+      "path": "runs/v1/exact/TLC_COMPARISON.json",
+      "sha256": "ce798470ebac8456ce9581f9eaa26df6fe2384c3902fd3bf7117c5a782a4e8f1",
+      "bytes": 2242
     },
     {
       "path": "runs/v1/exact/normal_2_1/RESULT.json",
@@ -149,21 +344,6 @@
       "bytes": 126814
     },
     {
-      "path": "runs/v1/exact/START.json",
-      "sha256": "19d717969fe3a8b116e841e25def28a90d656ebd5f4d70ba3752db7b31a1bf84",
-      "bytes": 263
-    },
-    {
-      "path": "runs/v1/exact/SUMMARY.json",
-      "sha256": "819f0741243774eac1edb6d01d3890583a7823aa6a11543708e935eae93bbe2f",
-      "bytes": 20981
-    },
-    {
-      "path": "runs/v1/exact/TLC_COMPARISON.json",
-      "sha256": "ce798470ebac8456ce9581f9eaa26df6fe2384c3902fd3bf7117c5a782a4e8f1",
-      "bytes": 2242
-    },
-    {
       "path": "runs/v1/exact/unsafe_2_1/COUNTEREXAMPLE.json",
       "sha256": "3adf1e589e6f75dcf56145e229c10d43d1c45e9363c1f800444a072ac1a4ee31",
       "bytes": 12359
@@ -179,9 +359,14 @@
       "bytes": 173998
     },
     {
-      "path": "runs/v1/RESULT_SUMMARY.json",
-      "sha256": "b14e2d5eb33106bec43f95982549fe2cb5ec882ad17b9de9c901a3fac83f6da0",
-      "bytes": 9755
+      "path": "runs/v1/tlc/START.json",
+      "sha256": "420890056ae188be650034a5ffecffc2cfa9130c9189f5c49b8bb7f0e1874600",
+      "bytes": 139
+    },
+    {
+      "path": "runs/v1/tlc/SUMMARY.json",
+      "sha256": "e8b8e5d8c92e1937c5bdb11b2c7aa3a38e6069783314e3766f213d11da547b23",
+      "bytes": 18324
     },
     {
       "path": "runs/v1/tlc/normal_2_1/COMMAND.json",
@@ -194,14 +379,14 @@
       "bytes": 8126
     },
     {
-      "path": "runs/v1/tlc/normal_2_1/normal_2_1.cfg",
-      "sha256": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
-      "bytes": 221
-    },
-    {
       "path": "runs/v1/tlc/normal_2_1/RESULT.json",
       "sha256": "71f5b2f93bf97595e9d4997d3c00e81c219cd77d64638e191efb80d7a5171f7f",
       "bytes": 685
+    },
+    {
+      "path": "runs/v1/tlc/normal_2_1/normal_2_1.cfg",
+      "sha256": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
+      "bytes": 221
     },
     {
       "path": "runs/v1/tlc/normal_2_1/stderr.txt",
@@ -224,14 +409,14 @@
       "bytes": 8126
     },
     {
-      "path": "runs/v1/tlc/normal_3_2/normal_3_2.cfg",
-      "sha256": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
-      "bytes": 221
-    },
-    {
       "path": "runs/v1/tlc/normal_3_2/RESULT.json",
       "sha256": "f765e12720d75840ae6dd2a3c8fc8cb4a7f3228faeb5fc7257e702af0803f6e5",
       "bytes": 689
+    },
+    {
+      "path": "runs/v1/tlc/normal_3_2/normal_3_2.cfg",
+      "sha256": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
+      "bytes": 221
     },
     {
       "path": "runs/v1/tlc/normal_3_2/stderr.txt",
@@ -242,16 +427,6 @@
       "path": "runs/v1/tlc/normal_3_2/stdout.txt",
       "sha256": "23a57b22766e1f161ed1674083026311b0fdf708888643ee2d0e3b92def6ca01",
       "bytes": 13591
-    },
-    {
-      "path": "runs/v1/tlc/START.json",
-      "sha256": "420890056ae188be650034a5ffecffc2cfa9130c9189f5c49b8bb7f0e1874600",
-      "bytes": 139
-    },
-    {
-      "path": "runs/v1/tlc/SUMMARY.json",
-      "sha256": "e8b8e5d8c92e1937c5bdb11b2c7aa3a38e6069783314e3766f213d11da547b23",
-      "bytes": 18324
     },
     {
       "path": "runs/v1/tlc/unsafe_2_1/COMMAND.json",
@@ -284,19 +459,24 @@
       "bytes": 138
     },
     {
-      "path": "runs/v1/TLC_COUNTEREXAMPLE_REPLAY.json",
-      "sha256": "88ed176eb11d7d8d7797b7330b3c1665c2299bb92d30476079a858429cce8cf5",
-      "bytes": 12305
-    },
-    {
-      "path": "SOURCE_MAPPING.md",
-      "sha256": "98323f3c60484b113e5550e4db9ad082380398c97cd3c350eca6bbee210e257f",
-      "bytes": 20683
-    },
-    {
       "path": "summarize_results.py",
       "sha256": "00f343cf3038d6834b9618a2df1f6db4f597590d5986be6dcf07347244b6bc76",
       "bytes": 8926
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "6f59582890b61f1fafb26ba84ab38f8f3699703dcee03a2daf9eb043e35c4d48",
+      "bytes": 2353
+    },
+    {
+      "path": "tools/TLAPLUS_LICENSE",
+      "sha256": "45364edd2a021d51b9d75bfc96a49ca5573286f00034acf324f0ffc067f2f9c4",
+      "bytes": 1079
+    },
+    {
+      "path": "tools/TOOLCHAIN.json",
+      "sha256": "e967ccd118ac448cb0bf1f90b17c837bb82dedf26e2484f3b7fb3c3d82b49c51",
+      "bytes": 14375
     },
     {
       "path": "tools/java_version_stderr.txt",
@@ -314,11 +494,6 @@
       "bytes": 9066
     },
     {
-      "path": "tools/README.md",
-      "sha256": "6f59582890b61f1fafb26ba84ab38f8f3699703dcee03a2daf9eb043e35c4d48",
-      "bytes": 2353
-    },
-    {
       "path": "tools/run_tlc.py",
       "sha256": "afc066975e930b07742bc93bad988303d14642f6c14f26ea6ac87d3d806d2658",
       "bytes": 1035
@@ -332,11 +507,6 @@
       "path": "tools/temurin_release_metadata.json",
       "sha256": "4b1a4add481c3be0b02fd76f999124f64e95f23877c2e32c845e75e4aae63c00",
       "bytes": 538287
-    },
-    {
-      "path": "tools/TLAPLUS_LICENSE",
-      "sha256": "45364edd2a021d51b9d75bfc96a49ca5573286f00034acf324f0ffc067f2f9c4",
-      "bytes": 1079
     },
     {
       "path": "tools/tlaplus_release_metadata.json",
@@ -359,19 +529,9 @@
       "bytes": 596
     },
     {
-      "path": "tools/TOOLCHAIN.json",
-      "sha256": "e967ccd118ac448cb0bf1f90b17c837bb82dedf26e2484f3b7fb3c3d82b49c51",
-      "bytes": 14375
-    },
-    {
       "path": "unsafe_2_1.cfg",
       "sha256": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
       "bytes": 138
-    },
-    {
-      "path": "LICENSE",
-      "sha256": "1d0dde41ece0f9620937f1a81a67e295ace0eae180c009d862006e8f3b288458",
-      "bytes": 1074
     }
   ],
   "excluded_local_files": [
@@ -2026,5 +2186,68 @@
       "reason": "runtime/tool binary, TLC scratch, bytecode or preliminary editorial draft"
     }
   ],
-  "scope": "Frozen study inputs and retained outputs preserve original bytes. Original workspace gates reference earlier artifacts; portable_reproduce.py is the separate post-study public reproduction entry point. Java and TLC binaries must be obtained from documented official URLs. No manuscript PDF or Overleaf sources are included."
+  "scope": "Original fixed finite S10 evidence preserved. Post-study path portability correction and verify-only QA; no new enumeration, experiment, manuscript or runtime binary. Historical scientific and technical audit files retain their original status and limitations.",
+  "artifact_kind": "POST_STUDY_PORTABILITY_TOOL_REVISION",
+  "original_study_release": "iasc-model-check-2026-09-12",
+  "original_asset": {
+    "filename": "AIR-014_IASC_S10_Code_and_Results.zip",
+    "sha256": "c0d17694ccefaf35c85ec5f097f0462e99af25a6b8dd7ca230e394977e385938",
+    "member_count": 75
+  },
+  "primary_study_unmodified": true,
+  "post_study_wrapper_fix": true,
+  "new_research_experiments": false,
+  "tlc_or_model_enumeration_rerun": false,
+  "preservation": {
+    "frozen_files_unchanged": 15,
+    "retained_evidence_files_unchanged": 19,
+    "all_runs_v1_bytes_unchanged": true,
+    "historical_final_review_unchanged": true,
+    "original_members_unchanged": 71,
+    "replaced_original_members": [
+      "PORTABLE_REPRODUCTION.md",
+      "PUBLIC_MANIFEST.json",
+      "README.md",
+      "portable_reproduce.py"
+    ]
+  },
+  "wrapper_revision": {
+    "old_sha256": "06f7263aa8c36e400959abd081a92014a1ea9b54dcba68b3c2d96a3af1821f98",
+    "new_sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47"
+  },
+  "added_members": [
+    "portability_revision/RELEASE_NOTE.md",
+    "portability_revision/REVISION_VERIFICATION.json",
+    "portability_revision/original/PORTABLE_REPRODUCTION.md",
+    "portability_revision/original/PUBLIC_MANIFEST.json",
+    "portability_revision/original/README.md",
+    "portability_revision/original/portable_reproduce.py",
+    "portability_revision/original/posix_failure/COMMAND_ENVIRONMENT.json",
+    "portability_revision/original/posix_failure/NORMALIZED_EVIDENCE_HASHES.json",
+    "portability_revision/original/posix_failure/REPORT.json",
+    "portability_revision/original/posix_failure/command.txt",
+    "portability_revision/original/posix_failure/stderr.txt",
+    "portability_revision/original/posix_failure/stdout.txt",
+    "portability_revision/portable_reproduce.diff",
+    "portability_revision/verification/audit_portability.py",
+    "portability_revision/verification/windows/COMMAND_ENVIRONMENT.json",
+    "portability_revision/verification/windows/PATH_TESTS.json",
+    "portability_revision/verification/windows/SUMMARY.json",
+    "portability_revision/verification/windows/VERIFICATION.json",
+    "portability_revision/verification/windows/command.txt",
+    "portability_revision/verification/windows/overwrite_stderr.txt",
+    "portability_revision/verification/windows/overwrite_stdout.txt",
+    "portability_revision/verification/windows/stderr.txt",
+    "portability_revision/verification/windows/stdout.txt",
+    "portability_revision/verification/wsl_linux/COMMAND_ENVIRONMENT.json",
+    "portability_revision/verification/wsl_linux/PATH_TESTS.json",
+    "portability_revision/verification/wsl_linux/SUMMARY.json",
+    "portability_revision/verification/wsl_linux/VERIFICATION.json",
+    "portability_revision/verification/wsl_linux/command.txt",
+    "portability_revision/verification/wsl_linux/overwrite_stderr.txt",
+    "portability_revision/verification/wsl_linux/overwrite_stdout.txt",
+    "portability_revision/verification/wsl_linux/stderr.txt",
+    "portability_revision/verification/wsl_linux/stdout.txt"
+  ],
+  "manifest_self_hash": "Excluded from files to avoid a circular digest; the release ZIP checksum binds this manifest."
 }

@@ -1,5 +1,3 @@
-> **Post-study portability revision (2026-09-12).** This package preserves the original S10 primary study and `runs/v1` results. Only the post-run verification wrapper and package documentation/manifest are revised. The wrapper now reads retained Windows-style relative evidence keys on POSIX while rejecting absolute, drive, UNC and escaping paths. No TLC or model enumeration was rerun for this correction. See `portability_revision/RELEASE_NOTE.md` for the original artifact digest, exact change and verification evidence.
-
 # Portable S10 verification and reproduction
 
 `portable_reproduce.py` is a post-hoc public-archive wrapper. It is **not** one of the 15 files frozen before historical run `v1`. It requires Python 3.10+ and only the Python standard library. Run it from any current directory; paths to retained evidence are resolved from the wrapper's location.
