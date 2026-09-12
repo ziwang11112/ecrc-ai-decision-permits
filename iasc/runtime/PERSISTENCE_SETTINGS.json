@@ -1,0 +1,12 @@
+{
+  "ecrc": {
+    "journal_mode": "wal",
+    "synchronous": 2,
+    "busy_timeout": 30000
+  },
+  "ordinary": {
+    "journal_mode": "wal",
+    "synchronous": 2,
+    "busy_timeout": 30000
+  }
+}

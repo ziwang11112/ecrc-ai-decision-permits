@@ -1,0 +1,20 @@
+% Selected examples; all 18 comparisons are in all_comparisons_summary.csv.
+% Place and number this table according to the destination manuscript.
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\caption{Selected participant-equal alert-policy sensitivity results. Cap removal is compared with fixed separate capacity 8+2; pacing is compared with FIFO at the stated budget. $n_P/n_C$ denotes the common valid precision/coverage participant counts. Entries are paired macro differences with unadjusted conditional 95\% bootstrap intervals. The complete supplement retains all 18 comparisons.}
+\label{tab:participant-policy-sensitivity}
+\begin{tabular}{p{0.31\linewidth}r p{0.25\linewidth}p{0.25\linewidth}}
+\hline
+Comparison & $n_P/n_C$ & $\Delta$ precision [95\% CI] & $\Delta$ coverage [95\% CI] \\
+\hline
+Development HGB, Cap removed & 614/615 & $-0.030 [-0.040, -0.021]$ & $+0.273 [0.256, 0.291]$ \\
+Development Logistic, Cap removed & 612/615 & $-0.035 [-0.046, -0.023]$ & $+0.277 [0.260, 0.294]$ \\
+External HGB, Cap removed & 59/59 & $+0.037 [0.00015, 0.079]$ & $+0.285 [0.225, 0.344]$ \\
+External HGB, Paced, 8/episode & 59/59 & $+0.022 [-0.033, 0.079]$ & $-0.006 [-0.013, 0.002]$ \\
+External HGB, Paced, 8/100 planned & 59/59 & $+0.010 [-0.032, 0.053]$ & $-0.013 [-0.022, -0.004]$ \\
+\hline
+\end{tabular}
+\end{table}

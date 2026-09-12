@@ -1,0 +1,5 @@
+{
+  "deterministic_outcomes_match": true,
+  "independent_final_database_audit": true,
+  "timing_byte_identity_claimed": false
+}

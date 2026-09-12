@@ -12,3 +12,8 @@ data/raw/
 *.db
 *.wal
 *.shm
+
+# Downloaded full artifact and generated supplemental QA
+artifacts/
+wrapper_qa_portable/
+WRAPPER_QA_PORTABLE_RESULT.json

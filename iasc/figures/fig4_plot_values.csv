@@ -1,0 +1,19 @@
+panel,series,metric,numerator,denominator,source,record_type,ratio,minimum,median,maximum,workers,n_requests,repetitions,units,source_file,selector,source_sha256
+a,Full ECRC,Claim/evidence faults,24,24,legacy/fig4_source_data.csv,,,,,,,,,,,,
+a,Full ECRC,Receipt/state faults,60,60,legacy/fig4_source_data.csv,,,,,,,,,,,,
+a,Independent semantic,Claim/evidence faults,24,24,component_summary.csv,,,,,,,,,,,,
+a,Independent semantic,Receipt/state faults,60,60,component_summary.csv,,,,,,,,,,,,
+a,Ordinary log,Claim/evidence faults,0,24,legacy/fig4_source_data.csv,,,,,,,,,,,,
+a,Ordinary log,Receipt/state faults,0,60,legacy/fig4_source_data.csv,,,,,,,,,,,,
+a,Claim/evidence binding off,Claim/evidence faults,0,24,legacy/fig4_source_data.csv,,,,,,,,,,,,
+a,Claim/evidence binding off,Receipt/state faults,60,60,legacy/fig4_source_data.csv,,,,,,,,,,,,
+a,Receipt/state off,Claim/evidence faults,24,24,legacy/fig4_source_data.csv,,,,,,,,,,,,
+a,Receipt/state off,Receipt/state faults,0,60,legacy/fig4_source_data.csv,,,,,,,,,,,,
+b,Non-atomic witness,Accepted capacity-bearing routes / capacity,2.000000,1.000000,,capacity_integrity,2.000000,2.000000,2.000000,2.000000,2.000000,2,1,accepted/capacity,icair_2026/framework_v1/evidence_systems/systems_unsafe_race_witness.json,barrier_forced_interleaving=true,f53998e441cd3c8cb1e16e4ba1a1c22b888c8b47b0dc4f895dd4c9155c908b85
+b,ECRC cap 3,Committed capacity units / capacity,3.000000,3.000000,,capacity_integrity,1.000000,3.000000,3.000000,3.000000,16.000000,24,3,committed/capacity,icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv,case=concurrent_24_cap3,fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1
+b,ECRC cap 8,Committed capacity units / capacity,8.000000,8.000000,,capacity_integrity,1.000000,8.000000,8.000000,8.000000,16.000000,96,3,committed/capacity,icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv,case=concurrent_96_cap8,fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1
+c,ECRC runtime,End-to-end p95 latency,,,,tail_latency,,17.009125,17.629100,17.654550,1.000000,96,3,ms; median and min-max across runs,icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv,case=worker_sweep_96_cap8_w1,a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0
+c,ECRC runtime,End-to-end p95 latency,,,,tail_latency,,43.138150,51.548625,57.741850,2.000000,96,3,ms; median and min-max across runs,icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv,case=worker_sweep_96_cap8_w2,a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0
+c,ECRC runtime,End-to-end p95 latency,,,,tail_latency,,68.078475,72.799375,100.343375,4.000000,96,3,ms; median and min-max across runs,icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv,case=worker_sweep_96_cap8_w4,a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0
+c,ECRC runtime,End-to-end p95 latency,,,,tail_latency,,274.099675,293.990650,303.344300,8.000000,96,3,ms; median and min-max across runs,icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv,case=worker_sweep_96_cap8_w8,a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0
+c,ECRC runtime,End-to-end p95 latency,,,,tail_latency,,597.656175,668.232675,1012.725775,16.000000,96,3,ms; median and min-max across runs,icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv,case=worker_sweep_96_cap8_w16,a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0

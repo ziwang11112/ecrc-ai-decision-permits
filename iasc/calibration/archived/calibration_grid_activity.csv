@@ -1,0 +1,9 @@
+scope,model_name,outer_fold,n_grid,n_precision_eligible,n_precision_eligible_but_false_limit_failing,n_false_limit_failing_any_grid,max_false_per_100_any_grid,selected_threshold,threshold_without_false_filter,matches_archived_threshold,threshold_without_precision_floor,precision_floor_changes_selected_threshold
+global_development_oof,hist_gradient_boosting,-1,56,51,0,0,3.848177376925968,0.6,0.6,True,0.6,False
+global_development_oof,history_baseline,-1,56,41,0,0,3.451334084930477,0.43,0.43,True,0.39,True
+global_development_oof,regularised_logistic,-1,56,47,0,0,4.060127771514468,0.58,0.58,True,0.58,False
+outer_training_history_exact,history_baseline,0,56,40,0,0,3.4686971235194584,0.43,0.43,True,0.39,True
+outer_training_history_exact,history_baseline,1,56,46,0,0,3.413624388407979,0.39,0.39,True,0.39,False
+outer_training_history_exact,history_baseline,2,56,41,0,0,3.409090909090909,0.43,0.43,True,0.35,True
+outer_training_history_exact,history_baseline,3,56,41,0,0,3.4473733408113665,0.43,0.43,True,0.39,True
+outer_training_history_exact,history_baseline,4,56,41,0,0,3.518099547511312,0.43,0.43,True,0.38,True

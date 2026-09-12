@@ -1,0 +1,3 @@
+dataset_id,version_note,n_participants,n_studies,n_decisions,positive_class,positive_prevalence,trials_per_participant_min,trials_per_participant_median,trials_per_participant_max,eeg_used
+many_labs_igt,Many Labs public behavior table; participant-grouped outer CV,617,10,66525,current A/B deck choice (operational high-risk proxy),0.45633972190905675,95,100.0,150,False
+mendeley_igt_official_v2,"frozen external replay on official Mendeley version-2 behavior files; same-task external cohort, not cross-domain or clinical validation",59,1,11800,current A/B deck choice (operational high-risk proxy),0.4909322033898305,200,200.0,200,False

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "qa_cases": 4,
+  "formal_denominator": false,
+  "results": [
+    {
+      "case": "bool_vs_int",
+      "expected_equal": false,
+      "observed_equal": false,
+      "ordinary_python_equal": true
+    },
+    {
+      "case": "int_vs_float",
+      "expected_equal": false,
+      "observed_equal": false,
+      "ordinary_python_equal": true
+    },
+    {
+      "case": "false_vs_zero",
+      "expected_equal": false,
+      "observed_equal": false,
+      "ordinary_python_equal": true
+    },
+    {
+      "case": "field_order",
+      "expected_equal": true,
+      "observed_equal": true,
+      "ordinary_python_equal": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Frozen-data online allocation supplement
+
+Protocol fixed before executing this supplement, 2026-09-11. This is a post hoc analysis of previously examined cohorts, not a preregistered or new external confirmation.
+
+All two cohorts × three generators × two capacity bases are retained. Existing frozen predictions, fold-specific thresholds, ambiguity gate (0.90), review band (0.03), and review capacity (two per episode) remain fixed. Comparator: FIFO; intervention: deterministic budget pacing, without tuning or score look-ahead.
+
+The experiment controller knows the task's planned horizon H from the published protocol: Many Labs study-specific 100 or 150; external 200. Fridberg has H=100 although only 95 decisions were shared. H is not inferred from an observed episode's last row, and participant awareness of H is not assumed. The external 100-decision break does not reset this analysis's episode budget. A separately sourced participant horizon mapping accompanies this protocol.
+
+Capacity bases are K=8 per planned episode and K=ceil(8H/100) per planned horizon. The second differs conceptually from the earlier hindsight normalization ceil(8*n_observed/100); report their realized equality or difference without treating that as causal access to n_observed. At decision t (one-based), pacing releases R(t)=min(K,1+floor((t-1)K/H)) cumulative units. A current alert candidate is admitted exactly when previously issued alerts are fewer than R(t). Unused released units accumulate; candidates declined before release are not queued or reconsidered. FIFO makes all K units available immediately. Both are label-blind, have identical hard ceilings, and may issue different numbers of alerts. No end-of-episode fill is permitted.
+
+Primary contrast: pacing minus FIFO alert precision. Also report coverage (true alerts/all proxy positives), false alerts per 100 observed decisions, budget utilization (alerts/sum K), action precision/coverage including unchanged review, total counts, fraction of participants exhausting K, exhaustion time conditional on exhaustion, and alert admission by planned-horizon quartile. Retain every cell and all these metrics. Zero-denominator metrics are missing, never silently zero. Intervals: 2,000 paired participant-cluster percentile bootstrap replicates, seed 20260911, conditional on the frozen scores, thresholds and horizons; no inference over model fitting or policy selection. No multiplicity-adjusted confirmatory claim.
+
+Verification: reproduce all six archived FIFO K=8 aggregates; compare normalized caps with the earlier observed-length caps; per-step and final capacity invariants; future-suffix and appended-record invariance; route invariance under current-label changes; explicit all-candidate, empty-candidate and release-boundary cases. Save participant sufficient statistics and all paired bootstrap draws, input/code/protocol hashes, all estimates and intervals; repeat independently and compare output hashes.
+
+Horizon sources: https://openpsychologydata.metajnl.com/articles/10.5334/jopd.ak (Table 1, Materials, Note 1); https://www.nature.com/articles/s41597-026-06662-0.pdf (pp. 2–3).

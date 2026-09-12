@@ -1,0 +1,2 @@
+unit,n_traces,n_permits,n_receipts,new_independent_accepted,new_n_findings,archived_full_ECRC_accepted,archived_typed_baseline_accepted
+one_complete_clean_trace,1,32,32,True,0,True,True

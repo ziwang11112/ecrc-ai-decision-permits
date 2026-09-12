@@ -1,0 +1,107 @@
+{
+  "artifact_hash_checks": [
+    {
+      "file": "source/e1/__init__.py",
+      "sha256": "3a4e7e0c06e4979e0fdfdb0dbf41d9f6d54b94cd0ac288b87d55e7e0ab8a4aa4",
+      "original_archived_sha256": "3a4e7e0c06e4979e0fdfdb0dbf41d9f6d54b94cd0ac288b87d55e7e0ab8a4aa4",
+      "matches_original_archive": true
+    },
+    {
+      "file": "source/e1/config.py",
+      "sha256": "29866ca4c628ac70f8b66b8b650325ae60bdcb9dc6d2d2871ccb6843eabf565c",
+      "original_archived_sha256": "29866ca4c628ac70f8b66b8b650325ae60bdcb9dc6d2d2871ccb6843eabf565c",
+      "matches_original_archive": true
+    },
+    {
+      "file": "source/e1/data.py",
+      "sha256": "279775ab5b26fdc8e974ce4cc5b5f45be30895ba81206edc5413cd5fc7fe2bbc",
+      "original_archived_sha256": "279775ab5b26fdc8e974ce4cc5b5f45be30895ba81206edc5413cd5fc7fe2bbc",
+      "matches_original_archive": true
+    },
+    {
+      "file": "source/e1/metrics.py",
+      "sha256": "af8bcb843b8148bf79fd5e752118f7a7f41afb0c3eb76e8f5f7e10ac77c952b8",
+      "original_archived_sha256": "af8bcb843b8148bf79fd5e752118f7a7f41afb0c3eb76e8f5f7e10ac77c952b8",
+      "matches_original_archive": true
+    },
+    {
+      "file": "source/e1/models.py",
+      "sha256": "a20dc7efd4b5099be3ef17674bc0c4bf17fec853f0d4fbedcb60a12f49f79c11",
+      "original_archived_sha256": "a20dc7efd4b5099be3ef17674bc0c4bf17fec853f0d4fbedcb60a12f49f79c11",
+      "matches_original_archive": true
+    },
+    {
+      "file": "source/e1/provenance.py",
+      "sha256": "abf0cea88b86a63e20f487f16f8e74ee80130c1ba9d9aeb9c6f0585683ba380c",
+      "original_archived_sha256": "abf0cea88b86a63e20f487f16f8e74ee80130c1ba9d9aeb9c6f0585683ba380c",
+      "matches_original_archive": true
+    },
+    {
+      "file": "source/e1/routing.py",
+      "sha256": "bc1374f97a7e4e0abf453d295d48b4b90e6a98df3f853ba91cd932b5135a7185",
+      "original_archived_sha256": "bc1374f97a7e4e0abf453d295d48b4b90e6a98df3f853ba91cd932b5135a7185",
+      "matches_original_archive": true
+    },
+    {
+      "file": "source/run_e1.py",
+      "sha256": "47f54734eb5ae1cf71ed1df789c6ecdc07825dba4321f8a85bbb516a76fdd0ac",
+      "original_archived_sha256": "e94273e551014ea7c1d832d874bb10d41ced6d6aeeec922067d7a6eaaf438719",
+      "matches_original_archive": false
+    },
+    {
+      "file": "archived/feature_schema.json",
+      "sha256": "d411c3c722f39d9ef97790651c50fee059a5660291ff7cd4578fb6298cf37147",
+      "matches_original_archive": true
+    },
+    {
+      "file": "archived/experiment_config.json",
+      "sha256": "dc45ce82df7475beb575991fe51fcbcf31cb3baf6446c0a12acb4d350875cc39",
+      "matches_original_archive": true
+    },
+    {
+      "file": "archived/model_specifications.json",
+      "sha256": "7ed365c7768f155e63ec4268b85cdc809a089cd104143465f1ba6e1209cad81c",
+      "matches_original_archive": true
+    },
+    {
+      "file": "archived/code_hashes.csv",
+      "sha256": "0fe95a3187c33bebcd6d8ce05f495a5bd57bfc4c00ac6213bcc0811d7f40a7cf",
+      "matches_original_archive": true
+    },
+    {
+      "file": "archived/outer_fold_assignments.csv",
+      "sha256": "86ae2967dafccf36938457d6e857149c6892eb90a18973959a7941d24373c3e9",
+      "matches_original_archive": true
+    },
+    {
+      "file": "archived/outer_fold_operating_points.csv",
+      "sha256": "8c12119eae506bb2e7036299295f6b97504bb68498d93df220ac1a6fa6e6b041",
+      "matches_original_archive": true
+    },
+    {
+      "file": "archived/frozen_operating_points.csv",
+      "sha256": "bfb41f620d363c40e4c6954b733162c625c6226ef3627d0dc3ad1170149e4502",
+      "matches_original_archive": true
+    },
+    {
+      "file": "archived/dataset_summary.csv",
+      "sha256": "afdc0ecf6c78fa22e81f99c1d49e0cdfbb756501d3a2019a17f478c5a192204c",
+      "matches_original_archive": true
+    }
+  ],
+  "features": 27,
+  "models_refitted": false,
+  "original_training_environment": {
+    "packages": {
+      "joblib": "1.5.3",
+      "numpy": "2.4.5",
+      "pandas": "3.0.3",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.17.1"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\ziwan\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "entrypoint_provenance_limit": "Seven e1 modules match the archived hashes. The current run_e1.py differs from its archived hash; it is included for inspection, not asserted to be the original exact training entrypoint."
+}

@@ -1,8 +1,25 @@
 {
-  "files_scanned": 134,
-  "identity_pattern_count": 10,
-  "release_scan": "PASS",
-  "secret_pattern_count": 3,
-  "text_files_scanned": 114,
-  "violations": []
+  "release": "iasc-r2-2026-09-12",
+  "python": "3.12.14",
+  "original_core_tests": {
+    "passed": 31,
+    "failed": 0,
+    "separate_environment": true
+  },
+  "current_wrapper_QA": {
+    "passed": 10,
+    "formal_S8_denominator": false
+  },
+  "frozen_S8_source_and_input_files_verified": 34,
+  "byte_identical_public_source_mirror_files": 255,
+  "original_scientific_implementation_unchanged": true,
+  "changed_legacy_documentation_and_packaging": [
+    ".github/workflows/tests.yml",
+    ".gitignore",
+    "docs/DATA_ACCESS.md",
+    "LICENSES.md",
+    "README.md"
+  ],
+  "full_release_asset": "iasc/RELEASE_ARTIFACT.json",
+  "scope": "Local checks before publication. GitHub Actions records remote platform execution separately."
 }

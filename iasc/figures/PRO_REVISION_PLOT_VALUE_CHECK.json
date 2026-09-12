@@ -1,0 +1,15 @@
+{
+  "all_plot_values_unchanged": {
+    "fig2_plot_data.csv": true,
+    "fig3_plot_data.csv": true,
+    "fig4_plot_values.csv": true,
+    "fig5_plot_values.csv": true
+  },
+  "visual_reviewed_figures": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "figures_5_6_unchanged": true
+}

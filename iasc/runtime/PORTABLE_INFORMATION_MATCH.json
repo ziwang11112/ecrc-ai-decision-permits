@@ -1,0 +1,801 @@
+{
+  "suite": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\output\\AIR-014_IASC_Reproducibility\\runtime\\bundle_rerun",
+  "n_arm_pairs": 66,
+  "all_byte_identical_fixtures": true,
+  "scope": "same trusted issuance/policy/reservation/capacity information, not general equivalence of arbitrary malformed-state behavior",
+  "pairs": [
+    {
+      "case_pair": "boundary\\changed_permit-ARM",
+      "byte_identical_fixture": true,
+      "sha256": "5dd0224ce373344242aa582465da6298dfc290e06118a3c1e37b16be5a7ababe",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "boundary\\expired_after_arm-ARM",
+      "byte_identical_fixture": true,
+      "sha256": "5dd0224ce373344242aa582465da6298dfc290e06118a3c1e37b16be5a7ababe",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "boundary\\expired_before_arm-ARM",
+      "byte_identical_fixture": true,
+      "sha256": "5dd0224ce373344242aa582465da6298dfc290e06118a3c1e37b16be5a7ababe",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "boundary\\non_action-ARM",
+      "byte_identical_fixture": true,
+      "sha256": "5dd0224ce373344242aa582465da6298dfc290e06118a3c1e37b16be5a7ababe",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "boundary\\revoked_after_arm-ARM",
+      "byte_identical_fixture": true,
+      "sha256": "5dd0224ce373344242aa582465da6298dfc290e06118a3c1e37b16be5a7ababe",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "boundary\\revoked_before_arm-ARM",
+      "byte_identical_fixture": true,
+      "sha256": "5dd0224ce373344242aa582465da6298dfc290e06118a3c1e37b16be5a7ababe",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w1-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w1-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w1-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w1-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w1-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w4-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w4-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w4-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w4-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w4-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w8-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w8-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w8-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w8-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "performance\\w8-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "171ff16eec7019a94ca79e543cea764dbad16fd898d9a3ab21a5c1a8b781075c",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\concurrent_retries-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\concurrent_retries-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\concurrent_retries-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\concurrent_retries-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\concurrent_retries-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_ack-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_ack-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_ack-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_ack-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_ack-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_intent-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_intent-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_intent-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_intent-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_intent-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_local_commit-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_local_commit-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_local_commit-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_local_commit-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_after_local_commit-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_before_local_commit-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_before_local_commit-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_before_local_commit-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_before_local_commit-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\crash_before_local_commit-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\drop_after_commit-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\drop_after_commit-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\drop_after_commit-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\drop_after_commit-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\drop_after_commit-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\normal-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\normal-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\normal-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\normal-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\normal-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\sink_restart_after_lost_ack-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\sink_restart_after_lost_ack-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\sink_restart_after_lost_ack-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\sink_restart_after_lost_ack-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\sink_restart_after_lost_ack-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\temporary_outage-ARM-1",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\temporary_outage-ARM-2",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\temporary_outage-ARM-3",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\temporary_outage-ARM-4",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    },
+    {
+      "case_pair": "recovery\\temporary_outage-ARM-5",
+      "byte_identical_fixture": true,
+      "sha256": "21d19b22211ec31d56afa501de4d171856176a1bb96fc53d2d212e832d8da526",
+      "equal_information_fields": {
+        "policy": true,
+        "permits": true,
+        "issued_permits": true,
+        "reservations": true,
+        "capacity_state": true
+      }
+    }
+  ],
+  "auditor_sha256": "e91587fcc240ca377e092a26375838f78a821d27aa9b13d292536821f3c2595c"
+}

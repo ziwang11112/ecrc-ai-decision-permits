@@ -1,0 +1,81 @@
+--- archived/check_calibration.py
++++ check_calibration.py
+@@ -3,6 +3,7 @@
+ No model fitting, threshold change, or write to an original artifact occurs.
+ """
+ from pathlib import Path
++import argparse
+ import csv
+ import hashlib
+ import json
+@@ -14,9 +15,9 @@
+ import pandas as pd
+ 
+ HERE = Path(__file__).resolve().parent
+-ROOT = HERE.parents[1]
+-SOURCE = ROOT / "experiment_reproducibility/icair_2026/framework_v1"
+-EVIDENCE = SOURCE / "evidence_v2"
++ROOT = HERE
++SOURCE = HERE / "input/source"
++EVIDENCE = HERE / "input/evidence"
+ sys.path.insert(0, str(SOURCE))
+ from e1.config import E1Config
+ from e1.routing import route_frame, policy_metrics, threshold_grid
+@@ -35,11 +36,15 @@
+                                       -r["false_actions_per_100"], -r["action_route_rate"], r["prompt_threshold"]))
+ 
+ 
+-def main():
++def main(out):
++    out.mkdir(parents=True, exist_ok=False)
+     files = [EVIDENCE / name for name in ("predictions.csv.gz", "outer_fold_assignments.csv",
+               "outer_fold_operating_points.csv", "frozen_operating_points.csv", "experiment_config.json")]
+-    files += [SOURCE / "e1/routing.py", SOURCE / "e1/config.py", SOURCE / "e1/models.py", SOURCE / "run_e1.py", Path(__file__)]
++    files += [SOURCE / "e1/routing.py", SOURCE / "e1/config.py", SOURCE / "e1/models.py", SOURCE / "e1/__init__.py", HERE / "input/SOURCE_MANIFEST.json", HERE / "input/ENTRYPOINT_PROVENANCE.json", Path(__file__)]
+     hashes = {str(p.relative_to(ROOT)): sha(p) for p in files}
++    source_manifest = json.loads((HERE / "input/SOURCE_MANIFEST.json").read_text())
++    for entry in source_manifest["files"]:
++        assert sha(HERE / entry["path"]) == entry["sha256"]
+     config_values = json.loads((EVIDENCE / "experiment_config.json").read_text())
+     assert config_values["reference_alert_cap"] == 8 and config_values["review_cap"] == 2
+     assert config_values["action_precision_floor"] == .60 and config_values["false_action_limit_per_100"] == 9
+@@ -72,7 +77,7 @@
+                               "precision_margin": row["action_precision"]-.60,
+                               "false_limit_slack": 9-row["false_actions_per_100"],
+                               "max_false_per_100_implied_by_precision_and_capacity": 400*m/n})
+-    pd.DataFrame(selected_rows).to_csv(HERE / "calibration_selected_audit.csv", index=False)
++    pd.DataFrame(selected_rows).to_csv(out / "calibration_selected_audit.csv", index=False)
+ 
+     grid_rows, summaries = [], []
+     sets = [("global_development_oof", model, -1, group.copy()) for model, group in preds.groupby("model_name", sort=True)]
+@@ -105,8 +110,8 @@
+         summaries.append(summary)
+         grid_rows.extend(rows)
+         print(json.dumps(summary), flush=True)
+-    pd.DataFrame(grid_rows).to_csv(HERE / "calibration_reconstructed_grids.csv", index=False)
+-    pd.DataFrame(summaries).to_csv(HERE / "calibration_grid_summary.csv", index=False)
++    pd.DataFrame(grid_rows).to_csv(out / "calibration_reconstructed_grids.csv", index=False)
++    pd.DataFrame(summaries).to_csv(out / "calibration_grid_summary.csv", index=False)
+     assert all(sha(ROOT / name) == value for name, value in hashes.items())
+     report = {"python": platform.python_version(), "numpy": np.__version__, "pandas": pd.__version__,
+               "inputs_unchanged": True, "input_hashes": hashes, "models_refitted": False,
+@@ -118,8 +123,17 @@
+               "full_fitted_inner_calibration_predictions_available": False,
+               "reconstructed_grids": summaries,
+               "limitation": "Ten fitted-model outer-training calibration grids are not archived; global OOF scores cannot replace their inner OOF predictions."}
+-    (HERE / "calibration_audit.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
++    report["original_audit_input_hashes"] = source_manifest["original_audit_input_hashes"]
++    report["portable_input_manifest_sha256"] = sha(HERE / "input/SOURCE_MANIFEST.json")
++    report["entrypoint_provenance"] = source_manifest["entrypoint"]
++    report["entrypoint_required_or_executed"] = False
++    for entry in source_manifest["files"]:
++        assert sha(HERE / entry["path"]) == entry["sha256"]
++    (out / "calibration_audit.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+ 
+ 
+ if __name__ == "__main__":
+-    main()
++    parser = argparse.ArgumentParser(description=__doc__)
++    parser.add_argument("--out", type=Path, default=HERE / "out")
++    args = parser.parse_args()
++    main(args.out.resolve())

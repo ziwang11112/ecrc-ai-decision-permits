@@ -1,0 +1,46 @@
+{
+  "inputs": [
+    {
+      "name": "online_participant_statistics.csv.gz",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/online/out/online_participant_statistics.csv.gz",
+      "sha256": "229b2c1d428edd8c409c15c70eda3cb8eea55fdc82fc8b5a2f49b5d36e7c37bc",
+      "bytes": 103188
+    },
+    {
+      "name": "online_estimates.csv",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/online/out/online_estimates.csv",
+      "sha256": "7868c4b792ac7ac08887921ec1a91d4026b9392880155cac6582fc0085ead822",
+      "bytes": 7952
+    },
+    {
+      "name": "frozen_participant_statistics.csv.gz",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/sequence/out/frozen_participant_statistics.csv.gz",
+      "sha256": "fbb4a1de6ae74ead1ca7308b0fea83d3ff1cecfedd5a2475148edf3255c0669f",
+      "bytes": 71448
+    },
+    {
+      "name": "a4_permission_grid.csv",
+      "source_relative_path": "submission_v2/analysis/out/a4_permission_grid.csv",
+      "sha256": "fa9f84a952c4813d7a5117c558bf933fc9733f2970c4969907b6a22c3d870357",
+      "bytes": 9711
+    },
+    {
+      "name": "online_PROTOCOL.md",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/online/PROTOCOL.md",
+      "sha256": "ff5eaba38d84bec1da236638ff6e478be1fee0681881b87362e84e35f32fdd59",
+      "bytes": 3156
+    },
+    {
+      "name": "sequence_PROTOCOL.md",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/sequence/PROTOCOL.md",
+      "sha256": "03d71d5f567f7d0ef156074e7a8bd1c661ff575f118b5518b4a2cbf3f8be0249",
+      "bytes": 6866
+    },
+    {
+      "name": "CALIBRATION_CHECK.md",
+      "source_relative_path": "qa/iasc_pro_review_2026-09-11/CALIBRATION_CHECK.md",
+      "sha256": "138b2b45cb0a4e7df4e081b9bda84316abec9c29cdde3011a1f2ba2d85cf229c",
+      "bytes": 11421
+    }
+  ]
+}

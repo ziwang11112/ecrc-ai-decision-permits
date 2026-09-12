@@ -1,0 +1,16 @@
+{
+  "hand_computable_zero_denominator_fixture_pass": true,
+  "explicit_duplication_checks": 12,
+  "arm_specific_and_common_population_differences_distinguished": true,
+  "all_planned_arm_cells": 36,
+  "all_planned_comparisons": 18,
+  "metrics_per_cell": 2,
+  "harmonized_participant_rows": 12168,
+  "archived_pooled_cells_reproduced": 36,
+  "max_archived_pooled_gap": 1.7763568394002505e-15,
+  "all_common_and_arm_inventories_aligned": true,
+  "all_counts_integer_and_consistent": true,
+  "finite_bootstrap_arm_estimates_min": 2000,
+  "finite_bootstrap_contrasts_min": 2000,
+  "all_input_hashes_unchanged": true
+}

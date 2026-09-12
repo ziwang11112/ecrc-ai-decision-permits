@@ -1,0 +1,861 @@
+{
+  "requests": [
+    {
+      "evidence": {
+        "created_at": "2026-09-12T12:00:04.000000Z",
+        "decision_id": "target",
+        "items": [
+          {
+            "available_at": "2026-09-12T12:00:04.000000Z",
+            "evidence_id": "e-target",
+            "evidence_type": "signal",
+            "observed_at": "2026-09-12T12:00:03.000000Z",
+            "provenance_hash": "e49e0d93d62e2b8767c000de94dc02e5233da7278554a828cf55c0a2a130ebc4",
+            "requested_for_use": true,
+            "schema_version": "1.0",
+            "source": "local-fixture"
+          }
+        ]
+      },
+      "policy": {
+        "alert_capacity": 2,
+        "allowed_routes": [
+          "alert",
+          "review",
+          "abstain",
+          "no_action"
+        ],
+        "approved_models": [
+          {
+            "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "model_id": "fixed-proposal"
+          }
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit"
+        ],
+        "capacity_scope": "subject_session",
+        "claim_rules": [
+          {
+            "claim_id": "notify",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "alert"
+            ]
+          },
+          {
+            "claim_id": "review_request",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "review"
+            ]
+          }
+        ],
+        "effective_from": "2026-09-12T00:00:00.000000Z",
+        "evidence_rules": [
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "signal",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          },
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "context",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          }
+        ],
+        "expires_at": "2030-01-01T00:00:00.000000Z",
+        "failure_mode": "fail_closed",
+        "issuer_id": "trusted-local-experiment",
+        "policy_id": "e2e-limited-policy",
+        "review_band_width": 0.03,
+        "review_capacity": 1,
+        "revision": 1,
+        "score_threshold": 0.6,
+        "uncertainty_threshold": 0.9
+      },
+      "proposal": {
+        "decision_id": "target",
+        "input_hash": "76d48002d2b632b6a062a868fc1c0e4c1c5e523fe850d75830d79b38b243b1d1",
+        "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "model_id": "fixed-proposal",
+        "model_version": "1",
+        "proposed_action": "alert",
+        "proposed_at": "2026-09-12T12:00:05.000000Z",
+        "score": 0.8,
+        "session_id": "shared-episode",
+        "subject_id": "shared-person",
+        "uncertainty": 0.2,
+        "validation_scope_id": "synthetic-end-to-end"
+      }
+    },
+    {
+      "evidence": {
+        "created_at": "2026-09-12T12:00:04.000000Z",
+        "decision_id": "contender-0",
+        "items": [
+          {
+            "available_at": "2026-09-12T12:00:04.000000Z",
+            "evidence_id": "e-contender-0",
+            "evidence_type": "signal",
+            "observed_at": "2026-09-12T12:00:03.000000Z",
+            "provenance_hash": "bf23b32f026794d1260a0869bbd14171bc75a94a44c0046c719a974d332e5e11",
+            "requested_for_use": true,
+            "schema_version": "1.0",
+            "source": "local-fixture"
+          }
+        ]
+      },
+      "policy": {
+        "alert_capacity": 2,
+        "allowed_routes": [
+          "alert",
+          "review",
+          "abstain",
+          "no_action"
+        ],
+        "approved_models": [
+          {
+            "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "model_id": "fixed-proposal"
+          }
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit"
+        ],
+        "capacity_scope": "subject_session",
+        "claim_rules": [
+          {
+            "claim_id": "notify",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "alert"
+            ]
+          },
+          {
+            "claim_id": "review_request",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "review"
+            ]
+          }
+        ],
+        "effective_from": "2026-09-12T00:00:00.000000Z",
+        "evidence_rules": [
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "signal",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          },
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "context",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          }
+        ],
+        "expires_at": "2030-01-01T00:00:00.000000Z",
+        "failure_mode": "fail_closed",
+        "issuer_id": "trusted-local-experiment",
+        "policy_id": "e2e-limited-policy",
+        "review_band_width": 0.03,
+        "review_capacity": 1,
+        "revision": 1,
+        "score_threshold": 0.6,
+        "uncertainty_threshold": 0.9
+      },
+      "proposal": {
+        "decision_id": "contender-0",
+        "input_hash": "b835903da71c52bc266e1e7fa389d2f8c5440983908b7252dcb1ebfebf3f3a83",
+        "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "model_id": "fixed-proposal",
+        "model_version": "1",
+        "proposed_action": "alert",
+        "proposed_at": "2026-09-12T12:00:05.000000Z",
+        "score": 0.8,
+        "session_id": "shared-episode",
+        "subject_id": "shared-person",
+        "uncertainty": 0.2,
+        "validation_scope_id": "synthetic-end-to-end"
+      }
+    },
+    {
+      "evidence": {
+        "created_at": "2026-09-12T12:00:04.000000Z",
+        "decision_id": "contender-1",
+        "items": [
+          {
+            "available_at": "2026-09-12T12:00:04.000000Z",
+            "evidence_id": "e-contender-1",
+            "evidence_type": "signal",
+            "observed_at": "2026-09-12T12:00:03.000000Z",
+            "provenance_hash": "5a7b97b49195c7233cbc2350a933ad325b3e0bd74ef185a5a634d78952d6c93a",
+            "requested_for_use": true,
+            "schema_version": "1.0",
+            "source": "local-fixture"
+          }
+        ]
+      },
+      "policy": {
+        "alert_capacity": 2,
+        "allowed_routes": [
+          "alert",
+          "review",
+          "abstain",
+          "no_action"
+        ],
+        "approved_models": [
+          {
+            "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "model_id": "fixed-proposal"
+          }
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit"
+        ],
+        "capacity_scope": "subject_session",
+        "claim_rules": [
+          {
+            "claim_id": "notify",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "alert"
+            ]
+          },
+          {
+            "claim_id": "review_request",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "review"
+            ]
+          }
+        ],
+        "effective_from": "2026-09-12T00:00:00.000000Z",
+        "evidence_rules": [
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "signal",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          },
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "context",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          }
+        ],
+        "expires_at": "2030-01-01T00:00:00.000000Z",
+        "failure_mode": "fail_closed",
+        "issuer_id": "trusted-local-experiment",
+        "policy_id": "e2e-limited-policy",
+        "review_band_width": 0.03,
+        "review_capacity": 1,
+        "revision": 1,
+        "score_threshold": 0.6,
+        "uncertainty_threshold": 0.9
+      },
+      "proposal": {
+        "decision_id": "contender-1",
+        "input_hash": "a1b2896c6cac029b038552975225abe81dc71b01ab2a8353b596559ef374288b",
+        "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "model_id": "fixed-proposal",
+        "model_version": "1",
+        "proposed_action": "alert",
+        "proposed_at": "2026-09-12T12:00:05.000000Z",
+        "score": 0.8,
+        "session_id": "shared-episode",
+        "subject_id": "shared-person",
+        "uncertainty": 0.2,
+        "validation_scope_id": "synthetic-end-to-end"
+      }
+    },
+    {
+      "evidence": {
+        "created_at": "2026-09-12T12:00:04.000000Z",
+        "decision_id": "contender-2",
+        "items": [
+          {
+            "available_at": "2026-09-12T12:00:04.000000Z",
+            "evidence_id": "e-contender-2",
+            "evidence_type": "signal",
+            "observed_at": "2026-09-12T12:00:03.000000Z",
+            "provenance_hash": "6d7bc1273bcffa1507d80d83a7fa8691410a53e573dd891d9e59925dfb6b07cf",
+            "requested_for_use": true,
+            "schema_version": "1.0",
+            "source": "local-fixture"
+          }
+        ]
+      },
+      "policy": {
+        "alert_capacity": 2,
+        "allowed_routes": [
+          "alert",
+          "review",
+          "abstain",
+          "no_action"
+        ],
+        "approved_models": [
+          {
+            "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "model_id": "fixed-proposal"
+          }
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit"
+        ],
+        "capacity_scope": "subject_session",
+        "claim_rules": [
+          {
+            "claim_id": "notify",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "alert"
+            ]
+          },
+          {
+            "claim_id": "review_request",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "review"
+            ]
+          }
+        ],
+        "effective_from": "2026-09-12T00:00:00.000000Z",
+        "evidence_rules": [
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "signal",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          },
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "context",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          }
+        ],
+        "expires_at": "2030-01-01T00:00:00.000000Z",
+        "failure_mode": "fail_closed",
+        "issuer_id": "trusted-local-experiment",
+        "policy_id": "e2e-limited-policy",
+        "review_band_width": 0.03,
+        "review_capacity": 1,
+        "revision": 1,
+        "score_threshold": 0.6,
+        "uncertainty_threshold": 0.9
+      },
+      "proposal": {
+        "decision_id": "contender-2",
+        "input_hash": "fcd11c7ab1dfd5394ff956531c94ed117e863dcf7c6792f4df5a41042dd3ccb2",
+        "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "model_id": "fixed-proposal",
+        "model_version": "1",
+        "proposed_action": "alert",
+        "proposed_at": "2026-09-12T12:00:05.000000Z",
+        "score": 0.8,
+        "session_id": "shared-episode",
+        "subject_id": "shared-person",
+        "uncertainty": 0.2,
+        "validation_scope_id": "synthetic-end-to-end"
+      }
+    },
+    {
+      "evidence": {
+        "created_at": "2026-09-12T12:00:04.000000Z",
+        "decision_id": "contender-3",
+        "items": [
+          {
+            "available_at": "2026-09-12T12:00:04.000000Z",
+            "evidence_id": "e-contender-3",
+            "evidence_type": "signal",
+            "observed_at": "2026-09-12T12:00:03.000000Z",
+            "provenance_hash": "d8e4ca1ad74009651d3388489d6fc74519b53c1e26ba8faf945ae30f2102f395",
+            "requested_for_use": true,
+            "schema_version": "1.0",
+            "source": "local-fixture"
+          }
+        ]
+      },
+      "policy": {
+        "alert_capacity": 2,
+        "allowed_routes": [
+          "alert",
+          "review",
+          "abstain",
+          "no_action"
+        ],
+        "approved_models": [
+          {
+            "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "model_id": "fixed-proposal"
+          }
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit"
+        ],
+        "capacity_scope": "subject_session",
+        "claim_rules": [
+          {
+            "claim_id": "notify",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "alert"
+            ]
+          },
+          {
+            "claim_id": "review_request",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "review"
+            ]
+          }
+        ],
+        "effective_from": "2026-09-12T00:00:00.000000Z",
+        "evidence_rules": [
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "signal",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          },
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "context",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          }
+        ],
+        "expires_at": "2030-01-01T00:00:00.000000Z",
+        "failure_mode": "fail_closed",
+        "issuer_id": "trusted-local-experiment",
+        "policy_id": "e2e-limited-policy",
+        "review_band_width": 0.03,
+        "review_capacity": 1,
+        "revision": 1,
+        "score_threshold": 0.6,
+        "uncertainty_threshold": 0.9
+      },
+      "proposal": {
+        "decision_id": "contender-3",
+        "input_hash": "a8a49113d1d635fa3f1e4d7184ff873b35b3fa279bf504be9b030a59699b7dbf",
+        "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "model_id": "fixed-proposal",
+        "model_version": "1",
+        "proposed_action": "alert",
+        "proposed_at": "2026-09-12T12:00:05.000000Z",
+        "score": 0.8,
+        "session_id": "shared-episode",
+        "subject_id": "shared-person",
+        "uncertainty": 0.2,
+        "validation_scope_id": "synthetic-end-to-end"
+      }
+    },
+    {
+      "evidence": {
+        "created_at": "2026-09-12T12:00:04.000000Z",
+        "decision_id": "contender-4",
+        "items": [
+          {
+            "available_at": "2026-09-12T12:00:04.000000Z",
+            "evidence_id": "e-contender-4",
+            "evidence_type": "signal",
+            "observed_at": "2026-09-12T12:00:03.000000Z",
+            "provenance_hash": "88eda093ca8fa8d8ed009bf96b586de853bde451421ccb95f01008eda8004632",
+            "requested_for_use": true,
+            "schema_version": "1.0",
+            "source": "local-fixture"
+          }
+        ]
+      },
+      "policy": {
+        "alert_capacity": 2,
+        "allowed_routes": [
+          "alert",
+          "review",
+          "abstain",
+          "no_action"
+        ],
+        "approved_models": [
+          {
+            "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "model_id": "fixed-proposal"
+          }
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit"
+        ],
+        "capacity_scope": "subject_session",
+        "claim_rules": [
+          {
+            "claim_id": "notify",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "alert"
+            ]
+          },
+          {
+            "claim_id": "review_request",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "review"
+            ]
+          }
+        ],
+        "effective_from": "2026-09-12T00:00:00.000000Z",
+        "evidence_rules": [
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "signal",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          },
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "context",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          }
+        ],
+        "expires_at": "2030-01-01T00:00:00.000000Z",
+        "failure_mode": "fail_closed",
+        "issuer_id": "trusted-local-experiment",
+        "policy_id": "e2e-limited-policy",
+        "review_band_width": 0.03,
+        "review_capacity": 1,
+        "revision": 1,
+        "score_threshold": 0.6,
+        "uncertainty_threshold": 0.9
+      },
+      "proposal": {
+        "decision_id": "contender-4",
+        "input_hash": "15b1ba432b6bcdf9384e9950f9e6ccee21716ba2c8a551d65e43d6a8b22937b2",
+        "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "model_id": "fixed-proposal",
+        "model_version": "1",
+        "proposed_action": "alert",
+        "proposed_at": "2026-09-12T12:00:05.000000Z",
+        "score": 0.8,
+        "session_id": "shared-episode",
+        "subject_id": "shared-person",
+        "uncertainty": 0.2,
+        "validation_scope_id": "synthetic-end-to-end"
+      }
+    },
+    {
+      "evidence": {
+        "created_at": "2026-09-12T12:00:04.000000Z",
+        "decision_id": "contender-5",
+        "items": [
+          {
+            "available_at": "2026-09-12T12:00:04.000000Z",
+            "evidence_id": "e-contender-5",
+            "evidence_type": "signal",
+            "observed_at": "2026-09-12T12:00:03.000000Z",
+            "provenance_hash": "2e226a211affadcb9a3f31aa2a21db79a476b253f9dc55f28b7bfeda0315ba9d",
+            "requested_for_use": true,
+            "schema_version": "1.0",
+            "source": "local-fixture"
+          }
+        ]
+      },
+      "policy": {
+        "alert_capacity": 2,
+        "allowed_routes": [
+          "alert",
+          "review",
+          "abstain",
+          "no_action"
+        ],
+        "approved_models": [
+          {
+            "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "model_id": "fixed-proposal"
+          }
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit"
+        ],
+        "capacity_scope": "subject_session",
+        "claim_rules": [
+          {
+            "claim_id": "notify",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "alert"
+            ]
+          },
+          {
+            "claim_id": "review_request",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "review"
+            ]
+          }
+        ],
+        "effective_from": "2026-09-12T00:00:00.000000Z",
+        "evidence_rules": [
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "signal",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          },
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "context",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          }
+        ],
+        "expires_at": "2030-01-01T00:00:00.000000Z",
+        "failure_mode": "fail_closed",
+        "issuer_id": "trusted-local-experiment",
+        "policy_id": "e2e-limited-policy",
+        "review_band_width": 0.03,
+        "review_capacity": 1,
+        "revision": 1,
+        "score_threshold": 0.6,
+        "uncertainty_threshold": 0.9
+      },
+      "proposal": {
+        "decision_id": "contender-5",
+        "input_hash": "c4b1b0df57cb0237cdc67835a80d7b4854f7d2b346b2944e84bc6e64ff11c13f",
+        "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "model_id": "fixed-proposal",
+        "model_version": "1",
+        "proposed_action": "alert",
+        "proposed_at": "2026-09-12T12:00:05.000000Z",
+        "score": 0.8,
+        "session_id": "shared-episode",
+        "subject_id": "shared-person",
+        "uncertainty": 0.2,
+        "validation_scope_id": "synthetic-end-to-end"
+      }
+    },
+    {
+      "evidence": {
+        "created_at": "2026-09-12T12:00:04.000000Z",
+        "decision_id": "contender-6",
+        "items": [
+          {
+            "available_at": "2026-09-12T12:00:04.000000Z",
+            "evidence_id": "e-contender-6",
+            "evidence_type": "signal",
+            "observed_at": "2026-09-12T12:00:03.000000Z",
+            "provenance_hash": "f4a3fa84fa1bf33612ebc5e5d36f6a372de023903e4e825aa75fab826aea7886",
+            "requested_for_use": true,
+            "schema_version": "1.0",
+            "source": "local-fixture"
+          }
+        ]
+      },
+      "policy": {
+        "alert_capacity": 2,
+        "allowed_routes": [
+          "alert",
+          "review",
+          "abstain",
+          "no_action"
+        ],
+        "approved_models": [
+          {
+            "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "model_id": "fixed-proposal"
+          }
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit"
+        ],
+        "capacity_scope": "subject_session",
+        "claim_rules": [
+          {
+            "claim_id": "notify",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "alert"
+            ]
+          },
+          {
+            "claim_id": "review_request",
+            "reason_codes": [],
+            "required_evidence_types": [
+              "signal"
+            ],
+            "routes": [
+              "review"
+            ]
+          }
+        ],
+        "effective_from": "2026-09-12T00:00:00.000000Z",
+        "evidence_rules": [
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "signal",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          },
+          {
+            "allowed_schema_versions": [
+              "1.0"
+            ],
+            "allowed_sources": [
+              "local-fixture"
+            ],
+            "evidence_type": "context",
+            "max_age_seconds": 60,
+            "use_allowed": true
+          }
+        ],
+        "expires_at": "2030-01-01T00:00:00.000000Z",
+        "failure_mode": "fail_closed",
+        "issuer_id": "trusted-local-experiment",
+        "policy_id": "e2e-limited-policy",
+        "review_band_width": 0.03,
+        "review_capacity": 1,
+        "revision": 1,
+        "score_threshold": 0.6,
+        "uncertainty_threshold": 0.9
+      },
+      "proposal": {
+        "decision_id": "contender-6",
+        "input_hash": "9948518418186bf522eedc60df2712b968235840e36952a4d351d08b53d84a46",
+        "model_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "model_id": "fixed-proposal",
+        "model_version": "1",
+        "proposed_action": "alert",
+        "proposed_at": "2026-09-12T12:00:05.000000Z",
+        "score": 0.8,
+        "session_id": "shared-episode",
+        "subject_id": "shared-person",
+        "uncertainty": 0.2,
+        "validation_scope_id": "synthetic-end-to-end"
+      }
+    }
+  ],
+  "scenario": "kill_during_issuance"
+}

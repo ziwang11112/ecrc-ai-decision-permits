@@ -1,0 +1,2 @@
+# Python 3.12 standard library only. No third-party packages required.
+# The recorded run used Python 3.12.14 and its SQLite 3.53.1.

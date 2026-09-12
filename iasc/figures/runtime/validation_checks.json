@@ -1,0 +1,22 @@
+{
+  "performance_cells": 6,
+  "performance_repetitions_per_cell": 5,
+  "recovery_cases": 90,
+  "recovery_scenarios": 9,
+  "recovery_repetitions_per_arm_scenario": 5,
+  "recovery_error_counter_totals": {
+    "duplicate_effects": 0,
+    "omitted_effects": 0,
+    "receipt_mismatches": 0,
+    "oversubscription": 0
+  },
+  "final_expected_state_cases": 90,
+  "held_uncertain_cases": 60,
+  "expected_uncertain_cases": 60,
+  "integrity_counters_are_input_results_not_new_experiments": true,
+  "p95_aggregation": "median/min/max of five per-run p95 latency estimates",
+  "bars_are": "observed min-max ranges; not confidence intervals",
+  "raw_performance_aggregate_check": true,
+  "timed_actions_per_run": 64,
+  "timed_actions_source": "fixed protocol; checked against raw runs when supplied"
+}

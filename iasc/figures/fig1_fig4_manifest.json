@@ -1,0 +1,289 @@
+{
+  "style": {
+    "font": "Arial",
+    "font_path_at_build": "C:\\Windows\\Fonts\\arial.ttf",
+    "width_inches": 6.5,
+    "base_font_pt": 9,
+    "minimum_font_pt": 8,
+    "data_blue": "#24557A",
+    "text_color": "#000000"
+  },
+  "data_sha256": "fa7699e2c4f4d3f82f7636d36e17e472a0a109e869cd30c0b83b0905b51c2a15",
+  "provenance": {
+    "aggregate_source": "figures_current\\Figure_4\\fig4_runtime_validation_source_data.csv",
+    "aggregate_sha256": "fa7699e2c4f4d3f82f7636d36e17e472a0a109e869cd30c0b83b0905b51c2a15",
+    "sources": [
+      {
+        "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_bridge\\bridge_summary.json",
+        "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_bridge\\bridge_summary.json",
+        "sha256": "c6b81a70a7ca7b4b0115349df5ab9a86b6a169702a0018a4a1917edf98d21543"
+      },
+      {
+        "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_systems\\systems_performance_aggregate.csv",
+        "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_systems\\systems_performance_aggregate.csv",
+        "sha256": "a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0"
+      },
+      {
+        "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_systems\\systems_performance_runs.csv",
+        "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_systems\\systems_performance_runs.csv",
+        "sha256": "fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1"
+      },
+      {
+        "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_systems\\systems_unsafe_race_witness.json",
+        "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_systems\\systems_unsafe_race_witness.json",
+        "sha256": "f53998e441cd3c8cb1e16e4ba1a1c22b888c8b47b0dc4f895dd4c9155c908b85"
+      },
+      {
+        "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_v2\\component_ablation\\record_clean_validator_summary.csv",
+        "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_v2\\component_ablation\\record_clean_validator_summary.csv",
+        "sha256": "906b4252c8648d8cc07682fc48386d544dd4485b550816debd254d85d5e957ff"
+      },
+      {
+        "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_v2\\component_ablation\\record_component_summary.csv",
+        "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_v2\\component_ablation\\record_component_summary.csv",
+        "sha256": "3246e8448c4c1945914679980a07ee1dc1f683317280859ff02acebccff4844f"
+      }
+    ],
+    "03_method.tex": {
+      "original": "output\\iasc_overleaf\\content\\03_method.tex",
+      "sha256": "82290c80d275fe5588f7e3d8214889ec2988af749ef3ea9eedf5af7b6f4b8b87"
+    },
+    "04_evaluation.tex": {
+      "original": "output\\iasc_overleaf\\content\\04_evaluation.tex",
+      "sha256": "b5b2c880e1a16bff0e27c51a15cadd3a259dc18742a0d2af8daba30fc069a243"
+    }
+  },
+  "upstream_checks": [
+    {
+      "selector": "validator=ordinary_log;expected_component=trusted_permit_claim_binding",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=ordinary_log;expected_component=stateful_receipt_verification",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=claim_binding_off;expected_component=trusted_permit_claim_binding",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=claim_binding_off;expected_component=stateful_receipt_verification",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=receipt_state_verification_off;expected_component=trusted_permit_claim_binding",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=receipt_state_verification_off;expected_component=stateful_receipt_verification",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=full_binding_and_receipt;expected_component=trusted_permit_claim_binding",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=full_binding_and_receipt;expected_component=stateful_receipt_verification",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=ordinary_log",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=claim_binding_off",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=receipt_state_verification_off",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "validator=full_binding_and_receipt",
+      "source_file": "icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "array_route_match_count+array_route_mismatch_count",
+      "source_file": "icair_2026/framework_v1/evidence_bridge/bridge_summary.json",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "array_reason_match_count+array_reason_mismatch_count",
+      "source_file": "icair_2026/framework_v1/evidence_bridge/bridge_summary.json",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "barrier_forced_interleaving=true",
+      "source_file": "icair_2026/framework_v1/evidence_systems/systems_unsafe_race_witness.json",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "case=concurrent_24_cap3",
+      "source_file": "icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "case=concurrent_96_cap8",
+      "source_file": "icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "case=worker_sweep_96_cap8_w1",
+      "source_file": "icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "case=worker_sweep_96_cap8_w2",
+      "source_file": "icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "case=worker_sweep_96_cap8_w4",
+      "source_file": "icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "case=worker_sweep_96_cap8_w8",
+      "source_file": "icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    },
+    {
+      "selector": "case=worker_sweep_96_cap8_w16",
+      "source_file": "icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+      "hash_verified": true,
+      "numeric_fields_verified": true
+    }
+  ],
+  "display_mapping": {
+    "Ordinary log": "Typed-record\nbaseline",
+    "Claim/evidence binding off": "Claim/evidence\nbinding off",
+    "Receipt/state off": "Receipt/state off",
+    "Full ECRC": "Full ECRC"
+  },
+  "fig1_is_schematic": true,
+  "fig1_method_source": "data/fig1_fig4/03_method.tex",
+  "fig1_selection_source": "data/fig1_fig4/04_evaluation.tex",
+  "no_experiment_rerun": true,
+  "script_sha256": "a65342140a9cf56a643cec2af4d53c3674e1d761f8a733f9da2c31f4540b672b",
+  "plot_source_data": {
+    "path": "fig4_source_data.csv",
+    "sha256": "5409010eb6caac2a3e7945351c38fbeea2a9b337d8f64f644371b43c7e9fb8a8",
+    "rows": 20
+  },
+  "capacity_label_mapping": {
+    "Non-atomic witness": "Race witness (forced non-atomic interleaving)"
+  },
+  "fig1": {
+    "outputs": {
+      "pdf": {
+        "path": "fig1.pdf",
+        "sha256": "2677dbac05ee82fe478a97a707c329f404f62382f1ca186e99e1a1d7fbfd8877"
+      },
+      "svg": {
+        "path": "fig1.svg",
+        "sha256": "66281a657431113336fb952268bff516055f0fe587e9ee71e0b7b093eef7505f"
+      },
+      "png": {
+        "path": "fig1.png",
+        "sha256": "0c0e1898ffced6c876b24c508fb8555a9a6a7d62fdb7d5073d7ab6c7288288ba"
+      },
+      "tiff": {
+        "path": "fig1.tiff",
+        "sha256": "687d76beb14341e3d65dea18f97d8a8f1d48d90067f8840cfd9acb16fddd91ec"
+      }
+    },
+    "minimum_font_pt": 8.0,
+    "width_inches": 6.5,
+    "all_text_black": true,
+    "fonts": [
+      {
+        "name": "ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "raster_images_in_pdf": 0,
+    "page_size_points": [
+      0.0,
+      0.0,
+      468.0,
+      252.0
+    ]
+  },
+  "fig4": {
+    "outputs": {
+      "pdf": {
+        "path": "fig4.pdf",
+        "sha256": "505dd8c1dc9196d2e0e2a7c75090fab220c234676f88259a274e1e69d0ff42b8"
+      },
+      "svg": {
+        "path": "fig4.svg",
+        "sha256": "2421fb1b736eae69a493e95267ccefcb6d2a1bab0bbd582451b55022283bcb93"
+      },
+      "png": {
+        "path": "fig4.png",
+        "sha256": "5780f110faafc319fc35836d85473eaa5aad0ccde09e82ee57fec700edf6e3dc"
+      },
+      "tiff": {
+        "path": "fig4.tiff",
+        "sha256": "ae8e5eb5858c3cf7b7567975da9dd1eb0d79444f508fc4c2e9d0cc13a9fb0898"
+      }
+    },
+    "minimum_font_pt": 8.0,
+    "width_inches": 6.5,
+    "all_text_black": true,
+    "fonts": [
+      {
+        "name": "ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "raster_images_in_pdf": 0,
+    "page_size_points": [
+      0.0,
+      0.0,
+      468.0,
+      252.0
+    ]
+  }
+}

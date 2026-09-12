@@ -1,0 +1,44 @@
+{
+  "aggregate_source": "figures_current\\Figure_4\\fig4_runtime_validation_source_data.csv",
+  "aggregate_sha256": "fa7699e2c4f4d3f82f7636d36e17e472a0a109e869cd30c0b83b0905b51c2a15",
+  "sources": [
+    {
+      "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_bridge\\bridge_summary.json",
+      "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_bridge\\bridge_summary.json",
+      "sha256": "c6b81a70a7ca7b4b0115349df5ab9a86b6a169702a0018a4a1917edf98d21543"
+    },
+    {
+      "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_systems\\systems_performance_aggregate.csv",
+      "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_systems\\systems_performance_aggregate.csv",
+      "sha256": "a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0"
+    },
+    {
+      "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_systems\\systems_performance_runs.csv",
+      "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_systems\\systems_performance_runs.csv",
+      "sha256": "fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1"
+    },
+    {
+      "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_systems\\systems_unsafe_race_witness.json",
+      "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_systems\\systems_unsafe_race_witness.json",
+      "sha256": "f53998e441cd3c8cb1e16e4ba1a1c22b888c8b47b0dc4f895dd4c9155c908b85"
+    },
+    {
+      "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_v2\\component_ablation\\record_clean_validator_summary.csv",
+      "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_v2\\component_ablation\\record_clean_validator_summary.csv",
+      "sha256": "906b4252c8648d8cc07682fc48386d544dd4485b550816debd254d85d5e957ff"
+    },
+    {
+      "original": "experiment_reproducibility\\icair_2026\\framework_v1\\evidence_v2\\component_ablation\\record_component_summary.csv",
+      "snapshot": "upstream\\icair_2026\\framework_v1\\evidence_v2\\component_ablation\\record_component_summary.csv",
+      "sha256": "3246e8448c4c1945914679980a07ee1dc1f683317280859ff02acebccff4844f"
+    }
+  ],
+  "03_method.tex": {
+    "original": "output\\iasc_overleaf\\content\\03_method.tex",
+    "sha256": "82290c80d275fe5588f7e3d8214889ec2988af749ef3ea9eedf5af7b6f4b8b87"
+  },
+  "04_evaluation.tex": {
+    "original": "output\\iasc_overleaf\\content\\04_evaluation.tex",
+    "sha256": "b5b2c880e1a16bff0e27c51a15cadd3a259dc18742a0d2af8daba30fc069a243"
+  }
+}

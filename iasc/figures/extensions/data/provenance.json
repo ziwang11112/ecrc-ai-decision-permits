@@ -1,0 +1,97 @@
+[
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/system_baseline/component_summary.csv",
+    "snapshot": "component_summary.csv",
+    "sha256": "6898f5373bb06d3ea8714380bf04a091416b5139fb00c837189bdc993caecd2c"
+  },
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/system_baseline/clean_control_results.csv",
+    "snapshot": "clean_control_results.csv",
+    "sha256": "bd96254308fae7505506bb26952e4f46440a952f308913e6c333214750e2a317"
+  },
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/system_baseline/run_manifest.json",
+    "snapshot": "system_run_manifest.json",
+    "sha256": "408cde720591f66b4268c93af2e0819746238817b1fa037d89a1a8c78aa9b51e"
+  },
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/system_baseline/PROTOCOL.md",
+    "snapshot": "system_PROTOCOL.md",
+    "sha256": "7b2e9a335984f7a017e54521a65487fe3a84a2ff2215dfb196cbe11599e518ad"
+  },
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/sequence/out/frozen_candidate_summary.csv",
+    "snapshot": "frozen_candidate_summary.csv",
+    "sha256": "5733a49a9eaa6aa68f6854ef47a8e6d614ae603b87e448f5ed01c09fa77c06b3"
+  },
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/sequence/PROTOCOL.md",
+    "snapshot": "sequence_PROTOCOL.md",
+    "sha256": "03d71d5f567f7d0ef156074e7a8bd1c661ff575f118b5518b4a2cbf3f8be0249"
+  },
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/online/out/online_intervals.csv",
+    "snapshot": "online_intervals.csv",
+    "sha256": "0447449b6be326b8750c107128f31ad39299b64823a88eed0a4fe9f32befc239"
+  },
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/online/out/online_estimates.csv",
+    "snapshot": "online_estimates.csv",
+    "sha256": "7868c4b792ac7ac08887921ec1a91d4026b9392880155cac6582fc0085ead822"
+  },
+  {
+    "original": "qa/iasc_experiment_extension_2026-09-11/online/PROTOCOL.md",
+    "snapshot": "online_PROTOCOL.md",
+    "sha256": "ff5eaba38d84bec1da236638ff6e478be1fee0681881b87362e84e35f32fdd59"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/03_method.tex",
+    "snapshot": "legacy/03_method.tex",
+    "sha256": "82290c80d275fe5588f7e3d8214889ec2988af749ef3ea9eedf5af7b6f4b8b87"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/04_evaluation.tex",
+    "snapshot": "legacy/04_evaluation.tex",
+    "sha256": "b5b2c880e1a16bff0e27c51a15cadd3a259dc18742a0d2af8daba30fc069a243"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/fig4_source_data.csv",
+    "snapshot": "legacy/fig4_source_data.csv",
+    "sha256": "fa7699e2c4f4d3f82f7636d36e17e472a0a109e869cd30c0b83b0905b51c2a15"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/provenance.json",
+    "snapshot": "legacy/provenance.json",
+    "sha256": "da5f5807e5371851db7bff0d1e1637ca78fffa0c6c8df077384b8a78a55b0ae4"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_bridge/bridge_summary.json",
+    "snapshot": "legacy/upstream/icair_2026/framework_v1/evidence_bridge/bridge_summary.json",
+    "sha256": "c6b81a70a7ca7b4b0115349df5ab9a86b6a169702a0018a4a1917edf98d21543"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+    "snapshot": "legacy/upstream/icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+    "sha256": "a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv",
+    "snapshot": "legacy/upstream/icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv",
+    "sha256": "fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_systems/systems_unsafe_race_witness.json",
+    "snapshot": "legacy/upstream/icair_2026/framework_v1/evidence_systems/systems_unsafe_race_witness.json",
+    "sha256": "f53998e441cd3c8cb1e16e4ba1a1c22b888c8b47b0dc4f895dd4c9155c908b85"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+    "snapshot": "legacy/upstream/icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+    "sha256": "906b4252c8648d8cc07682fc48386d544dd4485b550816debd254d85d5e957ff"
+  },
+  {
+    "original": "qa/iasc_submission_redraw_2026-09-11/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+    "snapshot": "legacy/upstream/icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+    "sha256": "3246e8448c4c1945914679980a07ee1dc1f683317280859ff02acebccff4844f"
+  }
+]

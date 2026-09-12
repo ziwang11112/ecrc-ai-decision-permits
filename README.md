@@ -1,157 +1,107 @@
-# ECRC: Transactional AI Decision Permits
+# ECRC: decision permits for capacity-bounded AI actions
 
-ECRC is an open-source reference implementation of an **Evidence, Capacity,
-Route and Claim** control layer for sequential AI decision support. It sits
-between a frozen predictive component and an operational side effect.
+Code and reproducibility materials for **Permission Is Not Prediction: Decision
+Permits for Capacity-Bounded Artificial Intelligence Actions**.
 
-![ECRC reservation-permit-receipt lifecycle](manuscript/icair_2026/framework_v1/figures/fig1_ecrc_overview.png)
+**Fixed IASC version:** [iasc-r2-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12).
+The release contains the full S1–S8 reproducibility archive, including both S8
+run sets, and checksums. This repository also exposes the current implementation,
+analysis and plotting sources in [iasc/](iasc/README.md).
 
-## Problem
+## What is evaluated
 
-A model score can propose an action, but it does not establish that the
-decision-time evidence is eligible, that a finite alert or review resource is
-available, that the permitted interpretation is appropriately bounded, or
-that reserved capacity is reconciled after execution. These gaps become
-stateful in sequential systems: otherwise similar predictions can require
-different routes as evidence and resource state change.
+ECRC separates a frozen model proposal from permission to act. It binds eligible
+authorization evidence, an exclusive route, scoped alert/review capacity, finite
+claims and completion records. Conventional transactions, outbox delivery and
+sink idempotency implement these obligations; those mechanisms are established.
 
-## Framework
+The original simulator, S6 delivery adapter and S8 atomic issuance wrapper have
+different boundaries. The original simulator does not gain S8's new issuance
+transaction retrospectively. S6 starts with preissued permits; S8 starts with
+persisted raw requests. Evidence eligibility does not certify the full predictor
+input provenance. Ordinary information-matched implementations support the same
+tested obligations; this is not an ECRC-record-format superiority claim.
 
-ECRC turns each proposal into one machine-checkable lifecycle:
+| Question | Evidence |
+|---|---|
+| Ranking versus allocation | 617 development and 59 external same-task participants; frozen scores and thresholds |
+| Sensitivity to participant weighting | S7: all 36 policy arms and 18 comparisons; two positive development pooled precision contrasts reverse under participant-equal averaging |
+| Original semantic checks | 84 fault cases; one clean trace containing 32 permit/receipt pairs |
+| S6 preissued delivery | Nine recovery scenarios × five repeats × two arms, plus separate boundary and timing studies |
+| S8 issuance through recovery | Six scenarios × three repeats × two arms = 36 primary runs, 300 requests and 78 synthetic effects/receipts |
+| Complete S8 reproduction | Separate retained 36-run repeat; outcomes/state summaries match, winner identities differ in 33 runs |
 
-1. validate policy, model identity and decision-time evidence eligibility;
-2. adjudicate exactly one route: `alert`, `human_review`, `abstain`, or
-   `no_action`;
-3. atomically reserve the selected alert or review pool before issuing an
-   action permit;
-4. bind the permit to its route, evidence, reservation and finite claim set;
-5. accept only a registered, content-matching, unconsumed permit; and
-6. write a matching receipt while committing the reservation after simulated
-   execution or releasing it on the declared pre-execution-failure path.
+Each S8 run set retains 36 final client/sink pairs plus 126 checkpoint backup
+pairs: 90 non-final and 36 final-state backups. Each saved-state audit completed
+36,210 checks. Counts of checks, snapshots and supplemental QA are not independent
+experimental samples. No real intervention benefit, all-interleaving equivalence
+or multi-node deployment guarantee is established.
 
-The contribution is not abstention, evidence rules, quotas or receipts in
-isolation. It is the evaluated relation among a **route-specific reservation,
-bounded decision permit and receipt-reconciled state** at one control point.
+## Download the complete artifact
 
-## Evaluation snapshot
+Use Python 3.12. The downloader uses only the standard library, verifies the
+fixed ZIP SHA-256 plus all 9,203 member paths/hashes, and requires a fresh output.
+It downloads approximately 95 MB without credentials or a paid API.
 
-| Question | Evidence in this repository | Main result |
-|---|---|---|
-| Do model ranking and frozen operating points transfer? | Three proposal generators; 66,525 development decisions from 617 participants; 11,800 external same-task decisions from 59 participants | External AUROC remained ordered history < logistic < HGB; two of three frozen threshold-and-capacity operating points missed the development precision condition |
-| Do routing components affect distinct properties? | 2,349,750 matched route assignments: 234,975 model-decisions across five routing arms and two evidence scenarios | Bypassing evidence admission allowed action routes on constructed invalid evidence; changing capacity altered coverage and workload without changing predictions |
-| Does the executable stack match the vectorised router? | Independent adjudicator-ledger-PEP-receipt replay | 11,800/11,800 external HGB routes and reasons matched |
-| Does transactional reservation preserve declared capacity? | Single-node SQLite WAL contention tests | Capacity stopped at 3/3 and 8/8 with no oversubscription; a constructed non-atomic witness admitted 2/1 |
-| Are declared permit/receipt faults detected? | Trusted-stack conformance fixtures | 84/84 injected cases flagged; 0/32 clean controls flagged |
-
-Confidence intervals, denominators and estimand boundaries are preserved in
-the aggregate evidence and figure source tables. See
-`docs/CLAIM_TO_ARTIFACT.md` for the exact claim-to-file map.
-
-## Quick start
-
-Python 3.12 is the tested environment.
-
-Windows PowerShell:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -e ".[test,figures]"
-.\.venv\Scripts\python.exe -m pytest -q
-.\.venv\Scripts\python.exe scripts\verify_release.py
+```console
+git clone https://github.com/ziwang11112/ecrc-ai-decision-permits.git
+cd ecrc-ai-decision-permits
+python scripts/download_iasc_artifact.py --output artifacts/iasc
 ```
 
-Linux/macOS:
+Or download **AIR-014_IASC_Code_and_Reproducibility.zip** directly from the
+[fixed release](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12); verify it against SHA256SUMS.txt there.
+Read the extracted README.md and DATA_SOURCES_AND_LICENSES.md. For the original
+saved models' environment use the methods provenance, not the later plotting
+environment. Source-only post hoc checks do not require model refitting.
 
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -e ".[test,figures]"
-.venv/bin/python -m pytest -q
-.venv/bin/python scripts/verify_release.py
+## Browse or run the current source
+
+| Path | Purpose |
+|---|---|
+| [iasc/end_to_end/](iasc/end_to_end/README.md) | S8: complete 34-file frozen source/input set, raw-request issuance, cleanup and recovery |
+| [iasc/runtime/](iasc/runtime/PROTOCOL.md) | S6: delivery, separate service, transport and audits |
+| [iasc/statistics/](iasc/statistics/README.md) | S7: participant-equal estimates, bootstrap and input/output bundle |
+| [iasc/calibration/](iasc/calibration/README.md) | Frozen calibration-grid audit and corrected pooled-total bound |
+| [iasc/methods/](iasc/methods/README.md) | Features, models, selection and source-version provenance |
+| [iasc/figures/](iasc/figures/) | Local plotting code, inputs and vector exports; full artifact has all 24 exports |
+| [iasc/revision_reviews/runtime_review/](iasc/revision_reviews/runtime_review/README_PORTABLE_WRAPPER.md) | Ten supplemental wrapper/cleanup QA cases |
+| src/, icair_2026/, tests/ | Historical original simulator and its focused tests |
+
+Fast current wrapper QA (fresh checkout; standard library only):
+
+```console
+python -B iasc/revision_reviews/runtime_review/review_atomic_wrapper_portable.py
 ```
 
-The focused suite currently contains 31 tests spanning policy/evidence
-validation, claim binding, route invariants, idempotency, permit replay,
-capacity concurrency, systems determinism, causal history features and data
-download guards.
+It creates separate QA outputs and refuses to overwrite a previous run. These
+ten exception/thread checks do not launch HTTP, kill processes or add formal
+S8 repetitions. To run the complete S8 protocol, follow iasc/end_to_end/README.md
+in that directory and use a new output path. Full plots and all retained database
+evidence are reproduced from the downloaded artifact.
 
-## Repository layout
+The historical core tests remain available through `pip install -e ".[test]"`
+then `python -m pytest -q`; they have a separate pinned training/core dependency
+set. `python scripts/verify_release.py` verifies the current Git source manifest.
 
-```text
-src/agentic_eeg_dm/governance/         ECRC permit, ledger, PEP and verifier
-icair_2026/framework_v1/e1/            causal features, models and routing
-icair_2026/framework_v1/*.py           experiments and systems benchmarks
-icair_2026/framework_v1/evidence*/     aggregate evidence and manifests
-manuscript/.../figures/                figure code, source data and QA
-scripts/                               data acquisition and release checks
-tests/                                 focused governance and replay tests
-docs/                                  data, reproduction and claim map
-```
+## Data, licensing and scope
 
-## Reproduction tiers
+The public artifact contains derived participant- and decision-level outputs
+from cited public IGT sources, with participant/study/trial keys and proxy labels.
+It is not aggregate-only. It contains no raw EEG or new participant collection;
+obtain original source datasets from their hosts. See
+[data sources and licences](docs/DATA_SOURCES_AND_LICENSES.md).
+Project code retains MIT terms; derived evidence/figures retain CC BY-SA 4.0,
+with upstream Many Labs dataset CC BY-SA 4.0 and Mendeley v2 data CC BY 4.0
+attribution preserved. See [LICENSES.md](LICENSES.md).
 
-### Tier 1: governance core and deterministic fixtures
+The historical training entrypoint run_e1.py does not match its old manifest;
+seven core training modules match, but the missing entrypoint bytes have not
+been recovered. This release does not claim full historical training-source
+restoration. Post hoc analyses condition on frozen predictions and operating
+points. The paper remains a single-task retrospective/synthetic evaluation.
 
-```bash
-python -m pytest -q
-```
-
-These tests cover evidence and claim binding, route invariants, idempotency,
-permit replay, stale/expired/revoked policies, transactional capacity and
-concurrent reservations.
-
-### Tier 2: single-node systems benchmark
-
-```bash
-python icair_2026/framework_v1/run_systems_benchmark.py   --output-dir scratch/systems --run-id anonymous_repeat
-python icair_2026/framework_v1/verify_systems_determinism.py   icair_2026/framework_v1/evidence_systems/systems_benchmark_structure.json   scratch/systems/systems_benchmark_structure.json   --output scratch/systems/determinism_check.json
-```
-
-Latency is host-specific.  The timing-free structure and capacity invariants
-are the deterministic comparison targets.
-
-### Tier 3: figures from frozen aggregate evidence
-
-```bash
-python manuscript/icair_2026/framework_v1/figures/make_framework_figures.py
-python manuscript/icair_2026/framework_v1/figures/make_fig3_layered_evaluation.py
-python manuscript/icair_2026/framework_v1/figures/make_fig2_capacity_tradeoff.py
-python manuscript/icair_2026/framework_v1/figures/make_fig4_prediction_permission.py
-```
-
-The scripts include point/interval checks and publication-export QA.  See each
-figure's manifest and QA report in the same directory. The manuscript mapping
-is Figure 2 → `make_fig3_layered_evaluation.py` and Figure 3 →
-`make_fig2_capacity_tradeoff.py`. Exact typography-matched rendering requires
-Calibri; the committed images, source data and checksums remain inspectable on
-hosts without that font.
-
-### Tier 4: full model replay
-
-The full E1 and runtime-bridge scripts are included, but their row-level inputs
-and fitted model files are intentionally not redistributed in this aggregate
-artifact. Download the public upstream data and follow
-`docs/REPRODUCIBILITY.md` to regenerate them.  This boundary matches the paper's
-promise of code, tests, manifests, hashes and aggregate evidence artifacts.
-
-## Evidence map
-
-See `docs/CLAIM_TO_ARTIFACT.md`.  Aggregate results are under
-`icair_2026/framework_v1/evidence_v2`, `evidence_systems`, `evidence_bridge`,
-and `evidence`.
-
-## Licence and data boundary
-
-Code is MIT licensed.  Aggregate evidence and generated figures are distributed
-under CC BY-SA 4.0 with upstream attribution; see `LICENSES.md` and
-`docs/DATA_ACCESS.md`.  No raw upstream dataset is included.
-
-## Scope
-
-This repository demonstrates retrospective routing, single-node transactional
-capacity and simulated side effects. It does not establish prospective user
-benefit, clinical validity, institutional or legal authorization, distributed
-atomicity, external-service delivery, adversarial security or unknown-fault
-coverage.
-
-Author-facing citation metadata is intentionally withheld during double-blind
-review and will be restored in the archival release.
+The initial repository release is retained in Git history; its original README
+and inventories are under docs/legacy_release/. Current publication preparation
+changes packaging and documentation, not experimental values. Author-side cover
+letters and editorial notes are not part of the public code artifact.

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "fig4.pdf",
+    "byte_identical": true,
+    "sha256": "6696842e604aa6e4f2006804777463dac8305088f5bd37e65f028af6dbf33ee1"
+  },
+  {
+    "file": "fig4.svg",
+    "byte_identical": true,
+    "sha256": "e5a5e8805fdb39bd7c2baee962085db27d28a3cd500b06411b6548dc16c40a4b"
+  },
+  {
+    "file": "fig4.png",
+    "byte_identical": true,
+    "sha256": "6a90c7172bb023244631e978ce9fc6d5c8364f616be5400ee022fb0191e1d4f9"
+  },
+  {
+    "file": "fig4.tiff",
+    "byte_identical": true,
+    "sha256": "30f1400ef39f0d3e00fefc90a30d8f3e87452fc161bb40bf5594285ed3e4ed58"
+  },
+  {
+    "file": "fig5.pdf",
+    "byte_identical": true,
+    "sha256": "ebd79920b66e506040442de7794f7de1b6ccefef79fee2979d9ac34c7a864458"
+  },
+  {
+    "file": "fig5.svg",
+    "byte_identical": true,
+    "sha256": "3f9775576127cbd148649358c69270ade1978251836f6ba4fd3dfa995bb75f14"
+  },
+  {
+    "file": "fig5.png",
+    "byte_identical": true,
+    "sha256": "59c2f8e9d2ad5fef0789672b7f8447039763efa92c9915236dd026a11c9ac98e"
+  },
+  {
+    "file": "fig5.tiff",
+    "byte_identical": true,
+    "sha256": "65fb2f73eb8f2f2dd793b744b9660857165e276c234f65a2b3832accf7883e8c"
+  }
+]

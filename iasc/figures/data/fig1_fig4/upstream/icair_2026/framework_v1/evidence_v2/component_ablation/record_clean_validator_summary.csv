@@ -1,0 +1,5 @@
+validator,n_clean_records,n_clean_failures,clean_false_positive_rate
+ordinary_log,32,0,0.0
+claim_binding_off,32,0,0.0
+receipt_state_verification_off,32,0,0.0
+full_binding_and_receipt,32,0,0.0

@@ -1,0 +1,233 @@
+{
+  "artifacts": [
+    {
+      "bytes": 1034,
+      "path": "RESULTS_README.md",
+      "sha256": "88376bf610f201a235e3d15e92a347278febc387e6be9978692865e048314095"
+    },
+    {
+      "bytes": 102624,
+      "path": "bootstrap_confidence_intervals.csv",
+      "sha256": "f47d31ee04c772b44daa480031bfb8f840c6b2b72bc836b5d49138b499395a6d"
+    },
+    {
+      "bytes": 880,
+      "path": "code_hashes.csv",
+      "sha256": "0fe95a3187c33bebcd6d8ce05f495a5bd57bfc4c00ac6213bcc0811d7f40a7cf"
+    },
+    {
+      "bytes": 639,
+      "path": "dataset_summary.csv",
+      "sha256": "afdc0ecf6c78fa22e81f99c1d49e0cdfbb756501d3a2019a17f478c5a192204c"
+    },
+    {
+      "bytes": 607,
+      "path": "experiment_config.json",
+      "sha256": "dc45ce82df7475beb575991fe51fcbcf31cb3baf6446c0a12acb4d350875cc39"
+    },
+    {
+      "bytes": 969,
+      "path": "feature_schema.json",
+      "sha256": "d411c3c722f39d9ef97790651c50fee059a5660291ff7cd4578fb6298cf37147"
+    },
+    {
+      "bytes": 772,
+      "path": "frozen_operating_points.csv",
+      "sha256": "bfb41f620d363c40e4c6954b733162c625c6226ef3627d0dc3ad1170149e4502"
+    },
+    {
+      "bytes": 8553,
+      "path": "input_hashes.csv",
+      "sha256": "d8571e4e2c323a1757c8abb9038b5f2fb3ce7a26d6df5f9d51ed6091a3d3037e"
+    },
+    {
+      "bytes": 1704,
+      "path": "mendeley_local_version_record.json",
+      "sha256": "4a4494dc3074951e62139db60af23e99200bcf3d9f046ebf4d129a84b86e7a89"
+    },
+    {
+      "bytes": 5014,
+      "path": "model_performance.csv",
+      "sha256": "c015dc6657989688ceec98cd0dbf586df0eca09f05d3c0e0f09d93829573c08f"
+    },
+    {
+      "bytes": 899,
+      "path": "model_specifications.json",
+      "sha256": "7ed365c7768f155e63ec4268b85cdc809a089cd104143465f1ba6e1209cad81c"
+    },
+    {
+      "bytes": 154042,
+      "path": "models/hist_gradient_boosting.joblib",
+      "sha256": "e92c17ed67629ea788f9c54d745b9df25d23534eb912b67659be4d752af13dc1"
+    },
+    {
+      "bytes": 170,
+      "path": "models/history_baseline.json",
+      "sha256": "62afbc07ce333065c7e211e6d3b1711d0bbc4896047b8308a89b379545809445"
+    },
+    {
+      "bytes": 2449,
+      "path": "models/regularised_logistic.joblib",
+      "sha256": "1105fc9e785c0b81ec8c2d1d94ed8f7f92ce28c8a5ef5ff55b2c4f519731b6a4"
+    },
+    {
+      "bytes": 26891,
+      "path": "outer_fold_assignments.csv",
+      "sha256": "86ae2967dafccf36938457d6e857149c6892eb90a18973959a7941d24373c3e9"
+    },
+    {
+      "bytes": 7415,
+      "path": "outer_fold_operating_points.csv",
+      "sha256": "8c12119eae506bb2e7036299295f6b97504bb68498d93df220ac1a6fa6e6b041"
+    },
+    {
+      "bytes": 2377782,
+      "path": "participant_workload.csv",
+      "sha256": "a4955a5e6f921fd70edad987e178a3807a73eb82b91b20e22736de404533714f"
+    },
+    {
+      "bytes": 2798876,
+      "path": "predictions.csv.gz",
+      "sha256": "4df636f1ec8b78aecdaea4b4625432577337d0baac70ef383a87538399dc939f"
+    },
+    {
+      "bytes": 26358739,
+      "path": "route_assignments.csv.gz",
+      "sha256": "f2ee83217caa8d2bdd39f0648800e90b1d285be85ffcebdabbfc8b59865aadf4"
+    },
+    {
+      "bytes": 40954,
+      "path": "route_workload_metrics.csv",
+      "sha256": "9bc3a3682bf70ab983301596a3f9be5216ded1e4ab9a96277d58fca6491af355"
+    },
+    {
+      "bytes": 989,
+      "path": "validation_checks.json",
+      "sha256": "ece0fd8328219db59e489052d51a5ced7129f92684f757d49c5a84590b98d260"
+    }
+  ],
+  "completed_at_utc": "2026-08-13T23:21:51.863199+00:00",
+  "configuration": {
+    "action_precision_floor": 0.6,
+    "automated_alert_caps": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "block_size": 20,
+    "bootstrap_confidence_level": 0.95,
+    "bootstrap_replicates": 2000,
+    "false_action_limit_per_100": 9.0,
+    "history_windows": [
+      5,
+      10,
+      20
+    ],
+    "inner_folds": 3,
+    "outer_folds": 5,
+    "reference_alert_cap": 8,
+    "review_band_width": 0.03,
+    "review_cap": 2,
+    "seed": 20260813,
+    "threshold_grid_start": 0.3,
+    "threshold_grid_step": 0.01,
+    "threshold_grid_stop": 0.85,
+    "uncertainty_mode": "probability_margin",
+    "uncertainty_threshold": 0.9
+  },
+  "data_boundary": {
+    "clinical_claim": false,
+    "cross_domain_validation": false,
+    "eeg_columns_read": [],
+    "eeg_files_read": 0,
+    "eeg_used": false,
+    "intervention_effect_claim": false,
+    "many_labs_role": "development and participant-grouped outer-CV evaluation",
+    "mendeley_role": "frozen external replay on official Mendeley version-2 behavior files; same-task external cohort, not cross-domain or clinical validation",
+    "mendeley_v2_role": "official behavior-only frozen external replay",
+    "positive_class": "current A/B deck choice operational proxy",
+    "same_task_external_cohort": true
+  },
+  "dataset_counts": [
+    {
+      "dataset_id": "many_labs_igt",
+      "eeg_used": false,
+      "n_decisions": 66525,
+      "n_participants": 617,
+      "n_studies": 10,
+      "positive_class": "current A/B deck choice (operational high-risk proxy)",
+      "positive_prevalence": 0.45633972190905675,
+      "trials_per_participant_max": 150,
+      "trials_per_participant_median": 100.0,
+      "trials_per_participant_min": 95,
+      "version_note": "Many Labs public behavior table; participant-grouped outer CV"
+    },
+    {
+      "dataset_id": "mendeley_igt_official_v2",
+      "eeg_used": false,
+      "n_decisions": 11800,
+      "n_participants": 59,
+      "n_studies": 1,
+      "positive_class": "current A/B deck choice (operational high-risk proxy)",
+      "positive_prevalence": 0.4909322033898305,
+      "trials_per_participant_max": 200,
+      "trials_per_participant_median": 200.0,
+      "trials_per_participant_min": 200,
+      "version_note": "frozen external replay on official Mendeley version-2 behavior files; same-task external cohort, not cross-domain or clinical validation"
+    }
+  ],
+  "environment": {
+    "packages": {
+      "joblib": "1.5.3",
+      "numpy": "2.4.5",
+      "pandas": "3.0.3",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.17.1"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\ziwan\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "experiment": "E1_cross_model_capacity_aware_four_route_replay",
+  "git": {
+    "commit": "b68c2425c28154e0925f63bff0a876982f566d5e",
+    "status_entry_count": 32,
+    "working_tree_dirty": true
+  },
+  "mode": "full",
+  "models": [
+    "history_baseline",
+    "regularised_logistic",
+    "hist_gradient_boosting"
+  ],
+  "script_version": "1.1.0",
+  "selection_boundary": {
+    "labels_used_posthoc_for_evaluation_only": true,
+    "mendeley_labels_or_scores_used_for_frozen_model_or_threshold": false,
+    "outer_test_labels_used_for_fold_operating_point": false,
+    "runtime_route_reads_labels": false
+  },
+  "validation_checks": {
+    "artifact_checksum_verification_on_finalize": "pass",
+    "causal_suffix_mutation_many_labs": "pass",
+    "causal_suffix_mutation_mendeley": "pass",
+    "eeg_columns_read": [],
+    "eeg_files_read": 0,
+    "effective_unbounded_has_zero_capacity_blocks": "pass",
+    "external_labels_or_scores_used_for_fit_or_threshold": false,
+    "frozen_selection_uses_many_labs_oof_only": "pass",
+    "inner_participant_disjointness": "pass",
+    "many_labs_external_subject_id_overlap_zero": "pass",
+    "official_v2_api_size_sha256_gate": "pass",
+    "official_v2_igt_only_download_gate": "pass",
+    "official_v2_manifest_metadata_gate": "pass",
+    "one_prediction_per_decision_model": "pass",
+    "outer_participant_disjointness": "pass",
+    "participant_capacity_bounds": "pass",
+    "posthoc_label_shuffle_route_invariance": "pass",
+    "posthoc_label_shuffle_route_invariance_groups_checked": 90,
+    "route_mutual_exclusivity_and_exhaustiveness": "pass",
+    "v1_v2_behavior_equivalence_audit": "pass"
+  }
+}

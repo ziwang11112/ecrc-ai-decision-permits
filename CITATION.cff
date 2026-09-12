@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and identify this fixed artifact release."
+title: "ECRC decision permits: IASC reproducibility artifact"
+type: software
+authors:
+  - name: "ECRC research project"
+repository-code: "https://github.com/ziwang11112/ecrc-ai-decision-permits"
+url: "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12"
+version: "iasc-r2-2026-09-12"
+date-released: "2026-09-12"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "Permission Is Not Prediction: Decision Permits for Capacity-Bounded Artificial Intelligence Actions"
+  authors:
+    - family-names: Wang
+      given-names: Zi
+    - family-names: Addai
+      given-names: Emmanuel
+    - family-names: Ambekar
+      given-names: Devika
+    - family-names: Wang
+      given-names: Xingqiao
+    - family-names: Xu
+      given-names: Xiaowei
+  year: 2026
+  url: "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12"

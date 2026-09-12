@@ -1,0 +1,36 @@
+{
+  "archived_full_detected": 84,
+  "archived_typed_detected": 0,
+  "candidate_hash_matches": 84,
+  "case_count": 84,
+  "clean_control": {
+    "archived_full_ECRC_accepted": true,
+    "archived_typed_baseline_accepted": true,
+    "n_permits": 32,
+    "n_receipts": 32,
+    "n_traces": 1,
+    "new_independent_accepted": true,
+    "new_n_findings": 0,
+    "unit": "one_complete_clean_trace"
+  },
+  "comparison_arm": "archived outcomes, not rerun",
+  "manual_boundary_passed": 24,
+  "manual_boundary_total": 24,
+  "manual_valid_controls": 3,
+  "matched_disagreements_new_vs_archived_full": 0,
+  "new_detected": 84,
+  "new_validator_imports_ECRC": false,
+  "original_inputs_unchanged": true,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "reference_at": "2026-01-01T00:00:11.000000Z",
+  "run_utc": "2026-09-11T17:10:11.457514+00:00",
+  "scope": "offline detection",
+  "script_hashes": {
+    "manual_boundary_checks.py": "c178133aea7f3e6b40c97539f400d3d5d36b78b300d97dee712bfe7ca20491df",
+    "ordinary_semantic_validator.py": "ca56a95a66c1112b113ce345efe93c16c57904b67b6f529caeaeefdd7a0e0eb4",
+    "run_system_baseline.py": "c6973db4f32acfeab7330946b6222306d25e994b50905fc300671513110218f4"
+  },
+  "trusted_tail_hash": "e0653631b8258281ef03019e6eb529c657934124875ba4089248503041f8b674",
+  "trusted_view_sha256": "89977a6ac2b91f7aa8f6a3da2e17cb3b764472b7fb8544d300959373a4f15ea2"
+}

@@ -1,0 +1,28 @@
+feature,family,available_at,definition,first_trial_value
+trial_index,Decision position,Before current choice; count of previous trials,n_prior,0
+block_index,Decision position,Before current choice; count of previous trials,floor(n_prior / 20),0
+prev_choice_A,Previous choice,Immediately preceding choice,One-hot indicator of previous deck A,All four indicators 0
+prev_choice_B,Previous choice,Immediately preceding choice,One-hot indicator of previous deck B,All four indicators 0
+prev_choice_C,Previous choice,Immediately preceding choice,One-hot indicator of previous deck C,All four indicators 0
+prev_choice_D,Previous choice,Immediately preceding choice,One-hot indicator of previous deck D,All four indicators 0
+prev_risky,Previous outcome,Immediately preceding trial only,Previous choice in A/B,Missing; training-fitted imputation
+prev_reward_100,Previous outcome,Immediately preceding trial only,Previous reward / 100,Missing; training-fitted imputation
+prev_loss_magnitude_100,Previous outcome,Immediately preceding trial only,Negative of signed previous loss / 100,Missing; training-fitted imputation
+prev_net_outcome_100,Previous outcome,Immediately preceding trial only,Previous net outcome / 100,Missing; training-fitted imputation
+cumulative_net_prev_100,Cumulative history,All preceding outcomes only,Sum of prior net outcomes / 100,0
+previous_choice_run_length,Cumulative history,Run ending at preceding choice,Length of current preceding same-deck run,0
+prior_risky_rate_all,Smoothed history,All preceding choices only,(Prior A/B count + 1) / (n_prior + 2),0.5
+prior_choice_entropy,Smoothed history,All preceding choices only,Entropy of four (deck count + 1)/(n_prior + 4) probabilities,Entropy of uniform deck probabilities
+prior_choice_probability_A,Smoothed history,All preceding choices only,(Prior deck A count + 1) / (n_prior + 4),0.25
+prior_choice_probability_B,Smoothed history,All preceding choices only,(Prior deck B count + 1) / (n_prior + 4),0.25
+prior_choice_probability_C,Smoothed history,All preceding choices only,(Prior deck C count + 1) / (n_prior + 4),0.25
+prior_choice_probability_D,Smoothed history,All preceding choices only,(Prior deck D count + 1) / (n_prior + 4),0.25
+rolling_prev_5_risky_rate,Rolling history,Up to preceding 5 trials only,rolling_prev_5_risky_rate,Missing with no history; training-fitted imputation
+rolling_prev_5_loss_rate,Rolling history,Up to preceding 5 trials only,rolling_prev_5_loss_rate,Missing with no history; training-fitted imputation
+rolling_prev_5_net_mean_100,Rolling history,Up to preceding 5 trials only,rolling_prev_5_net_mean_100,Missing with no history; training-fitted imputation
+rolling_prev_10_risky_rate,Rolling history,Up to preceding 10 trials only,rolling_prev_10_risky_rate,Missing with no history; training-fitted imputation
+rolling_prev_10_loss_rate,Rolling history,Up to preceding 10 trials only,rolling_prev_10_loss_rate,Missing with no history; training-fitted imputation
+rolling_prev_10_net_mean_100,Rolling history,Up to preceding 10 trials only,rolling_prev_10_net_mean_100,Missing with no history; training-fitted imputation
+rolling_prev_20_risky_rate,Rolling history,Up to preceding 20 trials only,rolling_prev_20_risky_rate,Missing with no history; training-fitted imputation
+rolling_prev_20_loss_rate,Rolling history,Up to preceding 20 trials only,rolling_prev_20_loss_rate,Missing with no history; training-fitted imputation
+rolling_prev_20_net_mean_100,Rolling history,Up to preceding 20 trials only,rolling_prev_20_net_mean_100,Missing with no history; training-fitted imputation

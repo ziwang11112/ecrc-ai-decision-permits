@@ -1,0 +1,32 @@
+[
+  {
+    "path": "inputs/distinct_contenders.json",
+    "sha256": "c023538938297bdf703d801b63ba6a3061b677cb8b547c0c0910ddcdcc8835a4",
+    "requests": 8
+  },
+  {
+    "path": "inputs/mixed_claim_fallback.json",
+    "sha256": "0c166e4f9bf6dd3a418d666132b118a4ae4852bf8aaac54ec15d50fc5290b8ca",
+    "requests": 9
+  },
+  {
+    "path": "inputs/kill_during_issuance.json",
+    "sha256": "0b77932f264e00a9d61b81e65624d3f962f70980bdc51c5ea526bec8cbff40e9",
+    "requests": 8
+  },
+  {
+    "path": "inputs/kill_after_issue_resume.json",
+    "sha256": "e8ff40f60bd8d0bbade2c345389c23c438113fc60bc8e926aaa7e3200294ebc2",
+    "requests": 8
+  },
+  {
+    "path": "inputs/expired_unarmed_cleanup.json",
+    "sha256": "e52a37ff0702a903eb743884c15789bff0dd0c6f8c0584d82e32cf56d2584c2b",
+    "requests": 9
+  },
+  {
+    "path": "inputs/accepted_timeout_cleanup_recovery.json",
+    "sha256": "71da00e756aaec349ca9b12edd7601f82a9d097f2920143515965a2c630d39fe",
+    "requests": 8
+  }
+]

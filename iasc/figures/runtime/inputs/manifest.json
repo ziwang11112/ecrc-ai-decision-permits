@@ -1,0 +1,39 @@
+{
+  "protocol": "post hoc engineering extension",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "repetitions": 5,
+  "inputs": {
+    "delivery.py": "a0038ecf5d61663350ade277999d00e9024e30ae658d0728d7083c687285b36e",
+    "ecrc_adapter.py": "89b0a4a497391711a049b0d8e63155ee91c7c4c0e69769f9db7d57e127b5e50f",
+    "fixture.py": "8ad0405dfc98e6da2713bcf08fd319272c5b50a757cef6c2ac793caabea487ee",
+    "ordinary_adapter.py": "f212202223d8a6217306ef240d864ccf10aa80889043f21cb9e60c5e03dff634",
+    "PROTOCOL.md": "5113074d3064befdf21660f97d20faac0c09777c42b591864c8a9409f0950b40",
+    "PROTOCOL_SERVICE.md": "41ea2843d3a0258c530dfc53beb14dddeb70b6f56d8dc2ae863d2bbf93644ab0",
+    "run_experiment.py": "efb553a9004f988092a59471f1cc7bf523dd9d2c21dd7621746944ec2783f3f7",
+    "service.py": "afc8d95c44ea6bb4f7eabdbb18ba234d3dbc0fbd325274a8694bd62e8c43d279",
+    "source_snapshot/agentic_eeg_dm/__init__.py": "ac5dc53b9663d5ac855907e8bb0f7724ef97a37ee35d18e2ec928f42874e5e1f",
+    "source_snapshot/agentic_eeg_dm/governance/__init__.py": "6b36849327c1c2be3526e58813a902a609b4dbbb33ee29426aa3a7f48b54dbf6",
+    "source_snapshot/agentic_eeg_dm/governance/adjudicator.py": "c6dd01b71a6a686a553128d0b147f8dd8f8044398d9a0d0ac949bec42e76d00b",
+    "source_snapshot/agentic_eeg_dm/governance/canonical.py": "f08cd0a8677253fcb14340393b1c828196f3d769b2c3eabf897c0816d64399e5",
+    "source_snapshot/agentic_eeg_dm/governance/enforcement.py": "997efca4c14705b35907f1e144fd8cc77953402eb4603876bd3a88dba818eee4",
+    "source_snapshot/agentic_eeg_dm/governance/exceptions.py": "2b992f9055a132d3919bf07c7ca3863d519b809b651de5a35cf71120a7f53987",
+    "source_snapshot/agentic_eeg_dm/governance/ledger.py": "51a995c7a80c628a0fc487cb7d255091b02455a3d7f4bb2a548a5c3a62eeb303",
+    "source_snapshot/agentic_eeg_dm/governance/models.py": "60d3e6f5c5c18ffa136da6d1464bba1ebe6e2e57534524fd69588a4a3f976337",
+    "source_snapshot/agentic_eeg_dm/governance/verifier.py": "d894537f4571fc8463c5a97e93f7d46a5ef41d593059ec13d0f284527a8c9c5b",
+    "worker.py": "60d11b477375d3b758a986a1ab880b89a59a74cfc176420d530540aa418caa99"
+  },
+  "recovery_runs": 90,
+  "boundary_cases": 12,
+  "performance_runs": 30,
+  "timed_requests": 1920,
+  "outputs": {
+    "boundary_results.csv": "efb842fb13d548fd4367a258ae193118a141bd03f549d8f54c858683cb15b749",
+    "deterministic_outcomes.json": "00f080c8c5c2d0f0364d693f1d4440f6d85d616893de4ea85aa7af3b4834f8cc",
+    "performance_runs.csv": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+    "performance_summary.csv": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+    "recovery_results.csv": "696fed07cad87e53fbc5aa7aa3831926c52c12aff691ae728ce24a70a3805bd2",
+    "request_latencies.csv": "0dd85ef07f32f39ec342422b67af1d9d26aeb0b5633dc84aa33b70f726fc4840"
+  }
+}

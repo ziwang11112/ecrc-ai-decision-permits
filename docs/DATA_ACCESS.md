@@ -37,12 +37,10 @@ python scripts/download_mendeley_v2_igt.py   --target-root data/raw/external/men
 The downloader enforces an exact filename/folder inventory, file-size ceiling,
 and public-API SHA-256 checks.
 
-## Redistribution boundary
+## Current public redistribution boundary
 
-This anonymous repository does not redistribute raw data, row-level predictions
-or routes, participant-level workload exports, or fitted model files.  It
-contains code, input hashes and aggregate results. Aggregate tables are
-statistical transformations and figures are visualisations created for this
-study; both are attributed to the upstream datasets above and separately
-licensed as described in `LICENSES.md`. Users obtain upstream data under the
-licensors' terms and regenerate row-level intermediates locally.
+The IASC release adds derived decision-level scores/routes and participant-level
+statistics from these public sources. The former anonymous version's aggregate-only
+boundary no longer describes this release. Source raw datasets remain separately
+hosted; no raw EEG, clinical file or newly collected participant data are included.
+See DATA_SOURCES_AND_LICENSES.md for attribution, transformations and licensing.

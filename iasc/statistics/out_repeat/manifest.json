@@ -1,0 +1,80 @@
+{
+  "protocol": "post hoc participant-equal alert-policy sensitivity, locked 2026-09-12",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "seed": 20260912,
+  "replicates": 2000,
+  "models_refitted": false,
+  "thresholds_reselected": false,
+  "new_routes_computed": false,
+  "original_inputs_modified": false,
+  "inputs": {
+    "input/a4_permission_grid.csv": "fa9f84a952c4813d7a5117c558bf933fc9733f2970c4969907b6a22c3d870357",
+    "input/CALIBRATION_CHECK.md": "138b2b45cb0a4e7df4e081b9bda84316abec9c29cdde3011a1f2ba2d85cf229c",
+    "input/frozen_participant_statistics.csv.gz": "fbb4a1de6ae74ead1ca7308b0fea83d3ff1cecfedd5a2475148edf3255c0669f",
+    "input/INPUT_MANIFEST.json": "2e5b1f3ad4ccc66d5a1c2415eb72e9e500f1cfeb21303bfc770d26b401323f91",
+    "input/online_estimates.csv": "7868c4b792ac7ac08887921ec1a91d4026b9392880155cac6582fc0085ead822",
+    "input/online_participant_statistics.csv.gz": "229b2c1d428edd8c409c15c70eda3cb8eea55fdc82fc8b5a2f49b5d36e7c37bc",
+    "input/online_PROTOCOL.md": "ff5eaba38d84bec1da236638ff6e478be1fee0681881b87362e84e35f32fdd59",
+    "input/sequence_PROTOCOL.md": "03d71d5f567f7d0ef156074e7a8bd1c661ff575f118b5518b4a2cbf3f8be0249",
+    "run_analysis.py": "bdaabb5d3eee7344575de76efd038b7e884b528629c458a3220c3e8a1567688e",
+    "PROTOCOL.md": "ab53633f2bd79b8b8e298d603fbc152310942b552ed5edcb90611f9112b1b4e9"
+  },
+  "source_inputs": [
+    {
+      "name": "online_participant_statistics.csv.gz",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/online/out/online_participant_statistics.csv.gz",
+      "sha256": "229b2c1d428edd8c409c15c70eda3cb8eea55fdc82fc8b5a2f49b5d36e7c37bc",
+      "bytes": 103188
+    },
+    {
+      "name": "online_estimates.csv",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/online/out/online_estimates.csv",
+      "sha256": "7868c4b792ac7ac08887921ec1a91d4026b9392880155cac6582fc0085ead822",
+      "bytes": 7952
+    },
+    {
+      "name": "frozen_participant_statistics.csv.gz",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/sequence/out/frozen_participant_statistics.csv.gz",
+      "sha256": "fbb4a1de6ae74ead1ca7308b0fea83d3ff1cecfedd5a2475148edf3255c0669f",
+      "bytes": 71448
+    },
+    {
+      "name": "a4_permission_grid.csv",
+      "source_relative_path": "submission_v2/analysis/out/a4_permission_grid.csv",
+      "sha256": "fa9f84a952c4813d7a5117c558bf933fc9733f2970c4969907b6a22c3d870357",
+      "bytes": 9711
+    },
+    {
+      "name": "online_PROTOCOL.md",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/online/PROTOCOL.md",
+      "sha256": "ff5eaba38d84bec1da236638ff6e478be1fee0681881b87362e84e35f32fdd59",
+      "bytes": 3156
+    },
+    {
+      "name": "sequence_PROTOCOL.md",
+      "source_relative_path": "qa/iasc_experiment_extension_2026-09-11/sequence/PROTOCOL.md",
+      "sha256": "03d71d5f567f7d0ef156074e7a8bd1c661ff575f118b5518b4a2cbf3f8be0249",
+      "bytes": 6866
+    },
+    {
+      "name": "CALIBRATION_CHECK.md",
+      "source_relative_path": "qa/iasc_pro_review_2026-09-11/CALIBRATION_CHECK.md",
+      "sha256": "138b2b45cb0a4e7df4e081b9bda84316abec9c29cdde3011a1f2ba2d85cf229c",
+      "bytes": 11421
+    }
+  ],
+  "outputs": {
+    "archived_pooled_reproduction.csv": "929c0f50a82c927ae141d1b53d776bd2bf5e80d2bedb23159e66fa87c827ebdb",
+    "arm_estimates.csv": "2022c15b5e3ace7de6143cd0cd3c027f41c3868607ddb3e81bceb48f2321621e",
+    "bootstrap_arm_draws.csv.gz": "c04856e89ea690dc2556db5a502a58641b90a00dfce75d1a9dbcc8a1647e2116",
+    "bootstrap_contrast_draws.csv.gz": "f883bdfa1b371700eed33d44ce9262d592f0376674a5ef47997257ee0ecf32b1",
+    "bootstrap_multiplicities_development.csv.gz": "647c578205640b95007cec9cfb8b6f6084648d95a890396e7f9fc7658e10621b",
+    "bootstrap_multiplicities_external.csv.gz": "cc7dcb3dda47e75204478fd7f04a3b3ecdc790611eab0d9d4f31c07966e6fef2",
+    "harmonized_participant_counts.csv.gz": "e79ee8748cb9a923e9e34a036de60fe2cbcf9cf68253ce8168c10323b2f7089f",
+    "paired_comparisons.csv": "d519aaca7ae39cdbdac25a06f8f05050e4d42d608286239d543c807a88fe64e4",
+    "participant_order.csv": "fa5f1270cf1011ac4af3c2788422d5b915c5db307c8f46f1aa3dfdb9ea7d855f",
+    "validation.json": "9c01c17e467bde142f484cf29fab3564616b68b98222463c05e44d91e9e80800"
+  }
+}

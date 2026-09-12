@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468pt" height="252pt" viewBox="0 0 468 252" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-11</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252 
+L 468 252 
+L 468 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 5.76 51.12 
+L 141.12 51.12 
+L 141.12 22.32 
+L 5.76 22.32 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 166.32 51.12 
+L 301.68 51.12 
+L 301.68 22.32 
+L 166.32 22.32 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 328.32 51.12 
+L 462.24 51.12 
+L 462.24 22.32 
+L 328.32 22.32 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 5.76 112.32 
+L 100.08 112.32 
+L 100.08 83.52 
+L 5.76 83.52 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 126.72 112.32 
+L 221.04 112.32 
+L 221.04 83.52 
+L 126.72 83.52 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 246.96 112.32 
+L 341.28 112.32 
+L 341.28 83.52 
+L 246.96 83.52 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 367.2 112.32 
+L 462.24 112.32 
+L 462.24 83.52 
+L 367.2 83.52 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 5.76 205.92 
+L 141.12 205.92 
+L 141.12 172.8 
+L 5.76 172.8 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 166.32 205.92 
+L 301.68 205.92 
+L 301.68 172.8 
+L 166.32 172.8 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 328.32 205.92 
+L 462.24 205.92 
+L 462.24 172.8 
+L 328.32 172.8 
+z
+" clip-path="url(#p0d801815fe)" style="fill: #ffffff; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="4.32" y="15.191719" transform="rotate(-0 4.32 15.191719)">(a) Development and frozen operating point</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(26.668086 34.372127)">Development predictions</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(38.247344 43.363029)">(training partitions)</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(191.641445 34.433248)">Training-only selection</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(208.933633 43.401518)">of threshold τ</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(351.112539 34.423924)">Frozen policy for replay</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(341.863477 43.514435)">τ; prespecified δ, γ and caps</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 143.28 36.72 
+Q 153.36 36.72 162.76918 36.72 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 159.96918 35.32 
+L 162.76918 36.72 
+L 159.96918 38.12 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 303.84 36.72 
+Q 314.64 36.72 324.76918 36.72 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 321.96918 35.32 
+L 324.76918 36.72 
+L 321.96918 38.12 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="4.32" y="75.671719" transform="rotate(-0 4.32 75.671719)">(b) Episode-level permission</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="460.8" y="74.84625" transform="rotate(-0 460.8 74.84625)">Inputs: proposal, evidence, policy and ledger</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(15.124219 95.683052)">Evidence admission</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(8.5075 104.551713)">Admitted and used sets</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(140.330898 95.685045)">Candidate routing</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(139.627656 104.653315)">One of four routes</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(255.382578 95.685045)">Capacity reservation</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(263.88457 104.653315)">or route fallback</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(388.978281 95.633248)">Claim closure</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(380.238555 104.501909)">Permit registration</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 102.24 97.92 
+Q 113.04 97.92 123.16918 97.92 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 120.36918 96.52 
+L 123.16918 97.92 
+L 120.36918 99.32 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 223.2 97.92 
+Q 233.64 97.92 243.40918 97.92 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 240.60918 96.52 
+L 243.40918 97.92 
+L 240.60918 99.32 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 343.44 97.92 
+Q 353.88 97.92 363.64918 97.92 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 360.84918 96.52 
+L 363.64918 97.92 
+L 360.84918 99.32 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="5.76" y="128.22875" transform="rotate(-0 5.76 128.22875)">Only alert and review reserve capacity; exhaustion applies the route-specific fallback.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="5.76" y="141.90375" transform="rotate(-0 5.76 141.90375)">Unsupported action claims release the reservation before fallback and registration.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="4.32" y="164.231719" transform="rotate(-0 4.32 164.231719)">(c) Original single-database enforcement</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(39.900859 187.023443)">Registered permit</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(36.114375 195.991713)">and any reservation</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(197.85707 187.01412)">Enforcement guard</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(187.224102 196.10463)">Content, policy and state</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(342.016211 187.123052)">Atomic consume + reconcile</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'" transform="translate(339.994805 195.991713)">Append hash-chained receipt</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 143.28 189.36 
+Q 153.36 189.36 162.76918 189.36 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 159.96918 187.96 
+L 162.76918 189.36 
+L 159.96918 190.76 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 303.84 189.36 
+Q 314.64 189.36 324.76918 189.36 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 321.96918 187.96 
+L 324.76918 189.36 
+L 321.96918 190.76 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="234" y="221.72625" transform="rotate(-0 234 221.72625)">Invalid or reused permit: reject</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="5.76" y="239.61" transform="rotate(-0 5.76 239.61)">Reservation transitions: reserve, commit or release;  0 ≤ reserved + committed ≤ limit.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0d801815fe">
+   <rect x="0" y="0" width="468" height="252"/>
+  </clipPath>
+ </defs>
+</svg>

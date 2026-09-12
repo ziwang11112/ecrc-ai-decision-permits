@@ -1,0 +1,2 @@
+# Preserve exact bytes used by frozen-source and artifact checksums.
+* -text

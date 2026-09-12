@@ -1,0 +1,8 @@
+{
+  "all_deterministic_outcomes_identical": true,
+  "recovery_per_suite": 90,
+  "boundary_per_suite": 12,
+  "performance_runs_per_suite": 30,
+  "timed_requests_per_suite": 1920,
+  "timing_byte_identity_claimed": false
+}

@@ -1,0 +1,11 @@
+{
+  "source_path": "experiment_reproducibility/icair_2026/framework_v1/run_e1.py",
+  "current_bytes": 30252,
+  "current_sha256": "47f54734eb5ae1cf71ed1df789c6ecdc07825dba4321f8a85bbb516a76fdd0ac",
+  "historical_bytes": 30128,
+  "historical_sha256": "e94273e551014ea7c1d832d874bb10d41ced6d6aeeec922067d7a6eaaf438719",
+  "matches_historical_manifest": false,
+  "copied_or_imported": false,
+  "needed_for_portable_audit": false,
+  "note": "Current entrypoint was only hashed in the original audit; its hash does not match the original E1 manifest. No source equivalence is claimed."
+}

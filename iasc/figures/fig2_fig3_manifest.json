@@ -1,0 +1,37 @@
+{
+  "generator": "Matplotlib",
+  "script_sha256": "137ebe4facbf64bb14f0b7b0d84a429f686a779068c02f9a5c393e65d560112f",
+  "matplotlib": "3.10.9",
+  "font_path": "C:\\Windows\\Fonts\\arial.ttf",
+  "figure_width_inches": 6.5,
+  "minimum_font_points": 8,
+  "dpi_png": 600,
+  "dpi_tiff": 1200,
+  "observations_hardcoded": false,
+  "models_refitted": false,
+  "intervals_recomputed": false,
+  "inputs": {
+    "a1_discrimination_decomposition.csv": "b144f9e2508eb98300104a524a3b29391cabdd34172dedc12ce973b6c14510af",
+    "a1_discrimination_bootstrap.csv": "c2d9a1d8ea6a73acb57dae19c5e577fbf78cbd3e3363aefaffa484eb0191de19",
+    "a2_allocator_comparison.csv": "cad2e794080ae95acffbd554a910dcadeb3bdd54f7fcf41fdc7e6db7356099e8",
+    "a2_allocator_bootstrap.csv": "ad97dc75689afc3ed5d9cee837ae5c8359b264b8860143b759ba76e0f6691a95",
+    "a3_interval_algebra.csv": "fa58fbc68bd4cfc3577d06581b1b4976b903613ebe53a0ba00ec688bd253dc1d",
+    "a4_permission_grid.csv": "fa9f84a952c4813d7a5117c558bf933fc9733f2970c4969907b6a22c3d870357",
+    "a5_denial_by_quintile.csv": "a143753c5187212bdf7f235966281590925c88bb1f0d31dc4c3f24e4c9d5e279"
+  },
+  "outputs": {
+    "fig2.pdf": "0731b3a866602b590f0e9372c5e77f56141f8771be3902dd03c7fe07ff5d6b1d",
+    "fig2.svg": "9af8eb2edb28f9812bd6641ba86e189c4ce632bf11bf9ecc0a3adc99314fb766",
+    "fig2.png": "15d6de30501a287bdf9194420ed484d4358aded4768f8230a177ff656e45abe1",
+    "fig2.tiff": "77e88c0460b34501893dcd8fe1826891277ce402190da0d8d28a8866fa762384",
+    "fig3.pdf": "84360907e46af0b984beb8c39513ac24c243c862af82dfaf1633910b80874232",
+    "fig3.svg": "0764730bf989446240fef99ba646f91be1c6dd52140c025c30a8e888a0901ac3",
+    "fig3.png": "4c572fea18d991d6428a0bb9f0de7b47901a35da165157d756645002fda43635",
+    "fig3.tiff": "a624a30a245227275a39e683c608e4b0bf35b7e4347aa39e522baacae966cbdc"
+  },
+  "transforms": [
+    "A2 contrasts negate and swap archived CI endpoints.",
+    "A3 action overlap is the interval union width, not the largest component width.",
+    "Figure 3d separates cohort candidacy shares into side-by-side bars."
+  ]
+}

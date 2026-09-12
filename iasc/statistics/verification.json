@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "original_count_inputs_independently_used": true,
+  "analysis_implementation_imported": false,
+  "arm_metric_points_checked": 72,
+  "paired_metric_comparisons_checked": 36,
+  "bootstrap_vectors_checked": 468,
+  "replicates_per_vector": 2000,
+  "maximum_absolute_gap": 1.2698175844150228e-15,
+  "all_manifest_inputs_outputs_match": true,
+  "repeat_files_byte_identical": {
+    "archived_pooled_reproduction.csv": true,
+    "arm_estimates.csv": true,
+    "bootstrap_arm_draws.csv.gz": true,
+    "bootstrap_contrast_draws.csv.gz": true,
+    "bootstrap_multiplicities_development.csv.gz": true,
+    "bootstrap_multiplicities_external.csv.gz": true,
+    "harmonized_participant_counts.csv.gz": true,
+    "manifest.json": true,
+    "paired_comparisons.csv": true,
+    "participant_order.csv": true,
+    "validation.json": true
+  },
+  "verification_script_sha256": "3d1d072a8bc1471896aaabe41570aa34da1aaf6bd6a0142dfbc7c034839aee03"
+}

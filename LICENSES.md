@@ -1,18 +1,14 @@
 # Licence map
 
-- Python source, tests, build configuration and documentation: MIT (`LICENSE`).
-- Aggregate CSV/JSON evidence and generated manuscript figures: [CC BY-SA
-  4.0](https://creativecommons.org/licenses/by-sa/4.0/), licensed by Anonymous
-  Authors.
-- Many Labs IGT upstream data: [CC BY-SA
-  4.0](https://creativecommons.org/licenses/by-sa/4.0/); DOI
-  10.5334/jopd.ak.
-- Mendeley IGT version 2 upstream data: [CC BY
-  4.0](https://creativecommons.org/licenses/by/4.0/); DOI
-  10.17632/2pw2m39yct.2.
+- Project Python source, tests, build configuration and documentation retain MIT
+  terms (LICENSE and existing source notices).
+- Project derived evidence and generated figures retain CC BY-SA 4.0 terms.
+- Many Labs IGT **dataset**: CC BY-SA 4.0; source described by DOI 10.5334/jopd.ak,
+  with original data at https://osf.io/8t7rm/ .
+- Mendeley IGT **data version 2**: CC BY 4.0; DOI 10.17632/2pw2m39yct.2.
 
-Raw upstream data are not redistributed here. The aggregate tables are
-statistical aggregations and the figures are visualisations created for this
-study from the cited upstream sources. They retain the more restrictive CC
-BY-SA 4.0 terms for a simple, conservative downstream licence boundary.
-Dataset attribution and modification details are in `docs/DATA_ACCESS.md`.
+The IASC release includes derived participant- and decision-level outputs and
+synthetic system records. Original upstream data remain obtained separately.
+Preserve upstream notices and modification attribution; no endorsement is implied.
+The full licence/attribution explanation is in docs/DATA_SOURCES_AND_LICENSES.md
+and is also included inside and beside the release artifact.

@@ -1,0 +1,119 @@
+{
+  "python": "3.12.14",
+  "matplotlib": "3.10.9",
+  "style": {
+    "font": "Arial",
+    "font_path_at_build": "C:\\Windows\\Fonts\\arial.ttf",
+    "text_color": "#000000",
+    "width_inches": 6.5,
+    "height_inches": 4.0,
+    "minimum_font_pt": 8,
+    "data_colors": [
+      "#24557A",
+      "#777777"
+    ],
+    "png_dpi": 600,
+    "tiff_dpi": 1200
+  },
+  "style_source": "Previously reviewed build_fig4_fig5.py / journal_style.py export settings",
+  "provenance": [
+    {
+      "source": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_runtime_extension_2026-09-11\\out\\performance_summary.csv",
+      "snapshot": "inputs/performance_summary.csv",
+      "sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5"
+    },
+    {
+      "source": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_runtime_extension_2026-09-11\\out\\recovery_results.csv",
+      "snapshot": "inputs/recovery_results.csv",
+      "sha256": "696fed07cad87e53fbc5aa7aa3831926c52c12aff691ae728ce24a70a3805bd2"
+    },
+    {
+      "source": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_runtime_extension_2026-09-11\\out\\performance_runs.csv",
+      "snapshot": "inputs/performance_runs.csv",
+      "sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376"
+    },
+    {
+      "source": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_runtime_extension_2026-09-11\\out\\manifest.json",
+      "snapshot": "inputs/manifest.json",
+      "sha256": "42d4f267a2e87c9c7a8ecd17464a5651497009ae4f68329149ea381624b30c93"
+    },
+    {
+      "source": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_runtime_extension_2026-09-11\\PROTOCOL.md",
+      "snapshot": "inputs/PROTOCOL.md",
+      "sha256": "5113074d3064befdf21660f97d20faac0c09777c42b591864c8a9409f0950b40"
+    }
+  ],
+  "validation": {
+    "performance_cells": 6,
+    "performance_repetitions_per_cell": 5,
+    "recovery_cases": 90,
+    "recovery_scenarios": 9,
+    "recovery_repetitions_per_arm_scenario": 5,
+    "recovery_error_counter_totals": {
+      "duplicate_effects": 0,
+      "omitted_effects": 0,
+      "receipt_mismatches": 0,
+      "oversubscription": 0
+    },
+    "final_expected_state_cases": 90,
+    "held_uncertain_cases": 60,
+    "expected_uncertain_cases": 60,
+    "integrity_counters_are_input_results_not_new_experiments": true,
+    "p95_aggregation": "median/min/max of five per-run p95 latency estimates",
+    "bars_are": "observed min-max ranges; not confidence intervals",
+    "raw_performance_aggregate_check": true,
+    "timed_actions_per_run": 64,
+    "timed_actions_source": "fixed protocol; checked against raw runs when supplied"
+  },
+  "figure": {
+    "outputs": {
+      "pdf": {
+        "path": "fig6.pdf",
+        "sha256": "150a6ef1595c58427f1df5145481f4f2e8ab40400cfdb30b58cfe40a1a850bfc"
+      },
+      "svg": {
+        "path": "fig6.svg",
+        "sha256": "1b59982f9673113524ee7d7451ec7893f7e13ac64fe36b5c6b51b488cdad4ccf"
+      },
+      "png": {
+        "path": "fig6.png",
+        "sha256": "aed509ebaf299be239b986a9dbbb5c41a9ba9abd92a7025d14c20cc78c174420"
+      },
+      "tiff": {
+        "path": "fig6.tiff",
+        "sha256": "4f8a9ccbf4a15fba1d19cae40884ed870e1b1f868ccf57303f0940cc9fb753bc"
+      }
+    },
+    "minimum_font_pt": 8.0,
+    "width_inches": 6.5,
+    "height_inches": 4.0,
+    "all_text_black": true,
+    "text_within_figure": true,
+    "png_dimensions": [
+      3900,
+      2400
+    ],
+    "fonts": [
+      {
+        "name": "ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "raster_images_in_pdf": 0,
+    "page_size_points": [
+      0.0,
+      0.0,
+      468.0,
+      288.0
+    ]
+  },
+  "script_sha256": "0404d2538c152cd71eb73fb0f550dc970e9360ff5e5d7b5239f03a200c24364d",
+  "plot_values_sha256": "fc6346e93e5947741a7b1dfc38542638bf168f6fb58170a2428bfad8861df978",
+  "validation_sha256": "b258fcf048d0e77506716eadbd76c36c5d90f626187dc729387dc31dff9211a6",
+  "caption_sha256": "a90a9f3f32f3831e353c4268df21e3d6517293a441ebcebec6df2a305ae2bc4c",
+  "experiments_or_models_run": false
+}

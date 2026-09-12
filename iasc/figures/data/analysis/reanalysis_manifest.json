@@ -1,0 +1,63 @@
+{
+  "script": "reanalysis_permission_estimand.py",
+  "script_sha256": "e6b99f73371269465edc4b6f12222440ed79d21f037b1289981e673691ae5bae",
+  "seed": 20260817,
+  "replicates": 2000,
+  "reference_alert_cap": 8,
+  "reference_review_cap": 2,
+  "review_band_width": "0.03",
+  "uncertainty_threshold": "0.90",
+  "frozen_thresholds": {
+    "history_baseline": 0.43,
+    "regularised_logistic": 0.58,
+    "hist_gradient_boosting": 0.6
+  },
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "input_hashes": {
+    "predictions.csv.gz": "4df636f1ec8b78aecdaea4b4625432577337d0baac70ef383a87538399dc939f",
+    "route_assignments.csv.gz": "f2ee83217caa8d2bdd39f0648800e90b1d285be85ffcebdabbfc8b59865aadf4",
+    "frozen_operating_points.csv": "bfb41f620d363c40e4c6954b733162c625c6226ef3627d0dc3ad1170149e4502",
+    "model_performance.csv": "c015dc6657989688ceec98cd0dbf586df0eca09f05d3c0e0f09d93829573c08f"
+  },
+  "validation_checks": {
+    "auroc_matches_pairwise_definition": true,
+    "auroc_max_abs_gap_vs_definition": 0.0,
+    "pooled_auroc_matches_frozen_record": true,
+    "pooled_auroc_max_abs_gap": 1.1102230246251565e-16,
+    "reference_caps_checked": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "n_frozen_routes_compared": 939900,
+    "n_frozen_route_mismatches": 0,
+    "router_reproduces_frozen_routes": true,
+    "label_shuffle_route_changes": 0,
+    "routing_is_label_independent": true
+  },
+  "interval_conditional_on": [
+    "fitted_models",
+    "selected_thresholds",
+    "observed_episodes",
+    "decision_order"
+  ],
+  "refitting_performed": false,
+  "threshold_reselection_performed": false,
+  "raw_dataset_read": false,
+  "output_hashes": {
+    "a1_discrimination_bootstrap.csv": "c2d9a1d8ea6a73acb57dae19c5e577fbf78cbd3e3363aefaffa484eb0191de19",
+    "a1_discrimination_decomposition.csv": "b144f9e2508eb98300104a524a3b29391cabdd34172dedc12ce973b6c14510af",
+    "a2_allocator_bootstrap.csv": "ad97dc75689afc3ed5d9cee837ae5c8359b264b8860143b759ba76e0f6691a95",
+    "a2_allocator_comparison.csv": "cad2e794080ae95acffbd554a910dcadeb3bdd54f7fcf41fdc7e6db7356099e8",
+    "a3_interval_algebra.csv": "fa58fbc68bd4cfc3577d06581b1b4976b903613ebe53a0ba00ec688bd253dc1d",
+    "a4_permission_grid.csv": "fa9f84a952c4813d7a5117c558bf933fc9733f2970c4969907b6a22c3d870357",
+    "a4_permission_grid_bootstrap.csv": "2e2e080d265b1c9e223b353fd27bc7031e4c72264ed379f0b4e60c5a27c2ef2e",
+    "a5_burden_concentration.csv": "813905f4aed79639a1d690370ccf13d24e7b31190ee463c084c648d5ecf14d9e",
+    "a5_denial_by_quintile.csv": "a143753c5187212bdf7f235966281590925c88bb1f0d31dc4c3f24e4c9d5e279",
+    "a6_length_normalised_capacity.csv": "929a93118769f92e8f46620c7e5ee4336db2a264a489f15f477e2e0dd2f0649f"
+  }
+}
