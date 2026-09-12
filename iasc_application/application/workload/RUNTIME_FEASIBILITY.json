@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "state": "implementation ready for parent protocol freeze; no further execution-code or catalog edits planned",
+  "runner_sha256": "e05cebc18c2dab444215fb826377edb0480db72e2bf33ed776afbbc2a1d7f150",
+  "catalog_sha256": "bbd28484d9f10143b1d5db9d80740996b49a43987e5f737ce659114a3b87a9c8",
+  "catalog": "catalog.json",
+  "runner_api": "job_runner.run_job(job_dict, Path(fresh_empty_operation_directory)) -> dict",
+  "reference_qa": {
+    "directory": "qa_reference_v3",
+    "jobs": 164,
+    "pass": 164,
+    "fail": 0,
+    "timeout": 0,
+    "infrastructure_error": 0,
+    "actual_starts": 164,
+    "all_start_states_known": true
+  },
+  "selftest_qa": {
+    "directory": "qa_selftest_v3",
+    "cases": ["pass with separate stdout/stderr", "functional failure", "three-second timeout", "isolation and forbidden syscalls"],
+    "expected_mismatches": [],
+    "infrastructure_error": 0
+  },
+  "infrastructure_branch_qa": {
+    "directory": "qa_infrastructure_branches_v1",
+    "checks_passed": 2,
+    "host_processes_started": 0,
+    "method": "mocked Popen: outer timeout with missing start is unknown; prelaunch OSError is known zero"
+  },
+  "development_calibration": {
+    "directory": "qa_development_serial_v2",
+    "workers": 1,
+    "jobs": 80,
+    "pass": 43,
+    "fail": 37,
+    "timeout": 0,
+    "infrastructure_error": 0,
+    "actual_starts": 80,
+    "all_start_states_known": true,
+    "elapsed_seconds": 16.656000000002678,
+    "launcher_wall_median_seconds": 0.20300000000861473,
+    "launcher_wall_p95_seconds": 0.21899999999732245,
+    "launcher_wall_max_seconds": 0.21899999999732245,
+    "rule_predeclared_by_parent_before_serial_calibration": "D=max(5,ceil(1.5*16*median(all80 development launcher_wall_seconds))); retry backoff fixed at 1.0s; no success-conditioned timing filter",
+    "derived_deadline_seconds": 5,
+    "retry_backoff_seconds": 1.0,
+    "prior_runs_preserved": ["qa_development_v1", "qa_development_serial_v1"]
+  },
+  "evaluation_candidates_executed_by_this_implementation_subtask": 0,
+  "exposure": "All 164 tasks previously exposed; all downstream application results exploratory.",
+  "candidate_license": "unspecified; no MIT claim and no model-weight byte identity claim",
+  "source_provenance": "sources/candidate_download_recipe.json",
+  "public_bundle": "Exclude all candidate code including selected solutions, payloads and source-bearing logs; include official tests, code-free metadata/results and pinned download/extraction recipe.",
+  "interpretation": "Bounded suite-verification starts and observed time/CPU support a feasible actual-work pilot. Official-suite passes are finite-test outcomes, not exhaustive correctness or malicious-harness resistance. Whether the application warrants a manuscript addition depends on the parent workflow's frozen evaluation and utility checks."
+}

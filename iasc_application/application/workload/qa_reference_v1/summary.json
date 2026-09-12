@@ -1,0 +1,46 @@
+{
+  "actual_starts": 164,
+  "all_start_states_known": true,
+  "counts": {
+    "fail": 4,
+    "infrastructure_error": 0,
+    "pass": 160,
+    "timeout": 0
+  },
+  "elapsed_seconds": 8.155999999988126,
+  "evaluation_candidates_executed": 0,
+  "expected_mismatches": [
+    {
+      "candidate_id": "canonical::HumanEval/33",
+      "error_type": "NameError",
+      "expected": "pass",
+      "observed": "fail"
+    },
+    {
+      "candidate_id": "canonical::HumanEval/32",
+      "error_type": "NameError",
+      "expected": "pass",
+      "observed": "fail"
+    },
+    {
+      "candidate_id": "canonical::HumanEval/38",
+      "error_type": "NameError",
+      "expected": "pass",
+      "observed": "fail"
+    },
+    {
+      "candidate_id": "canonical::HumanEval/50",
+      "error_type": "NameError",
+      "expected": "pass",
+      "observed": "fail"
+    }
+  ],
+  "jobs": 164,
+  "launcher_wall_max_seconds": 0.5779999999940628,
+  "launcher_wall_median_seconds": 0.1869999999908032,
+  "launcher_wall_p95_seconds": 0.20300000000861473,
+  "mode": "reference",
+  "note": "Launcher timing includes WSL/namespace startup; reference and development are separate QA runs, not formal application outcomes.",
+  "runner_sha256": "a8e37ea7769420f155f6e988ea0b19f514e3d29f03c3f2ed693080bd0d62f5f4",
+  "workers": 4
+}

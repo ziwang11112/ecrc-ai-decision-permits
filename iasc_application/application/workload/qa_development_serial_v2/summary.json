@@ -1,0 +1,21 @@
+{
+  "actual_starts": 80,
+  "all_start_states_known": true,
+  "counts": {
+    "fail": 37,
+    "infrastructure_error": 0,
+    "pass": 43,
+    "timeout": 0
+  },
+  "elapsed_seconds": 16.656000000002678,
+  "evaluation_candidates_executed": 0,
+  "expected_mismatches": [],
+  "jobs": 80,
+  "launcher_wall_max_seconds": 0.21899999999732245,
+  "launcher_wall_median_seconds": 0.20300000000861473,
+  "launcher_wall_p95_seconds": 0.21899999999732245,
+  "mode": "development",
+  "note": "Launcher timing includes WSL/namespace startup; reference and development are separate QA runs, not formal application outcomes.",
+  "runner_sha256": "e05cebc18c2dab444215fb826377edb0480db72e2bf33ed776afbbc2a1d7f150",
+  "workers": 1
+}

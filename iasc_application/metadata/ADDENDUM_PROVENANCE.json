@@ -1,0 +1,22 @@
+{
+  "audit_summary": "audits/INDEPENDENT_AUDITS.json",
+  "augmentation_script_sha256": "bf5e257f8d461a105ded20e8b4f2dfe3f4e8c425f3264bea680e664247401dc8",
+  "candidate_code_executed": false,
+  "figures": [
+    {
+      "bytes": 15542,
+      "name": "S9_application_results.pdf",
+      "sha256": "5d0ae3724ac2b5f6cd84ebd8508e654e47d00c5ee2f48cd237a75ec187cc76f7"
+    },
+    {
+      "bytes": 79633,
+      "name": "S9_application_results.png",
+      "sha256": "d5579c4e08e4d6ed3759480ed036187a88a7fc2aabca572023304559d6d1b840"
+    }
+  ],
+  "prior_public_inventory_sha256": "15841f55c9063e0791b9f73b62219eddcfb8534c85cd91bfd2731c60196e33a0",
+  "result_prose_sha256": "848e80b73586e63748ca88969e895d872b710911c5f4d3e6fadf58a9eb29e9ad",
+  "source_and_freeze_files_modified": false,
+  "source_summary_sha256": "c8c6ea77c01a885597761d0b25e792e5dbbe0e538054147484a6eb921201667c",
+  "version": 1
+}

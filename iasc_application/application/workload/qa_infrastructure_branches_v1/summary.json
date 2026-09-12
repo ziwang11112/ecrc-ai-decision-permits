@@ -1,0 +1,7 @@
+{
+  "candidate_code_executed": false,
+  "checks_passed": 2,
+  "host_processes_started": 0,
+  "note": "Popen is mocked; the launch PID in this QA folder is deliberately synthetic.",
+  "runner_sha256": "e05cebc18c2dab444215fb826377edb0480db72e2bf33ed776afbbc2a1d7f150"
+}

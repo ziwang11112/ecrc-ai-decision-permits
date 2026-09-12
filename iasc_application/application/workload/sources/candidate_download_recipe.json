@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "paper_title": "The Limits of Inference Scaling Through Resampling",
+  "paper_authors": ["Benedikt Stroebl", "Sayash Kapoor", "Arvind Narayanan"],
+  "paper_arxiv": "2411.17501v3",
+  "paper_url": "https://arxiv.org/abs/2411.17501v3",
+  "paper_doi": "10.48550/arXiv.2411.17501",
+  "primary_metadata_verified_date": "2026-09-12",
+  "origin_readme_url": "https://raw.githubusercontent.com/benediktstroebl/inference-scaling-limits/11a8f6ed1aee5b996f659c3fedb549c07aeb34ad/README.md",
+  "origin_readme_commit": "11a8f6ed1aee5b996f659c3fedb549c07aeb34ad",
+  "source_url": "https://www.dropbox.com/scl/fi/je3d9lrmu36g5x3alugsa/humaneval_evalplus.zip?rlkey=del4cd36kfyyseaw7r9zs8gn0&dl=1",
+  "zip_member": "humaneval/meta-llama--Meta-Llama-3.1-8B-Instruct_openai_temp_0.8-sanitized/eval_results.json",
+  "uncompressed_member_bytes": 73874142,
+  "uncompressed_member_sha256": "4ef4b6b65e77ba2b1f44b6f890ac5d1f7e82b817bbdb7492b71fa1f825ef3522",
+  "original_zip_bytes_from_local_provenance": 928278140,
+  "license": "unspecified; this record does not grant redistribution rights",
+  "recipe": [
+    "Obtain the ZIP linked by the pinned author README from source_url.",
+    "Read only the exact zip_member as data; do not execute archive contents or extract arbitrary archive paths.",
+    "Verify its uncompressed byte length and SHA256 against this record.",
+    "Use the verified member at the input path expected by prepare_workload.py in a fresh workload directory.",
+    "Build selections from task IDs, source array indices and solution strings only; do not use archived result labels."
+  ],
+  "publication_policy": "Exclude the full raw candidate archive, selected candidate programs, catalog solutions, QA input payloads and any logs containing candidate source from the future public S9 bundle. Publish official tests, code-free metadata/results and this pinned download/extraction recipe. The full local author bundle may retain inputs. No model-weight byte identity is established; only the sanitized archive member is hashed."
+}

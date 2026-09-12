@@ -1,0 +1,13 @@
+{
+  "budget": 16,
+  "candidate_code_executed": false,
+  "checks_passed": true,
+  "deadline_seconds": 5,
+  "evaluation_results_read": false,
+  "freeze_manifest_sha256": "86e08243253d4bf19b530112462fe3195dce620a385d57237ebf8253db277df4",
+  "frozen_input_files_verified": 5,
+  "frozen_source_files_verified": 30,
+  "planned_runs": 144,
+  "protocol_sha256": "ab396792ad4058ad0418ccbabdf0f963723d77ddf0b8c75c613e4e757b5bdc9d",
+  "recovery_backoff_seconds": 1.0
+}

@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "kind": "analysis_source",
+      "sha256": "abe977d52a3efae7329513d195443d190ca16c3eddb21d22be109c01539ccbc7",
+      "source_name": "analyze_application.py"
+    },
+    {
+      "kind": "plotting_source",
+      "sha256": "971922ebe246d62a5f2a44f69be9160716c29de889521297608f8de15db6fedb",
+      "source_name": "plot_application.py"
+    },
+    {
+      "kind": "code_free_analysis_table",
+      "rows": 144,
+      "sha256": "98ae89216a6e021cfefc17e6bb9af6ddcbb3b60240f79157d27c60a4dab2ede5",
+      "source_name": "S9_runs.csv"
+    },
+    {
+      "kind": "code_free_analysis_table",
+      "rows": 1802,
+      "sha256": "c55ddd55f9ee3ce971012ba973dcc9a54ff87b52a8a0ace2d3b76899b54b116c",
+      "source_name": "S9_jobs.csv"
+    },
+    {
+      "kind": "code_free_analysis_table",
+      "rows": 8,
+      "sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+      "source_name": "S9_cells.csv"
+    },
+    {
+      "kind": "code_free_analysis_table",
+      "rows": 216,
+      "sha256": "69e97462918f04f3203023b51d8037eb408efedc3454276f4132a9c6dd08ce9b",
+      "source_name": "S9_paired_batches.csv"
+    },
+    {
+      "kind": "original_analysis_input_hashes",
+      "sha256": "8208adb1a8824062fc6aceb2b8a7e759564a6dd7f495cf765fc9e992c63257b8",
+      "source_name": "SOURCE_MANIFEST.json"
+    }
+  ],
+  "raw_analysis_reproduction": "Original analyze_application.py uses author-held SQLite/raw records. Public projections and CSVs support preserved-field checks; complete result_hash verification requires private originals.",
+  "summary_policy": "S9_SUMMARY.json is not copied automatically; all four explicitly checked CSVs are retained."
+}

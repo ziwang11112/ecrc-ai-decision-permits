@@ -1,0 +1,56 @@
+{
+  "all_tasks_previously_exposed": true,
+  "builder_sha256": "b67bb2a0f33afd04f1cab6c50bfb6a38fbea4e3dbad47db69b3526844422b084",
+  "candidate_count": 656,
+  "candidate_execution_performed": false,
+  "candidate_fields_accessed": [
+    "task_id map key",
+    "source array index",
+    "solution"
+  ],
+  "candidate_source": {
+    "bytes": 73874142,
+    "license": "unspecified",
+    "path": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\failure_first_screen_2026-09-11\\published_result\\llama31_8b_humaneval_eval_results.json",
+    "redistribution": "exclude full raw candidate source from a future public bundle; supply exact source URL/member/hash/download recipe",
+    "sha256": "4ef4b6b65e77ba2b1f44b6f890ac5d1f7e82b817bbdb7492b71fa1f825ef3522"
+  },
+  "catalog_sha256": "55f90d325350a8778a686fa78aee2763e6a851866d3c87b46125e147208e9c2d",
+  "development_candidates": 80,
+  "development_tasks": 20,
+  "empty_selected_programs": 10,
+  "evaluation_batches": 18,
+  "evaluation_candidates": 576,
+  "evaluation_tasks": 144,
+  "historical_result_labels_used": false,
+  "official_sources": [
+    {
+      "bytes": 44877,
+      "commit": "6d43fb980f9fee3c892a914eda09951f772ad10d",
+      "path": "sources\\HumanEval.jsonl.gz",
+      "sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+      "url": "https://raw.githubusercontent.com/openai/human-eval/6d43fb980f9fee3c892a914eda09951f772ad10d/data/HumanEval.jsonl.gz"
+    },
+    {
+      "bytes": 1083,
+      "commit": "6d43fb980f9fee3c892a914eda09951f772ad10d",
+      "path": "sources\\HUMANEVAL_LICENSE",
+      "sha256": "bcba3de214851cce46ed5af42d6698044616eeace887c3231bc7a20474ab639e",
+      "url": "https://raw.githubusercontent.com/openai/human-eval/6d43fb980f9fee3c892a914eda09951f772ad10d/LICENSE"
+    }
+  ],
+  "runner_manifest": {
+    "job_runner.py": "c3416183b0323c3d8b7c9abc7c6f90d214a51fd9e81c1ff0da5b43c44295d159",
+    "sandbox/run_sandbox.sh": "8b1f1ae0a93e0274e93d7637e79cdda6eb374c162cfbf9e6527c6f9d7b2c0069",
+    "sandbox/sandbox_bootstrap.py": "de8ce62415bf24967ac948a33d6d28d027ce1fdcfc068f8b521aa939e529265c",
+    "sandbox/sandbox_guard.py": "0a2fa64985d8b4d77413c35019099cbba4852d1759820976db61791e7d41a3cb",
+    "sandbox/suite_worker.py": "942668e3ba465dd808206e50849a88d60fd275633428e17f90cdec24baa8fef0"
+  },
+  "runner_sha256": "a8e37ea7769420f155f6e988ea0b19f514e3d29f03c3f2ed693080bd0d62f5f4",
+  "schema_version": 1,
+  "selection": "first four source record indices by SHA256('iasc-app-20260912-v1|task_id|source_array_index'); retain empty/duplicate source records",
+  "task_count": 164,
+  "task_order": "SHA256('iasc-app-task-order-v1|task_id'); first20 development, remaining144 evaluation",
+  "tasks_per_evaluation_batch": 8,
+  "within_task_duplicate_selected_texts": 6
+}

@@ -1,0 +1,15 @@
+{
+  "all_tasks_previously_exposed": true,
+  "candidate_code_executed_by_packager": false,
+  "candidate_source_recipe": "application/workload/sources/candidate_download_recipe.json",
+  "candidate_source_redistribution_license": "unspecified; candidate code excluded",
+  "formal_mode": true,
+  "frozen_protocol_present_at_build": true,
+  "full_private_catalog_sha256": "bbd28484d9f10143b1d5db9d80740996b49a43987e5f737ce659114a3b87a9c8",
+  "official_tests_license": "MIT; application/workload/sources/HUMANEVAL_LICENSE",
+  "projected_result_files": 6605,
+  "protocol_policy": "Formal mode includes reviewed pinned FINAL_PROTOCOL/FREEZE_MANIFEST and verifies every source byte. Independent audit output still requires explicit metadata review.",
+  "protocol_sha256": "ab396792ad4058ad0418ccbabdf0f963723d77ddf0b8c75c613e4e757b5bdc9d",
+  "runner_sha256": "e05cebc18c2dab444215fb826377edb0480db72e2bf33ed776afbbc2a1d7f150",
+  "source_archive_sha256": "4ef4b6b65e77ba2b1f44b6f890ac5d1f7e82b817bbdb7492b71fa1f825ef3522"
+}

@@ -1,0 +1,10 @@
+{
+  "stage": "development",
+  "planned_runs": 8,
+  "observed_runs": 8,
+  "all_runs_retained": true,
+  "technical_failures": 8,
+  "elapsed_wall_seconds": 9.728874683380127,
+  "model_calls": 0,
+  "automatic_reruns": 0
+}

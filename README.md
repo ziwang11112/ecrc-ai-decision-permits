@@ -2,15 +2,29 @@
 
 Code and reproducibility materials for **Decision Permits for Capacity-Bounded Artificial Intelligence Actions: Binding Authorization to Effects**.
 
-**Fixed IASC version:** [iasc-restructured-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-restructured-2026-09-12).
+**New controlled application (S9):** [iasc-application-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-application-2026-09-12).
+Browse its [source and analysis](iasc_application/SOURCE_VIEW.md) and
+[complete results and limits](iasc_application/FINAL_RESULTS.md). The fixed S9
+ZIP supplies all public trajectory projections and a public-only independent
+recalculation. It executed 1,802 actual verification jobs across 144 fixed
+trajectories. The 194 cached response recoveries added no suite starts. Timely
+task counts match between the two complete implementations in 71 of 72 paired
+cells; policy contrasts are not an ECRC-exclusive utility advantage. Candidate
+bodies are obtained directly from their authors using the documented exact
+download/hash reconstruction recipe. No manuscript PDF or Overleaf source is
+included in this code release.
+
+**Unchanged S1–S8 IASC version:** [iasc-restructured-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-restructured-2026-09-12).
 The release contains the full S1–S8 reproducibility archive, including both S8
 run sets, and checksums. This repository also exposes the current implementation,
 analysis and plotting sources in [iasc/](iasc/README.md).
 
-The [current result index](iasc/presentation_revision/README.md) maps five main
+The [S1–S8 presentation index](iasc/presentation_revision/README.md) maps five main
 figures, five editable tables and seven equations to their sources, row keys,
-transformations and hashes. New plots read retained data; this revision adds no
-training, bootstrap or formal experiment. The older
+transformations and hashes. That earlier presentation revision added no
+training, bootstrap or formal experiment. S9 is a separate new experiment,
+with Table 6 and an extension of the design table documented in its own index.
+The older
 [iasc-r2-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-r2-2026-09-12)
 release remains fixed and accessible. All its scientific files are unchanged;
 the current full artifact adds presentation_revision/ and updated root indices.
@@ -37,6 +51,7 @@ tested obligations; this is not an ECRC-record-format superiority claim.
 | S6 preissued delivery | Nine recovery scenarios × five repeats × two arms, plus separate boundary and timing studies |
 | S8 issuance through recovery | Six scenarios × three repeats × two arms = 36 primary runs, 300 requests and 78 synthetic effects/receipts |
 | Complete S8 reproduction | Separate retained 36-run repeat; outcomes/state summaries match, winner identities differ in 33 runs |
+| S9 controlled program verification | 18 batches × two policies × two complete clients × two response conditions = 144 trajectories, 1,802 real test jobs, measured costs and live feedback; previously exposed tasks and finite-suite acceptance only |
 
 Each S8 run set retains 36 final client/sink pairs plus 126 checkpoint backup
 pairs: 90 non-final and 36 final-state backups. Each saved-state audit completed

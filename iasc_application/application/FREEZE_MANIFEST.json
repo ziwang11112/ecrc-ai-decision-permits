@@ -1,0 +1,42 @@
+{
+  "protocol_sha256": "ab396792ad4058ad0418ccbabdf0f963723d77ddf0b8c75c613e4e757b5bdc9d",
+  "source_snapshot_files": {
+    "application_common.py": "d556bc8ad4aa90cf7863b42e1045d17656bf41a01dc92d4efda132a52e9d17d6",
+    "freeze_protocol.py": "edab794a59a9f10e65ff5694bf8e5e71d9a28e354f573885fde0c39a3b800bcd",
+    "legacy/end_to_end/ecrc_e2e.py": "554b5a35c764c47d9b5e7c4419192a36d601807eb8937b0709a120a03a24060a",
+    "legacy/end_to_end/legacy_snapshot/delivery.py": "a0038ecf5d61663350ade277999d00e9024e30ae658d0728d7083c687285b36e",
+    "legacy/end_to_end/legacy_snapshot/ecrc_adapter.py": "89b0a4a497391711a049b0d8e63155ee91c7c4c0e69769f9db7d57e127b5e50f",
+    "legacy/end_to_end/legacy_snapshot/ordinary_adapter.py": "f212202223d8a6217306ef240d864ccf10aa80889043f21cb9e60c5e03dff634",
+    "legacy/end_to_end/legacy_snapshot/service.py": "afc8d95c44ea6bb4f7eabdbb18ba234d3dbc0fbd325274a8694bd62e8c43d279",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/__init__.py": "ac5dc53b9663d5ac855907e8bb0f7724ef97a37ee35d18e2ec928f42874e5e1f",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/__init__.py": "6b36849327c1c2be3526e58813a902a609b4dbbb33ee29426aa3a7f48b54dbf6",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/adjudicator.py": "c6dd01b71a6a686a553128d0b147f8dd8f8044398d9a0d0ac949bec42e76d00b",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/canonical.py": "f08cd0a8677253fcb14340393b1c828196f3d769b2c3eabf897c0816d64399e5",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/enforcement.py": "997efca4c14705b35907f1e144fd8cc77953402eb4603876bd3a88dba818eee4",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/exceptions.py": "2b992f9055a132d3919bf07c7ca3863d519b809b651de5a35cf71120a7f53987",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/ledger.py": "51a995c7a80c628a0fc487cb7d255091b02455a3d7f4bb2a548a5c3a62eeb303",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/models.py": "60d3e6f5c5c18ffa136da6d1464bba1ebe6e2e57534524fd69588a4a3f976337",
+    "legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/verifier.py": "d894537f4571fc8463c5a97e93f7d46a5ef41d593059ec13d0f284527a8c9c5b",
+    "legacy/end_to_end/ordinary_e2e.py": "1ad85d855dc9e80daecf1b33cc92ba1f17fdb1019a84a14db05fe712f8fcab68",
+    "legacy/request_template.json": "d798b12a756990517e63f64d450604e86879d5f12eeb4939305618c93fa80e24",
+    "legacy/SOURCE_MANIFEST.json": "96b0a59be2d366217e834d11d040b66ae4fef2767d7fabf3024e0dd8f55c4eff",
+    "prepare_legacy.py": "feee6d9f403225b0d6be4e913b0136c6302a2d57d09c40716bec9340c26baca8",
+    "run_grid.py": "9a76c5d3248f21ce7e3f4e27ba1a673868dd02c0c7a99ff97d823a874b6a723b",
+    "run_workflow.py": "740774ec175722d7de92c0150b84631a24f81754c96cb4e986988efb3943dace",
+    "service/frozen_service.py": "afc8d95c44ea6bb4f7eabdbb18ba234d3dbc0fbd325274a8694bd62e8c43d279",
+    "service/verification_service.py": "4ebd35083fafaadad865ef578c9273044b4bdb0c58d1b57b0fab1a6a9f61ca81",
+    "workload/job_runner.py": "ffaaecdf7e2ea518c0d91c56b8a0bea6a48491cd6dcb390ba6fad59e97222c0b",
+    "workload/prepare_workload.py": "b67bb2a0f33afd04f1cab6c50bfb6a38fbea4e3dbad47db69b3526844422b084",
+    "workload/sandbox/run_sandbox.sh": "8b1f1ae0a93e0274e93d7637e79cdda6eb374c162cfbf9e6527c6f9d7b2c0069",
+    "workload/sandbox/sandbox_bootstrap.py": "de8ce62415bf24967ac948a33d6d28d027ce1fdcfc068f8b521aa939e529265c",
+    "workload/sandbox/sandbox_guard.py": "0a2fa64985d8b4d77413c35019099cbba4852d1759820976db61791e7d41a3cb",
+    "workload/sandbox/suite_worker.py": "67f1c0502980b3cd1f91169a9bdba5b8e2b3ee33c7f0449b074b63aeb34dd77c"
+  },
+  "input_files": {
+    "PILOT_PLAN.md": "e2624b090a18f3aafc6b53654c3059be3a7bcc5ff48a67edbdaf679e974207bd",
+    "bound_catalog.json": "7ee7bce40cdc12cc9098d7af90dc48cb40f59ca97e9ee2afd41e63215940e280",
+    "workload/catalog.json": "bbd28484d9f10143b1d5db9d80740996b49a43987e5f737ce659114a3b87a9c8",
+    "workload/qa_development_serial_v2/summary.json": "2db964293ec8dd491923be1794a6d07b746c2a470e7aca4a142c8348bff24303",
+    "development/integration_v2/SUMMARY.json": "0d4ab9d1918371332be5d11522a686e5b1cb78fdfd8cac35972e76ee65db63cd"
+  }
+}
