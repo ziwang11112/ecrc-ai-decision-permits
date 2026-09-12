@@ -1,0 +1,16 @@
+{
+  "command": [
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\tools\\java\\jdk-21.0.12.1+1-jre\\bin\\java.exe",
+    "-cp",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\tools\\tla2tools.jar",
+    "tla2sany.SANY",
+    "ECRCLifecycle.tla"
+  ],
+  "returncode": 0,
+  "stdout": "\n****** SANY2 Version 2.1 created 24 February 2014\n\nParsing file D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\ECRCLifecycle.tla\nParsing file C:\\Users\\ziwan\\AppData\\Local\\Temp\\Naturals.tla\nParsing file C:\\Users\\ziwan\\AppData\\Local\\Temp\\FiniteSets.tla\nParsing file C:\\Users\\ziwan\\AppData\\Local\\Temp\\Sequences.tla\nSemantic processing of module Naturals\nSemantic processing of module Sequences\nSemantic processing of module FiniteSets\nSemantic processing of module ECRCLifecycle\n",
+  "stderr": "",
+  "model_sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+  "passed": true,
+  "state_space_exploration": false,
+  "utc": "2026-09-12T18:11:30.560875+00:00"
+}

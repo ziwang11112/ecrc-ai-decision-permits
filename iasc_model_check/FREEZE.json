@@ -1,0 +1,50 @@
+{
+  "frozen_utc": "2026-09-12T18:19:31.550020+00:00",
+  "source_hashes": {
+    "PROTOCOL.md": "102ec22ddff809e9103a20b61fe12bfaac70adccd0a1a386598d64d514fc70f4",
+    "ECRCLifecycle.tla": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+    "normal_2_1.cfg": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
+    "normal_3_2.cfg": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
+    "unsafe_2_1.cfg": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
+    "prepare_model.py": "38b59c866cf58dcaf5df72ae127027fbfeccd0e4310a9d2ea789d3da01af46a2",
+    "run_models.py": "690a8994c8bb0f62d834a4d9b4f155442e83f7c5896fc8fe37e1d78d6b8637a4",
+    "exact_check.py": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e",
+    "SOURCE_MAPPING.md": "98323f3c60484b113e5550e4db9ad082380398c97cd3c350eca6bbee210e257f",
+    "MODEL_REVIEW.json": "1ac59b6de33441088fd30f4ed648c3f78ace115ffd02c2d154fb1a5b3286bad7",
+    "CHECKPOINT_PREFIX_MAPPING.md": "0938f93eef3ac054772f03a3d8850caa572f204afc2c8d9e1d6b6cc319c64cf9",
+    "REVIEW_REQUIREMENTS.md": "2657720c3a92176d5d4b84ad4acd60cee979884b4f9ba70798432a4b405157f9",
+    "ARTIFACT_BASELINE.json": "c8e0a60d82d2078a5ba489d3a9ac95895ba4ef43668360b15f8deaab01cf8380",
+    "tools/TOOLCHAIN.json": "e967ccd118ac448cb0bf1f90b17c837bb82dedf26e2484f3b7fb3c3d82b49c51",
+    "tools/run_tlc.py": "afc066975e930b07742bc93bad988303d14642f6c14f26ea6ac87d3d806d2658"
+  },
+  "cases": [
+    {
+      "id": "normal_2_1",
+      "n": 2,
+      "capacity": 1,
+      "unsafe": false,
+      "timeout_seconds": 600
+    },
+    {
+      "id": "normal_3_2",
+      "n": 3,
+      "capacity": 2,
+      "unsafe": false,
+      "timeout_seconds": 600
+    },
+    {
+      "id": "unsafe_2_1",
+      "n": 2,
+      "capacity": 1,
+      "unsafe": true,
+      "timeout_seconds": 120
+    }
+  ],
+  "workers": 1,
+  "fingerprint_index": 0,
+  "heap": "2g",
+  "positive_search": "full reachable-state search; no state/depth constraints",
+  "negative_search": "stop at first EffectCountBound counterexample",
+  "independent_check": "exact Python state equality, same fixed instances",
+  "manuscript_changed": false
+}

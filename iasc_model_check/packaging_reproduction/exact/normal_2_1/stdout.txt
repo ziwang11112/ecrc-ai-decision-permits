@@ -1,0 +1,1 @@
+{"case": {"id": "normal_2_1", "n": 2, "capacity": 1, "unsafe": false, "timeout_seconds": 600}, "status": "COMPLETE_PASS", "unique_labeled_states_discovered": 684, "states_checked": 684, "search_elapsed_seconds": 0.00520490002236329}

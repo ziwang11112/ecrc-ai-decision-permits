@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "normal_2_1",
+      "status": "COMPLETE_STATE_COUNT_MATCH",
+      "exact_result_exists": true,
+      "tlc_final_result_exists": true,
+      "exact_status": "COMPLETE_PASS",
+      "tlc_status": "COMPLETE_PASS",
+      "tlc_log_sha256": "2d886e3e71d837bdb44461e59b50703db6088edf739d0b6fc2725fb524dc4844",
+      "exact_result_sha256": "1f9d145964b63d4f1da83e828e87899963e6bfa8156f7b74e7aa9dab01de510c",
+      "tlc_distinct_states": 684,
+      "exact_distinct_states": 684,
+      "distinct_state_count_equal": true,
+      "tlc_generated_states": 2673,
+      "exact_generated_states_including_initial": 2673,
+      "generated_count_equal": true,
+      "tlc_queue_remaining": 0
+    },
+    {
+      "case": "normal_3_2",
+      "status": "COMPLETE_STATE_COUNT_MATCH",
+      "exact_result_exists": true,
+      "tlc_final_result_exists": true,
+      "exact_status": "COMPLETE_PASS",
+      "tlc_status": "COMPLETE_PASS",
+      "tlc_log_sha256": "23a57b22766e1f161ed1674083026311b0fdf708888643ee2d0e3b92def6ca01",
+      "exact_result_sha256": "bc15cda301c22f58ef4f8761a1367db1e69e4b6f62e10d1ac3738494ff8bd370",
+      "tlc_distinct_states": 21960,
+      "exact_distinct_states": 21960,
+      "distinct_state_count_equal": true,
+      "tlc_generated_states": 122089,
+      "exact_generated_states_including_initial": 122089,
+      "generated_count_equal": true,
+      "tlc_queue_remaining": 0
+    },
+    {
+      "case": "unsafe_2_1",
+      "status": "BOTH_FOUND_COUNTEREXAMPLE",
+      "exact_result_exists": true,
+      "tlc_final_result_exists": true,
+      "exact_status": "EXPECTED_COUNTEREXAMPLE",
+      "tlc_status": "EXPECTED_COUNTEREXAMPLE",
+      "tlc_log_sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+      "exact_result_sha256": "41149e418334cdfc804913f3884b1aa8f135b5b9c6c97aec408594c717eb7109",
+      "negative_state_counts_not_compared": "Both searches stop early and can use different BFS action ordering; neither count is exhaustive."
+    }
+  ],
+  "scope": "Exact labeled-state counts cross-check completed positive cases. Agreement does not eliminate shared modeling errors and is not code refinement."
+}

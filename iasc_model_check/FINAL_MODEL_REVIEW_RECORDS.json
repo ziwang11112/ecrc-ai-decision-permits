@@ -1,0 +1,531 @@
+{
+  "verdict": "PASS",
+  "audit_kind": "Read-only bindings, complete-output coverage and saved-trace audit; no state-space rerun",
+  "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+  "frozen_files_verified": 15,
+  "baseline_files_verified": 205,
+  "baseline_all_preserved": true,
+  "baseline_mismatches": [],
+  "cases": [
+    {
+      "case": "normal_2_1",
+      "tlc_status": "COMPLETE_PASS",
+      "exact_status": "COMPLETE_PASS",
+      "tlc_distinct": 684,
+      "exact_discovered": 684,
+      "tlc_generated": 2673,
+      "exact_generated": 2673,
+      "tlc_queue_remaining": 0,
+      "warnings": [
+        "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+      ],
+      "fingerprint_estimates": [
+        "calculated (optimistic):  val = 7.4E-14"
+      ],
+      "tlc_seconds": 1.0899018000054639,
+      "exact_seconds": 0.006284300005063415,
+      "tlc_stdout_sha256": "2d886e3e71d837bdb44461e59b50703db6088edf739d0b6fc2725fb524dc4844",
+      "exact_result_sha256": "1f9d145964b63d4f1da83e828e87899963e6bfa8156f7b74e7aa9dab01de510c",
+      "normal_action_families_covered": 17,
+      "normal_action_edge_counts_match": true,
+      "all_nine_invariants_checked_on_every_reachable_state": true,
+      "tlc_depth_nodes": 16,
+      "exact_depth_edges": 15
+    },
+    {
+      "case": "normal_3_2",
+      "tlc_status": "COMPLETE_PASS",
+      "exact_status": "COMPLETE_PASS",
+      "tlc_distinct": 21960,
+      "exact_discovered": 21960,
+      "tlc_generated": 122089,
+      "exact_generated": 122089,
+      "tlc_queue_remaining": 0,
+      "warnings": [
+        "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+      ],
+      "fingerprint_estimates": [
+        "calculated (optimistic):  val = 1.2E-10",
+        "based on the actual fingerprints:  val = 4.3E-11"
+      ],
+      "tlc_seconds": 1.5595120000070892,
+      "exact_seconds": 0.18656149998423643,
+      "tlc_stdout_sha256": "23a57b22766e1f161ed1674083026311b0fdf708888643ee2d0e3b92def6ca01",
+      "exact_result_sha256": "bc15cda301c22f58ef4f8761a1367db1e69e4b6f62e10d1ac3738494ff8bd370",
+      "normal_action_families_covered": 17,
+      "normal_action_edge_counts_match": true,
+      "all_nine_invariants_checked_on_every_reachable_state": true,
+      "tlc_depth_nodes": 25,
+      "exact_depth_edges": 24
+    },
+    {
+      "case": "unsafe_2_1",
+      "tlc_status": "EXPECTED_COUNTEREXAMPLE",
+      "exact_status": "EXPECTED_COUNTEREXAMPLE",
+      "tlc_distinct": 934,
+      "exact_discovered": 1114,
+      "tlc_generated": 3155,
+      "exact_generated": 3897,
+      "tlc_queue_remaining": 168,
+      "warnings": [
+        "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+      ],
+      "fingerprint_estimates": [],
+      "tlc_seconds": 0.9646900999941863,
+      "exact_seconds": 0.006384699983755127,
+      "tlc_stdout_sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+      "exact_result_sha256": "41149e418334cdfc804913f3884b1aa8f135b5b9c6c97aec408594c717eb7109",
+      "negative_counts_are_partial_and_not_required_equal": true
+    }
+  ],
+  "negative_saved_trace_states": 13,
+  "negative_saved_trace_transitions_independently_validated": 12,
+  "tlc_exact_negative_states_identical": true,
+  "negative_trace": [
+    {
+      "tlc_state_number": 1,
+      "action": "Init",
+      "state": {
+        "cancelled": [],
+        "expired": [],
+        "received": [],
+        "effects": [],
+        "held": [],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [],
+        "heldCount": 0,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 2,
+      "action": "ReceiveRaw",
+      "state": {
+        "cancelled": [],
+        "expired": [],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [],
+        "heldCount": 0,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 3,
+      "action": "IssueAction",
+      "state": {
+        "cancelled": [],
+        "expired": [],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 4,
+      "action": "Arm",
+      "state": {
+        "cancelled": [],
+        "expired": [],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 5,
+      "action": "ExpirePermit",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 6,
+      "action": "Send",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [
+          1
+        ],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 7,
+      "action": "CommitEffect",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 8,
+      "action": "UnsafeReleaseUnknown",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "held": [],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 0,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 9,
+      "action": "ReceiveRaw",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1
+        ],
+        "held": [],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 0,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 10,
+      "action": "IssueAction",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1
+        ],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1,
+          2
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 11,
+      "action": "Arm",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1
+        ],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1,
+          2
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1,
+          2
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 12,
+      "action": "Send",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1
+        ],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [
+          2
+        ],
+        "armed": [
+          1,
+          2
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1,
+          2
+        ],
+        "clientUp": true
+      }
+    },
+    {
+      "tlc_state_number": 13,
+      "action": "CommitEffect",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1,
+          2
+        ],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1,
+          2
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1,
+          2
+        ],
+        "denied": [],
+        "issued": [
+          1,
+          2
+        ],
+        "clientUp": true
+      }
+    }
+  ],
+  "negative_first_effect_before_unsafe_release": true,
+  "negative_ack_loss_transition_present": false,
+  "saved_positive_witness_projections_match_s8_prefixes": {
+    "issued_unarmed": true,
+    "cancelled_unarmed": true,
+    "effect_unreconciled": true,
+    "expired_effect_unreconciled": false
+  },
+  "review_script_preparation_correction": "The first read-only audit attempt incorrectly required every S8 projection to occur in the representative WITNESSES file. It stopped before output after not finding the joint expired+effect+unreconciled projection; no exploration ran. v1 script is retained in review_preparation. The corrected audit reports presence/absence without mistaking the witness subset for the whole reachable graph.",
+  "prefix_scope": "Existence of matching persistent projections, not reconstruction of network state or full source refinement",
+  "script_sha256": "e815eaf79d915153fa2c6e94d8d8b208237aa6b0d57b8e9e821123514827b32e"
+}

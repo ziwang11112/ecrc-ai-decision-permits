@@ -1,0 +1,41 @@
+{
+  "verdict": "PASS",
+  "review_kind": "Internal static source-to-abstraction and configuration review before state-space exploration",
+  "review_date": "2026-09-12",
+  "reviewer": "rereview_contract",
+  "model_executed_by_reviewer": false,
+  "application_or_client_executed_by_reviewer": false,
+  "meaning_of_pass": "No blocking static specification mismatch found within the declared scope. This is permission to proceed to the frozen checks, not a result that the invariants have been model-checked.",
+  "bindings": {
+    "ECRCLifecycle.tla": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+    "normal_2_1.cfg": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
+    "normal_3_2.cfg": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
+    "unsafe_2_1.cfg": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
+    "PROTOCOL.md": "102ec22ddff809e9103a20b61fe12bfaac70adccd0a1a386598d64d514fc70f4"
+  },
+  "blocking_findings": [],
+  "checks": [
+    {"item": "Variable coverage", "result": "PASS", "evidence": "All 18 action definitions cover every one of the 16 variables exactly once through assignment or UNCHANGED, corroborated by a lexical static coverage check. Nested UNCHANGED <<ClientRecords,...>> fixes the tuple and thus each of its member variables. This check is not a substitute for SANY."},
+    {"item": "Atomic client boundaries", "result": "PASS", "evidence": "IssueAction creates issuance, held membership and counter together. CancelUnarmed releases and cancels atomically. Reconcile transfers the same unit and creates its receipt atomically. These correspond to the source transactions documented in SOURCE_MAPPING.md."},
+    {"item": "Arm/cancellation", "result": "PASS", "evidence": "Arm checks issued and held plus unexpired state, and intentionally does not directly test cancelled. Cancellation safety must follow from atomic held removal and non-reissuance of an issued identity, matching the inner held check shared by both adapters."},
+    {"item": "Terminal non-action", "result": "PASS", "evidence": "IssueNoAction durably marks the request denied at full capacity. Both issuance actions exclude already issued or denied identities, so later capacity release cannot revive the same denied decision."},
+    {"item": "Independent sink", "result": "PASS", "evidence": "CommitEffect and DeduplicatedReply inspect only sink availability, pending request presence and service effect membership. They never inspect client holds, cancellation, expiry, receipts, counters or client availability. Already sent work can arrive while the client is down or after expiry."},
+    {"item": "ACK/reconciliation provenance", "result": "PASS", "evidence": "Only service commit/dedup creates acknowledgements; reconciliation requires a matching acknowledgement and local armed held unit, without reading remote effects. ACK loss leaves the effect intact. Repeated delivery and repeated completion preserve effect/unit cardinality."},
+    {"item": "Expiry and retry", "result": "PASS", "evidence": "ExpirePermit only changes its monotone eligibility flag. Existing armed grants can Send after expiry. Expiry alone never releases capacity or blocks service delivery/reconciliation. Per-operation ordering relaxation is explicitly disclosed."},
+    {"item": "Crash abstraction", "result": "PASS", "evidence": "Client and sink crash/recovery actions alter only their independent availability flags. Durable records and abstract channels are unchanged; explicit loss actions separately permit missing requests/ACKs. Pre/post-commit atomicity is an assumption, not a verified SQL property."},
+    {"item": "No circular state filtering", "result": "PASS", "evidence": "No state constraint or property oracle filters reachable states. Budget admission is the actual source guard. Effects are independently accumulated at the sink, not defined from committed units or receipts."},
+    {"item": "Fixed configurations", "result": "PASS", "evidence": "Normal N=2/K=1 and N=3/K=2 disable unsafe release and list all nine invariants. The N=2/K=1 negative control enables only UnsafeReleaseUnknown and checks TypeOK, Accounting, BudgetBound and EffectCountBound, allowing search to continue past the intentionally broken backing invariant."},
+    {"item": "Negative-control boundary", "result": "PASS", "evidence": "UnsafeReleaseUnknown removes only an expired armed unreconciled hold and its counter, preserving the armed grant, pending request, effect and all other state. A later new issuance may reuse that quota while an older request remains deliverable. The mutation is not attributed to either real client."},
+    {"item": "Archived checkpoint correspondence", "result": "PASS WITH LIMITED SCOPE", "evidence": "CHECKPOINT_PREFIX_MAPPING.md projects five checkpoints per implementation from two earlier S8 scenarios, covering unarmed release and unknown armed retention with actual capacity two. All 20 selected SQLite files were read immutable and remained byte-identical. Full scenario histories exceed the modeled operation count and are explicitly not claimed as full refinement."}
+  ],
+  "limitations": [
+    "Fixed legal immutable requests and one fixed policy/revision/scope/action-route key; no O1 semantic verification or full O2 parsing/qualification/fallback coverage.",
+    "Message-presence sets coalesce identical packets. This is not an unbounded FIFO or packet-multiplicity proof, nor a liveness claim.",
+    "Expired is a monotone abstract time-eligibility flag, not a concrete persistent column. Independent expiries relax actual cross-permit clock ordering; the model assumes policy activity and omits revision migration/revocation.",
+    "Atomic client and synthetic sink transactions, stable identity/payload and truthful ACK provenance are modeled mechanisms or assumptions. Database implementation correctness, arbitrary low-level release calls, durable corruption, bypass effects and adversarial forged ACKs are outside scope.",
+    "No CPU work, computation-before-effect-commit interval, post-arm cancellation/compensation or received-but-unissued cleanup is modeled.",
+    "A PASS here does not establish complete exploration, finite invariant success, counterexample validity, unbounded correctness, Python refinement, real execution exactly once or ECRC-exclusive superiority.",
+    "The protocol's separately implemented enumerator and run harness require their own review; this verdict binds the TLA model, its three configurations and the stated protocol, not uninspected checker implementation code."
+  ],
+  "remaining_execution_gate": "SANY/official TLC preparation, source/tool freeze, complete execution of both normal instances, retained negative counterexample with independent replay, and cross-check against the separately frozen full-state enumerator. Preserve failures or incomplete searches; do not shrink an instance after observing its result."
+}

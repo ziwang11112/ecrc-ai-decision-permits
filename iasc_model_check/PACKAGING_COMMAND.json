@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\ziwan\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_model_check_2026-09-12\\portable_extracted\\AIR-014_IASC_S10\\portable_reproduce.py",
+    "--execute",
+    "--output",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_model_check_2026-09-12\\portable_reproduction",
+    "--java",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\tools\\java\\jdk-21.0.12.1+1-jre\\bin\\java.exe",
+    "--jar",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\tools\\tla2tools.jar"
+  ],
+  "purpose": "Post-study artifact reproduction, not additional scientific sample"
+}

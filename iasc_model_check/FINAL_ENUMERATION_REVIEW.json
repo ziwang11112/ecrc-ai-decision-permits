@@ -1,0 +1,508 @@
+{
+  "review": "Independent read-only post-enumeration review",
+  "reviewed_utc": "2026-09-12T18:26:32.469746+00:00",
+  "run_id": "v1",
+  "status": "PASS",
+  "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+  "source_hash_matches": {
+    "PROTOCOL.md": true,
+    "ECRCLifecycle.tla": true,
+    "normal_2_1.cfg": true,
+    "normal_3_2.cfg": true,
+    "unsafe_2_1.cfg": true,
+    "prepare_model.py": true,
+    "run_models.py": true,
+    "exact_check.py": true,
+    "SOURCE_MAPPING.md": true,
+    "MODEL_REVIEW.json": true,
+    "CHECKPOINT_PREFIX_MAPPING.md": true,
+    "REVIEW_REQUIREMENTS.md": true,
+    "ARTIFACT_BASELINE.json": true,
+    "tools/TOOLCHAIN.json": true,
+    "tools/run_tlc.py": true
+  },
+  "starts": {
+    "tlc": {
+      "utc": "2026-09-12T18:19:31.610921+00:00",
+      "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d"
+    },
+    "exact": {
+      "started_utc": "2026-09-12T18:19:42.224267+00:00",
+      "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+      "command": [
+        "research_pilots/iasc_model_check_2026-09-12/exact_check.py",
+        "--run-id",
+        "v1"
+      ]
+    }
+  },
+  "paper_runtime_baseline": {
+    "files_checked": 205,
+    "mismatches": []
+  },
+  "checks": [
+    {
+      "check": "freeze_identity",
+      "pass": true
+    },
+    {
+      "check": "all_15_frozen_files_unchanged",
+      "pass": true
+    },
+    {
+      "check": "both_START_records_bind_current_freeze",
+      "pass": true
+    },
+    {
+      "check": "paper_and_runtime_baseline_unchanged",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_stdout.txt_hash",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_stderr.txt_hash",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_copied_ECRCLifecycle.tla",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_copied_normal_2_1.cfg",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_exact_source_hashes",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_fixed_case_identity",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_no_state_or_depth_constraint",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_not_timed_out",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_complete_positive",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_state_and_transition_counts_match",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_depth_conventions_agree",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_nine_invariants_zero_violations",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_17_positive_action_families_and_unsafe_zero",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_TLC_action_edges_match_exact",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_all_saved_positive_witness_states_valid",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_witness_sequence_structure",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_14_critical_endpoint_predicates",
+      "pass": true
+    },
+    {
+      "check": "normal_2_1_17_action_witness_endpoints",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_stdout.txt_hash",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_stderr.txt_hash",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_copied_ECRCLifecycle.tla",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_copied_normal_3_2.cfg",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_exact_source_hashes",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_fixed_case_identity",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_no_state_or_depth_constraint",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_not_timed_out",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_complete_positive",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_state_and_transition_counts_match",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_depth_conventions_agree",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_nine_invariants_zero_violations",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_17_positive_action_families_and_unsafe_zero",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_TLC_action_edges_match_exact",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_all_saved_positive_witness_states_valid",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_witness_sequence_structure",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_14_critical_endpoint_predicates",
+      "pass": true
+    },
+    {
+      "check": "normal_3_2_17_action_witness_endpoints",
+      "pass": true
+    },
+    {
+      "check": "unsafe_2_1_stdout.txt_hash",
+      "pass": true
+    },
+    {
+      "check": "unsafe_2_1_stderr.txt_hash",
+      "pass": true
+    },
+    {
+      "check": "unsafe_2_1_copied_ECRCLifecycle.tla",
+      "pass": true
+    },
+    {
+      "check": "unsafe_2_1_copied_unsafe_2_1.cfg",
+      "pass": true
+    },
+    {
+      "check": "unsafe_2_1_exact_source_hashes",
+      "pass": true
+    },
+    {
+      "check": "unsafe_2_1_fixed_case_identity",
+      "pass": true
+    },
+    {
+      "check": "unsafe_2_1_no_state_or_depth_constraint",
+      "pass": true
+    },
+    {
+      "check": "unsafe_2_1_not_timed_out",
+      "pass": true
+    },
+    {
+      "check": "negative_is_partial_expected_counterexample",
+      "pass": true
+    },
+    {
+      "check": "negative_trace_target_and_accounting",
+      "pass": true
+    },
+    {
+      "check": "negative_first_positive_rejection",
+      "pass": true
+    },
+    {
+      "check": "negative_counter_before_vs_after_release",
+      "pass": true
+    },
+    {
+      "check": "TLC_negative_trace_13_states_same_action_family_order",
+      "pass": true
+    },
+    {
+      "check": "TLC_negative_final_target",
+      "pass": true
+    },
+    {
+      "check": "frozen_files_still_match_after_review",
+      "pass": true
+    }
+  ],
+  "cases": {
+    "normal_2_1": {
+      "tlc_status": "COMPLETE_PASS",
+      "exact_status": "COMPLETE_PASS",
+      "tlc_distinct_states": 684,
+      "exact_discovered": 684,
+      "exact_checked": 684,
+      "exact_expanded": 684,
+      "tlc_queue_remaining": 0,
+      "exact_not_expanded": 0,
+      "tlc_generated_including_initial": 2673,
+      "exact_generated_including_initial": 2673,
+      "exact_enabled_action_instance_edges": 2672,
+      "tlc_depth_levels": 16,
+      "exact_max_discovered_depth_edges": 15,
+      "complete_positive": true,
+      "action_edges": {
+        "ReceiveRaw": 92,
+        "IssueAction": 12,
+        "IssueNoAction": 80,
+        "Arm": 16,
+        "ExpirePermit": 320,
+        "CancelUnarmed": 16,
+        "Send": 96,
+        "LoseRequest": 256,
+        "CommitEffect": 32,
+        "DeduplicatedReply": 96,
+        "LoseAcknowledgement": 192,
+        "Reconcile": 64,
+        "RepeatedCompletion": 32,
+        "CrashClient": 342,
+        "RecoverClient": 342,
+        "CrashSink": 342,
+        "RecoverSink": 342,
+        "UnsafeReleaseUnknown": 0
+      },
+      "critical_witnesses": [
+        "ack_pending",
+        "armed_without_effect",
+        "both_down",
+        "cancelled_unarmed",
+        "capacity_denied",
+        "client_down_only",
+        "effect_without_receipt",
+        "effect_without_receipt_or_pending_ack",
+        "expired_armed_unknown_held",
+        "expired_unarmed_held",
+        "full_budget_with_armed_unknown",
+        "receipt_present",
+        "request_pending",
+        "sink_down_only"
+      ],
+      "invariant_state_check_count": 6156,
+      "fingerprint_collision_estimate_line": [
+        "calculated (optimistic):  val = 7.4E-14"
+      ]
+    },
+    "normal_3_2": {
+      "tlc_status": "COMPLETE_PASS",
+      "exact_status": "COMPLETE_PASS",
+      "tlc_distinct_states": 21960,
+      "exact_discovered": 21960,
+      "exact_checked": 21960,
+      "exact_expanded": 21960,
+      "tlc_queue_remaining": 0,
+      "exact_not_expanded": 0,
+      "tlc_generated_including_initial": 122089,
+      "exact_generated_including_initial": 122089,
+      "exact_enabled_action_instance_edges": 122088,
+      "tlc_depth_levels": 25,
+      "exact_max_discovered_depth_edges": 24,
+      "complete_positive": true,
+      "action_edges": {
+        "ReceiveRaw": 3174,
+        "IssueAction": 774,
+        "IssueNoAction": 2400,
+        "Arm": 1026,
+        "ExpirePermit": 20520,
+        "CancelUnarmed": 1026,
+        "Send": 6156,
+        "LoseRequest": 16416,
+        "CommitEffect": 2052,
+        "DeduplicatedReply": 6156,
+        "LoseAcknowledgement": 12312,
+        "Reconcile": 4104,
+        "RepeatedCompletion": 2052,
+        "CrashClient": 10980,
+        "RecoverClient": 10980,
+        "CrashSink": 10980,
+        "RecoverSink": 10980,
+        "UnsafeReleaseUnknown": 0
+      },
+      "critical_witnesses": [
+        "ack_pending",
+        "armed_without_effect",
+        "both_down",
+        "cancelled_unarmed",
+        "capacity_denied",
+        "client_down_only",
+        "effect_without_receipt",
+        "effect_without_receipt_or_pending_ack",
+        "expired_armed_unknown_held",
+        "expired_unarmed_held",
+        "full_budget_with_armed_unknown",
+        "receipt_present",
+        "request_pending",
+        "sink_down_only"
+      ],
+      "invariant_state_check_count": 197640,
+      "fingerprint_collision_estimate_line": [
+        "calculated (optimistic):  val = 1.2E-10"
+      ]
+    },
+    "unsafe_2_1": {
+      "tlc_status": "EXPECTED_COUNTEREXAMPLE",
+      "exact_status": "EXPECTED_COUNTEREXAMPLE",
+      "tlc_distinct_states": 934,
+      "exact_discovered": 1114,
+      "exact_checked": 934,
+      "exact_expanded": 933,
+      "tlc_queue_remaining": 168,
+      "exact_not_expanded": 181,
+      "tlc_generated_including_initial": 3155,
+      "exact_generated_including_initial": 3897,
+      "exact_enabled_action_instance_edges": 3896,
+      "tlc_depth_levels": 13,
+      "exact_max_discovered_depth_edges": 13,
+      "complete_positive": false,
+      "counterexample_transition_count": 12,
+      "counterexample_action_sequence": [
+        {
+          "name": "Init",
+          "operation": null
+        },
+        {
+          "name": "ReceiveRaw",
+          "operation": 1
+        },
+        {
+          "name": "IssueAction",
+          "operation": 1
+        },
+        {
+          "name": "Arm",
+          "operation": 1
+        },
+        {
+          "name": "ExpirePermit",
+          "operation": 1
+        },
+        {
+          "name": "Send",
+          "operation": 1
+        },
+        {
+          "name": "CommitEffect",
+          "operation": 1
+        },
+        {
+          "name": "UnsafeReleaseUnknown",
+          "operation": 1
+        },
+        {
+          "name": "ReceiveRaw",
+          "operation": 2
+        },
+        {
+          "name": "IssueAction",
+          "operation": 2
+        },
+        {
+          "name": "Arm",
+          "operation": 2
+        },
+        {
+          "name": "Send",
+          "operation": 2
+        },
+        {
+          "name": "CommitEffect",
+          "operation": 2
+        }
+      ],
+      "positive_model_first_rejected_step": 7,
+      "counterexample_effect_count": 2,
+      "counterexample_local_count": 1,
+      "event_order": "The saved first counterexample commits operation 1 before UnsafeReleaseUnknown; the unsafe rule itself does not require a committed effect.",
+      "count_interpretation": "Neither negative run is exhaustive. TLC stops when an invariant-violating successor is discovered; exact BFS checks on queue pop. Thus TLC reports 934 discovered with 168 queued, while exact has 1114 discovered, 934 checked, 933 expanded. Exact 181 unexpanded comprise the checked target plus 180 unchecked queued states. These partial counts are not required to match."
+    }
+  },
+  "evidence_sha256": {
+    "runs\\v1\\tlc\\normal_2_1\\stdout.txt": "2d886e3e71d837bdb44461e59b50703db6088edf739d0b6fc2725fb524dc4844",
+    "runs\\v1\\tlc\\normal_2_1\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs\\v1\\tlc\\normal_2_1\\RESULT.json": "71f5b2f93bf97595e9d4997d3c00e81c219cd77d64638e191efb80d7a5171f7f",
+    "runs\\v1\\tlc\\normal_2_1\\COMMAND.json": "dba332876ebb448b4ac065e0a840fd778fa4975b0d130fcb86ced0de0195af89",
+    "runs\\v1\\exact\\normal_2_1\\RESULT.json": "1f9d145964b63d4f1da83e828e87899963e6bfa8156f7b74e7aa9dab01de510c",
+    "runs\\v1\\exact\\normal_2_1\\WITNESSES.json": "bf99cc28e533c3e0f06203cd2b100754e48ce2072d359b9369aeaf7cbde1d69c",
+    "runs\\v1\\tlc\\normal_3_2\\stdout.txt": "23a57b22766e1f161ed1674083026311b0fdf708888643ee2d0e3b92def6ca01",
+    "runs\\v1\\tlc\\normal_3_2\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs\\v1\\tlc\\normal_3_2\\RESULT.json": "f765e12720d75840ae6dd2a3c8fc8cb4a7f3228faeb5fc7257e702af0803f6e5",
+    "runs\\v1\\tlc\\normal_3_2\\COMMAND.json": "bfade27ceb3639a0120ab09448def89f71210cf8b083a5faa90d7586540c2606",
+    "runs\\v1\\exact\\normal_3_2\\RESULT.json": "bc15cda301c22f58ef4f8761a1367db1e69e4b6f62e10d1ac3738494ff8bd370",
+    "runs\\v1\\exact\\normal_3_2\\WITNESSES.json": "bda5873f8272a3b051d39a57979767c104f6741a2471365a56ca5a3f001f46ec",
+    "runs\\v1\\tlc\\unsafe_2_1\\stdout.txt": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+    "runs\\v1\\tlc\\unsafe_2_1\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs\\v1\\tlc\\unsafe_2_1\\RESULT.json": "afda62df3ab8abbfb3d88c1aaafb1e25cdea0efeb4f3b0ea95ac58fd681375b1",
+    "runs\\v1\\tlc\\unsafe_2_1\\COMMAND.json": "34eef96a5df27cd75a51865cd9823f286d1e6638c0221d50f175736208b8fb36",
+    "runs\\v1\\exact\\unsafe_2_1\\RESULT.json": "41149e418334cdfc804913f3884b1aa8f135b5b9c6c97aec408594c717eb7109",
+    "runs\\v1\\exact\\unsafe_2_1\\WITNESSES.json": "ea6842fadc6d0c4332620184b0feb83c855826216c99983b40458f981b787e2f",
+    "runs\\v1\\exact\\unsafe_2_1\\COUNTEREXAMPLE.json": "3adf1e589e6f75dcf56145e229c10d43d1c45e9363c1f800444a072ac1a4ee31"
+  },
+  "nonblocking_warnings": [
+    {
+      "case": "normal_2_1",
+      "message": "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+    },
+    {
+      "case": "normal_3_2",
+      "message": "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+    },
+    {
+      "case": "unsafe_2_1",
+      "message": "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+    }
+  ],
+  "scope": "Saved JSON results, stdout, source bindings, coverage and witnesses only; no checker or experiment rerun. Independently recalculated hashes, count identities, witness-state invariant/accounting values, critical endpoint predicates and negative target. No claim that this short review re-enumerated transitions.",
+  "counting_conventions": [
+    "Positive exact counts use full Python integer equality; hash collisions are resolved by equality, not treated as equal states.",
+    "One initial state plus enabled Next action instances yields generated-state totals; duplicate targets still count as edges. Implicit stutter adds no reachable state.",
+    "TLC positive depth is reported as levels including Init; exact depth counts edges from Init=0.",
+    "Coverage, state and invariant-check counts are tool diagnostics, not independent research samples.",
+    "Exact output is persisted in RESULT/WITNESSES/COUNTEREXAMPLE JSON; no separate exact stdout file is claimed."
+  ],
+  "interpretation_limits": [
+    "Complete results apply only to fixed N=2,K=1 and N=3,K=2 positive models.",
+    "Network abstraction is one Boolean pending request and acknowledgement per fixed key, collapsing duplicate content; this is not an unbounded FIFO protocol proof.",
+    "Payload/evidence are fixed legal inputs; the model does not evaluate all O1 semantics.",
+    "Crash/recovery preserves the model durable state; transaction interruption is abstracted before or after atomic commit and expiry is an operation, not wall time.",
+    "Per-key fixed identity and effect deduplication are model mechanisms, not an independent proof for arbitrary services.",
+    "The negative control changes only release of expired armed unknown held reservations. Its finite counterexample is explanatory, not a complete characterization of ordinary implementations.",
+    "Independent implementations can share modeling errors. The evidence is not a Python/SQLite code-refinement proof, unbounded safety proof, liveness theorem, superiority result or statistical inference."
+  ],
+  "blocking_findings": []
+}

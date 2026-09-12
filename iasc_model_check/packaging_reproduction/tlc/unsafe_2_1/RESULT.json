@@ -1,0 +1,21 @@
+{
+  "case": {
+    "id": "unsafe_2_1",
+    "n": 2,
+    "capacity": 1,
+    "unsafe": true,
+    "timeout_seconds": 120
+  },
+  "status": "EXPECTED_COUNTEREXAMPLE",
+  "returncode": 12,
+  "timed_out": false,
+  "elapsed_seconds": 0.9575550000008661,
+  "generated_states": 3155,
+  "distinct_states": 934,
+  "queue_remaining": 168,
+  "reported_search_depth": 13,
+  "exhaustive_positive": false,
+  "exhaustive_negative": false,
+  "stdout_sha256": "0a3c30ce88968db435286c8cfc450e72fb68475483248609942dc8dc3a1511a1",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

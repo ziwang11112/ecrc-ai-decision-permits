@@ -1,0 +1,9 @@
+{
+  "started_utc": "2026-09-12T18:19:42.224267+00:00",
+  "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+  "command": [
+    "research_pilots/iasc_model_check_2026-09-12/exact_check.py",
+    "--run-id",
+    "v1"
+  ]
+}

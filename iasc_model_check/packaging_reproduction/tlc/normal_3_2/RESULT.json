@@ -1,0 +1,21 @@
+{
+  "case": {
+    "id": "normal_3_2",
+    "n": 3,
+    "capacity": 2,
+    "unsafe": false,
+    "timeout_seconds": 600
+  },
+  "status": "COMPLETE_PASS",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 1.6266012999985833,
+  "generated_states": 122089,
+  "distinct_states": 21960,
+  "queue_remaining": 0,
+  "reported_search_depth": 25,
+  "exhaustive_positive": true,
+  "exhaustive_negative": null,
+  "stdout_sha256": "e0b298ecc518d16661341ad55b37b610042590718d12fca73eafdbf1dcd60315",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

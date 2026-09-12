@@ -1,0 +1,555 @@
+{
+  "status": "PASS",
+  "source_tlc_log_sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+  "model_sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+  "replay_checker_sha256": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e",
+  "extraction_script_sha256": "00f343cf3038d6834b9618a2df1f6db4f597590d5986be6dcf07347244b6bc76",
+  "trace": [
+    {
+      "tlc_state": 1,
+      "label": "Initial predicate",
+      "state": {
+        "cancelled": [],
+        "expired": [],
+        "received": [],
+        "effects": [],
+        "held": [],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [],
+        "heldCount": 0,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [],
+        "clientUp": true
+      },
+      "packed": 805306368
+    },
+    {
+      "tlc_state": 2,
+      "label": "ReceiveRaw line 33, col 5 to line 37, col 64 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [],
+        "heldCount": 0,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [],
+        "clientUp": true
+      },
+      "packed": 805306369
+    },
+    {
+      "tlc_state": 3,
+      "label": "IssueAction line 40, col 5 to line 46, col 53 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      },
+      "packed": 822083845
+    },
+    {
+      "tlc_state": 4,
+      "label": "Arm line 57, col 5 to line 63, col 64 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      },
+      "packed": 822087941
+    },
+    {
+      "tlc_state": 5,
+      "label": "ExpirePermit line 66, col 5 to line 70, col 64 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      },
+      "packed": 822104325
+    },
+    {
+      "tlc_state": 6,
+      "label": "Send line 82, col 5 to line 85, col 79 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1
+        ],
+        "effects": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [
+          1
+        ],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      },
+      "packed": 822169861
+    },
+    {
+      "tlc_state": 7,
+      "label": "CommitEffect line 93, col 5 to line 98, col 52 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      },
+      "packed": 823415045
+    },
+    {
+      "tlc_state": 8,
+      "label": "UnsafeReleaseUnknown line 137, col 5 to line 143, col 53 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "held": [],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 0,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      },
+      "packed": 806637573
+    },
+    {
+      "tlc_state": 9,
+      "label": "ReceiveRaw line 33, col 5 to line 37, col 64 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1
+        ],
+        "held": [],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 0,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1
+        ],
+        "clientUp": true
+      },
+      "packed": 806637575
+    },
+    {
+      "tlc_state": 10,
+      "label": "IssueAction line 40, col 5 to line 46, col 53 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1
+        ],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1,
+          2
+        ],
+        "clientUp": true
+      },
+      "packed": 823415311
+    },
+    {
+      "tlc_state": 11,
+      "label": "Arm line 57, col 5 to line 63, col 64 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1
+        ],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1,
+          2
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1,
+          2
+        ],
+        "clientUp": true
+      },
+      "packed": 823423503
+    },
+    {
+      "tlc_state": 12,
+      "label": "Send line 82, col 5 to line 85, col 79 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1
+        ],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [
+          2
+        ],
+        "armed": [
+          1,
+          2
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1
+        ],
+        "denied": [],
+        "issued": [
+          1,
+          2
+        ],
+        "clientUp": true
+      },
+      "packed": 823554575
+    },
+    {
+      "tlc_state": 13,
+      "label": "CommitEffect line 93, col 5 to line 98, col 52 of module ECRCLifecycle",
+      "state": {
+        "cancelled": [],
+        "expired": [
+          1
+        ],
+        "received": [
+          1,
+          2
+        ],
+        "effects": [
+          1,
+          2
+        ],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "receipts": [],
+        "requests": [],
+        "armed": [
+          1,
+          2
+        ],
+        "heldCount": 1,
+        "sinkUp": true,
+        "committedCount": 0,
+        "acknowledgements": [
+          1,
+          2
+        ],
+        "denied": [],
+        "issued": [
+          1,
+          2
+        ],
+        "clientUp": true
+      },
+      "packed": 826044943
+    }
+  ],
+  "edges": [
+    {
+      "from_state": 1,
+      "to_state": 2,
+      "action": "ReceiveRaw",
+      "operation": 1,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 2,
+      "to_state": 3,
+      "action": "IssueAction",
+      "operation": 1,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 3,
+      "to_state": 4,
+      "action": "Arm",
+      "operation": 1,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 4,
+      "to_state": 5,
+      "action": "ExpirePermit",
+      "operation": 1,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 5,
+      "to_state": 6,
+      "action": "Send",
+      "operation": 1,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 6,
+      "to_state": 7,
+      "action": "CommitEffect",
+      "operation": 1,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 7,
+      "to_state": 8,
+      "action": "UnsafeReleaseUnknown",
+      "operation": 1,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 8,
+      "to_state": 9,
+      "action": "ReceiveRaw",
+      "operation": 2,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 9,
+      "to_state": 10,
+      "action": "IssueAction",
+      "operation": 2,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 10,
+      "to_state": 11,
+      "action": "Arm",
+      "operation": 2,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 11,
+      "to_state": 12,
+      "action": "Send",
+      "operation": 2,
+      "independent_guard_and_successor_match": true
+    },
+    {
+      "from_state": 12,
+      "to_state": 13,
+      "action": "CommitEffect",
+      "operation": 2,
+      "independent_guard_and_successor_match": true
+    }
+  ],
+  "transition_count": 12,
+  "states": 13,
+  "positive_first_disabled_step": {
+    "tlc_state": 8,
+    "action": "UnsafeReleaseUnknown"
+  },
+  "same_state_sequence_as_exact_counterexample": true,
+  "local_accounting_and_quota_hold_at_every_step": true,
+  "final_effect_count": 2,
+  "final_held": 1,
+  "final_committed": 0,
+  "quota": 1,
+  "interpretation": "A finite model counterexample. Effect 1 commits before unsafe release; ACK 1 remains pending. No LoseAcknowledgement step occurs. Not a concrete client failure or exact replay of the paper schematic."
+}

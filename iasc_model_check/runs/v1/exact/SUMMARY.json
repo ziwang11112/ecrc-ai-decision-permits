@@ -1,0 +1,616 @@
+{
+  "results": [
+    {
+      "case": {
+        "id": "normal_2_1",
+        "n": 2,
+        "capacity": 1,
+        "unsafe": false,
+        "timeout_seconds": 600
+      },
+      "status": "COMPLETE_PASS",
+      "reason": "All reachable exact states checked and frontier exhausted",
+      "search_elapsed_seconds": 0.006284300005063415,
+      "time_limit_seconds": 600,
+      "complete_reachable_graph": true,
+      "exhaustive_positive": true,
+      "negative_stops_at_first_target": false,
+      "unique_labeled_states_discovered": 684,
+      "states_checked": 684,
+      "states_expanded": 684,
+      "frontier_states_not_expanded": 0,
+      "enabled_action_instance_edges_generated": 2672,
+      "generated_states_including_initial": 2673,
+      "duplicate_successors": 1989,
+      "maximum_discovered_shortest_path_depth_edges": 15,
+      "discovered_states_by_shortest_path_depth_edges": {
+        "0": 1,
+        "1": 4,
+        "2": 8,
+        "3": 14,
+        "4": 27,
+        "5": 44,
+        "6": 60,
+        "7": 80,
+        "8": 101,
+        "9": 106,
+        "10": 89,
+        "11": 66,
+        "12": 46,
+        "13": 26,
+        "14": 10,
+        "15": 2
+      },
+      "configured_invariants": [
+        "TypeOK",
+        "Accounting",
+        "BudgetBound",
+        "Lifecycle",
+        "GrantBacking",
+        "EffectBacking",
+        "EffectCountBound",
+        "ReceiptSoundness",
+        "NetworkCausality"
+      ],
+      "all_nine_invariants_checked_per_processed_state": true,
+      "invariant_state_check_count": 6156,
+      "invariant_violating_checked_states": {
+        "TypeOK": 0,
+        "Accounting": 0,
+        "BudgetBound": 0,
+        "Lifecycle": 0,
+        "GrantBacking": 0,
+        "EffectBacking": 0,
+        "EffectCountBound": 0,
+        "ReceiptSoundness": 0,
+        "NetworkCausality": 0
+      },
+      "action_coverage": {
+        "ReceiveRaw": {
+          "enabled_source_states_expanded": 90,
+          "generated_edges": 92
+        },
+        "IssueAction": {
+          "enabled_source_states_expanded": 10,
+          "generated_edges": 12
+        },
+        "IssueNoAction": {
+          "enabled_source_states_expanded": 80,
+          "generated_edges": 80
+        },
+        "Arm": {
+          "enabled_source_states_expanded": 16,
+          "generated_edges": 16
+        },
+        "ExpirePermit": {
+          "enabled_source_states_expanded": 320,
+          "generated_edges": 320
+        },
+        "CancelUnarmed": {
+          "enabled_source_states_expanded": 16,
+          "generated_edges": 16
+        },
+        "Send": {
+          "enabled_source_states_expanded": 96,
+          "generated_edges": 96
+        },
+        "LoseRequest": {
+          "enabled_source_states_expanded": 256,
+          "generated_edges": 256
+        },
+        "CommitEffect": {
+          "enabled_source_states_expanded": 32,
+          "generated_edges": 32
+        },
+        "DeduplicatedReply": {
+          "enabled_source_states_expanded": 96,
+          "generated_edges": 96
+        },
+        "LoseAcknowledgement": {
+          "enabled_source_states_expanded": 192,
+          "generated_edges": 192
+        },
+        "Reconcile": {
+          "enabled_source_states_expanded": 64,
+          "generated_edges": 64
+        },
+        "RepeatedCompletion": {
+          "enabled_source_states_expanded": 32,
+          "generated_edges": 32
+        },
+        "UnsafeReleaseUnknown": {
+          "enabled_source_states_expanded": 0,
+          "generated_edges": 0
+        },
+        "CrashClient": {
+          "enabled_source_states_expanded": 342,
+          "generated_edges": 342
+        },
+        "RecoverClient": {
+          "enabled_source_states_expanded": 342,
+          "generated_edges": 342
+        },
+        "CrashSink": {
+          "enabled_source_states_expanded": 342,
+          "generated_edges": 342
+        },
+        "RecoverSink": {
+          "enabled_source_states_expanded": 342,
+          "generated_edges": 342
+        }
+      },
+      "critical_states_witnessed": [
+        "ack_pending",
+        "armed_without_effect",
+        "both_down",
+        "cancelled_unarmed",
+        "capacity_denied",
+        "client_down_only",
+        "effect_without_receipt",
+        "effect_without_receipt_or_pending_ack",
+        "expired_armed_unknown_held",
+        "expired_unarmed_held",
+        "full_budget_with_armed_unknown",
+        "receipt_present",
+        "request_pending",
+        "sink_down_only"
+      ],
+      "state_encoding": {
+        "set_fields": [
+          "received",
+          "issued",
+          "denied",
+          "cancelled",
+          "held",
+          "committed",
+          "armed",
+          "expired",
+          "requests",
+          "acknowledgements",
+          "effects",
+          "receipts"
+        ],
+        "bits_per_set": 2,
+        "explicit_counter_bits_each": 2,
+        "independent_availability_flags": [
+          "clientUp",
+          "sinkUp"
+        ],
+        "total_bits": 30,
+        "equality": "Full packed Python integer equality in set; hash collisions are resolved by equality.",
+        "domain_note": "Set/Boolean typing is structural in the injective encoding; explicit count ranges are still checked."
+      },
+      "constraints": {
+        "state_limit": null,
+        "depth_limit": null,
+        "symmetry_reduction": false,
+        "partial_order_reduction": false
+      },
+      "counting_conventions": "One initial state; each enabled Next action instance counts as an edge, including duplicate targets. Implicit Spec stutter steps are not enumerated and add no reachable state. Depth counts edges from Init=0. Witnesses are shortest to the first reached state/edge under this BFS order.",
+      "source_sha256": {
+        "ECRCLifecycle.tla": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+        "normal_2_1.cfg": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
+        "exact_check.py": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e"
+      },
+      "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "completed_utc": "2026-09-12T18:19:42.239284+00:00",
+      "limitations": [
+        "Finite labeled instances and Boolean message-presence abstraction only.",
+        "Independent implementation can share modeling misunderstandings with the TLA model.",
+        "No Python/SQLite refinement proof, unbounded protocol proof, liveness theorem or implementation-superiority claim.",
+        "State/transition/check counts are tool diagnostics, not independent study samples."
+      ]
+    },
+    {
+      "case": {
+        "id": "normal_3_2",
+        "n": 3,
+        "capacity": 2,
+        "unsafe": false,
+        "timeout_seconds": 600
+      },
+      "status": "COMPLETE_PASS",
+      "reason": "All reachable exact states checked and frontier exhausted",
+      "search_elapsed_seconds": 0.18656149998423643,
+      "time_limit_seconds": 600,
+      "complete_reachable_graph": true,
+      "exhaustive_positive": true,
+      "negative_stops_at_first_target": false,
+      "unique_labeled_states_discovered": 21960,
+      "states_checked": 21960,
+      "states_expanded": 21960,
+      "frontier_states_not_expanded": 0,
+      "enabled_action_instance_edges_generated": 122088,
+      "generated_states_including_initial": 122089,
+      "duplicate_successors": 100129,
+      "maximum_discovered_shortest_path_depth_edges": 24,
+      "discovered_states_by_shortest_path_depth_edges": {
+        "0": 1,
+        "1": 5,
+        "2": 13,
+        "3": 28,
+        "4": 59,
+        "5": 112,
+        "6": 195,
+        "7": 336,
+        "8": 555,
+        "9": 834,
+        "10": 1170,
+        "11": 1572,
+        "12": 1978,
+        "13": 2303,
+        "14": 2512,
+        "15": 2562,
+        "16": 2376,
+        "17": 1962,
+        "18": 1452,
+        "19": 969,
+        "20": 567,
+        "21": 273,
+        "22": 99,
+        "23": 24,
+        "24": 3
+      },
+      "configured_invariants": [
+        "TypeOK",
+        "Accounting",
+        "BudgetBound",
+        "Lifecycle",
+        "GrantBacking",
+        "EffectBacking",
+        "EffectCountBound",
+        "ReceiptSoundness",
+        "NetworkCausality"
+      ],
+      "all_nine_invariants_checked_per_processed_state": true,
+      "invariant_state_check_count": 197640,
+      "invariant_violating_checked_states": {
+        "TypeOK": 0,
+        "Accounting": 0,
+        "BudgetBound": 0,
+        "Lifecycle": 0,
+        "GrantBacking": 0,
+        "EffectBacking": 0,
+        "EffectCountBound": 0,
+        "ReceiptSoundness": 0,
+        "NetworkCausality": 0
+      },
+      "action_coverage": {
+        "ReceiveRaw": {
+          "enabled_source_states_expanded": 3038,
+          "generated_edges": 3174
+        },
+        "IssueAction": {
+          "enabled_source_states_expanded": 638,
+          "generated_edges": 774
+        },
+        "IssueNoAction": {
+          "enabled_source_states_expanded": 2400,
+          "generated_edges": 2400
+        },
+        "Arm": {
+          "enabled_source_states_expanded": 1002,
+          "generated_edges": 1026
+        },
+        "ExpirePermit": {
+          "enabled_source_states_expanded": 15720,
+          "generated_edges": 20520
+        },
+        "CancelUnarmed": {
+          "enabled_source_states_expanded": 1002,
+          "generated_edges": 1026
+        },
+        "Send": {
+          "enabled_source_states_expanded": 5292,
+          "generated_edges": 6156
+        },
+        "LoseRequest": {
+          "enabled_source_states_expanded": 13344,
+          "generated_edges": 16416
+        },
+        "CommitEffect": {
+          "enabled_source_states_expanded": 1956,
+          "generated_edges": 2052
+        },
+        "DeduplicatedReply": {
+          "enabled_source_states_expanded": 5292,
+          "generated_edges": 6156
+        },
+        "LoseAcknowledgement": {
+          "enabled_source_states_expanded": 10584,
+          "generated_edges": 12312
+        },
+        "Reconcile": {
+          "enabled_source_states_expanded": 3720,
+          "generated_edges": 4104
+        },
+        "RepeatedCompletion": {
+          "enabled_source_states_expanded": 1956,
+          "generated_edges": 2052
+        },
+        "UnsafeReleaseUnknown": {
+          "enabled_source_states_expanded": 0,
+          "generated_edges": 0
+        },
+        "CrashClient": {
+          "enabled_source_states_expanded": 10980,
+          "generated_edges": 10980
+        },
+        "RecoverClient": {
+          "enabled_source_states_expanded": 10980,
+          "generated_edges": 10980
+        },
+        "CrashSink": {
+          "enabled_source_states_expanded": 10980,
+          "generated_edges": 10980
+        },
+        "RecoverSink": {
+          "enabled_source_states_expanded": 10980,
+          "generated_edges": 10980
+        }
+      },
+      "critical_states_witnessed": [
+        "ack_pending",
+        "armed_without_effect",
+        "both_down",
+        "cancelled_unarmed",
+        "capacity_denied",
+        "client_down_only",
+        "effect_without_receipt",
+        "effect_without_receipt_or_pending_ack",
+        "expired_armed_unknown_held",
+        "expired_unarmed_held",
+        "full_budget_with_armed_unknown",
+        "receipt_present",
+        "request_pending",
+        "sink_down_only"
+      ],
+      "state_encoding": {
+        "set_fields": [
+          "received",
+          "issued",
+          "denied",
+          "cancelled",
+          "held",
+          "committed",
+          "armed",
+          "expired",
+          "requests",
+          "acknowledgements",
+          "effects",
+          "receipts"
+        ],
+        "bits_per_set": 3,
+        "explicit_counter_bits_each": 2,
+        "independent_availability_flags": [
+          "clientUp",
+          "sinkUp"
+        ],
+        "total_bits": 42,
+        "equality": "Full packed Python integer equality in set; hash collisions are resolved by equality.",
+        "domain_note": "Set/Boolean typing is structural in the injective encoding; explicit count ranges are still checked."
+      },
+      "constraints": {
+        "state_limit": null,
+        "depth_limit": null,
+        "symmetry_reduction": false,
+        "partial_order_reduction": false
+      },
+      "counting_conventions": "One initial state; each enabled Next action instance counts as an edge, including duplicate targets. Implicit Spec stutter steps are not enumerated and add no reachable state. Depth counts edges from Init=0. Witnesses are shortest to the first reached state/edge under this BFS order.",
+      "source_sha256": {
+        "ECRCLifecycle.tla": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+        "normal_3_2.cfg": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
+        "exact_check.py": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e"
+      },
+      "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "completed_utc": "2026-09-12T18:19:42.436290+00:00",
+      "limitations": [
+        "Finite labeled instances and Boolean message-presence abstraction only.",
+        "Independent implementation can share modeling misunderstandings with the TLA model.",
+        "No Python/SQLite refinement proof, unbounded protocol proof, liveness theorem or implementation-superiority claim.",
+        "State/transition/check counts are tool diagnostics, not independent study samples."
+      ]
+    },
+    {
+      "case": {
+        "id": "unsafe_2_1",
+        "n": 2,
+        "capacity": 1,
+        "unsafe": true,
+        "timeout_seconds": 120
+      },
+      "status": "EXPECTED_COUNTEREXAMPLE",
+      "reason": "Distinct durable effects exceed Capacity while the local count remains within Capacity",
+      "search_elapsed_seconds": 0.006384699983755127,
+      "time_limit_seconds": 120,
+      "complete_reachable_graph": false,
+      "exhaustive_positive": false,
+      "negative_stops_at_first_target": true,
+      "unique_labeled_states_discovered": 1114,
+      "states_checked": 934,
+      "states_expanded": 933,
+      "frontier_states_not_expanded": 181,
+      "enabled_action_instance_edges_generated": 3896,
+      "generated_states_including_initial": 3897,
+      "duplicate_successors": 2783,
+      "maximum_discovered_shortest_path_depth_edges": 13,
+      "discovered_states_by_shortest_path_depth_edges": {
+        "0": 1,
+        "1": 4,
+        "2": 8,
+        "3": 14,
+        "4": 27,
+        "5": 46,
+        "6": 68,
+        "7": 98,
+        "8": 135,
+        "9": 162,
+        "10": 168,
+        "11": 168,
+        "12": 176,
+        "13": 39
+      },
+      "configured_invariants": [
+        "TypeOK",
+        "Accounting",
+        "BudgetBound",
+        "EffectCountBound"
+      ],
+      "all_nine_invariants_checked_per_processed_state": true,
+      "invariant_state_check_count": 8406,
+      "invariant_violating_checked_states": {
+        "TypeOK": 0,
+        "Accounting": 0,
+        "BudgetBound": 0,
+        "Lifecycle": 0,
+        "GrantBacking": 329,
+        "EffectBacking": 162,
+        "EffectCountBound": 1,
+        "ReceiptSoundness": 0,
+        "NetworkCausality": 0
+      },
+      "action_coverage": {
+        "ReceiveRaw": {
+          "enabled_source_states_expanded": 114,
+          "generated_edges": 116
+        },
+        "IssueAction": {
+          "enabled_source_states_expanded": 34,
+          "generated_edges": 36
+        },
+        "IssueNoAction": {
+          "enabled_source_states_expanded": 80,
+          "generated_edges": 80
+        },
+        "Arm": {
+          "enabled_source_states_expanded": 39,
+          "generated_edges": 39
+        },
+        "ExpirePermit": {
+          "enabled_source_states_expanded": 397,
+          "generated_edges": 397
+        },
+        "CancelUnarmed": {
+          "enabled_source_states_expanded": 35,
+          "generated_edges": 35
+        },
+        "Send": {
+          "enabled_source_states_expanded": 223,
+          "generated_edges": 253
+        },
+        "LoseRequest": {
+          "enabled_source_states_expanded": 376,
+          "generated_edges": 385
+        },
+        "CommitEffect": {
+          "enabled_source_states_expanded": 87,
+          "generated_edges": 93
+        },
+        "DeduplicatedReply": {
+          "enabled_source_states_expanded": 125,
+          "generated_edges": 125
+        },
+        "LoseAcknowledgement": {
+          "enabled_source_states_expanded": 266,
+          "generated_edges": 266
+        },
+        "Reconcile": {
+          "enabled_source_states_expanded": 72,
+          "generated_edges": 72
+        },
+        "RepeatedCompletion": {
+          "enabled_source_states_expanded": 23,
+          "generated_edges": 23
+        },
+        "UnsafeReleaseUnknown": {
+          "enabled_source_states_expanded": 110,
+          "generated_edges": 110
+        },
+        "CrashClient": {
+          "enabled_source_states_expanded": 510,
+          "generated_edges": 510
+        },
+        "RecoverClient": {
+          "enabled_source_states_expanded": 423,
+          "generated_edges": 423
+        },
+        "CrashSink": {
+          "enabled_source_states_expanded": 510,
+          "generated_edges": 510
+        },
+        "RecoverSink": {
+          "enabled_source_states_expanded": 423,
+          "generated_edges": 423
+        }
+      },
+      "critical_states_witnessed": [
+        "ack_pending",
+        "armed_without_effect",
+        "both_down",
+        "cancelled_unarmed",
+        "capacity_denied",
+        "client_down_only",
+        "effect_bound_violation_within_local_budget",
+        "effect_without_receipt",
+        "effect_without_receipt_or_pending_ack",
+        "expired_armed_unknown_held",
+        "expired_unarmed_held",
+        "full_budget_with_armed_unknown",
+        "receipt_present",
+        "request_pending",
+        "sink_down_only",
+        "unbacked_armed",
+        "unbacked_effect"
+      ],
+      "state_encoding": {
+        "set_fields": [
+          "received",
+          "issued",
+          "denied",
+          "cancelled",
+          "held",
+          "committed",
+          "armed",
+          "expired",
+          "requests",
+          "acknowledgements",
+          "effects",
+          "receipts"
+        ],
+        "bits_per_set": 2,
+        "explicit_counter_bits_each": 2,
+        "independent_availability_flags": [
+          "clientUp",
+          "sinkUp"
+        ],
+        "total_bits": 30,
+        "equality": "Full packed Python integer equality in set; hash collisions are resolved by equality.",
+        "domain_note": "Set/Boolean typing is structural in the injective encoding; explicit count ranges are still checked."
+      },
+      "constraints": {
+        "state_limit": null,
+        "depth_limit": null,
+        "symmetry_reduction": false,
+        "partial_order_reduction": false
+      },
+      "counting_conventions": "One initial state; each enabled Next action instance counts as an edge, including duplicate targets. Implicit Spec stutter steps are not enumerated and add no reachable state. Depth counts edges from Init=0. Witnesses are shortest to the first reached state/edge under this BFS order.",
+      "source_sha256": {
+        "ECRCLifecycle.tla": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+        "unsafe_2_1.cfg": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
+        "exact_check.py": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e"
+      },
+      "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "completed_utc": "2026-09-12T18:19:42.455369+00:00",
+      "limitations": [
+        "Finite labeled instances and Boolean message-presence abstraction only.",
+        "Independent implementation can share modeling misunderstandings with the TLA model.",
+        "No Python/SQLite refinement proof, unbounded protocol proof, liveness theorem or implementation-superiority claim.",
+        "State/transition/check counts are tool diagnostics, not independent study samples."
+      ]
+    }
+  ],
+  "all_declared_searches_accepted": true,
+  "tlc_comparison_status": "PASS",
+  "study_samples": null,
+  "interpretation": "Bounded finite-model safety/explanatory evidence only; check counts are not samples; no implementation refinement or superiority conclusion."
+}

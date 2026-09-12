@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "archive_sha256": "c0d17694ccefaf35c85ec5f097f0462e99af25a6b8dd7ca230e394977e385938",
+  "public_manifest_files": 74,
+  "zip_files": 75,
+  "all_extracted_bytes_verified_and_preserved": true,
+  "kind": "POST_HOC_PORTABLE_REPRODUCTION",
+  "cases": [
+    {
+      "case": "normal_2_1",
+      "status": "COMPLETE_COUNTS_AND_COVERAGE_MATCH",
+      "exhaustive": true,
+      "distinct_states": 684,
+      "generated_including_initial": 2673,
+      "covered_normal_action_families": 17,
+      "unsafe_action_edges": 0
+    },
+    {
+      "case": "normal_3_2",
+      "status": "COMPLETE_COUNTS_AND_COVERAGE_MATCH",
+      "exhaustive": true,
+      "distinct_states": 21960,
+      "generated_including_initial": 122089,
+      "covered_normal_action_families": 17,
+      "unsafe_action_edges": 0
+    },
+    {
+      "case": "unsafe_2_1",
+      "status": "BOTH_FOUND_COUNTEREXAMPLE",
+      "exhaustive": false,
+      "note": "Partial negative discovered/checked/expanded counts need not match; they are not a complete graph."
+    }
+  ],
+  "original_frozen_v1_results_unchanged": true,
+  "author_workspace_baseline": "NOT_CHECKED by portable wrapper; separate historical and current preservation audits retained",
+  "commands": "PORTABLE_COMMAND.json",
+  "reproduction_summary_sha256": "233e174b91d17d0ffa1b1e998ba9a84f43fa7a34a810639242c6e89f6b29db4f"
+}

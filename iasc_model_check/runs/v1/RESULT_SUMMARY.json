@@ -1,0 +1,300 @@
+{
+  "cases": [
+    {
+      "case": "normal_2_1",
+      "n": 2,
+      "capacity": 1,
+      "unsafe": false,
+      "tlc_status": "COMPLETE_PASS",
+      "exact_status": "COMPLETE_PASS",
+      "tlc_distinct": 684,
+      "exact_discovered": 684,
+      "exact_checked": 684,
+      "tlc_generated": 2673,
+      "exact_generated": 2673,
+      "tlc_depth_states": 16,
+      "exact_depth_edges": 15,
+      "tlc_wrapper_seconds": 1.0899018000054639,
+      "exact_search_seconds": 0.006284300005063415,
+      "memory": "TLC configured 2 GiB heap + reported 64 MiB offheap; peak memory not measured.",
+      "warnings": [
+        "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+      ],
+      "fingerprint_estimate_lines": [
+        "calculated (optimistic):  val = 7.4E-14"
+      ],
+      "action_coverage": {
+        "ReceiveRaw": {
+          "enabled_source_states_expanded": 90,
+          "generated_edges": 92
+        },
+        "IssueAction": {
+          "enabled_source_states_expanded": 10,
+          "generated_edges": 12
+        },
+        "IssueNoAction": {
+          "enabled_source_states_expanded": 80,
+          "generated_edges": 80
+        },
+        "Arm": {
+          "enabled_source_states_expanded": 16,
+          "generated_edges": 16
+        },
+        "ExpirePermit": {
+          "enabled_source_states_expanded": 320,
+          "generated_edges": 320
+        },
+        "CancelUnarmed": {
+          "enabled_source_states_expanded": 16,
+          "generated_edges": 16
+        },
+        "Send": {
+          "enabled_source_states_expanded": 96,
+          "generated_edges": 96
+        },
+        "LoseRequest": {
+          "enabled_source_states_expanded": 256,
+          "generated_edges": 256
+        },
+        "CommitEffect": {
+          "enabled_source_states_expanded": 32,
+          "generated_edges": 32
+        },
+        "DeduplicatedReply": {
+          "enabled_source_states_expanded": 96,
+          "generated_edges": 96
+        },
+        "LoseAcknowledgement": {
+          "enabled_source_states_expanded": 192,
+          "generated_edges": 192
+        },
+        "Reconcile": {
+          "enabled_source_states_expanded": 64,
+          "generated_edges": 64
+        },
+        "RepeatedCompletion": {
+          "enabled_source_states_expanded": 32,
+          "generated_edges": 32
+        },
+        "UnsafeReleaseUnknown": {
+          "enabled_source_states_expanded": 0,
+          "generated_edges": 0
+        },
+        "CrashClient": {
+          "enabled_source_states_expanded": 342,
+          "generated_edges": 342
+        },
+        "RecoverClient": {
+          "enabled_source_states_expanded": 342,
+          "generated_edges": 342
+        },
+        "CrashSink": {
+          "enabled_source_states_expanded": 342,
+          "generated_edges": 342
+        },
+        "RecoverSink": {
+          "enabled_source_states_expanded": 342,
+          "generated_edges": 342
+        }
+      }
+    },
+    {
+      "case": "normal_3_2",
+      "n": 3,
+      "capacity": 2,
+      "unsafe": false,
+      "tlc_status": "COMPLETE_PASS",
+      "exact_status": "COMPLETE_PASS",
+      "tlc_distinct": 21960,
+      "exact_discovered": 21960,
+      "exact_checked": 21960,
+      "tlc_generated": 122089,
+      "exact_generated": 122089,
+      "tlc_depth_states": 25,
+      "exact_depth_edges": 24,
+      "tlc_wrapper_seconds": 1.5595120000070892,
+      "exact_search_seconds": 0.18656149998423643,
+      "memory": "TLC configured 2 GiB heap + reported 64 MiB offheap; peak memory not measured.",
+      "warnings": [
+        "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+      ],
+      "fingerprint_estimate_lines": [
+        "calculated (optimistic):  val = 1.2E-10",
+        "based on the actual fingerprints:  val = 4.3E-11"
+      ],
+      "action_coverage": {
+        "ReceiveRaw": {
+          "enabled_source_states_expanded": 3038,
+          "generated_edges": 3174
+        },
+        "IssueAction": {
+          "enabled_source_states_expanded": 638,
+          "generated_edges": 774
+        },
+        "IssueNoAction": {
+          "enabled_source_states_expanded": 2400,
+          "generated_edges": 2400
+        },
+        "Arm": {
+          "enabled_source_states_expanded": 1002,
+          "generated_edges": 1026
+        },
+        "ExpirePermit": {
+          "enabled_source_states_expanded": 15720,
+          "generated_edges": 20520
+        },
+        "CancelUnarmed": {
+          "enabled_source_states_expanded": 1002,
+          "generated_edges": 1026
+        },
+        "Send": {
+          "enabled_source_states_expanded": 5292,
+          "generated_edges": 6156
+        },
+        "LoseRequest": {
+          "enabled_source_states_expanded": 13344,
+          "generated_edges": 16416
+        },
+        "CommitEffect": {
+          "enabled_source_states_expanded": 1956,
+          "generated_edges": 2052
+        },
+        "DeduplicatedReply": {
+          "enabled_source_states_expanded": 5292,
+          "generated_edges": 6156
+        },
+        "LoseAcknowledgement": {
+          "enabled_source_states_expanded": 10584,
+          "generated_edges": 12312
+        },
+        "Reconcile": {
+          "enabled_source_states_expanded": 3720,
+          "generated_edges": 4104
+        },
+        "RepeatedCompletion": {
+          "enabled_source_states_expanded": 1956,
+          "generated_edges": 2052
+        },
+        "UnsafeReleaseUnknown": {
+          "enabled_source_states_expanded": 0,
+          "generated_edges": 0
+        },
+        "CrashClient": {
+          "enabled_source_states_expanded": 10980,
+          "generated_edges": 10980
+        },
+        "RecoverClient": {
+          "enabled_source_states_expanded": 10980,
+          "generated_edges": 10980
+        },
+        "CrashSink": {
+          "enabled_source_states_expanded": 10980,
+          "generated_edges": 10980
+        },
+        "RecoverSink": {
+          "enabled_source_states_expanded": 10980,
+          "generated_edges": 10980
+        }
+      }
+    },
+    {
+      "case": "unsafe_2_1",
+      "n": 2,
+      "capacity": 1,
+      "unsafe": true,
+      "tlc_status": "EXPECTED_COUNTEREXAMPLE",
+      "exact_status": "EXPECTED_COUNTEREXAMPLE",
+      "tlc_distinct": 934,
+      "exact_discovered": 1114,
+      "exact_checked": 934,
+      "tlc_generated": 3155,
+      "exact_generated": 3897,
+      "tlc_depth_states": 13,
+      "exact_depth_edges": 13,
+      "tlc_wrapper_seconds": 0.9646900999941863,
+      "exact_search_seconds": 0.006384699983755127,
+      "memory": "TLC configured 2 GiB heap + reported 64 MiB offheap; peak memory not measured.",
+      "warnings": [
+        "Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the \"-XX:+UseParallelGC\" property."
+      ],
+      "fingerprint_estimate_lines": [],
+      "action_coverage": {
+        "ReceiveRaw": {
+          "enabled_source_states_expanded": 114,
+          "generated_edges": 116
+        },
+        "IssueAction": {
+          "enabled_source_states_expanded": 34,
+          "generated_edges": 36
+        },
+        "IssueNoAction": {
+          "enabled_source_states_expanded": 80,
+          "generated_edges": 80
+        },
+        "Arm": {
+          "enabled_source_states_expanded": 39,
+          "generated_edges": 39
+        },
+        "ExpirePermit": {
+          "enabled_source_states_expanded": 397,
+          "generated_edges": 397
+        },
+        "CancelUnarmed": {
+          "enabled_source_states_expanded": 35,
+          "generated_edges": 35
+        },
+        "Send": {
+          "enabled_source_states_expanded": 223,
+          "generated_edges": 253
+        },
+        "LoseRequest": {
+          "enabled_source_states_expanded": 376,
+          "generated_edges": 385
+        },
+        "CommitEffect": {
+          "enabled_source_states_expanded": 87,
+          "generated_edges": 93
+        },
+        "DeduplicatedReply": {
+          "enabled_source_states_expanded": 125,
+          "generated_edges": 125
+        },
+        "LoseAcknowledgement": {
+          "enabled_source_states_expanded": 266,
+          "generated_edges": 266
+        },
+        "Reconcile": {
+          "enabled_source_states_expanded": 72,
+          "generated_edges": 72
+        },
+        "RepeatedCompletion": {
+          "enabled_source_states_expanded": 23,
+          "generated_edges": 23
+        },
+        "UnsafeReleaseUnknown": {
+          "enabled_source_states_expanded": 110,
+          "generated_edges": 110
+        },
+        "CrashClient": {
+          "enabled_source_states_expanded": 510,
+          "generated_edges": 510
+        },
+        "RecoverClient": {
+          "enabled_source_states_expanded": 423,
+          "generated_edges": 423
+        },
+        "CrashSink": {
+          "enabled_source_states_expanded": 510,
+          "generated_edges": 510
+        },
+        "RecoverSink": {
+          "enabled_source_states_expanded": 423,
+          "generated_edges": 423
+        }
+      }
+    }
+  ],
+  "counterexample_replay": "TLC_COUNTEREXAMPLE_REPLAY.json",
+  "comparison_status": "PASS",
+  "scope": "Fixed finite abstraction only; negative counts reflect early termination and are not complete state spaces. Times have different measurement scopes and are not speed comparisons."
+}

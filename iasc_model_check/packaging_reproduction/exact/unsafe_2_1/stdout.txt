@@ -1,0 +1,1 @@
+{"case": {"id": "unsafe_2_1", "n": 2, "capacity": 1, "unsafe": true, "timeout_seconds": 120}, "status": "EXPECTED_COUNTEREXAMPLE", "unique_labeled_states_discovered": 1114, "states_checked": 934, "search_elapsed_seconds": 0.007189700001617894}

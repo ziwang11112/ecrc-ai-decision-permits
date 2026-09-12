@@ -1,0 +1,57 @@
+{
+  "started_utc": "2026-09-12T18:37:20.948472+00:00",
+  "kind": "POST_HOC_PORTABLE_REPRODUCTION",
+  "historical_run": "v1 (unchanged)",
+  "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+  "wrapper_sha256": "06f7263aa8c36e400959abd081a92014a1ea9b54dcba68b3c2d96a3af1821f98",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "java_executable": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\tools\\java\\jdk-21.0.12.1+1-jre\\bin\\java.exe",
+  "java_executable_sha256": "82051fdab26319d77d20cc0065045d05ec00b3e3d05f44935d7c06b96b621d55",
+  "java_matches_historical_executable": true,
+  "jar": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\tools\\tla2tools.jar",
+  "jar_sha256": "936a262061c914694dfd669a543be24573c45d5aa0ff20a8b96b23d01e050e88",
+  "retained_verification": {
+    "status": "PASS",
+    "mode": "retained_evidence_verification",
+    "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+    "frozen_sources_verified": 15,
+    "retained_evidence_hashes_verified": 19,
+    "pre_run_START_bindings_verified": [
+      "tlc",
+      "exact"
+    ],
+    "cases": [
+      {
+        "case": "normal_2_1",
+        "status": "COMPLETE_COUNTS_AND_COVERAGE_MATCH",
+        "exhaustive": true,
+        "distinct_states": 684,
+        "generated_including_initial": 2673,
+        "covered_normal_action_families": 17,
+        "unsafe_action_edges": 0
+      },
+      {
+        "case": "normal_3_2",
+        "status": "COMPLETE_COUNTS_AND_COVERAGE_MATCH",
+        "exhaustive": true,
+        "distinct_states": 21960,
+        "generated_including_initial": 122089,
+        "covered_normal_action_families": 17,
+        "unsafe_action_edges": 0
+      },
+      {
+        "case": "unsafe_2_1",
+        "status": "BOTH_FOUND_COUNTEREXAMPLE",
+        "exhaustive": false,
+        "note": "Partial negative discovered/checked/expanded counts need not match; they are not a complete graph."
+      }
+    ],
+    "author_workspace_baseline": {
+      "status": "NOT_CHECKED",
+      "target_count": 205,
+      "metadata_hash_verified": true,
+      "reason": "Targets are outside the public S10 archive. Their historical audit is retained; this verifier does not inspect the author workspace or claim to recheck its preservation."
+    },
+    "limitations": "Integrity and finite-model result checks; no signature/authenticity guarantee, unbounded protocol proof, code refinement, liveness, statistical inference or independent third enumeration."
+  }
+}

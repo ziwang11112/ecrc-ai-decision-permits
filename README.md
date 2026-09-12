@@ -2,7 +2,18 @@
 
 Code and reproducibility materials for **Decision Permits for Capacity-Bounded Artificial Intelligence Actions: Binding Authorization to Effects**.
 
-**New controlled application (S9):** [iasc-application-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-application-2026-09-12).
+**New finite lifecycle study (S10):** [iasc-model-check-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-model-check-2026-09-12).
+The [model, results and limits](iasc_model_check/README.md) provide two fully
+explored normal instances (684 and 21,960 reachable states), cross-checked by
+TLC and independent exact enumeration, plus a replayed 12-transition
+changed-release counterexample. This is finite specification evidence, not a
+parameterized theorem, implementation proof or ECRC-exclusive advantage.
+[Portable reproduction](iasc_model_check/PORTABLE_REPRODUCTION.md) verifies
+retained evidence by default and can run the unchanged cases with explicit
+Java/TLC paths into a fresh directory. [Release contents](iasc_model_check/RELEASE_CONTENTS.md)
+distinguish the original study from the successful extracted-archive repeat.
+
+**Earlier controlled application (S9):** [iasc-application-2026-09-12](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/iasc-application-2026-09-12).
 Browse its [source and analysis](iasc_application/SOURCE_VIEW.md) and
 [complete results and limits](iasc_application/FINAL_RESULTS.md). The fixed S9
 ZIP supplies all public trajectory projections and a public-only independent

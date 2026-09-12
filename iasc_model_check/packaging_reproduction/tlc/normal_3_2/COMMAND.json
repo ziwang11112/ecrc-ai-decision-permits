@@ -1,0 +1,28 @@
+{
+  "command": [
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\tools\\java\\jdk-21.0.12.1+1-jre\\bin\\java.exe",
+    "-Xmx2g",
+    "-cp",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\iasc_model_check_2026-09-12\\tools\\tla2tools.jar",
+    "tlc2.TLC",
+    "-workers",
+    "1",
+    "-fp",
+    "0",
+    "-coverage",
+    "1",
+    "-metadir",
+    "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_model_check_2026-09-12\\portable_reproduction\\tlc\\normal_3_2\\states",
+    "-config",
+    "normal_3_2.cfg",
+    "ECRCLifecycle.tla"
+  ],
+  "cwd": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\qa\\iasc_model_check_2026-09-12\\portable_reproduction\\tlc\\normal_3_2",
+  "case": {
+    "id": "normal_3_2",
+    "n": 3,
+    "capacity": 2,
+    "unsafe": false,
+    "timeout_seconds": 600
+  }
+}

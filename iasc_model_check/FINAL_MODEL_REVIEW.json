@@ -1,0 +1,66 @@
+{
+  "verdict": "PASS_FOR_SCOPED_S10",
+  "review_kind": "Independent internal completed-evidence review",
+  "freeze_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+  "state_space_rerun": false,
+  "existing_frozen_files_modified": false,
+  "frozen_files_verified": 15,
+  "baseline_files_verified": 205,
+  "baseline_all_preserved": true,
+  "blocking_findings": [],
+  "inclusion_recommendation": "Add a narrowly scoped finite-specification subsection/table; no new mechanism or implementation-superiority claim.",
+  "positive_cases": [
+    {
+      "N": 2,
+      "Capacity": 1,
+      "reachable_states": 684,
+      "generated_including_initial": 2673,
+      "invariants": 9,
+      "complete": true
+    },
+    {
+      "N": 3,
+      "Capacity": 2,
+      "reachable_states": 21960,
+      "generated_including_initial": 122089,
+      "invariants": 9,
+      "complete": true
+    }
+  ],
+  "coverage": "All 17 normal action families have nonzero edges in both positive cases, and each per-action edge count matches between TLC and exact enumerator. Unsafe rule disabled in normal cases.",
+  "negative_trace": {
+    "saved_states": 13,
+    "independently_validated_transitions": 12,
+    "tlc_exact_states_equal": true,
+    "first_effect_transition": 6,
+    "unsafe_release_transition": 7,
+    "second_effect_transition": 12,
+    "first_baseline_rejected_transition": 7,
+    "explicit_ack_loss": false,
+    "final_X": 2,
+    "final_S": 1,
+    "final_C": 0,
+    "Capacity": 1,
+    "negative_exploration_complete": false
+  },
+  "required_wording_constraints": [
+    "First effect occurs before unsafe release in the saved trace; do not rewrite it as release-before-first-effect.",
+    "No LoseAcknowledgement occurs in the saved trace; call the result unreconciled, not explicitly lost.",
+    "TLC and exact use differing depth conventions; do not mix 16/25 nodes with 15/24 edges.",
+    "S8 projections are source/checkpoint correspondence only, not full implementation refinement.",
+    "Payload identity, truthful ACKs, atomic deduplication and database transactions are assumptions/mechanisms of the model, not newly verified implementation guarantees.",
+    "Two finite instances do not establish symbolic or unbounded correctness; there is no cutoff theorem.",
+    "No ECRC-exclusive advantage, CPU exactly-once, liveness, or full O1-O6 verification."
+  ],
+  "s8_prefix_match_scope": {
+    "issued_unarmed": true,
+    "cancelled_unarmed": true,
+    "effect_unreconciled": true,
+    "expired_effect_unreconciled": false
+  },
+  "artifacts": {
+    "FINAL_MODEL_REVIEW_RECORDS.json": "37671684568da4fc43c38360dc1fc8048522ac5406decdb390abee315877e396",
+    "FINAL_MODEL_REVIEW.md": "af5c7f83f4b1f27c35c5c41e8db1cfe78b8b2b8da0ffde0481030740aaaaf5a6",
+    "audit_completed_records.py": "e815eaf79d915153fa2c6e94d8d8b208237aa6b0d57b8e9e821123514827b32e"
+  }
+}

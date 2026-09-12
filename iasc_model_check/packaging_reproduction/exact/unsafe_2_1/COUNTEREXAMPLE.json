@@ -1,0 +1,604 @@
+{
+  "case": {
+    "id": "unsafe_2_1",
+    "n": 2,
+    "capacity": 1,
+    "unsafe": true,
+    "timeout_seconds": 120
+  },
+  "trace": [
+    {
+      "step": 0,
+      "action": {
+        "name": "Init",
+        "operation": null
+      },
+      "state": {
+        "received": [],
+        "issued": [],
+        "denied": [],
+        "cancelled": [],
+        "held": [],
+        "committed": [],
+        "armed": [],
+        "expired": [],
+        "requests": [],
+        "acknowledgements": [],
+        "effects": [],
+        "receipts": [],
+        "heldCount": 0,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 0,
+        "distinct_effect_count": 0,
+        "exact_packed_state": 805306368
+      },
+      "violated_invariants": []
+    },
+    {
+      "step": 1,
+      "action": {
+        "name": "ReceiveRaw",
+        "operation": 1
+      },
+      "state": {
+        "received": [
+          1
+        ],
+        "issued": [],
+        "denied": [],
+        "cancelled": [],
+        "held": [],
+        "committed": [],
+        "armed": [],
+        "expired": [],
+        "requests": [],
+        "acknowledgements": [],
+        "effects": [],
+        "receipts": [],
+        "heldCount": 0,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 0,
+        "distinct_effect_count": 0,
+        "exact_packed_state": 805306369
+      },
+      "violated_invariants": []
+    },
+    {
+      "step": 2,
+      "action": {
+        "name": "IssueAction",
+        "operation": 1
+      },
+      "state": {
+        "received": [
+          1
+        ],
+        "issued": [
+          1
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "armed": [],
+        "expired": [],
+        "requests": [],
+        "acknowledgements": [],
+        "effects": [],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 0,
+        "exact_packed_state": 822083845
+      },
+      "violated_invariants": []
+    },
+    {
+      "step": 3,
+      "action": {
+        "name": "Arm",
+        "operation": 1
+      },
+      "state": {
+        "received": [
+          1
+        ],
+        "issued": [
+          1
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "armed": [
+          1
+        ],
+        "expired": [],
+        "requests": [],
+        "acknowledgements": [],
+        "effects": [],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 0,
+        "exact_packed_state": 822087941
+      },
+      "violated_invariants": []
+    },
+    {
+      "step": 4,
+      "action": {
+        "name": "ExpirePermit",
+        "operation": 1
+      },
+      "state": {
+        "received": [
+          1
+        ],
+        "issued": [
+          1
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "armed": [
+          1
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [],
+        "acknowledgements": [],
+        "effects": [],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 0,
+        "exact_packed_state": 822104325
+      },
+      "violated_invariants": []
+    },
+    {
+      "step": 5,
+      "action": {
+        "name": "Send",
+        "operation": 1
+      },
+      "state": {
+        "received": [
+          1
+        ],
+        "issued": [
+          1
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "armed": [
+          1
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [
+          1
+        ],
+        "acknowledgements": [],
+        "effects": [],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 0,
+        "exact_packed_state": 822169861
+      },
+      "violated_invariants": []
+    },
+    {
+      "step": 6,
+      "action": {
+        "name": "CommitEffect",
+        "operation": 1
+      },
+      "state": {
+        "received": [
+          1
+        ],
+        "issued": [
+          1
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          1
+        ],
+        "committed": [],
+        "armed": [
+          1
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [],
+        "acknowledgements": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 1,
+        "exact_packed_state": 823415045
+      },
+      "violated_invariants": []
+    },
+    {
+      "step": 7,
+      "action": {
+        "name": "UnsafeReleaseUnknown",
+        "operation": 1
+      },
+      "state": {
+        "received": [
+          1
+        ],
+        "issued": [
+          1
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [],
+        "committed": [],
+        "armed": [
+          1
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [],
+        "acknowledgements": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "receipts": [],
+        "heldCount": 0,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 0,
+        "distinct_effect_count": 1,
+        "exact_packed_state": 806637573
+      },
+      "violated_invariants": [
+        "GrantBacking",
+        "EffectBacking"
+      ]
+    },
+    {
+      "step": 8,
+      "action": {
+        "name": "ReceiveRaw",
+        "operation": 2
+      },
+      "state": {
+        "received": [
+          1,
+          2
+        ],
+        "issued": [
+          1
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [],
+        "committed": [],
+        "armed": [
+          1
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [],
+        "acknowledgements": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "receipts": [],
+        "heldCount": 0,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 0,
+        "distinct_effect_count": 1,
+        "exact_packed_state": 806637575
+      },
+      "violated_invariants": [
+        "GrantBacking",
+        "EffectBacking"
+      ]
+    },
+    {
+      "step": 9,
+      "action": {
+        "name": "IssueAction",
+        "operation": 2
+      },
+      "state": {
+        "received": [
+          1,
+          2
+        ],
+        "issued": [
+          1,
+          2
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "armed": [
+          1
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [],
+        "acknowledgements": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 1,
+        "exact_packed_state": 823415311
+      },
+      "violated_invariants": [
+        "GrantBacking",
+        "EffectBacking"
+      ]
+    },
+    {
+      "step": 10,
+      "action": {
+        "name": "Arm",
+        "operation": 2
+      },
+      "state": {
+        "received": [
+          1,
+          2
+        ],
+        "issued": [
+          1,
+          2
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "armed": [
+          1,
+          2
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [],
+        "acknowledgements": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 1,
+        "exact_packed_state": 823423503
+      },
+      "violated_invariants": [
+        "GrantBacking",
+        "EffectBacking"
+      ]
+    },
+    {
+      "step": 11,
+      "action": {
+        "name": "Send",
+        "operation": 2
+      },
+      "state": {
+        "received": [
+          1,
+          2
+        ],
+        "issued": [
+          1,
+          2
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "armed": [
+          1,
+          2
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [
+          2
+        ],
+        "acknowledgements": [
+          1
+        ],
+        "effects": [
+          1
+        ],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 1,
+        "exact_packed_state": 823554575
+      },
+      "violated_invariants": [
+        "GrantBacking",
+        "EffectBacking"
+      ]
+    },
+    {
+      "step": 12,
+      "action": {
+        "name": "CommitEffect",
+        "operation": 2
+      },
+      "state": {
+        "received": [
+          1,
+          2
+        ],
+        "issued": [
+          1,
+          2
+        ],
+        "denied": [],
+        "cancelled": [],
+        "held": [
+          2
+        ],
+        "committed": [],
+        "armed": [
+          1,
+          2
+        ],
+        "expired": [
+          1
+        ],
+        "requests": [],
+        "acknowledgements": [
+          1,
+          2
+        ],
+        "effects": [
+          1,
+          2
+        ],
+        "receipts": [],
+        "heldCount": 1,
+        "committedCount": 0,
+        "clientUp": true,
+        "sinkUp": true,
+        "local_count": 1,
+        "distinct_effect_count": 2,
+        "exact_packed_state": 826044943
+      },
+      "violated_invariants": [
+        "GrantBacking",
+        "EffectBacking",
+        "EffectCountBound"
+      ]
+    }
+  ],
+  "transition_count": 12,
+  "shortest_to_target_under_this_frozen_labeled_transition_relation": true,
+  "positive_model_first_rejected_step": {
+    "step": 7,
+    "action": {
+      "name": "UnsafeReleaseUnknown",
+      "operation": 1
+    },
+    "positive_prefix_state": {
+      "received": [
+        1
+      ],
+      "issued": [
+        1
+      ],
+      "denied": [],
+      "cancelled": [],
+      "held": [
+        1
+      ],
+      "committed": [],
+      "armed": [
+        1
+      ],
+      "expired": [
+        1
+      ],
+      "requests": [],
+      "acknowledgements": [
+        1
+      ],
+      "effects": [
+        1
+      ],
+      "receipts": [],
+      "heldCount": 1,
+      "committedCount": 0,
+      "clientUp": true,
+      "sinkUp": true,
+      "local_count": 1,
+      "distinct_effect_count": 1,
+      "exact_packed_state": 823415045
+    },
+    "positive_enabled_action_targets": [],
+    "reason": "AllowUnsafeRelease is FALSE"
+  },
+  "final_effect_count": 2,
+  "final_local_count": 1,
+  "limits": "Witness of this finite model; not an implementation trace or a globally minimal trace across other abstractions."
+}

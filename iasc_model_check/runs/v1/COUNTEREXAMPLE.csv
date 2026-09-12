@@ -1,0 +1,14 @@
+state,action,operation,held_count,committed_count,effect_count,held,effects,pending_acks
+1,Init,,0,0,0,[],[],[]
+2,ReceiveRaw,1,0,0,0,[],[],[]
+3,IssueAction,1,1,0,0,[1],[],[]
+4,Arm,1,1,0,0,[1],[],[]
+5,ExpirePermit,1,1,0,0,[1],[],[]
+6,Send,1,1,0,0,[1],[],[]
+7,CommitEffect,1,1,0,1,[1],[1],[1]
+8,UnsafeReleaseUnknown,1,0,0,1,[],[1],[1]
+9,ReceiveRaw,2,0,0,1,[],[1],[1]
+10,IssueAction,2,1,0,1,[2],[1],[1]
+11,Arm,2,1,0,1,[2],[1],[1]
+12,Send,2,1,0,1,[2],[1],[1]
+13,CommitEffect,2,1,0,2,[2],"[1, 2]","[1, 2]"
