@@ -11,6 +11,7 @@ jobs:
       - run: python -m pip install -e ".[test]"
       - run: python -m pytest -q
       - run: python scripts/verify_release.py
+      - run: python scripts/verify_source_view.py
       - run: python -B scripts/run_wrapper_qa.py --output artifacts/ci-wrapper-qa
       - run: python -B iasc_model_check/portable_reproduce.py
       - run: python -B -m unittest discover -s scripts/tests -v

@@ -1,0 +1,289 @@
+{
+  "scope": "Standalone plotting and saved numerical summaries; no new experiment, fit or resampling.",
+  "source_snapshot_manifest_sha256": "11988d7fe2d94b1344e8baa3589a0e21b5565b39a9bfa59dfec0b070e7be1654",
+  "sources": [
+    {
+      "kind": "support_file",
+      "standalone_path": ".gitattributes",
+      "source_sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "standalone_sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "byte_equal": true
+    },
+    {
+      "kind": "support_file",
+      "standalone_path": "requirements.txt",
+      "source_sha256": "ed58326e953c51a2b8e68be1ee2213dab7c868651b9d72a29dfd42cd6729c053",
+      "standalone_sha256": "ed58326e953c51a2b8e68be1ee2213dab7c868651b9d72a29dfd42cd6729c053",
+      "byte_equal": true
+    },
+    {
+      "kind": "support_file",
+      "standalone_path": "scripts/verify_package.py",
+      "source_sha256": "a5c82e435f14df7cd6739d6bacc9bb1fd0a399ce522e024e8447398b0316f5dc",
+      "standalone_sha256": "a5c82e435f14df7cd6739d6bacc9bb1fd0a399ce522e024e8447398b0316f5dc",
+      "byte_equal": true
+    },
+    {
+      "kind": "saved_numeric_input",
+      "standalone_path": "data/fig3_plot_data.csv",
+      "source_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+      "standalone_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+      "byte_equal": true,
+      "rows": 36,
+      "fields": [
+        "scenario",
+        "phase",
+        "metric",
+        "n_observations",
+        "min",
+        "max",
+        "display"
+      ]
+    },
+    {
+      "kind": "saved_numeric_input",
+      "standalone_path": "data/fig5_plot_data.csv",
+      "source_sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249",
+      "standalone_sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249",
+      "byte_equal": true,
+      "rows": 60,
+      "fields": [
+        "panel",
+        "dataset_id",
+        "cohort",
+        "model_name",
+        "capacity_basis",
+        "estimand",
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "units",
+        "n_participants",
+        "finite_replicates",
+        "source",
+        "quantity",
+        "n_common_valid",
+        "n_reference_only",
+        "n_comparison_only"
+      ]
+    },
+    {
+      "kind": "saved_numeric_input",
+      "standalone_path": "data/S6_performance_runs.csv",
+      "source_sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+      "standalone_sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+      "byte_equal": true,
+      "rows": 30,
+      "fields": [
+        "arm",
+        "workers",
+        "rep",
+        "n_timed_requests",
+        "elapsed_seconds",
+        "throughput_requests_per_second",
+        "median_latency_ms",
+        "p95_latency_ms",
+        "max_latency_ms",
+        "client_database_bytes",
+        "sink_database_bytes",
+        "effects_including_warmup",
+        "final_reserved"
+      ]
+    },
+    {
+      "kind": "saved_numeric_input",
+      "standalone_path": "data/S6_performance_summary.csv",
+      "source_sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+      "standalone_sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+      "byte_equal": true,
+      "rows": 6,
+      "fields": [
+        "arm",
+        "workers",
+        "repetitions",
+        "p95_latency_ms_median",
+        "p95_latency_ms_min",
+        "p95_latency_ms_max",
+        "median_latency_ms_median",
+        "median_latency_ms_min",
+        "median_latency_ms_max",
+        "throughput_requests_per_second_median",
+        "throughput_requests_per_second_min",
+        "throughput_requests_per_second_max",
+        "client_database_bytes_median",
+        "client_database_bytes_min",
+        "client_database_bytes_max"
+      ]
+    },
+    {
+      "kind": "saved_numeric_input",
+      "standalone_path": "data/S9_cells.csv",
+      "source_sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+      "standalone_sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+      "byte_equal": true,
+      "rows": 8,
+      "fields": [
+        "condition",
+        "policy",
+        "arm",
+        "batches",
+        "eligible_tasks",
+        "timely_tasks",
+        "durable_pass_tasks_by_deadline",
+        "eventual_pass_tasks",
+        "jobs",
+        "actual_starts",
+        "pass_jobs",
+        "fail_jobs",
+        "timeout_jobs",
+        "http_posts",
+        "response_drops",
+        "cache_hits",
+        "primary_retries",
+        "drain_retries",
+        "child_cpu_seconds",
+        "suite_wall_seconds",
+        "launcher_wall_seconds",
+        "late_host_launches",
+        "denied_decisions",
+        "timely_percent",
+        "median_batch_complete_s",
+        "max_stop_held",
+        "max_final_held"
+      ]
+    },
+    {
+      "kind": "saved_numeric_input",
+      "standalone_path": "data/cap_removal_complete.csv",
+      "source_sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
+      "standalone_sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
+      "byte_equal": true,
+      "rows": 6,
+      "fields": [
+        "dataset_id",
+        "cohort",
+        "model_name",
+        "model_label",
+        "n_precision",
+        "n_coverage",
+        "n_participants",
+        "precision_excluded",
+        "coverage_excluded",
+        "pooled_precision_difference",
+        "macro_precision_difference",
+        "macro_precision_ci_low",
+        "macro_precision_ci_high",
+        "pooled_coverage_difference",
+        "macro_coverage_difference",
+        "macro_coverage_ci_low",
+        "macro_coverage_ci_high",
+        "fixed_alerts",
+        "removed_alerts",
+        "fixed_reviews",
+        "removed_reviews"
+      ]
+    },
+    {
+      "kind": "saved_expected_csv",
+      "standalone_path": "expected/latency_summary.csv",
+      "source_sha256": "a9251844b48ef93447ee1745e392a4494850124663ab51491755b66930c9eb5d",
+      "standalone_sha256": "a9251844b48ef93447ee1745e392a4494850124663ab51491755b66930c9eb5d",
+      "byte_equal": true,
+      "rows": 3,
+      "fields": [
+        "workers",
+        "ecrc_median_ms",
+        "ecrc_min_ms",
+        "ecrc_max_ms",
+        "ordinary_median_ms",
+        "ordinary_min_ms",
+        "ordinary_max_ms"
+      ]
+    },
+    {
+      "kind": "saved_expected_csv",
+      "standalone_path": "expected/application_summary.csv",
+      "source_sha256": "403f75ec4c59f4db01069d85d2c280a11217309035edea5d10f736d62ecf622d",
+      "standalone_sha256": "403f75ec4c59f4db01069d85d2c280a11217309035edea5d10f736d62ecf622d",
+      "byte_equal": true,
+      "rows": 8,
+      "fields": [
+        "response",
+        "policy",
+        "client",
+        "timely",
+        "eventual",
+        "jobs",
+        "launcher_seconds"
+      ]
+    },
+    {
+      "kind": "saved_expected_csv",
+      "standalone_path": "expected/cap_precision_summary.csv",
+      "source_sha256": "29ab2cb86840d0719b99b62fa5ac7dcae9e48ee468ad9d98c8945000df2772e0",
+      "standalone_sha256": "29ab2cb86840d0719b99b62fa5ac7dcae9e48ee468ad9d98c8945000df2772e0",
+      "byte_equal": true,
+      "rows": 6,
+      "fields": [
+        "cohort",
+        "generator",
+        "n_P",
+        "pooled_delta",
+        "participant_equal_delta",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "kind": "plot_script",
+      "standalone_path": "scripts/build_main_figures.py",
+      "source_sha256": "c2070db793963cc24b64f7693437b99816d3ceeae3ef12a4a18c0f591d01f81f",
+      "standalone_sha256": "5b906b43bcb621a204a1142b58dbbb6ad4364641130c4c687bbf664e9d9c5ecd",
+      "changes": "Package-oriented documentation/variable/sidecar names only; drawing instructions and values unchanged."
+    },
+    {
+      "kind": "plot_script",
+      "standalone_path": "scripts/build_pacing_figure.py",
+      "source_sha256": "3d5cfdbeebc3429f09e2c80b0ed4fe336809bbf2768317beb5adf6119164e3be",
+      "standalone_sha256": "43e197bc27a8baa107e051b636f29bdbbd3fb5b88400c650d23b043b16ee8836",
+      "changes": "Package-oriented documentation/variable/sidecar names only; drawing instructions and values unchanged."
+    },
+    {
+      "kind": "result_summary_script",
+      "standalone_path": "scripts/summarize_results.py",
+      "standalone_sha256": "21493b56d5690acd931c139153c051a83b1972dd86fa12b2a55b4da326f947c2",
+      "source_sha256": "daa7e3691e59995bec275f4d4c7c384f4369b2b4cb3df233560b1c8c0963975f",
+      "changes": "Retains saved CSV aggregation/formatting; verifies complete expected CSV bytes. Uses descriptive output names and no document-format source dependencies."
+    }
+  ],
+  "included_data_allowlist": [
+    "data/S6_performance_runs.csv",
+    "data/S6_performance_summary.csv",
+    "data/S9_cells.csv",
+    "data/cap_removal_complete.csv",
+    "data/fig3_plot_data.csv",
+    "data/fig5_plot_data.csv"
+  ],
+  "reference_exports": [
+    {
+      "path": "exports/fig1.pdf",
+      "sha256": "a4dece80551808347dec1f2bdd770d9be658613eed44dfa9c01b5b939da94b3f"
+    },
+    {
+      "path": "exports/fig2.pdf",
+      "sha256": "c842fa35722cb12f1ce753ee1e06a9e329190a32a0cf887d1f70967151f9b636"
+    },
+    {
+      "path": "exports/fig3.pdf",
+      "sha256": "c6c6b910b40f4c15324a71f07084b9ade9ccaba859db466b5fed3e19ca498d3b"
+    },
+    {
+      "path": "exports/fig4.pdf",
+      "sha256": "b74fdd8c628a3e29656b4394341d19f87139576c7ecc15fd321990da70b05169"
+    },
+    {
+      "path": "exports/fig5.pdf",
+      "sha256": "7dfdfbfbd69cac1cc064b8a578fb71e9b3bd817f5aeda3c5e26104f722a380e5"
+    }
+  ]
+}

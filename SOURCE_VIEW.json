@@ -1,0 +1,2352 @@
+{
+  "version": "code-and-data-view-2026-09-12",
+  "scope": "Current selected source view against preserved historical inventories; overlapping inventories do not define unique file counts.",
+  "historical_contents": "Old commits and fixed archive assets preserve their originally published files.",
+  "historical_inventories": [
+    {
+      "manifest": "iasc/SOURCE_MIRROR_MANIFEST.json",
+      "manifest_sha256": "85853c1786c4f0d8d0412bab0c6720223e72d896290eab8317747e442da44e4f",
+      "files": [
+        {
+          "path": "iasc/calibration/CALIBRATION_CHECK.md",
+          "historical_sha256": "138b2b45cb0a4e7df4e081b9bda84316abec9c29cdde3011a1f2ba2d85cf229c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/PACKAGE_MANIFEST.json",
+          "historical_sha256": "d9d40943c6c772e832ca1f86ac4a1611c8c3c764323f579258c992ac924aefa5",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/PORTABILITY_ONLY.diff",
+          "historical_sha256": "c8ef34331a8706795d71d37e45f4d78c0b47f4691da067ddd9e3ea5ecaca3dbe",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/PORTABLE_VALIDATION.json",
+          "historical_sha256": "e3a4202fe876491b1c2a685ce809add2f21533b867c4c7c36e24d85bbc7b3675",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/PROTOCOL_PORTABLE.md",
+          "historical_sha256": "c23ed19034491e36e284396a686992af8bc1eda960eb57955c2919692cb66fda",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/README.md",
+          "historical_sha256": "4e0c93d478bbeb5fcbc2e6f05b303792966c4130df68323f48ce9b9c0fb51429",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/archived/CALIBRATION_CHECK.md",
+          "historical_sha256": "138b2b45cb0a4e7df4e081b9bda84316abec9c29cdde3011a1f2ba2d85cf229c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/archived/calibration_audit.json",
+          "historical_sha256": "9a30cf29bcc1070c6a6903a977a84f49d13370d9ead1441e17b29b70e45f251c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/archived/calibration_grid_activity.csv",
+          "historical_sha256": "d4f478f4110ff6c83f7622a506340f7217973ddd868e0f7d0a4d19f232a5c2b2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/archived/calibration_grid_summary.csv",
+          "historical_sha256": "c3575dcec2357ca7a532d7952666af15395ff7f2642e4f545133d98c0e62e2dc",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/archived/calibration_reconstructed_grids.csv",
+          "historical_sha256": "de6e34850eb80d0c7307df01889ae59412f4b20065a82ac203f0214814df67ff",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/archived/calibration_selected_audit.csv",
+          "historical_sha256": "d86c59f484b6a583780a2b8cab268f9e53abd0b28bd5d14e0a8693f24df52abe",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/archived/check_calibration.py",
+          "historical_sha256": "739bd59eb05281ca6b1565ae3042b9c1c6dd398c3789b9e4a8d91844ffa50064",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/check_calibration.py",
+          "historical_sha256": "bb502856bfc33cdda9466fdcf19e77cfccf81630c3e16a9cc36ae6cbd0ab1309",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/ENTRYPOINT_PROVENANCE.json",
+          "historical_sha256": "7cdaaf4f46f09e2a0256bbe051f546b54aa742ccbeb94e75712106a7057333b6",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/SOURCE_MANIFEST.json",
+          "historical_sha256": "0e787d1d6e54c082c79c1a248b4f0f79c3a0cdd82c2bf3c403d25bf43791f116",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/evidence/code_hashes.csv",
+          "historical_sha256": "0fe95a3187c33bebcd6d8ce05f495a5bd57bfc4c00ac6213bcc0811d7f40a7cf",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/evidence/experiment_config.json",
+          "historical_sha256": "dc45ce82df7475beb575991fe51fcbcf31cb3baf6446c0a12acb4d350875cc39",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/evidence/frozen_operating_points.csv",
+          "historical_sha256": "bfb41f620d363c40e4c6954b733162c625c6226ef3627d0dc3ad1170149e4502",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/evidence/outer_fold_assignments.csv",
+          "historical_sha256": "86ae2967dafccf36938457d6e857149c6892eb90a18973959a7941d24373c3e9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/evidence/outer_fold_operating_points.csv",
+          "historical_sha256": "8c12119eae506bb2e7036299295f6b97504bb68498d93df220ac1a6fa6e6b041",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/evidence/predictions.csv.gz",
+          "historical_sha256": "4df636f1ec8b78aecdaea4b4625432577337d0baac70ef383a87538399dc939f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/source/e1/__init__.py",
+          "historical_sha256": "3a4e7e0c06e4979e0fdfdb0dbf41d9f6d54b94cd0ac288b87d55e7e0ab8a4aa4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/source/e1/config.py",
+          "historical_sha256": "29866ca4c628ac70f8b66b8b650325ae60bdcb9dc6d2d2871ccb6843eabf565c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/source/e1/models.py",
+          "historical_sha256": "a20dc7efd4b5099be3ef17674bc0c4bf17fec853f0d4fbedcb60a12f49f79c11",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/input/source/e1/routing.py",
+          "historical_sha256": "bc1374f97a7e4e0abf453d295d48b4b90e6a98df3f853ba91cd932b5135a7185",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/out/calibration_audit.json",
+          "historical_sha256": "0965758f5408cd0bef36ac99a66c6317da2bd6d57fa842a96b33980771aa6ef7",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/out/calibration_grid_summary.csv",
+          "historical_sha256": "c3575dcec2357ca7a532d7952666af15395ff7f2642e4f545133d98c0e62e2dc",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/out/calibration_reconstructed_grids.csv",
+          "historical_sha256": "de6e34850eb80d0c7307df01889ae59412f4b20065a82ac203f0214814df67ff",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/out/calibration_selected_audit.csv",
+          "historical_sha256": "d86c59f484b6a583780a2b8cab268f9e53abd0b28bd5d14e0a8693f24df52abe",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/package_manifest.py",
+          "historical_sha256": "6a5c1894defd6611426f2472b35038dc63f0ec9ff407d4a870e4b1e32bc9cd07",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/prepare_portable.py",
+          "historical_sha256": "051a3a6ed330e045fe47da846f7afdb229efbb8dafc233024b577b8fbfb41569",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/requirements.txt",
+          "historical_sha256": "f36cb59b3a3402cf36f4481c9f15fb2fd98e9961bf4b23cf18473155f5f02de9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/calibration/verify_portable.py",
+          "historical_sha256": "7040fb310b4343ccf795a7496e0a1cc191f651cafc79372784f64dd9a09482d2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/AUDIT_CANONICAL_QA.json",
+          "historical_sha256": "07e6e3387823b238da1da71b2366908a9d6e030485f199bb0453e0eb643a4fad",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/CAPABILITY_AND_SOURCE_MATRIX.md",
+          "historical_sha256": "07435c88732a743276f6893660ca84d5f6ac5c85c32364a86bd13fe2e8618186",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/CODE_FREEZE.json",
+          "historical_sha256": "32d7f1b448ce0358a1af73145b1f203006468c3e732c8d04a9001e053d2802bc",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/DEVELOPMENT_LOG.md",
+          "historical_sha256": "38c86931cca7ad8d01ef5bacc722585f68d003c62427f5de2b0e8d89818fc416",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/FINAL_REPORT.md",
+          "historical_sha256": "20f0ee6a2d1460434c648de1a2b8662712dd5779bd89fa3c421326886ecc0eaa",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/PORTABLE_VERIFICATION.json",
+          "historical_sha256": "5bb50f0d6a50eba42e5e6059c989596630cd38a7a6e227beb779543e15b14fa2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/PROTOCOL.md",
+          "historical_sha256": "d618e794fc6ba5f785147f6796e09e548c28045aa105416c092bf3d400c34537",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/PROTOCOL_AMENDMENTS.md",
+          "historical_sha256": "2706d230eef51b0927b130ab6fa7be223d7cee7641a3a1856df226c281811600",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/R2_CORRECTIONS.md",
+          "historical_sha256": "9417f9972dd1d2ef6dc37a927d36f561ed03b3359536b69d3dca33c7a2935c51",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/README.md",
+          "historical_sha256": "efab10bfa4b78ce5a55f12925354c3ab84c36a90671d62a40bdf136f37a587f5",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/SOURCE_ORIGINS.json",
+          "historical_sha256": "e62b431b4b5ef1ded9c5f86d555e6e7a514eff549e4c22b1df5c704a1fed6813",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/audit_canonical_checks.py",
+          "historical_sha256": "b936551ef812e7b6c0a1dd0dba108f3a8a25d1d666c40391a1a6a2b2e69e76ad",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/audit_corruption_checks.py",
+          "historical_sha256": "c3129c3d5e234886b7bf8b6989d5ad0f2e2ffe504fd51dab38fe8b43c8ec152c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/audit_e2e.py",
+          "historical_sha256": "2679a2824ef087b44a3458df5ad444c447ec26dc07d515927dc0e4fed5f254df",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/build_inputs.py",
+          "historical_sha256": "e104ad52620f1e9ec5379aa84f32eafc1f4c044300679f3610afb9e6a40c45e1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/build_report.py",
+          "historical_sha256": "eb967f188daacd73422d0e02242b614f5da1bf8fd196c730824795fe908eef50",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/ecrc_e2e.py",
+          "historical_sha256": "554b5a35c764c47d9b5e7c4419192a36d601807eb8937b0709a120a03a24060a",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/freeze_sources.py",
+          "historical_sha256": "80f0b03ef18b0f4a80d9f1a31063184c36fe2248255eb7921fedd2553f5fa0fd",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/inputs/MANIFEST.json",
+          "historical_sha256": "a47602cf150e319972700ffe4d3f0a334d10102555bb248e9b361a2cbfd0f5b4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/inputs/accepted_timeout_cleanup_recovery.json",
+          "historical_sha256": "71da00e756aaec349ca9b12edd7601f82a9d097f2920143515965a2c630d39fe",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/inputs/distinct_contenders.json",
+          "historical_sha256": "c023538938297bdf703d801b63ba6a3061b677cb8b547c0c0910ddcdcc8835a4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/inputs/expired_unarmed_cleanup.json",
+          "historical_sha256": "e52a37ff0702a903eb743884c15789bff0dd0c6f8c0584d82e32cf56d2584c2b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/inputs/kill_after_issue_resume.json",
+          "historical_sha256": "e8ff40f60bd8d0bbade2c345389c23c438113fc60bc8e926aaa7e3200294ebc2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/inputs/kill_during_issuance.json",
+          "historical_sha256": "0b77932f264e00a9d61b81e65624d3f962f70980bdc51c5ea526bec8cbff40e9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/inputs/mixed_claim_fallback.json",
+          "historical_sha256": "0c166e4f9bf6dd3a418d666132b118a4ae4852bf8aaac54ec15d50fc5290b8ca",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/delivery.py",
+          "historical_sha256": "a0038ecf5d61663350ade277999d00e9024e30ae658d0728d7083c687285b36e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/ecrc_adapter.py",
+          "historical_sha256": "89b0a4a497391711a049b0d8e63155ee91c7c4c0e69769f9db7d57e127b5e50f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/ordinary_adapter.py",
+          "historical_sha256": "f212202223d8a6217306ef240d864ccf10aa80889043f21cb9e60c5e03dff634",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/service.py",
+          "historical_sha256": "afc8d95c44ea6bb4f7eabdbb18ba234d3dbc0fbd325274a8694bd62e8c43d279",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/__init__.py",
+          "historical_sha256": "ac5dc53b9663d5ac855907e8bb0f7724ef97a37ee35d18e2ec928f42874e5e1f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/__init__.py",
+          "historical_sha256": "6b36849327c1c2be3526e58813a902a609b4dbbb33ee29426aa3a7f48b54dbf6",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/adjudicator.py",
+          "historical_sha256": "c6dd01b71a6a686a553128d0b147f8dd8f8044398d9a0d0ac949bec42e76d00b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/canonical.py",
+          "historical_sha256": "f08cd0a8677253fcb14340393b1c828196f3d769b2c3eabf897c0816d64399e5",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/enforcement.py",
+          "historical_sha256": "997efca4c14705b35907f1e144fd8cc77953402eb4603876bd3a88dba818eee4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/exceptions.py",
+          "historical_sha256": "2b992f9055a132d3919bf07c7ca3863d519b809b651de5a35cf71120a7f53987",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/ledger.py",
+          "historical_sha256": "51a995c7a80c628a0fc487cb7d255091b02455a3d7f4bb2a548a5c3a62eeb303",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/models.py",
+          "historical_sha256": "60d3e6f5c5c18ffa136da6d1464bba1ebe6e2e57534524fd69588a4a3f976337",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/verifier.py",
+          "historical_sha256": "d894537f4571fc8463c5a97e93f7d46a5ef41d593059ec13d0f284527a8c9c5b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/ordinary_e2e.py",
+          "historical_sha256": "1ad85d855dc9e80daecf1b33cc92ba1f17fdb1019a84a14db05fe712f8fcab68",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/ordinary_e2e_checks.py",
+          "historical_sha256": "bb1776ac5c355a635998b06bbd8feee113e58a6c774beebfeec7d4699547a8f5",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/ordinary_e2e_dev_checks.json",
+          "historical_sha256": "c1c2d21f0234da8caa1548900ece160a548736b4915700ac9c8e1d6d3455fbf7",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/ordinary_e2e_dev_failures.md",
+          "historical_sha256": "a769337f4d87a6066aceeb4194cdb689e2de1b4b757e2effe170828751a9801b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/requirements.txt",
+          "historical_sha256": "44526748dfc079b3d8a50eb653884e60097746a99026717983867c8781b82eeb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/run_e2e.py",
+          "historical_sha256": "db3b62f8ad40e1fef4dd7a052a3bb4f287202d8828ae0ee826a0c49a842227db",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/service_e2e.py",
+          "historical_sha256": "9ce5620d4fff0e241aa2bf2bcc9eb4c60559fda4217bc6a3992b4f31be70b285",
+          "status": "included"
+        },
+        {
+          "path": "iasc/end_to_end/worker_e2e.py",
+          "historical_sha256": "57aeaa6879eb6b70449038fa406eef58120242d0ab60dc3b31eab6afc0650874",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/FINAL_FIGURE_REPRODUCTION.json",
+          "historical_sha256": "4b9ac335bc2df629e0ab9be9399feaa7179535ee7b79189e8f70c52320cc6163",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/PRO_REVISION_FIGURE_REPRODUCTION.json",
+          "historical_sha256": "10b67206923af7a57e1798ab10599ecf5223c05b11251166a33c1f894e275a12",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/PRO_REVISION_PLOT_VALUE_CHECK.json",
+          "historical_sha256": "e7c808efde2cce91654a27bc3ce85ea5621e4baeb0677ea2fd253839f5dda55a",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/SIX_FIGURE_REPRODUCTION.json",
+          "historical_sha256": "5c66075bfa98f4b368a3cefcc191935542ac49caa1a583d6988dc71d22c31c71",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/build_fig1_fig4.py",
+          "historical_sha256": "a65342140a9cf56a643cec2af4d53c3674e1d761f8a733f9da2c31f4540b672b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/build_fig2_fig3.py",
+          "historical_sha256": "137ebe4facbf64bb14f0b7b0d84a429f686a779068c02f9a5c393e65d560112f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/analysis/a1_discrimination_bootstrap.csv",
+          "historical_sha256": "c2d9a1d8ea6a73acb57dae19c5e577fbf78cbd3e3363aefaffa484eb0191de19",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/analysis/a1_discrimination_decomposition.csv",
+          "historical_sha256": "b144f9e2508eb98300104a524a3b29391cabdd34172dedc12ce973b6c14510af",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/analysis/a2_allocator_bootstrap.csv",
+          "historical_sha256": "ad97dc75689afc3ed5d9cee837ae5c8359b264b8860143b759ba76e0f6691a95",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/analysis/a2_allocator_comparison.csv",
+          "historical_sha256": "cad2e794080ae95acffbd554a910dcadeb3bdd54f7fcf41fdc7e6db7356099e8",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/analysis/a3_interval_algebra.csv",
+          "historical_sha256": "fa58fbc68bd4cfc3577d06581b1b4976b903613ebe53a0ba00ec688bd253dc1d",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/analysis/a4_permission_grid.csv",
+          "historical_sha256": "fa9f84a952c4813d7a5117c558bf933fc9733f2970c4969907b6a22c3d870357",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/analysis/a5_denial_by_quintile.csv",
+          "historical_sha256": "a143753c5187212bdf7f235966281590925c88bb1f0d31dc4c3f24e4c9d5e279",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/analysis/reanalysis_manifest.json",
+          "historical_sha256": "aa1ac9099f2aaeeaee8169888ae57add483dd5578c15fff317c5e3257996dbc5",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/fig1_fig4/fig4_source_data.csv",
+          "historical_sha256": "fa7699e2c4f4d3f82f7636d36e17e472a0a109e869cd30c0b83b0905b51c2a15",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/fig1_fig4/provenance.json",
+          "historical_sha256": "da5f5807e5371851db7bff0d1e1637ca78fffa0c6c8df077384b8a78a55b0ae4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_bridge/bridge_summary.json",
+          "historical_sha256": "c6b81a70a7ca7b4b0115349df5ab9a86b6a169702a0018a4a1917edf98d21543",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+          "historical_sha256": "a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv",
+          "historical_sha256": "fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_systems/systems_unsafe_race_witness.json",
+          "historical_sha256": "f53998e441cd3c8cb1e16e4ba1a1c22b888c8b47b0dc4f895dd4c9155c908b85",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+          "historical_sha256": "906b4252c8648d8cc07682fc48386d544dd4485b550816debd254d85d5e957ff",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/data/fig1_fig4/upstream/icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+          "historical_sha256": "3246e8448c4c1945914679980a07ee1dc1f683317280859ff02acebccff4844f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/CAPTIONS_FOR_ROOT.md",
+          "historical_sha256": "641c4f8719a06417912ef874eb6bf37c1137a455d342e0d301f4573cd14b50c4",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/figures/extensions/README.md",
+          "historical_sha256": "aeef778248e7d6b2b0e574114e0064afc1f24d4e131d05e8985b10f9ccfdf3c7",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/build_fig4_fig5.py",
+          "historical_sha256": "a7c107977f1b0dc02833a99d1d1fec3a50f342d281b5f7fe3e8abf722ed47975",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/clean_control_results.csv",
+          "historical_sha256": "bd96254308fae7505506bb26952e4f46440a952f308913e6c333214750e2a317",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/component_summary.csv",
+          "historical_sha256": "6898f5373bb06d3ea8714380bf04a091416b5139fb00c837189bdc993caecd2c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/frozen_candidate_summary.csv",
+          "historical_sha256": "5733a49a9eaa6aa68f6854ef47a8e6d614ae603b87e448f5ed01c09fa77c06b3",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/legacy/fig4_source_data.csv",
+          "historical_sha256": "fa7699e2c4f4d3f82f7636d36e17e472a0a109e869cd30c0b83b0905b51c2a15",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/legacy/provenance.json",
+          "historical_sha256": "da5f5807e5371851db7bff0d1e1637ca78fffa0c6c8df077384b8a78a55b0ae4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/legacy/upstream/icair_2026/framework_v1/evidence_bridge/bridge_summary.json",
+          "historical_sha256": "c6b81a70a7ca7b4b0115349df5ab9a86b6a169702a0018a4a1917edf98d21543",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/legacy/upstream/icair_2026/framework_v1/evidence_systems/systems_performance_aggregate.csv",
+          "historical_sha256": "a67e3598d16ddab1900b2b5c9ce77feeb7728cf23f37ce91220bf45b254a80e0",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/legacy/upstream/icair_2026/framework_v1/evidence_systems/systems_performance_runs.csv",
+          "historical_sha256": "fc84a3ee7fb89dc1597d6e70c8804c9844563a8a38f7338d44a4affbb11ca1e1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/legacy/upstream/icair_2026/framework_v1/evidence_systems/systems_unsafe_race_witness.json",
+          "historical_sha256": "f53998e441cd3c8cb1e16e4ba1a1c22b888c8b47b0dc4f895dd4c9155c908b85",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/legacy/upstream/icair_2026/framework_v1/evidence_v2/component_ablation/record_clean_validator_summary.csv",
+          "historical_sha256": "906b4252c8648d8cc07682fc48386d544dd4485b550816debd254d85d5e957ff",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/legacy/upstream/icair_2026/framework_v1/evidence_v2/component_ablation/record_component_summary.csv",
+          "historical_sha256": "3246e8448c4c1945914679980a07ee1dc1f683317280859ff02acebccff4844f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/online_PROTOCOL.md",
+          "historical_sha256": "ff5eaba38d84bec1da236638ff6e478be1fee0681881b87362e84e35f32fdd59",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/online_estimates.csv",
+          "historical_sha256": "7868c4b792ac7ac08887921ec1a91d4026b9392880155cac6582fc0085ead822",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/online_intervals.csv",
+          "historical_sha256": "0447449b6be326b8750c107128f31ad39299b64823a88eed0a4fe9f32befc239",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/provenance.json",
+          "historical_sha256": "ae5562e8e53d5d23762fde5ff7fe8a4f677617442f5643bd43567a4fec3e4690",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/sequence_PROTOCOL.md",
+          "historical_sha256": "03d71d5f567f7d0ef156074e7a8bd1c661ff575f118b5518b4a2cbf3f8be0249",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/system_PROTOCOL.md",
+          "historical_sha256": "7b2e9a335984f7a017e54521a65487fe3a84a2ff2215dfb196cbe11599e518ad",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/data/system_run_manifest.json",
+          "historical_sha256": "408cde720591f66b4268c93af2e0819746238817b1fa037d89a1a8c78aa9b51e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/extensions/journal_style.py",
+          "historical_sha256": "0dc4ee0c2ffe46ff41e47e243af7b7ed59b1c0cc0c41ee4fcb07d47f1a877714",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig1.pdf",
+          "historical_sha256": "2677dbac05ee82fe478a97a707c329f404f62382f1ca186e99e1a1d7fbfd8877",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig1.svg",
+          "historical_sha256": "66281a657431113336fb952268bff516055f0fe587e9ee71e0b7b093eef7505f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig1_fig4_manifest.json",
+          "historical_sha256": "b49b38a4f7926469ab3084c99231464792571405f75e586aba23de3e5141c786",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig2.pdf",
+          "historical_sha256": "0731b3a866602b590f0e9372c5e77f56141f8771be3902dd03c7fe07ff5d6b1d",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig2.svg",
+          "historical_sha256": "9af8eb2edb28f9812bd6641ba86e189c4ce632bf11bf9ecc0a3adc99314fb766",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig2_fig3_manifest.json",
+          "historical_sha256": "bce3657cc9befba495283dc81d0867032fb247c8c8a85a9545ab056b460a8708",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig2_plot_data.csv",
+          "historical_sha256": "5729d4e6a218ff35aafef07aea3b1133600fc91b6b5c9e1b854c791314fedc9e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig3.pdf",
+          "historical_sha256": "84360907e46af0b984beb8c39513ac24c243c862af82dfaf1633910b80874232",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig3.svg",
+          "historical_sha256": "0764730bf989446240fef99ba646f91be1c6dd52140c025c30a8e888a0901ac3",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig3_plot_data.csv",
+          "historical_sha256": "da3d5253796d93f03fa7b311c73542e406868e753c41e9608bf01763fd2100e7",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig4.pdf",
+          "historical_sha256": "e164887f31b06187d4af3da0cd797ec7d4bb28a52b48c37780955c83ffdb9aa8",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig4.svg",
+          "historical_sha256": "55d4530f8d43d49daf82d023a24ecc933a49a854f8761d8067cbd5a439cf6d3d",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig4_fig5_manifest.json",
+          "historical_sha256": "7987f023510a6376f0d0bdb747e6bfcfcca06e2fc129e48be54663509cb22075",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig4_plot_values.csv",
+          "historical_sha256": "d8b9d0b98df821cf89d24a7e3934340f869983456eb73ec308afe75b72a1a053",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig4_source_data.csv",
+          "historical_sha256": "5409010eb6caac2a3e7945351c38fbeea2a9b337d8f64f644371b43c7e9fb8a8",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig5.pdf",
+          "historical_sha256": "ebd79920b66e506040442de7794f7de1b6ccefef79fee2979d9ac34c7a864458",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig5.svg",
+          "historical_sha256": "3f9775576127cbd148649358c69270ade1978251836f6ba4fd3dfa995bb75f14",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig5_plot_values.csv",
+          "historical_sha256": "834fbb0c782661f4464a89037b8f0e1ede572086709a7b66270c14e793411f6a",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig6.pdf",
+          "historical_sha256": "150a6ef1595c58427f1df5145481f4f2e8ab40400cfdb30b58cfe40a1a850bfc",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/fig6.svg",
+          "historical_sha256": "1b59982f9673113524ee7d7451ec7893f7e13ac64fe36b5c6b51b488cdad4ccf",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/portable_rebuild_check.json",
+          "historical_sha256": "75b0c3151b737a80e8f5c4fde650b7491d2cf76f9f948d7e5a427fa4f4960040",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/runtime/build_fig6.py",
+          "historical_sha256": "0404d2538c152cd71eb73fb0f550dc970e9360ff5e5d7b5239f03a200c24364d",
+          "status": "overlay",
+          "current_sha256": "94150dae5cad48c754ecbf3d8ef5262fd3263edcf9036af57ddabb73b6b9dfaa",
+          "reason": "Current plotting overlay removes authored caption output; scientific drawing and values are unchanged."
+        },
+        {
+          "path": "iasc/figures/runtime/fig6_manifest.json",
+          "historical_sha256": "64ba05abb2cc80ab11dc5ac7b6075df83f0eba76b663b187d51edb31ccbbb308",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/runtime/inputs/PROTOCOL.md",
+          "historical_sha256": "5113074d3064befdf21660f97d20faac0c09777c42b591864c8a9409f0950b40",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/runtime/inputs/manifest.json",
+          "historical_sha256": "42d4f267a2e87c9c7a8ecd17464a5651497009ae4f68329149ea381624b30c93",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/runtime/inputs/performance_runs.csv",
+          "historical_sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/runtime/inputs/performance_summary.csv",
+          "historical_sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/runtime/inputs/recovery_results.csv",
+          "historical_sha256": "696fed07cad87e53fbc5aa7aa3831926c52c12aff691ae728ce24a70a3805bd2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/figures/runtime/validation_checks.json",
+          "historical_sha256": "b258fcf048d0e77506716eadbd76c36c5d90f626187dc729387dc31dff9211a6",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/README.md",
+          "historical_sha256": "0f601e42c377351f396463c3fc390de0618b8f0fe6f3b4e8a946a66296d0868f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/SOURCE_VERIFICATION.json",
+          "historical_sha256": "1f8905bbbb05be419e156867ee6d3eeef90b0a58b3f38bdfdae3f85bf9432d66",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/code_hashes.csv",
+          "historical_sha256": "0fe95a3187c33bebcd6d8ce05f495a5bd57bfc4c00ac6213bcc0811d7f40a7cf",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/dataset_summary.csv",
+          "historical_sha256": "afdc0ecf6c78fa22e81f99c1d49e0cdfbb756501d3a2019a17f478c5a192204c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/experiment_config.json",
+          "historical_sha256": "dc45ce82df7475beb575991fe51fcbcf31cb3baf6446c0a12acb4d350875cc39",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/feature_schema.json",
+          "historical_sha256": "d411c3c722f39d9ef97790651c50fee059a5660291ff7cd4578fb6298cf37147",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/frozen_operating_points.csv",
+          "historical_sha256": "bfb41f620d363c40e4c6954b733162c625c6226ef3627d0dc3ad1170149e4502",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/model_specifications.json",
+          "historical_sha256": "7ed365c7768f155e63ec4268b85cdc809a089cd104143465f1ba6e1209cad81c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/outer_fold_assignments.csv",
+          "historical_sha256": "86ae2967dafccf36938457d6e857149c6892eb90a18973959a7941d24373c3e9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/outer_fold_operating_points.csv",
+          "historical_sha256": "8c12119eae506bb2e7036299295f6b97504bb68498d93df220ac1a6fa6e6b041",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/archived/run_manifest.json",
+          "historical_sha256": "dd21346ba05c5be48095421d0197952cf7393fb6fd0c1fe1ee6065fb1289ac25",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/feature_availability.csv",
+          "historical_sha256": "bd1095b4d9780005cd7b5fb5ffc3541ccfc2869d3f606899df4d4332b789137e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/source/e1/__init__.py",
+          "historical_sha256": "3a4e7e0c06e4979e0fdfdb0dbf41d9f6d54b94cd0ac288b87d55e7e0ab8a4aa4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/source/e1/config.py",
+          "historical_sha256": "29866ca4c628ac70f8b66b8b650325ae60bdcb9dc6d2d2871ccb6843eabf565c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/source/e1/data.py",
+          "historical_sha256": "279775ab5b26fdc8e974ce4cc5b5f45be30895ba81206edc5413cd5fc7fe2bbc",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/source/e1/metrics.py",
+          "historical_sha256": "af8bcb843b8148bf79fd5e752118f7a7f41afb0c3eb76e8f5f7e10ac77c952b8",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/source/e1/models.py",
+          "historical_sha256": "a20dc7efd4b5099be3ef17674bc0c4bf17fec853f0d4fbedcb60a12f49f79c11",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/source/e1/provenance.py",
+          "historical_sha256": "abf0cea88b86a63e20f487f16f8e74ee80130c1ba9d9aeb9c6f0585683ba380c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/source/e1/routing.py",
+          "historical_sha256": "bc1374f97a7e4e0abf453d295d48b4b90e6a98df3f853ba91cd932b5135a7185",
+          "status": "included"
+        },
+        {
+          "path": "iasc/methods/source/run_e1.py",
+          "historical_sha256": "47f54734eb5ae1cf71ed1df789c6ecdc07825dba4321f8a85bbb516a76fdd0ac",
+          "status": "included"
+        },
+        {
+          "path": "iasc/revision_reviews/runtime_review/README_PORTABLE_WRAPPER.md",
+          "historical_sha256": "4b8e38facd1417e47f5a6885f3bff60c0e3bb3c38f6654f7e08690a050e4f680",
+          "status": "included"
+        },
+        {
+          "path": "iasc/revision_reviews/runtime_review/review_atomic_wrapper_portable.py",
+          "historical_sha256": "8bbd9560cc973c27c55da79409f1eee5028f3924e6a15fc9eb2845fc88e3dd8c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/CONTRIBUTION_REVIEW.md",
+          "historical_sha256": "3fd9b6ee5e0f30d7500151eaaa7f27840823a48ab234a94785712adb71e6479f",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/runtime/ECRC_ADAPTER_PEER_REVIEW.md",
+          "historical_sha256": "161f8e89cd9c595631193e4c4586000e83afdc1c807b3092af68e1a11997aa4c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/ECRC_BOUNDARY_REVIEW.md",
+          "historical_sha256": "c894c3280e2787a3edaf321a307bdddfaab10411ec1e1ed55c12be955c2e4f83",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/ECRC_BOUNDARY_SOURCE_HASHES.csv",
+          "historical_sha256": "94709a628217b0f5a26fd335de0e70d770e838e0bc84dd57ef5f6f4749373419",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/HOST_ENVIRONMENT.json",
+          "historical_sha256": "1664ef5431dc5ba2162fabaf7d6e8387734febb39876827abdc584913776489b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/INDEPENDENT_RUNTIME_TRACE_REVIEW.md",
+          "historical_sha256": "d1c3fec7b50c7f7b332d7c980fb576c75217f012f9b67f90f6140e72ff920467",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/ORDINARY_ADAPTER_NOTES.md",
+          "historical_sha256": "9f613b863fb4e0ff2be3cc667fbe04dd45c0d25c2bcc77a1e3cac4a21c039cdb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/PERSISTENCE_SETTINGS.json",
+          "historical_sha256": "7779c648c4c4d4aafebb2e80ff72c006aea3dd1fd9ccb7f58b7cc1a53bc53eeb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/PORTABLE_INDEPENDENT_AUDIT.json",
+          "historical_sha256": "21800866c30f3e9e5c3b1b6f4201d5f2a57c155320149a12d5ceca247c2c702e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/PORTABLE_INFORMATION_MATCH.json",
+          "historical_sha256": "914f0db0351e8965df720a3cc7132426f845c70e2da11aca6557d3c2d17ad627",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/PORTABLE_REPRODUCTION.json",
+          "historical_sha256": "7e6fd8a63e11cc8f343ae7634e7e6c87d70be1b9a95663370b69348205018305",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/PROTOCOL.md",
+          "historical_sha256": "5113074d3064befdf21660f97d20faac0c09777c42b591864c8a9409f0950b40",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/PROTOCOL_SERVICE.md",
+          "historical_sha256": "41ea2843d3a0258c530dfc53beb14dddeb70b6f56d8dc2ae863d2bbf93644ab0",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/REPEAT_CHECK.json",
+          "historical_sha256": "1a612883e40b7f3ef35107e723d622de7d04aae2cba571ba21736ce0aefe77b3",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/audit_information_match.py",
+          "historical_sha256": "e91587fcc240ca377e092a26375838f78a821d27aa9b13d292536821f3c2595c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/audit_runtime_traces.py",
+          "historical_sha256": "62d57aff4c900c2cd1e2e6d9c895256bd9e50a956311c8cf233beffccaafb819",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/delivery.py",
+          "historical_sha256": "a0038ecf5d61663350ade277999d00e9024e30ae658d0728d7083c687285b36e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/ecrc_adapter.py",
+          "historical_sha256": "89b0a4a497391711a049b0d8e63155ee91c7c4c0e69769f9db7d57e127b5e50f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/fixture.py",
+          "historical_sha256": "8ad0405dfc98e6da2713bcf08fd319272c5b50a757cef6c2ac793caabea487ee",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/ordinary_adapter.py",
+          "historical_sha256": "f212202223d8a6217306ef240d864ccf10aa80889043f21cb9e60c5e03dff634",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/run_experiment.py",
+          "historical_sha256": "efb553a9004f988092a59471f1cc7bf523dd9d2c21dd7621746944ec2783f3f7",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/service.py",
+          "historical_sha256": "afc8d95c44ea6bb4f7eabdbb18ba234d3dbc0fbd325274a8694bd62e8c43d279",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/__init__.py",
+          "historical_sha256": "ac5dc53b9663d5ac855907e8bb0f7724ef97a37ee35d18e2ec928f42874e5e1f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/governance/__init__.py",
+          "historical_sha256": "6b36849327c1c2be3526e58813a902a609b4dbbb33ee29426aa3a7f48b54dbf6",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/governance/adjudicator.py",
+          "historical_sha256": "c6dd01b71a6a686a553128d0b147f8dd8f8044398d9a0d0ac949bec42e76d00b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/governance/canonical.py",
+          "historical_sha256": "f08cd0a8677253fcb14340393b1c828196f3d769b2c3eabf897c0816d64399e5",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/governance/enforcement.py",
+          "historical_sha256": "997efca4c14705b35907f1e144fd8cc77953402eb4603876bd3a88dba818eee4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/governance/exceptions.py",
+          "historical_sha256": "2b992f9055a132d3919bf07c7ca3863d519b809b651de5a35cf71120a7f53987",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/governance/ledger.py",
+          "historical_sha256": "51a995c7a80c628a0fc487cb7d255091b02455a3d7f4bb2a548a5c3a62eeb303",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/governance/models.py",
+          "historical_sha256": "60d3e6f5c5c18ffa136da6d1464bba1ebe6e2e57534524fd69588a4a3f976337",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/source_snapshot/agentic_eeg_dm/governance/verifier.py",
+          "historical_sha256": "d894537f4571fc8463c5a97e93f7d46a5ef41d593059ec13d0f284527a8c9c5b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/test_ecrc_adapter_peer.py",
+          "historical_sha256": "5147b58dead67209d227d83df4067a0d540dfa3e0ac36c01c9883e5d85571706",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/test_ordinary_adapter.py",
+          "historical_sha256": "0c7a52b71fd6cce8fbed7e90392794b18aadc0b616689c756e085a3ec02b1e7b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/test_service.py",
+          "historical_sha256": "93285b04b1dadc4aec55da2d58663b6fc03f5a9d55f7b0a2f821401eadb783e2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/runtime/worker.py",
+          "historical_sha256": "60d11b477375d3b758a986a1ab880b89a59a74cfc176420d530540aa418caa99",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/PACKAGE_MANIFEST.json",
+          "historical_sha256": "0dc613fcacbf941994901b41208bdfd653a3078b0827ebe278f1de8005d104e9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/PROTOCOL.md",
+          "historical_sha256": "ab53633f2bd79b8b8e298d603fbc152310942b552ed5edcb90611f9112b1b4e9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/README.md",
+          "historical_sha256": "bd64a4bb4c291555fb8fa08f318f5390064f403ce204ff7f87bb660cac794b5c",
+          "status": "overlay",
+          "current_sha256": "1a758c2c66bc331fdffcb6d0f701ec2142c6bdb78ce77b67eba4150a1ffc27b4",
+          "reason": "Reader documentation updated for the selected view."
+        },
+        {
+          "path": "iasc/statistics/RESULTS.md",
+          "historical_sha256": "1139b8f8f4ca5921952282e1536fb2af65c2a954e0842340427c5f085d3919a1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/all_comparisons_summary.csv",
+          "historical_sha256": "20c221317b644538fea8decbeb6271e2433f9c8c9291174fe2777abb8ba7e150",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/build_report.py",
+          "historical_sha256": "f8de8ee315d275db13a4dabbaf817b2539aac67c3e1ccbc49da3b9d00c2211ae",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/statistics/input/CALIBRATION_CHECK.md",
+          "historical_sha256": "138b2b45cb0a4e7df4e081b9bda84316abec9c29cdde3011a1f2ba2d85cf229c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/INPUT_MANIFEST.json",
+          "historical_sha256": "2e5b1f3ad4ccc66d5a1c2415eb72e9e500f1cfeb21303bfc770d26b401323f91",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/a4_permission_grid.csv",
+          "historical_sha256": "fa9f84a952c4813d7a5117c558bf933fc9733f2970c4969907b6a22c3d870357",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/frozen_participant_statistics.csv.gz",
+          "historical_sha256": "fbb4a1de6ae74ead1ca7308b0fea83d3ff1cecfedd5a2475148edf3255c0669f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/online_PROTOCOL.md",
+          "historical_sha256": "ff5eaba38d84bec1da236638ff6e478be1fee0681881b87362e84e35f32fdd59",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/online_estimates.csv",
+          "historical_sha256": "7868c4b792ac7ac08887921ec1a91d4026b9392880155cac6582fc0085ead822",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/online_participant_statistics.csv.gz",
+          "historical_sha256": "229b2c1d428edd8c409c15c70eda3cb8eea55fdc82fc8b5a2f49b5d36e7c37bc",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/sequence_PROTOCOL.md",
+          "historical_sha256": "03d71d5f567f7d0ef156074e7a8bd1c661ff575f118b5518b4a2cbf3f8be0249",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/archived_pooled_reproduction.csv",
+          "historical_sha256": "929c0f50a82c927ae141d1b53d776bd2bf5e80d2bedb23159e66fa87c827ebdb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/arm_estimates.csv",
+          "historical_sha256": "2022c15b5e3ace7de6143cd0cd3c027f41c3868607ddb3e81bceb48f2321621e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/bootstrap_arm_draws.csv.gz",
+          "historical_sha256": "c04856e89ea690dc2556db5a502a58641b90a00dfce75d1a9dbcc8a1647e2116",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/bootstrap_contrast_draws.csv.gz",
+          "historical_sha256": "f883bdfa1b371700eed33d44ce9262d592f0376674a5ef47997257ee0ecf32b1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/bootstrap_multiplicities_development.csv.gz",
+          "historical_sha256": "647c578205640b95007cec9cfb8b6f6084648d95a890396e7f9fc7658e10621b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/bootstrap_multiplicities_external.csv.gz",
+          "historical_sha256": "cc7dcb3dda47e75204478fd7f04a3b3ecdc790611eab0d9d4f31c07966e6fef2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/harmonized_participant_counts.csv.gz",
+          "historical_sha256": "e79ee8748cb9a923e9e34a036de60fe2cbcf9cf68253ce8168c10323b2f7089f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/manifest.json",
+          "historical_sha256": "ab9272a5961c5f3d77347e2862983b24e6fc397333407b09713c4356a8941a94",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/paired_comparisons.csv",
+          "historical_sha256": "d519aaca7ae39cdbdac25a06f8f05050e4d42d608286239d543c807a88fe64e4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/participant_order.csv",
+          "historical_sha256": "fa5f1270cf1011ac4af3c2788422d5b915c5db307c8f46f1aa3dfdb9ea7d855f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/validation.json",
+          "historical_sha256": "9c01c17e467bde142f484cf29fab3564616b68b98222463c05e44d91e9e80800",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/archived_pooled_reproduction.csv",
+          "historical_sha256": "929c0f50a82c927ae141d1b53d776bd2bf5e80d2bedb23159e66fa87c827ebdb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/arm_estimates.csv",
+          "historical_sha256": "2022c15b5e3ace7de6143cd0cd3c027f41c3868607ddb3e81bceb48f2321621e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/bootstrap_arm_draws.csv.gz",
+          "historical_sha256": "c04856e89ea690dc2556db5a502a58641b90a00dfce75d1a9dbcc8a1647e2116",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/bootstrap_contrast_draws.csv.gz",
+          "historical_sha256": "f883bdfa1b371700eed33d44ce9262d592f0376674a5ef47997257ee0ecf32b1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/bootstrap_multiplicities_development.csv.gz",
+          "historical_sha256": "647c578205640b95007cec9cfb8b6f6084648d95a890396e7f9fc7658e10621b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/bootstrap_multiplicities_external.csv.gz",
+          "historical_sha256": "cc7dcb3dda47e75204478fd7f04a3b3ecdc790611eab0d9d4f31c07966e6fef2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/harmonized_participant_counts.csv.gz",
+          "historical_sha256": "e79ee8748cb9a923e9e34a036de60fe2cbcf9cf68253ce8168c10323b2f7089f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/manifest.json",
+          "historical_sha256": "ab9272a5961c5f3d77347e2862983b24e6fc397333407b09713c4356a8941a94",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/paired_comparisons.csv",
+          "historical_sha256": "d519aaca7ae39cdbdac25a06f8f05050e4d42d608286239d543c807a88fe64e4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/participant_order.csv",
+          "historical_sha256": "fa5f1270cf1011ac4af3c2788422d5b915c5db307c8f46f1aa3dfdb9ea7d855f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/validation.json",
+          "historical_sha256": "9c01c17e467bde142f484cf29fab3564616b68b98222463c05e44d91e9e80800",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/package_manifest.py",
+          "historical_sha256": "1f30b78eef57ae1b15e8cb9af45226204c2227a190c9956b2329d761e2fc9f69",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/prepare_inputs.py",
+          "historical_sha256": "9693c9b7509d66883f2a8921598590939161f8a506ed28a3f16f588e3b65b1d6",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/requirements.txt",
+          "historical_sha256": "f36cb59b3a3402cf36f4481c9f15fb2fd98e9961bf4b23cf18473155f5f02de9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/run_analysis.py",
+          "historical_sha256": "bdaabb5d3eee7344575de76efd038b7e884b528629c458a3220c3e8a1567688e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/snippets/participant_policy_methods.tex",
+          "historical_sha256": "c7fc4359bfd038a322ac15bd355aabeb277e5ffe9945f2ccad25486fa0571257",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/statistics/snippets/participant_policy_results.tex",
+          "historical_sha256": "89987a9c3784b3a4b70740b8198154ac5c755f050e186c34ec9327c42794509a",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/statistics/snippets/participant_policy_table.tex",
+          "historical_sha256": "c4b644806c6a508efd8f5cf1aac633dbfd34d5e6c1603aae7ba91c63652e2f0c",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/statistics/verification.json",
+          "historical_sha256": "065a486f2f45dae13325e403d6247fafa9ec79a58d35dff156b05a444517da39",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/verify_results.py",
+          "historical_sha256": "3d1d072a8bc1471896aaabe41570aa34da1aaf6bd6a0142dfbc7c034839aee03",
+          "status": "included"
+        }
+      ]
+    },
+    {
+      "manifest": "iasc/statistics/PACKAGE_MANIFEST.json",
+      "manifest_sha256": "0dc613fcacbf941994901b41208bdfd653a3078b0827ebe278f1de8005d104e9",
+      "files": [
+        {
+          "path": "iasc/statistics/all_comparisons_summary.csv",
+          "historical_sha256": "20c221317b644538fea8decbeb6271e2433f9c8c9291174fe2777abb8ba7e150",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/build_report.py",
+          "historical_sha256": "f8de8ee315d275db13a4dabbaf817b2539aac67c3e1ccbc49da3b9d00c2211ae",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/statistics/input/a4_permission_grid.csv",
+          "historical_sha256": "fa9f84a952c4813d7a5117c558bf933fc9733f2970c4969907b6a22c3d870357",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/CALIBRATION_CHECK.md",
+          "historical_sha256": "138b2b45cb0a4e7df4e081b9bda84316abec9c29cdde3011a1f2ba2d85cf229c",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/frozen_participant_statistics.csv.gz",
+          "historical_sha256": "fbb4a1de6ae74ead1ca7308b0fea83d3ff1cecfedd5a2475148edf3255c0669f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/INPUT_MANIFEST.json",
+          "historical_sha256": "2e5b1f3ad4ccc66d5a1c2415eb72e9e500f1cfeb21303bfc770d26b401323f91",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/online_estimates.csv",
+          "historical_sha256": "7868c4b792ac7ac08887921ec1a91d4026b9392880155cac6582fc0085ead822",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/online_participant_statistics.csv.gz",
+          "historical_sha256": "229b2c1d428edd8c409c15c70eda3cb8eea55fdc82fc8b5a2f49b5d36e7c37bc",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/online_PROTOCOL.md",
+          "historical_sha256": "ff5eaba38d84bec1da236638ff6e478be1fee0681881b87362e84e35f32fdd59",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/input/sequence_PROTOCOL.md",
+          "historical_sha256": "03d71d5f567f7d0ef156074e7a8bd1c661ff575f118b5518b4a2cbf3f8be0249",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/archived_pooled_reproduction.csv",
+          "historical_sha256": "929c0f50a82c927ae141d1b53d776bd2bf5e80d2bedb23159e66fa87c827ebdb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/arm_estimates.csv",
+          "historical_sha256": "2022c15b5e3ace7de6143cd0cd3c027f41c3868607ddb3e81bceb48f2321621e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/bootstrap_arm_draws.csv.gz",
+          "historical_sha256": "c04856e89ea690dc2556db5a502a58641b90a00dfce75d1a9dbcc8a1647e2116",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/bootstrap_contrast_draws.csv.gz",
+          "historical_sha256": "f883bdfa1b371700eed33d44ce9262d592f0376674a5ef47997257ee0ecf32b1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/bootstrap_multiplicities_development.csv.gz",
+          "historical_sha256": "647c578205640b95007cec9cfb8b6f6084648d95a890396e7f9fc7658e10621b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/bootstrap_multiplicities_external.csv.gz",
+          "historical_sha256": "cc7dcb3dda47e75204478fd7f04a3b3ecdc790611eab0d9d4f31c07966e6fef2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/harmonized_participant_counts.csv.gz",
+          "historical_sha256": "e79ee8748cb9a923e9e34a036de60fe2cbcf9cf68253ce8168c10323b2f7089f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/manifest.json",
+          "historical_sha256": "ab9272a5961c5f3d77347e2862983b24e6fc397333407b09713c4356a8941a94",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/paired_comparisons.csv",
+          "historical_sha256": "d519aaca7ae39cdbdac25a06f8f05050e4d42d608286239d543c807a88fe64e4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/participant_order.csv",
+          "historical_sha256": "fa5f1270cf1011ac4af3c2788422d5b915c5db307c8f46f1aa3dfdb9ea7d855f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out/validation.json",
+          "historical_sha256": "9c01c17e467bde142f484cf29fab3564616b68b98222463c05e44d91e9e80800",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/archived_pooled_reproduction.csv",
+          "historical_sha256": "929c0f50a82c927ae141d1b53d776bd2bf5e80d2bedb23159e66fa87c827ebdb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/arm_estimates.csv",
+          "historical_sha256": "2022c15b5e3ace7de6143cd0cd3c027f41c3868607ddb3e81bceb48f2321621e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/bootstrap_arm_draws.csv.gz",
+          "historical_sha256": "c04856e89ea690dc2556db5a502a58641b90a00dfce75d1a9dbcc8a1647e2116",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/bootstrap_contrast_draws.csv.gz",
+          "historical_sha256": "f883bdfa1b371700eed33d44ce9262d592f0376674a5ef47997257ee0ecf32b1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/bootstrap_multiplicities_development.csv.gz",
+          "historical_sha256": "647c578205640b95007cec9cfb8b6f6084648d95a890396e7f9fc7658e10621b",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/bootstrap_multiplicities_external.csv.gz",
+          "historical_sha256": "cc7dcb3dda47e75204478fd7f04a3b3ecdc790611eab0d9d4f31c07966e6fef2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/harmonized_participant_counts.csv.gz",
+          "historical_sha256": "e79ee8748cb9a923e9e34a036de60fe2cbcf9cf68253ce8168c10323b2f7089f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/manifest.json",
+          "historical_sha256": "ab9272a5961c5f3d77347e2862983b24e6fc397333407b09713c4356a8941a94",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/paired_comparisons.csv",
+          "historical_sha256": "d519aaca7ae39cdbdac25a06f8f05050e4d42d608286239d543c807a88fe64e4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/participant_order.csv",
+          "historical_sha256": "fa5f1270cf1011ac4af3c2788422d5b915c5db307c8f46f1aa3dfdb9ea7d855f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/out_repeat/validation.json",
+          "historical_sha256": "9c01c17e467bde142f484cf29fab3564616b68b98222463c05e44d91e9e80800",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/package_manifest.py",
+          "historical_sha256": "1f30b78eef57ae1b15e8cb9af45226204c2227a190c9956b2329d761e2fc9f69",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/prepare_inputs.py",
+          "historical_sha256": "9693c9b7509d66883f2a8921598590939161f8a506ed28a3f16f588e3b65b1d6",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/PROTOCOL.md",
+          "historical_sha256": "ab53633f2bd79b8b8e298d603fbc152310942b552ed5edcb90611f9112b1b4e9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/README.md",
+          "historical_sha256": "bd64a4bb4c291555fb8fa08f318f5390064f403ce204ff7f87bb660cac794b5c",
+          "status": "overlay",
+          "current_sha256": "1a758c2c66bc331fdffcb6d0f701ec2142c6bdb78ce77b67eba4150a1ffc27b4",
+          "reason": "Reader documentation updated for the selected view."
+        },
+        {
+          "path": "iasc/statistics/requirements.txt",
+          "historical_sha256": "f36cb59b3a3402cf36f4481c9f15fb2fd98e9961bf4b23cf18473155f5f02de9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/RESULTS.md",
+          "historical_sha256": "1139b8f8f4ca5921952282e1536fb2af65c2a954e0842340427c5f085d3919a1",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/run_analysis.py",
+          "historical_sha256": "bdaabb5d3eee7344575de76efd038b7e884b528629c458a3220c3e8a1567688e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/snippets/participant_policy_methods.tex",
+          "historical_sha256": "c7fc4359bfd038a322ac15bd355aabeb277e5ffe9945f2ccad25486fa0571257",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/statistics/snippets/participant_policy_results.tex",
+          "historical_sha256": "89987a9c3784b3a4b70740b8198154ac5c755f050e186c34ec9327c42794509a",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/statistics/snippets/participant_policy_table.tex",
+          "historical_sha256": "c4b644806c6a508efd8f5cf1aac633dbfd34d5e6c1603aae7ba91c63652e2f0c",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/statistics/verification.json",
+          "historical_sha256": "065a486f2f45dae13325e403d6247fafa9ec79a58d35dff156b05a444517da39",
+          "status": "included"
+        },
+        {
+          "path": "iasc/statistics/verify_results.py",
+          "historical_sha256": "3d1d072a8bc1471896aaabe41570aa34da1aaf6bd6a0142dfbc7c034839aee03",
+          "status": "included"
+        }
+      ]
+    },
+    {
+      "manifest": "iasc/presentation_revision/GIT_MIRROR.json",
+      "manifest_sha256": "5a78021f46537da6373e15855191c2aebc48745bc709659a27a9211ca6d049a9",
+      "files": [
+        {
+          "path": "iasc/presentation_revision/figures/build_figures.py",
+          "historical_sha256": "1bda7e9829dbd409434a1d77913b34871d1847be8877db5f85fbe591f4838498",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/build_manifest.json",
+          "historical_sha256": "5a139ea5670341bbeb25ea7a24d050159972f2c2c87f43f0eba76431f88c5968",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/CAPTIONS.md",
+          "historical_sha256": "6e6ef9cfc6625af04d39b21c0c172e7546d018f0a019720f13767c3308a9987c",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/figures/data/fig1_illustrative_events.csv",
+          "historical_sha256": "dcc64adb3ae7aecc4634454478183475fbf599a0020ea10fa455f4da8d91fb0d",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/data/fig2_lifecycle_states.csv",
+          "historical_sha256": "88756ece9d15159edede7ff37765a0ff5369cba857b4abc66618aff964723c6d",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/data/fig3_checkpoint_counts.csv",
+          "historical_sha256": "143c9ac02a6aeb60f8a768a8056289680d9b4570b29718b147b8bdbc9b92c8ae",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/data/fig3_plot_data.csv",
+          "historical_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/data/fig4_plot_data.csv",
+          "historical_sha256": "5ef6ad2ef3b0e5fca864c9b6f0cbb4816b8c59fc58fd3309e47d3cf6f331b4cb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/data/fig5_plot_data.csv",
+          "historical_sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/data/input_manifest.json",
+          "historical_sha256": "a1fbc1abe8f751595dae89bf3e2844f0c80f8140a2adb70e2678956d0c1bb37a",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/EXPORT_QA.json",
+          "historical_sha256": "b6bccfb7ff7db348e7a6f72d693bbb4fdfe963de1fc11e1ca2d6cd75d26ffe04",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig1_budget_responsibility.pdf",
+          "historical_sha256": "042ea228826972d8b86ec16ec56d52407d619781367a6921745a898f5941752e",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig1_budget_responsibility.svg",
+          "historical_sha256": "9cc8a3837ad5dc13658efb312a0d77294b73e268de1ba7b7b3379b445eaf1f6a",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig2_lifecycle_boundaries.pdf",
+          "historical_sha256": "9f0fbb9951a36f5fa44106c23674dcfc9fa700767313ff565eae5da1cdbcbe39",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig2_lifecycle_boundaries.svg",
+          "historical_sha256": "554fc6e81f3d84d868b01cb73d257d1979851d70a09668bd71af38714039d012",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig3_observed_cleanup_states.pdf",
+          "historical_sha256": "46c8ce0937a4d13fe89a1dff4059a72a422c7139ef00f5cb79826dd584136ed2",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig3_observed_cleanup_states.svg",
+          "historical_sha256": "ffbdd2b2961eeb833540f455e4d8db050a30f8579bbfae7aded1a053b39ec475",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig4_prediction_and_gate.pdf",
+          "historical_sha256": "34a5fc29735a9e3a652cc9fc8e51f750b9b51e86118c6a3b4e2eb9bdeada3ad9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig4_prediction_and_gate.svg",
+          "historical_sha256": "c8f45cd402a8c5df3be2dddbbc53e188e06e1c04bb2dde636c02d1af7432b7c9",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig5_online_tradeoffs.pdf",
+          "historical_sha256": "67a698eb527c92f181630bf268e27e29385dc362f9e4118152f9584b0649cbcb",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/exports/fig5_online_tradeoffs.svg",
+          "historical_sha256": "a2539a9a8c7a311b22c3e887ac3ec940dfd082241948793c190138e5aa6d01c8",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/figure_evidence_index.csv",
+          "historical_sha256": "16cf7a33102f09109f4b6049ca0d6fcd8abdcf8bb41555c10f951fe909a44476",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/figure_evidence_index.json",
+          "historical_sha256": "c9784946919b59da42800b620c2dedef6c7fed938bd779377b7ca17d926d3478",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/journal_style.py",
+          "historical_sha256": "1c1d718987684e5d058c995a92bd47c9aae78d35f0678d91b4e8521f7a828928",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/PORTABILITY_CHECK.json",
+          "historical_sha256": "2b508835829275498dd28fdc4ad56834d85708dff8c83acd0fb6799839df6529",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/README.md",
+          "historical_sha256": "2ebbecc77ca66cdb22e1f4c2151f6bfa8e5615e5f6037f09aa91b7d3f2f3af1a",
+          "status": "overlay",
+          "current_sha256": "e0c49cb17e8eaff3bbbf25b292317a2c08c520174202d044c9602ddccadd5634",
+          "reason": "Reader documentation updated for the selected view."
+        },
+        {
+          "path": "iasc/presentation_revision/figures/requirements.txt",
+          "historical_sha256": "e82a766991ef68da7214d801c0652c0575d1cfc70257ff4d8d380cec8ae2cd1f",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/statistical_figures.py",
+          "historical_sha256": "926f08a09acc6a44740d18dae08e14284e193d1579647373f70f5dc8d759a599",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/UNITS_REVISION_QA.json",
+          "historical_sha256": "179d49d30996dc256007afc06af0591fb5c198cb07db8c7e8caaa078f6102efe",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/verify_exports.py",
+          "historical_sha256": "71d73569ae18b8c86eff9802d359432ee2f9ba75c190a34e2fccded5cc4252e0",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/figures/VISUAL_REVIEW.json",
+          "historical_sha256": "ef0e3a7cb157608574a7f20a01ef803c96ef4e4addea1c9db44bd115e7de2983",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/index/CONDITIONAL_ACCOUNTING.md",
+          "historical_sha256": "44892ddab81101e309cd8168d2379cce69509b01b01f9c55f3a0952066e7c976",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/index/LITERATURE_SOURCE_NOTES.md",
+          "historical_sha256": "83e662ba1f7f2c3d2f914f81f6db5c1dead6a147b351b5ea30a8e4a65a2a941d",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/index/masugate.bib",
+          "historical_sha256": "b43a610a1519a27cbe009c9bd446b30c6155475dad46e91312ef30013a445fec",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/index/NOTATION_AND_PROPERTY_INDEX.md",
+          "historical_sha256": "adaa36349866ad0fabdaf903765d2f7840babce251f11c83242e86e7c6f9a809",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/index/NOTATION_AND_PROPERTY_MAPPING.csv",
+          "historical_sha256": "6951ed0221bd1146e53a8250762844d67d0f9d3f4fa7f71f4e5c229fb8f0dbe5",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/index/NOTATION_AND_PROPERTY_SOURCE_HASHES.csv",
+          "historical_sha256": "b793bd34feb7d225ea2fab87cc8e6a19f10f149cee2f0908d01baef58fdcd9d2",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/index/references.bib",
+          "historical_sha256": "9096c1b1ae7f87845d53077cff741ad248c3e5ea83c0540229b18c6edc5de8d6",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/MANIFEST.json",
+          "historical_sha256": "5ce45b806d03e6c7184191e9453d7144bbd116ef1c42727ab15a9ff6c069bb5d",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/README.md",
+          "historical_sha256": "1b90f4e5aebd8724ec6254b69d7862e50eeac30c0d3178ff0ae4f5059f518437",
+          "status": "overlay",
+          "current_sha256": "202d13c7411070c63e5510fc013e290665d5da9256551ad0bad2489cedaf98bb",
+          "reason": "Reader documentation updated for the selected view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/build_tables.py",
+          "historical_sha256": "53def12e1f934be189fb23e0e736fb979dd80e59f4e10de72defe397bffda207",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/generated_main/cap_removal.tex",
+          "historical_sha256": "0c9359d40088f53e714b2952fac03777773458624fddf7c5ea93a3f64383327f",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/generated_main/closest_scope.tex",
+          "historical_sha256": "9252e7d64f190d897be6cac1e473af6ea5b88ca61ad374072aef47bf44e3a702",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/generated_main/evaluation_design.tex",
+          "historical_sha256": "015da269cc9ffde06589aa0dd14c74d790915e01b989a655c70a47476001a016",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/generated_main/lifecycle_states.tex",
+          "historical_sha256": "a2e30c4bdf7b0c27e3207baa6af176376e6b794288556b8ee43b652e5d5b2e52",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/generated_main/obligations.tex",
+          "historical_sha256": "80b0a1043cd6bd48a167f0a878caaa547ed56cbc1a8e12b406fd07cf9a8b7789",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/MANUSCRIPT_RESULT_INDEX_TABLES.csv",
+          "historical_sha256": "15deb079b43ad17d888e97f507a17f3278c4c130bc998f31df98f1e9bcce8947",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/SOURCE_MANIFEST.json",
+          "historical_sha256": "b9cbbc675d168cc6bf31e46b3d0c8c52256be8cc3e3f4ff4f738664679fba669",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/table2_obligation_sources.md",
+          "historical_sha256": "9a35c831bc5a023b07b83d28c379a96003c2fcf630d09efdbe4e606344b1f496",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc/presentation_revision/tables/table5_cap_removal_complete.csv",
+          "historical_sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
+          "status": "included"
+        },
+        {
+          "path": "iasc/presentation_revision/tables/VALIDATION.json",
+          "historical_sha256": "2ff0fc047d3f541cdabef7c9b1a2fa9787ee71a9fa6ff3d7a02f443d6f986cbf",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        }
+      ]
+    },
+    {
+      "manifest": "iasc_model_check/PUBLIC_MANIFEST.json",
+      "manifest_sha256": "847fa6ef09a2a60862b2161af39e10a89ebe1a438b771592a8e529f2b2301d07",
+      "files": [
+        {
+          "path": "iasc_model_check/ARTIFACT_BASELINE.json",
+          "historical_sha256": "c8e0a60d82d2078a5ba489d3a9ac95895ba4ef43668360b15f8deaab01cf8380",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/CHECKPOINT_PREFIX_MAPPING.md",
+          "historical_sha256": "0938f93eef3ac054772f03a3d8850caa572f204afc2c8d9e1d6b6cc319c64cf9",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/ECRCLifecycle.tla",
+          "historical_sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/FINAL_ENUMERATION_REVIEW.json",
+          "historical_sha256": "ed9da58d5f279ceaed7a3db6f6c8d9d7b475adc33a7d5c8b089f12139e8cb3bb",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/FINAL_MODEL_REVIEW.json",
+          "historical_sha256": "b3deeccfd354acd7dae0d1dec4eb02d8b1f0fc3c7812c833748b73d9d793341d",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/FINAL_MODEL_REVIEW.md",
+          "historical_sha256": "af5c7f83f4b1f27c35c5c41e8db1cfe78b8b2b8da0ffde0481030740aaaaf5a6",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/FINAL_MODEL_REVIEW_RECORDS.json",
+          "historical_sha256": "37671684568da4fc43c38360dc1fc8048522ac5406decdb390abee315877e396",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/FREEZE.json",
+          "historical_sha256": "f88faba8a248ab51fe18bce8454776e1e57a723ca70494e022a26f71b8437a8d",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/INCLUSION_DECISION.json",
+          "historical_sha256": "b8fab187273cbac192488521faee1abd788714c7d602b6c082491892c245e5f8",
+          "status": "omitted",
+          "reason": "Manuscript, editorial or document-layout material omitted from the current Git source view."
+        },
+        {
+          "path": "iasc_model_check/LICENSE",
+          "historical_sha256": "1d0dde41ece0f9620937f1a81a67e295ace0eae180c009d862006e8f3b288458",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/MODEL_REVIEW.json",
+          "historical_sha256": "1ac59b6de33441088fd30f4ed648c3f78ace115ffd02c2d154fb1a5b3286bad7",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/PORTABLE_REPRODUCTION.md",
+          "historical_sha256": "34ae0b796f256a2b82e5696cbdf422bac7294c0890180ba2aecb4b3ec6039c26",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/PROTOCOL.md",
+          "historical_sha256": "102ec22ddff809e9103a20b61fe12bfaac70adccd0a1a386598d64d514fc70f4",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/README.md",
+          "historical_sha256": "d970c7d53e44472866b62a6a9b04bffe4accbc11087721b0b6810af04718dec1",
+          "status": "overlay",
+          "current_sha256": "442ea1cf07d6846b6d8c3ae7cdab541070f9add6ff99dd397ed9915efd4b6d58",
+          "reason": "Reader documentation updated for the selected view."
+        },
+        {
+          "path": "iasc_model_check/RESULTS_ZH.md",
+          "historical_sha256": "ebf09536f6c70d91d9e5d7987d13d2e648273c007bc71f070485f099551453a4",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/REVIEW_REQUIREMENTS.md",
+          "historical_sha256": "2657720c3a92176d5d4b84ad4acd60cee979884b4f9ba70798432a4b405157f9",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/SOURCE_MAPPING.md",
+          "historical_sha256": "98323f3c60484b113e5550e4db9ad082380398c97cd3c350eca6bbee210e257f",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/audit_completed_records.py",
+          "historical_sha256": "e815eaf79d915153fa2c6e94d8d8b208237aa6b0d57b8e9e821123514827b32e",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/exact_check.py",
+          "historical_sha256": "05abd9c38e2121cf43a0a3e4f7f9a3ac4e9003bb52bceead1afef1c2019fb46e",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/normal_2_1.cfg",
+          "historical_sha256": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/normal_3_2.cfg",
+          "historical_sha256": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/RELEASE_NOTE.md",
+          "historical_sha256": "026dbe9377ff9eafb287483301fecd9ee7dffe4cd2729d166014427cbf232cca",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/REVISION_VERIFICATION.json",
+          "historical_sha256": "2a9acb16f4a2b9b415ea110e82736117e4e82111d7c4f17e2b9b9164043c3b10",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/PORTABLE_REPRODUCTION.md",
+          "historical_sha256": "d269718c249db7c808bd8735a73ba294c7dbd683d66f837771ba72fff1e3e6b3",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/PUBLIC_MANIFEST.json",
+          "historical_sha256": "d7764c2709a421685782f58ff478e88107d90b6cbb747b812fc48e0065db8858",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/README.md",
+          "historical_sha256": "691b9df1abd5ed4f0a22a3bd7e5ca491a64b8c5bb741c613cd560f2531db9788",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/portable_reproduce.py",
+          "historical_sha256": "06f7263aa8c36e400959abd081a92014a1ea9b54dcba68b3c2d96a3af1821f98",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/posix_failure/COMMAND_ENVIRONMENT.json",
+          "historical_sha256": "dec199178acee1d6130f2f55204849609f6f25e195a67102997a312051dc25f6",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/posix_failure/NORMALIZED_EVIDENCE_HASHES.json",
+          "historical_sha256": "6ad29b26ba53702d74dc5d73fad280a3ebca13ac737775ed2a3ebb4a449e17dd",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/posix_failure/REPORT.json",
+          "historical_sha256": "1d44cc12348812d626190bd49afe56c5f0c46f92b3008d7daa5d5dc84e95217e",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/posix_failure/command.txt",
+          "historical_sha256": "628d26507ee5d7a5b2be5ab82e8a7d2cf9458c3570d55923ac7d2f4e6d5b61f1",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/posix_failure/stderr.txt",
+          "historical_sha256": "4fd662eb836d99f51a82d2cbe6e5d0a871c294394b66934886ab251291ef00c6",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/original/posix_failure/stdout.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/portable_reproduce.diff",
+          "historical_sha256": "27a61c9c1f3100cef7035668b5f7f4124966936d9dd311e7c6c120f61de8c1f3",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/audit_portability.py",
+          "historical_sha256": "861a45bd05a55c524e6247c3c15c5bdf80e39f997bdd7ce01ee41a265b593baa",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/COMMAND_ENVIRONMENT.json",
+          "historical_sha256": "923524903789108b3561cc2b39100ec6db9321a739e10c6b77f62f81c558f3f5",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/PATH_TESTS.json",
+          "historical_sha256": "f048c2b210d57c764dbb3d109953fc32e4bb3c0ee1f23386c7b128992062cbdc",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/SUMMARY.json",
+          "historical_sha256": "73b6f4d96144c18ac2de8f00aeb0712fe2c278adf76981c635bccd2cf954a1dc",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/VERIFICATION.json",
+          "historical_sha256": "c272c2a1037ec5acb7912d88fee8dc542ca8ca560f575f82a2da8b36dbe2c8ad",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/command.txt",
+          "historical_sha256": "ab865c6a4a6ab8fc866a800f0611abf94d9f694b1349a14c48d8d17a73e9d5f5",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/overwrite_stderr.txt",
+          "historical_sha256": "8181e196e6e3873ae7c2518fbd1cf52c34f543fa98212933721dee60d229ed27",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/overwrite_stdout.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/stderr.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/windows/stdout.txt",
+          "historical_sha256": "c272c2a1037ec5acb7912d88fee8dc542ca8ca560f575f82a2da8b36dbe2c8ad",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/COMMAND_ENVIRONMENT.json",
+          "historical_sha256": "c828cfcd589299f083e91d1abed916220b5cad3c078016714d0bc9bf9bdc3e1d",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/PATH_TESTS.json",
+          "historical_sha256": "1e4f55a1e48c2242a1c01cf91eaee1c0d57c7ed5daef2e67ea02fe58f80cebdf",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/SUMMARY.json",
+          "historical_sha256": "fbf92913af782394fb13a4f57e826c672c46c11b3da157b06db6b55f3f1761c4",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/VERIFICATION.json",
+          "historical_sha256": "fd372b8d9a5b9f6aa73bb9c8b6e4f629a7e8f6411c9eca9a11cffcb6fb392f8b",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/command.txt",
+          "historical_sha256": "d5e0a5e0b0a4bb1c25e448cf50784fc548903d2b5349a0bfeb1d7386157f983f",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/overwrite_stderr.txt",
+          "historical_sha256": "3ab824397417dad3a235b38f623cc7851127b10c61ab6f2c8a6d0c9f2376fd30",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/overwrite_stdout.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/stderr.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portability_revision/verification/wsl_linux/stdout.txt",
+          "historical_sha256": "fd372b8d9a5b9f6aa73bb9c8b6e4f629a7e8f6411c9eca9a11cffcb6fb392f8b",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/portable_reproduce.py",
+          "historical_sha256": "ad3c8e79568be705526bc4950f1ae4383bfbb33e51a290035cfe49ad95ad3a47",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/preparation/SANY_01.json",
+          "historical_sha256": "f6e63d9cb36854125af233000f1bd896b8ceda40d4eadba61be74463086c93bd",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/prepare_model.py",
+          "historical_sha256": "38b59c866cf58dcaf5df72ae127027fbfeccd0e4310a9d2ea789d3da01af46a2",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/review_preparation/audit_completed_records_v1.py",
+          "historical_sha256": "cd6df9aa5e129f565d9f30a8175fa7881257c02c233f4eeb33878080fdc16613",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/run_models.py",
+          "historical_sha256": "690a8994c8bb0f62d834a4d9b4f155442e83f7c5896fc8fe37e1d78d6b8637a4",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/COUNTEREXAMPLE.csv",
+          "historical_sha256": "e4a106e43f38a9f2f671d56981d84be8ee3b783cb4118d1a4858c59b49807d1b",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/RESULT_SUMMARY.json",
+          "historical_sha256": "b14e2d5eb33106bec43f95982549fe2cb5ec882ad17b9de9c901a3fac83f6da0",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/TLC_COUNTEREXAMPLE_REPLAY.json",
+          "historical_sha256": "88ed176eb11d7d8d7797b7330b3c1665c2299bb92d30476079a858429cce8cf5",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/START.json",
+          "historical_sha256": "19d717969fe3a8b116e841e25def28a90d656ebd5f4d70ba3752db7b31a1bf84",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/SUMMARY.json",
+          "historical_sha256": "819f0741243774eac1edb6d01d3890583a7823aa6a11543708e935eae93bbe2f",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/TLC_COMPARISON.json",
+          "historical_sha256": "ce798470ebac8456ce9581f9eaa26df6fe2384c3902fd3bf7117c5a782a4e8f1",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/normal_2_1/RESULT.json",
+          "historical_sha256": "1f9d145964b63d4f1da83e828e87899963e6bfa8156f7b74e7aa9dab01de510c",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/normal_2_1/WITNESSES.json",
+          "historical_sha256": "bf99cc28e533c3e0f06203cd2b100754e48ce2072d359b9369aeaf7cbde1d69c",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/normal_3_2/RESULT.json",
+          "historical_sha256": "bc15cda301c22f58ef4f8761a1367db1e69e4b6f62e10d1ac3738494ff8bd370",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/normal_3_2/WITNESSES.json",
+          "historical_sha256": "bda5873f8272a3b051d39a57979767c104f6741a2471365a56ca5a3f001f46ec",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/unsafe_2_1/COUNTEREXAMPLE.json",
+          "historical_sha256": "3adf1e589e6f75dcf56145e229c10d43d1c45e9363c1f800444a072ac1a4ee31",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/unsafe_2_1/RESULT.json",
+          "historical_sha256": "41149e418334cdfc804913f3884b1aa8f135b5b9c6c97aec408594c717eb7109",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/exact/unsafe_2_1/WITNESSES.json",
+          "historical_sha256": "ea6842fadc6d0c4332620184b0feb83c855826216c99983b40458f981b787e2f",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/START.json",
+          "historical_sha256": "420890056ae188be650034a5ffecffc2cfa9130c9189f5c49b8bb7f0e1874600",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/SUMMARY.json",
+          "historical_sha256": "e8b8e5d8c92e1937c5bdb11b2c7aa3a38e6069783314e3766f213d11da547b23",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_2_1/COMMAND.json",
+          "historical_sha256": "dba332876ebb448b4ac065e0a840fd778fa4975b0d130fcb86ced0de0195af89",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_2_1/ECRCLifecycle.tla",
+          "historical_sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_2_1/RESULT.json",
+          "historical_sha256": "71f5b2f93bf97595e9d4997d3c00e81c219cd77d64638e191efb80d7a5171f7f",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_2_1/normal_2_1.cfg",
+          "historical_sha256": "5fc0c580efd3f8552053013eaadef69c31109bc23f5e22d9617aa0f1304a4393",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_2_1/stderr.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_2_1/stdout.txt",
+          "historical_sha256": "2d886e3e71d837bdb44461e59b50703db6088edf739d0b6fc2725fb524dc4844",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_3_2/COMMAND.json",
+          "historical_sha256": "bfade27ceb3639a0120ab09448def89f71210cf8b083a5faa90d7586540c2606",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_3_2/ECRCLifecycle.tla",
+          "historical_sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_3_2/RESULT.json",
+          "historical_sha256": "f765e12720d75840ae6dd2a3c8fc8cb4a7f3228faeb5fc7257e702af0803f6e5",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_3_2/normal_3_2.cfg",
+          "historical_sha256": "c8cdcafcc9882dcfb6f69edda7b93955359f75a8a5dac4baa9abeb058894c78e",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_3_2/stderr.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/normal_3_2/stdout.txt",
+          "historical_sha256": "23a57b22766e1f161ed1674083026311b0fdf708888643ee2d0e3b92def6ca01",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/unsafe_2_1/COMMAND.json",
+          "historical_sha256": "34eef96a5df27cd75a51865cd9823f286d1e6638c0221d50f175736208b8fb36",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/unsafe_2_1/ECRCLifecycle.tla",
+          "historical_sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/unsafe_2_1/RESULT.json",
+          "historical_sha256": "afda62df3ab8abbfb3d88c1aaafb1e25cdea0efeb4f3b0ea95ac58fd681375b1",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/unsafe_2_1/stderr.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/unsafe_2_1/stdout.txt",
+          "historical_sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/runs/v1/tlc/unsafe_2_1/unsafe_2_1.cfg",
+          "historical_sha256": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/summarize_results.py",
+          "historical_sha256": "00f343cf3038d6834b9618a2df1f6db4f597590d5986be6dcf07347244b6bc76",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/README.md",
+          "historical_sha256": "6f59582890b61f1fafb26ba84ab38f8f3699703dcee03a2daf9eb043e35c4d48",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/TLAPLUS_LICENSE",
+          "historical_sha256": "45364edd2a021d51b9d75bfc96a49ca5573286f00034acf324f0ffc067f2f9c4",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/TOOLCHAIN.json",
+          "historical_sha256": "e967ccd118ac448cb0bf1f90b17c837bb82dedf26e2484f3b7fb3c3d82b49c51",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/java_version_stderr.txt",
+          "historical_sha256": "5b4412738541184e84f6b2d7520d4f4a7c2a455f60650491464c61adcbbbdeb0",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/java_version_stdout.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/prepare_toolchain.py",
+          "historical_sha256": "083151e98a9b0ab16c43a1bff61fd2f980b3f4f74db302fcd40d0922ee788aeb",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/run_tlc.py",
+          "historical_sha256": "afc066975e930b07742bc93bad988303d14642f6c14f26ea6ac87d3d806d2658",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/temurin.sha256.txt",
+          "historical_sha256": "0e45e55b12036c39a2f18178063dc9c0a3d316976c181329c94de125f5bcd481",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/temurin_release_metadata.json",
+          "historical_sha256": "4b1a4add481c3be0b02fd76f999124f64e95f23877c2e32c845e75e4aae63c00",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/tlaplus_release_metadata.json",
+          "historical_sha256": "2e1d10ad55766993dd6d9e62d16b832887ab35a666ce8648f46e05a8b4c43e47",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/tlc_help_stderr.txt",
+          "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/tlc_help_stdout.txt",
+          "historical_sha256": "dcbe9230424fe81007a3192d3160d71521e3df562fddcab3e54e2b31ac863fab",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/tools/tlc_jar_manifest.txt",
+          "historical_sha256": "4b779480fedf8e1bf24411052bfbd00a914b1c80caee1c7b4719d8cb67c7b7ce",
+          "status": "included"
+        },
+        {
+          "path": "iasc_model_check/unsafe_2_1.cfg",
+          "historical_sha256": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
+          "status": "included"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,8 @@ Required CSVs: performance_summary.csv, recovery_results.csv.
 Optional performance_runs.csv enables independent aggregate verification.
 The output inputs/ directory is a portable data snapshot for the same command.
 Style/export settings derive from the previously reviewed Figures 4/5 builder.
+Current source overlay omits standalone manuscript-caption prose and its output;
+plotting, input validation and measurements remain unchanged.
 """
 from __future__ import annotations
 
@@ -271,27 +273,6 @@ def export(fig, path):
     return qa
 
 
-def caption(checks):
-    errors = checks["recovery_error_counter_totals"]
-    recovery_text = (f"Across {checks['recovery_cases']} runs of nine prespecified scenarios "
-                     f"(two implementations, five repetitions), the input results record "
-                     f"{errors['duplicate_effects']} duplicate effects, {errors['omitted_effects']} omitted effects, "
-                     f"{errors['receipt_mismatches']} receipt mismatches and {errors['oversubscription']} capacity violations. "
-                     f"The expected final one-effect, one-receipt state with no held unit occurred in "
-                     f"{checks['final_expected_state_cases']}/{checks['recovery_cases']} cases.")
-    return ("Figure 6. Independent-service recovery and delivery latency. "
-            "(a) The new adapter fixes authorization when it atomically registers a durable intent. "
-            "A separate local HTTP service commits a synthetic effect together with its idempotency binding; "
-            "the client reconciles the acknowledgement, capacity commitment and receipt in a later local transaction. "
-            "Unknown outcomes retain their reservation. The two client transactions and the service transaction "
-            "are separate; the diagram does not imply cross-database atomicity. "
-            "(b) Median (points) and minimum-maximum (bars) of five run-level p95 arm-to-receipt latencies "
-            "at each worker count, with 64 preissued actions per run and a separate untimed warm-up. "
-            "Bars describe observed run ranges, not confidence intervals. " + recovery_text + " "
-            "Both arms use the same trusted authorization fixture, transport and durable idempotent sink. "
-            "This is a synthetic loopback experiment on one host, not evidence of arbitrary-service exactly-once execution.\n")
-
-
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--results", required=True, type=Path,
@@ -330,7 +311,6 @@ def main():
     font = setup()
     write_csv(out / "fig6_plot_values.csv", plotted)
     write_json(out / "validation_checks.json", checks)
-    (out / "CAPTION_FOR_ROOT.md").write_text(caption(checks), encoding="utf8")
     qa = export(draw_figure(plotted), out / "fig6")
     manifest = dict(python=platform.python_version(), matplotlib=matplotlib.__version__,
                     style=dict(font="Arial", font_path_at_build=str(font), text_color=BLACK,
@@ -340,7 +320,7 @@ def main():
                     provenance=provenance, validation=checks, figure=qa,
                     script_sha256=sha(__file__), plot_values_sha256=sha(out / "fig6_plot_values.csv"),
                     validation_sha256=sha(out / "validation_checks.json"),
-                    caption_sha256=sha(out / "CAPTION_FOR_ROOT.md"), experiments_or_models_run=False)
+                    experiments_or_models_run=False)
     write_json(out / "fig6_manifest.json", manifest)
     print(json.dumps(dict(figure=qa, validation=checks), indent=2))
 

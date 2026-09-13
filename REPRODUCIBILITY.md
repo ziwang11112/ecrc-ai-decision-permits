@@ -81,7 +81,7 @@ also expects author-held raw databases and is not the public-only entry point.
 
 ### S10: inspect retained finite-model evidence
 
-The Git copy already includes the current complete package. To verify the
+The Git source view includes the retained verification inputs. To verify the
 downloaded copy separately:
 
 ```console
@@ -95,16 +95,18 @@ replay its entire trace or re-enumerate the state space. The 205 external
 author-workspace baseline targets are explicitly `NOT_CHECKED`, not bundled
 S10 files. See [the full S10 guide](iasc_model_check/PORTABLE_REPRODUCTION.md).
 
-## 3. Rebuild the current paper figures and inspect table values
+## 3. Generate plots and numerical summaries
 
-Follow [paper_artifacts/README.md](paper_artifacts/README.md). This self-contained
-directory has the current five figures, compact source data, plotting code,
-five editable table sources, and a numbering/provenance index. It needs no
+Follow [plots/current/README.md](plots/current/README.md). This self-contained
+directory has five plots, compact source data, plotting code and CSV-only
+result aggregation. It needs no
 large artifact download, model training, candidate execution or API access.
 Figure dependencies are separate from the historical model environment.
 
-The older S1–S8 release's `presentation_revision/` is preserved with its
-original numbering. Use `paper_artifacts/` for the current main paper.
+The numerical summary script recomputes delivery aggregates and compares all
+17 result rows with saved expected CSVs. It does not read or generate LaTeX.
+Selected older plotting sources remain in `iasc/`; their original archive
+inventories are distinguished from the current view in `SOURCE_VIEW.json`.
 
 ## 4. A new scientific reproduction requires the study's environment
 
@@ -144,6 +146,9 @@ provided and its broken wrapper command is corrected, but no cloud-CI pass is
 claimed. Local checks and their scope are recorded separately.
 
 The root `MANIFEST.json` / `SHA256SUMS.txt` describe the current Git source
-revision. Each fixed release has its own manifest. Preserve frozen sources,
+revision. `SOURCE_VIEW.json` records intentional manuscript-material omissions
+from historical inventories; `python scripts/verify_source_view.py` checks that
+mapping. Historical releases retain their originally published contents, which
+can include older manuscript-formatting material. Each fixed release has its own manifest. Preserve frozen sources,
 old reports and releases when producing new output; a presentation or tooling
 revision is not another experimental repetition.

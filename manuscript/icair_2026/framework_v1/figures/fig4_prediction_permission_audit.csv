@@ -1,8 +1,0 @@
-row_id,panel,dataset_id,model_name,condition,numerator,denominator,estimate_from_counts,frozen_estimate,estimate_abs_difference,plotted_estimate,display_abs_difference,interval_present,interval_valid,check
-fig4_01,a,mendeley_igt_official_v2,history_baseline,cap_8,215,476,0.451680672269,0.451680672269,5.55111512313e-17,45.1680672269,0,True,True,PASS
-fig4_02,a,mendeley_igt_official_v2,regularised_logistic,cap_8,298,580,0.513793103448,0.513793103448,0,51.3793103448,0,True,True,PASS
-fig4_03,a,mendeley_igt_official_v2,hist_gradient_boosting,cap_8,373,584,0.638698630137,0.638698630137,0,63.8698630137,0,True,True,PASS
-fig4_04,b,many_labs_igt,hist_gradient_boosting,full_gate,0,6798,0,0,0,0,0,False,True,PASS
-fig4_05,b,many_labs_igt,hist_gradient_boosting,evidence_gate_off,630,6798,0.0926743159753,0.0926743159753,4.16333634234e-17,9.26743159753,0,True,True,PASS
-fig4_06,b,mendeley_igt_official_v2,hist_gradient_boosting,full_gate,0,1208,0,0,0,0,0,False,True,PASS
-fig4_07,b,mendeley_igt_official_v2,hist_gradient_boosting,evidence_gate_off,56,1208,0.046357615894,0.046357615894,3.46944695195e-17,4.6357615894,0,True,True,PASS

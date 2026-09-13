@@ -1,1 +1,0 @@
-Historical initial repository d71b94e: these files retain their original bytes and describe the pre-IASC release. Use the repository root README and current manifest for this release. Paths inside old inventories are relative to the original tree at that commit.

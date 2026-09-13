@@ -1,19 +1,22 @@
-# Current IASC source mirror
+# Experiment source view
 
-These selected files are byte-identical to the matching paths in the public
-reproducibility archive. SOURCE_MIRROR_MANIFEST.json maps every mirrored file.
-The complete artifact, including primary and repeated SQLite databases, is a
-versioned Release asset. Follow the repository root README to download it.
-Some historical reports and figure builders refer to evidence only present in
-that full artifact; use the extracted artifact for complete reproduction.
+This directory contains selected implementation, analysis, plotting sources
+and saved numerical evidence from the fixed experiment archives.
 
-end_to_end/ contains the full 34-file frozen code/input set and can run the S8
-formal suite in a new output directory. statistics/ and calibration/ retain
-their full small input/output bundles. Original src/ and icair_2026/ at the
-repository root remain the historical simulator, distinct from these extensions.
+The current view excludes authored manuscript snippets, bibliography,
+editorial prose and document-formatting helpers. Historical manifests retain
+their original bytes and refer to their original complete packages. The root
+`SOURCE_VIEW.json` maps the current included, omitted and modified entries;
+run `python scripts/verify_source_view.py` from the repository root to check it.
 
-Current manuscript figures/tables and their exact index are in
-presentation_revision/. Its Git mirror omits the copied input databases and
-raster exports; download the fixed full artifact for complete regeneration.
-The 255-file SOURCE_MIRROR_MANIFEST remains the unchanged original code mirror;
-presentation_revision/GIT_MIRROR.json separately indexes the added sources.
+All 34 frozen S8 source/input files remain included. Statistical computation,
+independent numerical verification, input counts and saved output grids remain
+available. The S6 delivery implementation is unchanged. Reader documentation
+and a figure-caption output branch are current overlays, recorded separately
+from the preserved scientific source hashes.
+
+Use [the root guide](../REPRODUCIBILITY.md) for complete archived evidence and
+commands. Use [plots/current](../plots/current/README.md) for compact plotting
+and CSV-only result summaries. The older plotting code under
+`presentation_revision/figures/` needs the original complete archive for all
+copied database inputs; it is retained as an earlier plotting implementation.

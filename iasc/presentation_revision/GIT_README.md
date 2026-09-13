@@ -1,7 +1,7 @@
-# Browseable presentation mirror
+# Selected plotting files
 
-This Git directory omits copied SQLite/input snapshots and PNG/TIFF exports.
-Use the downloaded release ZIP's presentation_revision/ directory to regenerate
-the figures; it contains all inputs. GIT_MIRROR.json maps these exact mirrored
-bytes to the full artifact. The full-directory MANIFEST.json therefore covers
-some files intentionally available only in that ZIP.
+Read [README.md](README.md) for the current source-view boundary. Original
+complete-archive and earlier Git inventories are historical records. The
+current root `SOURCE_VIEW.json` identifies retained and intentionally omitted
+files. Current standalone plotting is in `plots/current/` at the repository
+root.

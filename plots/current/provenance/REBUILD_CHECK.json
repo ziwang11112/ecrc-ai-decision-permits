@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "scope": "Replot and saved numerical aggregation only; no new scientific execution.",
+  "python": "3.12.10",
+  "platform": "Windows 11",
+  "matplotlib": "3.10.9",
+  "pillow": "12.2.0",
+  "input_snapshot_manifest_sha256": "11988d7fe2d94b1344e8baa3589a0e21b5565b39a9bfa59dfec0b070e7be1654",
+  "input_snapshot_commit": "bb3fe53901562b4070929c2bc300590e8d28df23",
+  "five_pdf_exports_byte_equal": true,
+  "all_fifteen_figure_exports_byte_equal": true,
+  "summary_csv_rows_checked": 17,
+  "plot_comparison": [
+    {
+      "export": "fig1",
+      "formats": {
+        "pdf": {
+          "sha256": "a4dece80551808347dec1f2bdd770d9be658613eed44dfa9c01b5b939da94b3f",
+          "bytes_equal": true
+        },
+        "svg": {
+          "sha256": "abe12ca9f4240f38bece0b03b3502bcc0a5e56ed937bcc221f6bb2cd28084442",
+          "bytes_equal": true
+        },
+        "png": {
+          "sha256": "db294bca13394344c3d5e08c85057c373b495fcbcbf7f4480074bca7e7f881bf",
+          "bytes_equal": true
+        }
+      }
+    },
+    {
+      "export": "fig2",
+      "formats": {
+        "pdf": {
+          "sha256": "c842fa35722cb12f1ce753ee1e06a9e329190a32a0cf887d1f70967151f9b636",
+          "bytes_equal": true
+        },
+        "svg": {
+          "sha256": "905e910d69bbda4f228f7ddf88d4d16ab990640f8f58e9c72e4fce350f1a9359",
+          "bytes_equal": true
+        },
+        "png": {
+          "sha256": "11d2337da57d728807e14d1a5c10526b265f6dbdb0bc312089dae9c5ce597a3c",
+          "bytes_equal": true
+        }
+      }
+    },
+    {
+      "export": "fig3",
+      "formats": {
+        "pdf": {
+          "sha256": "c6c6b910b40f4c15324a71f07084b9ade9ccaba859db466b5fed3e19ca498d3b",
+          "bytes_equal": true
+        },
+        "svg": {
+          "sha256": "bf7a0f9b8017de41c0674bbc270afa537d68ded7ff0c91df28f9b638f907c55d",
+          "bytes_equal": true
+        },
+        "png": {
+          "sha256": "cd79b85b3343686b8bb433a701af2d99d2e584016f3ab219629fa922723b3b29",
+          "bytes_equal": true
+        }
+      }
+    },
+    {
+      "export": "fig4",
+      "formats": {
+        "pdf": {
+          "sha256": "b74fdd8c628a3e29656b4394341d19f87139576c7ecc15fd321990da70b05169",
+          "bytes_equal": true
+        },
+        "svg": {
+          "sha256": "2808b0e56f6f0f3732d0c4c2a32aa4402d1736e273fe55d8fe84e1463d24e40d",
+          "bytes_equal": true
+        },
+        "png": {
+          "sha256": "094d205719aa195663f8b3d91893e3a0427f32be782ed45a3e6ab1ec8a2cc71b",
+          "bytes_equal": true
+        }
+      }
+    },
+    {
+      "export": "fig5",
+      "formats": {
+        "pdf": {
+          "sha256": "7dfdfbfbd69cac1cc064b8a578fb71e9b3bd817f5aeda3c5e26104f722a380e5",
+          "bytes_equal": true
+        },
+        "svg": {
+          "sha256": "f94cf8739d021d1b6c0be5c5e705312356fae76002dc8be3c8c57492dc4a7f1d",
+          "bytes_equal": true
+        },
+        "png": {
+          "sha256": "227fa53b332c2f94c9d7b1076603384daf103447bc970780a2887bdff8613487",
+          "bytes_equal": true
+        }
+      }
+    }
+  ],
+  "csv_summary_comparison": [
+    {
+      "name": "latency_summary.csv",
+      "rows": 3,
+      "sha256": "a9251844b48ef93447ee1745e392a4494850124663ab51491755b66930c9eb5d",
+      "previous_values_and_format_bytes_equal": true
+    },
+    {
+      "name": "application_summary.csv",
+      "rows": 8,
+      "sha256": "403f75ec4c59f4db01069d85d2c280a11217309035edea5d10f736d62ecf622d",
+      "previous_values_and_format_bytes_equal": true
+    },
+    {
+      "name": "cap_precision_summary.csv",
+      "rows": 6,
+      "sha256": "29ab2cb86840d0719b99b62fa5ac7dcae9e48ee468ad9d98c8945000df2772e0",
+      "previous_values_and_format_bytes_equal": true
+    }
+  ],
+  "inputs_checked": [
+    {
+      "path": "data/fig3_plot_data.csv",
+      "sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+      "rows": 36,
+      "original_bytes_equal": true
+    },
+    {
+      "path": "data/fig5_plot_data.csv",
+      "sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249",
+      "rows": 60,
+      "original_bytes_equal": true
+    },
+    {
+      "path": "data/S6_performance_runs.csv",
+      "sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+      "rows": 30,
+      "original_bytes_equal": true
+    },
+    {
+      "path": "data/S6_performance_summary.csv",
+      "sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+      "rows": 6,
+      "original_bytes_equal": true
+    },
+    {
+      "path": "data/S9_cells.csv",
+      "sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+      "rows": 8,
+      "original_bytes_equal": true
+    },
+    {
+      "path": "data/cap_removal_complete.csv",
+      "sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
+      "rows": 6,
+      "original_bytes_equal": true
+    },
+    {
+      "path": "expected/latency_summary.csv",
+      "sha256": "a9251844b48ef93447ee1745e392a4494850124663ab51491755b66930c9eb5d",
+      "rows": 3,
+      "original_bytes_equal": true
+    },
+    {
+      "path": "expected/application_summary.csv",
+      "sha256": "403f75ec4c59f4db01069d85d2c280a11217309035edea5d10f736d62ecf622d",
+      "rows": 8,
+      "original_bytes_equal": true
+    },
+    {
+      "path": "expected/cap_precision_summary.csv",
+      "sha256": "29ab2cb86840d0719b99b62fa5ac7dcae9e48ee468ad9d98c8945000df2772e0",
+      "rows": 6,
+      "original_bytes_equal": true
+    }
+  ],
+  "plot_coverage": {
+    "checkpoint_rows": 36,
+    "application_cells": 8,
+    "pacing_rows": 60,
+    "pacing_conditions": 12
+  },
+  "source_sidecar_changes": "Package path key and current script hash only; source data, plotted values and rendering unchanged.",
+  "new_experiments_fitting_or_bootstrap": false
+}

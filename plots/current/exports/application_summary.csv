@@ -1,0 +1,9 @@
+response,policy,client,timely,eventual,jobs,launcher_seconds
+Normal,Depth-first,ECRC,100,100,246,57.45
+Normal,Depth-first,Ordinary,102,102,248,56.28
+Normal,Round-robin,ECRC,108,108,247,55.98
+Normal,Round-robin,Ordinary,108,108,247,55.92
+Loss,Depth-first,ECRC,78,83,206,47.32
+Loss,Depth-first,Ordinary,78,83,206,47.40
+Loss,Round-robin,ECRC,94,98,201,46.28
+Loss,Round-robin,Ordinary,94,98,201,46.25

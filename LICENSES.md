@@ -16,6 +16,6 @@ and is also included inside and beside the release artifact.
 The controlled S9 application has an additional
 [license and exclusion notice](iasc_application/LICENSE_SCOPE.md), including
 the preserved MIT HumanEval test-data notice and the candidate-program
-redistribution boundary. The current [paper artifact package](paper_artifacts/README.md)
+redistribution boundary. The current [plotting package](plots/current/README.md)
 uses the code and derived-evidence terms above; its plotting scripts do not
 assign a new license to upstream data.

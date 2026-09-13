@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "summary_rows_checked": 17,
+  "source_hashes_checked": {
+    "data/S6_performance_runs.csv": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+    "data/S6_performance_summary.csv": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+    "data/S9_cells.csv": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+    "data/cap_removal_complete.csv": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
+    "expected/latency_summary.csv": "a9251844b48ef93447ee1745e392a4494850124663ab51491755b66930c9eb5d",
+    "expected/application_summary.csv": "403f75ec4c59f4db01069d85d2c280a11217309035edea5d10f736d62ecf622d",
+    "expected/cap_precision_summary.csv": "29ab2cb86840d0719b99b62fa5ac7dcae9e48ee468ad9d98c8945000df2772e0"
+  },
+  "expected_csv_bytes_equal": {
+    "latency_summary.csv": true,
+    "application_summary.csv": true,
+    "cap_precision_summary.csv": true
+  },
+  "output_sha256": {
+    "latency_summary.csv": "a9251844b48ef93447ee1745e392a4494850124663ab51491755b66930c9eb5d",
+    "application_summary.csv": "403f75ec4c59f4db01069d85d2c280a11217309035edea5d10f736d62ecf622d",
+    "cap_precision_summary.csv": "29ab2cb86840d0719b99b62fa5ac7dcae9e48ee468ad9d98c8945000df2772e0"
+  },
+  "latency": {
+    "run_rows": 30,
+    "source_summary_rows": 6,
+    "summary_rows": 3,
+    "p95_aggregates_recomputed": true,
+    "decimal_places": 1,
+    "range_meaning": "Minimum/maximum of five run-level p95 observations; not confidence intervals."
+  },
+  "application": {
+    "source_rows": 8,
+    "summary_rows": 8,
+    "launcher_decimal_places": 2,
+    "denominator": "144 previously exposed tasks reused across cells; 18 batches per cell."
+  },
+  "cap_precision": {
+    "source_rows": 6,
+    "summary_rows": 6,
+    "decimal_places": 3,
+    "exception": "External HGB lower endpoint retains five places (0.00015).",
+    "intervals": "Saved conditional intervals; no resampling."
+  },
+  "scope": "Saved numerical aggregation and complete expected CSV row/format verification.",
+  "new_experiments_fitting_or_bootstrap": false
+}

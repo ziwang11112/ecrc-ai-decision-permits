@@ -4,7 +4,7 @@
 
 This post hoc study checks the paper's existing lifecycle abstraction for two fixed finite instances and a deliberately changed retention rule. Both normal instances completed in TLC and a separately implemented exact breadth-first enumerator: **684 reachable states for N=2 / Capacity=1 and 21,960 for N=3 / Capacity=2**, with all nine specified safety invariants satisfied. All 17 normal action families have nonzero coverage in both instances, with matching per-action edge counts. The changed-release variant produces an independently replayed 12-transition counterexample.
 
-The inclusion decision is **scoped methods evidence**: an inspectable finite specification and an explicit retention-boundary counterexample. This is not a new distributed-systems algorithm, an ECRC-exclusive capability, a proof of either complete client, or a theorem for unbounded instances. See `INCLUSION_DECISION.json`, the Chinese interpretation in `RESULTS_ZH.md`, and both final independent internal reviews.
+The results provide a finite specification check and a retention-boundary counterexample. They do not establish an unbounded theorem or a proof of either complete client. See `RESULTS_ZH.md` and the technical audit records. This current source view excludes the editorial inclusion-decision file; `PUBLIC_MANIFEST.json` retains the original release inventory, and the repository root `SOURCE_VIEW.json` records that omission.
 
 ## Fixed design and trust boundary
 
