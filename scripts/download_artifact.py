@@ -6,6 +6,7 @@ from pathlib import Path, PurePosixPath, PureWindowsPath
 import argparse
 import hashlib
 import json
+import os
 import shutil
 import stat
 import tempfile
@@ -15,9 +16,20 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def io_path(path):
+    """Use Windows extended paths for disk I/O without changing archive names."""
+    path = Path(path).resolve()
+    if os.name != "nt" or str(path).startswith("\\\\?\\"):
+        return path
+    name = str(path)
+    if name.startswith("\\\\"):
+        return Path("\\\\?\\UNC\\" + name[2:])
+    return Path("\\\\?\\" + name)
+
+
 def sha256(path):
     digest = hashlib.sha256()
-    with path.open("rb") as stream:
+    with io_path(path).open("rb") as stream:
         for block in iter(lambda: stream.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
@@ -35,8 +47,9 @@ def safe_relative(name):
 
 def extract_verified(archive_path, record, destination):
     destination = destination.resolve()
-    if destination.exists():
+    if io_path(destination).exists():
         raise FileExistsError("Choose a fresh output directory: " + str(destination))
+    archive_path = io_path(archive_path)
     if (archive_path.stat().st_size != record["bytes"]
             or sha256(archive_path) != record["sha256"]):
         raise ValueError("Release size/SHA-256 mismatch; nothing extracted")
@@ -68,13 +81,14 @@ def extract_verified(archive_path, record, destination):
             if len(blob) != row["bytes"] or hashlib.sha256(blob).hexdigest() != row["sha256"]:
                 raise ValueError("Member hash/size mismatch: " + row["path"])
         # No output is created before the entire archive passes verification.
-        destination.mkdir(parents=True, exist_ok=False)
+        io_path(destination).mkdir(parents=True, exist_ok=False)
         for info in infos:
             target = destination.joinpath(*safe_relative(info.filename))
             if not target.resolve().is_relative_to(destination):
                 raise ValueError("Extraction path escaped output directory")
-            target.parent.mkdir(parents=True, exist_ok=True)
-            with archive.open(info) as source, target.open("xb") as output:
+            disk_target = io_path(target)
+            disk_target.parent.mkdir(parents=True, exist_ok=True)
+            with archive.open(info) as source, disk_target.open("xb") as output:
                 shutil.copyfileobj(source, output)
     return destination / prefix
 
@@ -87,7 +101,7 @@ def main():
     parser.add_argument("--archive", type=Path, help="Verify an already downloaded ZIP instead of using the network")
     args = parser.parse_args()
     output = args.output or ROOT / "artifacts" / args.study
-    if output.exists():
+    if io_path(output).exists():
         parser.error("Choose a fresh output directory: " + str(output))
     record = records[args.study]
     with tempfile.TemporaryDirectory(prefix="ecrc-artifact-") as temp:

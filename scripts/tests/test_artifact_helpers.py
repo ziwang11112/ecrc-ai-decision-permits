@@ -6,6 +6,7 @@ import io
 import json
 import os
 from pathlib import Path
+import shutil
 import stat
 import sys
 import tempfile
@@ -85,6 +86,50 @@ class ArtifactHelperTests(unittest.TestCase):
         bundle = download.extract_verified(archive, record, destination)
         self.assertEqual(bundle, destination / "Bundle")
         self.assertEqual((bundle / "a.txt").read_bytes(), b"alpha")
+
+    def test_deep_output_extracts_and_refuses_existing_destination_unchanged(self):
+        archive, record = self.make_archive(prefix="Bundle/")
+        deep_root = (self.root / "deep-output").resolve()
+        destination = deep_root.joinpath(*("segment-" + str(i) + "-" + "x" * 64 for i in range(4)))
+        self.assertGreater(len(str(destination / "Bundle/nested/b.bin")), 320)
+
+        # Independent test I/O: do not validate io_path by calling itself.
+        def disk_path(path):
+            absolute = str(path.resolve())
+            if os.name != "nt":
+                return Path(absolute)
+            return Path("\\\\?\\UNC\\" + absolute[2:] if absolute.startswith("\\\\") else "\\\\?\\" + absolute)
+
+        def cleanup_deep_tree():
+            self.assertTrue(deep_root.is_relative_to(self.root.resolve()))
+            self.assertNotEqual(deep_root, self.root.resolve())
+            if disk_path(deep_root).exists():
+                shutil.rmtree(disk_path(deep_root))
+
+        self.addCleanup(cleanup_deep_tree)
+        bundle = download.extract_verified(archive, record, destination)
+        self.assertEqual(bundle, destination / "Bundle")
+        self.assertEqual(disk_path(bundle / "a.txt").read_bytes(), b"alpha")
+        self.assertEqual(disk_path(bundle / "nested/b.bin").read_bytes(), b"\x00\x01\xfe")
+        sentinel = bundle / "keep.txt"
+        disk_path(sentinel).write_bytes(b"preserve existing output")
+
+        def inventory():
+            base = disk_path(destination)
+            return {p.relative_to(base).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                    for p in base.rglob("*") if p.is_file()}
+
+        before = inventory()
+        self.assertEqual(set(before), {"Bundle/a.txt", "Bundle/nested/b.bin", "Bundle/MANIFEST.json", "Bundle/keep.txt"})
+        with self.assertRaises(FileExistsError):
+            download.extract_verified(archive, record, destination)
+        (self.root / "ARTIFACTS.json").write_text(json.dumps({"artifacts": {"toy": record}}), encoding="utf-8")
+        with mock.patch.object(download, "ROOT", self.root), mock.patch.object(sys, "argv", ["download_artifact.py", "toy", "--output", str(destination)]), mock.patch.object(download.urllib.request, "urlopen") as network, redirect_stderr(io.StringIO()):
+            with self.assertRaises(SystemExit) as raised:
+                download.main()
+        self.assertEqual(raised.exception.code, 2)
+        network.assert_not_called()
+        self.assertEqual(inventory(), before)
 
     def test_rejects_outer_hash_mismatch(self):
         archive, record = self.make_archive()

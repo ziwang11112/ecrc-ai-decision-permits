@@ -37,6 +37,8 @@ All archives are pinned by size, SHA-256 and member count in
 [ARTIFACTS.json](ARTIFACTS.json). The downloader also verifies each internal
 manifest member before creating the destination. An existing download can be
 checked offline with `--archive PATH_TO_ZIP`; the same validation is used.
+The downloader uses Windows extended filesystem paths for deep archive members;
+it does not require changing system settings or shortening the archive's names.
 
 | Selection | Extracted package root | Verified files |
 |---|---|---:|

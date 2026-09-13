@@ -51,18 +51,18 @@
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 8405,
-      "sha256": "d02e25059a77ce8bb4226ddca0d6c312777bb5a5df4aab3c756845aa7fbda0dc"
+      "bytes": 8565,
+      "sha256": "e5e06ffc96388cf9a10047f8cef0fcb2242fd5ef86363e0be6303819221399fa"
     },
     {
       "path": "docs/ARTIFACT_COMPLETENESS.md",
-      "bytes": 7238,
-      "sha256": "8ee655c834cabd4751baea64e66aae6e20a8d14848c4c72402c94dba440d2da5"
+      "bytes": 7772,
+      "sha256": "ea5ea716c651cf57b6e4a9f9ea3b2daa72fc753cfbefbc8a7cf7eba36ef1f26b"
     },
     {
       "path": "docs/ARTIFACT_VALIDATION.json",
-      "bytes": 5376,
-      "sha256": "51bf4192f1a713c26fef59430917db3a05b8c65e5d637a844843747af4014328"
+      "bytes": 5835,
+      "sha256": "892f9efd42c18f9e4000a323636964a03464f24872c363a2b46f8f487bf26ba4"
     },
     {
       "path": "docs/CLAIM_TO_ARTIFACT.md",
@@ -3686,8 +3686,8 @@
     },
     {
       "path": "scripts/download_artifact.py",
-      "bytes": 5113,
-      "sha256": "a2903fa1c3c83703c73187da853e9d545e3fe06dee6286d8a6a1fdcba7faa3af"
+      "bytes": 5600,
+      "sha256": "d35ef43ab4257fdb40c2f6c0f5e7198cc0ebc21bca11991622af6db804428c60"
     },
     {
       "path": "scripts/download_iasc_artifact.py",
@@ -3711,8 +3711,8 @@
     },
     {
       "path": "scripts/tests/test_artifact_helpers.py",
-      "bytes": 11910,
-      "sha256": "f9aeeb31cbcbf1ca5aa7153f26f8d3b515a7adac9865145c62a613dcf00bbe55"
+      "bytes": 14441,
+      "sha256": "20232934d041ff6fa5ad9b55b80fb2fcc767970f9d9a852243f2830ed58453b4"
     },
     {
       "path": "scripts/verify_mendeley_v2_replay.py",

@@ -3,43 +3,55 @@
   "base_commit": "fa235c0ecb61c286f1c3a29d9c4bf66ad7c6c027",
   "scope": "Source inventories, public saved evidence, current plot/table reconstruction and supplemental helper QA. No new formal scientific experiment.",
   "helper_qa": {
-    "commands": [
-      {
-        "name": "windows_tests_v2",
+    "current_helpers": {
+      "download_artifact.py": "d35ef43ab4257fdb40c2f6c0f5e7198cc0ebc21bca11991622af6db804428c60",
+      "run_wrapper_qa.py": "dc9bdff974fc48c28284d8b6ae732c9afd47232a07002545d891d920e8ef08b3",
+      "tests/test_artifact_helpers.py": "20232934d041ff6fa5ad9b55b80fb2fcc767970f9d9a852243f2830ed58453b4"
+    },
+    "tests_per_platform": 25,
+    "current_tests": {
+      "windows": {
+        "passed": true,
         "returncode": 0
       },
-      {
-        "name": "windows_wrapper_fresh",
+      "linux": {
+        "passed": true,
         "returncode": 0
+      }
+    },
+    "tested_python": {
+      "Windows_11": "3.12.14",
+      "Ubuntu_24_04": "3.12.3"
+    },
+    "copied_wrapper_qa_cases_per_platform": 10,
+    "wrapper_source_unchanged_from_prior_10_case_qa": true,
+    "protected_source_changed": [],
+    "retained_wrapper_and_report_unchanged": true
+  },
+  "windows_deep_archive_revision": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "downloader_sha256": "d35ef43ab4257fdb40c2f6c0f5e7198cc0ebc21bca11991622af6db804428c60",
+    "archives": [
+      {
+        "study": "s1-s8",
+        "passed": true,
+        "members_checked": 9744,
+        "max_logical_path_characters": 348
       },
       {
-        "name": "windows_wrapper_refusal",
-        "returncode": 2
+        "study": "s9",
+        "passed": true,
+        "members_checked": 6698,
+        "max_logical_path_characters": 335
       },
       {
-        "name": "linux_tests_v2",
-        "returncode": 0
-      },
-      {
-        "name": "linux_wrapper_fresh",
-        "returncode": 0
-      },
-      {
-        "name": "linux_wrapper_refusal",
-        "returncode": 2
+        "study": "s10",
+        "passed": true,
+        "members_checked": 107,
+        "max_logical_path_characters": 282
       }
     ],
-    "helpers": {
-      "download_artifact.py": "a2903fa1c3c83703c73187da853e9d545e3fe06dee6286d8a6a1fdcba7faa3af",
-      "run_wrapper_qa.py": "dc9bdff974fc48c28284d8b6ae732c9afd47232a07002545d891d920e8ef08b3",
-      "tests/test_artifact_helpers.py": "f9aeeb31cbcbf1ca5aa7153f26f8d3b515a7adac9865145c62a613dcf00bbe55"
-    },
-    "tests_per_platform": 24,
-    "copied_wrapper_qa_cases_per_platform": 10,
-    "protected_source_files": 90,
-    "protected_source_changed": [],
-    "retained_wrapper_and_report_unchanged": true,
-    "formal_experiments_executed": 0
+    "passed": true
   },
   "paper_artifacts": {
     "passed": true,

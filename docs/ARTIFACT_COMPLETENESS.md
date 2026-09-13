@@ -31,7 +31,8 @@ turnkey execution environment for every study.**
    and under `docs/history/pre-artifact-guide-2026-09-12/`.
 2. Adds a pinned registry and one downloader for the three current complete
    study archives. It verifies the archive and exact internal inventory before
-   extraction, and refuses an existing destination.
+   extraction, refuses an existing destination and supports deep Windows
+   extraction paths without renaming archived members.
 3. Fixes the quick-QA command in the guide and CI workflow by copying frozen
    S8 sources to fresh output. The historical wrapper and its report stay
    unchanged. The new runner checks all ten result cases, not just exit status.
@@ -71,7 +72,7 @@ turnkey execution environment for every study.**
 ## Validation performed
 
 The [machine-readable validation summary](ARTIFACT_VALIDATION.json) records
-scope, input digests and tested boundaries. The 24 standard-library helper
+scope, input digests and tested boundaries. The 25 standard-library helper
 tests and ten-case fresh-copy wrapper QA passed on Windows and Ubuntu 24.04;
 reusing an output directory was rejected and retained evidence stayed unchanged.
 
@@ -81,6 +82,13 @@ on all three existing archives and on a fresh anonymous network download of
 the S10 archive. The extracted S8 two-runset verifier, S9 public-only checker
 and S10 retained-evidence verifier passed. Corrupt-archive and existing-output
 checks refused extraction.
+
+A later fresh-checkout check exposed Windows path-length failure with a
+Python executable lacking long-path support. The downloader now uses extended
+Windows paths for disk I/O. All three real archives were extracted and every
+member rehashed using Python 3.12.14 at maximum logical path lengths of 348,
+335 and 282 characters, respectively. Archive member names and bytes stay
+unchanged. This correction concerns the downloader, not the frozen study code.
 
 Current figure generation was exercised from the compact inputs and after
 relocation to a new directory. All five rebuilt PDFs match the current
