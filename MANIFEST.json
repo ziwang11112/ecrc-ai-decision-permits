@@ -1,6 +1,6 @@
 {
   "artifact": "ecrc-ai-decision-permits",
-  "version": "code-and-data-view-2026-09-12",
+  "version": "code-v1.1.0",
   "scope": "Current Git source and data inventory, excluding this manifest and SHA256SUMS themselves. Historical source-view differences are explicit in SOURCE_VIEW.json.",
   "files": [
     {
@@ -25,8 +25,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1051,
-      "sha256": "282d2ed5b10e9c18fdeb919e48066776084bff863d2f47acda7f89c62792c9c9"
+      "bytes": 990,
+      "sha256": "4398f4bd0e31b630b5d63e49045b3ae08b0cff30b58cd50b246a05dcff90703f"
     },
     {
       "path": "LICENSE",
@@ -40,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3233,
-      "sha256": "0f3c6f2dd4956ef03fa6cbad40ce9af85b047a67388eb7c0fd92bdc09a9a468f"
+      "bytes": 3740,
+      "sha256": "ac2ac20bcf1338dcec072aeda695d295fbaf063b9d244317c2ac19aa5954dad5"
     },
     {
       "path": "RELEASE_QA.json",
@@ -50,23 +50,23 @@
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 8934,
-      "sha256": "64ef11f032ea692e2677cc8851a0bc49e41bfb006cff996159c534f2d3790ce4"
+      "bytes": 9132,
+      "sha256": "5e873f4fc35af9f5768d4379b4007cd45d1f55816ab119a5f1faa21d4b720b8a"
     },
     {
       "path": "SOURCE_VIEW.json",
-      "bytes": 109275,
-      "sha256": "a08fff4c0fa4024150029b29d0461fd43230dadbfc35d86067539d6bba05d954"
+      "bytes": 109577,
+      "sha256": "518fcd5f41d0de73827a82569b414b0977bfb3d9973be503ab70cb94c695cbcd"
     },
     {
       "path": "docs/ARTIFACT_COMPLETENESS.md",
-      "bytes": 3752,
-      "sha256": "554a05c3a561d44739f8059352a5d96c22262c3f8c61f32eb2c9be2810f450ed"
+      "bytes": 4472,
+      "sha256": "1a473486e4af4c390108f52b3b8b8b7d03bf8b339b086f691539aa2b641d84c7"
     },
     {
       "path": "docs/ARTIFACT_VALIDATION.json",
-      "bytes": 1180,
-      "sha256": "4cef14abd1122692b65f8bc08caee0374076ae8d250b4bdbb3e91fba01aa9885"
+      "bytes": 2613,
+      "sha256": "845082d0d3702238d54b4d70440264e9bacf39b9453dc3ee7b2862a2e7310119"
     },
     {
       "path": "docs/CLAIM_TO_ARTIFACT.md",
@@ -995,8 +995,8 @@
     },
     {
       "path": "iasc/presentation_revision/figures/README.md",
-      "bytes": 3603,
-      "sha256": "e0c49cb17e8eaff3bbbf25b292317a2c08c520174202d044c9602ddccadd5634"
+      "bytes": 4378,
+      "sha256": "e17346f753747829a96b853d8b8161819b39c78cf447e4673d1b667f83ffcc2f"
     },
     {
       "path": "iasc/presentation_revision/figures/UNITS_REVISION_QA.json",
@@ -1990,8 +1990,8 @@
     },
     {
       "path": "iasc_model_check/FINAL_MODEL_REVIEW.md",
-      "bytes": 9250,
-      "sha256": "af5c7f83f4b1f27c35c5c41e8db1cfe78b8b2b8da0ffde0481030740aaaaf5a6"
+      "bytes": 9343,
+      "sha256": "e187ffebd24a43aed90531270e05a8fe395eedd1f7561e654794afd15041d7dd"
     },
     {
       "path": "iasc_model_check/FINAL_MODEL_REVIEW_RECORDS.json",
@@ -3041,12 +3041,12 @@
     {
       "path": "plots/current/FILE_MANIFEST.json",
       "bytes": 6648,
-      "sha256": "e50c36795b38b9d0a1a29657af90675e33f50d79df211bca3a404d446127c8ad"
+      "sha256": "1bf50dbb5b6fff9d9b9bab6cf38c7902ca1b1199f8db72e883f6d106e8a23e2e"
     },
     {
       "path": "plots/current/README.md",
-      "bytes": 4531,
-      "sha256": "c43c7c5834baf35b7e5a9d5a624ff2b5565f95211eb985149e0ddbc9e6b01efb"
+      "bytes": 4578,
+      "sha256": "954c5de896fa6b07e61a6264f6f5abeed59cdb1da067397db30aa39495adf4e9"
     },
     {
       "path": "plots/current/SOURCE_MANIFEST.json",
@@ -3240,8 +3240,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 954,
-      "sha256": "d0d92bb8ae9266d3d178d669f9be51aff75349f9e0edf9f59c40b71d8191937c"
+      "bytes": 958,
+      "sha256": "a5ef4615aa8dd77c7a3e919635412efefc15afcd747e4314ab3cdaa589640534"
     },
     {
       "path": "scripts/download_artifact.py",
@@ -3274,6 +3274,11 @@
       "sha256": "20232934d041ff6fa5ad9b55b80fb2fcc767970f9d9a852243f2830ed58453b4"
     },
     {
+      "path": "scripts/tests/test_source_view.py",
+      "bytes": 10594,
+      "sha256": "f6ac3b85d38326aea7e2cab5f3a8d8633e529a7a966dff5cfabc0cf490865c52"
+    },
+    {
       "path": "scripts/verify_mendeley_v2_replay.py",
       "bytes": 8241,
       "sha256": "254a609d5b30f8789095bb4169a5ff2793daf0b1f3b0de899ac3f9c3691c5680"
@@ -3285,8 +3290,8 @@
     },
     {
       "path": "scripts/verify_source_view.py",
-      "bytes": 1491,
-      "sha256": "aad47837408abf87929352123506568ed4efa4d2d5acd061b7c02165366d1bc7"
+      "bytes": 5403,
+      "sha256": "80009a0ccacd1d70e8bf7f205591c4619f974ae952d6035e8e1addd70788da35"
     },
     {
       "path": "src/agentic_eeg_dm/__init__.py",

@@ -10,13 +10,16 @@ run and a new scientific reproduction answer different questions.
 
 ```console
 python scripts/verify_release.py
+python scripts/verify_source_view.py
 python -B iasc_model_check/portable_reproduce.py
 python -B scripts/run_wrapper_qa.py --output artifacts/wrapper-qa-1
 ```
 
 These commands require only the Python standard library. The first checks
-the current source manifest. The second checks S10's retained files and result
-bindings; it does not invoke Java or enumerate any states. The third runs the
+the current file checksums. The second cross-checks every entry of the four
+historical inventories against the current source-view mapping, including
+original hashes and explicit omissions. The third checks S10's retained files
+and result bindings; it does not invoke Java or enumerate any states. The fourth runs the
 retained ten-case S8 supplemental wrapper QA from a fresh copy of its 34 frozen
 source/input files and checks the report contents as well as the process exit.
 

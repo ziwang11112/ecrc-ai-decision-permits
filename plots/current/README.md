@@ -7,9 +7,10 @@ experiment, candidate program, model fit or bootstrap.
 
 ## Run
 
-Use Python 3.12 and Matplotlib 3.10.9:
+Use Python 3.12 and Matplotlib 3.10.9. Start at the repository root:
 
 ```sh
+cd plots/current
 python -m pip install -r requirements.txt
 python -B scripts/verify_package.py
 python -B scripts/build_main_figures.py --out ../rebuilt_plots

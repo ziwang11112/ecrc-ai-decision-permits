@@ -2,7 +2,7 @@
 
 The current Git tree is a source and data view. It contains implementation,
 tests, experiment protocols, numerical inputs/results and plotting tools.
-Manuscript paragraphs, LaTeX tables, bibliography, editorial notes and
+Standalone manuscript paragraphs, LaTeX tables, bibliography files, editorial documents and
 obsolete document-layout outputs are omitted. Local author documents remain
 separate from this repository.
 
@@ -13,6 +13,9 @@ separate from this repository.
 intentional omissions and current source/documentation overlays relative to
 historical inventories. Those historical inventories keep their original
 hashes; they are not claimed to be complete inventories of the reduced tree.
+The source-view verifier cross-checks all four complete historical path sets,
+original SHA-256 bindings, explicit statuses and current file contents. It
+rejects missing mappings, duplicate paths and unrecognized inventory groups.
 
 | Component | Current scope |
 |---|---|
@@ -27,6 +30,8 @@ The S8 frozen source set includes its original report-output code because it
 is bound by the pre-run freeze. Technical protocol and audit records remain
 with the implementation. They are execution/provenance material, not a copy
 of the authored manuscript or a complete Overleaf project.
+Frozen protocols keep their original wording, including historical
+publication-planning context.
 
 ## Verification
 
@@ -35,6 +40,12 @@ and numerical-package checks. The unchanged artifact helpers passed 25
 standard-library tests on Windows and Ubuntu; the retained wrapper completed
 ten supplemental cases per platform. All three archive downloaders were
 checked, including deep Windows paths, with unchanged archive/member hashes.
+
+For `code-v1.1.0`, the combined helper suite has 46 tests, including 21 new
+source-view regression tests. Ubuntu Python 3.12.3 passed all 46. Windows
+Python 3.12.14 passed 45 and skipped the symlink test because creating a
+symlink requires a privilege unavailable in that process; Ubuntu ran that
+test successfully. The current CFF software citation passes schema 1.2.0.
 
 The plotting package verifies its complete current inventory. All five
 rebuilt PDFs and numerical input bytes match the previous version. CSV-only

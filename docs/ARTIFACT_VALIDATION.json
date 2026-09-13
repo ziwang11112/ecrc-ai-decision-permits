@@ -1,10 +1,10 @@
 {
   "status": "PASS_FOR_SELECTED_SOURCE_AND_DATA_VIEW",
-  "base_commit": "bb3fe53901562b4070929c2bc300590e8d28df23",
+  "base_commit": "e2bb1fc0e6e423100d5f123a2e22ef6c3e3de034",
   "frozen_s8_files_verified": 34,
   "frozen_s10_files_verified": 15,
-  "source_view_manifest_sha256": "a08fff4c0fa4024150029b29d0461fd43230dadbfc35d86067539d6bba05d954",
-  "current_plots_manifest_sha256": "e50c36795b38b9d0a1a29657af90675e33f50d79df211bca3a404d446127c8ad",
+  "source_view_manifest_sha256": "518fcd5f41d0de73827a82569b414b0977bfb3d9973be503ab70cb94c695cbcd",
+  "current_plots_manifest_sha256": "1bf50dbb5b6fff9d9b9bab6cf38c7902ca1b1199f8db72e883f6d106e8a23e2e",
   "current_plot_exports_byte_equal_to_previous_version": true,
   "numeric_inputs_retained": 6,
   "expected_summary_rows_verified": 17,
@@ -16,5 +16,46 @@
   "removed_documentation_scope": "Manuscript snippets, authored LaTeX, bibliography, editorial positioning, obsolete manuscript-layout outputs and duplicate old reader documents.",
   "historical_archives_and_git_history": "Preserved; these may contain prior manuscript-formatting material.",
   "scientific_experiments_run": false,
-  "cloud_ci_pass_claimed": false
+  "cloud_ci_pass_claimed": false,
+  "version": "code-v1.1.0",
+  "frozen_s10_evidence_digests_verified": 19,
+  "helper_regression_tests": {
+    "scope": "25 existing artifact-helper tests plus 21 source-view regression tests; no scientific execution.",
+    "windows": {
+      "python": "3.12.14",
+      "total": 46,
+      "passed": 45,
+      "skipped": 1,
+      "skip_reason": "Symlink creation privilege unavailable"
+    },
+    "ubuntu": {
+      "python": "3.12.3",
+      "total": 46,
+      "passed": 46,
+      "skipped": 0
+    }
+  },
+  "source_view_checks": {
+    "known_historical_inventories": 4,
+    "mapped_inventory_entries": 456,
+    "scope": "Complete path coverage, original hash bindings, status validation, selected file contents and explicit omissions. Integrity checks are not cryptographic signatures."
+  },
+  "corrected_plot_quickstart": {
+    "python": "3.12.10",
+    "matplotlib": "3.10.9",
+    "fresh_directory": true,
+    "figure_builders_executed": 2,
+    "pdfs_byte_equal": 5,
+    "summary_csvs_byte_equal": 3,
+    "summary_rows_verified": 17,
+    "package_files_verified": 40,
+    "environment": "Existing matching plotting dependencies; no new dependency installation for the plot check."
+  },
+  "supplemental_wrapper_cases_passed": 10,
+  "s10_saved_evidence_default_check": "PASS",
+  "citation_schema_validation": {
+    "validator": "cffconvert 2.0.0",
+    "schema": "1.2.0",
+    "result": "PASS"
+  }
 }

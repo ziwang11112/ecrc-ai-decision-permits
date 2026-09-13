@@ -4,6 +4,11 @@ Reference implementations of authorization, cumulative action budgets,
 durable delivery and effect-backed receipts, with experiment inputs, saved
 results, tests and plotting code.
 
+The fixed current source release is [code-v1.1.0](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.1.0).
+It contains code, selected data, plots and reproduction documentation. Cite this
+version for the software; identify any separately used experiment archives with
+their release tags and hashes in [ARTIFACTS.json](ARTIFACTS.json).
+
 ## Get started
 
 Use Python 3.12. These checks require only the standard library:
@@ -11,6 +16,7 @@ Use Python 3.12. These checks require only the standard library:
 ```console
 git clone https://github.com/ziwang11112/ecrc-ai-decision-permits.git
 cd ecrc-ai-decision-permits
+git checkout code-v1.1.0
 python scripts/verify_release.py
 python scripts/verify_source_view.py
 python -B iasc_model_check/portable_reproduce.py
@@ -54,9 +60,11 @@ destinations. `--archive PATH_TO_ZIP` verifies an existing download offline.
 
 ## Scope and licenses
 
-The current source view omits manuscript text, LaTeX tables, bibliography,
-editorial notes and obsolete manuscript-layout outputs. It retains experiment
-code, numerical evidence, technical protocols and plots. [SOURCE_VIEW.json](SOURCE_VIEW.json)
+The current source view omits standalone manuscript text, LaTeX tables,
+bibliography files, editorial documents and obsolete manuscript-layout outputs.
+It retains experiment code, numerical evidence, technical protocols and plots.
+Frozen protocols retain their original wording, including historical
+publication-planning context. [SOURCE_VIEW.json](SOURCE_VIEW.json)
 records intentional omissions from historical inventories. Old commits and
 fixed release archives retain their originally published contents.
 

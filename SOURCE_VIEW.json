@@ -1,5 +1,5 @@
 {
-  "version": "code-and-data-view-2026-09-12",
+  "version": "code-v1.1.0",
   "scope": "Current selected source view against preserved historical inventories; overlapping inventories do not define unique file counts.",
   "historical_contents": "Old commits and fixed archive assets preserve their originally published files.",
   "historical_inventories": [
@@ -1660,8 +1660,8 @@
           "path": "iasc/presentation_revision/figures/README.md",
           "historical_sha256": "2ebbecc77ca66cdb22e1f4c2151f6bfa8e5615e5f6037f09aa91b7d3f2f3af1a",
           "status": "overlay",
-          "current_sha256": "e0c49cb17e8eaff3bbbf25b292317a2c08c520174202d044c9602ddccadd5634",
-          "reason": "Reader documentation updated for the selected view."
+          "current_sha256": "e17346f753747829a96b853d8b8161819b39c78cf447e4673d1b667f83ffcc2f",
+          "reason": "Current reader documentation clarifies execution scope and omits manuscript-editing advice; historical evidence is preserved."
         },
         {
           "path": "iasc/presentation_revision/figures/requirements.txt",
@@ -1841,7 +1841,9 @@
         {
           "path": "iasc_model_check/FINAL_MODEL_REVIEW.md",
           "historical_sha256": "af5c7f83f4b1f27c35c5c41e8db1cfe78b8b2b8da0ffde0481030740aaaaf5a6",
-          "status": "included"
+          "status": "overlay",
+          "current_sha256": "e187ffebd24a43aed90531270e05a8fe395eedd1f7561e654794afd15041d7dd",
+          "reason": "Current reader documentation clarifies execution scope and omits manuscript-editing advice; historical evidence is preserved."
         },
         {
           "path": "iasc_model_check/FINAL_MODEL_REVIEW_RECORDS.json",
