@@ -1,0 +1,4 @@
+workers,ecrc_median_ms,ecrc_min_ms,ecrc_max_ms,ordinary_median_ms,ordinary_min_ms,ordinary_max_ms
+1,33.6,33.2,33.9,33.1,32.7,33.6
+4,86.7,58.6,99.7,77.0,66.8,84.9
+8,204.0,157.6,231.0,166.0,104.4,203.5

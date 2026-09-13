@@ -1,0 +1,23 @@
+% Concise scope map. Exact versions checked 2026-09-12.
+% Prior detailed table: supplement/visual_revision/details/closest_scope_full.tex.
+\begin{table}[!htbp]
+\centering
+\caption{Reviewed specification boundaries. Versions denote preprints; distinctions describe scope, not exclusivity or performance.}
+\label{tab:closest_scope}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.14}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}p{0.38\linewidth}>{\raggedright\arraybackslash}p{\dimexpr0.40\linewidth-4\tabcolsep\relax}@{}}
+\hline
+Work / version & Specification boundary & ECRC focus or distinction \\
+\hline
+Right-to-Act, v1~\cite{lavi2026right} & Conjunctive admissibility before execution. & Persistent lifecycle after admission. \\
+Before the Tool Call, v1~\cite{uchibeke2026before} & Tool-hook policy check; signed authorization record. & Follows authorization through sink-backed completion. \\
+Agent Contracts, v3~\cite{ye2026contracts} & Task/delegation budgets, counted API calls and between-action monitoring. & Unit responsibility through unresolved delivery. \\
+Cordon, v1~\cite{chen2026cordon} & Task-level lineage/authority validation; staged effects and outbox recovery. & Trusted evidence metadata, without semantic-lineage inference. \\
+MasuGate, v2~\cite{peng2026masugate} & PSS; outlines reservations and reconciliation for nontransactional APIs. & Cumulative-unit lifecycle in this shared design space; no general PSS claim. \\
+CommitGuard, v1~\cite{santosgrueiro2026commit} & Commit-time checks; atomic final-check/effect coupling required. & Grant fixed at arm despite later invalidation. \\
+ECRC, this study & Durable arm, deduplicating sink and atomic local reconciliation. & Unresolved units remain held; two implementations tested. \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,39 @@
+{
+  "version": "iasc-artifact-guide-2026-09-12",
+  "scope": "Pinned complete study archives. Git source and current paper exhibits are indexed separately.",
+  "artifacts": {
+    "s1-s8": {
+      "tag": "iasc-restructured-2026-09-12",
+      "filename": "AIR-014_IASC_Code_and_Reproducibility.zip",
+      "bytes": 100400599,
+      "sha256": "272f62703350380eb64c5922005b7284502b1e7cde41381404a3d7120c033074",
+      "members": 9744,
+      "prefix": "",
+      "manifest": "MANIFEST.json",
+      "url": "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/download/iasc-restructured-2026-09-12/AIR-014_IASC_Code_and_Reproducibility.zip",
+      "scope": "Frozen replay, S6 delivery, S7 participant analysis and both S8 saved run sets"
+    },
+    "s9": {
+      "tag": "iasc-application-2026-09-12",
+      "filename": "AIR-014_IASC_S9_Code_and_Results.zip",
+      "bytes": 11410745,
+      "sha256": "b3d8d6fa8254a2a5c3de1fecae5f52c4383b5b0846640ea96de983cb19bd9f0f",
+      "members": 6698,
+      "prefix": "AIR-014_IASC_S9/",
+      "manifest": "PUBLIC_INVENTORY.json",
+      "url": "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/download/iasc-application-2026-09-12/AIR-014_IASC_S9_Code_and_Results.zip",
+      "scope": "Controlled application sources, public trajectory projections and public-only recalculation; excludes candidate bodies"
+    },
+    "s10": {
+      "tag": "iasc-portability-fix-2026-09-12",
+      "filename": "AIR-014_IASC_S10_Portability_Revision.zip",
+      "bytes": 256095,
+      "sha256": "f4479dd6a5caa3e9aae5ca58368cb23783e847d020d29cec370ff446ae41bf6d",
+      "members": 107,
+      "prefix": "AIR-014_IASC_S10/",
+      "manifest": "PUBLIC_MANIFEST.json",
+      "url": "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/download/iasc-portability-fix-2026-09-12/AIR-014_IASC_S10_Portability_Revision.zip",
+      "scope": "Original finite-model evidence with the corrected post-study cross-platform verifier"
+    }
+  }
+}

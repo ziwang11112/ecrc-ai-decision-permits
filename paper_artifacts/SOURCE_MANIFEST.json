@@ -1,0 +1,281 @@
+{
+  "scope": "Current main figure and table presentation; saved numeric inputs only, no new experiment or bootstrap.",
+  "sources_relative_to": "output/iasc_overleaf",
+  "sources": [
+    {
+      "kind": "plot_script",
+      "source_relative_to_paper": "supplement/story_revision/build_main_figures.py",
+      "original_copy": "provenance/original_scripts/build_main_figures.py",
+      "original_sha256": "17e1cfc703d183992bcdacbfc66d7497136e1c81cdd2abb97fcb98948642f040",
+      "standalone_path": "scripts/build_main_figures.py",
+      "standalone_sha256": "c2070db793963cc24b64f7693437b99816d3ceeae3ef12a4a18c0f591d01f81f",
+      "changes": {
+        "P=HERE.parents[1]": "P=HERE.parent",
+        "supplement/current_result_index/figures/data/fig3_plot_data.csv": "data/fig3_plot_data.csv",
+        "supplement/S9_application/S9_cells.csv": "data/S9_cells.csv",
+        "default=HERE/'exports'": "default=P/'exports'"
+      },
+      "original_copy_byte_equal": true
+    },
+    {
+      "kind": "plot_script",
+      "source_relative_to_paper": "supplement/methods_balance/build_pacing_figure.py",
+      "original_copy": "provenance/original_scripts/build_pacing_figure.py",
+      "original_sha256": "7956327b38c7d6b6376349aefea07c895d659be50ef76f2f9bd5b710e575adc6",
+      "standalone_path": "scripts/build_pacing_figure.py",
+      "standalone_sha256": "3d5cfdbeebc3429f09e2c80b0ed4fe336809bbf2768317beb5adf6119164e3be",
+      "changes": {
+        "PAPER = HERE.parents[1]": "PAPER = HERE.parent",
+        "supplement/current_result_index/figures/data/fig5_plot_data.csv": "data/fig5_plot_data.csv",
+        "default=HERE / \"exports\"": "default=PAPER / \"exports\""
+      },
+      "original_copy_byte_equal": true
+    },
+    {
+      "kind": "aggregate_scientific_csv",
+      "source_relative_to_paper": "supplement/current_result_index/figures/data/fig3_plot_data.csv",
+      "standalone_path": "data/fig3_plot_data.csv",
+      "source_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+      "standalone_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+      "rows": 36,
+      "fields": [
+        "scenario",
+        "phase",
+        "metric",
+        "n_observations",
+        "min",
+        "max",
+        "display"
+      ],
+      "byte_equal": true
+    },
+    {
+      "kind": "aggregate_scientific_csv",
+      "source_relative_to_paper": "supplement/S9_application/S9_cells.csv",
+      "standalone_path": "data/S9_cells.csv",
+      "source_sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+      "standalone_sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+      "rows": 8,
+      "fields": [
+        "condition",
+        "policy",
+        "arm",
+        "batches",
+        "eligible_tasks",
+        "timely_tasks",
+        "durable_pass_tasks_by_deadline",
+        "eventual_pass_tasks",
+        "jobs",
+        "actual_starts",
+        "pass_jobs",
+        "fail_jobs",
+        "timeout_jobs",
+        "http_posts",
+        "response_drops",
+        "cache_hits",
+        "primary_retries",
+        "drain_retries",
+        "child_cpu_seconds",
+        "suite_wall_seconds",
+        "launcher_wall_seconds",
+        "late_host_launches",
+        "denied_decisions",
+        "timely_percent",
+        "median_batch_complete_s",
+        "max_stop_held",
+        "max_final_held"
+      ],
+      "byte_equal": true
+    },
+    {
+      "kind": "aggregate_scientific_csv",
+      "source_relative_to_paper": "supplement/current_result_index/figures/data/fig5_plot_data.csv",
+      "standalone_path": "data/fig5_plot_data.csv",
+      "source_sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249",
+      "standalone_sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249",
+      "rows": 60,
+      "fields": [
+        "panel",
+        "dataset_id",
+        "cohort",
+        "model_name",
+        "capacity_basis",
+        "estimand",
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "units",
+        "n_participants",
+        "finite_replicates",
+        "source",
+        "quantity",
+        "n_common_valid",
+        "n_reference_only",
+        "n_comparison_only"
+      ],
+      "byte_equal": true
+    },
+    {
+      "kind": "current_table_tex",
+      "current_table_number": 1,
+      "source_relative_to_paper": "tables/lifecycle_states.tex",
+      "standalone_path": "tables/lifecycle_states.tex",
+      "source_sha256": "a2e30c4bdf7b0c27e3207baa6af176376e6b794288556b8ee43b652e5d5b2e52",
+      "standalone_sha256": "a2e30c4bdf7b0c27e3207baa6af176376e6b794288556b8ee43b652e5d5b2e52",
+      "byte_equal": true
+    },
+    {
+      "kind": "current_table_tex",
+      "current_table_number": 2,
+      "source_relative_to_paper": "tables/delivery_cost.tex",
+      "standalone_path": "tables/delivery_cost.tex",
+      "source_sha256": "2facc49390b10786d228a4a1f371fa52d70e54c2a6a6a930d3005c0ca17dc91d",
+      "standalone_sha256": "2facc49390b10786d228a4a1f371fa52d70e54c2a6a6a930d3005c0ca17dc91d",
+      "byte_equal": true
+    },
+    {
+      "kind": "current_table_tex",
+      "current_table_number": 3,
+      "source_relative_to_paper": "tables/application_results.tex",
+      "standalone_path": "tables/application_results.tex",
+      "source_sha256": "95bcfe1d0daabe870240c9329e809017bf3bb495f0f202d09a03e29b805646da",
+      "standalone_sha256": "95bcfe1d0daabe870240c9329e809017bf3bb495f0f202d09a03e29b805646da",
+      "byte_equal": true
+    },
+    {
+      "kind": "current_table_tex",
+      "current_table_number": 4,
+      "source_relative_to_paper": "tables/cap_precision.tex",
+      "standalone_path": "tables/cap_precision.tex",
+      "source_sha256": "d4b395a54c0a53100040117551ec8a93ff264ffc855aaf83f2394ea8f46ec25d",
+      "standalone_sha256": "d4b395a54c0a53100040117551ec8a93ff264ffc855aaf83f2394ea8f46ec25d",
+      "byte_equal": true
+    },
+    {
+      "kind": "current_table_tex",
+      "current_table_number": 5,
+      "source_relative_to_paper": "tables/closest_scope.tex",
+      "standalone_path": "tables/closest_scope.tex",
+      "source_sha256": "a324a8e5f1e13e615d48aa3027afe4a1fb77038328ca0441b8b4fab80ff4682d",
+      "standalone_sha256": "a324a8e5f1e13e615d48aa3027afe4a1fb77038328ca0441b8b4fab80ff4682d",
+      "byte_equal": true
+    },
+    {
+      "kind": "aggregate_scientific_csv",
+      "source_relative_to_paper": "supplement/S6_performance_runs.csv",
+      "standalone_path": "data/S6_performance_runs.csv",
+      "source_sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+      "standalone_sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+      "rows": 30,
+      "fields": [
+        "arm",
+        "workers",
+        "rep",
+        "n_timed_requests",
+        "elapsed_seconds",
+        "throughput_requests_per_second",
+        "median_latency_ms",
+        "p95_latency_ms",
+        "max_latency_ms",
+        "client_database_bytes",
+        "sink_database_bytes",
+        "effects_including_warmup",
+        "final_reserved"
+      ],
+      "byte_equal": true
+    },
+    {
+      "kind": "aggregate_scientific_csv",
+      "source_relative_to_paper": "supplement/S6_performance_summary.csv",
+      "standalone_path": "data/S6_performance_summary.csv",
+      "source_sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+      "standalone_sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+      "rows": 6,
+      "fields": [
+        "arm",
+        "workers",
+        "repetitions",
+        "p95_latency_ms_median",
+        "p95_latency_ms_min",
+        "p95_latency_ms_max",
+        "median_latency_ms_median",
+        "median_latency_ms_min",
+        "median_latency_ms_max",
+        "throughput_requests_per_second_median",
+        "throughput_requests_per_second_min",
+        "throughput_requests_per_second_max",
+        "client_database_bytes_median",
+        "client_database_bytes_min",
+        "client_database_bytes_max"
+      ],
+      "byte_equal": true
+    },
+    {
+      "kind": "aggregate_scientific_csv",
+      "source_relative_to_paper": "supplement/current_result_index/tables/table5_cap_removal_complete.csv",
+      "standalone_path": "data/table5_cap_removal_complete.csv",
+      "source_sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
+      "standalone_sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
+      "rows": 6,
+      "fields": [
+        "dataset_id",
+        "cohort",
+        "model_name",
+        "model_label",
+        "n_precision",
+        "n_coverage",
+        "n_participants",
+        "precision_excluded",
+        "coverage_excluded",
+        "pooled_precision_difference",
+        "macro_precision_difference",
+        "macro_precision_ci_low",
+        "macro_precision_ci_high",
+        "pooled_coverage_difference",
+        "macro_coverage_difference",
+        "macro_coverage_ci_low",
+        "macro_coverage_ci_high",
+        "fixed_alerts",
+        "removed_alerts",
+        "fixed_reviews",
+        "removed_reviews"
+      ],
+      "byte_equal": true
+    }
+  ],
+  "included_data_allowlist": [
+    "data/S6_performance_runs.csv",
+    "data/S6_performance_summary.csv",
+    "data/S9_cells.csv",
+    "data/fig3_plot_data.csv",
+    "data/fig5_plot_data.csv",
+    "data/table5_cap_removal_complete.csv"
+  ],
+  "canonical_reference_pdfs": [
+    {
+      "figure": 1,
+      "source_relative_to_paper": "figures/fig1.pdf",
+      "sha256": "a4dece80551808347dec1f2bdd770d9be658613eed44dfa9c01b5b939da94b3f"
+    },
+    {
+      "figure": 2,
+      "source_relative_to_paper": "figures/fig2.pdf",
+      "sha256": "c842fa35722cb12f1ce753ee1e06a9e329190a32a0cf887d1f70967151f9b636"
+    },
+    {
+      "figure": 3,
+      "source_relative_to_paper": "figures/fig3.pdf",
+      "sha256": "c6c6b910b40f4c15324a71f07084b9ade9ccaba859db466b5fed3e19ca498d3b"
+    },
+    {
+      "figure": 4,
+      "source_relative_to_paper": "figures/fig4.pdf",
+      "sha256": "b74fdd8c628a3e29656b4394341d19f87139576c7ecc15fd321990da70b05169"
+    },
+    {
+      "figure": 5,
+      "source_relative_to_paper": "figures/fig5.pdf",
+      "sha256": "7dfdfbfbd69cac1cc064b8a578fb71e9b3bd817f5aeda3c5e26104f722a380e5"
+    }
+  ]
+}

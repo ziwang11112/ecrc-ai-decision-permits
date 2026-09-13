@@ -1,0 +1,124 @@
+{
+  "status": "PASS_WITH_DECLARED_HISTORICAL_AND_ENVIRONMENT_LIMITS",
+  "base_commit": "fa235c0ecb61c286f1c3a29d9c4bf66ad7c6c027",
+  "scope": "Source inventories, public saved evidence, current plot/table reconstruction and supplemental helper QA. No new formal scientific experiment.",
+  "helper_qa": {
+    "commands": [
+      {
+        "name": "windows_tests_v2",
+        "returncode": 0
+      },
+      {
+        "name": "windows_wrapper_fresh",
+        "returncode": 0
+      },
+      {
+        "name": "windows_wrapper_refusal",
+        "returncode": 2
+      },
+      {
+        "name": "linux_tests_v2",
+        "returncode": 0
+      },
+      {
+        "name": "linux_wrapper_fresh",
+        "returncode": 0
+      },
+      {
+        "name": "linux_wrapper_refusal",
+        "returncode": 2
+      }
+    ],
+    "helpers": {
+      "download_artifact.py": "a2903fa1c3c83703c73187da853e9d545e3fe06dee6286d8a6a1fdcba7faa3af",
+      "run_wrapper_qa.py": "dc9bdff974fc48c28284d8b6ae732c9afd47232a07002545d891d920e8ef08b3",
+      "tests/test_artifact_helpers.py": "f9aeeb31cbcbf1ca5aa7153f26f8d3b515a7adac9865145c62a613dcf00bbe55"
+    },
+    "tests_per_platform": 24,
+    "copied_wrapper_qa_cases_per_platform": 10,
+    "protected_source_files": 90,
+    "protected_source_changed": [],
+    "retained_wrapper_and_report_unchanged": true,
+    "formal_experiments_executed": 0
+  },
+  "paper_artifacts": {
+    "passed": true,
+    "package": "current_paper_artifacts",
+    "intended_repository_path": "paper_artifacts/",
+    "package_files": 49,
+    "file_manifest_sha256": "11988d7fe2d94b1344e8baa3589a0e21b5565b39a9bfa59dfec0b070e7be1654",
+    "source_manifest_sha256": "13f4a03af250cbcc1392ddc987735e0c57fe718ae79c4d1ab4ba15fc4c306c0b",
+    "allowlist": "48 explicitly selected files plus FILE_MANIFEST.json; no manuscript body/full PDF, candidate code, raw private execution outputs, author declarations or third-party papers.",
+    "source_csv_files": 6,
+    "source_csv_rows": 146,
+    "source_csv_bytes_unchanged": true,
+    "original_plot_scripts_archived_verbatim": true,
+    "plot_script_adjustments": "Paths only.",
+    "current_table_tex_sources": 5,
+    "current_table_tex_bytes_unchanged": true,
+    "tables_2_3_4_display_rows_exactly_verified": 17,
+    "table_portability": "Fresh package location, external working directory, standard-library reconstruction; all four generated outputs byte-equal.",
+    "figures": "All five canonical/rebuilt PDFs byte-equal; all five Poppler 180 dpi renders have zero changed pixels and were actually visually inspected. Fresh-location rebuild of all 15 PDF/SVG/PNG files also byte-equal.",
+    "differences": "Standalone script and sidecar paths/hashes change; scientific values, plot styling and PDF/SVG/PNG bytes do not change in the tested environment.",
+    "commands_from_package_root": [
+      "python -m pip install -r requirements.txt",
+      "python scripts/verify_package.py",
+      "python scripts/build_main_figures.py --out ../rebuilt_current_figures",
+      "python scripts/build_pacing_figure.py --out ../rebuilt_current_figures",
+      "python scripts/build_table_values.py --out ../rebuilt_current_tables"
+    ],
+    "new_experiments_fitting_or_bootstrap": false,
+    "scope_limit": "No automatic raw S8 database or literature-judgment verification. No cross-version universal rendering guarantee.",
+    "documentation_only_changes_after_rebuild": "Clarified README output types, shared figure output directory and pip transitive dependencies; numerical inputs, builders and exports unchanged."
+  },
+  "study_checks": {
+    "s1_s8_mirror_files": 255,
+    "s6_runtime_files": 35,
+    "s8_frozen_files": 34,
+    "s1_s8_archive_members": 9744,
+    "s9_archive_members": 6698,
+    "s10_portable_members": 107,
+    "archive_sha256": {
+      "s1-s8": "272f62703350380eb64c5922005b7284502b1e7cde41381404a3d7120c033074",
+      "s9": "b3d8d6fa8254a2a5c3de1fecae5f52c4383b5b0846640ea96de983cb19bd9f0f",
+      "s10": "f4479dd6a5caa3e9aae5ca58368cb23783e847d020d29cec370ff446ae41bf6d"
+    },
+    "s8_saved_runsets": {
+      "sets": 2,
+      "cases_per_set": 36,
+      "snapshots_per_set": 126,
+      "checks_per_set": 36210,
+      "effects_per_set": 78,
+      "passed": true
+    },
+    "s9_public_recalculation": {
+      "passed": true,
+      "development_runs": 8,
+      "formal_trajectories": 144,
+      "candidate_code_executed": false
+    },
+    "s10_retained_verifier": {
+      "passed": true,
+      "frozen_sources": 15,
+      "evidence_digests": 19,
+      "normal_states": [
+        684,
+        21960
+      ],
+      "new_enumeration": false
+    },
+    "anonymous_s10_download_verified": true,
+    "original_frozen_source_trees_changed": []
+  },
+  "cloud_ci": {
+    "repository_actions_enabled": false,
+    "cloud_pass_claimed": false
+  },
+  "core_pytest": "Not rerun for this tooling/documentation cleanup; historical core implementation and tests unchanged.",
+  "limits": [
+    "Original run_e1.py bytes and ten inner calibration grids unavailable",
+    "S9 candidate bodies and private raw databases intentionally excluded",
+    "S9 execution requires documented author sandbox setup; no turnkey portability claim",
+    "S10 external baseline targets are not checked by the public package"
+  ]
+}

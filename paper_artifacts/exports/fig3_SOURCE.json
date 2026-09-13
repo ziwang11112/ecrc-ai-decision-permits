@@ -1,0 +1,23 @@
+{
+  "source": "data/fig3_plot_data.csv",
+  "source_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
+  "rows": 36,
+  "filter": "none",
+  "observations_per_cell": 6,
+  "values_changed": false,
+  "phase_labels": {
+    "expired_unarmed_cleanup": {
+      "issued_unarmed_before_expiry": "Permit issued",
+      "expired_unarmed_cancelled": "Expiry + cancel",
+      "cancelled_replay_no_dispatch": "Retry: no dispatch",
+      "released_budget_reused": "Budget reused",
+      "final": "Final"
+    },
+    "accepted_timeout_cleanup_recovery": {
+      "sink_committed_client_timed_out": "Effect stored; no ACK",
+      "cleanup_retained_unknown_grant": "Cleanup: retain unit",
+      "after_unknown_recovery_competition": "Recovery + competition",
+      "final": "Final"
+    }
+  }
+}

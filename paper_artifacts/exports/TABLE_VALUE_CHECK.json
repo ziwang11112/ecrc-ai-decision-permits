@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "tables_checked": [
+    2,
+    3,
+    4
+  ],
+  "display_rows_checked": 17,
+  "source_hashes_checked": {
+    "data/S9_cells.csv": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+    "tables/delivery_cost.tex": "2facc49390b10786d228a4a1f371fa52d70e54c2a6a6a930d3005c0ca17dc91d",
+    "tables/application_results.tex": "95bcfe1d0daabe870240c9329e809017bf3bb495f0f202d09a03e29b805646da",
+    "tables/cap_precision.tex": "d4b395a54c0a53100040117551ec8a93ff264ffc855aaf83f2394ea8f46ec25d",
+    "data/S6_performance_runs.csv": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
+    "data/S6_performance_summary.csv": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
+    "data/table5_cap_removal_complete.csv": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4"
+  },
+  "table2": {
+    "run_rows": 30,
+    "summary_rows": 6,
+    "display_rows": 3,
+    "p95_summary_recomputed_from_saved_run_values": true,
+    "decimal_places": 1,
+    "range_meaning": "minimum and maximum of five run-level p95 observations, not confidence intervals"
+  },
+  "table3": {
+    "source_rows": 8,
+    "display_rows": 8,
+    "launcher_decimal_places": 2
+  },
+  "table4": {
+    "source_rows": 6,
+    "display_rows": 6,
+    "decimal_places": 3,
+    "exception": "External HGB lower endpoint displayed to five decimal places, retaining 0.00015.",
+    "intervals": "Saved conditional intervals reused; no resampling."
+  },
+  "manual_tables_not_numerically_reconstructed": [
+    1,
+    5
+  ],
+  "scope": "All displayed data-row strings matched the included current TeX; captions, conceptual claims and literature judgments are not automatically verified.",
+  "new_experiments_fitting_or_bootstrap": false
+}

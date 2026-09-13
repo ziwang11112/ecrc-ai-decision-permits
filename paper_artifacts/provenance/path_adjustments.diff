@@ -1,0 +1,67 @@
+--- provenance/original_scripts/build_main_figures.py
++++ scripts/build_main_figures.py
+@@ -11,7 +11,7 @@
+ from matplotlib.patches import Rectangle,FancyArrowPatch
+ 
+ HERE=Path(__file__).resolve().parent
+-P=HERE.parents[1]
++P=HERE.parent
+ INK='#263640';TEAL='#176B70';GREY='#677078';AMBER='#896129'
+ plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9.5,'pdf.fonttype':42,'ps.fonttype':42,'svg.fonttype':'none','svg.hashsalt':'ecrc-story-20260912'})
+ texts=[];cards=[]
+@@ -89,7 +89,7 @@
+     arrow(a,[(3.99,1.56),(4.13,1.56),(4.13,2.28)],AMBER,True)
+     save(f,out,2)
+ def fig3(out):
+-    src=P/'supplement/current_result_index/figures/data/fig3_plot_data.csv'
++    src=P/'data/fig3_plot_data.csv'
+     rows=list(csv.DictReader(src.open(encoding='utf-8')))
+     assert len(rows)==36 and all(int(r['n_observations'])==6 and r['min']==r['max']==r['display'] for r in rows)
+     by={(r['scenario'],r['phase'],r['metric']):int(r['display']) for r in rows}
+@@ -110,10 +110,10 @@
+                 text(a,x+w/2,y,str(v),9.3)
+         for i,(metric,label) in enumerate(metrics):text(a,1.36,top-.72-i*.30,label,9.0,ha='right')
+     save(f,out,3)
+-    (out/'fig3_SOURCE.json').write_text(json.dumps({'source':'supplement/current_result_index/figures/data/fig3_plot_data.csv','source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'rows':36,'filter':'none','observations_per_cell':6,'values_changed':False,'phase_labels':{s:{p:l.replace('\n',' ') for p,l in ph} for s,t,ph in panels}},indent=2)+'\n')
++    (out/'fig3_SOURCE.json').write_text(json.dumps({'source':'data/fig3_plot_data.csv','source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'rows':36,'filter':'none','observations_per_cell':6,'values_changed':False,'phase_labels':{s:{p:l.replace('\n',' ') for p,l in ph} for s,t,ph in panels}},indent=2)+'\n')
+ 
+ def fig4(out):
+-    src=P/'supplement/S9_application/S9_cells.csv'
++    src=P/'data/S9_cells.csv'
+     rows=list(csv.DictReader(src.open(encoding='utf-8')))
+     assert len(rows)==8 and all(int(x['batches'])==18 and int(x['eligible_tasks'])==144 for x in rows)
+     by={(x['condition'],x['policy'],x['arm']):x for x in rows}
+@@ -133,9 +133,9 @@
+     axs[1].legend(loc='upper right',frameon=False,ncols=2,fontsize=8.3,handlelength=1,columnspacing=.9)
+     f.subplots_adjust(left=.14,right=.985,bottom=.20,top=.85,wspace=.17)
+     save(f,out,4)
+-    (out/'fig4_SOURCE.json').write_text(json.dumps({'source':'supplement/S9_application/S9_cells.csv','source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),
++    (out/'fig4_SOURCE.json').write_text(json.dumps({'source':'data/S9_cells.csv','source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),
+         'rows':8,'filter':'none','value':'timely_tasks','denominator':144,'intervals':'none; descriptive counts','new_experiments':False},indent=2)+'\n')
+ if __name__=='__main__':
+-    p=argparse.ArgumentParser();p.add_argument('--out',type=Path,default=HERE/'exports');a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True)
++    p=argparse.ArgumentParser();p.add_argument('--out',type=Path,default=P/'exports');a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True)
+     fig1(a.out);fig2(a.out);fig3(a.out);fig4(a.out)
+     print(json.dumps({'outputs':[{ 'path':p.name,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(a.out.glob('fig*.pdf'))]},indent=2))
+--- provenance/original_scripts/build_pacing_figure.py
++++ scripts/build_pacing_figure.py
+@@ -17,8 +17,8 @@
+ from matplotlib.ticker import FixedLocator, FuncFormatter
+ 
+ HERE = Path(__file__).resolve().parent
+-PAPER = HERE.parents[1]
+-SOURCE = PAPER / "supplement/current_result_index/figures/data/fig5_plot_data.csv"
++PAPER = HERE.parent
++SOURCE = PAPER / "data/fig5_plot_data.csv"
+ SOURCE_SHA256 = "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249"
+ INK, TEAL, GREY = "#263640", "#176B70", "#677078"
+ COHORTS = ("Development", "External")
+@@ -37,7 +37,7 @@
+ 
+ def main():
+     parser = argparse.ArgumentParser(description=__doc__)
+-    parser.add_argument("--out", type=Path, default=HERE / "exports")
++    parser.add_argument("--out", type=Path, default=PAPER / "exports")
+     args = parser.parse_args()
+     assert sha256(SOURCE) == SOURCE_SHA256, "Saved source bytes changed"
+     with SOURCE.open(encoding="utf-8", newline="") as handle:

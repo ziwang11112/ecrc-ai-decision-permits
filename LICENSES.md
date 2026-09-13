@@ -12,3 +12,10 @@ synthetic system records. Original upstream data remain obtained separately.
 Preserve upstream notices and modification attribution; no endorsement is implied.
 The full licence/attribution explanation is in docs/DATA_SOURCES_AND_LICENSES.md
 and is also included inside and beside the release artifact.
+
+The controlled S9 application has an additional
+[license and exclusion notice](iasc_application/LICENSE_SCOPE.md), including
+the preserved MIT HumanEval test-data notice and the candidate-program
+redistribution boundary. The current [paper artifact package](paper_artifacts/README.md)
+uses the code and derived-evidence terms above; its plotting scripts do not
+assign a new license to upstream data.

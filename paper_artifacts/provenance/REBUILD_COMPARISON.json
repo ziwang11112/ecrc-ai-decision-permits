@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "compared_figures": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rebuild_working_directory": "Parent QA directory, outside the standalone package.",
+  "renderer": "pdftoppm version 26.07.0",
+  "render_dpi": 180,
+  "python_version": "3.12.10",
+  "matplotlib_version": "3.10.9",
+  "pillow_version": "12.2.0",
+  "platform": "Windows 11",
+  "comparison": [
+    {
+      "figure": 1,
+      "canonical_pdf_sha256": "a4dece80551808347dec1f2bdd770d9be658613eed44dfa9c01b5b939da94b3f",
+      "rebuilt_pdf_sha256": "a4dece80551808347dec1f2bdd770d9be658613eed44dfa9c01b5b939da94b3f",
+      "pdf_byte_equal": true,
+      "dpi": 180,
+      "render_pixels": [
+        1170,
+        477
+      ],
+      "changed_pixels": 0,
+      "max_absolute_channel_difference": 0,
+      "pixel_equal": true,
+      "canonical_render_sha256": "eb31e2873d8c730e7fa1e42dc570439e56056b33624be79a7d1ce7ccb9f88077",
+      "rebuilt_render_sha256": "eb31e2873d8c730e7fa1e42dc570439e56056b33624be79a7d1ce7ccb9f88077",
+      "png_export_sha256": "db294bca13394344c3d5e08c85057c373b495fcbcbf7f4480074bca7e7f881bf",
+      "svg_export_sha256": "abe12ca9f4240f38bece0b03b3502bcc0a5e56ed937bcc221f6bb2cd28084442"
+    },
+    {
+      "figure": 2,
+      "canonical_pdf_sha256": "c842fa35722cb12f1ce753ee1e06a9e329190a32a0cf887d1f70967151f9b636",
+      "rebuilt_pdf_sha256": "c842fa35722cb12f1ce753ee1e06a9e329190a32a0cf887d1f70967151f9b636",
+      "pdf_byte_equal": true,
+      "dpi": 180,
+      "render_pixels": [
+        1170,
+        877
+      ],
+      "changed_pixels": 0,
+      "max_absolute_channel_difference": 0,
+      "pixel_equal": true,
+      "canonical_render_sha256": "732bdb6195387aba865b38903cfd0cb39ac818d5d45d40851d4f8b64c8f71d2e",
+      "rebuilt_render_sha256": "732bdb6195387aba865b38903cfd0cb39ac818d5d45d40851d4f8b64c8f71d2e",
+      "png_export_sha256": "11d2337da57d728807e14d1a5c10526b265f6dbdb0bc312089dae9c5ce597a3c",
+      "svg_export_sha256": "905e910d69bbda4f228f7ddf88d4d16ab990640f8f58e9c72e4fce350f1a9359"
+    },
+    {
+      "figure": 3,
+      "canonical_pdf_sha256": "c6c6b910b40f4c15324a71f07084b9ade9ccaba859db466b5fed3e19ca498d3b",
+      "rebuilt_pdf_sha256": "c6c6b910b40f4c15324a71f07084b9ade9ccaba859db466b5fed3e19ca498d3b",
+      "pdf_byte_equal": true,
+      "dpi": 180,
+      "render_pixels": [
+        1170,
+        711
+      ],
+      "changed_pixels": 0,
+      "max_absolute_channel_difference": 0,
+      "pixel_equal": true,
+      "canonical_render_sha256": "d29688bf819e886ca68cda0ca1488f12f002243d57369ba86221dd966126a694",
+      "rebuilt_render_sha256": "d29688bf819e886ca68cda0ca1488f12f002243d57369ba86221dd966126a694",
+      "png_export_sha256": "cd79b85b3343686b8bb433a701af2d99d2e584016f3ab219629fa922723b3b29",
+      "svg_export_sha256": "bf7a0f9b8017de41c0674bbc270afa537d68ded7ff0c91df28f9b638f907c55d"
+    },
+    {
+      "figure": 4,
+      "canonical_pdf_sha256": "b74fdd8c628a3e29656b4394341d19f87139576c7ecc15fd321990da70b05169",
+      "rebuilt_pdf_sha256": "b74fdd8c628a3e29656b4394341d19f87139576c7ecc15fd321990da70b05169",
+      "pdf_byte_equal": true,
+      "dpi": 180,
+      "render_pixels": [
+        1170,
+        522
+      ],
+      "changed_pixels": 0,
+      "max_absolute_channel_difference": 0,
+      "pixel_equal": true,
+      "canonical_render_sha256": "10a26c836e784ec58db68056e59e2c449488edaf4a3d4cbd1435c201f5f1db1f",
+      "rebuilt_render_sha256": "10a26c836e784ec58db68056e59e2c449488edaf4a3d4cbd1435c201f5f1db1f",
+      "png_export_sha256": "094d205719aa195663f8b3d91893e3a0427f32be782ed45a3e6ab1ec8a2cc71b",
+      "svg_export_sha256": "2808b0e56f6f0f3732d0c4c2a32aa4402d1736e273fe55d8fe84e1463d24e40d"
+    },
+    {
+      "figure": 5,
+      "canonical_pdf_sha256": "7dfdfbfbd69cac1cc064b8a578fb71e9b3bd817f5aeda3c5e26104f722a380e5",
+      "rebuilt_pdf_sha256": "7dfdfbfbd69cac1cc064b8a578fb71e9b3bd817f5aeda3c5e26104f722a380e5",
+      "pdf_byte_equal": true,
+      "dpi": 180,
+      "render_pixels": [
+        1170,
+        963
+      ],
+      "changed_pixels": 0,
+      "max_absolute_channel_difference": 0,
+      "pixel_equal": true,
+      "canonical_render_sha256": "0eac4ba13f5b8b086508c12b143a1319daec694e81af69eb9871e5cfc0efa227",
+      "rebuilt_render_sha256": "0eac4ba13f5b8b086508c12b143a1319daec694e81af69eb9871e5cfc0efa227",
+      "png_export_sha256": "227fa53b332c2f94c9d7b1076603384daf103447bc970780a2887bdff8613487",
+      "svg_export_sha256": "f94cf8739d021d1b6c0be5c5e705312356fae76002dc8be3c8c57492dc4a7f1d"
+    }
+  ],
+  "differences": "Standalone scripts and sidecars have adjusted paths/hashes. No changed PDF render pixels.",
+  "limitation": "This local equal-pixel result does not promise byte/pixel identity across arbitrary toolchain versions."
+}

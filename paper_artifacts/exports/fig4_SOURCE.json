@@ -1,0 +1,10 @@
+{
+  "source": "data/S9_cells.csv",
+  "source_sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
+  "rows": 8,
+  "filter": "none",
+  "value": "timely_tasks",
+  "denominator": 144,
+  "intervals": "none; descriptive counts",
+  "new_experiments": false
+}
