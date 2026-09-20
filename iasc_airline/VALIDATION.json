@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-20",
+  "offline_verification": {
+    "passed": true,
+    "copied_source_files": 142,
+    "primary_cells": 2400,
+    "boundary_cells": 64,
+    "independent_policy_recomputed": true
+  },
+  "native_smoke": {
+    "existing_environment_only": true,
+    "new_dependency_installation": false,
+    "new_upstream_download": false,
+    "contexts": 2,
+    "cells": 8,
+    "model_calls": 0,
+    "network_attempts": 0,
+    "cell_errors": 0,
+    "replay_verified": true,
+    "cases": [
+      "record_001_health",
+      "sole24_before"
+    ],
+    "scope": "QA only, excluded from reported study denominators"
+  },
+  "full_native_rerun_performed_for_publication": false,
+  "public_archive": {
+    "filename": "S11_airline_native_evidence_projection.zip",
+    "bytes": 60293051,
+    "sha256": "e74dc37dadafe9175831c19792786a12ee84c7fe8e5913d8919d2b0e1947e695",
+    "members": 30915,
+    "manifest_path": "MANIFEST.json",
+    "prefix": "",
+    "verification": {
+      "archive_verified": true,
+      "files": 30914,
+      "after_states_available": 2464,
+      "after_states_canonically_verified": 2464,
+      "original_gzip_bytes_recreated": false,
+      "original_nonprojected_file_bytes_preserved": true,
+      "primary_cells": 2400,
+      "boundary_cells": 64
+    },
+    "guarantee": "Every reconstructed after-state canonical JSON hash matches; original gzip container bytes are not recreated. Original nonprojected file bytes are preserved."
+  }
+}

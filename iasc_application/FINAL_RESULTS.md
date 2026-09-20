@@ -1,4 +1,6 @@
-# S9: bounded verification of published generated programs
+# Historical S9: bounded verification of published generated programs
+
+> **Historical original results, superseded in part by S9-C.** These 144 trajectories and all their observations remain preserved. The current analysis uses 112 of them plus 32 predetermined replacements and is documented in [context_correction/README.md](context_correction/README.md). Its totals are 1,769 jobs and 188 response drops; the 1,802 jobs and 194 drops below describe the original uncorrected release.
 
 The complete exploratory application study executed 144 predeclared trajectories with no technical failures. It shows that both the ECRC client and the matched ordinary client can govern real, feedback-dependent verification work under the same cumulative count budget. It does not show an ECRC accuracy advantage. The independent audits agree with every published job, run, aggregate and paired-batch CSV row.
 

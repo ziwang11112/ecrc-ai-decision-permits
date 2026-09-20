@@ -1,0 +1,47 @@
+{
+  "operations": [
+    {
+      "path": [
+        "reservations",
+        "9Z5X1D",
+        "created_at"
+      ],
+      "before": "2024-05-12T21:07:16",
+      "after": "2024-05-14T15:00:01"
+    },
+    {
+      "path": [
+        "reservations",
+        "9Z5X1D",
+        "insurance"
+      ],
+      "before": "yes",
+      "after": "no"
+    },
+    {
+      "path": [
+        "reservations",
+        "9Z5X1D",
+        "flights"
+      ],
+      "before": [
+        {
+          "flight_number": "HAT053",
+          "origin": "DTW",
+          "destination": "CLT",
+          "date": "2024-05-12",
+          "price": 153
+        }
+      ],
+      "after": [
+        {
+          "flight_number": "HAT053",
+          "origin": "DTW",
+          "destination": "CLT",
+          "date": "2024-05-20",
+          "price": 153
+        }
+      ]
+    }
+  ]
+}

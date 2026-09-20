@@ -1,0 +1,89 @@
+{
+  "schema_version": "protocol_predictions_only_v1",
+  "not_actor_or_evaluator_input": true,
+  "not_technical_pass_requirements": true,
+  "policy_basis_namespace": "Frozen independent_audit._cancel_rule return labels; actors use equivalent differently named basis strings",
+  "interpretation": "Pre-fixed predictions from public policy and frozen inclusive checker. Preserve all actual deviations. No expected arm performance encoded.",
+  "cases": [
+    {
+      "case_id": "sole24_before",
+      "predicted_category": "eligible",
+      "predicted_policy_basis": "booking_within_24_hours"
+    },
+    {
+      "case_id": "sole24_at",
+      "predicted_category": "eligible",
+      "predicted_policy_basis": "booking_within_24_hours"
+    },
+    {
+      "case_id": "sole24_after",
+      "predicted_category": "ineligible",
+      "predicted_policy_basis": "no_cancellation_basis"
+    },
+    {
+      "case_id": "insured_weather",
+      "predicted_category": "eligible",
+      "predicted_policy_basis": "insurance_covered_reason"
+    },
+    {
+      "case_id": "uninsured_weather",
+      "predicted_category": "ineligible",
+      "predicted_policy_basis": "no_cancellation_basis"
+    },
+    {
+      "case_id": "insured_other",
+      "predicted_category": "ineligible",
+      "predicted_policy_basis": "no_cancellation_basis"
+    },
+    {
+      "case_id": "sole_airline_cancelled",
+      "predicted_category": "eligible",
+      "predicted_policy_basis": "airline_cancelled"
+    },
+    {
+      "case_id": "airline_available_control",
+      "predicted_category": "ineligible",
+      "predicted_policy_basis": "no_cancellation_basis"
+    },
+    {
+      "case_id": "sole_business",
+      "predicted_category": "eligible",
+      "predicted_policy_basis": "business"
+    },
+    {
+      "case_id": "flying_overrides24",
+      "predicted_category": "unresolved_or_transfer",
+      "predicted_policy_basis": "already_flown_requires_transfer"
+    },
+    {
+      "case_id": "flying_overrides_insured_weather",
+      "predicted_category": "unresolved_or_transfer",
+      "predicted_policy_basis": "already_flown_requires_transfer"
+    },
+    {
+      "case_id": "already_cancelled_overrides24",
+      "predicted_category": "ineligible",
+      "predicted_policy_basis": "already_cancelled"
+    },
+    {
+      "case_id": "missing_reason_overrides24",
+      "predicted_category": "unresolved_required_information",
+      "predicted_policy_basis": "no_supported_explicit_cancellation_reason"
+    },
+    {
+      "case_id": "missing_reason_overrides_insurance",
+      "predicted_category": "unresolved_required_information",
+      "predicted_policy_basis": "no_supported_explicit_cancellation_reason"
+    },
+    {
+      "case_id": "missing_reason_overrides_airline",
+      "predicted_category": "unresolved_required_information",
+      "predicted_policy_basis": "no_supported_explicit_cancellation_reason"
+    },
+    {
+      "case_id": "missing_reason_overrides_business",
+      "predicted_category": "unresolved_required_information",
+      "predicted_policy_basis": "no_supported_explicit_cancellation_reason"
+    }
+  ]
+}

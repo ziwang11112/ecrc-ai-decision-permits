@@ -1,0 +1,5 @@
+arm,constructed_request_count,unique_accounts,unique_reservations,unique_accounts_with_eligible_request,unique_reservations_with_eligible_request,selected_candidate_count,eligible_count,ineligible_count,unresolved_candidate_count,eligible_completed,eligible_missed,ineligible_executed,unresolved_executed,unresolved_selector,stage_actions_safe_and_complete,out_of_selection_executed_count,missing_information_count,missing_information_executed,transfer_required_count,transfer_required_executed,native_calls,native_writes,native_errors,full_task_success_established
+direct_native_dispatch,300,100,100,40,40,300,59,59,182,59,0,59,182,0,59,0,100,100,82,82,4521,300,0,False
+qualification_ecrc,300,100,100,40,40,300,59,59,182,59,0,0,0,0,118,0,100,0,82,0,4039,59,0,False
+existing_rules_only,300,100,100,40,40,300,59,59,182,59,0,0,0,0,118,0,100,0,82,0,4039,59,0,False
+without_claim_evidence_requirement,300,100,100,40,40,300,59,59,182,59,0,59,182,0,59,0,100,100,82,82,4521,300,0,False

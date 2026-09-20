@@ -1,0 +1,6 @@
+﻿arm,request_cases,selected_candidate_count,eligible_count,ineligible_count,unresolved_candidate_count,eligible_completed,eligible_missed,ineligible_executed,unresolved_executed,native_calls,writes,unresolved_selector,stage_actions_safe_and_complete,native_component_score_counts,information_missing_count,transfer_required_count,eligible_completion_rate,eligible_false_rejection_rate,native_component_scores_are_diagnostic_only,issued_permits,armed_jobs,held_units,committed_units,completion_receipts
+direct_native_dispatch,6,5,0,2,3,0,0,2,3,71,5,2,0,"{""0.0"":6}",3,0,,,True,,,,,
+qualification_ecrc,6,5,0,2,3,0,0,0,0,61,0,2,2,"{""1.0"":3,""0.0"":3}",3,0,,,True,5,0,0,0,0
+existing_rules_only,6,5,0,2,3,0,0,0,0,61,0,2,2,"{""1.0"":3,""0.0"":3}",3,0,,,True,,,,,
+without_claim_evidence_requirement,6,5,0,2,3,0,0,2,3,71,5,2,0,"{""0.0"":6}",3,0,,,True,5,5,5,0,0
+without_metadata_qualification,6,5,0,2,3,0,0,0,0,61,0,2,2,"{""1.0"":3,""0.0"":3}",3,0,,,True,5,0,0,0,0

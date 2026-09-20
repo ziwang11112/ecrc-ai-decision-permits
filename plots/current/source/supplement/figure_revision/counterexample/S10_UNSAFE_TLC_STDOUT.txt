@@ -1,0 +1,422 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Warning: Please run the Java VM which executes TLC with a throughput optimized garbage collector by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 0 and seed 1138600176901343676 with 1 worker on 16 cores with 2048MB heap and 64MB offheap memory [pid: 12276] (Windows 11 10.0 amd64, Eclipse Adoptium 21.0.12.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file D:\AIR-014_ECRC_Paper_Clean_2026-08-16\research_pilots\iasc_model_check_2026-09-12\runs\v1\tlc\unsafe_2_1\ECRCLifecycle.tla
+Parsing file C:\Users\ziwan\AppData\Local\Temp\Naturals.tla
+Parsing file C:\Users\ziwan\AppData\Local\Temp\FiniteSets.tla
+Parsing file C:\Users\ziwan\AppData\Local\Temp\Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module ECRCLifecycle
+Starting... (2026-09-12 13:19:34)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-09-12 13:19:34.
+Error: Invariant EffectCountBound is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ cancelled = {}
+/\ expired = {}
+/\ received = {}
+/\ effects = {}
+/\ held = {}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {}
+/\ heldCount = 0
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {}
+/\ denied = {}
+/\ issued = {}
+/\ clientUp = TRUE
+
+State 2: <ReceiveRaw line 33, col 5 to line 37, col 64 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {}
+/\ received = {1}
+/\ effects = {}
+/\ held = {}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {}
+/\ heldCount = 0
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {}
+/\ denied = {}
+/\ issued = {}
+/\ clientUp = TRUE
+
+State 3: <IssueAction line 40, col 5 to line 46, col 53 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {}
+/\ received = {1}
+/\ effects = {}
+/\ held = {1}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {}
+/\ denied = {}
+/\ issued = {1}
+/\ clientUp = TRUE
+
+State 4: <Arm line 57, col 5 to line 63, col 64 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {}
+/\ received = {1}
+/\ effects = {}
+/\ held = {1}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {1}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {}
+/\ denied = {}
+/\ issued = {1}
+/\ clientUp = TRUE
+
+State 5: <ExpirePermit line 66, col 5 to line 70, col 64 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1}
+/\ effects = {}
+/\ held = {1}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {1}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {}
+/\ denied = {}
+/\ issued = {1}
+/\ clientUp = TRUE
+
+State 6: <Send line 82, col 5 to line 85, col 79 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1}
+/\ effects = {}
+/\ held = {1}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {1}
+/\ armed = {1}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {}
+/\ denied = {}
+/\ issued = {1}
+/\ clientUp = TRUE
+
+State 7: <CommitEffect line 93, col 5 to line 98, col 52 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1}
+/\ effects = {1}
+/\ held = {1}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {1}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {1}
+/\ denied = {}
+/\ issued = {1}
+/\ clientUp = TRUE
+
+State 8: <UnsafeReleaseUnknown line 137, col 5 to line 143, col 53 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1}
+/\ effects = {1}
+/\ held = {}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {1}
+/\ heldCount = 0
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {1}
+/\ denied = {}
+/\ issued = {1}
+/\ clientUp = TRUE
+
+State 9: <ReceiveRaw line 33, col 5 to line 37, col 64 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1, 2}
+/\ effects = {1}
+/\ held = {}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {1}
+/\ heldCount = 0
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {1}
+/\ denied = {}
+/\ issued = {1}
+/\ clientUp = TRUE
+
+State 10: <IssueAction line 40, col 5 to line 46, col 53 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1, 2}
+/\ effects = {1}
+/\ held = {2}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {1}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {1}
+/\ denied = {}
+/\ issued = {1, 2}
+/\ clientUp = TRUE
+
+State 11: <Arm line 57, col 5 to line 63, col 64 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1, 2}
+/\ effects = {1}
+/\ held = {2}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {1, 2}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {1}
+/\ denied = {}
+/\ issued = {1, 2}
+/\ clientUp = TRUE
+
+State 12: <Send line 82, col 5 to line 85, col 79 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1, 2}
+/\ effects = {1}
+/\ held = {2}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {2}
+/\ armed = {1, 2}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {1}
+/\ denied = {}
+/\ issued = {1, 2}
+/\ clientUp = TRUE
+
+State 13: <CommitEffect line 93, col 5 to line 98, col 52 of module ECRCLifecycle>
+/\ cancelled = {}
+/\ expired = {1}
+/\ received = {1, 2}
+/\ effects = {1, 2}
+/\ held = {2}
+/\ committed = {}
+/\ receipts = {}
+/\ requests = {}
+/\ armed = {1, 2}
+/\ heldCount = 1
+/\ sinkUp = TRUE
+/\ committedCount = 0
+/\ acknowledgements = {1, 2}
+/\ denied = {}
+/\ issued = {1, 2}
+/\ clientUp = TRUE
+
+The coverage statistics at 2026-09-12 13:19:34
+<Init line 26, col 1 to line 26, col 4 of module ECRCLifecycle>: 2:2
+  line 26, col 9 to line 30, col 43 of module ECRCLifecycle: 2
+<ReceiveRaw line 32, col 1 to line 32, col 13 of module ECRCLifecycle>: 30:118
+  line 33, col 8 to line 33, col 15 of module ECRCLifecycle: 118
+  line 33, col 20 to line 33, col 36 of module ECRCLifecycle: 983
+  |line 33, col 20 to line 33, col 20 of module ECRCLifecycle: 865
+  |line 33, col 29 to line 33, col 36 of module ECRCLifecycle: 865
+  line 34, col 8 to line 34, col 36 of module ECRCLifecycle: 118
+  line 35, col 8 to line 37, col 64 of module ECRCLifecycle: 118
+<IssueAction line 39, col 1 to line 39, col 14 of module ECRCLifecycle>: 17:37
+  line 40, col 8 to line 40, col 15 of module ECRCLifecycle: 37
+  line 40, col 20 to line 40, col 33 of module ECRCLifecycle: 900
+  |line 40, col 20 to line 40, col 20 of module ECRCLifecycle: 863
+  |line 40, col 26 to line 40, col 33 of module ECRCLifecycle: 863
+  line 40, col 38 to line 40, col 64 of module ECRCLifecycle: 784
+  |line 40, col 38 to line 40, col 38 of module ECRCLifecycle: 747
+  |line 40, col 47 to line 40, col 64 of module ECRCLifecycle: 747
+  line 41, col 8 to line 41, col 44 of module ECRCLifecycle: 37
+  |line 41, col 8 to line 41, col 33 of module ECRCLifecycle: 116
+  |line 41, col 37 to line 41, col 44 of module ECRCLifecycle: 116
+  line 42, col 8 to line 42, col 32 of module ECRCLifecycle: 37
+  line 43, col 8 to line 43, col 58 of module ECRCLifecycle: 37
+  line 44, col 8 to line 46, col 53 of module ECRCLifecycle: 37
+<IssueNoAction line 48, col 1 to line 48, col 16 of module ECRCLifecycle>: 21:79
+  line 49, col 8 to line 49, col 15 of module ECRCLifecycle: 79
+  line 49, col 20 to line 49, col 33 of module ECRCLifecycle: 940
+  |line 49, col 20 to line 49, col 20 of module ECRCLifecycle: 861
+  |line 49, col 26 to line 49, col 33 of module ECRCLifecycle: 861
+  line 49, col 38 to line 49, col 64 of module ECRCLifecycle: 824
+  |line 49, col 38 to line 49, col 38 of module ECRCLifecycle: 745
+  |line 49, col 47 to line 49, col 64 of module ECRCLifecycle: 745
+  line 50, col 8 to line 50, col 45 of module ECRCLifecycle: 79
+  |line 50, col 8 to line 50, col 33 of module ECRCLifecycle: 114
+  |line 50, col 38 to line 50, col 45 of module ECRCLifecycle: 114
+  line 51, col 8 to line 51, col 32 of module ECRCLifecycle: 79
+  line 52, col 8 to line 54, col 64 of module ECRCLifecycle: 79
+<Arm line 56, col 1 to line 56, col 6 of module ECRCLifecycle>: 17:37
+  line 57, col 8 to line 57, col 15 of module ECRCLifecycle: 37
+  line 57, col 20 to line 57, col 41 of module ECRCLifecycle: 898
+  |line 57, col 20 to line 57, col 20 of module ECRCLifecycle: 861
+  |line 57, col 26 to line 57, col 41 of module ECRCLifecycle: 861
+  line 58, col 8 to line 58, col 34 of module ECRCLifecycle: 307
+  |line 58, col 8 to line 58, col 8 of module ECRCLifecycle: 270
+  |line 58, col 17 to line 58, col 34 of module ECRCLifecycle: 270
+  line 60, col 8 to line 60, col 30 of module ECRCLifecycle: 37
+  line 61, col 8 to line 63, col 64 of module ECRCLifecycle: 37
+<ExpirePermit line 65, col 1 to line 65, col 15 of module ECRCLifecycle>: 31:327
+  line 66, col 8 to line 66, col 19 of module ECRCLifecycle: 1868
+  |line 66, col 8 to line 66, col 8 of module ECRCLifecycle: 1541
+  |line 66, col 14 to line 66, col 19 of module ECRCLifecycle: 1541
+  line 66, col 24 to line 66, col 39 of module ECRCLifecycle: 1249
+  |line 66, col 24 to line 66, col 24 of module ECRCLifecycle: 922
+  |line 66, col 33 to line 66, col 39 of module ECRCLifecycle: 922
+  line 67, col 8 to line 67, col 34 of module ECRCLifecycle: 327
+  line 68, col 8 to line 70, col 64 of module ECRCLifecycle: 327
+<CancelUnarmed line 72, col 1 to line 72, col 16 of module ECRCLifecycle>: 11:28
+  line 73, col 8 to line 73, col 15 of module ECRCLifecycle: 28
+  line 73, col 20 to line 73, col 54 of module ECRCLifecycle: 886
+  |line 73, col 20 to line 73, col 20 of module ECRCLifecycle: 858
+  |line 73, col 26 to line 73, col 54 of module ECRCLifecycle: 858
+  line 74, col 8 to line 74, col 21 of module ECRCLifecycle: 149
+  |line 74, col 8 to line 74, col 8 of module ECRCLifecycle: 121
+  |line 74, col 17 to line 74, col 21 of module ECRCLifecycle: 121
+  line 75, col 8 to line 75, col 38 of module ECRCLifecycle: 28
+  line 76, col 8 to line 76, col 55 of module ECRCLifecycle: 28
+  line 77, col 8 to line 79, col 53 of module ECRCLifecycle: 28
+<Send line 81, col 1 to line 81, col 7 of module ECRCLifecycle>: 39:197
+  line 82, col 8 to line 82, col 15 of module ECRCLifecycle: 197
+  line 82, col 20 to line 82, col 30 of module ECRCLifecycle: 1055
+  |line 82, col 20 to line 82, col 20 of module ECRCLifecycle: 858
+  |line 82, col 26 to line 82, col 30 of module ECRCLifecycle: 858
+  line 82, col 35 to line 82, col 65 of module ECRCLifecycle: 608
+  |line 82, col 35 to line 82, col 35 of module ECRCLifecycle: 411
+  |line 82, col 44 to line 82, col 65 of module ECRCLifecycle: 411
+  line 83, col 8 to line 83, col 36 of module ECRCLifecycle: 197
+  line 85, col 8 to line 85, col 79 of module ECRCLifecycle: 197
+<LoseRequest line 87, col 1 to line 87, col 14 of module ECRCLifecycle>: 0:294
+  line 88, col 8 to line 88, col 21 of module ECRCLifecycle: 1832
+  |line 88, col 8 to line 88, col 8 of module ECRCLifecycle: 1538
+  |line 88, col 14 to line 88, col 21 of module ECRCLifecycle: 1538
+  line 89, col 8 to line 89, col 33 of module ECRCLifecycle: 294
+  line 90, col 8 to line 90, col 79 of module ECRCLifecycle: 294
+<CommitEffect line 92, col 1 to line 92, col 15 of module ECRCLifecycle>: 19:73
+  line 93, col 8 to line 93, col 13 of module ECRCLifecycle: 72
+  line 93, col 18 to line 93, col 31 of module ECRCLifecycle: 928
+  |line 93, col 18 to line 93, col 18 of module ECRCLifecycle: 856
+  |line 93, col 24 to line 93, col 31 of module ECRCLifecycle: 856
+  line 93, col 36 to line 93, col 51 of module ECRCLifecycle: 242
+  |line 93, col 36 to line 93, col 36 of module ECRCLifecycle: 170
+  |line 93, col 45 to line 93, col 51 of module ECRCLifecycle: 170
+  line 95, col 8 to line 95, col 34 of module ECRCLifecycle: 72
+  |line 95, col 19 to line 95, col 34 of module ECRCLifecycle: 73
+  line 96, col 8 to line 96, col 33 of module ECRCLifecycle: 72
+  |line 96, col 20 to line 96, col 33 of module ECRCLifecycle: 73
+  line 97, col 8 to line 97, col 52 of module ECRCLifecycle: 72
+  |line 97, col 28 to line 97, col 52 of module ECRCLifecycle: 73
+  line 98, col 8 to line 98, col 52 of module ECRCLifecycle: 72
+<DeduplicatedReply line 100, col 1 to line 100, col 20 of module ECRCLifecycle>: 8:97
+  line 101, col 8 to line 101, col 13 of module ECRCLifecycle: 97
+  line 101, col 18 to line 101, col 44 of module ECRCLifecycle: 950
+  |line 101, col 18 to line 101, col 18 of module ECRCLifecycle: 853
+  |line 101, col 24 to line 101, col 44 of module ECRCLifecycle: 853
+  line 102, col 8 to line 102, col 33 of module ECRCLifecycle: 97
+  line 103, col 8 to line 103, col 52 of module ECRCLifecycle: 97
+  line 104, col 8 to line 104, col 61 of module ECRCLifecycle: 97
+<LoseAcknowledgement line 106, col 1 to line 106, col 22 of module ECRCLifecycle>: 24:200
+  line 107, col 8 to line 107, col 29 of module ECRCLifecycle: 1735
+  |line 107, col 8 to line 107, col 8 of module ECRCLifecycle: 1535
+  |line 107, col 14 to line 107, col 29 of module ECRCLifecycle: 1535
+  line 108, col 8 to line 108, col 49 of module ECRCLifecycle: 200
+  line 109, col 8 to line 109, col 71 of module ECRCLifecycle: 200
+<Reconcile line 111, col 1 to line 111, col 12 of module ECRCLifecycle>: 24:59
+  line 112, col 8 to line 112, col 15 of module ECRCLifecycle: 59
+  line 112, col 20 to line 112, col 62 of module ECRCLifecycle: 912
+  |line 112, col 20 to line 112, col 20 of module ECRCLifecycle: 853
+  |line 112, col 26 to line 112, col 62 of module ECRCLifecycle: 853
+  line 113, col 8 to line 113, col 24 of module ECRCLifecycle: 118
+  |line 113, col 8 to line 113, col 8 of module ECRCLifecycle: 59
+  |line 113, col 17 to line 113, col 24 of module ECRCLifecycle: 59
+  line 115, col 8 to line 115, col 55 of module ECRCLifecycle: 59
+  line 116, col 8 to line 116, col 78 of module ECRCLifecycle: 59
+  line 117, col 8 to line 117, col 36 of module ECRCLifecycle: 59
+  line 118, col 8 to line 118, col 49 of module ECRCLifecycle: 59
+  line 119, col 8 to line 120, col 56 of module ECRCLifecycle: 59
+<RepeatedCompletion line 122, col 1 to line 122, col 21 of module ECRCLifecycle>: 0:18
+  line 123, col 8 to line 123, col 15 of module ECRCLifecycle: 18
+  line 123, col 20 to line 123, col 55 of module ECRCLifecycle: 871
+  |line 123, col 20 to line 123, col 20 of module ECRCLifecycle: 853
+  |line 123, col 26 to line 123, col 55 of module ECRCLifecycle: 853
+  line 124, col 8 to line 124, col 49 of module ECRCLifecycle: 18
+  line 125, col 8 to line 125, col 71 of module ECRCLifecycle: 18
+<CrashClient line 127, col 1 to line 127, col 11 of module ECRCLifecycle>: 232:423
+  line 127, col 19 to line 127, col 47 of module ECRCLifecycle: 423
+  line 128, col 19 to line 128, col 90 of module ECRCLifecycle: 423
+<RecoverClient line 129, col 1 to line 129, col 13 of module ECRCLifecycle>: 0:341
+  line 129, col 21 to line 129, col 29 of module ECRCLifecycle: 1105
+  |line 129, col 22 to line 129, col 29 of module ECRCLifecycle: 764
+  line 129, col 34 to line 129, col 49 of module ECRCLifecycle: 341
+  line 130, col 21 to line 130, col 92 of module ECRCLifecycle: 341
+<CrashSink line 131, col 1 to line 131, col 9 of module ECRCLifecycle>: 423:423
+  line 131, col 17 to line 131, col 41 of module ECRCLifecycle: 423
+  line 132, col 17 to line 132, col 90 of module ECRCLifecycle: 423
+<RecoverSink line 133, col 1 to line 133, col 11 of module ECRCLifecycle>: 0:341
+  line 133, col 19 to line 133, col 25 of module ECRCLifecycle: 1105
+  |line 133, col 20 to line 133, col 25 of module ECRCLifecycle: 764
+  line 133, col 30 to line 133, col 43 of module ECRCLifecycle: 341
+  line 134, col 19 to line 134, col 92 of module ECRCLifecycle: 341
+<UnsafeReleaseUnknown line 136, col 1 to line 136, col 23 of module ECRCLifecycle>: 37:91
+  line 137, col 8 to line 137, col 37 of module ECRCLifecycle: 91
+  line 138, col 8 to line 138, col 41 of module ECRCLifecycle: 944
+  |line 138, col 8 to line 138, col 8 of module ECRCLifecycle: 853
+  |line 138, col 14 to line 138, col 41 of module ECRCLifecycle: 853
+  line 138, col 46 to line 138, col 62 of module ECRCLifecycle: 182
+  |line 138, col 46 to line 138, col 46 of module ECRCLifecycle: 91
+  |line 138, col 55 to line 138, col 62 of module ECRCLifecycle: 91
+  line 139, col 8 to line 139, col 55 of module ECRCLifecycle: 91
+  line 141, col 8 to line 143, col 53 of module ECRCLifecycle: 91
+<TypeOK line 154, col 1 to line 154, col 6 of module ECRCLifecycle>
+  line 154, col 11 to line 159, col 55 of module ECRCLifecycle: 934
+<Accounting line 161, col 1 to line 161, col 10 of module ECRCLifecycle>
+  line 161, col 15 to line 163, col 41 of module ECRCLifecycle: 934
+<BudgetBound line 164, col 1 to line 164, col 11 of module ECRCLifecycle>
+  line 164, col 16 to line 164, col 53 of module ECRCLifecycle: 934
+<EffectCountBound line 171, col 1 to line 171, col 16 of module ECRCLifecycle>
+  line 171, col 21 to line 171, col 52 of module ECRCLifecycle: 934
+End of statistics.
+3155 states generated, 934 distinct states found, 168 states left on queue.
+The depth of the complete state graph search is 13.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 7 and the 95th percentile is 4).
+Finished in 00s at (2026-09-12 13:19:34)

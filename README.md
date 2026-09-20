@@ -1,78 +1,68 @@
-# ECRC: decision permits
+# ECRC: Decision Permits for Budgeted Workflows
 
-Reference implementations of authorization, cumulative action budgets,
-durable delivery and effect-backed receipts, with experiment inputs, saved
-results, tests and plotting code.
+Code, saved results and reproduction tools for ECRC. The reference implementation
+constructs action permissions from evidence metadata, route and claim rules, and
+cumulative budgets. Its lifecycle retains an armed operation's unit through
+uncertain delivery and records committed expenditure on recovery.
 
-The fixed current source release is [code-v1.1.0](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.1.0).
-It contains code, selected data, plots and reproduction documentation. Cite this
-version for the software; identify any separately used experiment archives with
-their release tags and hashes in [ARTIFACTS.json](ARTIFACTS.json).
+Current software release: [code-v1.2.0](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.2.0).
+Start with the [result-to-source map](docs/RESULTS.md) and [reproduction guide](REPRODUCIBILITY.md).
 
-## Get started
+## Quick verification
 
-Use Python 3.12. These checks require only the standard library:
+Use Python 3.12. These standard-library checks read saved records; they do not
+call a model/API or execute candidate programs.
 
 ```console
 git clone https://github.com/ziwang11112/ecrc-ai-decision-permits.git
 cd ecrc-ai-decision-permits
-git checkout code-v1.1.0
+git checkout code-v1.2.0
 python scripts/verify_release.py
 python scripts/verify_source_view.py
-python -B iasc_model_check/portable_reproduce.py
-python -B scripts/run_wrapper_qa.py --output artifacts/wrapper-qa-1
+python -B scripts/verify_current_results.py
 ```
 
-The wrapper command runs ten supplemental checks in a fresh output directory.
-Use a new destination for each run. The S10 default verifies saved evidence
-without Java or state-space enumeration.
+## Code and evidence
 
-## Code and data
-
-| Component | Location |
+| Component | Entry point |
 |---|---|
-| Core implementation and tests | [src/](src/), [tests/](tests/), [historical experiments](icair_2026/) |
-| Separate-service delivery and recovery | [iasc/runtime/](iasc/runtime/PROTOCOL.md) |
-| Atomic issuance and recovery | [iasc/end_to_end/](iasc/end_to_end/README.md) |
-| Participant-level analysis | [iasc/statistics/](iasc/statistics/README.md) |
-| Calibration and source provenance | [calibration](iasc/calibration/README.md), [methods](iasc/methods/README.md) |
-| Controlled program verification | [iasc_application/](iasc_application/SOURCE_VIEW.md) |
-| Finite lifecycle model | [iasc_model_check/](iasc_model_check/PORTABLE_REPRODUCTION.md) |
-| Plotting and numerical summaries | [plots/current/](plots/current/README.md) |
+| Core permit implementation | [governance](src/agentic_eeg_dm/governance), [tests](tests/) |
+| S6/S8 delivery, atomic issuance and recovery | [runtime](iasc/runtime/PROTOCOL.md), [end-to-end](iasc/end_to_end/README.md) |
+| S9-C corrected program verification | [context correction](iasc_application/context_correction/README.md) |
+| S10 finite lifecycle model | [model and retained verification](iasc_model_check/PORTABLE_REPRODUCTION.md) |
+| S11 airline action qualification | [iasc_airline](iasc_airline/README.md) |
+| S12 restart/count witness | [iasc_restart](iasc_restart/README.md) |
+| Current three technical figures and S6/S8 observations | [plots/current](plots/current/README.md) |
+| Historical behavioural replay and calibration | [icair_2026](icair_2026/), [statistics](iasc/statistics/README.md), [calibration](iasc/calibration/README.md) |
 
-The [reproducibility guide](REPRODUCIBILITY.md) separates saved-result checks
-from new experiment execution and lists the required environments.
+S9-C uses **112 original + 32 replacement trajectories = 144**, with **1,769
+jobs / 188 injected response losses** across both clients. Original S9's
+1,802/194 totals remain historical. S11 covers **600 request contexts on 200
+reservations**, plus a separate 16-case constructed boundary set. S12 is an
+**eight-cell development witness**, with its prior batch retained for provenance.
 
-## Download archived experiment evidence
+## Saved-record archives
 
-The Git source view contains selected evidence. Large saved-run records are
-provided as pinned archives:
+Code and compact evidence are in Git. Larger event/database archives are pinned
+in [ARTIFACTS.json](ARTIFACTS.json):
 
 ```console
-python scripts/download_artifact.py s1-s8 --output artifacts/s1-s8
-python scripts/download_artifact.py s9 --output artifacts/s9
-python scripts/download_artifact.py s10 --output artifacts/s10
+python scripts/download_artifact.py s9-c --output artifacts/s9-c
+python scripts/download_artifact.py s11 --output artifacts/s11
+python scripts/download_artifact.py s12 --output artifacts/s12
 ```
 
-[ARTIFACTS.json](ARTIFACTS.json) records archive URLs, sizes and SHA-256 values.
-The downloader verifies every member before extraction and refuses existing
-destinations. `--archive PATH_TO_ZIP` verifies an existing download offline.
+The downloader also retains `s1-s8`, `s9` (original) and `s10`. It validates size,
+SHA-256 and manifest members before extraction. Use fresh destinations; follow
+each study README for full-event/database audits and fresh execution.
+The S11 asset preserves per-cell records and reconstructable canonical database
+states; it is a documented projection, not a byte-identical raw snapshot archive.
 
-## Scope and licenses
+## Scope and history
 
-The current source view omits standalone manuscript text, LaTeX tables,
-bibliography files, editorial documents and obsolete manuscript-layout outputs.
-It retains experiment code, numerical evidence, technical protocols and plots.
-Frozen protocols retain their original wording, including historical
-publication-planning context. [SOURCE_VIEW.json](SOURCE_VIEW.json)
-records intentional omissions from historical inventories. Old commits and
-fixed release archives retain their originally published contents.
-
-Some historical training source bytes and inner calibration grids remain
-unavailable. S9 public results can be recalculated from projections; full
-candidate execution requires separately obtained upstream programs and the
-documented sandbox environment. See [availability and validation](docs/ARTIFACT_COMPLETENESS.md).
-
-See [LICENSES.md](LICENSES.md) and [dataset attribution](docs/DATA_SOURCES_AND_LICENSES.md)
-for code, derived-data and upstream terms. Citation metadata is in
-[CITATION.cff](CITATION.cff).
+Manuscript prose, paper PDFs, LaTeX, bibliography and editorial reviews are
+maintained separately. Previous commits and fixed releases retain original
+evidence and old plotting layouts. [CHANGELOG.md](CHANGELOG.md) records changes.
+S9 candidates require separate upstream acquisition; S11 uses a pinned synthetic
+benchmark, not live bookings. See [availability](docs/ARTIFACT_COMPLETENESS.md),
+[licenses](LICENSES.md) and [citation metadata](CITATION.cff).

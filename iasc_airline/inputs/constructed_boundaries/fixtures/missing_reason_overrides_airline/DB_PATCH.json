@@ -1,0 +1,71 @@
+{
+  "operations": [
+    {
+      "path": [
+        "reservations",
+        "9Z5X1D",
+        "created_at"
+      ],
+      "before": "2024-05-12T21:07:16",
+      "after": "2024-05-13T15:00:00"
+    },
+    {
+      "path": [
+        "reservations",
+        "9Z5X1D",
+        "insurance"
+      ],
+      "before": "yes",
+      "after": "no"
+    },
+    {
+      "path": [
+        "reservations",
+        "9Z5X1D",
+        "flights"
+      ],
+      "before": [
+        {
+          "flight_number": "HAT053",
+          "origin": "DTW",
+          "destination": "CLT",
+          "date": "2024-05-12",
+          "price": 153
+        }
+      ],
+      "after": [
+        {
+          "flight_number": "HAT053",
+          "origin": "DTW",
+          "destination": "CLT",
+          "date": "2024-05-20",
+          "price": 153
+        }
+      ]
+    },
+    {
+      "path": [
+        "flights",
+        "HAT053",
+        "dates",
+        "2024-05-20"
+      ],
+      "before": {
+        "status": "available",
+        "available_seats": {
+          "basic_economy": 19,
+          "economy": 15,
+          "business": 0
+        },
+        "prices": {
+          "basic_economy": 76,
+          "economy": 102,
+          "business": 354
+        }
+      },
+      "after": {
+        "status": "cancelled"
+      }
+    }
+  ]
+}

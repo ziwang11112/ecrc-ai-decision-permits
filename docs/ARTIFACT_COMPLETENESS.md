@@ -1,76 +1,42 @@
-# Availability and validation
+# Availability and verification scope
 
-The current Git tree is a source and data view. It contains implementation,
-tests, experiment protocols, numerical inputs/results and plotting tools.
-Standalone manuscript paragraphs, LaTeX tables, bibliography files, editorial documents and
-obsolete document-layout outputs are omitted. Local author documents remain
-separate from this repository.
+This checkout provides code and compact evidence. Larger saved event/database
+sets are release assets in `ARTIFACTS.json`. The [result map](RESULTS.md) identifies
+the material behind current figures and tables.
 
-## Source inventories
+| Study | In Git | Additional material / boundary |
+|---|---|---|
+| S6/S8 | Frozen source, inputs, selected results and 42 current checkpoint audits | Full primary/repeated database records in the S1-S8 archive |
+| S9-C | Correction source, source map, retained/replacement index and summaries | Original/correction event projections in separate archives; candidate bodies are not redistributed |
+| S10 | Frozen model, configs, logs and independent enumeration evidence | Fresh exploration requires Java and pinned TLC; default checks read saved evidence |
+| S11 | Frozen actors/evaluator, requests, cohort selection, fixture patches and compact outcomes | Per-cell records and canonical database-state projections in S11 asset; fresh execution needs pinned tau2-bench |
+| S12 | Frozen clients, portable wrapper, compact records and both batch histories | SQLite/WAL snapshots in S12 asset; eight current cells are a development witness |
+| Figures | Exact drawing scripts and archived trace inputs | Matplotlib and Arial, or an explicitly identified alternate font |
 
-`MANIFEST.json` and `SHA256SUMS.txt` describe the current tree.
-[SOURCE_VIEW.json](../SOURCE_VIEW.json) distinguishes retained files,
-intentional omissions and current source/documentation overlays relative to
-historical inventories. Those historical inventories keep their original
-hashes; they are not claimed to be complete inventories of the reduced tree.
-The source-view verifier cross-checks all four complete historical path sets,
-original SHA-256 bindings, explicit statuses and current file contents. It
-rejects missing mappings, duplicate paths and unrecognized inventory groups.
+Public S9 projections support numerical reanalysis, not verification of omitted
+raw candidate/result bytes. The current 112+32 selection is a correction, not an
+independent replication. All 176 original/replacement formal executions remain
+identifiable. S11 is model-free and synthetic; requests per reservation are
+correlated and the second cohort followed the first. It tests qualification,
+not a full recovering airline workflow. S12 retains the previous batch and its
+failed audit observations. Packaging/portability QA adds no scientific repetition.
 
-| Component | Current scope |
-|---|---|
-| Core and S6 delivery | Implementation, focused tests and experiment inputs retained |
-| S8 | All 34 frozen source/input files retained; complete primary and repeated database evidence in the fixed archive |
-| Participant analysis | Calculation, independent verification, input counts and saved estimates retained; prose/LaTeX formatter excluded |
-| S9 | Execution and public-checking source retained; large public projections supplied in the fixed archive |
-| S10 | All 15 frozen sources and 19 evidence bindings retained; editorial inclusion decision excluded |
-| Plots and summaries | Five visualizations, six input CSVs and 17 expected numerical summary rows in `plots/current/` |
+The S11 archive reconstructs the exact canonical database state of every cell
+from original before states and explicit record replacements. Recreated gzip
+container bytes can differ from the original; original compressed-file hashes
+remain recorded, and the full raw-byte archives are retained locally.
 
-The S8 frozen source set includes its original report-output code because it
-is bound by the pre-run freeze. Technical protocol and audit records remain
-with the implementation. They are execution/provenance material, not a copy
-of the authored manuscript or a complete Overleaf project.
-Frozen protocols keep their original wording, including historical
-publication-planning context.
+Historical `run_e1.py` source bytes and ten inner calibration grids remain
+unavailable. Missing training history is not reconstructed by this repository.
 
-## Verification
+## Integrity and validation
 
-The [validation record](ARTIFACT_VALIDATION.json) gives the current source-view
-and numerical-package checks. The unchanged artifact helpers passed 25
-standard-library tests on Windows and Ubuntu; the retained wrapper completed
-ten supplemental cases per platform. All three archive downloaders were
-checked, including deep Windows paths, with unchanged archive/member hashes.
+`MANIFEST.json` / `SHA256SUMS.txt` describe this source revision. `SOURCE_VIEW.json`
+maps the four frozen historical inventories to included, omitted and overlaid
+files. New source maps distinguish frozen bytes, portable wrappers and exported
+records. [ARTIFACT_VALIDATION.json](ARTIFACT_VALIDATION.json) records current local
+checks. GitHub Actions were disabled at publication; local checks are not cloud CI.
 
-For `code-v1.1.0`, the combined helper suite has 46 tests, including 21 new
-source-view regression tests. Ubuntu Python 3.12.3 passed all 46. Windows
-Python 3.12.14 passed 45 and skipped the symlink test because creating a
-symlink requires a privilege unavailable in that process; Ubuntu ran that
-test successfully. The current CFF software citation passes schema 1.2.0.
-
-The plotting package verifies its complete current inventory. All five
-rebuilt PDFs and numerical input bytes match the previous version. CSV-only
-aggregation verifies all 17 expected summary rows, including reaggregating
-delivery latency from 30 saved run-level p95 values. Removal of a legacy
-figure-caption output branch also leaves that figure PDF unchanged.
-
-No model fitting, candidate execution, formal recovery experiment or
-state-space exploration was added for this source-view cleanup. GitHub
-Actions remain disabled; local checks are not a cloud-CI claim.
-
-## External material and historical limits
-
-- Full saved-run archives are selected by [ARTIFACTS.json](../ARTIFACTS.json).
-  Existing Git history and old release archives retain their originally
-  published contents, including older manuscript-formatting material. This
-  cleanup is not a history rewrite or deletion of those fixed releases.
-- Original historical `run_e1.py` bytes and ten inner calibration grids were
-  not recovered. Post hoc analyses condition on retained frozen outputs.
-- S9 candidate bodies require separate upstream acquisition and are not
-  redistributed. Public projections support saved-result recalculation;
-  complete execution additionally needs the documented sandbox setup.
-- S10 default checking verifies retained evidence. A new exploration needs
-  separately supplied Java/TLC; external author-workspace baseline targets
-  remain explicitly outside public verification.
-
-See [licenses](../LICENSES.md) and [dataset attribution](DATA_SOURCES_AND_LICENSES.md)
-for data reuse and upstream terms.
+Existing tags and assets retain their original contents, including older
+publication-formatting material. This update does not rewrite those releases.
+The active code view excludes standalone manuscript and editorial files.

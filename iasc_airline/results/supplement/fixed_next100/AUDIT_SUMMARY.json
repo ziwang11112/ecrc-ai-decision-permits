@@ -1,0 +1,19 @@
+{
+  "source_review_sha256": "fa06eb75699d03776a8fe23fc4b7dda63ef880f0c9719bb10efd2de1f1b54f05",
+  "technical_integrity_pass": true,
+  "failures": [],
+  "planned_request_contexts": 300,
+  "verified_execution_cells": 1200,
+  "all_four_arms_retained": [
+    "direct_native_dispatch",
+    "qualification_ecrc",
+    "existing_rules_only",
+    "without_claim_evidence_requirement"
+  ],
+  "common_input_pairs_verified": 300,
+  "summary_is_derived_postrun": true,
+  "independent_of_production_cancel_basis": true,
+  "independence_scope": "The audit separately reconstructs policy categories and native effects from before/after and recorded evidence. ECRC and rule-gated production workflows share cancel_basis.",
+  "independent_audit_source_in_prerun_freeze": true,
+  "full_native_rerun_material_included": false
+}

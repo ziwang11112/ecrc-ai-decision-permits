@@ -1,0 +1,19 @@
+{
+  "command": {
+    "op": "snapshot"
+  },
+  "event": "result",
+  "job": null,
+  "op": "snapshot",
+  "state": {
+    "acknowledged_count": 0,
+    "limit": 2,
+    "method": "durable_direct_count",
+    "operations": [],
+    "pending_count": 0,
+    "persistence": "sqlite",
+    "reserved_count": 0,
+    "scope": "mixed-workflow-development-v1"
+  },
+  "status": "snapshot"
+}

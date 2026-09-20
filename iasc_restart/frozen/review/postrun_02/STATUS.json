@@ -1,0 +1,21 @@
+{
+  "status": "bounded_synthetic_development_complete_independently_reviewed",
+  "verified_cells": 8,
+  "retained_first_batch_cells": 8,
+  "frozen_source_files_verified": 42,
+  "original_baseline_modified": false,
+  "paper_changed": false,
+  "model_calls": 0,
+  "model_api_cost_usd": 0,
+  "counts": {
+    "effects": 20,
+    "posts": 24,
+    "replays": 4,
+    "withheld": 4
+  },
+  "reviews": [
+    "mixed_protocol_audit",
+    "direct_count_adapter"
+  ],
+  "interpretation": "Persistence preserves cumulative count through restart versus the original volatile counter; durable direct counting matches ECRC."
+}

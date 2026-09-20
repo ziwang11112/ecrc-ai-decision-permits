@@ -1,0 +1,125 @@
+{
+  "scope": "Two source-exposed structured no-model airline development episodes; not a held-out benchmark evaluation",
+  "upstream_commit": "2174a603f6d014ef94473ffa95957f6ce27100db",
+  "source_freeze_matches_passed_qa": true,
+  "qa_tests_passed": 43,
+  "qa_not_actor_episodes": true,
+  "episodes": [
+    {
+      "episode": "episode_001",
+      "task_id": "39",
+      "actor_status": "completed",
+      "tool_calls": 30,
+      "native_tool_errors": 0,
+      "write_tool_calls": 2,
+      "verified_cancellations": 2,
+      "cancelled_reservation_ids": [
+        "8C8K4E",
+        "LU15PA"
+      ],
+      "actor_unresolved": [],
+      "native_component_score": 0.0,
+      "native_reward_breakdown": {
+        "DB": 0.0,
+        "COMMUNICATE": 1.0
+      },
+      "communication_score_vacuous": true,
+      "independent_checked_policy_subset_pass": true,
+      "policy_violations": [],
+      "full_task_success_established": false,
+      "all_tool_responses_reproduced": true,
+      "final_db_replay_match": true,
+      "local_actor_seconds": 0.02857699996093288,
+      "model_calls": 0,
+      "model_api_cost_usd": 0,
+      "ecrc_used": false,
+      "official_dialogue_rollout": false
+    },
+    {
+      "episode": "episode_002",
+      "task_id": "42",
+      "actor_status": "partial_completed_needs_clarification",
+      "tool_calls": 42,
+      "native_tool_errors": 0,
+      "write_tool_calls": 1,
+      "verified_cancellations": 1,
+      "cancelled_reservation_ids": [
+        "HSR97W"
+      ],
+      "actor_unresolved": [
+        {
+          "reservation_id": "FDZ0T5",
+          "reason": "unanchored_itinerary_needs_preference_or_complete_route_assumption",
+          "detail": "No temporal overlap proves a unique cancellation; missing transfers and earlier travel intent are not specified."
+        },
+        {
+          "reservation_id": "HTR26G",
+          "reason": "unanchored_itinerary_needs_preference_or_complete_route_assumption",
+          "detail": "No temporal overlap proves a unique cancellation; missing transfers and earlier travel intent are not specified."
+        }
+      ],
+      "native_component_score": 0.0,
+      "native_reward_breakdown": {
+        "DB": 0.0,
+        "COMMUNICATE": 1.0
+      },
+      "communication_score_vacuous": true,
+      "independent_checked_policy_subset_pass": true,
+      "policy_violations": [],
+      "full_task_success_established": false,
+      "all_tool_responses_reproduced": true,
+      "final_db_replay_match": true,
+      "local_actor_seconds": 0.049738299974706024,
+      "model_calls": 0,
+      "model_api_cost_usd": 0,
+      "ecrc_used": false,
+      "official_dialogue_rollout": false
+    }
+  ],
+  "totals": {
+    "episodes": 2,
+    "tool_calls": 72,
+    "verified_cancellations": 3,
+    "native_full_score_episodes": 0,
+    "model_calls": 0,
+    "model_api_cost_usd": 0
+  },
+  "interpretation": {
+    "task39": "Reference includes insured economy cancellation without a supplied covered reason; retain native score zero and flag reference-policy inconsistency, not evidence of actor inferiority or ECRC superiority",
+    "task42": "Fixed interval-overlap heuristic cancels HSR97W, misses reference FDZ0T5, and flags HTR26G although reference preserves it; location/itinerary reasoning is untested by this baseline",
+    "ecrc_superiority_established": false,
+    "ordinary_rule_general_failure_established": false,
+    "native_capacity_or_crash_recovery_exercised": false,
+    "paper_updates": false
+  },
+  "evidence_sha256": {
+    "runs/episode_001/ACTOR_RESULT.json": "7768e9d6c3f180e8a7f5f65e2239bc2ae4f44712879b4095c053ed586c2fd890",
+    "runs/episode_001/AFTER_DB.json": "3a883bc9c33c844fae5f56836b2cfad1425f64e1f6d93000b2f6e7f416aa4039",
+    "runs/episode_001/BEFORE_DB.json": "336dd784e3c9f36d2c733d19ab421f00ea6b640b465cd44a286ac32c522dc468",
+    "runs/episode_001/CONFIRMATIONS.json": "c6ce7f72ca59d8dcb359fa4b67c61f778251dce35f6255e4a7afc0a1bc04ca7b",
+    "runs/episode_001/evaluation.stderr.txt": "18a322a37028bb0a8f587314c527a61482833ca45cb3078c3ebebdda51c3aace",
+    "runs/episode_001/evaluation.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs/episode_001/EVALUATION_INPUT.json": "5e640d123a01e5ee4d0cd6d2934dc078a00552ff59c20cf1beb7abeff9565aa3",
+    "runs/episode_001/FROZEN_RUN.json": "a6289a762c5cbd5a1780c713eb92988a1771c2b2ae818ad4d820ed0a601a6354",
+    "runs/episode_001/MESSAGES.json": "601b1aef40e29957a3109308cba98cfd9e88409be0258a5ccde5bb22c7035b10",
+    "runs/episode_001/NATIVE_EVALUATION.json": "4b06253cab0a7dac9d0f78065620238d8dfba49cddf44b155ad223f3cd697a9c",
+    "runs/episode_001/POLICY_AUDIT.json": "a62fe4e71074f816954231d0f20ee636891b477045c9c3200e34d0140490b5ad",
+    "runs/episode_001/RESULT.json": "1f488c381be6f536e37ddb2ab178272b6f6b3c7da63299ca0843dc842dad821c",
+    "runs/episode_001/STRUCTURED_REQUEST.json": "fb3ad04fe77c2666d9255ccb8c4e290d740e0e13768f707eb211f3e67113f99c",
+    "runs/episode_001/TOOL_CALLS.json": "f35a00a0c2241d317d7123bced9d1ee281f2b4684c0bee32f3f486fd776c5b18",
+    "runs/episode_002/ACTOR_RESULT.json": "2d4284867b73303a3084f45f272f2da67934121132d4b420a76aa1badf0a9bc4",
+    "runs/episode_002/AFTER_DB.json": "49fdac911937e5339b938cd71de386b68b40d8664a8079140a86ddbabce35f15",
+    "runs/episode_002/BEFORE_DB.json": "336dd784e3c9f36d2c733d19ab421f00ea6b640b465cd44a286ac32c522dc468",
+    "runs/episode_002/CONFIRMATIONS.json": "fbe2f788ca82c6477e0137e8dcf1c949a4e9a0d172ffdcc2ac1d78c805f17415",
+    "runs/episode_002/evaluation.stderr.txt": "4d9c862e3ef654987490b7f63b930944606a9d2d3d1d834120a9706308a31d36",
+    "runs/episode_002/evaluation.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs/episode_002/EVALUATION_INPUT.json": "6cbe5261fc6febb064c07512d981fa6d0db60d99abc3cf44cefca7a0ea02af12",
+    "runs/episode_002/FROZEN_RUN.json": "aba0eb797c36bd601d8f4a014821aa650db90e24e3e3c73262bbd00828983ae8",
+    "runs/episode_002/MESSAGES.json": "830bf482a1823b0b80380bd28e17e6c56fa2e732af3dbb3f956080833dbe100d",
+    "runs/episode_002/NATIVE_EVALUATION.json": "32ee9d860edcd8efe3b8b76fca472b00e49ca4c8c03c5ddc7bd6988494c56a1e",
+    "runs/episode_002/POLICY_AUDIT.json": "737c986a79dda1b1578fbc4916b2630b885cc24fe2aada43765958487a8bd324",
+    "runs/episode_002/RESULT.json": "0e8d3fc5824edea9f57d2a3abefe22b757bae86d4f8c345c0e43740a2d235e0d",
+    "runs/episode_002/STRUCTURED_REQUEST.json": "d926e54df765d903361b922f933b0e83f2535532a14cc1cdba765c7f767a4c2b",
+    "runs/episode_002/TOOL_CALLS.json": "84e868df2c19e2174b6dc81fd6c9fb32c4ee3bd43863faea5493a06d0ad8a0a5"
+  }
+}

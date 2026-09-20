@@ -1,0 +1,2 @@
+# Python 3.12. No third-party packages are needed for S12 verification or replay.
+# HTTP services run only on loopback. SQLite, unittest, urllib and ctypes are stdlib.

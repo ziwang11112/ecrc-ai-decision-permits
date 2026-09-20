@@ -1,0 +1,17 @@
+﻿reason,category,request_contexts,unique_accounts,unique_reservations
+,eligible,5,1,1
+,ineligible,5,1,1
+,unresolved_required_information,4,1,1
+,unresolved_or_transfer,2,1,1
+other,eligible,4,1,1
+other,ineligible,4,1,1
+other,unresolved_required_information,0,0,0
+other,unresolved_or_transfer,1,1,1
+weather,eligible,1,1,1
+weather,ineligible,1,1,1
+weather,unresolved_required_information,0,0,0
+weather,unresolved_or_transfer,1,1,1
+unspecified,eligible,0,0,0
+unspecified,ineligible,0,0,0
+unspecified,unresolved_required_information,4,1,1
+unspecified,unresolved_or_transfer,0,0,0

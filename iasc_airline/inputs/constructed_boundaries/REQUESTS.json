@@ -1,0 +1,357 @@
+{
+  "study": "controlled synthetic boundary fixtures, not official tasks",
+  "cases": [
+    {
+      "case_id": "sole24_before",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "sole24_at",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "sole24_after",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "insured_weather",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "weather",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. Severe weather prevents me from travelling.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "weather"
+        }
+      }
+    },
+    {
+      "case_id": "uninsured_weather",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "weather",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. Severe weather prevents me from travelling.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "weather"
+        }
+      }
+    },
+    {
+      "case_id": "insured_other",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "sole_airline_cancelled",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "airline_available_control",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "sole_business",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "flying_overrides24",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "flying_overrides_insured_weather",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "weather",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. Severe weather prevents me from travelling.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "weather"
+        }
+      }
+    },
+    {
+      "case_id": "already_cancelled_overrides24",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "other",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D. I booked it by mistake.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "other"
+        }
+      }
+    },
+    {
+      "case_id": "missing_reason_overrides24",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "unspecified",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "unspecified"
+        }
+      }
+    },
+    {
+      "case_id": "missing_reason_overrides_insurance",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "unspecified",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "unspecified"
+        }
+      }
+    },
+    {
+      "case_id": "missing_reason_overrides_airline",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "unspecified",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "unspecified"
+        }
+      }
+    },
+    {
+      "case_id": "missing_reason_overrides_business",
+      "task_id": null,
+      "kind": "explicitly_modified_synthetic_boundary",
+      "native_full_goal_in_scope": false,
+      "reason_template": "unspecified",
+      "paired_account_id": "lei_santos_6163",
+      "paired_reservation_id": "9Z5X1D",
+      "request": {
+        "user_id": "lei_santos_6163",
+        "user_statement": "Cancel reservation 9Z5X1D.",
+        "cancellation": {
+          "selector": {
+            "kind": "ids",
+            "ids": [
+              "9Z5X1D"
+            ]
+          },
+          "reason": "unspecified"
+        }
+      }
+    }
+  ]
+}

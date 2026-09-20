@@ -1,0 +1,9 @@
+arm,condition,input_jobs,distinct_effects,external_limit,effects_over_limit,same_key_duplicate_effects,queue_expired_jobs,eligible_uncompleted_jobs,effect_A,effect_B,effect_C,effect_D
+raw,normal,4,4,2,2,0,,,1,1,1,1
+volatile_count,normal,4,2,2,0,0,,"C,D",1,1,0,0
+durable_count,normal,4,2,2,0,0,,"C,D",1,1,0,0
+ecrc,normal,4,2,2,0,0,,"C,D",1,1,0,0
+ecrc,mixed,4,2,2,0,0,A,D,0,1,1,0
+durable_count,mixed,4,2,2,0,0,A,D,0,1,1,0
+volatile_count,mixed,4,3,2,1,0,A,,0,1,1,1
+raw,mixed,4,3,2,1,0,A,,0,1,1,1

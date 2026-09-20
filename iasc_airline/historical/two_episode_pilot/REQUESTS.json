@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "kind": "structured_scripted_user_development_adaptation",
+  "commit": "2174a603f6d014ef94473ffa95957f6ce27100db",
+  "not_official_conversation_rollout": true,
+  "source_only": "user_scenario; no evaluation actions or target reservation IDs",
+  "episodes": [
+    {
+      "task_id": "39",
+      "request": {
+        "user_id": "amelia_davis_8890",
+        "mode": "cancel_upcoming",
+        "reason": "other"
+      },
+      "adaptations": [
+        "User intent converted manually into a structured cancellation form.",
+        "Reason other represents giving up seats, without asserting health/weather or a new policy exception.",
+        "All upcoming account reservations are considered; every proposed whole-reservation cancellation is displayed before scripted confirmation.",
+        "Scripted confirmation accepts policy-eligible displayed cancellations and never reads evaluation actions."
+      ],
+      "source_user_scenario": {
+        "persona": null,
+        "instructions": {
+          "task_instructions": "Even if the agent says you will not receive a refund for some of them, you want to proceed anyway so that you can give up your seat for someone else who needs it.",
+          "domain": "airline",
+          "reason_for_call": "You want to cancel all of your upcoming flights.",
+          "known_info": "You are Amelia Davis.\n\nYour user id is amelia_davis_8890.\n\n\nYou are French by birth and your English is not perfect.  \nYou occasionally insert French words when you communicate.",
+          "unknown_info": "You don't know any of your reservation ids."
+        }
+      }
+    },
+    {
+      "task_id": "42",
+      "request": {
+        "user_id": "sophia_martin_4574",
+        "mode": "resolve_itinerary_conflicts",
+        "reason": "change_of_plan",
+        "preserve_other_passengers": true,
+        "anchors": [
+          {
+            "event": "arrival",
+            "date": "2024-05-17",
+            "origin": "Dallas",
+            "destination": "New York"
+          },
+          {
+            "event": "departure",
+            "date": "2024-05-22",
+            "origin": "Boston"
+          }
+        ],
+        "public_context": {
+          "city_airports": {
+            "New York": [
+              "JFK",
+              "EWR",
+              "LGA"
+            ]
+          }
+        }
+      },
+      "adaptations": [
+        "User itinerary facts and preservation preference converted manually into a structured form.",
+        "New York is interpreted as the metropolitan region for matching existing reservations, using shared public airport configuration. This is not consent to substitute airports or an assertion all airports are in the same municipality.",
+        "Unique anchors and overlap of whole itinerary windows define the fixed scheduling heuristic; temporal non-overlap does not prove other trips should be cancelled.",
+        "Missing travel/continuity preferences remain unresolved rather than supplying hidden intended cancellation IDs.",
+        "Scripted confirmation accepts clearly displayed policy-eligible candidates only; this is not a live human or LLM user."
+      ],
+      "public_context_source": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2025-press-releases/travel-advisory-for-jan--10-to-16.html",
+      "source_user_scenario": {
+        "persona": null,
+        "instructions": {
+          "task_instructions": "You want to first check if there are cases like this in your profile. You want the agent to fix the situation for you. You just know that you will be in arriving in New York from Dallas on May 17 and will be leaving Boston on May 22. You want to let the agent figure out which flights should be cancelled. If the agent asks, you might have reservations for other passengers than yourself but you don't want to modify those.",
+          "domain": "airline",
+          "reason_for_call": "You had a mixup with your assistant and booked multiple flights for the same day.",
+          "known_info": "You are Sophia Martin.\nYour user id is sophia_martin_4574.",
+          "unknown_info": null
+        }
+      }
+    }
+  ]
+}

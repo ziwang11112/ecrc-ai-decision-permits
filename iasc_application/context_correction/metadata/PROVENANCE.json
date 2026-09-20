@@ -1,0 +1,24 @@
+{
+  "original_release": {
+    "url": "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/download/iasc-application-2026-09-12/AIR-014_IASC_S9_Code_and_Results.zip",
+    "tag": "iasc-application-2026-09-12",
+    "filename": "AIR-014_IASC_S9_Code_and_Results.zip",
+    "sha256": "b3d8d6fa8254a2a5c3de1fecae5f52c4383b5b0846640ea96de983cb19bd9f0f",
+    "scope": "Original uncorrected S9 archive, not this public-helper correction"
+  },
+  "correction_protocol_sha256": "235546123a71a3d3e5a3b442798e34f9d7b9e5d336ef833255a13131b32b5e2c",
+  "corrected_catalog_sha256": "5d223ddb9a4c1cd42bd0b22dff8f495beeb9e7aaf05466c329c5814701207cc1",
+  "original_primary_study_unmodified": true,
+  "replacement_trajectories": 32,
+  "retained_original_trajectories": 112,
+  "projected_result_files": 1306,
+  "candidate_programs_redistributed": false,
+  "arbitrary_stdout_stderr_redistributed": false,
+  "candidate_execution_during_packaging": false,
+  "public_reconstruction": "Exact private corrected catalog can be rebuilt from separately obtained original author source; never included here.",
+  "projection_limit": "Original result_hash identifies retained private bytes. A redacted projection has its own hash and cannot reconstruct the original result hash.",
+  "preservation": {
+    "files_checked": 36,
+    "changed": []
+  }
+}

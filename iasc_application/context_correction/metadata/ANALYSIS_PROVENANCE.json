@@ -1,0 +1,18 @@
+{
+  "original_completion_sha256": "b9a9369d92a02fe6d003650e528d74c2c7eea6ec6b59b3aa4b4e5045cbdf1aa9",
+  "files": {
+    "S9_runs.csv": "f6904502583aae2f5513d152a2f758fa5e248e4a6dc06170caebe45e2e0b9306",
+    "S9_jobs.csv": "4b370b66639e977ccf97eb02367c4aff4177e1c97503cd3c92e41923a19436b9",
+    "S9_cells.csv": "5d0373e8d1685c3b633ff33be43743133ad27ce556e2c49a2306ac0d4498e2d5",
+    "S9_paired_batches.csv": "45b5041d1dc93898f4ce451f592971c5bc8354efaf89da81d51ca8e6f72d25d2",
+    "old_new_run_differences.csv": "166c9c269203e5b76df70c8af301ef65f81cc4d9422f7ed81b92f082d17a61c9",
+    "assembly_source_mapping.csv": "e6437f0fae5e10417025f3705150a0f54999a6c7fd2ab765b02124523ffc4eae",
+    "context_job_outcomes.csv": "659325739720a435f629184744db1379a78c888e4440d1c7f8fadd44b2808c5b",
+    "merged_run_index.csv": "7caa240468ddae05b4bb97314301acd6fb717f4f794bd2300a4a01d091911d4f",
+    "corrected_summary.json": "6f59d953465f2dc3115f27744cddd0f02765b34ff703625b3428a5c2b981be7f"
+  },
+  "transforms": {
+    "merged_run_index.csv": "Drop absolute selected_path/original_path; publish neutral fields as JSON. Other named analysis tables are byte-identical."
+  },
+  "scope": "Combined 112-original/32-replacement descriptive analysis; byte-complete raw SQLite analysis requires private local records."
+}

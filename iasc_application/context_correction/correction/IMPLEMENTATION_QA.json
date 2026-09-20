@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "formal_grid_started_by_reviewer": false,
+  "selected_candidate_executions_before_freeze": 0,
+  "static_tests": {
+    "count": 7,
+    "passed": 7,
+    "seconds": 0.042,
+    "command": "python.exe -B research_pilots/iasc_s9_context_correction_2026-09-13/test_context.py"
+  },
+  "integration": {
+    "report": "qa_integration/INTEGRATION_QA.json",
+    "sha256": "ee854574ba542b23d3674b6c7fffdc0da5d6df764f67c47e843029bc4f42f7ef",
+    "scope": "One synthetic helper-dependent program through unchanged frozen service and sandbox, followed by same-key cache lookup",
+    "actual_starts": 1,
+    "cache_hits": 1,
+    "command": "python.exe -B research_pilots/iasc_s9_context_correction_2026-09-13/test_context.py --integration"
+  },
+  "source_and_input_sha256": {
+    "context_catalog.py": "85c754e50c586db57c49d66b6def857ed667df96bd10f9093037207c7bc5adb9",
+    "run_correction.py": "51d7009e9082eba661bea84c9ad3ae32f9037484478b86d268f4f8bb5d28b903",
+    "test_context.py": "ba02927dadd0550131974a46925db4874c01c8f3df94ba1e12ef3b84091b99c7",
+    "PROTOCOL.md": "89a2046cb063db4c87b4fe08366d99306f9eb6118c4d2c081efe1a4467e2c19f",
+    "corrected_catalog.json": "5d223ddb9a4c1cd42bd0b22dff8f495beeb9e7aaf05466c329c5814701207cc1",
+    "ASSEMBLY_AUDIT.json": "af3522b03b4045d4b119642a9cc8ecfd716c13024db0bc930c6f29734bd7f326",
+    "GRID_PLAN.json": "ba73b7a7d0a9bc738fa0a16449a89350e6cb1461a8e8c77c8c2e8d3d637038cc",
+    "PRESERVATION_BASELINE.json": "41bf001a33649ac989980790704404a419cfdea2b7d030e16dd7698cc469afe5"
+  },
+  "original_public_archives_observed_sha256": {
+    "output/AIR-014_IASC_S9_Code_and_Results.zip": "b3d8d6fa8254a2a5c3de1fecae5f52c4383b5b0846640ea96de983cb19bd9f0f",
+    "output/AIR-014_IASC_S9_SHA256SUMS.txt": "8e44a3cb6376de547a166a1f113a3da1772e29f0543f2ecc9e63a325a16f25ac"
+  },
+  "environment": "Windows-11-10.0.26200-SP0",
+  "notes": [
+    "The preservation baseline binds 30 original frozen runtime source files and 6 pinned input/protocol/result-index files; current manuscript is intentionally excluded.",
+    "Exactly11 assembled sources differ;645 original executable source hashes remain equal.",
+    "Candidate bodies, prompt context and actual assembled source hashes are retained separately.",
+    "Formal outputs must be combined as112 original plus32 versioned replacements, with cross-session timing limitation."
+  ]
+}

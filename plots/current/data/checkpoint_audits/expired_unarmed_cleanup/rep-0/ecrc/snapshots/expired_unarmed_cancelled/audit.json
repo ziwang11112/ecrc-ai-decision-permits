@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": 65,
+  "findings": [],
+  "requests": 1,
+  "permits": 1,
+  "effects": 0,
+  "receipts": 0,
+  "reserved": 0,
+  "committed": 0,
+  "released": 1,
+  "cancelled": 1,
+  "armed": 0,
+  "effect_decisions": [],
+  "effect_routes": {
+    "alert": 0,
+    "review": 0
+  },
+  "states": {
+    "target": "cancelled"
+  }
+}

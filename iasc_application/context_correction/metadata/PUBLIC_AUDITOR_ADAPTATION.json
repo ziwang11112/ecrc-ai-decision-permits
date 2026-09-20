@@ -1,0 +1,6 @@
+{
+  "original_source_sha256": "b4e6001603b1d12ae7658630befa872b9d2a714c0a953807cc1da4439f260cf5",
+  "adapted_source_sha256": "059e14a614626af5e4461fa490120ee9d4c15512085b3643902d669e0f796966",
+  "change": "Only folder lookup changes from enumeration position to each cell's original_run_id; the inherited audit function is invoked directly, not its old CLI.",
+  "study_runtime_changed": false
+}

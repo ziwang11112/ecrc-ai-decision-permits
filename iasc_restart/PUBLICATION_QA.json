@@ -1,0 +1,47 @@
+{
+  "classification": "publication checks and bounded portability QA only; historical results unchanged",
+  "date": "2026-09-20",
+  "python": "3.12.10",
+  "tested_platform": "Windows",
+  "offline_recomputation": "passed, current ALL_CELLS.csv rebuilt from saved transport records",
+  "full_sql_audit": "passed for all 16 retained cells, preserving four prior mixed-cell process-audit failures",
+  "checkpoint_databases_verified": 84,
+  "source_and_export_hash_checks": 598,
+  "historical_frozen_source_checks_excluding_manuscript_guards": {
+    "prerun_01": 24,
+    "prerun_02": 24
+  },
+  "original_unit_tests": 13,
+  "portable_replay_cells": 8,
+  "portable_replay_all_eight_rows_match": true,
+  "portable_replay_status": "passed; new QA only, not included in study evidence",
+  "model_calls": 0,
+  "model_api_cost_usd": 0,
+  "current_totals": {
+    "effects": 20,
+    "posts": 24,
+    "replays": 4,
+    "withheld": 4
+  },
+  "asset": {
+    "filename": "iasc_s12_restart_witness_2026-09-20.zip",
+    "bytes": 504570,
+    "sha256": "71bc8ec20c8e6df869ee7f683da29afefc4adc62da7abbdbac87e17908c7de41",
+    "manifest_members": 349,
+    "sqlite_databases": 108,
+    "wal_files": 36
+  },
+  "scan": {
+    "credential_shapes_found": 0,
+    "local_absolute_directories_found": 0,
+    "scope": "all public-package and raw-release bytes",
+    "archive_paths": "safe relative POSIX paths",
+    "manuscript_pdf_tex_bib_members": 0
+  },
+  "scope_limits": [
+    "One normal and one mixed run per client; neither statistical replication nor business benefit.",
+    "Original and export metadata hashes differ only where local root text was normalized.",
+    "Default verification does not prove database completeness; use full SQL mode.",
+    "Only Windows Python 3.12 portable replay tested; no POSIX test performed."
+  ]
+}

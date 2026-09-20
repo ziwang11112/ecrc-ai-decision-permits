@@ -1,0 +1,14 @@
+{
+  "command": {
+    "op": "snapshot"
+  },
+  "event": "result",
+  "job": null,
+  "op": "snapshot",
+  "state": {
+    "first_submissions": 1,
+    "limit": null,
+    "persistence": "none"
+  },
+  "status": "snapshot"
+}

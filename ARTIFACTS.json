@@ -1,6 +1,6 @@
 {
-  "version": "iasc-artifact-guide-2026-09-12",
-  "scope": "Pinned complete study archives. Git source and current paper exhibits are indexed separately.",
+  "version": "code-v1.2.0",
+  "scope": "Pinned saved-evidence archives, including explicitly documented public projections. Git source and current technical figures are indexed separately.",
   "artifacts": {
     "s1-s8": {
       "tag": "iasc-restructured-2026-09-12",
@@ -34,6 +34,39 @@
       "manifest": "PUBLIC_MANIFEST.json",
       "url": "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/download/iasc-portability-fix-2026-09-12/AIR-014_IASC_S10_Portability_Revision.zip",
       "scope": "Original finite-model evidence with the corrected post-study cross-platform verifier"
+    },
+    "s9-c": {
+      "tag": "code-v1.2.0",
+      "filename": "AIR-014_IASC_S9_Context_Correction.zip",
+      "bytes": 2923750,
+      "sha256": "86556821849484ccc511586fe804c3574225afb27d064afe66148a804472018c",
+      "members": 1386,
+      "prefix": "AIR-014_IASC_S9_Context_Correction/",
+      "manifest": "PUBLIC_MANIFEST.json",
+      "url": "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/download/code-v1.2.0/AIR-014_IASC_S9_Context_Correction.zip",
+      "scope": "Current S9 correction, 32 replacement public trajectories and corrected 112+32 selection; use with original S9 archive. Candidate bodies and private raw result bytes excluded."
+    },
+    "s11": {
+      "tag": "code-v1.2.0",
+      "filename": "S11_airline_native_evidence_projection.zip",
+      "bytes": 60293051,
+      "sha256": "e74dc37dadafe9175831c19792786a12ee84c7fe8e5913d8919d2b0e1947e695",
+      "members": 30915,
+      "prefix": "",
+      "manifest": "MANIFEST.json",
+      "url": "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/download/code-v1.2.0/S11_airline_native_evidence_projection.zip",
+      "scope": "All 2,400 primary and 64 constructed-boundary execution cells: original per-cell calls/results and canonical database-state projections. Reconstructed gzip bytes need not match original raw containers."
+    },
+    "s12": {
+      "tag": "code-v1.2.0",
+      "filename": "iasc_s12_restart_witness_2026-09-20.zip",
+      "bytes": 504570,
+      "sha256": "71bc8ec20c8e6df869ee7f683da29afefc4adc62da7abbdbac87e17908c7de41",
+      "members": 350,
+      "prefix": "",
+      "manifest": "MANIFEST.json",
+      "url": "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/download/code-v1.2.0/iasc_s12_restart_witness_2026-09-20.zip",
+      "scope": "Both retained restart witness batches, compact events and SQLite/WAL snapshots. Prior failed process-identity audits retained; eight current cells are a development witness."
     }
   }
 }

@@ -1,0 +1,17 @@
+﻿reason,positive_eligibility_basis,request_contexts,unique_accounts,unique_reservations,sole_basis_contexts,unique_reservations_where_sole_basis,basis_groups_may_overlap
+,airline_cancelled,1,1,1,1,1,True
+,business_cabin,1,1,1,1,1,True
+,insured_weather,1,1,1,1,1,True
+,within_24_hours,2,1,1,2,1,True
+other,airline_cancelled,1,1,1,1,1,True
+other,business_cabin,1,1,1,1,1,True
+other,insured_weather,0,0,0,0,0,True
+other,within_24_hours,2,1,1,2,1,True
+weather,airline_cancelled,0,0,0,0,0,True
+weather,business_cabin,0,0,0,0,0,True
+weather,insured_weather,1,1,1,1,1,True
+weather,within_24_hours,0,0,0,0,0,True
+unspecified,airline_cancelled,0,0,0,0,0,True
+unspecified,business_cabin,0,0,0,0,0,True
+unspecified,insured_weather,0,0,0,0,0,True
+unspecified,within_24_hours,0,0,0,0,0,True

@@ -1,0 +1,395 @@
+{
+  "events": [
+    {
+      "event": "ready",
+      "host": "127.0.0.1",
+      "port": 62911,
+      "pid": 23680,
+      "db": "SOURCE_WORKSPACE\\research_pilots\\ecrc_mixed_workflow_dev_2026-09-15\\runs\\batch_02\\mixed__durable_count\\sink.sqlite",
+      "schema_version": 1
+    },
+    {
+      "arm": "durable_count",
+      "event": "ready",
+      "pid": 27504
+    },
+    {
+      "command": {
+        "op": "issue_only",
+        "at": "2026-09-12T12:00:10.000000Z",
+        "job": "A"
+      },
+      "event": "result",
+      "issue_result": {
+        "counted": false,
+        "state": "upstream_queued"
+      },
+      "job": "A",
+      "op": "issue_only",
+      "status": "issued_or_queued"
+    },
+    {
+      "command": {
+        "op": "snapshot"
+      },
+      "event": "result",
+      "job": null,
+      "op": "snapshot",
+      "state": {
+        "acknowledged_count": 0,
+        "limit": 2,
+        "method": "durable_direct_count",
+        "operations": [],
+        "pending_count": 0,
+        "persistence": "sqlite",
+        "reserved_count": 0,
+        "scope": "mixed-workflow-development-v1"
+      },
+      "status": "snapshot"
+    },
+    {
+      "event": "checkpoint",
+      "name": "A_issued_or_queued"
+    },
+    {
+      "command": {
+        "op": "send",
+        "at": "2026-09-12T12:00:20.000000Z",
+        "job": "B"
+      },
+      "descriptor": {
+        "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+        "payload": {
+          "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+        }
+      },
+      "error_type": "RemoteDisconnected",
+      "event": "result",
+      "job": "B",
+      "op": "send",
+      "status": "transport_unknown"
+    },
+    {
+      "command": {
+        "op": "snapshot"
+      },
+      "event": "result",
+      "job": null,
+      "op": "snapshot",
+      "state": {
+        "acknowledged_count": 0,
+        "limit": 2,
+        "method": "durable_direct_count",
+        "operations": [
+          {
+            "ack": null,
+            "descriptor": {
+              "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+              "payload": {
+                "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+              }
+            },
+            "payload_hash": "1c293d6c751007e0135cf9dd054f437c868fa29c4ae4d2075a8c5619710ddde4"
+          }
+        ],
+        "pending_count": 1,
+        "persistence": "sqlite",
+        "reserved_count": 1,
+        "scope": "mixed-workflow-development-v1"
+      },
+      "status": "snapshot"
+    },
+    {
+      "event": "checkpoint",
+      "name": "B_unknown_before_restart"
+    },
+    {
+      "event": "client_killed_while_B_unknown",
+      "pid": 27504,
+      "launcher_pid": 31292,
+      "exit_code": 1,
+      "launcher_exit_code": 1,
+      "actual_exit_verified": true,
+      "terminated": true
+    },
+    {
+      "arm": "durable_count",
+      "event": "ready",
+      "pid": 22944
+    },
+    {
+      "command": {
+        "op": "snapshot"
+      },
+      "event": "result",
+      "job": null,
+      "op": "snapshot",
+      "state": {
+        "acknowledged_count": 0,
+        "limit": 2,
+        "method": "durable_direct_count",
+        "operations": [
+          {
+            "ack": null,
+            "descriptor": {
+              "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+              "payload": {
+                "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+              }
+            },
+            "payload_hash": "1c293d6c751007e0135cf9dd054f437c868fa29c4ae4d2075a8c5619710ddde4"
+          }
+        ],
+        "pending_count": 1,
+        "persistence": "sqlite",
+        "reserved_count": 1,
+        "scope": "mixed-workflow-development-v1"
+      },
+      "status": "snapshot"
+    },
+    {
+      "event": "checkpoint",
+      "name": "restarted_before_cleanup"
+    },
+    {
+      "command": {
+        "op": "expire_A",
+        "at": "2026-09-12T13:00:30.000000Z",
+        "job": "A"
+      },
+      "cleanup": null,
+      "event": "result",
+      "job": "A",
+      "op": "expire_A",
+      "status": "queue_A_expired"
+    },
+    {
+      "command": {
+        "op": "snapshot"
+      },
+      "event": "result",
+      "job": null,
+      "op": "snapshot",
+      "state": {
+        "acknowledged_count": 0,
+        "limit": 2,
+        "method": "durable_direct_count",
+        "operations": [
+          {
+            "ack": null,
+            "descriptor": {
+              "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+              "payload": {
+                "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+              }
+            },
+            "payload_hash": "1c293d6c751007e0135cf9dd054f437c868fa29c4ae4d2075a8c5619710ddde4"
+          }
+        ],
+        "pending_count": 1,
+        "persistence": "sqlite",
+        "reserved_count": 1,
+        "scope": "mixed-workflow-development-v1"
+      },
+      "status": "snapshot"
+    },
+    {
+      "event": "checkpoint",
+      "name": "A_expired_B_still_unknown"
+    },
+    {
+      "command": {
+        "op": "send",
+        "at": "2026-09-12T13:00:31.000000Z",
+        "job": "C"
+      },
+      "ack": {
+        "committed_at": "2026-09-15T21:55:22.458133+00:00",
+        "created": true,
+        "effect_id": 2,
+        "idempotency_key": "direct:e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760",
+        "payload": {
+          "job_hash": "e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760"
+        },
+        "payload_hash": "744060ad5882e2954dbc8c49bb7370e37d5573d85b0b5a76c899fb05efee463a"
+      },
+      "descriptor": {
+        "idempotency_key": "direct:e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760",
+        "payload": {
+          "job_hash": "e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760"
+        }
+      },
+      "event": "result",
+      "http_code": 201,
+      "job": "C",
+      "op": "send",
+      "status": "acknowledged"
+    },
+    {
+      "command": {
+        "op": "send",
+        "at": "2026-09-12T13:00:32.000000Z",
+        "job": "D"
+      },
+      "descriptor": null,
+      "event": "result",
+      "job": "D",
+      "op": "send",
+      "status": "not_admitted"
+    },
+    {
+      "command": {
+        "op": "snapshot"
+      },
+      "event": "result",
+      "job": null,
+      "op": "snapshot",
+      "state": {
+        "acknowledged_count": 1,
+        "limit": 2,
+        "method": "durable_direct_count",
+        "operations": [
+          {
+            "ack": null,
+            "descriptor": {
+              "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+              "payload": {
+                "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+              }
+            },
+            "payload_hash": "1c293d6c751007e0135cf9dd054f437c868fa29c4ae4d2075a8c5619710ddde4"
+          },
+          {
+            "ack": {
+              "committed_at": "2026-09-15T21:55:22.458133+00:00",
+              "created": true,
+              "effect_id": 2,
+              "idempotency_key": "direct:e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760",
+              "payload": {
+                "job_hash": "e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760"
+              },
+              "payload_hash": "744060ad5882e2954dbc8c49bb7370e37d5573d85b0b5a76c899fb05efee463a"
+            },
+            "descriptor": {
+              "idempotency_key": "direct:e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760",
+              "payload": {
+                "job_hash": "e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760"
+              }
+            },
+            "payload_hash": "744060ad5882e2954dbc8c49bb7370e37d5573d85b0b5a76c899fb05efee463a"
+          }
+        ],
+        "pending_count": 1,
+        "persistence": "sqlite",
+        "reserved_count": 2,
+        "scope": "mixed-workflow-development-v1"
+      },
+      "status": "snapshot"
+    },
+    {
+      "event": "checkpoint",
+      "name": "after_C_D_before_B_recovery"
+    },
+    {
+      "event": "fixed_response_window_released"
+    },
+    {
+      "command": {
+        "op": "recover",
+        "at": "2026-09-12T13:00:40.000000Z",
+        "descriptor": {
+          "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+          "payload": {
+            "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+          }
+        },
+        "job": "B"
+      },
+      "ack": {
+        "committed_at": "2026-09-15T21:55:22.238069+00:00",
+        "created": false,
+        "effect_id": 1,
+        "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+        "payload": {
+          "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+        },
+        "payload_hash": "1c293d6c751007e0135cf9dd054f437c868fa29c4ae4d2075a8c5619710ddde4"
+      },
+      "descriptor": {
+        "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+        "payload": {
+          "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+        }
+      },
+      "event": "result",
+      "http_code": 200,
+      "job": "B",
+      "op": "recover",
+      "recovery_origin": "direct_durable_log",
+      "status": "acknowledged"
+    },
+    {
+      "command": {
+        "op": "snapshot"
+      },
+      "event": "result",
+      "job": null,
+      "op": "snapshot",
+      "state": {
+        "acknowledged_count": 2,
+        "limit": 2,
+        "method": "durable_direct_count",
+        "operations": [
+          {
+            "ack": {
+              "committed_at": "2026-09-15T21:55:22.238069+00:00",
+              "created": false,
+              "effect_id": 1,
+              "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+              "payload": {
+                "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+              },
+              "payload_hash": "1c293d6c751007e0135cf9dd054f437c868fa29c4ae4d2075a8c5619710ddde4"
+            },
+            "descriptor": {
+              "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+              "payload": {
+                "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+              }
+            },
+            "payload_hash": "1c293d6c751007e0135cf9dd054f437c868fa29c4ae4d2075a8c5619710ddde4"
+          },
+          {
+            "ack": {
+              "committed_at": "2026-09-15T21:55:22.458133+00:00",
+              "created": true,
+              "effect_id": 2,
+              "idempotency_key": "direct:e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760",
+              "payload": {
+                "job_hash": "e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760"
+              },
+              "payload_hash": "744060ad5882e2954dbc8c49bb7370e37d5573d85b0b5a76c899fb05efee463a"
+            },
+            "descriptor": {
+              "idempotency_key": "direct:e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760",
+              "payload": {
+                "job_hash": "e84b2eaba57ebd5c95c975b9c98ff1b4fa382c8705aca5e7119aafc0ae05d760"
+              }
+            },
+            "payload_hash": "744060ad5882e2954dbc8c49bb7370e37d5573d85b0b5a76c899fb05efee463a"
+          }
+        ],
+        "pending_count": 0,
+        "persistence": "sqlite",
+        "reserved_count": 2,
+        "scope": "mixed-workflow-development-v1"
+      },
+      "status": "snapshot"
+    },
+    {
+      "event": "checkpoint",
+      "name": "mixed_final"
+    }
+  ],
+  "failure": null
+}

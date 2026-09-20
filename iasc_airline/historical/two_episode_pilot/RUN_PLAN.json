@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "stage": "two_structured_no_model_airline_development_episodes",
+  "upstream_commit": "2174a603f6d014ef94473ffa95957f6ce27100db",
+  "episodes": [
+    {"episode": "episode_001", "task_id": "39"},
+    {"episode": "episode_002", "task_id": "42"}
+  ],
+  "maximum_tool_calls": 128,
+  "model_calls": 0,
+  "policy": "Normal public business rules and fixed itinerary heuristic, followed by scripted confirmation and native calls; no ECRC or hidden reference action access in actor",
+  "user_adaptation": "Structured intent manually extracted from exposed development scenarios; metropolitan airport interpretation shared as public context",
+  "evaluation": "Separate process calls unchanged native ENV and COMMUNICATE components and checks full recorded replay; native component product, not official dialogue rollout",
+  "task_initial_state_requirement": "Both selected tasks initial_state=null; qualification checks before either run",
+  "known_before_run": [
+    "Task39 reference actions include an insured economy cancellation without a policy-covered reason in user scenario; no reason will be fabricated",
+    "Task42 intent does not fully specify route continuity preferences; heuristic will retain unresolved choices",
+    "Neither task's default reward basis includes its natural language assertions"
+  ],
+  "retention": "One run per task under this freeze; keep all outcomes and no automatic replacement episodes or answer-driven tuning",
+  "new_fault_or_budget_conditions": false,
+  "paper_updates": false
+}

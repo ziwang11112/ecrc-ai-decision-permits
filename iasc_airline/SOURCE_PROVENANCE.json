@@ -1,0 +1,1009 @@
+{
+  "upstream_commit": "2174a603f6d014ef94473ffa95957f6ce27100db",
+  "copied_files": [
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/bootstrap.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/bootstrap.py",
+      "sha256": "b538bba353f87114bf9c6d494b5eecbab2ec6eeb8cd3659bad1a0f1b8a4c0c8d",
+      "bytes": 3701,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/native_evaluation.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/native_evaluation.py",
+      "sha256": "306ab2ecda9ad38d0798c9082498e24ab53cc3f892ee9008a88de10dc1f61523",
+      "bytes": 9436,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/ordinary.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/ordinary.py",
+      "sha256": "37c7f7921305e05334ee38b7645fe23cf2ab9b175970513918d83a1e730f8e60",
+      "bytes": 14695,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/policy_audit.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/policy_audit.py",
+      "sha256": "88be9f79f6a4a5ce30d9e2dc9bb72ea8d1df0b2ca50c358f25073e8ed19c33db",
+      "bytes": 14059,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/runner.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/runner.py",
+      "sha256": "5912cd49ae5a21ae9ffb1027c444ebe557818cdc2379984ad45bada738138534",
+      "bytes": 10932,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/test_native_evaluation.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/test_native_evaluation.py",
+      "sha256": "6299fe5db9c2a8ac37c6f187ec1bff7b917aec9a1fdaaab053b2c6568a62b2e7",
+      "bytes": 6090,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/test_ordinary.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/test_ordinary.py",
+      "sha256": "4c0bd028d65ae16181b1e07d4111c2f9a3a2dcbb56f7d3fa6149351384cd018c",
+      "bytes": 11096,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/test_policy_audit.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/test_policy_audit.py",
+      "sha256": "7c2d47f4390dc0badd531b133b2619032ca150a068f4324fec07390a66553866",
+      "bytes": 7433,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_pilot_2026-09-15/validate.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/validate.py",
+      "sha256": "7edbd6ab43418d5f1709b86cb689ecefe66201b2ed7ac3a6174b5d2d840c9599",
+      "bytes": 1724,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_permission_business_2026-09-15/bridge.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_permission_business_2026-09-15/bridge.py",
+      "sha256": "a057382de285f5e11171789056633971b921c22a1be02eb7b035a87e955ee61a",
+      "bytes": 2282,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_permission_business_2026-09-15/ecrc_adapter.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_permission_business_2026-09-15/ecrc_adapter.py",
+      "sha256": "a10b77a38826474b564345eb20cbd24d69e28d3e7f2f7139fc9c18105ca3c865",
+      "bytes": 11184,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_permission_business_2026-09-15/independent_audit.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_permission_business_2026-09-15/independent_audit.py",
+      "sha256": "a6d6cd12e5a16dbaabd912cbcd7fa0037478f0b072a129ef02aa5edd34a96871",
+      "bytes": 23343,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_permission_business_2026-09-15/ordinary_business.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_permission_business_2026-09-15/ordinary_business.py",
+      "sha256": "21424e68dcaa2de125a6bf3e3fb1e1cfa6766adb57e0b8f90b130c50405f6968",
+      "bytes": 10373,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_permission_business_2026-09-15/run_pilot.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_permission_business_2026-09-15/run_pilot.py",
+      "sha256": "1e18bdd05167023af005f9552fadd2414734d7df258c16c7fbc7b0d011d2b008",
+      "bytes": 13152,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_permission_business_2026-09-15/test_ecrc_adapter.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_permission_business_2026-09-15/test_ecrc_adapter.py",
+      "sha256": "fc006707ffed6d95462c70a0f04ce8466c93436e33b350048cd2a300e191c29c",
+      "bytes": 7613,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_permission_business_2026-09-15/test_independent_audit.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_permission_business_2026-09-15/test_independent_audit.py",
+      "sha256": "fad322b442c2288c4604ede3c6085553e0bcde7033d8ff49786590349396e317",
+      "bytes": 14727,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_permission_business_2026-09-15/test_ordinary_business.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_permission_business_2026-09-15/test_ordinary_business.py",
+      "sha256": "20324856e45846ac06afd62521b3ab1871fcc0a3077be74df24c4a2e30bdf3f0",
+      "bytes": 7619,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_action_scope_dev_2026-09-15/run_development.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_action_scope_dev_2026-09-15/run_development.py",
+      "sha256": "d07f1f98b00e825427381705593c039fb6804c57c68092dc5717a955757965bd",
+      "bytes": 11511,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_action_scope_dev_2026-09-15/scope_gate.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_action_scope_dev_2026-09-15/scope_gate.py",
+      "sha256": "77c13a4f319c8375d9299a5244a7ff879ce3573430ca7a33efc99cde164c7a14",
+      "bytes": 9714,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_action_scope_dev_2026-09-15/test_scope_gate.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_action_scope_dev_2026-09-15/test_scope_gate.py",
+      "sha256": "0a6eb62f3d52c0cfffbb4fb81327886762eee4b8878c11c694a6bb19e0d0d2b0",
+      "bytes": 7383,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_action_scope_dev_2026-09-15/workflow.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_action_scope_dev_2026-09-15/workflow.py",
+      "sha256": "cab63a1d786d655258fb3cb1641b4bdb89ca2ca4f4b28a1027f0258104b8a34c",
+      "bytes": 4484,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_cancellation_batch_dev_2026-09-15/case_evaluation.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_cancellation_batch_dev_2026-09-15/case_evaluation.py",
+      "sha256": "d761d1419e30ebc9ea74076b51e112a6a153839a1ba00359cdd29e0aa9a18acf",
+      "bytes": 12121,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_cancellation_batch_dev_2026-09-15/run_batch.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_cancellation_batch_dev_2026-09-15/run_batch.py",
+      "sha256": "28b787381b06a39b0589fc62bc186194239a2168c2487a30bb77148d34b11e8a",
+      "bytes": 14163,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_cancellation_batch_dev_2026-09-15/selector_adapter.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_cancellation_batch_dev_2026-09-15/selector_adapter.py",
+      "sha256": "845a8ba11505a1effde6f28b3a58afa297d4d29a4c32cc79233ea5fe85cec487",
+      "bytes": 10091,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_cancellation_batch_dev_2026-09-15/test_case_evaluation.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_cancellation_batch_dev_2026-09-15/test_case_evaluation.py",
+      "sha256": "9f952e44edfcfdf5b74fffbe8a4f6b1fb4b415df7013acda707f1030f1584930",
+      "bytes": 14891,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_cancellation_batch_dev_2026-09-15/test_selector_adapter.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_cancellation_batch_dev_2026-09-15/test_selector_adapter.py",
+      "sha256": "5c25d874de9c49dcce43bc1d4d9d27cb941a05aba8867be35199bca95058c4d3",
+      "bytes": 12421,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_component_ablation_dev_2026-09-15/ablation_gates.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_component_ablation_dev_2026-09-15/ablation_gates.py",
+      "sha256": "7ef3ccc8c3a4a028f35616e51b9908c2ead71c587300fb4c40c037f2266df749",
+      "bytes": 6910,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_component_ablation_dev_2026-09-15/run_ablation.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_component_ablation_dev_2026-09-15/run_ablation.py",
+      "sha256": "1e9f63d9dd8d55c5cfc45d5bb3e44f05bd5fa97138ec5859e97922b741de425d",
+      "bytes": 15533,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_component_ablation_dev_2026-09-15/test_ablation_gates.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_component_ablation_dev_2026-09-15/test_ablation_gates.py",
+      "sha256": "b83c3da5562ab7aca1095c051763c4f1390147235236f5ea9ba2aabf59982f2b",
+      "bytes": 11408,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_native_record_coverage_2026-09-15/prepare_cohort.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/prepare_cohort.py",
+      "sha256": "ad7a3b946b54c48e10bdaba726237a82f2833f68e8243558a2b6010525c03ed1",
+      "bytes": 17661,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_native_record_coverage_2026-09-15/run_coverage.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/run_coverage.py",
+      "sha256": "baaaf7553f981ce39d7dffc0cdd4a9bfc35135cc315b63573bd493cfda2451c0",
+      "bytes": 15851,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_native_record_extension_2026-09-16/prepare_cohort.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_extension_2026-09-16/prepare_cohort.py",
+      "sha256": "2bd40479803891b82c2f01f84b7f5a97aab45e036aedf14e3717d59d4498b9a2",
+      "bytes": 7268,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_native_record_extension_2026-09-16/run_extension.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_extension_2026-09-16/run_extension.py",
+      "sha256": "a9720be18b5381a34a16fdea5c362977a5b2a7399e19740c4ebbed607a90c565",
+      "bytes": 1661,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_boundary_2026-09-16/boundary_common.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/boundary_common.py",
+      "sha256": "dffbfae576eee25f6a27960ef147228229321797768dd54c3bfd224b2ebf751f",
+      "bytes": 4668,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_boundary_2026-09-16/prepare_boundary.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/prepare_boundary.py",
+      "sha256": "c9a72f00a922f1729c22a22dae33fc3d87d62c400f9994b0660a01eb2652ac81",
+      "bytes": 9408,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_boundary_2026-09-16/run_boundary.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/run_boundary.py",
+      "sha256": "421b49a57b9d1a52c60c30960efc8c09c3a7102152c186e75bfabc4371711ecc",
+      "bytes": 15758,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_airline_boundary_2026-09-16/test_boundary_plumbing.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/test_boundary_plumbing.py",
+      "sha256": "f19578c8c7446d6c415c2acfd53702d11a1aba2677c0ca4fdd2e5a6f5b2cf9b7",
+      "bytes": 2901,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/ecrc_e2e.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/ecrc_e2e.py",
+      "sha256": "554b5a35c764c47d9b5e7c4419192a36d601807eb8937b0709a120a03a24060a",
+      "bytes": 8725,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/ecrc_adapter.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/ecrc_adapter.py",
+      "sha256": "89b0a4a497391711a049b0d8e63155ee91c7c4c0e69769f9db7d57e127b5e50f",
+      "bytes": 8749,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/__init__.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/__init__.py",
+      "sha256": "ac5dc53b9663d5ac855907e8bb0f7724ef97a37ee35d18e2ec928f42874e5e1f",
+      "bytes": 100,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/__init__.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/__init__.py",
+      "sha256": "6b36849327c1c2be3526e58813a902a609b4dbbb33ee29426aa3a7f48b54dbf6",
+      "bytes": 1840,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/adjudicator.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/adjudicator.py",
+      "sha256": "c6dd01b71a6a686a553128d0b147f8dd8f8044398d9a0d0ac949bec42e76d00b",
+      "bytes": 11723,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/canonical.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/canonical.py",
+      "sha256": "f08cd0a8677253fcb14340393b1c828196f3d769b2c3eabf897c0816d64399e5",
+      "bytes": 3103,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/enforcement.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/enforcement.py",
+      "sha256": "997efca4c14705b35907f1e144fd8cc77953402eb4603876bd3a88dba818eee4",
+      "bytes": 3807,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/exceptions.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/exceptions.py",
+      "sha256": "2b992f9055a132d3919bf07c7ca3863d519b809b651de5a35cf71120a7f53987",
+      "bytes": 773,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/ledger.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/ledger.py",
+      "sha256": "51a995c7a80c628a0fc487cb7d255091b02455a3d7f4bb2a548a5c3a62eeb303",
+      "bytes": 43027,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/models.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/models.py",
+      "sha256": "60d3e6f5c5c18ffa136da6d1464bba1ebe6e2e57534524fd69588a4a3f976337",
+      "bytes": 34750,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/verifier.py",
+      "source_workspace_relative_path": "output/AIR-014_IASC_Reproducibility/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/verifier.py",
+      "sha256": "d894537f4571fc8463c5a97e93f7d46a5ef41d593059ec13d0f284527a8c9c5b",
+      "bytes": 3983,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/original_first100/REQUESTS.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/REQUESTS.json",
+      "sha256": "06535b9f5413474f1bf016b8a9815996adbdbe68779e4eaa0dcc63ff39364f53",
+      "bytes": 194693,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/original_first100/COHORT_SELECTION.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/COHORT_SELECTION.json",
+      "sha256": "f1185e66ae0a90b3ee70fe5ba20cb3866010ef08d7eecf93f3cbcde1340e0e09",
+      "bytes": 817903,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/original_first100/PROTOCOL.md",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/PROTOCOL.md",
+      "sha256": "ec0a933b01bcddc5e3f2d3bb8a3110e4910af6de1e02a0a2b4b9ebf3176a867b",
+      "bytes": 6023,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/original_first100/SUMMARY.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/runs/batch_01/SUMMARY.json",
+      "source_sha256": "986e75240eb2d3cab42feeec5d1d9b34f9e8d421075302ffe92abc2c81242709",
+      "sha256": "7fc8c251ec8ec1bc21b30e03cba73793f21f36ca9139d86bd81d28a19ad75624",
+      "bytes": 181737,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "provenance/original_first100/REVIEW.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/REVIEW.json",
+      "source_sha256": "4ad880a074ab38c8b1c823576d3c470e04ef3a2238d3102d40ef2c4089335ed9",
+      "sha256": "4ffb1979a6e9e7f057922b1bb0106c1bb376362c8e8e815fd1f250d0ee2711a9",
+      "bytes": 41488,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "provenance/original_first100/EVIDENCE_SHA256.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/EVIDENCE_SHA256.json",
+      "source_sha256": "df844f5a09e71023afded8e332270810a834a22a09c224e651d86ca1ebaa38d7",
+      "sha256": "39fc59adf343d73945b40b92f514c55a9befd6ced2b9a5c51a5145f415d581bb",
+      "bytes": 401764,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/audit_outputs.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/audit_outputs.py",
+      "sha256": "b5a233871e45161393cf784d1fcb8db7ad2ee10adda15a5b6fc5420d19592f2b",
+      "bytes": 42008,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/export_metrics.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/export_metrics.py",
+      "sha256": "8f70289560eaaff20348d38bd19def1e5b6ad3876b8ac0f44f452a844bf292b5",
+      "bytes": 4566,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/finalize_archive.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/finalize_archive.py",
+      "sha256": "56bffe8bdeec38e89863b6fc2261aaae0953f3edc4bc4887aa4d47d58f0728e4",
+      "bytes": 6364,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/write_report.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_coverage_2026-09-15/review/postrun_01/write_report.py",
+      "sha256": "53cd3ee48325c117eddb44e21535954d887fd6a3715cd042ea7928c938644186",
+      "bytes": 11271,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/fixed_next100/REQUESTS.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_extension_2026-09-16/REQUESTS.json",
+      "sha256": "1a6f42723f60acc2063519085195f214c5e25d036a85e9c2afc1d5d630c7cb18",
+      "bytes": 197786,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/fixed_next100/COHORT_SELECTION.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_extension_2026-09-16/COHORT_SELECTION.json",
+      "sha256": "67205d94f7fd2bada22f6ebcedc88f5944277470619202f3ed7110b8ba291fe1",
+      "bytes": 824823,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/fixed_next100/PROTOCOL.md",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_extension_2026-09-16/PROTOCOL.md",
+      "sha256": "b68c75b52f31657c370393a3e647209b1898fcdb2c17c0821aa3f9da72ddd639",
+      "bytes": 5904,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/fixed_next100/SUMMARY.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_extension_2026-09-16/runs/batch_01/SUMMARY.json",
+      "source_sha256": "c9ca4157c7b0531793d35874ae3858d2ceef96fc74fd5ff53886289e180de504",
+      "sha256": "67d6dc7d7430020cb47340bb7c81ddf006984ba7c674ccebb0f5fa363d5d93d7",
+      "bytes": 182492,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "provenance/fixed_next100/REVIEW.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_extension_2026-09-16/review/postrun_01/REVIEW.json",
+      "source_sha256": "fa06eb75699d03776a8fe23fc4b7dda63ef880f0c9719bb10efd2de1f1b54f05",
+      "sha256": "c493b34dc805e8072627db4f948b447b8ddc3ab56af696bb6d137c12dad6ebc4",
+      "bytes": 46570,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "provenance/fixed_next100/EVIDENCE_SHA256.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_native_record_extension_2026-09-16/review/postrun_01/EVIDENCE_SHA256.json",
+      "source_sha256": "03d8d2af30ea1993d908ca0781ca89dc95fe8dd7bbce16feda6e9f02456fdaf1",
+      "sha256": "ea1627e8731b5a3bb606f586225198cd2b117fe2b9e3d46b5662550bb4615e03",
+      "bytes": 400780,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "inputs/constructed_boundaries/REQUESTS.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/REQUESTS.json",
+      "sha256": "787f433f625530fec179217e985c6c57a461017659353ead07f20833a2a4a17f",
+      "bytes": 10172,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/CASE_SPECS.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/CASE_SPECS.json",
+      "sha256": "759a0dceb3657e0e64eca7136152743c386464abbd83e6fefa35646318e2b7ca",
+      "bytes": 4154,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/EXPECTED_BOUNDARIES.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/EXPECTED_BOUNDARIES.json",
+      "sha256": "af1af3d8d6605a8cd6ab081ad537a7b6ea1a747b33eed78f895d5a4147ffbed2",
+      "bytes": 3095,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/FIXTURE_INDEX.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/FIXTURE_INDEX.json",
+      "sha256": "129ba3d07261b531994565b2900b0b26c3c21c86a4934707c0f072de7681dfc4",
+      "bytes": 9355,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/PROTOCOL.md",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/PROTOCOL.md",
+      "sha256": "9594763fa7d6e22b2f4df3c3fefb193e74cb569dd1a4083417737596ed1b4ed5",
+      "bytes": 9632,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/constructed_boundaries/SUMMARY.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/runs/batch_01/SUMMARY.json",
+      "source_sha256": "6e7e1989ce72027ea3bb1cdb0bb066eafde3722763282976d34d945e153b99f7",
+      "sha256": "fa0adbe8052b11e227c3e43fafb007e2e3cd417fadb73aeb1e43b980cc6f6e5d",
+      "bytes": 17408,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "provenance/constructed_boundaries/REVIEW.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/review/postrun_01/REVIEW.json",
+      "source_sha256": "73c7600fb439e317f5feb913ba9b1e42df7ee3240e9227f3359df7be5f47172c",
+      "sha256": "c906250e0c8dac1108e1169b778d8db1e30c381b8f4113015ee022c6b5d3eb59",
+      "bytes": 11497,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "provenance/constructed_boundaries/EVIDENCE_SHA256.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/review/postrun_01/EVIDENCE_SHA256.json",
+      "source_sha256": "83349324b04ae0c06fb244e38e63324348141a6713eae7bc4f2d447da19c829d",
+      "sha256": "6e6487bbacedb92ece74847a32d14e3e54524de349929915417520c8d9b289a5",
+      "bytes": 30823,
+      "transformation": "lossless gzip; uncompressed bytes identical to source"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/audit_outputs.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/audit_outputs.py",
+      "sha256": "b75549d5c406afd521f8174ff4e00ef4f73e7cf50f7694feeb73e414cae7a6b4",
+      "bytes": 37202,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/audit_outputs_v1.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/audit_outputs_v1.py",
+      "sha256": "79a9df97c380bcb93179538abb9446ad8119ab1cba02863fe0bf5348867e4f0f",
+      "bytes": 35269,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/audit_outputs_v2.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/audit_outputs_v2.py",
+      "sha256": "433e65776a31595a53796a2470c65ff64e8c33394e3fedab60ba59dfca3e789e",
+      "bytes": 36367,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/export_metrics.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/export_metrics.py",
+      "sha256": "9cb4d99e48bcb67332c07d423a13847eb243089a1637b1ebbe80ade627a68b26",
+      "bytes": 2829,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/finalize_archive.py",
+      "source_workspace_relative_path": "research_pilots/ecrc_component_ablation_dev_2026-09-15/review/postrun_01/finalize_archive.py",
+      "sha256": "6b4eaa280d5faa46315fdfbfc50da0df1107659cc01013609bae8952ef2d42c9",
+      "bytes": 4234,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/qa/iasc_followup_experiments_2026-09-16/independent_audit.py",
+      "source_workspace_relative_path": "qa/iasc_followup_experiments_2026-09-16/independent_audit.py",
+      "sha256": "ca339fb7373820bfd19241950495708dfd117f2802fc575ecb3752074fa0f93d",
+      "bytes": 21395,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "frozen/qa/iasc_followup_experiments_2026-09-16/independent_audit_v2.py",
+      "source_workspace_relative_path": "qa/iasc_followup_experiments_2026-09-16/independent_audit_v2.py",
+      "sha256": "14e567b12a388ceabf9c9741c8ca769f753e24c5555b8ab8f9bcec92acdf97c3",
+      "bytes": 3864,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/airline_available_control/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/airline_available_control/DB_PATCH.json",
+      "sha256": "e9b3c542f08933b2d34f5dd10ac1902393cacd564098d228b8ffe47651e1fed9",
+      "bytes": 837,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/already_cancelled_overrides24/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/already_cancelled_overrides24/DB_PATCH.json",
+      "sha256": "4a462d366c7233396ee53831d326c8bd364ac136f1f6819ed396a7bfb15bec70",
+      "bytes": 1416,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/flying_overrides24/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/flying_overrides24/DB_PATCH.json",
+      "sha256": "1a03b8bf14398a022db28064f4e19df62cbe23ca3c6ea8ac2fb0c5e2ebccb0ac",
+      "bytes": 1636,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/flying_overrides_insured_weather/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/flying_overrides_insured_weather/DB_PATCH.json",
+      "sha256": "95df2bd0b3c18b7acc1cc7bb29cf7e1493839b9d946fc7efd0295574375cfbc8",
+      "bytes": 1493,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/insured_other/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/insured_other/DB_PATCH.json",
+      "sha256": "614c85d37561085f100b1e3acf204e95749977005be49c0d4ebfba9593ebc1f2",
+      "bytes": 694,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/insured_weather/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/insured_weather/DB_PATCH.json",
+      "sha256": "614c85d37561085f100b1e3acf204e95749977005be49c0d4ebfba9593ebc1f2",
+      "bytes": 694,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/missing_reason_overrides24/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/missing_reason_overrides24/DB_PATCH.json",
+      "sha256": "46e5a0a7dfce93a629a69e93f36ab985d624e57011779587e981de69f01f9820",
+      "bytes": 837,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/missing_reason_overrides_airline/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/missing_reason_overrides_airline/DB_PATCH.json",
+      "sha256": "ac4eeb495a1518f989760a4b5ac13a4e3b2f7c546387e09361938c8eac556b09",
+      "bytes": 1296,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/missing_reason_overrides_business/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/missing_reason_overrides_business/DB_PATCH.json",
+      "sha256": "e8dfaee37039ce40af677fd585f47b252c4e89f8eecd107f8d1bea4ae01ac600",
+      "bytes": 986,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/missing_reason_overrides_insurance/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/missing_reason_overrides_insurance/DB_PATCH.json",
+      "sha256": "614c85d37561085f100b1e3acf204e95749977005be49c0d4ebfba9593ebc1f2",
+      "bytes": 694,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/sole24_after/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/sole24_after/DB_PATCH.json",
+      "sha256": "591f733b28087685f38fa6c55e7c796b04bc5382284decaa96082c1f76c342d1",
+      "bytes": 837,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/sole24_at/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/sole24_at/DB_PATCH.json",
+      "sha256": "d0159b2b933418e07b8e63c1511da73d82c17bf187d4b2f815ed3bfae276c0a8",
+      "bytes": 837,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/sole24_before/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/sole24_before/DB_PATCH.json",
+      "sha256": "af14e66fc03c38c883a6d8749b49c1ac32580fb521db02c24bdd706a21365d42",
+      "bytes": 837,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/sole_airline_cancelled/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/sole_airline_cancelled/DB_PATCH.json",
+      "sha256": "ac4eeb495a1518f989760a4b5ac13a4e3b2f7c546387e09361938c8eac556b09",
+      "bytes": 1296,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/sole_business/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/sole_business/DB_PATCH.json",
+      "sha256": "e8dfaee37039ce40af677fd585f47b252c4e89f8eecd107f8d1bea4ae01ac600",
+      "bytes": 986,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/constructed_boundaries/fixtures/uninsured_weather/DB_PATCH.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/fixtures/uninsured_weather/DB_PATCH.json",
+      "sha256": "e9b3c542f08933b2d34f5dd10ac1902393cacd564098d228b8ffe47651e1fed9",
+      "bytes": 837,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "inputs/BASE_DB.json.gz",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_boundary_2026-09-16/BASE_DB.json.gz",
+      "sha256": "9e50aa83b61379bb2bb7408af536835ef5f4c961cb1c5d86fcdc17daa1594be7",
+      "bytes": 635000,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/combined_native_summary/COHORT_COMPARISON.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/combined_native_summary/COHORT_COMPARISON.csv",
+      "sha256": "e9bf8f00e1b3945a996c7540b5a1b94a8d48edbc17e4c0333c7ed110f30352cd",
+      "bytes": 8425,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/combined_native_summary/QUALIFICATION_BASIS_COVERAGE.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/combined_native_summary/QUALIFICATION_BASIS_COVERAGE.csv",
+      "sha256": "ab69c236901cf85bbaadae8113664f831e616ef0156a1bfad4d73d4e27ebf248",
+      "bytes": 3050,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/combined_native_summary/REASON_CATEGORY_COVERAGE.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/combined_native_summary/REASON_CATEGORY_COVERAGE.csv",
+      "sha256": "8954bd50404d8fe73099a318b196fc66250d2fef8834664955efc4e16532a138",
+      "bytes": 846,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/combined_native_summary/RECORD_CONTEXT_COVERAGE.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/combined_native_summary/RECORD_CONTEXT_COVERAGE.csv",
+      "sha256": "9326520be06aec715fb11f9750f394d58a25b988c1f880cd323559209ed97b88",
+      "bytes": 83277,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/AGGREGATE_METRICS.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/AGGREGATE_METRICS.json",
+      "sha256": "905604f1e790f89e0218aa4d5cae8695c70249a94869a07ea196d9533c35a616",
+      "bytes": 38437,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/ARM_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/ARM_METRICS.csv",
+      "sha256": "728ea539a845b8b0c02b9a4e65882c016af6a08ce27eff6fb8ffe9ed8268c3a7",
+      "bytes": 3057,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/AUDIT_SUMMARY.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/AUDIT_SUMMARY.json",
+      "sha256": "85ffdb1612dc4742e361480da7853532d6409e1c070e1ee0b808c015387cfa49",
+      "bytes": 823,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/CANDIDATE_CONTEXTS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/CANDIDATE_CONTEXTS.csv",
+      "sha256": "a57829f76cbf685c7ba7ca726c480d0e72932b813d1dbcb0ad187f9c70824350",
+      "bytes": 1491,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/CASE_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/CASE_METRICS.csv",
+      "sha256": "4c36fa745aef4c0d6546eaea2db85a070ccca37df816f3c7a0bcc8b5e0c5903a",
+      "bytes": 71454,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/CASE_SPECS.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/CASE_SPECS.json",
+      "sha256": "759a0dceb3657e0e64eca7136152743c386464abbd83e6fefa35646318e2b7ca",
+      "bytes": 4154,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/CATEGORY_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/CATEGORY_METRICS.csv",
+      "sha256": "061efcd74c2e4f8f5ffdfe0f195bc5d413336b57fff972c21b11966de2a6ead6",
+      "bytes": 593,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/EXPECTED_BOUNDARIES.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/EXPECTED_BOUNDARIES.json",
+      "sha256": "af1af3d8d6605a8cd6ab081ad537a7b6ea1a747b33eed78f895d5a4147ffbed2",
+      "bytes": 3095,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/FIXTURE_INDEX.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/FIXTURE_INDEX.json",
+      "sha256": "129ba3d07261b531994565b2900b0b26c3c21c86a4934707c0f072de7681dfc4",
+      "bytes": 9355,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/PAIRED_COMPARISONS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/PAIRED_COMPARISONS.csv",
+      "sha256": "ece64c73d33e15f6dc65ed0a414ce902ef2a10ecb5fb70d1800a96b89ed8922d",
+      "bytes": 22598,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/POSITIVE_BASIS_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/POSITIVE_BASIS_METRICS.csv",
+      "sha256": "7a23de2ba6eea28302b2356466b4656633c0192e2586e7ef545af3ceb26cdbfe",
+      "bytes": 797,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/RAW_EFFECT_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/RAW_EFFECT_METRICS.csv",
+      "sha256": "dce010811d994201c61bd6b43a314ecebcdebc87760b9da68cb0961e116bcbfc",
+      "bytes": 7559,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/REASON_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/REASON_METRICS.csv",
+      "sha256": "241a342eeef5e3cd52bdd3275662ca3e71416d850579c4bcb888695b5a9ce238",
+      "bytes": 7623,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/constructed_boundaries/REQUESTS.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/constructed_boundaries/REQUESTS.json",
+      "sha256": "787f433f625530fec179217e985c6c57a461017659353ead07f20833a2a4a17f",
+      "bytes": 10172,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/controlled_records/ARM_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/controlled_records/ARM_METRICS.csv",
+      "sha256": "b569104731c28a53860b8c9cdb1c542806bed7ca3cba87ae50d9b23ad5bd0c26",
+      "bytes": 984,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/controlled_records/CASE_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/controlled_records/CASE_METRICS.csv",
+      "sha256": "323652c45d058f521ef2ba7275989d2e6e8b79b582cd5a6dbfff5ad9a20e3972",
+      "bytes": 150650,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/controlled_records/EVIDENCE_SHA256.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/controlled_records/EVIDENCE_SHA256.json",
+      "sha256": "df844f5a09e71023afded8e332270810a834a22a09c224e651d86ca1ebaa38d7",
+      "bytes": 2289673,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/controlled_records/REASON_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/controlled_records/REASON_METRICS.csv",
+      "sha256": "399e2963b15e1beacd625e890b5fbbfbb02f69e442ded0c1c10e9d32ce1aeaf1",
+      "bytes": 1849,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/controlled_records/STATUS.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/controlled_records/STATUS.json",
+      "sha256": "65b56c3bccb3c0e22027ff52bd94cd7dec333da821f1ffaf813d7b5d1b5183e5",
+      "bytes": 1816,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/exposed_official_extension/ARM_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/exposed_official_extension/ARM_METRICS.csv",
+      "sha256": "8cf91ec65fa34ae6edf1f25a7e353d9c2a817ec59327369d5a3dee08f495d390",
+      "bytes": 968,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/exposed_official_extension/CASE_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/exposed_official_extension/CASE_METRICS.csv",
+      "sha256": "f022fcd8801bcaf92d5c9035535d544a0c9c991f80a0335b4a5256896e851e6b",
+      "bytes": 10079,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/exposed_official_extension/EVIDENCE_SHA256.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/exposed_official_extension/EVIDENCE_SHA256.json",
+      "sha256": "c6c6dc6d004a01e92883a2533c84aecdb1b161d14a28c29cdbd903b6527706ad",
+      "bytes": 77403,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/exposed_official_extension/STATUS.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/exposed_official_extension/STATUS.json",
+      "sha256": "e9ef71af847633c495ea3178e664bfebb684aca63b61b806558748a542a1ae93",
+      "bytes": 2369,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/AGGREGATE_METRICS.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/AGGREGATE_METRICS.json",
+      "sha256": "60d42dedf204c86385f1dc6612755a44c88a844bef69f50e4f2e4e10e395d84d",
+      "bytes": 74856,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/ARM_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/ARM_METRICS.csv",
+      "sha256": "05b2097edec82e5ed6ee3cb6b97968c46601166660bfb55edc5980e72d1ec08b",
+      "bytes": 3169,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/AUDIT_SUMMARY.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/AUDIT_SUMMARY.json",
+      "sha256": "a26722f76d40803796d2e41b2a07b2f067fe3ea9f019649b4794fd2deb7c557f",
+      "bytes": 827,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/CANDIDATE_CONTEXTS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/CANDIDATE_CONTEXTS.csv",
+      "sha256": "8bb706f87d7f43507634af0fba4baffae030082dc1dd2453312abfef4d7251b4",
+      "bytes": 26462,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/CASE_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/CASE_METRICS.csv",
+      "sha256": "6f289c6549bf1f11def024fd4f10bd710f5ec536ffd6968c96c9d86cc31aae67",
+      "bytes": 1340637,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/CATEGORY_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/CATEGORY_METRICS.csv",
+      "sha256": "61ca6253c72d8f2be9d17b62ff9e1c8d858e91bcbe49e346ebeb361a87031f6e",
+      "bytes": 628,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/PAIRED_COMPARISONS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/PAIRED_COMPARISONS.csv",
+      "sha256": "b2d2d64fdcee0c73aaa4575cfe3f49eee554024af12872d01eaded67965b23dd",
+      "bytes": 418868,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/POSITIVE_BASIS_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/POSITIVE_BASIS_METRICS.csv",
+      "sha256": "778cc48166da9f5a7969f96b7db93ad118a1a98a2fd7680522f2c701469a6134",
+      "bytes": 814,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/RAW_EFFECT_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/RAW_EFFECT_METRICS.csv",
+      "sha256": "d04ee66b662cbe3195b00b202d9f0605cc2a02f8437533c59a155ddaebabd0e0",
+      "bytes": 134023,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/REASON_METRICS.csv",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/REASON_METRICS.csv",
+      "sha256": "cfdc60b2f5662076a2a247074fa7298dc01cd2b7e74c724c093978bdc4591d4a",
+      "bytes": 7965,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/REQUESTS.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/REQUESTS.json",
+      "sha256": "1a6f42723f60acc2063519085195f214c5e25d036a85e9c2afc1d5d630c7cb18",
+      "bytes": 197786,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "results/supplement/fixed_next100/SELECTION_SUMMARY.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/fixed_next100/SELECTION_SUMMARY.json",
+      "sha256": "1d5709c24babd6953ecf8798dff8acc44af521380f067a9e00cec45380c70501",
+      "bytes": 113634,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "SOURCE_ATTRIBUTION.json",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/SOURCE_ATTRIBUTION.json",
+      "sha256": "1635fa764fe87777670d9190c31e358df17ba454533cb040206680c201e0d8b9",
+      "bytes": 701,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "UPSTREAM_LICENSE.txt",
+      "source_workspace_relative_path": "output/iasc_focus_revision_2026-09-19/supplement/S11_airline/UPSTREAM_LICENSE.txt",
+      "sha256": "e67c5aa0074dfcaefd3c3a1aedb94cb539234aecd15d5a972574e3200e6252fe",
+      "bytes": 1072,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "historical/two_episode_pilot/SUMMARY.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/review/batch_01/SUMMARY.json",
+      "sha256": "26e58bd72ce2035706dc2b1289870a12dd4b166ff2e15772f43fa0420f4a1389",
+      "bytes": 6717,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "historical/two_episode_pilot/REQUESTS.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/REQUESTS.json",
+      "sha256": "df710d21ca953c3d9191dd01b19196c88e5e37ed4e4f56cb772b819e072b93d1",
+      "bytes": 4241,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "historical/two_episode_pilot/RUN_PLAN.json",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_pilot_2026-09-15/RUN_PLAN.json",
+      "sha256": "209e558bdb87be8806b22b2b621cd281cf95ca225008aec31a6cc2cb1953700d",
+      "bytes": 1539,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "historical/exposed_official_extension/ARM_METRICS.csv",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_test_validation_2026-09-15/ARM_METRICS.csv",
+      "sha256": "8cf91ec65fa34ae6edf1f25a7e353d9c2a817ec59327369d5a3dee08f495d390",
+      "bytes": 968,
+      "transformation": "byte-for-byte"
+    },
+    {
+      "path": "historical/exposed_official_extension/CASE_METRICS.csv",
+      "source_workspace_relative_path": "research_pilots/ecrc_airline_test_validation_2026-09-15/CASE_METRICS.csv",
+      "sha256": "f022fcd8801bcaf92d5c9035535d544a0c9c991f80a0335b4a5256896e851e6b",
+      "bytes": 10079,
+      "transformation": "byte-for-byte"
+    }
+  ],
+  "note": "Frozen Python sources retain original paths internally. Use run_native.py for portable execution. Audit and preparation scripts are archival, with source-relative imports retained."
+}

@@ -1,0 +1,130 @@
+{
+  "command": {
+    "op": "snapshot"
+  },
+  "event": "result",
+  "job": null,
+  "op": "snapshot",
+  "state": {
+    "capacity_limit": 2,
+    "capacity_rows": [
+      {
+        "capacity_limit": 2,
+        "committed": 0,
+        "policy_id": "mixed-workflow-development-v1",
+        "policy_revision": 1,
+        "reserved": 1,
+        "resource": "alert",
+        "scope_key": "mixed-workflow-development-v1::mixed-workflow-development-v1",
+        "state_revision": 3
+      }
+    ],
+    "committed": 0,
+    "jobs": [
+      {
+        "ack_json": null,
+        "armed_at": "2026-09-12T12:00:20.000000Z",
+        "idempotency_key": "permit_17aea263aa63a3a27b83a1a75075fac2",
+        "payload_hash": "c31e85271013095ce319e4d38a831432961b6f5018ee375740c133e8f4c06388",
+        "payload_json": "{\"decision_id\":\"job-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\",\"permitted_claim_ids\":[\"notify\"],\"route\":\"alert\",\"used_evidence_ids\":[\"e-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\"]}",
+        "permit_hash": "6a21b621681e4f941404fac2338580293c6e906b12d1f1780c4b79f29af2538e",
+        "permit_id": "permit_17aea263aa63a3a27b83a1a75075fac2",
+        "permit_json": "{\"admitted_evidence_ids\":[\"e-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\"],\"blocked_claim_ids\":[\"clinical_benefit\",\"review_request\"],\"decision_id\":\"job-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\",\"evidence_hash\":\"d3129031ea13bd0161d0ca1970455a5e8e48bbf0c83f875a07d4b384991c5874\",\"excluded_evidence_ids\":[],\"expires_at\":\"2026-09-12T13:00:20.000000Z\",\"issued_at\":\"2026-09-12T12:00:20.000000Z\",\"permit_id\":\"permit_17aea263aa63a3a27b83a1a75075fac2\",\"permitted_claim_ids\":[\"notify\"],\"policy_hash\":\"279395e12798bcb11010ecd2d806531568cf86a6ea08a8a39b1be294363bc5f5\",\"policy_id\":\"mixed-workflow-development-v1\",\"policy_revision\":1,\"post_state_revision\":2,\"pre_state_revision\":1,\"proposal_hash\":\"02460281c380249621a9b41349b9162687db3556fdb1da3f24d5e6ee7f8ca516\",\"reason_code\":\"score_above_review_band\",\"request_hash\":\"3a0a34befb4314503754f3065a1d13402abc0d2a6fce8dff7ec4e6e0dd0493a2\",\"reservation_id\":\"res_fb5e80c48db62116f236a4ec4d13ad6f\",\"reserved_resource\":\"alert\",\"route\":\"alert\",\"used_evidence_ids\":[\"e-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\"]}",
+        "receipt_json": null,
+        "state": "armed"
+      }
+    ],
+    "n_armed": 1,
+    "n_jobs": 1,
+    "n_receipted": 0,
+    "n_receipts": 0,
+    "permits": [
+      {
+        "admitted_evidence_ids": [
+          "e-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58"
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit",
+          "review_request"
+        ],
+        "decision_id": "job-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58",
+        "evidence_hash": "c747fb239bc64d0e17c2ffe2c501034e5da8d3b8060678fa45a68931993fadfe",
+        "excluded_evidence_ids": [],
+        "expires_at": "2026-09-12T13:00:10.000000Z",
+        "issued_at": "2026-09-12T12:00:10.000000Z",
+        "permit_id": "permit_3d8420d61bb7b731c0e59f2481b7924a",
+        "permitted_claim_ids": [
+          "notify"
+        ],
+        "policy_hash": "279395e12798bcb11010ecd2d806531568cf86a6ea08a8a39b1be294363bc5f5",
+        "policy_id": "mixed-workflow-development-v1",
+        "policy_revision": 1,
+        "post_state_revision": 1,
+        "pre_state_revision": 0,
+        "proposal_hash": "a90fc0b1a0807e0cfcbb12b623e7a32f97106ec899df5d2cf8ca52878d88e671",
+        "reason_code": "score_above_review_band",
+        "request_hash": "161076422050e5e87124c7460408ec91666fb1cc52ffd41bd806b79b34b16843",
+        "reservation_id": "res_2845d6bdd91beb75069e7d5ca0d65dad",
+        "reserved_resource": "alert",
+        "route": "alert",
+        "used_evidence_ids": [
+          "e-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58"
+        ]
+      },
+      {
+        "admitted_evidence_ids": [
+          "e-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+        ],
+        "blocked_claim_ids": [
+          "clinical_benefit",
+          "review_request"
+        ],
+        "decision_id": "job-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+        "evidence_hash": "d3129031ea13bd0161d0ca1970455a5e8e48bbf0c83f875a07d4b384991c5874",
+        "excluded_evidence_ids": [],
+        "expires_at": "2026-09-12T13:00:20.000000Z",
+        "issued_at": "2026-09-12T12:00:20.000000Z",
+        "permit_id": "permit_17aea263aa63a3a27b83a1a75075fac2",
+        "permitted_claim_ids": [
+          "notify"
+        ],
+        "policy_hash": "279395e12798bcb11010ecd2d806531568cf86a6ea08a8a39b1be294363bc5f5",
+        "policy_id": "mixed-workflow-development-v1",
+        "policy_revision": 1,
+        "post_state_revision": 2,
+        "pre_state_revision": 1,
+        "proposal_hash": "02460281c380249621a9b41349b9162687db3556fdb1da3f24d5e6ee7f8ca516",
+        "reason_code": "score_above_review_band",
+        "request_hash": "3a0a34befb4314503754f3065a1d13402abc0d2a6fce8dff7ec4e6e0dd0493a2",
+        "reservation_id": "res_fb5e80c48db62116f236a4ec4d13ad6f",
+        "reserved_resource": "alert",
+        "route": "alert",
+        "used_evidence_ids": [
+          "e-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+        ]
+      }
+    ],
+    "requests": [
+      {
+        "cancelled_at": "2026-09-12T13:00:30.000000Z",
+        "decision_id": "job-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58",
+        "permit_json": "{\"admitted_evidence_ids\":[\"e-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58\"],\"blocked_claim_ids\":[\"clinical_benefit\",\"review_request\"],\"decision_id\":\"job-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58\",\"evidence_hash\":\"c747fb239bc64d0e17c2ffe2c501034e5da8d3b8060678fa45a68931993fadfe\",\"excluded_evidence_ids\":[],\"expires_at\":\"2026-09-12T13:00:10.000000Z\",\"issued_at\":\"2026-09-12T12:00:10.000000Z\",\"permit_id\":\"permit_3d8420d61bb7b731c0e59f2481b7924a\",\"permitted_claim_ids\":[\"notify\"],\"policy_hash\":\"279395e12798bcb11010ecd2d806531568cf86a6ea08a8a39b1be294363bc5f5\",\"policy_id\":\"mixed-workflow-development-v1\",\"policy_revision\":1,\"post_state_revision\":1,\"pre_state_revision\":0,\"proposal_hash\":\"a90fc0b1a0807e0cfcbb12b623e7a32f97106ec899df5d2cf8ca52878d88e671\",\"reason_code\":\"score_above_review_band\",\"request_hash\":\"161076422050e5e87124c7460408ec91666fb1cc52ffd41bd806b79b34b16843\",\"reservation_id\":\"res_2845d6bdd91beb75069e7d5ca0d65dad\",\"reserved_resource\":\"alert\",\"route\":\"alert\",\"used_evidence_ids\":[\"e-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58\"]}",
+        "received_at": "2026-09-12T12:00:10.000000Z",
+        "request_hash": "10caae3725e481b98130bd25eff5dbb037703ce099d3a31e2ca59d906b84f7f1",
+        "request_json": "{\"evidence\":{\"created_at\":\"2026-09-12T12:00:10.000000Z\",\"decision_id\":\"job-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58\",\"items\":[{\"available_at\":\"2026-09-12T12:00:10.000000Z\",\"evidence_id\":\"e-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58\",\"evidence_type\":\"signal\",\"observed_at\":\"2026-09-12T12:00:10.000000Z\",\"provenance_hash\":\"9ea412de3b647a72bd3dc859611bee001ca8a958d11bf2a68112b75b0eda21a7\",\"requested_for_use\":true,\"schema_version\":\"1.0\",\"source\":\"local-fixture\"}]},\"policy\":{\"alert_capacity\":2,\"allowed_routes\":[\"alert\",\"review\",\"abstain\",\"no_action\"],\"approved_models\":[{\"model_hash\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"model_id\":\"fixed-proposal\"}],\"blocked_claim_ids\":[\"clinical_benefit\"],\"capacity_scope\":\"subject_session\",\"claim_rules\":[{\"claim_id\":\"notify\",\"reason_codes\":[],\"required_evidence_types\":[\"signal\"],\"routes\":[\"alert\"]},{\"claim_id\":\"review_request\",\"reason_codes\":[],\"required_evidence_types\":[\"signal\"],\"routes\":[\"review\"]}],\"effective_from\":\"2026-09-12T00:00:00.000000Z\",\"evidence_rules\":[{\"allowed_schema_versions\":[\"1.0\"],\"allowed_sources\":[\"local-fixture\"],\"evidence_type\":\"signal\",\"max_age_seconds\":60,\"use_allowed\":true},{\"allowed_schema_versions\":[\"1.0\"],\"allowed_sources\":[\"local-fixture\"],\"evidence_type\":\"context\",\"max_age_seconds\":60,\"use_allowed\":true}],\"expires_at\":\"2030-01-01T00:00:00.000000Z\",\"failure_mode\":\"fail_closed\",\"issuer_id\":\"trusted-local-experiment\",\"policy_id\":\"mixed-workflow-development-v1\",\"review_band_width\":0.03,\"review_capacity\":0,\"revision\":1,\"score_threshold\":0.6,\"uncertainty_threshold\":0.9},\"proposal\":{\"decision_id\":\"job-ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58\",\"input_hash\":\"884160c37e76966240d94917808aeccd74ff22acf2e762d0404055f145d6dc79\",\"model_hash\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"model_id\":\"fixed-proposal\",\"model_version\":\"1\",\"proposed_action\":\"alert\",\"proposed_at\":\"2026-09-12T12:00:10.000000Z\",\"score\":0.8,\"session_id\":\"mixed-workflow-development-v1\",\"subject_id\":\"mixed-workflow-development-v1\",\"uncertainty\":0.2,\"validation_scope_id\":\"synthetic-end-to-end\"}}",
+        "state": "cancelled"
+      },
+      {
+        "cancelled_at": null,
+        "decision_id": "job-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+        "permit_json": "{\"admitted_evidence_ids\":[\"e-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\"],\"blocked_claim_ids\":[\"clinical_benefit\",\"review_request\"],\"decision_id\":\"job-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\",\"evidence_hash\":\"d3129031ea13bd0161d0ca1970455a5e8e48bbf0c83f875a07d4b384991c5874\",\"excluded_evidence_ids\":[],\"expires_at\":\"2026-09-12T13:00:20.000000Z\",\"issued_at\":\"2026-09-12T12:00:20.000000Z\",\"permit_id\":\"permit_17aea263aa63a3a27b83a1a75075fac2\",\"permitted_claim_ids\":[\"notify\"],\"policy_hash\":\"279395e12798bcb11010ecd2d806531568cf86a6ea08a8a39b1be294363bc5f5\",\"policy_id\":\"mixed-workflow-development-v1\",\"policy_revision\":1,\"post_state_revision\":2,\"pre_state_revision\":1,\"proposal_hash\":\"02460281c380249621a9b41349b9162687db3556fdb1da3f24d5e6ee7f8ca516\",\"reason_code\":\"score_above_review_band\",\"request_hash\":\"3a0a34befb4314503754f3065a1d13402abc0d2a6fce8dff7ec4e6e0dd0493a2\",\"reservation_id\":\"res_fb5e80c48db62116f236a4ec4d13ad6f\",\"reserved_resource\":\"alert\",\"route\":\"alert\",\"used_evidence_ids\":[\"e-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\"]}",
+        "received_at": "2026-09-12T12:00:20.000000Z",
+        "request_hash": "77e5cd222d06e286f6d19bdd944fef21be58c70a922640f0934e9d513852a013",
+        "request_json": "{\"evidence\":{\"created_at\":\"2026-09-12T12:00:20.000000Z\",\"decision_id\":\"job-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\",\"items\":[{\"available_at\":\"2026-09-12T12:00:20.000000Z\",\"evidence_id\":\"e-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\",\"evidence_type\":\"signal\",\"observed_at\":\"2026-09-12T12:00:20.000000Z\",\"provenance_hash\":\"9a6b570e0f4ff22c69504229835c50b8ac255ad44b87018eba3498023bbe695a\",\"requested_for_use\":true,\"schema_version\":\"1.0\",\"source\":\"local-fixture\"}]},\"policy\":{\"alert_capacity\":2,\"allowed_routes\":[\"alert\",\"review\",\"abstain\",\"no_action\"],\"approved_models\":[{\"model_hash\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"model_id\":\"fixed-proposal\"}],\"blocked_claim_ids\":[\"clinical_benefit\"],\"capacity_scope\":\"subject_session\",\"claim_rules\":[{\"claim_id\":\"notify\",\"reason_codes\":[],\"required_evidence_types\":[\"signal\"],\"routes\":[\"alert\"]},{\"claim_id\":\"review_request\",\"reason_codes\":[],\"required_evidence_types\":[\"signal\"],\"routes\":[\"review\"]}],\"effective_from\":\"2026-09-12T00:00:00.000000Z\",\"evidence_rules\":[{\"allowed_schema_versions\":[\"1.0\"],\"allowed_sources\":[\"local-fixture\"],\"evidence_type\":\"signal\",\"max_age_seconds\":60,\"use_allowed\":true},{\"allowed_schema_versions\":[\"1.0\"],\"allowed_sources\":[\"local-fixture\"],\"evidence_type\":\"context\",\"max_age_seconds\":60,\"use_allowed\":true}],\"expires_at\":\"2030-01-01T00:00:00.000000Z\",\"failure_mode\":\"fail_closed\",\"issuer_id\":\"trusted-local-experiment\",\"policy_id\":\"mixed-workflow-development-v1\",\"review_band_width\":0.03,\"review_capacity\":0,\"revision\":1,\"score_threshold\":0.6,\"uncertainty_threshold\":0.9},\"proposal\":{\"decision_id\":\"job-f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae\",\"input_hash\":\"ceb690f1db4634cde77a02358bd68df00dbe44016b0ea1927927d0912a783615\",\"model_hash\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"model_id\":\"fixed-proposal\",\"model_version\":\"1\",\"proposed_action\":\"alert\",\"proposed_at\":\"2026-09-12T12:00:20.000000Z\",\"score\":0.8,\"session_id\":\"mixed-workflow-development-v1\",\"subject_id\":\"mixed-workflow-development-v1\",\"uncertainty\":0.2,\"validation_scope_id\":\"synthetic-end-to-end\"}}",
+        "state": "issued"
+      }
+    ],
+    "reserved": 1
+  },
+  "status": "snapshot"
+}

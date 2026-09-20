@@ -5,13 +5,13 @@ type: software
 authors:
   - name: "ECRC research project"
 repository-code: "https://github.com/ziwang11112/ecrc-ai-decision-permits"
-url: "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.1.0"
-version: "1.1.0"
-date-released: "2026-09-12"
+url: "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.2.0"
+version: "1.2.0"
+date-released: "2026-09-20"
 license: MIT
 references:
   - type: unpublished
-    title: "Decision Permits for Capacity-Bounded Artificial Intelligence Actions: Binding Authorization to Effects"
+    title: "ECRC: Decision Permits for Budgeted Workflows"
     authors:
       - family-names: Wang
         given-names: Zi

@@ -1,0 +1,13 @@
+arm,reason,constructed_request_count,unique_accounts,unique_reservations,unique_accounts_with_eligible_request,unique_reservations_with_eligible_request,selected_candidate_count,eligible_count,ineligible_count,unresolved_candidate_count,eligible_completed,eligible_missed,ineligible_executed,unresolved_executed,unresolved_selector,stage_actions_safe_and_complete,out_of_selection_executed_count,missing_information_count,missing_information_executed,transfer_required_count,transfer_required_executed,native_calls,native_writes,native_errors,full_task_success_established
+direct_native_dispatch,health,100,100,100,40,40,100,40,19,41,40,0,19,41,0,40,0,0,0,41,41,1507,100,0,False
+direct_native_dispatch,other,100,100,100,19,19,100,19,40,41,19,0,40,41,0,19,0,0,0,41,41,1507,100,0,False
+direct_native_dispatch,unspecified,100,100,100,0,0,100,0,0,100,0,0,0,100,0,0,0,100,100,0,0,1507,100,0,False
+qualification_ecrc,health,100,100,100,40,40,100,40,19,41,40,0,0,0,0,59,0,0,0,41,0,1387,40,0,False
+qualification_ecrc,other,100,100,100,19,19,100,19,40,41,19,0,0,0,0,59,0,0,0,41,0,1345,19,0,False
+qualification_ecrc,unspecified,100,100,100,0,0,100,0,0,100,0,0,0,0,0,0,0,100,0,0,0,1307,0,0,False
+existing_rules_only,health,100,100,100,40,40,100,40,19,41,40,0,0,0,0,59,0,0,0,41,0,1387,40,0,False
+existing_rules_only,other,100,100,100,19,19,100,19,40,41,19,0,0,0,0,59,0,0,0,41,0,1345,19,0,False
+existing_rules_only,unspecified,100,100,100,0,0,100,0,0,100,0,0,0,0,0,0,0,100,0,0,0,1307,0,0,False
+without_claim_evidence_requirement,health,100,100,100,40,40,100,40,19,41,40,0,19,41,0,40,0,0,0,41,41,1507,100,0,False
+without_claim_evidence_requirement,other,100,100,100,19,19,100,19,40,41,19,0,40,41,0,19,0,0,0,41,41,1507,100,0,False
+without_claim_evidence_requirement,unspecified,100,100,100,0,0,100,0,0,100,0,0,0,100,0,0,0,100,100,0,0,1507,100,0,False

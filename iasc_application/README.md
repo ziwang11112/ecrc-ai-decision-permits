@@ -1,4 +1,6 @@
-# Public S9 add-on preparation
+# Historical original S9 add-on preparation
+
+> **Historical, uncorrected S9 documentation.** The current paper uses the separately versioned [S9-C context correction](context_correction/README.md): 112 retained original trajectories plus all 32 predetermined replacements, with 1,769 jobs and 188 response drops. The original 144-run/1,802-job tables below remain unchanged for provenance, including all superseded observations. Use the S9-C README for current results and verification commands. The remainder of this file preserves the original release's packaging and reconstruction documentation.
 
 This is a local, reviewable packaging recipe. Nothing is uploaded or published by these scripts, and no candidate executes during packaging or reconstruction. The frozen application sources remain unchanged. All HumanEval tasks were previously exposed; the application remains exploratory.
 

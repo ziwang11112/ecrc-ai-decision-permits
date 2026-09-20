@@ -1,0 +1,17 @@
+﻿case_id,user_id,reservation_id,reason,category,unresolved_selector,positive_eligibility_bases
+sole24_before,lei_santos_6163,9Z5X1D,other,eligible,False,"[""within_24_hours""]"
+sole24_at,lei_santos_6163,9Z5X1D,other,eligible,False,"[""within_24_hours""]"
+sole24_after,lei_santos_6163,9Z5X1D,other,ineligible,False,[]
+insured_weather,lei_santos_6163,9Z5X1D,weather,eligible,False,"[""insured_weather""]"
+uninsured_weather,lei_santos_6163,9Z5X1D,weather,ineligible,False,[]
+insured_other,lei_santos_6163,9Z5X1D,other,ineligible,False,[]
+sole_airline_cancelled,lei_santos_6163,9Z5X1D,other,eligible,False,"[""airline_cancelled""]"
+airline_available_control,lei_santos_6163,9Z5X1D,other,ineligible,False,[]
+sole_business,lei_santos_6163,9Z5X1D,other,eligible,False,"[""business_cabin""]"
+flying_overrides24,lei_santos_6163,9Z5X1D,other,unresolved_or_transfer,False,[]
+flying_overrides_insured_weather,lei_santos_6163,9Z5X1D,weather,unresolved_or_transfer,False,[]
+already_cancelled_overrides24,lei_santos_6163,9Z5X1D,other,ineligible,False,[]
+missing_reason_overrides24,lei_santos_6163,9Z5X1D,unspecified,unresolved_required_information,False,[]
+missing_reason_overrides_insurance,lei_santos_6163,9Z5X1D,unspecified,unresolved_required_information,False,[]
+missing_reason_overrides_airline,lei_santos_6163,9Z5X1D,unspecified,unresolved_required_information,False,[]
+missing_reason_overrides_business,lei_santos_6163,9Z5X1D,unspecified,unresolved_required_information,False,[]

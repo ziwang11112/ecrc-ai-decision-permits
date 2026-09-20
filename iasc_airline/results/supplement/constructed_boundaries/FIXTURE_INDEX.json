@@ -1,0 +1,164 @@
+{
+  "schema_version": "explicit_synthetic_fixture_index_v1",
+  "template_identity": {
+    "user_id": "lei_santos_6163",
+    "account_selection_hash": "009328d67ad2a0bd0a501dae2da311e9422d184b3892ce4bc8ebcb13c04c82d3",
+    "owned_reservation_choices": [
+      {
+        "reservation_id": "9Z5X1D",
+        "selection_hash": "33a5b879b116f92d81516aed8b8a93f3da3a1638ce8533e9a7a09943c3b90a7c"
+      },
+      {
+        "reservation_id": "842I0E",
+        "selection_hash": "9d5f14f1121cbe8d662e8b63b1141dabfb2194db9207b2550125370fe2fb48c5"
+      },
+      {
+        "reservation_id": "COL0TD",
+        "selection_hash": "c7a15accac1edf4c11bb65a5dadf5e83d9df74d35493c6fdd1a93c3741c8b95e"
+      }
+    ],
+    "selected_reservation_id": "9Z5X1D",
+    "reservation_selection_hash": "33a5b879b116f92d81516aed8b8a93f3da3a1638ce8533e9a7a09943c3b90a7c",
+    "account_rank": 1
+  },
+  "template_selection": "First account and selected reservation of the pre-existing outcome-blind B hash cohort; previously exposed, not held out",
+  "source_native_db": {
+    "path": "D:\\AIR-014_ECRC_Paper_Clean_2026-08-16\\research_pilots\\ecrc_airline_pilot_2026-09-15\\vendor\\tau2-bench\\data\\tau2\\domains\\airline\\db.json",
+    "file_sha256": "1af9fea6e03ca7ca15a22bb3fcaf3e351393e3fc9070b6777947da8996f7531b"
+  },
+  "base_db": {
+    "path": "BASE_DB.json.gz",
+    "file_sha256": "9e50aa83b61379bb2bb7408af536835ef5f4c961cb1c5d86fcdc17daa1594be7",
+    "canonical_sha256": "71f1c9bd74a2c0f53e4556f9dac9092b2b4d95758270c083ce36016f64ffa5d4"
+  },
+  "fixtures": [
+    {
+      "case_id": "sole24_before",
+      "before_path": "fixtures/sole24_before/BEFORE_DB.json.gz",
+      "before_file_sha256": "dd7b8ea3560f4c96118f2f26b8f53170610db583a6ad05b81f1869c6dc12143c",
+      "before_canonical_sha256": "b284ebf145de3273905eb63eac1db35ec9c450e464e6a4222d43e7e8c8a06e9c",
+      "patch_path": "fixtures/sole24_before/DB_PATCH.json",
+      "patch_file_sha256": "af14e66fc03c38c883a6d8749b49c1ac32580fb521db02c24bdd706a21365d42"
+    },
+    {
+      "case_id": "sole24_at",
+      "before_path": "fixtures/sole24_at/BEFORE_DB.json.gz",
+      "before_file_sha256": "bb73f0d3753a046fedc011e66e981ba32331ed9406da5e7832646e8d73f1a34c",
+      "before_canonical_sha256": "ce707dc580a65c897f270c864677717a71b06c5b4d3ce8c327976049e9f766bd",
+      "patch_path": "fixtures/sole24_at/DB_PATCH.json",
+      "patch_file_sha256": "d0159b2b933418e07b8e63c1511da73d82c17bf187d4b2f815ed3bfae276c0a8"
+    },
+    {
+      "case_id": "sole24_after",
+      "before_path": "fixtures/sole24_after/BEFORE_DB.json.gz",
+      "before_file_sha256": "5c505c65f9b362980c63ef6a5ef0a247b71d2f19a261e20b51e5b4392d6d485e",
+      "before_canonical_sha256": "387a095b6b7649662354ed529b19a7fa22fe2df4989e8bad6a9fc7c312fcd18b",
+      "patch_path": "fixtures/sole24_after/DB_PATCH.json",
+      "patch_file_sha256": "591f733b28087685f38fa6c55e7c796b04bc5382284decaa96082c1f76c342d1"
+    },
+    {
+      "case_id": "insured_weather",
+      "before_path": "fixtures/insured_weather/BEFORE_DB.json.gz",
+      "before_file_sha256": "999e23dd9bc5f8e7efa0732fbfe50a85692e6d3f920ff068ff0acc66c4b9627a",
+      "before_canonical_sha256": "3189f9d85063e801fcb7cf22fc6f355ebec63134ce0a7af26181f2bbaf246f7e",
+      "patch_path": "fixtures/insured_weather/DB_PATCH.json",
+      "patch_file_sha256": "614c85d37561085f100b1e3acf204e95749977005be49c0d4ebfba9593ebc1f2"
+    },
+    {
+      "case_id": "uninsured_weather",
+      "before_path": "fixtures/uninsured_weather/BEFORE_DB.json.gz",
+      "before_file_sha256": "c92fae8ac4c262b6810d18360be3b261754d64c864cc9ece5602a1347059a9d6",
+      "before_canonical_sha256": "7777e4287a0b3c598972dd54659a6b5cd3b00220e5dc63e1b9c37b12204074c4",
+      "patch_path": "fixtures/uninsured_weather/DB_PATCH.json",
+      "patch_file_sha256": "e9b3c542f08933b2d34f5dd10ac1902393cacd564098d228b8ffe47651e1fed9"
+    },
+    {
+      "case_id": "insured_other",
+      "before_path": "fixtures/insured_other/BEFORE_DB.json.gz",
+      "before_file_sha256": "999e23dd9bc5f8e7efa0732fbfe50a85692e6d3f920ff068ff0acc66c4b9627a",
+      "before_canonical_sha256": "3189f9d85063e801fcb7cf22fc6f355ebec63134ce0a7af26181f2bbaf246f7e",
+      "patch_path": "fixtures/insured_other/DB_PATCH.json",
+      "patch_file_sha256": "614c85d37561085f100b1e3acf204e95749977005be49c0d4ebfba9593ebc1f2"
+    },
+    {
+      "case_id": "sole_airline_cancelled",
+      "before_path": "fixtures/sole_airline_cancelled/BEFORE_DB.json.gz",
+      "before_file_sha256": "53b7b71f9c77e3e7c02dcb394734bfc68fede09e05007f732df789519ad125d8",
+      "before_canonical_sha256": "1e618233b9e1612b479c04ffebe029c561ad41e3674c7b557fcf72b58994cd47",
+      "patch_path": "fixtures/sole_airline_cancelled/DB_PATCH.json",
+      "patch_file_sha256": "ac4eeb495a1518f989760a4b5ac13a4e3b2f7c546387e09361938c8eac556b09"
+    },
+    {
+      "case_id": "airline_available_control",
+      "before_path": "fixtures/airline_available_control/BEFORE_DB.json.gz",
+      "before_file_sha256": "c92fae8ac4c262b6810d18360be3b261754d64c864cc9ece5602a1347059a9d6",
+      "before_canonical_sha256": "7777e4287a0b3c598972dd54659a6b5cd3b00220e5dc63e1b9c37b12204074c4",
+      "patch_path": "fixtures/airline_available_control/DB_PATCH.json",
+      "patch_file_sha256": "e9b3c542f08933b2d34f5dd10ac1902393cacd564098d228b8ffe47651e1fed9"
+    },
+    {
+      "case_id": "sole_business",
+      "before_path": "fixtures/sole_business/BEFORE_DB.json.gz",
+      "before_file_sha256": "40ad558ac9e30dd5ceb9273f339608bf7c4d5285bdfa810be906e49a64a3bcde",
+      "before_canonical_sha256": "43d037bac1ecba29da7b2949534a69100c089e1d48cc0d264471758e471803d3",
+      "patch_path": "fixtures/sole_business/DB_PATCH.json",
+      "patch_file_sha256": "e8dfaee37039ce40af677fd585f47b252c4e89f8eecd107f8d1bea4ae01ac600"
+    },
+    {
+      "case_id": "flying_overrides24",
+      "before_path": "fixtures/flying_overrides24/BEFORE_DB.json.gz",
+      "before_file_sha256": "47c4f4446aa80ddcdcdc2aa351df761b167b83a1c92db88766b42fe0746671d5",
+      "before_canonical_sha256": "75d64fc72117014506c891f01479deb32c7720707cd4ddada2c85eb1046df8d9",
+      "patch_path": "fixtures/flying_overrides24/DB_PATCH.json",
+      "patch_file_sha256": "1a03b8bf14398a022db28064f4e19df62cbe23ca3c6ea8ac2fb0c5e2ebccb0ac"
+    },
+    {
+      "case_id": "flying_overrides_insured_weather",
+      "before_path": "fixtures/flying_overrides_insured_weather/BEFORE_DB.json.gz",
+      "before_file_sha256": "05205f7a76c5963739e8531bcbdc2f02926f87f36bea031efad63dc21bbe7c22",
+      "before_canonical_sha256": "2291017d6cb594a0e831a741a15f44fa228178df6c13fc0bce61795de3db83c0",
+      "patch_path": "fixtures/flying_overrides_insured_weather/DB_PATCH.json",
+      "patch_file_sha256": "95df2bd0b3c18b7acc1cc7bb29cf7e1493839b9d946fc7efd0295574375cfbc8"
+    },
+    {
+      "case_id": "already_cancelled_overrides24",
+      "before_path": "fixtures/already_cancelled_overrides24/BEFORE_DB.json.gz",
+      "before_file_sha256": "3911bacb7602aaecd2162e445f0e4acd452d2db26ba81670ca459cfbcccdc14f",
+      "before_canonical_sha256": "ad8881c62fc5c2a82aef17a6d5bf3be7d128210229cc3d7529b7e537c8b67faa",
+      "patch_path": "fixtures/already_cancelled_overrides24/DB_PATCH.json",
+      "patch_file_sha256": "4a462d366c7233396ee53831d326c8bd364ac136f1f6819ed396a7bfb15bec70"
+    },
+    {
+      "case_id": "missing_reason_overrides24",
+      "before_path": "fixtures/missing_reason_overrides24/BEFORE_DB.json.gz",
+      "before_file_sha256": "ccd716c562bb73b738a3cec95a910fcc4a21c02481b89586ef502b4076adb63b",
+      "before_canonical_sha256": "5815f99e63bc7acd5fce03cdd5dedaa5daab6db425a4f5bddb066f1eda59fe85",
+      "patch_path": "fixtures/missing_reason_overrides24/DB_PATCH.json",
+      "patch_file_sha256": "46e5a0a7dfce93a629a69e93f36ab985d624e57011779587e981de69f01f9820"
+    },
+    {
+      "case_id": "missing_reason_overrides_insurance",
+      "before_path": "fixtures/missing_reason_overrides_insurance/BEFORE_DB.json.gz",
+      "before_file_sha256": "999e23dd9bc5f8e7efa0732fbfe50a85692e6d3f920ff068ff0acc66c4b9627a",
+      "before_canonical_sha256": "3189f9d85063e801fcb7cf22fc6f355ebec63134ce0a7af26181f2bbaf246f7e",
+      "patch_path": "fixtures/missing_reason_overrides_insurance/DB_PATCH.json",
+      "patch_file_sha256": "614c85d37561085f100b1e3acf204e95749977005be49c0d4ebfba9593ebc1f2"
+    },
+    {
+      "case_id": "missing_reason_overrides_airline",
+      "before_path": "fixtures/missing_reason_overrides_airline/BEFORE_DB.json.gz",
+      "before_file_sha256": "53b7b71f9c77e3e7c02dcb394734bfc68fede09e05007f732df789519ad125d8",
+      "before_canonical_sha256": "1e618233b9e1612b479c04ffebe029c561ad41e3674c7b557fcf72b58994cd47",
+      "patch_path": "fixtures/missing_reason_overrides_airline/DB_PATCH.json",
+      "patch_file_sha256": "ac4eeb495a1518f989760a4b5ac13a4e3b2f7c546387e09361938c8eac556b09"
+    },
+    {
+      "case_id": "missing_reason_overrides_business",
+      "before_path": "fixtures/missing_reason_overrides_business/BEFORE_DB.json.gz",
+      "before_file_sha256": "40ad558ac9e30dd5ceb9273f339608bf7c4d5285bdfa810be906e49a64a3bcde",
+      "before_canonical_sha256": "43d037bac1ecba29da7b2949534a69100c089e1d48cc0d264471758e471803d3",
+      "patch_path": "fixtures/missing_reason_overrides_business/DB_PATCH.json",
+      "patch_file_sha256": "e8dfaee37039ce40af677fd585f47b252c4e89f8eecd107f8d1bea4ae01ac600"
+    }
+  ]
+}

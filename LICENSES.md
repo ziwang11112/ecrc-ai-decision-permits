@@ -19,3 +19,14 @@ the preserved MIT HumanEval test-data notice and the candidate-program
 redistribution boundary. The current [plotting package](plots/current/README.md)
 uses the code and derived-evidence terms above; its plotting scripts do not
 assign a new license to upstream data.
+
+## Current extensions
+
+S9-C retains the HumanEval MIT notices and candidate redistribution exclusions
+documented in `iasc_application/context_correction/README.md`. S11 contains
+project actors and licensed synthetic tau2-bench-derived records; the pinned
+upstream MIT notice is `iasc_airline/UPSTREAM_LICENSE.txt`. Follow its README
+for source/version attribution. S12 project code and derived synthetic records
+use the project code/evidence terms above. Release manifests distinguish native
+source bytes and exported public representations. No real airline/customer
+service data or API credentials are part of these new artifacts.

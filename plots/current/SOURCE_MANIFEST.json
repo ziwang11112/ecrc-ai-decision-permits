@@ -1,289 +1,265 @@
 {
-  "scope": "Standalone plotting and saved numerical summaries; no new experiment, fit or resampling.",
-  "source_snapshot_manifest_sha256": "11988d7fe2d94b1344e8baa3589a0e21b5565b39a9bfa59dfec0b070e7be1654",
-  "sources": [
+  "scope": "Frozen drawing sources and saved S6/S8 observations used by the current paper. No new experiments.",
+  "files": [
     {
-      "kind": "support_file",
-      "standalone_path": ".gitattributes",
-      "source_sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
-      "standalone_sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
-      "byte_equal": true
+      "path": "source/supplement/figure_revision/draw_workflows.py",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/figure_revision/draw_workflows.py",
+      "sha256": "b5123d3ecdb7073dec760cdc1b20f8a36155b2a9030405c06b7c771d6916d571"
     },
     {
-      "kind": "support_file",
-      "standalone_path": "requirements.txt",
-      "source_sha256": "ed58326e953c51a2b8e68be1ee2213dab7c868651b9d72a29dfd42cd6729c053",
-      "standalone_sha256": "ed58326e953c51a2b8e68be1ee2213dab7c868651b9d72a29dfd42cd6729c053",
-      "byte_equal": true
+      "path": "source/supplement/figure_revision/counterexample/draw_effect_counterexample.py",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/figure_revision/counterexample/draw_effect_counterexample.py",
+      "sha256": "28cc0782ff9ca8e77b7fb8d5677d5442aeb5194e486a2504a96592146ab52b11"
     },
     {
-      "kind": "support_file",
-      "standalone_path": "scripts/verify_package.py",
-      "source_sha256": "a5c82e435f14df7cd6739d6bacc9bb1fd0a399ce522e024e8447398b0316f5dc",
-      "standalone_sha256": "a5c82e435f14df7cd6739d6bacc9bb1fd0a399ce522e024e8447398b0316f5dc",
-      "byte_equal": true
+      "path": "source/supplement/figure_revision/counterexample/S10_COUNTEREXAMPLE.csv",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/figure_revision/counterexample/S10_COUNTEREXAMPLE.csv",
+      "sha256": "e4a106e43f38a9f2f671d56981d84be8ee3b783cb4118d1a4858c59b49807d1b"
     },
     {
-      "kind": "saved_numeric_input",
-      "standalone_path": "data/fig3_plot_data.csv",
-      "source_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
-      "standalone_sha256": "3be083b5e20c79a3300278694fff4685a2cd6a13789ffdc63f6b02bbdde4fcb4",
-      "byte_equal": true,
-      "rows": 36,
-      "fields": [
-        "scenario",
-        "phase",
-        "metric",
-        "n_observations",
-        "min",
-        "max",
-        "display"
-      ]
+      "path": "source/supplement/figure_revision/counterexample/S10_TLC_COUNTEREXAMPLE_REPLAY.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/figure_revision/counterexample/S10_TLC_COUNTEREXAMPLE_REPLAY.json",
+      "sha256": "88ed176eb11d7d8d7797b7330b3c1665c2299bb92d30476079a858429cce8cf5"
     },
     {
-      "kind": "saved_numeric_input",
-      "standalone_path": "data/fig5_plot_data.csv",
-      "source_sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249",
-      "standalone_sha256": "52d5b047f77348d3a76b864f3b50295acb2311d0dca7a360148fb6b521422249",
-      "byte_equal": true,
-      "rows": 60,
-      "fields": [
-        "panel",
-        "dataset_id",
-        "cohort",
-        "model_name",
-        "capacity_basis",
-        "estimand",
-        "estimate",
-        "ci_low",
-        "ci_high",
-        "units",
-        "n_participants",
-        "finite_replicates",
-        "source",
-        "quantity",
-        "n_common_valid",
-        "n_reference_only",
-        "n_comparison_only"
-      ]
+      "path": "source/supplement/figure_revision/counterexample/S10_UNSAFE_TLC_STDOUT.txt",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/figure_revision/counterexample/S10_UNSAFE_TLC_STDOUT.txt",
+      "sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a"
     },
     {
-      "kind": "saved_numeric_input",
-      "standalone_path": "data/S6_performance_runs.csv",
-      "source_sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
-      "standalone_sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376",
-      "byte_equal": true,
-      "rows": 30,
-      "fields": [
-        "arm",
-        "workers",
-        "rep",
-        "n_timed_requests",
-        "elapsed_seconds",
-        "throughput_requests_per_second",
-        "median_latency_ms",
-        "p95_latency_ms",
-        "max_latency_ms",
-        "client_database_bytes",
-        "sink_database_bytes",
-        "effects_including_warmup",
-        "final_reserved"
-      ]
+      "path": "source/supplement/figure_revision/counterexample/S10_ECRCLifecycle.tla",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/figure_revision/counterexample/S10_ECRCLifecycle.tla",
+      "sha256": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a"
     },
     {
-      "kind": "saved_numeric_input",
-      "standalone_path": "data/S6_performance_summary.csv",
-      "source_sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
-      "standalone_sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5",
-      "byte_equal": true,
-      "rows": 6,
-      "fields": [
-        "arm",
-        "workers",
-        "repetitions",
-        "p95_latency_ms_median",
-        "p95_latency_ms_min",
-        "p95_latency_ms_max",
-        "median_latency_ms_median",
-        "median_latency_ms_min",
-        "median_latency_ms_max",
-        "throughput_requests_per_second_median",
-        "throughput_requests_per_second_min",
-        "throughput_requests_per_second_max",
-        "client_database_bytes_median",
-        "client_database_bytes_min",
-        "client_database_bytes_max"
-      ]
+      "path": "source/supplement/figure_revision/counterexample/S10_unsafe_2_1.cfg",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/figure_revision/counterexample/S10_unsafe_2_1.cfg",
+      "sha256": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694"
     },
     {
-      "kind": "saved_numeric_input",
-      "standalone_path": "data/S9_cells.csv",
-      "source_sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
-      "standalone_sha256": "41ae346ad8e79330d3f09b04ba7f90be23bdbf36e7ddb520ce7be800c36b5b4e",
-      "byte_equal": true,
-      "rows": 8,
-      "fields": [
-        "condition",
-        "policy",
-        "arm",
-        "batches",
-        "eligible_tasks",
-        "timely_tasks",
-        "durable_pass_tasks_by_deadline",
-        "eventual_pass_tasks",
-        "jobs",
-        "actual_starts",
-        "pass_jobs",
-        "fail_jobs",
-        "timeout_jobs",
-        "http_posts",
-        "response_drops",
-        "cache_hits",
-        "primary_retries",
-        "drain_retries",
-        "child_cpu_seconds",
-        "suite_wall_seconds",
-        "launcher_wall_seconds",
-        "late_host_launches",
-        "denied_decisions",
-        "timely_percent",
-        "median_batch_complete_s",
-        "max_stop_held",
-        "max_final_held"
-      ]
+      "path": "data/S8_CHECKPOINT_COUNTS.csv",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/S8_CHECKPOINT_COUNTS.csv",
+      "sha256": "431c46f1f7a67e647acb6d0be2a498316bc1aea0eafad29294c3eeabf3949649"
     },
     {
-      "kind": "saved_numeric_input",
-      "standalone_path": "data/cap_removal_complete.csv",
-      "source_sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
-      "standalone_sha256": "7bf8015f2333b96165478a8cde8087aab531b9d6da8450674c4830a455fc00c4",
-      "byte_equal": true,
-      "rows": 6,
-      "fields": [
-        "dataset_id",
-        "cohort",
-        "model_name",
-        "model_label",
-        "n_precision",
-        "n_coverage",
-        "n_participants",
-        "precision_excluded",
-        "coverage_excluded",
-        "pooled_precision_difference",
-        "macro_precision_difference",
-        "macro_precision_ci_low",
-        "macro_precision_ci_high",
-        "pooled_coverage_difference",
-        "macro_coverage_difference",
-        "macro_coverage_ci_low",
-        "macro_coverage_ci_high",
-        "fixed_alerts",
-        "removed_alerts",
-        "fixed_reviews",
-        "removed_reviews"
-      ]
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-0/ecrc/snapshots/after_unknown_recovery_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-0/ecrc/snapshots/after_unknown_recovery_competition/audit.json",
+      "sha256": "08d5a046c585f95755dd76020494632bfc4ebd5be97bd7b8319523613f6d19d4"
     },
     {
-      "kind": "saved_expected_csv",
-      "standalone_path": "expected/latency_summary.csv",
-      "source_sha256": "a9251844b48ef93447ee1745e392a4494850124663ab51491755b66930c9eb5d",
-      "standalone_sha256": "a9251844b48ef93447ee1745e392a4494850124663ab51491755b66930c9eb5d",
-      "byte_equal": true,
-      "rows": 3,
-      "fields": [
-        "workers",
-        "ecrc_median_ms",
-        "ecrc_min_ms",
-        "ecrc_max_ms",
-        "ordinary_median_ms",
-        "ordinary_min_ms",
-        "ordinary_max_ms"
-      ]
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-0/ecrc/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-0/ecrc/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "sha256": "79b881bf6bc6eddbb67a0a7f208df57cd3a3c32455339e6c7bebade65975ea40"
     },
     {
-      "kind": "saved_expected_csv",
-      "standalone_path": "expected/application_summary.csv",
-      "source_sha256": "403f75ec4c59f4db01069d85d2c280a11217309035edea5d10f736d62ecf622d",
-      "standalone_sha256": "403f75ec4c59f4db01069d85d2c280a11217309035edea5d10f736d62ecf622d",
-      "byte_equal": true,
-      "rows": 8,
-      "fields": [
-        "response",
-        "policy",
-        "client",
-        "timely",
-        "eventual",
-        "jobs",
-        "launcher_seconds"
-      ]
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-0/ordinary/snapshots/after_unknown_recovery_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-0/ordinary/snapshots/after_unknown_recovery_competition/audit.json",
+      "sha256": "2203a8d2f9c210eff67f5ef3b05dafb318d329ab567627e81b02d2768be0861b"
     },
     {
-      "kind": "saved_expected_csv",
-      "standalone_path": "expected/cap_precision_summary.csv",
-      "source_sha256": "29ab2cb86840d0719b99b62fa5ac7dcae9e48ee468ad9d98c8945000df2772e0",
-      "standalone_sha256": "29ab2cb86840d0719b99b62fa5ac7dcae9e48ee468ad9d98c8945000df2772e0",
-      "byte_equal": true,
-      "rows": 6,
-      "fields": [
-        "cohort",
-        "generator",
-        "n_P",
-        "pooled_delta",
-        "participant_equal_delta",
-        "ci_low",
-        "ci_high"
-      ]
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-0/ordinary/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-0/ordinary/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "sha256": "79b881bf6bc6eddbb67a0a7f208df57cd3a3c32455339e6c7bebade65975ea40"
     },
     {
-      "kind": "plot_script",
-      "standalone_path": "scripts/build_main_figures.py",
-      "source_sha256": "c2070db793963cc24b64f7693437b99816d3ceeae3ef12a4a18c0f591d01f81f",
-      "standalone_sha256": "5b906b43bcb621a204a1142b58dbbb6ad4364641130c4c687bbf664e9d9c5ecd",
-      "changes": "Package-oriented documentation/variable/sidecar names only; drawing instructions and values unchanged."
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-1/ecrc/snapshots/after_unknown_recovery_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-1/ecrc/snapshots/after_unknown_recovery_competition/audit.json",
+      "sha256": "b018f553c3d7579b1443e1310cd081cb4a7a7f51024b7016660a9b52377ff367"
     },
     {
-      "kind": "plot_script",
-      "standalone_path": "scripts/build_pacing_figure.py",
-      "source_sha256": "3d5cfdbeebc3429f09e2c80b0ed4fe336809bbf2768317beb5adf6119164e3be",
-      "standalone_sha256": "43e197bc27a8baa107e051b636f29bdbbd3fb5b88400c650d23b043b16ee8836",
-      "changes": "Package-oriented documentation/variable/sidecar names only; drawing instructions and values unchanged."
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-1/ecrc/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-1/ecrc/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "sha256": "79b881bf6bc6eddbb67a0a7f208df57cd3a3c32455339e6c7bebade65975ea40"
     },
     {
-      "kind": "result_summary_script",
-      "standalone_path": "scripts/summarize_results.py",
-      "standalone_sha256": "21493b56d5690acd931c139153c051a83b1972dd86fa12b2a55b4da326f947c2",
-      "source_sha256": "daa7e3691e59995bec275f4d4c7c384f4369b2b4cb3df233560b1c8c0963975f",
-      "changes": "Retains saved CSV aggregation/formatting; verifies complete expected CSV bytes. Uses descriptive output names and no document-format source dependencies."
-    }
-  ],
-  "included_data_allowlist": [
-    "data/S6_performance_runs.csv",
-    "data/S6_performance_summary.csv",
-    "data/S9_cells.csv",
-    "data/cap_removal_complete.csv",
-    "data/fig3_plot_data.csv",
-    "data/fig5_plot_data.csv"
-  ],
-  "reference_exports": [
-    {
-      "path": "exports/fig1.pdf",
-      "sha256": "a4dece80551808347dec1f2bdd770d9be658613eed44dfa9c01b5b939da94b3f"
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-1/ordinary/snapshots/after_unknown_recovery_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-1/ordinary/snapshots/after_unknown_recovery_competition/audit.json",
+      "sha256": "5c9a8ca1b636d17983d74b09f1899555dd7bbe581e1f58081d3c38bce68b73a1"
     },
     {
-      "path": "exports/fig2.pdf",
-      "sha256": "c842fa35722cb12f1ce753ee1e06a9e329190a32a0cf887d1f70967151f9b636"
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-1/ordinary/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-1/ordinary/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "sha256": "79b881bf6bc6eddbb67a0a7f208df57cd3a3c32455339e6c7bebade65975ea40"
     },
     {
-      "path": "exports/fig3.pdf",
-      "sha256": "c6c6b910b40f4c15324a71f07084b9ade9ccaba859db466b5fed3e19ca498d3b"
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-2/ecrc/snapshots/after_unknown_recovery_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-2/ecrc/snapshots/after_unknown_recovery_competition/audit.json",
+      "sha256": "cf7589531092711e51e8f0524e098d87b9e5c768c24ed4bae298f6208d4166e6"
     },
     {
-      "path": "exports/fig4.pdf",
-      "sha256": "b74fdd8c628a3e29656b4394341d19f87139576c7ecc15fd321990da70b05169"
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-2/ecrc/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-2/ecrc/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "sha256": "79b881bf6bc6eddbb67a0a7f208df57cd3a3c32455339e6c7bebade65975ea40"
     },
     {
-      "path": "exports/fig5.pdf",
-      "sha256": "7dfdfbfbd69cac1cc064b8a578fb71e9b3bd817f5aeda3c5e26104f722a380e5"
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-2/ordinary/snapshots/after_unknown_recovery_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-2/ordinary/snapshots/after_unknown_recovery_competition/audit.json",
+      "sha256": "b29366994d58b9826d38c195fc42d16b73e524a12942f595d8c6747f14788593"
+    },
+    {
+      "path": "data/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-2/ordinary/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/accepted_timeout_cleanup_recovery/rep-2/ordinary/snapshots/cleanup_retained_unknown_grant/audit.json",
+      "sha256": "79b881bf6bc6eddbb67a0a7f208df57cd3a3c32455339e6c7bebade65975ea40"
+    },
+    {
+      "path": "data/checkpoint_audits/distinct_contenders/rep-0/ecrc/snapshots/after_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/distinct_contenders/rep-0/ecrc/snapshots/after_competition/audit.json",
+      "sha256": "e48869680ffdb4393bb3efe7d00ebf864918637d0f7b1020189e6ffce863ba66"
+    },
+    {
+      "path": "data/checkpoint_audits/distinct_contenders/rep-0/ordinary/snapshots/after_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/distinct_contenders/rep-0/ordinary/snapshots/after_competition/audit.json",
+      "sha256": "5db46be5125b27dabe0f7b6306ff1019d360520078ee0ee77cb45e819afe3cdc"
+    },
+    {
+      "path": "data/checkpoint_audits/distinct_contenders/rep-1/ecrc/snapshots/after_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/distinct_contenders/rep-1/ecrc/snapshots/after_competition/audit.json",
+      "sha256": "a05502a2f14b76232f3fea723d7f35465b219e24dc82ffa6155ec60f2d4dd11a"
+    },
+    {
+      "path": "data/checkpoint_audits/distinct_contenders/rep-1/ordinary/snapshots/after_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/distinct_contenders/rep-1/ordinary/snapshots/after_competition/audit.json",
+      "sha256": "1c508165ae9a8f6c783fb9c7961d954e7a5d4f91a61517cd2ced3ef5b31a3de6"
+    },
+    {
+      "path": "data/checkpoint_audits/distinct_contenders/rep-2/ecrc/snapshots/after_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/distinct_contenders/rep-2/ecrc/snapshots/after_competition/audit.json",
+      "sha256": "7ff26f284945de727280e8b71c4d6d2915f8192ca8601decf053c5fe7e1ca06c"
+    },
+    {
+      "path": "data/checkpoint_audits/distinct_contenders/rep-2/ordinary/snapshots/after_competition/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/distinct_contenders/rep-2/ordinary/snapshots/after_competition/audit.json",
+      "sha256": "8352e2fd02d05fc93838c0e2c33d00bcaa73fe57003b0e72fbe767306c572c12"
+    },
+    {
+      "path": "data/checkpoint_audits/expired_unarmed_cleanup/rep-0/ecrc/snapshots/expired_unarmed_cancelled/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/expired_unarmed_cleanup/rep-0/ecrc/snapshots/expired_unarmed_cancelled/audit.json",
+      "sha256": "af253e0eee2491d9e3bc2c37326a2c0adccf0232f3de91fdb1732417f822a037"
+    },
+    {
+      "path": "data/checkpoint_audits/expired_unarmed_cleanup/rep-0/ordinary/snapshots/expired_unarmed_cancelled/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/expired_unarmed_cleanup/rep-0/ordinary/snapshots/expired_unarmed_cancelled/audit.json",
+      "sha256": "cf0dca3e07213fa6becdb0f52a7de55f28ac921e628163bb6fbf20ccf468e9a3"
+    },
+    {
+      "path": "data/checkpoint_audits/expired_unarmed_cleanup/rep-1/ecrc/snapshots/expired_unarmed_cancelled/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/expired_unarmed_cleanup/rep-1/ecrc/snapshots/expired_unarmed_cancelled/audit.json",
+      "sha256": "af253e0eee2491d9e3bc2c37326a2c0adccf0232f3de91fdb1732417f822a037"
+    },
+    {
+      "path": "data/checkpoint_audits/expired_unarmed_cleanup/rep-1/ordinary/snapshots/expired_unarmed_cancelled/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/expired_unarmed_cleanup/rep-1/ordinary/snapshots/expired_unarmed_cancelled/audit.json",
+      "sha256": "cf0dca3e07213fa6becdb0f52a7de55f28ac921e628163bb6fbf20ccf468e9a3"
+    },
+    {
+      "path": "data/checkpoint_audits/expired_unarmed_cleanup/rep-2/ecrc/snapshots/expired_unarmed_cancelled/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/expired_unarmed_cleanup/rep-2/ecrc/snapshots/expired_unarmed_cancelled/audit.json",
+      "sha256": "af253e0eee2491d9e3bc2c37326a2c0adccf0232f3de91fdb1732417f822a037"
+    },
+    {
+      "path": "data/checkpoint_audits/expired_unarmed_cleanup/rep-2/ordinary/snapshots/expired_unarmed_cancelled/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/expired_unarmed_cleanup/rep-2/ordinary/snapshots/expired_unarmed_cancelled/audit.json",
+      "sha256": "cf0dca3e07213fa6becdb0f52a7de55f28ac921e628163bb6fbf20ccf468e9a3"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_after_issue_resume/rep-0/ecrc/snapshots/early_cleanup_retained/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_after_issue_resume/rep-0/ecrc/snapshots/early_cleanup_retained/audit.json",
+      "sha256": "4490f7a7be73c2299eefea34d0fd3209995582ffd32e2b8d47e57dd901a1173f"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_after_issue_resume/rep-0/ordinary/snapshots/early_cleanup_retained/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_after_issue_resume/rep-0/ordinary/snapshots/early_cleanup_retained/audit.json",
+      "sha256": "e66a44c303ed347d0dece361ad0e4132402f1ab9a9f195b5872450bb577026e1"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_after_issue_resume/rep-1/ecrc/snapshots/early_cleanup_retained/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_after_issue_resume/rep-1/ecrc/snapshots/early_cleanup_retained/audit.json",
+      "sha256": "4490f7a7be73c2299eefea34d0fd3209995582ffd32e2b8d47e57dd901a1173f"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_after_issue_resume/rep-1/ordinary/snapshots/early_cleanup_retained/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_after_issue_resume/rep-1/ordinary/snapshots/early_cleanup_retained/audit.json",
+      "sha256": "e66a44c303ed347d0dece361ad0e4132402f1ab9a9f195b5872450bb577026e1"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_after_issue_resume/rep-2/ecrc/snapshots/early_cleanup_retained/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_after_issue_resume/rep-2/ecrc/snapshots/early_cleanup_retained/audit.json",
+      "sha256": "4490f7a7be73c2299eefea34d0fd3209995582ffd32e2b8d47e57dd901a1173f"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_after_issue_resume/rep-2/ordinary/snapshots/early_cleanup_retained/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_after_issue_resume/rep-2/ordinary/snapshots/early_cleanup_retained/audit.json",
+      "sha256": "e66a44c303ed347d0dece361ad0e4132402f1ab9a9f195b5872450bb577026e1"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_during_issuance/rep-0/ecrc/snapshots/after_inflight_issue_kill/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_during_issuance/rep-0/ecrc/snapshots/after_inflight_issue_kill/audit.json",
+      "sha256": "2ee0b0eabcc2215758b04870e349722e0b9389123e5192d31c747e46798a9973"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_during_issuance/rep-0/ordinary/snapshots/after_inflight_issue_kill/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_during_issuance/rep-0/ordinary/snapshots/after_inflight_issue_kill/audit.json",
+      "sha256": "86c382e255321a690ce238c3154eba2549c673d423105a96c3f97bc7771e8cdb"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_during_issuance/rep-1/ecrc/snapshots/after_inflight_issue_kill/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_during_issuance/rep-1/ecrc/snapshots/after_inflight_issue_kill/audit.json",
+      "sha256": "2ee0b0eabcc2215758b04870e349722e0b9389123e5192d31c747e46798a9973"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_during_issuance/rep-1/ordinary/snapshots/after_inflight_issue_kill/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_during_issuance/rep-1/ordinary/snapshots/after_inflight_issue_kill/audit.json",
+      "sha256": "86c382e255321a690ce238c3154eba2549c673d423105a96c3f97bc7771e8cdb"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_during_issuance/rep-2/ecrc/snapshots/after_inflight_issue_kill/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_during_issuance/rep-2/ecrc/snapshots/after_inflight_issue_kill/audit.json",
+      "sha256": "2ee0b0eabcc2215758b04870e349722e0b9389123e5192d31c747e46798a9973"
+    },
+    {
+      "path": "data/checkpoint_audits/kill_during_issuance/rep-2/ordinary/snapshots/after_inflight_issue_kill/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/kill_during_issuance/rep-2/ordinary/snapshots/after_inflight_issue_kill/audit.json",
+      "sha256": "86c382e255321a690ce238c3154eba2549c673d423105a96c3f97bc7771e8cdb"
+    },
+    {
+      "path": "data/checkpoint_audits/mixed_claim_fallback/rep-0/ecrc/snapshots/unsupported_claim_released/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/mixed_claim_fallback/rep-0/ecrc/snapshots/unsupported_claim_released/audit.json",
+      "sha256": "a3c9f4d621a2e683a339b51230d2bf9e4e871db97e1d66e9db1fa6240143a695"
+    },
+    {
+      "path": "data/checkpoint_audits/mixed_claim_fallback/rep-0/ordinary/snapshots/unsupported_claim_released/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/mixed_claim_fallback/rep-0/ordinary/snapshots/unsupported_claim_released/audit.json",
+      "sha256": "a42f138363486275b99ebf378cbbc9c325ac092774421e1e0b8dba818abc3e2c"
+    },
+    {
+      "path": "data/checkpoint_audits/mixed_claim_fallback/rep-1/ecrc/snapshots/unsupported_claim_released/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/mixed_claim_fallback/rep-1/ecrc/snapshots/unsupported_claim_released/audit.json",
+      "sha256": "a3c9f4d621a2e683a339b51230d2bf9e4e871db97e1d66e9db1fa6240143a695"
+    },
+    {
+      "path": "data/checkpoint_audits/mixed_claim_fallback/rep-1/ordinary/snapshots/unsupported_claim_released/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/mixed_claim_fallback/rep-1/ordinary/snapshots/unsupported_claim_released/audit.json",
+      "sha256": "a42f138363486275b99ebf378cbbc9c325ac092774421e1e0b8dba818abc3e2c"
+    },
+    {
+      "path": "data/checkpoint_audits/mixed_claim_fallback/rep-2/ecrc/snapshots/unsupported_claim_released/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/mixed_claim_fallback/rep-2/ecrc/snapshots/unsupported_claim_released/audit.json",
+      "sha256": "a3c9f4d621a2e683a339b51230d2bf9e4e871db97e1d66e9db1fa6240143a695"
+    },
+    {
+      "path": "data/checkpoint_audits/mixed_claim_fallback/rep-2/ordinary/snapshots/unsupported_claim_released/audit.json",
+      "source": "output/iasc_reviewed_revision_2026-09-19/supplement/editorial_revision/checkpoint_audits/mixed_claim_fallback/rep-2/ordinary/snapshots/unsupported_claim_released/audit.json",
+      "sha256": "a42f138363486275b99ebf378cbbc9c325ac092774421e1e0b8dba818abc3e2c"
+    },
+    {
+      "path": "data/S6_performance_runs.csv",
+      "source": "code-v1.1.0:plots/current/data/S6_performance_runs.csv",
+      "sha256": "41b307733de1244ef50e9576084e86a2aed04a9aeb03802773795a94448ec376"
+    },
+    {
+      "path": "data/S6_performance_summary.csv",
+      "source": "code-v1.1.0:plots/current/data/S6_performance_summary.csv",
+      "sha256": "ffb97615f652e4cad334ea4165a3a83266195c37d202d0ed881311913c8027a5"
     }
   ]
 }

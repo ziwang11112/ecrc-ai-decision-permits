@@ -1,0 +1,19 @@
+
+test_cached_ack_does_not_refund_and_preserves_first_ack (test_direct_adapter.DurableDirectCountTests.test_cached_ack_does_not_refund_and_preserves_first_ack) ... ok
+test_cannot_finish_unprepared_job (test_direct_adapter.DurableDirectCountTests.test_cannot_finish_unprepared_job) ... ok
+test_concurrent_distinct_preparations_cannot_overspend (test_direct_adapter.DurableDirectCountTests.test_concurrent_distinct_preparations_cannot_overspend) ... ok
+test_concurrent_same_key_is_charged_once (test_direct_adapter.DurableDirectCountTests.test_concurrent_same_key_is_charged_once) ... ok
+test_conflicting_effect_or_commit_time_cannot_overwrite_ack (test_direct_adapter.DurableDirectCountTests.test_conflicting_effect_or_commit_time_cannot_overwrite_ack) ... ok
+test_descriptor_matches_unmodified_raw_client (test_direct_adapter.DurableDirectCountTests.test_descriptor_matches_unmodified_raw_client) ... ok
+test_mismatched_ack_fields_do_not_change_pending (test_direct_adapter.DurableDirectCountTests.test_mismatched_ack_fields_do_not_change_pending) ... ok
+test_new_process_recovers_pending_and_completed_binding (test_direct_adapter.DurableDirectCountTests.test_new_process_recovers_pending_and_completed_binding) ... ok
+test_persisted_content_conflict_fails_closed (test_direct_adapter.DurableDirectCountTests.test_persisted_content_conflict_fails_closed) ... ok
+test_repeated_key_remains_retryable_at_limit_after_reopen (test_direct_adapter.DurableDirectCountTests.test_repeated_key_remains_retryable_at_limit_after_reopen) ... ok
+test_scope_is_explicitly_separate (test_direct_adapter.DurableDirectCountTests.test_scope_is_explicitly_separate) ... ok
+test_scope_limit_cannot_be_reset_by_new_constructor (test_direct_adapter.DurableDirectCountTests.test_scope_limit_cannot_be_reset_by_new_constructor) ... ok
+test_success_and_unknown_both_keep_cumulative_charge (test_direct_adapter.DurableDirectCountTests.test_success_and_unknown_both_keep_cumulative_charge) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.545s
+
+OK

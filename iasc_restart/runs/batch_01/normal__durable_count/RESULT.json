@@ -1,0 +1,201 @@
+{
+  "arm": "durable_count",
+  "condition": "normal",
+  "failure": null,
+  "audit": {
+    "schema_version": 1,
+    "arm": "durable_count",
+    "condition": "normal",
+    "evidence_type": "Controlled synthetic durable-effect interface development; not business benefit.",
+    "technical_audit_passed": true,
+    "technical_failures": [],
+    "runner_failure": null,
+    "input_denominator": 4,
+    "all_job_names": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "effect_counts_by_job": {
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "actual_effect_count": 2,
+    "distinct_completed_jobs": 2,
+    "eligible_job_names": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "eligible_input_count": 4,
+    "eligible_completed_jobs": 2,
+    "eligible_uncompleted_job_names": [
+      "C",
+      "D"
+    ],
+    "queue_expired_job_names": [],
+    "queue_expired_jobs_with_effects": [],
+    "extra_repeats": 0,
+    "same_key_duplicate_effects": 0,
+    "external_limit": 2,
+    "external_over_limit": 0,
+    "external_budget_requirement_met": true,
+    "public_queue_deadline_requirement_met": true,
+    "effects": [
+      {
+        "effect_id": 1,
+        "idempotency_key": "direct:ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58",
+        "payload_hash": "ee3b05f9047702b1e03c53fe35ed885e6289bab607ed6c4dd3d9e76f043c0d2f",
+        "committed_at": "2026-09-15T21:52:45.963151+00:00",
+        "payload": {
+          "job_hash": "ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58"
+        },
+        "logical_job": "A"
+      },
+      {
+        "effect_id": 2,
+        "idempotency_key": "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae",
+        "payload_hash": "1c293d6c751007e0135cf9dd054f437c868fa29c4ae4d2075a8c5619710ddde4",
+        "committed_at": "2026-09-15T21:52:46.009716+00:00",
+        "payload": {
+          "job_hash": "f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"
+        },
+        "logical_job": "B"
+      }
+    ],
+    "client_accountability": {
+      "applicable": true,
+      "passed": true,
+      "failures": [],
+      "persisted_scopes": {
+        "mixed-workflow-development-v1": 2
+      },
+      "cumulative_registered_count": 2,
+      "acknowledged_count": 2,
+      "unacknowledged_count": 0,
+      "sink_effects_still_unacknowledged": [],
+      "scope": "Every registered distinct operation counts permanently, including acknowledged and unknown outcomes; final bindings checked directly in SQLite."
+    },
+    "transport_audit": {
+      "applicable": true,
+      "passed": true,
+      "failures": [],
+      "source_sha256": "5b0673e9762e125435bed86e2b049aa90438781ca548d1cac66f8b3bb0d06110",
+      "transport_record_count": 2,
+      "successful_upstream_posts": 2,
+      "withheld_successful_post_responses": 0,
+      "post_counts_by_key": {
+        "direct:ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58": 1,
+        "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae": 1
+      },
+      "same_key_additional_post_count": 0,
+      "B_withheld_creation_and_same_effect_cached_recovery": null,
+      "effect_ids_observed_by_key": {
+        "direct:ed707d61dbcf15e6455c5a246f90de531c61b09bf064e3fa163b4ae1c65cad58": [
+          1
+        ],
+        "direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae": [
+          2
+        ]
+      },
+      "scope": "Actual proxy observations of committed/cached responses checked against sink; does not measure pre-commit CPU or all crash schedules."
+    },
+    "execution_trace_audit": {
+      "passed": true,
+      "failures": [],
+      "worker_ready_pids": [
+        19672
+      ],
+      "forced_termination_records": [],
+      "worker_post_attempts": 2,
+      "actual_restart_between_unknown_B_and_recovery": null,
+      "scope": "Runner process lifecycle and exact shared queue envelope checked against transport and committed effects."
+    },
+    "source_databases": {
+      "sink": {
+        "path": "SOURCE_WORKSPACE\\research_pilots\\ecrc_mixed_workflow_dev_2026-09-15\\runs\\batch_01\\normal__durable_count\\sink.sqlite",
+        "files_before": {
+          "sink.sqlite": {
+            "sha256": "eaa9d6804a4ec90b0b68d2b8747c34c625ae55707d64bc75ab786e63564ab867",
+            "bytes": 16384
+          },
+          "sink.sqlite-wal": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          }
+        },
+        "files_after": {
+          "sink.sqlite": {
+            "sha256": "eaa9d6804a4ec90b0b68d2b8747c34c625ae55707d64bc75ab786e63564ab867",
+            "bytes": 16384
+          },
+          "sink.sqlite-wal": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          }
+        },
+        "file_bytes_unchanged_while_reading": true,
+        "integrity_check": [
+          "ok"
+        ],
+        "schema_sha256": "261bacad287e5eb0e3b4515d35331611a851217e947ba69a6f449b50ca5b4b2b",
+        "all_tables_sha256": "ad1965ff5f7500893d4de6db5ade40ea237662eadc1ea184fd02f2d12784aaf1",
+        "table_rows": {
+          "effects": 2,
+          "sqlite_sequence": 1
+        },
+        "hash_scope": "Full main database and WAL bytes, plus canonical full SQL table content; transient SHM excluded."
+      },
+      "client": {
+        "path": "SOURCE_WORKSPACE\\research_pilots\\ecrc_mixed_workflow_dev_2026-09-15\\runs\\batch_01\\normal__durable_count\\client.sqlite",
+        "files_before": {
+          "client.sqlite": {
+            "sha256": "7c4dbac21fd7da525b563a73ce0a40afa5c5e88bc2df605c4b0c9244c4276d52",
+            "bytes": 20480
+          },
+          "client.sqlite-wal": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          }
+        },
+        "files_after": {
+          "client.sqlite": {
+            "sha256": "7c4dbac21fd7da525b563a73ce0a40afa5c5e88bc2df605c4b0c9244c4276d52",
+            "bytes": 20480
+          },
+          "client.sqlite-wal": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          }
+        },
+        "file_bytes_unchanged_while_reading": true,
+        "integrity_check": [
+          "ok"
+        ],
+        "schema_sha256": "2fad8f8731368cd9888637317fe7e342f753bc3bfa1ae93321160bd37c040e22",
+        "all_tables_sha256": "7ceda0e9999d9bf7e85e8ce12a43552f6d1de64fae544aa5efbf84f1177b7bb8",
+        "table_rows": {
+          "direct_operations": 2,
+          "direct_scopes": 1
+        },
+        "hash_scope": "Full main database and WAL bytes, plus canonical full SQL table content; transient SHM excluded."
+      }
+    },
+    "source_json_sha256": {
+      "CASE.json": "17eaeb3337f9beda056112fa487e9e039024e69db72e50f5ef72f2e690a19ed9",
+      "TRACE.json": "038bbd408b7211cf4c9e9dbf073acaebeb566e0eab72bd132e8d7ad98ff5805d"
+    },
+    "limitations": [
+      "No desired execution subset is hard-coded as success: all A/B/C/D outcomes remain visible.",
+      "Budget and queue capability outcomes are separate from technical run validity.",
+      "A final effects table establishes duplicate committed effects, not how many retries or pre-commit CPU attempts occurred.",
+      "Replay exercise and unknown-state timing require the preserved transport/event trace in addition to this final-state audit.",
+      "Public queue cutoff is logical test time, independent of real sink commit timestamps and permit TTL.",
+      "No estimate of application benefit, statistical significance, or universal superiority is made."
+    ]
+  }
+}

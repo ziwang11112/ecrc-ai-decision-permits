@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": 290,
+  "findings": [],
+  "requests": 8,
+  "permits": 8,
+  "effects": 2,
+  "receipts": 2,
+  "reserved": 0,
+  "committed": 2,
+  "released": 0,
+  "cancelled": 0,
+  "armed": 0,
+  "effect_decisions": [
+    "contender-4",
+    "target"
+  ],
+  "effect_routes": {
+    "alert": 2,
+    "review": 0
+  },
+  "states": {
+    "target": "issued",
+    "contender-0": "nonaction",
+    "contender-2": "nonaction",
+    "contender-3": "nonaction",
+    "contender-1": "nonaction",
+    "contender-5": "nonaction",
+    "contender-6": "nonaction",
+    "contender-4": "issued"
+  }
+}

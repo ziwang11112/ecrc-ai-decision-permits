@@ -1,0 +1,159 @@
+{
+  "schema_version": "fixed_synthetic_boundary_specs_v1",
+  "native_clock": "2024-05-15T15:00:00",
+  "clock_timezone_convention": "Native policy EST string convention; unchanged naive frozen checker",
+  "fixed_cases": 16,
+  "template": {
+    "selection": "First account/selected reservation of existing B outcome-blind hash cohort",
+    "user_id": "lei_santos_6163",
+    "reservation_id": "9Z5X1D",
+    "previously_exposed": true
+  },
+  "cases": [
+    {
+      "case_id": "sole24_before",
+      "age_seconds": 86399,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "other"
+    },
+    {
+      "case_id": "sole24_at",
+      "age_seconds": 86400,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "other"
+    },
+    {
+      "case_id": "sole24_after",
+      "age_seconds": 86401,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "other"
+    },
+    {
+      "case_id": "insured_weather",
+      "age_seconds": 172800,
+      "cabin": "economy",
+      "insurance": "yes",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "weather"
+    },
+    {
+      "case_id": "uninsured_weather",
+      "age_seconds": 172800,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "weather"
+    },
+    {
+      "case_id": "insured_other",
+      "age_seconds": 172800,
+      "cabin": "economy",
+      "insurance": "yes",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "other"
+    },
+    {
+      "case_id": "sole_airline_cancelled",
+      "age_seconds": 172800,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "cancelled",
+      "reservation_status": null,
+      "reason": "other"
+    },
+    {
+      "case_id": "airline_available_control",
+      "age_seconds": 172800,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "other"
+    },
+    {
+      "case_id": "sole_business",
+      "age_seconds": 172800,
+      "cabin": "business",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "other"
+    },
+    {
+      "case_id": "flying_overrides24",
+      "age_seconds": 3600,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "flying",
+      "reservation_status": null,
+      "reason": "other"
+    },
+    {
+      "case_id": "flying_overrides_insured_weather",
+      "age_seconds": 172800,
+      "cabin": "economy",
+      "insurance": "yes",
+      "flight_status": "flying",
+      "reservation_status": null,
+      "reason": "weather"
+    },
+    {
+      "case_id": "already_cancelled_overrides24",
+      "age_seconds": 3600,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": "cancelled",
+      "reason": "other"
+    },
+    {
+      "case_id": "missing_reason_overrides24",
+      "age_seconds": 3600,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "unspecified"
+    },
+    {
+      "case_id": "missing_reason_overrides_insurance",
+      "age_seconds": 172800,
+      "cabin": "economy",
+      "insurance": "yes",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "unspecified"
+    },
+    {
+      "case_id": "missing_reason_overrides_airline",
+      "age_seconds": 172800,
+      "cabin": "economy",
+      "insurance": "no",
+      "flight_status": "cancelled",
+      "reservation_status": null,
+      "reason": "unspecified"
+    },
+    {
+      "case_id": "missing_reason_overrides_business",
+      "age_seconds": 172800,
+      "cabin": "business",
+      "insurance": "no",
+      "flight_status": "available",
+      "reservation_status": null,
+      "reason": "unspecified"
+    }
+  ]
+}
+

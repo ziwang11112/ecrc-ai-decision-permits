@@ -1,0 +1,13 @@
+study_phase,reason,request_contexts,unique_accounts,unique_reservations,eligible_contexts,eligible_unique_reservations,ineligible_contexts,missing_information_contexts,transfer_required_contexts
+original_first100,all,300,100,100,59,40,59,100,82
+original_first100,health,100,100,100,40,40,19,0,41
+original_first100,other,100,100,100,19,19,40,0,41
+original_first100,unspecified,100,100,100,0,0,0,100,0
+fixed_next100,all,300,100,100,70,46,58,100,72
+fixed_next100,health,100,100,100,46,46,18,0,36
+fixed_next100,other,100,100,100,24,24,40,0,36
+fixed_next100,unspecified,100,100,100,0,0,0,100,0
+combined_posthoc_extension,all,600,200,200,129,86,117,200,154
+combined_posthoc_extension,health,200,200,200,86,86,37,0,77
+combined_posthoc_extension,other,200,200,200,43,43,80,0,77
+combined_posthoc_extension,unspecified,200,200,200,0,0,0,200,0

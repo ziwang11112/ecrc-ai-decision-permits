@@ -1,0 +1,11 @@
+{
+  "primary_sources": {
+    "barres2025tau2": "https://arxiv.org/abs/2506.07982",
+    "yao2024taubench": "https://arxiv.org/abs/2406.12045",
+    "synthetic_database": "https://arxiv.org/html/2406.12045v1",
+    "native_policy": "https://raw.githubusercontent.com/sierra-research/tau2-bench/2174a603f6d014ef94473ffa95957f6ce27100db/data/tau2/domains/airline/policy.md",
+    "native_tool": "https://raw.githubusercontent.com/sierra-research/tau2-bench/2174a603f6d014ef94473ffa95957f6ce27100db/src/tau2/domains/airline/tools.py"
+  },
+  "citation_scope": "New source citations verified; previously audited bibliography otherwise unchanged",
+  "not_tau2_source": "arXiv:2506.02009 is STRATUS"
+}

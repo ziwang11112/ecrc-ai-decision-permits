@@ -1,0 +1,7 @@
+{"arm":"raw","event":"ready","pid":10772}
+{"event":"result","issue_result":{"counted":false,"state":"upstream_queued"},"job":"A","op":"issue_only","status":"issued_or_queued"}
+{"event":"result","job":null,"op":"snapshot","state":{"first_submissions":0,"limit":null,"persistence":"none"},"status":"snapshot"}
+{"descriptor":{"idempotency_key":"direct:f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae","payload":{"job_hash":"f3c85d5b29cdc1d3be218677101312a59fcb2b3c2f09c9ef6601043ea3cdf3ae"}},"error_type":"RemoteDisconnected","event":"result","job":"B","op":"send","status":"transport_unknown"}
+{"event":"result","job":null,"op":"snapshot","state":{"first_submissions":1,"limit":null,"persistence":"none"},"status":"snapshot"}
+
+STDERR

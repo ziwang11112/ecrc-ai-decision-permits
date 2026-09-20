@@ -1,0 +1,22 @@
+# Exact recorded no-model environment (Python 3.12). No provider SDK is needed.
+PyYAML==6.0.3
+addict==2.4.0
+annotated-types==0.8.0
+cachebox==5.2.3
+colorama==0.4.6; sys_platform == "win32"
+deepdiff==9.1.0
+docstring_parser==0.18.0
+loguru==0.7.3
+numpy==2.5.3
+orderly-set==5.5.0
+pandas==3.0.5
+pydantic==2.13.5
+pydantic_core==2.46.5
+python-dateutil==2.9.0.post0
+python-dotenv==1.2.3
+six==1.17.0
+toml==0.10.2
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+tzdata==2026.4
+win32_setctime==1.2.0; sys_platform == "win32"

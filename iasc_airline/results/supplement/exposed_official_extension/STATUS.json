@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-09-16T00:21:11.719525+00:00",
+  "status": "complete_audited_archived",
+  "technical_integrity_pass": true,
+  "primary_cells": 30,
+  "request_stages": 6,
+  "official_source_population": 20,
+  "included_task_ids": [
+    "26",
+    "35",
+    "37",
+    "44",
+    "45",
+    "48"
+  ],
+  "primary_native_calls": 325,
+  "primary_native_cancellations": 10,
+  "native_call_replays_for_validation": 325,
+  "replays_are_additional_samples": false,
+  "eligible_candidates_per_arm": {
+    "direct_native_dispatch": 0,
+    "qualification_ecrc": 0,
+    "existing_rules_only": 0,
+    "without_claim_evidence_requirement": 0,
+    "without_metadata_qualification": 0
+  },
+  "information_missing_candidates_are_not_known_ineligible": true,
+  "positive_completion_or_false_rejection_evidence_added": false,
+  "eligible_rates_with_zero_denominator": "undefined; blank in CSV, never zero",
+  "permission_totals": [
+    {
+      "arm": "qualification_ecrc",
+      "issued_permits": 5,
+      "armed_jobs": 0,
+      "held_units": 0,
+      "committed_units": 0,
+      "completion_receipts": 0
+    },
+    {
+      "arm": "without_claim_evidence_requirement",
+      "issued_permits": 5,
+      "armed_jobs": 5,
+      "held_units": 5,
+      "committed_units": 0,
+      "completion_receipts": 0
+    },
+    {
+      "arm": "without_metadata_qualification",
+      "issued_permits": 5,
+      "armed_jobs": 0,
+      "held_units": 0,
+      "committed_units": 0,
+      "completion_receipts": 0
+    }
+  ],
+  "synthetic_qa_tests": 79,
+  "frozen_source_files_checked": 55,
+  "native_vendor_files_checked": 1570,
+  "run_files_read_only": 477,
+  "run_files_unchanged_during_export": true,
+  "source_exposure": "All original test scenarios previously screened as development data",
+  "task37_repeats_train9_normalized_request": true,
+  "independent_holdout_claim": false,
+  "full_task_success_established": false,
+  "native_component_score_is_full_benchmark_success_rate": false,
+  "model_calls": 0,
+  "model_api_cost_usd": 0,
+  "paper_overleaf_github_updated": false,
+  "separate_controlled_study": "../ecrc_native_record_coverage_2026-09-15; separate analysis, no results pooled here",
+  "audit": "REVIEW.json",
+  "archive_manifest": "EVIDENCE_SHA256.json",
+  "archived_evidence_file_count_excluding_manifest": 497
+}

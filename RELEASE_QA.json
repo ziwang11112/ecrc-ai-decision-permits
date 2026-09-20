@@ -1,25 +1,17 @@
 {
-  "release": "iasc-r2-2026-09-12",
-  "python": "3.12.14",
-  "original_core_tests": {
-    "passed": 31,
-    "failed": 0,
-    "separate_environment": true
-  },
-  "current_wrapper_QA": {
-    "passed": 10,
-    "formal_S8_denominator": false
-  },
-  "frozen_S8_source_and_input_files_verified": 34,
-  "byte_identical_public_source_mirror_files": 255,
-  "original_scientific_implementation_unchanged": true,
-  "changed_legacy_documentation_and_packaging": [
-    ".github/workflows/tests.yml",
-    ".gitignore",
-    "docs/DATA_ACCESS.md",
-    "LICENSES.md",
-    "README.md"
-  ],
-  "full_release_asset": "iasc/RELEASE_ARTIFACT.json",
-  "scope": "Local checks before publication. GitHub Actions records remote platform execution separately."
+  "release": "code-v1.2.0",
+  "date": "2026-09-20",
+  "status": "PASS_FOR_DOCUMENTED_SOURCE_AND_EVIDENCE_VIEW",
+  "report": "docs/ARTIFACT_VALIDATION.json",
+  "core_tests_passed": 31,
+  "helper_tests_passed": 45,
+  "helper_tests_skipped": 1,
+  "wrapper_QA_cases_passed": 10,
+  "saved_result_checks": 5,
+  "release_assets_verified": 3,
+  "scientific_denominators_changed_by_publication_QA": false,
+  "frozen_scientific_implementations_unchanged": true,
+  "new_model_api_calls": 0,
+  "cloud_ci_pass_claimed": false,
+  "scope": "Current publication QA; historical reports remain in prior fixed tags."
 }

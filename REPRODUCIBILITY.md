@@ -28,7 +28,31 @@ Git mirror: it intentionally refuses to overwrite its tracked historical
 report. The new runner preserves those bytes and places the fresh report at
 `artifacts/wrapper-qa-1/revision_reviews/runtime_review/WRAPPER_QA_PORTABLE_RESULT.json`.
 
-## 2. Obtain complete saved evidence
+## 2. Current result checks and full saved evidence
+
+```console
+python -B scripts/verify_current_results.py
+python -B plots/current/verify_observations.py
+python -B iasc_application/context_correction/verify_current.py
+python -B iasc_airline/verify_results.py
+python -B iasc_restart/verify.py
+```
+
+These read compact saved evidence. The five-study entry point includes S10's
+saved-evidence check. No model, paid API, candidate program or formal experiment
+runs. The current figure/table mapping is in [RESULTS.md](docs/RESULTS.md).
+
+```console
+python scripts/download_artifact.py s9-c --output artifacts/s9-c
+python scripts/download_artifact.py s11 --output artifacts/s11
+python scripts/download_artifact.py s12 --output artifacts/s12
+```
+
+Follow [S9-C](iasc_application/context_correction/README.md),
+[S11](iasc_airline/README.md) and [S12](iasc_restart/README.md) for full
+projection/native-record/SQL audits and exact archive root paths. Large records
+are separate from the code view. The original archive selectors remain available:
+
 
 ```console
 python scripts/download_artifact.py s1-s8 --output artifacts/s1-s8
@@ -67,11 +91,14 @@ source mirror. The frozen low-level `audit_e2e.py` writes its `passed` result
 but does not reliably encode failures in its process exit status; inspect its
 JSON and inventory if using it directly. An empty directory is not evidence.
 
-### S9: independently recalculate public projections
+### Original S9: historical public projections
 
 ```console
 python -B artifacts/s9/AIR-014_IASC_S9/check_public.py --bundle artifacts/s9/AIR-014_IASC_S9 --public-only --out artifacts/s9-public-check-1.json
 ```
+
+These are **historical, pre-correction** results, not current Table 4. For the
+current 112+32 selection use the S9-C verifier above.
 
 Expect `checks_passed: true`. This verifies 152 retained run records: eight
 development integration runs and 144 formal trajectories. The checker derives
@@ -98,18 +125,19 @@ replay its entire trace or re-enumerate the state space. The 205 external
 author-workspace baseline targets are explicitly `NOT_CHECKED`, not bundled
 S10 files. See [the full S10 guide](iasc_model_check/PORTABLE_REPRODUCTION.md).
 
-## 3. Generate plots and numerical summaries
+## 3. Rebuild the current technical figures
 
-Follow [plots/current/README.md](plots/current/README.md). This self-contained
-directory has five plots, compact source data, plotting code and CSV-only
-result aggregation. It needs no
-large artifact download, model training, candidate execution or API access.
-Figure dependencies are separate from the historical model environment.
+```console
+python -m pip install -r plots/current/requirements.txt
+python -B plots/current/build_figures.py --out artifacts/current-figures
+```
 
-The numerical summary script recomputes delivery aggregates and compares all
-17 result rows with saved expected CSVs. It does not read or generate LaTeX.
-Selected older plotting sources remain in `iasc/`; their original archive
-inventories are distinguished from the current view in `SOURCE_VIEW.json`.
+The [plotting guide](plots/current/README.md) covers three current figures and
+saved S6/S8 table observations. Drawing scripts are exact copies of the current
+paper's technical sources. Arial reproduces the paper font; `--font "DejaVu Sans"`
+explicitly requests a layout variant when Arial is unavailable. Generated files
+stay in the fresh output directory. This performs no model/API call or new study.
+The obsolete five-figure package remains in tag `code-v1.1.0`.
 
 ## 4. A new scientific reproduction requires the study's environment
 
@@ -119,6 +147,8 @@ inventories are distinguished from the current view in `SOURCE_VIEW.json`.
 | S6 delivery | The Git mirror contains the execution sources: read `iasc/runtime/PROTOCOL.md` and the retained environment. Complete historical evidence is in the S1–S8 ZIP. Run into a new directory; timing depends on the host. |
 | S7 statistical reconstruction | Complete `iasc/statistics/` directory, its `requirements.txt` and README. Copy it to a new work directory first: its original verifier writes `verification.json` beside the scripts. |
 | S8 full HTTP/process experiment | Complete S1–S8 package and `end_to_end/portable_reproduction/README.md`; follow the preserved platform requirements and use fresh output. The ten-case quick QA is not this experiment. |
+| S11 native qualification | See `iasc_airline/README.md`: pinned tau2-bench, frozen model-free actors/evaluator and portable runner; use fresh output. |
+| S12 restart witness | See `iasc_restart/README.md`: stdlib portable runner, separate from archived scientific cells. |
 | S9 program execution | Exact upstream candidate material, reconstruction hashes and original task tests, plus the documented Windows/WSL sandbox and dependencies. Start with the reconstruction recipe in `iasc_application/README.md` and `reconstruct_catalog.py --help`. The frozen launcher contains author-environment paths; it is not a turnkey portable runner. |
 | S10 fresh model run | Explicit Java executable/hash and frozen TLC JAR; follow `iasc_model_check/PORTABLE_REPRODUCTION.md --execute` instructions. Default verification needs neither tool. |
 
