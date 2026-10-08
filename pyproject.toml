@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ecrc-ai-decision-permits"
-version = "1.2.0"
-description = "Transactional route-specific decision permits for sequential AI support"
+version = "1.3.0"
+description = "Runtime permission and cumulative budget control for language model agents"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 license = { text = "MIT" }

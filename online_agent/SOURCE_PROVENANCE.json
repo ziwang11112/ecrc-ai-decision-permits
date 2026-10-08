@@ -1,0 +1,343 @@
+{
+  "core_source_hashes_verified_against_each_study_freeze": {
+    "ecrc_shared_agent_claude_2026-10-07_v2": {
+      "acceptance.py": "26d4d392de488ebcf105352053b55f5464dd885616a10e2f54404bbca1f2527b",
+      "batch_backend.py": "91a9991113b5565fe99f43804ecd471f6177f96088d61c5d35784cea693febf7",
+      "effect_service.py": "dda234677b707be1b72a522af28ffdec1e8458586ac86c5242bfc1a53e07b335",
+      "prompts.py": "c64f85bd774a8061db74360d0deba39bd7575bc4b9b2d12c8a1a2e9a7c1a969f",
+      "trajectory.py": "47d056741647c09b834f967b9f3fe384eb3e7d86fd6c77919207c52396e3e7d6"
+    },
+    "ecrc_shared_agent_external_2026-10-07": {
+      "acceptance.py": "26d4d392de488ebcf105352053b55f5464dd885616a10e2f54404bbca1f2527b",
+      "batch_backend.py": "91a9991113b5565fe99f43804ecd471f6177f96088d61c5d35784cea693febf7",
+      "effect_service.py": "dda234677b707be1b72a522af28ffdec1e8458586ac86c5242bfc1a53e07b335",
+      "prompts.py": "c64f85bd774a8061db74360d0deba39bd7575bc4b9b2d12c8a1a2e9a7c1a969f",
+      "trajectory.py": "47d056741647c09b834f967b9f3fe384eb3e7d86fd6c77919207c52396e3e7d6"
+    },
+    "ecrc_shared_agent_scale_2026-10-07": {
+      "acceptance.py": "26d4d392de488ebcf105352053b55f5464dd885616a10e2f54404bbca1f2527b",
+      "batch_backend.py": "91a9991113b5565fe99f43804ecd471f6177f96088d61c5d35784cea693febf7",
+      "effect_service.py": "dda234677b707be1b72a522af28ffdec1e8458586ac86c5242bfc1a53e07b335",
+      "prompts.py": "c64f85bd774a8061db74360d0deba39bd7575bc4b9b2d12c8a1a2e9a7c1a969f",
+      "trajectory.py": "e7cbf403736d9705c6ebd8be34779b6971f95a282d8940205568a7d2f52b0209"
+    }
+  },
+  "files": [
+    {
+      "public_path": "runtime/batch_backend.py",
+      "public_sha256": "91a9991113b5565fe99f43804ecd471f6177f96088d61c5d35784cea693febf7",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/batch_backend.py",
+      "source_sha256": "91a9991113b5565fe99f43804ecd471f6177f96088d61c5d35784cea693febf7",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/effect_service.py",
+      "public_sha256": "dda234677b707be1b72a522af28ffdec1e8458586ac86c5242bfc1a53e07b335",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/effect_service.py",
+      "source_sha256": "dda234677b707be1b72a522af28ffdec1e8458586ac86c5242bfc1a53e07b335",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/acceptance.py",
+      "public_sha256": "26d4d392de488ebcf105352053b55f5464dd885616a10e2f54404bbca1f2527b",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/acceptance.py",
+      "source_sha256": "26d4d392de488ebcf105352053b55f5464dd885616a10e2f54404bbca1f2527b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/prompts.py",
+      "public_sha256": "c64f85bd774a8061db74360d0deba39bd7575bc4b9b2d12c8a1a2e9a7c1a969f",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/prompts.py",
+      "source_sha256": "c64f85bd774a8061db74360d0deba39bd7575bc4b9b2d12c8a1a2e9a7c1a969f",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/adapters.py",
+      "public_sha256": "ff51d9168a443fcca3f68c37d813b2042caf24ec05955d03d094d2cf15df4977",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/adapters.py",
+      "source_sha256": "ff51d9168a443fcca3f68c37d813b2042caf24ec05955d03d094d2cf15df4977",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/workload/__init__.py",
+      "public_sha256": "ce8ee95e1a6273c50c1157fc38b17f86ec2711f312fdff525bbd129f00a7d51a",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/workload/__init__.py",
+      "source_sha256": "ce8ee95e1a6273c50c1157fc38b17f86ec2711f312fdff525bbd129f00a7d51a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/workload/job_runner.py",
+      "public_sha256": "ffaaecdf7e2ea518c0d91c56b8a0bea6a48491cd6dcb390ba6fad59e97222c0b",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/workload/job_runner.py",
+      "source_sha256": "ffaaecdf7e2ea518c0d91c56b8a0bea6a48491cd6dcb390ba6fad59e97222c0b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/workload/sandbox/suite_worker.py",
+      "public_sha256": "67f1c0502980b3cd1f91169a9bdba5b8e2b3ee33c7f0449b074b63aeb34dd77c",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/workload/sandbox/suite_worker.py",
+      "source_sha256": "67f1c0502980b3cd1f91169a9bdba5b8e2b3ee33c7f0449b074b63aeb34dd77c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/workload/sandbox/sandbox_guard.py",
+      "public_sha256": "0a2fa64985d8b4d77413c35019099cbba4852d1759820976db61791e7d41a3cb",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/workload/sandbox/sandbox_guard.py",
+      "source_sha256": "0a2fa64985d8b4d77413c35019099cbba4852d1759820976db61791e7d41a3cb",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/workload/sandbox/sandbox_bootstrap.py",
+      "public_sha256": "de8ce62415bf24967ac948a33d6d28d027ce1fdcfc068f8b521aa939e529265c",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/workload/sandbox/sandbox_bootstrap.py",
+      "source_sha256": "de8ce62415bf24967ac948a33d6d28d027ce1fdcfc068f8b521aa939e529265c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/tests/test_batch_backend.py",
+      "public_sha256": "1c936bc13996eaf756727321fe7901107e5bcb780d172ac2badb54012076c670",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/tests/test_batch_backend.py",
+      "source_sha256": "1c936bc13996eaf756727321fe7901107e5bcb780d172ac2badb54012076c670",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/data/batches.json",
+      "public_sha256": "e61ffe46703be735eefde89e3bdd1c71b3c69f5c821c8dd63a35bb6caa01d869",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/data/batches.json",
+      "source_sha256": "e61ffe46703be735eefde89e3bdd1c71b3c69f5c821c8dd63a35bb6caa01d869",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/data/HUMANEVAL_LICENSE",
+      "public_sha256": "bcba3de214851cce46ed5af42d6698044616eeace887c3231bc7a20474ab639e",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/data/HUMANEVAL_LICENSE",
+      "source_sha256": "bcba3de214851cce46ed5af42d6698044616eeace887c3231bc7a20474ab639e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/data/selection.json",
+      "public_sha256": "df5fd9ccc17e63ca8e181a11668a7008a20dfd6e2c5404ee8a60eaf344e2331e",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/data/selection.json",
+      "source_sha256": "df5fd9ccc17e63ca8e181a11668a7008a20dfd6e2c5404ee8a60eaf344e2331e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/request_template.json",
+      "public_sha256": "d798b12a756990517e63f64d450604e86879d5f12eeb4939305618c93fa80e24",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/request_template.json",
+      "source_sha256": "d798b12a756990517e63f64d450604e86879d5f12eeb4939305618c93fa80e24",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/ecrc_e2e.py",
+      "public_sha256": "554b5a35c764c47d9b5e7c4419192a36d601807eb8937b0709a120a03a24060a",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/ecrc_e2e.py",
+      "source_sha256": "554b5a35c764c47d9b5e7c4419192a36d601807eb8937b0709a120a03a24060a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/ordinary_e2e.py",
+      "public_sha256": "1ad85d855dc9e80daecf1b33cc92ba1f17fdb1019a84a14db05fe712f8fcab68",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/ordinary_e2e.py",
+      "source_sha256": "1ad85d855dc9e80daecf1b33cc92ba1f17fdb1019a84a14db05fe712f8fcab68",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/ecrc_adapter.py",
+      "public_sha256": "89b0a4a497391711a049b0d8e63155ee91c7c4c0e69769f9db7d57e127b5e50f",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/ecrc_adapter.py",
+      "source_sha256": "89b0a4a497391711a049b0d8e63155ee91c7c4c0e69769f9db7d57e127b5e50f",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/ordinary_adapter.py",
+      "public_sha256": "f212202223d8a6217306ef240d864ccf10aa80889043f21cb9e60c5e03dff634",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/ordinary_adapter.py",
+      "source_sha256": "f212202223d8a6217306ef240d864ccf10aa80889043f21cb9e60c5e03dff634",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/__init__.py",
+      "public_sha256": "ac5dc53b9663d5ac855907e8bb0f7724ef97a37ee35d18e2ec928f42874e5e1f",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/__init__.py",
+      "source_sha256": "ac5dc53b9663d5ac855907e8bb0f7724ef97a37ee35d18e2ec928f42874e5e1f",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/adjudicator.py",
+      "public_sha256": "c6dd01b71a6a686a553128d0b147f8dd8f8044398d9a0d0ac949bec42e76d00b",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/adjudicator.py",
+      "source_sha256": "c6dd01b71a6a686a553128d0b147f8dd8f8044398d9a0d0ac949bec42e76d00b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/canonical.py",
+      "public_sha256": "f08cd0a8677253fcb14340393b1c828196f3d769b2c3eabf897c0816d64399e5",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/canonical.py",
+      "source_sha256": "f08cd0a8677253fcb14340393b1c828196f3d769b2c3eabf897c0816d64399e5",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/enforcement.py",
+      "public_sha256": "997efca4c14705b35907f1e144fd8cc77953402eb4603876bd3a88dba818eee4",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/enforcement.py",
+      "source_sha256": "997efca4c14705b35907f1e144fd8cc77953402eb4603876bd3a88dba818eee4",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/exceptions.py",
+      "public_sha256": "2b992f9055a132d3919bf07c7ca3863d519b809b651de5a35cf71120a7f53987",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/exceptions.py",
+      "source_sha256": "2b992f9055a132d3919bf07c7ca3863d519b809b651de5a35cf71120a7f53987",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/ledger.py",
+      "public_sha256": "51a995c7a80c628a0fc487cb7d255091b02455a3d7f4bb2a548a5c3a62eeb303",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/ledger.py",
+      "source_sha256": "51a995c7a80c628a0fc487cb7d255091b02455a3d7f4bb2a548a5c3a62eeb303",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/models.py",
+      "public_sha256": "60d3e6f5c5c18ffa136da6d1464bba1ebe6e2e57534524fd69588a4a3f976337",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/models.py",
+      "source_sha256": "60d3e6f5c5c18ffa136da6d1464bba1ebe6e2e57534524fd69588a4a3f976337",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/verifier.py",
+      "public_sha256": "d894537f4571fc8463c5a97e93f7d46a5ef41d593059ec13d0f284527a8c9c5b",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/verifier.py",
+      "source_sha256": "d894537f4571fc8463c5a97e93f7d46a5ef41d593059ec13d0f284527a8c9c5b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/__init__.py",
+      "public_sha256": "6b36849327c1c2be3526e58813a902a609b4dbbb33ee29426aa3a7f48b54dbf6",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/legacy/end_to_end/legacy_snapshot/source_snapshot/agentic_eeg_dm/governance/__init__.py",
+      "source_sha256": "6b36849327c1c2be3526e58813a902a609b4dbbb33ee29426aa3a7f48b54dbf6",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "public_path": "runtime/vendor/FROZEN_MANIFEST.json",
+      "public_sha256": "139019f6347192556ca4573ba2123717556f0f3e3562474b714ff2518f08ae59",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/vendor/FROZEN_MANIFEST.json",
+      "source_sha256": "ec1791ce931c12fd8acb7a54543947bcbe05a176d9046a86fdc574f0c2c3c0e5",
+      "transformation": "Projection: copied_path and sha256 only; omit unused HTTP service and author-local source paths"
+    },
+    {
+      "public_path": "runtime/trajectory.py",
+      "public_sha256": "b146a0d7953d880575bff169b79a79cedabd90266a4fcfa21a92b5564f8c42be",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/trajectory.py",
+      "source_sha256": "e7cbf403736d9705c6ebd8be34779b6971f95a282d8940205568a7d2f52b0209",
+      "transformation": "Replace private budget-module exception import with public transport_contract; normalize LF"
+    },
+    {
+      "public_path": "runtime/trajectory_external.py",
+      "public_sha256": "d5a7d35a64d2d94719f62e300c2b782ecfff86026665798932f2e7857999a1c5",
+      "source_path": "research_pilots/ecrc_shared_agent_external_2026-10-07/trajectory.py",
+      "source_sha256": "47d056741647c09b834f967b9f3fe384eb3e7d86fd6c77919207c52396e3e7d6",
+      "transformation": "Rename public module to trajectory_external; replace private budget exception import; preserve provider-native message metadata; normalize LF"
+    },
+    {
+      "public_path": "runtime/data/exclusions.json",
+      "public_sha256": "364a22100525a88025ffd53559a638db626c570daab12c9a2a5a6ebb39379cc9",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/data/exclusions.json",
+      "source_sha256": "d38080bf7b8f8342b1031f1a3cc01d914dd3dd37edf99d184f5a2fa027911cbd",
+      "transformation": "Omit source_manifests containing author-local paths; retain full cohort membership"
+    },
+    {
+      "public_path": "runtime/workload/sandbox/run_sandbox.sh",
+      "public_sha256": "1c7903e86988bb2e1059f2061631fcdea70b0ac3838a35064cb74bda9c9c37ff",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/workload/sandbox/run_sandbox.sh",
+      "source_sha256": "8b1f1ae0a93e0274e93d7637e79cdda6eb374c162cfbf9e6527c6f9d7b2c0069",
+      "transformation": "Replace three author-local executable/dependency paths with required ECRC_* environment variables; preserve binary hash, limits, package whitelist, isolation; normalize LF"
+    },
+    {
+      "public_path": "protocol/primary_schedule.csv",
+      "public_sha256": "d672e320a4a284a6af2ee32f51d7d849c13a545864e7984f111c0e364a8cc6f1",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/runs/v1/frozen_run.json",
+      "source_sha256": "a6947aef39d07841527773a83627843c9d2925198f9f3316de5c5652b876eb7e",
+      "transformation": "Allowlisted assignment fields only; exclude runtime paths, authorization, provider transport, accounting"
+    },
+    {
+      "public_path": "protocol/primary_schedule_spec.json",
+      "public_sha256": "1240c04dbbdbb3ec9a3468c909f429afb3c125045eb2ee0dd7700dc4043166ef",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/runs/v1/frozen_run.json",
+      "source_sha256": "a6947aef39d07841527773a83627843c9d2925198f9f3316de5c5652b876eb7e",
+      "transformation": "Derived public deterministic schedule configuration, model labels and task identities only"
+    },
+    {
+      "public_path": "protocol/primary_analysis_plan.json",
+      "public_sha256": "f8021e9b45ab5b4abf1c2ec75e24682399c8316e1392f7fa624df5a817dfd38c",
+      "source_path": "research_pilots/ecrc_shared_agent_scale_2026-10-07/ANALYSIS_PLAN.json",
+      "source_sha256": "68901f3b827302cbd0b714b294985446d6a29c7aa6aa807448fe0f578ad4345b",
+      "transformation": "Omit fixed_outputs; add public-projection timing disclosure; preserve adverse-outcome policy"
+    },
+    {
+      "public_path": "protocol/external_schedule.csv",
+      "public_sha256": "a658ae93fb5a38adde7662e6bc67f5c3100e354111df442c020b241a283a1707",
+      "source_path": "research_pilots/ecrc_shared_agent_external_2026-10-07/runs/v1/frozen_run.json",
+      "source_sha256": "f96c028a036ee06f52b77a6d3c98f026a64dada329961b49e3d80c8e0929d0b3",
+      "transformation": "Allowlisted assignment fields only; exclude runtime paths, authorization, provider transport, accounting"
+    },
+    {
+      "public_path": "protocol/external_schedule_spec.json",
+      "public_sha256": "9ff1aadf265c13e09be2860ff975ec34c9400de439005ebece1e8d494ad1c552",
+      "source_path": "research_pilots/ecrc_shared_agent_external_2026-10-07/runs/v1/frozen_run.json",
+      "source_sha256": "f96c028a036ee06f52b77a6d3c98f026a64dada329961b49e3d80c8e0929d0b3",
+      "transformation": "Derived public deterministic schedule configuration, model labels and task identities only"
+    },
+    {
+      "public_path": "protocol/external_analysis_plan.json",
+      "public_sha256": "9ce38c2648783e8cdc12af328d4f4917e12db09c93817d4605f70f4ffdb502c8",
+      "source_path": "research_pilots/ecrc_shared_agent_external_2026-10-07/ANALYSIS_PLAN.json",
+      "source_sha256": "386bc7d89d85746d19475792bacf588267b7d6d21e58d349f9ad404e6a19de2e",
+      "transformation": "Omit fixed_outputs; add public-projection timing disclosure; preserve adverse-outcome policy"
+    },
+    {
+      "public_path": "protocol/claude_v2_schedule.csv",
+      "public_sha256": "5b50839b3c9a9ee1f160a18cc443142c4e699ebe452e95c1b9ba0204e206f2a0",
+      "source_path": "research_pilots/ecrc_shared_agent_claude_2026-10-07_v2/runs/v1/frozen_run.json",
+      "source_sha256": "90d3ca14946982a619790c23cc09ccf90e55106fffbe45852fc36de9edb47ba6",
+      "transformation": "Allowlisted assignment fields only; exclude runtime paths, authorization, provider transport, accounting"
+    },
+    {
+      "public_path": "protocol/claude_v2_schedule_spec.json",
+      "public_sha256": "c7451489c64c54785ddbf92a913c2a1a6d1a78ce071f8fdd0fd132e89ded607d",
+      "source_path": "research_pilots/ecrc_shared_agent_claude_2026-10-07_v2/runs/v1/frozen_run.json",
+      "source_sha256": "90d3ca14946982a619790c23cc09ccf90e55106fffbe45852fc36de9edb47ba6",
+      "transformation": "Derived public deterministic schedule configuration, model labels and task identities only"
+    },
+    {
+      "public_path": "protocol/claude_v2_analysis_plan.json",
+      "public_sha256": "e45dabde317ac8cec2a47fbbdb112b77256571469f3d37b5fe8d2eefba4c0f1b",
+      "source_path": "research_pilots/ecrc_shared_agent_claude_2026-10-07_v2/ANALYSIS_PLAN.json",
+      "source_sha256": "e7a17ad5ed90b6ab5e0f556ec590bd41c1b951e2af8f07b37f63d7b1f073e001",
+      "transformation": "Omit fixed_outputs; add public-projection timing disclosure; preserve adverse-outcome policy"
+    }
+  ],
+  "omitted": [
+    "provider transports and credential loading",
+    "paid-budget accounting code and state",
+    "author authorization records",
+    "raw provider traffic",
+    "model candidate bodies",
+    "unused legacy HTTP service",
+    "manuscript and editorial material"
+  ],
+  "original_frozen_runner_sha256": "e05cebc18c2dab444215fb826377edb0480db72e2bf33ed776afbbc2a1d7f150",
+  "original_primary_frozen_manifest_sha256": "a6947aef39d07841527773a83627843c9d2925198f9f3316de5c5652b876eb7e",
+  "public_derived_runner_files": {
+    "job_runner.py": "ffaaecdf7e2ea518c0d91c56b8a0bea6a48491cd6dcb390ba6fad59e97222c0b",
+    "sandbox/run_sandbox.sh": "1c7903e86988bb2e1059f2061631fcdea70b0ac3838a35064cb74bda9c9c37ff",
+    "sandbox/sandbox_bootstrap.py": "de8ce62415bf24967ac948a33d6d28d027ce1fdcfc068f8b521aa939e529265c",
+    "sandbox/sandbox_guard.py": "0a2fa64985d8b4d77413c35019099cbba4852d1759820976db61791e7d41a3cb",
+    "sandbox/suite_worker.py": "67f1c0502980b3cd1f91169a9bdba5b8e2b3ee33c7f0449b074b63aeb34dd77c"
+  },
+  "public_derived_runner_sha256": "f83cbe2382b74939b56d43de91c1abf3fec69a57b9bf22fd65648da9f176ad2a",
+  "schema": "online-agent-source-projection-v1",
+  "scope": "Reusable controller and feedback-driven actor source, public tasks, deterministic schedules and offline checks; not a full live-study rerun distribution.",
+  "source_study": "research_pilots/ecrc_shared_agent_scale_2026-10-07"
+}

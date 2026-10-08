@@ -1,4 +1,4 @@
-"""Run compact saved-result checks without API, model or candidate execution."""
+"""Check saved results, including online reanalysis (NumPy), without live calls."""
 from pathlib import Path
 import json
 import subprocess
@@ -6,6 +6,7 @@ import sys
 
 ROOT=Path(__file__).resolve().parents[1]
 COMMANDS=[
+    ('Online primary and provider numerical projections','online_results/verify.py'),
     ('S6/S8 observations','plots/current/verify_observations.py'),
     ('S9-C retained results','iasc_application/context_correction/verify_current.py'),
     ('S10 saved evidence','iasc_model_check/portable_reproduce.py'),

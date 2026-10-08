@@ -1,17 +1,19 @@
 {
-  "release": "code-v1.2.0",
-  "date": "2026-09-20",
+  "release": "code-v1.3.0",
+  "date": "2026-10-08",
   "status": "PASS_FOR_DOCUMENTED_SOURCE_AND_EVIDENCE_VIEW",
   "report": "docs/ARTIFACT_VALIDATION.json",
-  "core_tests_passed": 31,
+  "core_tests_passed": 22,
   "helper_tests_passed": 45,
   "helper_tests_skipped": 1,
   "wrapper_QA_cases_passed": 10,
-  "saved_result_checks": 5,
-  "release_assets_verified": 3,
-  "scientific_denominators_changed_by_publication_QA": false,
-  "frozen_scientific_implementations_unchanged": true,
+  "online_runtime_tests_passed": 20,
+  "online_result_tests_passed": 6,
+  "saved_result_checks": 6,
+  "online_trajectory_projections": 1440,
+  "numerical_figures_reproduced": 5,
   "new_model_api_calls": 0,
-  "cloud_ci_pass_claimed": false,
-  "scope": "Current publication QA; historical reports remain in prior fixed tags."
+  "scientific_denominators_changed_by_publication_QA": false,
+  "historical_release_assets_unchanged": true,
+  "cloud_ci_pass_claimed": false
 }

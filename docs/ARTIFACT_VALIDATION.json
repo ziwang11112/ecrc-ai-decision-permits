@@ -1,14 +1,19 @@
 {
-  "version": "code-v1.2.0",
-  "date": "2026-09-20",
+  "version": "code-v1.3.0",
+  "date": "2026-10-08",
   "status": "PASS_FOR_DOCUMENTED_SOURCE_AND_EVIDENCE_VIEW",
-  "base_commit": "81d5379f4a4a60f5bf3a112b3dcff517ed759d89",
+  "base_commit": "76bb48014248a689dc99d7180b3099e464c2c03f",
   "platform": "Windows",
   "python": "3.12.10",
-  "environment": "Existing local environments; no claim of fresh dependency installation or POSIX execution.",
+  "environment": "Existing local environment; no fresh dependency installation or live provider/sandbox run.",
   "core_tests": {
-    "passed": 31,
-    "failed": 0
+    "passed": 22,
+    "failed": 0,
+    "files": [
+      "tests/test_ecrc_governance_core.py",
+      "tests/test_ecrc_governance_concurrency.py",
+      "tests/test_ecrc_systems_benchmark.py"
+    ]
   },
   "helper_tests": {
     "total": 46,
@@ -20,25 +25,68 @@
     "passed": 10,
     "included_in_scientific_denominators": false
   },
+  "online_runtime": {
+    "passed": 20,
+    "source_bindings": 42,
+    "scheduled_trajectories": {
+      "primary": 576,
+      "external": 576,
+      "claude_v2": 288
+    },
+    "test_mode": "Injected responses/runners; source, schedule and dependency checks"
+  },
+  "online_numerics": {
+    "tests_passed": 6,
+    "trajectory_rows": 1440,
+    "task_count": 96,
+    "batch_clusters": 24,
+    "frozen_inputs": 18,
+    "outcome_cells": 30,
+    "metric_intervals": 90,
+    "paired_contrasts": 60,
+    "numeric_comparisons": 2298,
+    "primary_job_bins": 108,
+    "independent_recomputation": "All cells and paired contrasts checked by a separate local audit script.",
+    "report": "online_results/VALIDATION.json"
+  },
+  "figure_reproduction": {
+    "figures": 5,
+    "all_recorded_baselines_match": true,
+    "four_pdf_and_png_pairs_byte_identical": true,
+    "counterexample_png_bytes_and_pdf_render_content_match": true,
+    "counterexample_pdf_bytes_identical": false,
+    "counterexample_difference": "Time-dependent PDF metadata",
+    "report": "online_results/VALIDATION.json"
+  },
   "saved_results": [
     {
+      "study": "Online primary and provider numerical projections",
+      "command": "online_results/verify.py",
+      "exit_code": 0
+    },
+    {
       "study": "S6/S8 observations",
+      "command": "plots/current/verify_observations.py",
       "exit_code": 0
     },
     {
       "study": "S9-C retained results",
+      "command": "iasc_application/context_correction/verify_current.py",
       "exit_code": 0
     },
     {
       "study": "S10 saved evidence",
+      "command": "iasc_model_check/portable_reproduce.py",
       "exit_code": 0
     },
     {
       "study": "S11 qualification",
+      "command": "iasc_airline/verify_results.py",
       "exit_code": 0
     },
     {
       "study": "S12 restart witness",
+      "command": "iasc_restart/verify.py",
       "exit_code": 0
     }
   ],
@@ -48,161 +96,20 @@
     "overlay": 7,
     "overlapping_inventories_are_not_unique_files": true
   },
-  "source_view_sha256": "947286f511bacc8c2367386810530f7a514e61c9a0435b6e7787691351944100",
-  "current_figure_source_manifest_sha256": "284bbf72f60f11e5736c0e3132375f959e8c1c205a19ff08adda325c9b21d92d",
-  "figure_reproduction": {
-    "fig1_pdf_exact": true,
-    "fig2_pdf_exact": true,
-    "figure3_render_exact": true,
-    "figure3_text_exact": true,
-    "metadata_only_difference": true,
-    "new_model_runs": 0,
-    "sources_unchanged": true
-  },
-  "s9_c": {
-    "retained_original_runs": 112,
-    "replacement_runs": 32,
-    "selected_runs": 144,
-    "all_historical_and_replacement_runs": 176,
-    "jobs": 1769,
-    "response_losses": 188,
-    "public_event_audit": "PASS for original and correction projections",
-    "negative_checks": "PASS: changed outcome, missing job, duplicate operation, missing trajectory rejected",
-    "raw_original_result_bytes_checked": false
-  },
-  "s11": {
-    "date": "2026-09-20",
-    "offline_verification": {
-      "passed": true,
-      "copied_source_files": 142,
-      "primary_cells": 2400,
-      "boundary_cells": 64,
-      "independent_policy_recomputed": true
-    },
-    "native_smoke": {
-      "existing_environment_only": true,
-      "new_dependency_installation": false,
-      "new_upstream_download": false,
-      "contexts": 2,
-      "cells": 8,
-      "model_calls": 0,
-      "network_attempts": 0,
-      "cell_errors": 0,
-      "replay_verified": true,
-      "cases": [
-        "record_001_health",
-        "sole24_before"
-      ],
-      "scope": "QA only, excluded from reported study denominators"
-    },
-    "full_native_rerun_performed_for_publication": false,
-    "public_archive": {
-      "filename": "S11_airline_native_evidence_projection.zip",
-      "bytes": 60293051,
-      "sha256": "e74dc37dadafe9175831c19792786a12ee84c7fe8e5913d8919d2b0e1947e695",
-      "members": 30915,
-      "manifest_path": "MANIFEST.json",
-      "prefix": "",
-      "verification": {
-        "archive_verified": true,
-        "files": 30914,
-        "after_states_available": 2464,
-        "after_states_canonically_verified": 2464,
-        "original_gzip_bytes_recreated": false,
-        "original_nonprojected_file_bytes_preserved": true,
-        "primary_cells": 2400,
-        "boundary_cells": 64
-      },
-      "guarantee": "Every reconstructed after-state canonical JSON hash matches; original gzip container bytes are not recreated. Original nonprojected file bytes are preserved."
-    }
-  },
-  "s12": {
-    "classification": "publication checks and bounded portability QA only; historical results unchanged",
-    "date": "2026-09-20",
-    "python": "3.12.10",
-    "tested_platform": "Windows",
-    "offline_recomputation": "passed, current ALL_CELLS.csv rebuilt from saved transport records",
-    "full_sql_audit": "passed for all 16 retained cells, preserving four prior mixed-cell process-audit failures",
-    "checkpoint_databases_verified": 84,
-    "source_and_export_hash_checks": 598,
-    "historical_frozen_source_checks_excluding_manuscript_guards": {
-      "prerun_01": 24,
-      "prerun_02": 24
-    },
-    "original_unit_tests": 13,
-    "portable_replay_cells": 8,
-    "portable_replay_all_eight_rows_match": true,
-    "portable_replay_status": "passed; new QA only, not included in study evidence",
-    "model_calls": 0,
-    "model_api_cost_usd": 0,
-    "current_totals": {
-      "effects": 20,
-      "posts": 24,
-      "replays": 4,
-      "withheld": 4
-    },
-    "asset": {
-      "filename": "iasc_s12_restart_witness_2026-09-20.zip",
-      "bytes": 504570,
-      "sha256": "71bc8ec20c8e6df869ee7f683da29afefc4adc62da7abbdbac87e17908c7de41",
-      "manifest_members": 349,
-      "sqlite_databases": 108,
-      "wal_files": 36
-    },
-    "scan": {
-      "credential_shapes_found": 0,
-      "local_absolute_directories_found": 0,
-      "scope": "all public-package and raw-release bytes",
-      "archive_paths": "safe relative POSIX paths",
-      "manuscript_pdf_tex_bib_members": 0
-    },
-    "scope_limits": [
-      "One normal and one mixed run per client; neither statistical replication nor business benefit.",
-      "Original and export metadata hashes differ only where local root text was normalized.",
-      "Default verification does not prove database completeness; use full SQL mode.",
-      "Only Windows Python 3.12 portable replay tested; no POSIX test performed."
-    ]
-  },
-  "new_assets": {
-    "s9-c": {
-      "filename": "AIR-014_IASC_S9_Context_Correction.zip",
-      "bytes": 2923750,
-      "sha256": "86556821849484ccc511586fe804c3574225afb27d064afe66148a804472018c",
-      "members": 1386
-    },
-    "s11": {
-      "filename": "S11_airline_native_evidence_projection.zip",
-      "bytes": 60293051,
-      "sha256": "e74dc37dadafe9175831c19792786a12ee84c7fe8e5913d8919d2b0e1947e695",
-      "members": 30915
-    },
-    "s12": {
-      "filename": "iasc_s12_restart_witness_2026-09-20.zip",
-      "bytes": 504570,
-      "sha256": "71bc8ec20c8e6df869ee7f683da29afefc4adc62da7abbdbac87e17908c7de41",
-      "members": 350
-    }
-  },
-  "archive_download_helper": {
-    "mode": "--archive, local finalized assets",
-    "checks": "size, SHA-256, safe member paths, CRC, complete manifest and all member bytes; fresh extraction",
-    "passed": [
-      "s9-c",
-      "s11",
-      "s12"
-    ],
-    "public_network_download": "Checked separately after publication; not represented by this prepublication report."
-  },
-  "publication_hygiene": {
-    "credential_pattern_hits": 0,
-    "manuscript_or_editorial_files_in_active_tree": 0,
-    "remaining_pdf_files": "12 historical technical figures",
-    "compressed_records_inspected": true
+  "source_view_sha256": "3451737ffcc5bab6e63b1cb228c2a69e53137d89d14c9fe9680f27130398a503",
+  "public_runtime_provenance_sha256": "3a03368edc802ffb505ed909e0d098cf6db73c667b163953a2bc77e4088f353a",
+  "public_result_validation_sha256": "5dfe1cad780ba534d865b1c7b3b310b9d15c834adb91522740354e43b9adc95e",
+  "publication_review": {
+    "new_public_files": 81,
+    "credential_or_private_path_findings": 0,
+    "manuscript_or_editorial_files_added": 0,
+    "relative_doc_links": "checked"
   },
   "new_formal_experiments": false,
   "model_calls": 0,
   "model_api_cost_usd": 0,
   "cloud_ci_pass_claimed": false,
-  "github_actions": "Disabled; workflow configuration retained without claiming hosted execution.",
-  "scope": "Saved-evidence checks and bounded local portability QA only. Existing tags, archived experiments and baselines are unchanged. S9/S11 public projections do not certify excluded raw bytes."
+  "github_actions": "Disabled",
+  "scope": "Offline verification and publication packaging. Complete raw online records, provider transports, private accounting and orchestration are not included. Historical scientific sources, results and release assets remain unchanged.",
+  "historical_validation": "See docs/ARTIFACT_VALIDATION.json in code-v1.2.0 for September archive and native-replay checks; those checks were not rerun in this publication update."
 }

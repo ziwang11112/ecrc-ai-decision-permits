@@ -1,0 +1,55 @@
+{
+  "study_bindings": {
+    "primary": {
+      "analysis_manifest_sha256": "4f2fffd81892dfaf9521433121c7e7e08fb880833dde25526cd7e2110bd37ba0",
+      "independent_audit_sha256": "70ae7d5266e52b1bb3849ff695d67fdb0d874c489e18bdadaa6cc38e75341801",
+      "frozen_run_sha256": "a6947aef39d07841527773a83627843c9d2925198f9f3316de5c5652b876eb7e",
+      "all_results_sha256": "0bc0ba15d4ea8ed0d93ab356b486b0ba26ec20c1a1e27e9a8784ca1129b28c52",
+      "retained_rows": 576
+    },
+    "external": {
+      "analysis_manifest_sha256": "e0af30e7620d2a68ec1ff9f1dd9956a38282271acf59032ef3b002180532fd4d",
+      "independent_audit_sha256": "bde4122bccd56211f3ed65a31124a9d3dace6c86ac649e8d1b8902641edb2cc6",
+      "frozen_run_sha256": "f96c028a036ee06f52b77a6d3c98f026a64dada329961b49e3d80c8e0929d0b3",
+      "all_results_sha256": "2ebd59bf98a84da3c4495c672768dd2e2a33fd41a9fc22ab12fc7e02a9473446",
+      "retained_rows": 576
+    },
+    "claude": {
+      "analysis_manifest_sha256": "d56bca92af63f650fe889e3ccca7d9bf21be41ca0805d493233ad9a5a22fb3f5",
+      "independent_audit_sha256": "94f79dbf4d5f0dd0d32a28f656577df6b5c2ec2a2f201cc0ad5a1174904ff861",
+      "frozen_run_sha256": "90d3ca14946982a619790c23cc09ccf90e55106fffbe45852fc36de9edb47ba6",
+      "all_results_sha256": "f19c8d34dba466fe9deb127fce42a414f654f6f5e3b85d687c2f77c806e62d3f",
+      "retained_rows": 288
+    }
+  },
+  "numeric_projections": {
+    "primary_trajectory_scalars.csv": {
+      "rows": 576,
+      "sha256": "d64aed473357f6c1263fdb45b9ba27d5cf962f4d8a96828ac219c9f8d7b1b978",
+      "status_counts": {
+        "finished": 559,
+        "model_response_error": 15,
+        "turn_limit": 2
+      }
+    },
+    "external_trajectory_scalars.csv": {
+      "rows": 576,
+      "sha256": "79b2c447eae1d73601d001a7873eeeba04d897a25a746dbd2f73b2840ca775c9",
+      "status_counts": {
+        "finished": 525,
+        "usage_audit_failure": 43,
+        "provider_failure": 4,
+        "worker_failure": 4
+      }
+    },
+    "claude_trajectory_scalars.csv": {
+      "rows": 288,
+      "sha256": "e7c2b38e7db332bcd7586ed5a37bf098ef9743b7d1a4f1d371e20f3d7bada762",
+      "status_counts": {
+        "finished": 280,
+        "provider_failure": 8
+      }
+    }
+  },
+  "frozen_outputs_not_replaced": true
+}

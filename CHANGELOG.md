@@ -1,5 +1,17 @@
 # Changes
 
+## code-v1.3.0 - 2026-10-08
+
+- Add the feedback-driven online agent loop, tools, execution controllers and offline integration tests.
+- Publish all 576 primary and 864 later provider scalar outcomes, including null results, incomplete trajectories and unknown counts.
+- Add reproducible batch-level interval/paired-contrast analysis and current numerical plotting code.
+- Update project navigation, result mapping, software metadata and source inventories to the current agent workflow.
+- Retain the historical lifecycle, qualification, correction and restart evidence and fixed releases.
+
+Public projections support numerical reanalysis. Full private model traffic and
+author accounting records are not published. This release preparation adds no
+new model calls or scientific observations. Manuscript files remain separate.
+
 ## code-v1.2.0 — 2026-09-20
 
 - Align citation metadata/navigation with ECRC: Decision Permits for Budgeted Workflows.

@@ -1,5 +1,5 @@
 {
-  "version": "code-v1.2.0",
+  "version": "code-v1.3.0",
   "scope": "Current selected source view against preserved historical inventories; overlapping inventories do not define unique file counts.",
   "historical_contents": "Old commits and fixed archive assets preserve their originally published files.",
   "historical_inventories": [

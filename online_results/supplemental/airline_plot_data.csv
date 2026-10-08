@@ -1,0 +1,17 @@
+arm,condition,category,executed,category_total,percent
+direct_native_dispatch,Direct dispatch,Eligible completed,129,129,100.0
+direct_native_dispatch,Direct dispatch,Known-ineligible,117,117,100.0
+direct_native_dispatch,Direct dispatch,Missing information,200,200,100.0
+direct_native_dispatch,Direct dispatch,Transfer required,154,154,100.0
+qualification_ecrc,ECRC,Eligible completed,129,129,100.0
+qualification_ecrc,ECRC,Known-ineligible,0,117,0.0
+qualification_ecrc,ECRC,Missing information,0,200,0.0
+qualification_ecrc,ECRC,Transfer required,0,154,0.0
+existing_rules_only,Business rules,Eligible completed,129,129,100.0
+existing_rules_only,Business rules,Known-ineligible,0,117,0.0
+existing_rules_only,Business rules,Missing information,0,200,0.0
+existing_rules_only,Business rules,Transfer required,0,154,0.0
+without_claim_evidence_requirement,Claim-evidence ablation,Eligible completed,129,129,100.0
+without_claim_evidence_requirement,Claim-evidence ablation,Known-ineligible,117,117,100.0
+without_claim_evidence_requirement,Claim-evidence ablation,Missing information,200,200,100.0
+without_claim_evidence_requirement,Claim-evidence ablation,Transfer required,154,154,100.0

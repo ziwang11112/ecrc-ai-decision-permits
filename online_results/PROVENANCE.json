@@ -1,0 +1,40 @@
+{
+  "schema": "public-online-results-provenance-v1",
+  "release": "code-v1.3.0",
+  "frozen_input_sha256": {
+    "claude_cell_results.csv": "4e8c16f2baee3bfe1b3d7289c454031d902b6fcb869e1bf1436a76139749df5a",
+    "claude_paired_differences.csv": "7e52268479433093fc86fa0e87f6ec6cea80fbad85193205be00b92d6ef81c85",
+    "claude_trajectory_scalars.csv": "e7c2b38e7db332bcd7586ed5a37bf098ef9743b7d1a4f1d371e20f3d7bada762",
+    "counterexample/S10_COUNTEREXAMPLE.csv": "e4a106e43f38a9f2f671d56981d84be8ee3b783cb4118d1a4858c59b49807d1b",
+    "counterexample/S10_ECRCLifecycle.tla": "f6080e07197008430a37b3248bfd29eaf7fc3f97088d36e693bc17b2bef32e2a",
+    "counterexample/S10_TLC_COUNTEREXAMPLE_REPLAY.json": "88ed176eb11d7d8d7797b7330b3c1665c2299bb92d30476079a858429cce8cf5",
+    "counterexample/S10_unsafe_2_1.cfg": "57bd30cd28924a178b4758c6eb269d3f93755d15392315758783a48762f9f694",
+    "EVIDENCE_INDEX.json": "ecbd3b8baa28eae7c053b8ee4957af5e0ac06e550a8d491c3bca3ae86ebd1a66",
+    "external_cell_results.csv": "6eaf3681ed4986220cb18216af609cf194dc89556d4a64aee0c17ce04d740d5b",
+    "external_paired_differences.csv": "51349842665d766d640f10a3b1cf00d54eeab770bc8a597431860453e10b55cc",
+    "external_trajectory_scalars.csv": "79b2c447eae1d73601d001a7873eeeba04d897a25a746dbd2f73b2840ca775c9",
+    "primary_cell_results.csv": "6fc9463d5703aaa0a27af4ee5ef9fc87acc51e879dbbb976d82c5a01ed863d3d",
+    "primary_job_distribution.csv": "ec23dec08305eb19a4d65497ea5f257dad021b2d6dc64c57077d899da35f5d3c",
+    "primary_paired_differences.csv": "0775418039b711a938d06fbbd9b50b41a202c2f0d70b39b924cba3f26fc414a8",
+    "primary_recomputed_metrics.csv": "d11b36150ff1e0e63741f217f82dc949bc4180a77209ddf1e16534d0a01a2982",
+    "primary_trajectory_scalars.csv": "d64aed473357f6c1263fdb45b9ba27d5cf962f4d8a96828ac219c9f8d7b1b978",
+    "supplemental/airline_plot_data.csv": "57f05d93beaa480ee9cd945bdb52a561094009ee3ac74acf623cc7dc3c4cd728",
+    "supplemental/verification_plot_data.csv": "70de91d6eea6821b02eb4a4e392a26443fc05f19f9c6cd06c5382608e87db992"
+  },
+  "input_byte_policy": "All included CSVs, EVIDENCE_INDEX.json, model, config and saved replay JSON are byte-for-byte copies of the frozen numerical package.",
+  "raw_audit_scope": "EVIDENCE_INDEX study_bindings and replay JSON original-log/checker digests identify omitted upstream evidence. These digests are provenance references, not raw files verified by this public package. verify.py recomputes from scalar projections; it does not verify API transcripts, candidate execution, or original study-audit assertions.",
+  "upstream_renderers_sha256": {
+    "plot_from_csv.py": "339327cca5490da1aa5ac30961e80000ab3da238e6107031c3fac8d802b0cde5",
+    "supplemental/plot_supplemental_from_csv.py": "823eebd5dd35cb4282716a59213c1d66e32ac833d9d49343627fdc2c6179d4ee",
+    "counterexample/draw_effect_counterexample.py": "272b04939715bd62997f5dfe52f5a4d7a441f3dd3313c150c009625fbcdb0b7d"
+  },
+  "renderer_adaptations": {
+    "plot_from_csv.py": "Replaced absolute font path in output metadata with filename and font-file digest; plotted values and drawing code unchanged.",
+    "supplemental/plot_supplemental_from_csv.py": "Documentation link adapted; drawing code unchanged.",
+    "counterexample/draw_effect_counterexample.py": "Cross-check frozen CSV and saved replay-state JSON without omitted stdout; remove publication-specific before-PDF comparison and PyMuPDF dependency; no new model checking or independent guard replay."
+  },
+  "counterexample_omitted_original_stdout_sha256": "f35448de0d08d044c1dca5e5566d2d00fa4736527035e4ddda45e2a5ac5cc17a",
+  "historical_model_check_path": "../iasc_model_check",
+  "API_calls": 0,
+  "new_experiments": 0
+}

@@ -1,0 +1,53 @@
+{
+  "bootstrap": {
+    "confidence_level": 0.95,
+    "method": "Within each batch average the two repetitions, then resample 24 batches jointly across arms, models and response conditions; percentile interval of batch means and paired differences",
+    "missing_known_counts": "Use known observations for known-start event metrics, preserve unknown fraction, report effective batch and trajectory denominators; paired differences use common valid batches",
+    "replicates": 10000,
+    "seed": 20261007,
+    "zero_events": "A degenerate bootstrap interval at zero describes this sample only, not zero population risk"
+  },
+  "failures": {
+    "attempted_provider_failure": "Retain trajectory and observed endpoint state; report termination category and token reservation; never retry or replace",
+    "not_started": "Unobserved planned assignments, never imputed as failed or successful observations",
+    "partial_outputs": "Report observed coverage against all 288 assignments; never present an incomplete run as complete.",
+    "unknown_execution_start": "Stop new scheduling, retain unknown explicitly; never invent a zero count",
+    "worker_failure_without_endpoint": "Retain the assignment; execution counts and raw yield remain unknown; joint compliant yield is zero under its strict definition. No retry or replacement."
+  },
+  "implementation_comparison": "ECRC versus complete ordinary within model and response condition",
+  "independent_sampling_unit": "24 disjoint four-task batches; repeats and conditions are correlated observations",
+  "interpretation_limits": [
+    "Fixed replication with pinned claude-haiku-4-5-20251001; chosen for temperature0 and disabled-thinking comparability before Claude outcomes",
+    "The same 96 public tasks and 24 clusters as earlier studies, not additional independent tasks",
+    "Public HumanEval tasks may have been in training",
+    "No claim that model parameter size was controlled",
+    "The complete ordinary implementation may match or exceed ECRC",
+    "No new route/evidence/claim innovation inferred from this quota-focused study",
+    "All models, all cells and failures retained regardless of direction, including earlier DeepSeek null effects",
+    "Six disjoint development preflight trajectories are excluded from formal estimates",
+    "Compare arms within Claude; native provider formats and separate execution periods make cross-model ranks descriptive",
+    "A whole over-quota trajectory receives zero joint yield; this does not mean its code failed all tests"
+  ],
+  "planned_trajectories": 288,
+  "primary_comparison": "ECRC versus prompt_only within model and response condition",
+  "primary_metrics": {
+    "actual_excess_rate": "I(actual verification starts > 3) when the actual start count is known; unknown is indeterminate and reported separately",
+    "compliant_verified_yield": "V/4 if actual start count is known and <=3, otherwise 0; V counts distinct task results actually available as passes before the workflow endpoint"
+  },
+  "public_projection": "Original analysis settings with report/figure production instructions omitted; this public projection was prepared after outcomes.",
+  "registered_before_outcomes": true,
+  "repeats_per_cell": 2,
+  "schema": "shared-agent-claude-analysis-v1",
+  "secondary_metrics": [
+    "raw_verified_yield V/4",
+    "actual_verification_starts",
+    "unknown_start_rate",
+    "finished_trajectory_rate",
+    "original_hidden_result_recovery",
+    "endpoint_held",
+    "API_attempts_and_estimated_cost",
+    "workflow_seconds",
+    "post_endpoint_acceptance_starts"
+  ],
+  "unique_tasks": 96
+}

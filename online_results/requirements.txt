@@ -1,0 +1,3 @@
+# Reanalysis needs only NumPy. Plotting additionally needs Matplotlib and Arial.
+numpy==2.4.5
+matplotlib==3.10.9

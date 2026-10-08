@@ -30,3 +30,12 @@ for source/version attribution. S12 project code and derived synthetic records
 use the project code/evidence terms above. Release manifests distinguish native
 source bytes and exported public representations. No real airline/customer
 service data or API credentials are part of these new artifacts.
+
+## Online agent and numerical packages
+
+Project code in `online_agent/` and `online_results/` uses the project MIT
+license. Public derived scalar/aggregate evidence uses CC BY-SA 4.0, matching
+the project's existing derived-evidence terms. HumanEval prompt/test material
+retains its upstream MIT notice in the online package. No model-generated
+candidate bodies or raw provider output are redistributed. Font files and
+provider SDKs/services are not included or relicensed by these packages.

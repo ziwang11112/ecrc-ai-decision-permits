@@ -38,9 +38,39 @@ python -B iasc_airline/verify_results.py
 python -B iasc_restart/verify.py
 ```
 
-These read compact saved evidence. The five-study entry point includes S10's
-saved-evidence check. No model, paid API, candidate program or formal experiment
-runs. The current figure/table mapping is in [RESULTS.md](docs/RESULTS.md).
+The combined entry point runs six checks, including online numerical reanalysis
+and S10's saved-evidence check. Install NumPy with
+`python -m pip install numpy==2.4.5` for the online reanalysis. The five historical
+commands use the standard library. No model, paid API, candidate program or
+formal experiment runs. The current figure/table mapping is in
+[RESULTS.md](docs/RESULTS.md).
+
+### Online agent implementation and numerical results
+
+```console
+python -B online_agent/check.py
+python -B online_agent/schedule.py --check
+python -B online_results/verify.py
+python -B -m unittest discover -s online_results -p "test_*.py"
+```
+
+The implementation check uses the standard library and injected test responses
+and runners. It verifies public source bindings, the frozen schedules and the
+feedback loop without inference or sandbox execution. The result check uses
+NumPy to recompute the 1,440 retained trajectory projections, including failures,
+30 outcome cells and 60 paired contrasts. These trajectories share 96 tasks and
+24 analysis batches; they are not 1,440 independent tasks.
+
+Read [the implementation guide](online_agent/README.md) for fresh execution.
+It supplies the actor loops, prompts, tasks, execution controllers and sandbox
+sources. Provider transports, response and usage normalization, paid-account
+controls and orchestration must be supplied by the caller. The parameterized
+public sandbox launcher has a different identity from the historical launcher.
+
+Read [the results guide](online_results/README.md) for projection provenance,
+missing-value rules and the paired batch bootstrap. These public scalar records
+do not contain raw provider traffic, generated candidate bodies or cost ledgers.
+The earlier 360-trajectory single-task study is a separate, author-held archive.
 
 ```console
 python scripts/download_artifact.py s9-c --output artifacts/s9-c
@@ -97,7 +127,7 @@ JSON and inventory if using it directly. An empty directory is not evidence.
 python -B artifacts/s9/AIR-014_IASC_S9/check_public.py --bundle artifacts/s9/AIR-014_IASC_S9 --public-only --out artifacts/s9-public-check-1.json
 ```
 
-These are **historical, pre-correction** results, not current Table 4. For the
+These are **historical, pre-correction** results. For the
 current 112+32 selection use the S9-C verifier above.
 
 Expect `checks_passed: true`. This verifies 152 retained run records: eight
@@ -125,16 +155,31 @@ replay its entire trace or re-enumerate the state space. The 205 external
 author-workspace baseline targets are explicitly `NOT_CHECKED`, not bundled
 S10 files. See [the full S10 guide](iasc_model_check/PORTABLE_REPRODUCTION.md).
 
-## 3. Rebuild the current technical figures
+## 3. Rebuild the numerical figures
+
+```console
+python -m pip install -r online_results/requirements.txt
+python -B online_results/verify_plots.py --output-dir artifacts/online-figures-1 --require-baseline
+```
+
+This rebuilds the two primary online-agent plots, the airline and archived
+program plots, and the finite counterexample plot. It first checks the numerical
+inputs. The recorded baseline uses NumPy 2.4.5, Matplotlib 3.10.9 and Arial;
+the font must already be installed. See [the plot guide](online_results/README.md)
+for individual commands and the rendering checks. Figure scripts use retained
+records and make no model/API calls.
+
+### September technical figures
 
 ```console
 python -m pip install -r plots/current/requirements.txt
 python -B plots/current/build_figures.py --out artifacts/current-figures
 ```
 
-The [plotting guide](plots/current/README.md) covers three current figures and
-saved S6/S8 table observations. Drawing scripts are exact copies of the current
-paper's technical sources. Arial reproduces the paper font; `--font "DejaVu Sans"`
+The [historical plotting guide](plots/current/README.md) covers three September
+technical figures and saved S6/S8 table observations. These frozen sources
+retain their original exhibit labels. Arial reproduces that version's font;
+`--font "DejaVu Sans"`
 explicitly requests a layout variant when Arial is unavailable. Generated files
 stay in the fresh output directory. This performs no model/API call or new study.
 The obsolete five-figure package remains in tag `code-v1.1.0`.
@@ -143,6 +188,7 @@ The obsolete five-figure package remains in tag `code-v1.1.0`.
 
 | Component | What is needed and where to begin |
 |---|---|
+| Shared-budget online agents | `online_agent/README.md` and `online_agent/SANDBOX.md`; caller-supplied provider client/accounting/orchestration, a configured isolated Linux executor and fresh output. Public offline tests do not execute generated candidates. |
 | Historical core tests | Python 3.12; `python -m pip install -e ".[test]"`, then `python -m pytest -q`. This is a separate pinned dependency set. |
 | S6 delivery | The Git mirror contains the execution sources: read `iasc/runtime/PROTOCOL.md` and the retained environment. Complete historical evidence is in the S1–S8 ZIP. Run into a new directory; timing depends on the host. |
 | S7 statistical reconstruction | Complete `iasc/statistics/` directory, its `requirements.txt` and README. Copy it to a new work directory first: its original verifier writes `verification.json` beside the scripts. |

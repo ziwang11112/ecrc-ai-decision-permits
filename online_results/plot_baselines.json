@@ -1,0 +1,61 @@
+{
+  "primary": {
+    "reference_scope": "Frozen local figure verification digests; outputs are not committed.",
+    "figures": {
+      "shared_agent_jobs": {
+        "size_pixels": [
+          1948,
+          1275
+        ],
+        "rgba_pixels_sha256": "c5764d9fe0243ded14e57a04be48fc811151024c3d872a9911711fd773680945",
+        "pdf_sha256": "7b1d3ef670941297041cc4afdf1aad056076c4b76af073b8cdf114cb1a2d5ea7",
+        "png_sha256": "81683f5e433dd6ec48064242d2c1ee3c844800b8a95ac01c732866437e81000c"
+      },
+      "shared_agent_yield": {
+        "size_pixels": [
+          1948,
+          1275
+        ],
+        "rgba_pixels_sha256": "4b44d9f5cf41b30f0f42a7d7578934032512233412f4294c0b7c4786f977aca8",
+        "pdf_sha256": "6bd862044a19b794044e3abc8fc2033654e85987299afa788eb4edb341545a4d",
+        "png_sha256": "67e45927d41fc8ad217594bc5e947ef29610bc70e220aa3ef8a61738ea9191e3"
+      }
+    }
+  },
+  "supplemental": {
+    "reference_scope": "Frozen local figure verification digests; outputs are not committed.",
+    "figures": {
+      "airline_results": {
+        "size_pixels": [
+          1948,
+          1275
+        ],
+        "rgba_pixels_sha256": "fe5f23b41e91da0775ac617cac2e5d2e3a0470de495875f33a3cf6346f15593c",
+        "png_sha256": "426db2c6e52b297b93125d82e4c90d1c666e65ac327d649168b0a1b4a39f61c6",
+        "pdf_sha256": "cb331711a6b560651c93a094e03f342584b4c2ba974e41d84e9f865fff137d7f"
+      },
+      "verification_results": {
+        "size_pixels": [
+          1948,
+          1635
+        ],
+        "rgba_pixels_sha256": "7bd93ae2990a426934dca318d76190970846608614701df445b046ceca72a5b5",
+        "png_sha256": "4833c2213d778d272ff472865b08a4b33cb4ca9f6a0ed3bb4ce43e08c22037e6",
+        "pdf_sha256": "0e98884638d2f8358602de7c9c9936806a412e00eeb30e67fcecb84296382fc0"
+      }
+    }
+  },
+  "counterexample": {
+    "reference_scope": "Frozen local counterexample PNG verification; original PDF has time-dependent metadata, so PDF bytes are not a portable baseline.",
+    "figures": {
+      "effect_counterexample": {
+        "size_pixels": [
+          1170,
+          474
+        ],
+        "rgba_pixels_sha256": "0e4437a69bc3bf4e8493c9b509d9ac49a9497253ba754315da7e9dfdfacbdb69",
+        "png_sha256": "bf1524e1b5b0fe42c52ecc73fe64196a579dbca6b959c8c757206489030d687c"
+      }
+    }
+  }
+}

@@ -1,50 +1,66 @@
-# ECRC: Decision Permits for Budgeted Workflows
+# ECRC: Permission and Budget Control for Language Model Agents
 
-Code, saved results and reproduction tools for ECRC. The reference implementation
-constructs action permissions from evidence metadata, route and claim rules, and
-cumulative budgets. Its lifecycle retains an armed operation's unit through
-uncertain delivery and records committed expenditure on recovery.
+ECRC constructs action permissions from evidence metadata, route and claim
+rules, and cumulative budgets. Once an operation is authorized, its identity
+and budget unit persist through uncertain delivery. Recovery records the unit
+as spent without starting another job or refunding the allowance.
 
-Current software release: [code-v1.2.0](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.2.0).
-Start with the [result-to-source map](docs/RESULTS.md) and [reproduction guide](REPRODUCIBILITY.md).
+This repository contains implementation code, numerical evidence and
+reproduction tools. The manuscript and Overleaf project are maintained separately.
+
+Current software release: [code-v1.3.0](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.3.0).
+Start with the [result-to-source map](docs/RESULTS.md) or
+[reproduction guide](REPRODUCIBILITY.md).
+
+## Start here
+
+| Material | Entry point |
+|---|---|
+| Online agent loop, tools, permission controllers and tests | [online_agent](online_agent/README.md) |
+| Primary 576 trajectories and all 864 later provider trajectories | [online_results](online_results/README.md) |
+| Numerical reanalysis and current result plots | [online_results](online_results/README.md) |
+| Core permit implementation | [governance](src/agentic_eeg_dm/governance), [tests](tests/) |
+| Atomic issuance, delivery and recovery | [runtime](iasc/runtime/PROTOCOL.md), [end-to-end](iasc/end_to_end/README.md) |
+| Corrected archived-program verification | [context correction](iasc_application/context_correction/README.md) |
+| Finite lifecycle model | [model verification](iasc_model_check/PORTABLE_REPRODUCTION.md) |
+| Airline qualification and restart witness | [airline](iasc_airline/README.md), [restart](iasc_restart/README.md) |
+
+The primary online study uses 96 HumanEval tasks in 24 four-task batches,
+two model profiles, three execution controls, two response conditions and
+two repetitions. Four tasks share three new verification jobs. Prompt-only
+control exceeded that quota in 75/96 GPT-4.1 mini trajectories and 16/96
+GPT-6 Luna trajectories. ECRC and the complete conventional controller
+recorded no excess starts. The release includes all later DeepSeek, Gemini
+and Claude outcomes, including null results and incomplete trajectories.
+
+The two complete controllers enforce the same obligations. The comparison
+with prompt-only control measures runtime enforcement; it does not establish
+an exclusive ECRC advantage over another complete implementation.
 
 ## Quick verification
 
-Use Python 3.12. These standard-library checks read saved records; they do not
-call a model/API or execute candidate programs.
+Use Python 3.12 and NumPy for numerical reanalysis. These checks inspect saved
+evidence and do not call a model or execute candidate programs:
 
 ```console
 git clone https://github.com/ziwang11112/ecrc-ai-decision-permits.git
 cd ecrc-ai-decision-permits
-git checkout code-v1.2.0
+git checkout code-v1.3.0
+python -m pip install numpy==2.4.5
 python scripts/verify_release.py
 python scripts/verify_source_view.py
 python -B scripts/verify_current_results.py
 ```
 
-## Code and evidence
+The online packages document dependency, reanalysis and test commands.
+Offline verification, injected-runner tests and a new live experiment are
+separate operations. Fresh online execution requires a configured model
+transport and the documented isolated execution environment.
 
-| Component | Entry point |
-|---|---|
-| Core permit implementation | [governance](src/agentic_eeg_dm/governance), [tests](tests/) |
-| S6/S8 delivery, atomic issuance and recovery | [runtime](iasc/runtime/PROTOCOL.md), [end-to-end](iasc/end_to_end/README.md) |
-| S9-C corrected program verification | [context correction](iasc_application/context_correction/README.md) |
-| S10 finite lifecycle model | [model and retained verification](iasc_model_check/PORTABLE_REPRODUCTION.md) |
-| S11 airline action qualification | [iasc_airline](iasc_airline/README.md) |
-| S12 restart/count witness | [iasc_restart](iasc_restart/README.md) |
-| Current three technical figures and S6/S8 observations | [plots/current](plots/current/README.md) |
-| Historical behavioural replay and calibration | [icair_2026](icair_2026/), [statistics](iasc/statistics/README.md), [calibration](iasc/calibration/README.md) |
+## Historical evidence
 
-S9-C uses **112 original + 32 replacement trajectories = 144**, with **1,769
-jobs / 188 injected response losses** across both clients. Original S9's
-1,802/194 totals remain historical. S11 covers **600 request contexts on 200
-reservations**, plus a separate 16-case constructed boundary set. S12 is an
-**eight-cell development witness**, with its prior batch retained for provenance.
-
-## Saved-record archives
-
-Code and compact evidence are in Git. Larger event/database archives are pinned
-in [ARTIFACTS.json](ARTIFACTS.json):
+Larger event/database archives remain pinned in [ARTIFACTS.json](ARTIFACTS.json).
+For example:
 
 ```console
 python scripts/download_artifact.py s9-c --output artifacts/s9-c
@@ -52,17 +68,13 @@ python scripts/download_artifact.py s11 --output artifacts/s11
 python scripts/download_artifact.py s12 --output artifacts/s12
 ```
 
-The downloader also retains `s1-s8`, `s9` (original) and `s10`. It validates size,
-SHA-256 and manifest members before extraction. Use fresh destinations; follow
-each study README for full-event/database audits and fresh execution.
-The S11 asset preserves per-cell records and reconstructable canonical database
-states; it is a documented projection, not a byte-identical raw snapshot archive.
+The downloader verifies archive size, SHA-256 and manifest members before
+extraction. Current archived-program analysis retains 112 original plus
+32 corrected trajectories, totaling 1,769 jobs and 188 injected response losses.
+The original results remain in their fixed releases. The September plotting
+sources in `plots/current/` retain their historical names and numbering;
+use `online_results/` for the latest numerical figures.
 
-## Scope and history
-
-Manuscript prose, paper PDFs, LaTeX, bibliography and editorial reviews are
-maintained separately. Previous commits and fixed releases retain original
-evidence and old plotting layouts. [CHANGELOG.md](CHANGELOG.md) records changes.
-S9 candidates require separate upstream acquisition; S11 uses a pinned synthetic
-benchmark, not live bookings. See [availability](docs/ARTIFACT_COMPLETENESS.md),
-[licenses](LICENSES.md) and [citation metadata](CITATION.cff).
+See [availability](docs/ARTIFACT_COMPLETENESS.md), [licenses](LICENSES.md),
+[software citation metadata](CITATION.cff) and [changes](CHANGELOG.md).
+Private API traffic, credentials and author accounting ledgers are excluded.

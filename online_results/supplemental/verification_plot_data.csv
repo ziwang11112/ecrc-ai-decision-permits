@@ -1,0 +1,9 @@
+response,policy,client,client_label,batches,eligible_tasks,timely_tasks,eventual_tasks,suite_starts,launcher_seconds
+normal,depth_first,ecrc,ECRC,18,144,105,106,240,56.41
+normal,depth_first,ordinary,Contract-matched,18,144,107,107,241,55.07
+normal,round_robin,ecrc,ECRC,18,144,112,112,240,54.97
+normal,round_robin,ordinary,Contract-matched,18,144,112,112,240,55.08
+response_loss,depth_first,ecrc,ECRC,18,144,82,88,204,47.47
+response_loss,depth_first,ordinary,Contract-matched,18,144,82,89,205,47.66
+response_loss,round_robin,ecrc,ECRC,18,144,98,101,199,46.23
+response_loss,round_robin,ordinary,Contract-matched,18,144,99,101,200,46.66

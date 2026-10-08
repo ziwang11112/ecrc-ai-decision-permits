@@ -1,50 +1,73 @@
-# Current results and source map
+# Results and source map
 
-Paper: **ECRC: Decision Permits for Budgeted Workflows**. This is an artifact
-index, not a copy of the paper. S1-S12 are study identifiers; supplementary
-table numbers use a separate sequence.
+Artifact index for **Permission and Budget Control for Language Model Agents**,
+updated 8 October 2026. Manuscript prose, LaTeX and paper PDFs are maintained
+separately. Historical S8/S9-C/S10/S11/S12 codes identify studies, not current
+supplementary table numbers.
 
-| Current exhibit | Code / saved evidence | Check and interpretation |
+## Online agent evidence
+
+| Study or result | Public material | Verification scope |
 |---|---|---|
-| Figure 1 | [workflow renderer](../plots/current/source/supplement/figure_revision/draw_workflows.py) | Constructed missing-evidence / unknown-outcome cancellation example; no observed airline recovery trial |
-| Figure 2 | Same renderer | Client/service permission lifecycle and non-action exit |
-| Figure 3 | [counterexample sources](../plots/current/source/supplement/figure_revision/counterexample/) | All 13 states retained; plotted states 4/7/8/10/13; backing fails at 8, effect limit at 13 |
-| Table 1 | [S11 code and outcomes](../iasc_airline/README.md) | 600 contexts / 200 reservations; 2,400 primary condition runs; eligible 129, known-ineligible 117, unresolved 354 |
-| Table 2 | [checkpoint CSV](../plots/current/data/S8_CHECKPOINT_COUNTS.csv), [42 audits](../plots/current/data/checkpoint_audits/) | Seven saved states x 2 clients x 3 repetitions; `verify_observations.py` matches every count to its audit |
-| Table 3 | [S6 run-level latency](../plots/current/data/S6_performance_runs.csv) | 30 runs / 1,920 timed actions; median/min/max of five run-level p95 values per client/thread setting |
-| Table 4 | [S9-C retained results](../iasc_application/context_correction/README.md) | 112 original + 32 replacement = 144 trajectories; 1,769 jobs, 188 response losses; all eight condition totals retained |
-| Supplementary Table S1 | [S11 constructed boundaries](../iasc_airline/README.md) | 16 fixtures x 4 conditions = 64 runs, excluded from the native cohort denominator |
-| Supplementary Table S2 | [S12 restart witness](../iasc_restart/README.md) | Eight current development cells; prior batch and its audit failures retained |
-| Supplementary Table S3 | Paper literature comparison | No experimental dataset or measured superiority claim; bibliography/prose remain outside this repository |
+| Primary shared-budget study; main Figures 3/4 and Table 1 | [online_results](../online_results/README.md) | All 576 scalar records; 96 tasks, 24 batches, two model profiles, three controls, two response conditions, two repeats |
+| Later DeepSeek and Gemini evaluations | Same package, separate study projections | All 576 planned assignments, including provider, worker and usage-audit failures |
+| Later Claude evaluation | Same package, separate study projections | All 288 planned assignments, including eight provider failures |
+| Feedback-driven actor loop and execution controllers | [online_agent](../online_agent/README.md) | Public implementation, protocol and offline tests; fresh online use requires explicit model and sandbox configuration |
+| Earlier single-task study | Documented in the separate supplement | 360 revised evaluation trajectories over 30 tasks; its raw evidence remains author-held and is not relabeled as the 576-trajectory primary study |
 
-Run `python -B scripts/verify_current_results.py` for compact saved-result checks.
-The [reproduction guide](../REPRODUCIBILITY.md) distinguishes full event/SQL audits
-from fresh execution.
+The primary and two later provider studies total 1,440 planned trajectories.
+They remain separately identified. The primary plot uses the first 576 only;
+all 864 later trajectories remain available for inspection and reanalysis.
 
-## Current and historical S9 results
+Raw verified yield counts distinct tasks with a passing result visible to the
+agent by its endpoint, divided by four eligible tasks. Compliant verified yield
+sets a trajectory to zero when its actual start count is unknown or exceeds
+three. The resulting 75% ceiling is an allowance constraint. It is not a
+general program-correctness score. Final candidate acceptance comes from
+separately counted post-endpoint execution and is not substituted for visible yield.
 
-The original S9 asset preserves all 144 formal trajectories. S9-C supplies 32
-replacement trajectories after restoring omitted public-prompt helpers/imports.
-The current selection is 112 originals plus 32 replacements. All 176 executions
-remain identifiable. Original totals of 1,802 jobs / 194 drops are superseded; current
-totals are 1,769/188. Correction source maps record exact input/version provenance.
+The primary study has 559 finishes, 15 unusable-model-response terminations
+and two turn-limit terminations. All 576 records have known start counts.
+Later provider failures and unknown starts retain their recorded missing-value
+semantics rather than becoming invented zero work. Reanalysis uses batch
+clusters and preserves pairing, following each package's documented scope.
 
-Candidate bodies and arbitrary execution output are excluded where redistribution
-permission was not established. Public projections permit numerical reanalysis;
-full original-result hash verification requires the excluded raw bytes.
+## Lifecycle and complementary evidence
 
-## Comparator names
+| Study or result | Code / saved evidence | Check and interpretation |
+|---|---|---|
+| Raw-request lifecycle; main Table 2 | [checkpoint observations](../plots/current/data/S8_CHECKPOINT_COUNTS.csv), [42 audits](../plots/current/data/checkpoint_audits/) | Seven checkpoints, two clients, three repetitions; 36 lifecycle runs produced 78 effects and receipts |
+| Delivery latency | [run-level observations](../plots/current/data/S6_performance_runs.csv) | 30 runs / 1,920 timed requests; summaries of five run-level 95th-percentile latencies per setting |
+| Finite-model boundary; main Figure 5 | [model and verification](../iasc_model_check/PORTABLE_REPRODUCTION.md), [current renderer](../online_results/README.md) | Normal configurations: 684 and 21,960 reachable states; unsafe trace retains all 13 states |
+| Airline qualification | [iasc_airline](../iasc_airline/README.md) | 600 contexts / 200 reservations; 2,400 condition runs; 129 eligible, 117 known-ineligible and 354 unresolved contexts |
+| Constructed airline boundaries | Same source package | 16 fixtures times four controls, excluded from the native cohort denominator |
+| Archived-program verification | [S9-C](../iasc_application/context_correction/README.md) | 112 original + 32 replacement = 144 trajectories; 1,769 jobs / 188 response losses |
+| Restart/count witness | [iasc_restart](../iasc_restart/README.md) | Eight current development cells; prior batch and its audit failures retained |
 
-The S11 direct-dispatch baseline calls the native task tool without qualification
-gating. Its business-rules comparator uses the same domain checker as ECRC;
-claim-evidence deletion is an internal ablation. In S6/S8/S9, historical `ordinary`
-paths identify the **contract-matched lifecycle comparator**, not direct dispatch.
-S12 separately compares direct, volatile-count, durable-count and ECRC clients.
-These are different comparisons and must not be merged under one baseline label.
+The two workflow schematics are explanatory drawings rather than experimental
+observations. Current supplement result plots use the numerical rendering
+package linked above. The old figure/table labels in `plots/current/` refer
+to the September revision and are not a second set of current outcomes.
 
-## Versioned evidence
+## Comparator names and provenance
 
-The S1-S8, original S9 and S10 release assets remain unchanged. New S9-C, S11 and
-S12 assets are pinned by `ARTIFACTS.json`; study source maps identify Git-view
-omissions and any portable wrappers. Numerical equality is conformance evidence
-within each study's boundary, not an exclusive ECRC utility/latency advantage.
+In the shared-budget online study, prompt-only control receives the same quota
+instructions and uses stable identity, cached results and recovery, but lacks
+the three-job gate. A separate common eight-job safety cap bounds all arms.
+Complete conventional control and ECRC enforce cumulative held-plus-spent units.
+
+S11 direct dispatch calls the native task tool without qualification gating;
+its business-rules comparator uses the same domain checker as ECRC. Claim
+ablation removes one ECRC dependency. Historical `ordinary` paths in S6/S8/S9
+identify the contract-matched lifecycle client. S12 has separate direct,
+volatile-count, durable-count and ECRC clients. These are different comparisons.
+
+S9-C corrects omitted public-prompt helpers: all 176 original/replacement
+executions remain identifiable, while the current analysis selects 144.
+Original totals of 1,802 jobs / 194 drops remain historical. Online numerical
+projections support count and interval reanalysis; they do not certify omitted
+raw model traffic, private usage ledgers or candidate-execution records.
+
+Run `python -B scripts/verify_current_results.py` for compact saved-result
+checks, then follow the [reproduction guide](../REPRODUCIBILITY.md) for
+statistical reanalysis, full historical event audits or fresh execution.

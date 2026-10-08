@@ -1,0 +1,49 @@
+{
+  "bootstrap": {
+    "confidence_level": 0.95,
+    "method": "Within each batch average the two repetitions, then resample 24 batches jointly across arms, models and response conditions; percentile interval of batch means and paired differences",
+    "missing_known_counts": "Use known observations for known-start event metrics, preserve unknown fraction, report effective batch and trajectory denominators; paired differences use common valid batches",
+    "replicates": 10000,
+    "seed": 20261007,
+    "zero_events": "A degenerate bootstrap interval at zero describes this sample only, not zero population risk"
+  },
+  "failures": {
+    "attempted_provider_failure": "Retain trajectory and observed endpoint state; report termination category and token reservation; never retry or replace",
+    "not_started": "Unobserved planned assignments, never imputed as failed or successful observations",
+    "partial_outputs": "Must identify completed coverage against all 576 planned assignments and cannot be presented as the complete comparison",
+    "unknown_execution_start": "Stop new scheduling, retain unknown explicitly; never invent a zero count"
+  },
+  "implementation_comparison": "ECRC versus complete ordinary within model and response condition",
+  "independent_sampling_unit": "24 disjoint four-task batches; repeats and conditions are correlated observations",
+  "interpretation_limits": [
+    "Two OpenAI model profiles, not two providers",
+    "Luna is an alias rather than immutable weights",
+    "Public HumanEval tasks may have been in training",
+    "No claim that model parameter size was controlled",
+    "Conventional complete implementation may match ECRC",
+    "No new route/evidence/claim innovation inferred from this quota-focused study",
+    "No sample extension or favorable subset selection after observing results"
+  ],
+  "planned_trajectories": 576,
+  "primary_comparison": "ECRC versus prompt_only within model and response condition",
+  "primary_metrics": {
+    "actual_excess_rate": "I(actual verification starts > 3) when the actual start count is known; unknown is indeterminate and reported separately",
+    "compliant_verified_yield": "V/4 if actual start count is known and <=3, otherwise 0; V counts distinct task results actually available as passes before the workflow endpoint"
+  },
+  "public_projection": "Original analysis settings with report/figure production instructions omitted; this public projection was prepared after outcomes.",
+  "registered_before_outcomes": true,
+  "repeats_per_cell": 2,
+  "schema": "shared-agent-scale-analysis-v1",
+  "secondary_metrics": [
+    "raw_verified_yield V/4",
+    "actual_verification_starts",
+    "unknown_start_rate",
+    "finished_trajectory_rate",
+    "original_hidden_result_recovery",
+    "endpoint_held",
+    "API_attempts_and_estimated_cost",
+    "workflow_seconds",
+    "post_endpoint_acceptance_starts"
+  ],
+  "unique_tasks": 96
+}

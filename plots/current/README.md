@@ -1,6 +1,9 @@
-# Current technical figures and observations
+# September technical figures and lifecycle observations
 
-Sources for the three figures in **ECRC: Decision Permits for Budgeted Workflows**.
+Historical drawing sources from the September 2026 revision. The directory name
+`current` is retained for stable links and frozen source bindings. Use
+[online_results](../../online_results/README.md) for the latest numerical plots.
+The figure/table numbering below belongs to that earlier revision.
 This folder contains drawing code and numerical evidence, not manuscript text or
 LaTeX. Generated images are written outside the source tree.
 

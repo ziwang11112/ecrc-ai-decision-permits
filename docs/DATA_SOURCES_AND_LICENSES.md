@@ -1,6 +1,19 @@
 # Data sources and licensing
 
-This release contains software, synthetic service fixtures and records, and
+The online agent package adds 96 public HumanEval task prompts and tests,
+selection metadata and experiment schedules. Upstream HumanEval material
+retains its MIT [notice](../online_agent/runtime/data/HUMANEVAL_LICENSE).
+The source and selection bindings are recorded in
+[online_agent/SOURCE_PROVENANCE.json](../online_agent/SOURCE_PROVENANCE.json).
+Generated candidate bodies are not distributed.
+
+The [online numerical package](../online_results/README.md) contains derived
+scalar records for 1,440 formal trajectories and inputs for five numerical
+figures. Project-derived evidence is CC BY-SA 4.0; project software is MIT.
+Raw provider traffic, credentials and private cost ledgers are excluded.
+See [LICENSES.md](../LICENSES.md) for the complete license map.
+
+Historical packages contain software, synthetic service fixtures and records, and
 derived participant- and decision-level behavioural outputs from two public
 Iowa Gambling Task datasets. It contains no raw EEG or new participant data.
 Source behavioural datasets are obtained separately from their original hosts.

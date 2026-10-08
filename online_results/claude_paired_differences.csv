@@ -1,0 +1,13 @@
+model,condition,contrast,comparator,metric,estimate,ci95_low,ci95_high,paired_estimable_batches,assigned_batches,valid_bootstrap_resamples,total_bootstrap_resamples
+anthropic,normal,ecrc_minus_prompt_only,prompt_only,actual_excess_rate,0.0,0.0,0.0,24,24,10000,10000
+anthropic,normal,ecrc_minus_prompt_only,prompt_only,compliant_verified_yield,0.015625,0.0,0.046875,24,24,10000,10000
+anthropic,normal,ecrc_minus_prompt_only,prompt_only,raw_verified_yield,0.015625,0.0,0.046875,24,24,10000,10000
+anthropic,normal,ecrc_minus_ordinary,ordinary,actual_excess_rate,0.0,0.0,0.0,24,24,10000,10000
+anthropic,normal,ecrc_minus_ordinary,ordinary,compliant_verified_yield,0.015625,0.0,0.046875,24,24,10000,10000
+anthropic,normal,ecrc_minus_ordinary,ordinary,raw_verified_yield,0.015625,0.0,0.046875,24,24,10000,10000
+anthropic,hidden_first_result,ecrc_minus_prompt_only,prompt_only,actual_excess_rate,0.0,0.0,0.0,24,24,10000,10000
+anthropic,hidden_first_result,ecrc_minus_prompt_only,prompt_only,compliant_verified_yield,0.020833333333333332,-0.020833333333333332,0.07291666666666667,24,24,10000,10000
+anthropic,hidden_first_result,ecrc_minus_prompt_only,prompt_only,raw_verified_yield,0.020833333333333332,-0.020833333333333332,0.07291666666666667,24,24,10000,10000
+anthropic,hidden_first_result,ecrc_minus_ordinary,ordinary,actual_excess_rate,0.0,0.0,0.0,24,24,10000,10000
+anthropic,hidden_first_result,ecrc_minus_ordinary,ordinary,compliant_verified_yield,-0.026041666666666668,-0.06770833333333333,0.0,24,24,10000,10000
+anthropic,hidden_first_result,ecrc_minus_ordinary,ordinary,raw_verified_yield,-0.026041666666666668,-0.06770833333333333,0.0,24,24,10000,10000

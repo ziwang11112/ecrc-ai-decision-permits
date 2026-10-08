@@ -1,26 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite this fixed software release when using the current code and data view. Cite archived experiment evidence using the separate releases listed in ARTIFACTS.json."
-title: "ECRC decision permits: code and data"
+message: "Cite this fixed software release when using the code and public numerical evidence. Historical archives retain their separate release identifiers."
+title: "ECRC: runtime permission and budget control, code and data"
 type: software
 authors:
   - name: "ECRC research project"
 repository-code: "https://github.com/ziwang11112/ecrc-ai-decision-permits"
-url: "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.2.0"
-version: "1.2.0"
-date-released: "2026-09-20"
+url: "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.3.0"
+version: "1.3.0"
+date-released: "2026-10-08"
 license: MIT
-references:
-  - type: unpublished
-    title: "ECRC: Decision Permits for Budgeted Workflows"
-    authors:
-      - family-names: Wang
-        given-names: Zi
-      - family-names: Addai
-        given-names: Emmanuel
-      - family-names: Ambekar
-        given-names: Devika
-      - family-names: Wang
-        given-names: Xingqiao
-      - family-names: Xu
-        given-names: Xiaowei
-    year: 2026
