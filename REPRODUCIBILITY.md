@@ -30,6 +30,22 @@ report. The new runner preserves those bytes and places the fresh report at
 
 ## 2. Current result checks and full saved evidence
 
+The additional revision evidence has its own entry point:
+
+```console
+python -B revision_results/verify.py
+python -B revision_results/agent_runtime/tests/test_runtime_offline.py --tag audit1
+```
+
+The first command recomputes retained numerical results and saved timing
+summaries. The second uses scripted responses and inert runner fixtures;
+choose a new short tag on each run. Neither makes model calls or executes
+candidate programs. See [the revision guide](revision_results/README.md)
+for the 504-assignment bundle, primary resources, terminology mapping and
+separate fresh-execution requirements. These additions are versioned in the
+source history; existing release tags retain their original contents.
+
+
 ```console
 python -B scripts/verify_current_results.py
 python -B plots/current/verify_observations.py

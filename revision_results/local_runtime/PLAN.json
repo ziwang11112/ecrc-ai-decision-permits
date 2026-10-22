@@ -1,0 +1,15 @@
+{
+  "mode": "formal",
+  "count": 200,
+  "warmups": 10,
+  "benchmark_runs_per_arm": 5,
+  "lock_repetitions_per_arm": 3,
+  "arms": [
+    "ordinary",
+    "ecrc"
+  ],
+  "planned_boundaries": 14,
+  "planned_benchmark_phases": 30,
+  "planned_timed_calls": 6000,
+  "source_hashes_sha256": "1a7d34f8ab5597ce39d027206b22481ef3086a39bddbe3eb7009d407b38e261e"
+}

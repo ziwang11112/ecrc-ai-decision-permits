@@ -1,0 +1,24 @@
+{
+  "input_sha256": {
+    "budget_study/SAFE_ASSIGNED_ROWS.json": "37d3303a8ae108851ce545046df431f9bd4593e5fb6944b56abb6ef829c4a219",
+    "budget_study/all_paired_contrasts.csv": "999edb0e897573362e72e3aeac271d7da20d4c58b6628c06c47fc272996f8b0d",
+    "primary/primary_recomputed_contrasts.csv": "54b49adfffa50bb95fe4c296578ad64550621e708719d30209055862dd014cb8"
+  },
+  "assigned": 504,
+  "strata": 21,
+  "primary_compliant_contrasts": 8,
+  "additional_compliant_contrasts": 21,
+  "incomplete_acceptance_contrasts_preserved_as_bounds": 4,
+  "outcome_status_totals": {
+    "finished": 465,
+    "model_response_error": 24,
+    "provider_failure": 8,
+    "turn_limit": 5,
+    "interrupted": 2
+  },
+  "nonfinished_starts": 43,
+  "nonfinished_visible_passes": 18,
+  "input_files_unchanged": true,
+  "model_calls": 0,
+  "candidate_executions": 0
+}

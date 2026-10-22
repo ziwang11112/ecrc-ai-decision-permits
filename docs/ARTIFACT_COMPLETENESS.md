@@ -6,6 +6,7 @@ The [result map](RESULTS.md) links current results to their sources.
 
 | Study | In Git | Additional material / boundary |
 |---|---|---|
+| Additional revision study | Formal runtime modules, 504 safe records, full paired tables, primary reanalysis and local timing/boundary evidence in `revision_results/` | Included in this source revision. Private transports, model traffic, generated candidates, original SQLite snapshots and private accounting remain author-held. |
 | Online shared-budget studies | Actor loop, tools and controller code; primary protocol/schedule; all 1,440 formal scalar projections; statistical reanalysis and current plot code | Original model traffic, generated candidates, private accounting and full execution databases remain author-held. Fresh online use requires a caller-supplied model transport and configured sandbox. |
 | Earlier single-task and development studies | Described in the separate supplement; not pooled into the 1,440 scalar records | Earlier initial/revised single-task runs and external development preflights are not claimed to be included in this public projection package. |
 | S6/S8 | Frozen source, inputs, selected results and 42 checkpoint audits | Full primary/repeated database records in the S1-S8 archive |
@@ -33,8 +34,9 @@ grids remain unavailable and are not reconstructed by this release.
 `SOURCE_VIEW.json` separately maps four frozen historical inventories to
 included, omitted and overlaid files. New online package manifests distinguish
 unchanged source, public adaptations and derived numerical projections.
-[ARTIFACT_VALIDATION.json](ARTIFACT_VALIDATION.json) records checks actually
-run for this release. GitHub Actions remain disabled; local validation is not
+[ARTIFACT_VALIDATION.json](ARTIFACT_VALIDATION.json) records checks run for
+the fixed `code-v1.3.0` release. The additional local checks are recorded in
+[REVISION_VALIDATION.json](REVISION_VALIDATION.json). GitHub Actions remain disabled; local validation is not
 represented as a hosted CI pass.
 
 Fixed tags and existing assets retain their original contents. Manuscript

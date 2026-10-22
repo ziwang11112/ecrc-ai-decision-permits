@@ -1,0 +1,52 @@
+{
+  "status": "PASS_SOURCE_REVISION",
+  "prepared": "2026-10-22",
+  "base_commit": "e9216ee11703ec692f5d63fe68e8b8d089f3b82c",
+  "publication_status": "versioned_source_revision_no_new_release_tag",
+  "numerical_verification": {
+    "verified": true,
+    "budget_study": {
+      "verified": true,
+      "amended_execution": true,
+      "retained_assigned_rows": 504,
+      "batch_blocks": 24,
+      "strata": 21,
+      "paired_contrasts": 51,
+      "absolute_numeric_tolerance": 1e-12,
+      "numeric_values_verified": 10365,
+      "maximum_absolute_difference": 0.0,
+      "api_calls": 0,
+      "candidate_executions": 0
+    },
+    "primary_reanalysis": {
+      "trajectories": 576,
+      "groups": 12,
+      "terminations": 17,
+      "paired_contrasts": 24,
+      "batch_resamples": 10000,
+      "sensitivity_rows": 8,
+      "batch_omission_rows": 192
+    },
+    "local_runtime": {
+      "timed_requests": 6000,
+      "runs": 30,
+      "summary_rows": 6,
+      "boundary_traces": 14,
+      "scope": "Saved timing recomputation and trace consistency; original SQLite snapshots are not included."
+    },
+    "review_tables_recomputed": 4,
+    "model_calls": 0,
+    "candidate_executions": 0
+  },
+  "runtime_offline_tests": {
+    "passed": 13,
+    "network_and_process_tripwires": true,
+    "inert_runner_fixtures": true,
+    "report_sha256": "639cb2ebe74c91a072749c0738cbe1bfa90dfa7e5cddbd428f0eca8f0da4a82f"
+  },
+  "model_api_calls": 0,
+  "candidate_executions": 0,
+  "scientific_records_added_by_this_preparation": 0,
+  "historical_sources_and_records_modified": false,
+  "scope": "Saved numerical evidence and offline adapter integration; no new live model or sandbox validation."
+}

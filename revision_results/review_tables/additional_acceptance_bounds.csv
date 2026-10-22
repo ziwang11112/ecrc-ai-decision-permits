@@ -1,0 +1,5 @@
+contrast,left,right,metric,planned_pairs,complete_pairs,difference,ci_low,ci_high,lower_bound,upper_bound,lower_bound_ci_low,lower_bound_ci_high,upper_bound_ci_low,upper_bound_ci_high
+arm,1|normal|ecrc,1|normal|ordinary,independent_accepted_yield,24,23,,,,-0.08333333333333333,-0.041666666666666664,-0.19791666666666666,0.020833333333333332,-0.17708333333333334,0.08333333333333333
+arm,1|normal|ecrc,1|normal|prompt_only,independent_accepted_yield,24,23,,,,-0.0625,-0.020833333333333332,-0.19791666666666666,0.0625,-0.16666666666666666,0.125
+arm,5|normal|ecrc,5|normal|ordinary,independent_accepted_yield,24,23,,,,-0.0625,-0.020833333333333332,-0.17708333333333334,0.020833333333333332,-0.11458333333333333,0.041666666666666664
+arm,5|normal|ecrc,5|normal|prompt_only,independent_accepted_yield,24,23,,,,-0.010416666666666666,0.03125,-0.14583333333333334,0.125,-0.08333333333333333,0.14583333333333334

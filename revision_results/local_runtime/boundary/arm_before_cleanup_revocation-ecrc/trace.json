@@ -1,0 +1,83 @@
+{
+  "arm": "ecrc",
+  "case": "arm_before_cleanup_revocation",
+  "repetition": 1,
+  "expiry": "2026-10-16T12:00:02.000000Z",
+  "events": {
+    "original_job": {
+      "permit_id": "permit_3640476b86df2ad5626e0b420a8e895a",
+      "permit_hash": "03840f70bf71dc207e57ee42d2d715c5e980165aba11ab40e2bcb851077d8a46",
+      "idempotency_key": "permit_3640476b86df2ad5626e0b420a8e895a",
+      "permit_json": "{\"admitted_evidence_ids\":[\"e-target\"],\"blocked_claim_ids\":[\"clinical_benefit\",\"review_request\"],\"decision_id\":\"target\",\"evidence_hash\":\"79f3db477edc21a7980b80110fdcd7741965dfeb9e8e005469eccb0569e6193c\",\"excluded_evidence_ids\":[],\"expires_at\":\"2026-10-16T12:00:02.000000Z\",\"issued_at\":\"2026-10-16T12:00:00.010000Z\",\"permit_id\":\"permit_3640476b86df2ad5626e0b420a8e895a\",\"permitted_claim_ids\":[\"notify\"],\"policy_hash\":\"b7cae0c99621d0002d12434145835ef94effca2a16731c7135db49b105976fb8\",\"policy_id\":\"cmc-local-runtime-v1\",\"policy_revision\":1,\"post_state_revision\":1,\"pre_state_revision\":0,\"proposal_hash\":\"e64203b93135ba6253d74f95566d1266b56a0a40503c22049f62652b4d167eed\",\"reason_code\":\"score_above_review_band\",\"request_hash\":\"0622041c0db67a8263872705453adbc671e956bb509e5bf6e08b7b554984ca72\",\"reservation_id\":\"res_81882f5a8abba95d7c47cd0199c3b736\",\"reserved_resource\":\"alert\",\"route\":\"alert\",\"used_evidence_ids\":[\"e-target\"]}",
+      "payload_json": "{\"decision_id\":\"target\",\"permitted_claim_ids\":[\"notify\"],\"route\":\"alert\",\"used_evidence_ids\":[\"e-target\"]}",
+      "payload_hash": "1fa4a3fb390be91316864456efd037204a5578f1b66ae58393e5418eb08433ea",
+      "state": "armed",
+      "receipt_json": null,
+      "ack_json": null,
+      "armed_at": "2026-10-16T12:00:00.010000Z"
+    },
+    "repeated_job": {
+      "permit_id": "permit_3640476b86df2ad5626e0b420a8e895a",
+      "permit_hash": "03840f70bf71dc207e57ee42d2d715c5e980165aba11ab40e2bcb851077d8a46",
+      "idempotency_key": "permit_3640476b86df2ad5626e0b420a8e895a",
+      "permit_json": "{\"admitted_evidence_ids\":[\"e-target\"],\"blocked_claim_ids\":[\"clinical_benefit\",\"review_request\"],\"decision_id\":\"target\",\"evidence_hash\":\"79f3db477edc21a7980b80110fdcd7741965dfeb9e8e005469eccb0569e6193c\",\"excluded_evidence_ids\":[],\"expires_at\":\"2026-10-16T12:00:02.000000Z\",\"issued_at\":\"2026-10-16T12:00:00.010000Z\",\"permit_id\":\"permit_3640476b86df2ad5626e0b420a8e895a\",\"permitted_claim_ids\":[\"notify\"],\"policy_hash\":\"b7cae0c99621d0002d12434145835ef94effca2a16731c7135db49b105976fb8\",\"policy_id\":\"cmc-local-runtime-v1\",\"policy_revision\":1,\"post_state_revision\":1,\"pre_state_revision\":0,\"proposal_hash\":\"e64203b93135ba6253d74f95566d1266b56a0a40503c22049f62652b4d167eed\",\"reason_code\":\"score_above_review_band\",\"request_hash\":\"0622041c0db67a8263872705453adbc671e956bb509e5bf6e08b7b554984ca72\",\"reservation_id\":\"res_81882f5a8abba95d7c47cd0199c3b736\",\"reserved_resource\":\"alert\",\"route\":\"alert\",\"used_evidence_ids\":[\"e-target\"]}",
+      "payload_json": "{\"decision_id\":\"target\",\"permitted_claim_ids\":[\"notify\"],\"route\":\"alert\",\"used_evidence_ids\":[\"e-target\"]}",
+      "payload_hash": "1fa4a3fb390be91316864456efd037204a5578f1b66ae58393e5418eb08433ea",
+      "state": "armed",
+      "receipt_json": null,
+      "ack_json": null,
+      "armed_at": "2026-10-16T12:00:00.010000Z"
+    }
+  },
+  "expected_error": null,
+  "cleanup": {
+    "cancelled": [],
+    "armed_or_completed_retained": [
+      "target"
+    ]
+  },
+  "state": {
+    "request_count": 1,
+    "permit_count": 1,
+    "hold_count": 1,
+    "held": 1,
+    "spent": 0,
+    "intent_count": 1,
+    "receipt_count": 0,
+    "budgets": [
+      {
+        "policy_id": "cmc-local-runtime-v1",
+        "policy_revision": 1,
+        "scope_key": "boundary",
+        "resource": "alert",
+        "capacity_limit": 1,
+        "reserved": 1,
+        "committed": 0
+      }
+    ],
+    "jobs": [
+      {
+        "permit_id": "permit_3640476b86df2ad5626e0b420a8e895a",
+        "idempotency_key": "permit_3640476b86df2ad5626e0b420a8e895a",
+        "state": "armed",
+        "armed_at": "2026-10-16T12:00:00.010000Z",
+        "permit_hash": "03840f70bf71dc207e57ee42d2d715c5e980165aba11ab40e2bcb851077d8a46"
+      }
+    ],
+    "request_states": {
+      "issued": 1
+    },
+    "hold_statuses": {
+      "reserved": 1
+    },
+    "checks_passed": true
+  },
+  "pragmas": {
+    "journal_mode": "wal",
+    "synchronous": 2,
+    "busy_timeout": 30000,
+    "page_size": 4096
+  },
+  "passed": true,
+  "service_dispatch_performed": false
+}

@@ -1,15 +1,37 @@
 # Results and source map
 
 Artifact index for **Permission and Budget Control for Language Model Agents**,
-updated 8 October 2026. Manuscript prose, LaTeX and paper PDFs are maintained
+updated 22 October 2026 with the additional revision evidence. Manuscript prose, LaTeX and paper PDFs are maintained
 separately. Historical S8/S9-C/S10/S11/S12 codes identify studies, not current
 supplementary table numbers.
+
+## Revision evidence
+
+The [revision package](../revision_results/README.md) contains all 504 additional
+assignments, the primary resource/failure reanalysis and local authorization
+and issuance measurements. Its numerical entry point verifies 21 strata and
+51 paired contrasts, while compact tables make the main compliant-yield
+comparisons and all 39 non-finished additional-study trajectories easy to find.
+The joint challenge tests claim support: eligible `context` evidence lacks the
+`verification_job` type required for `run_verification`. Frozen keys retain
+their original names, with an explicit terminology mapping in the guide.
+
+| Revision result | Source | Offline check |
+|---|---|---|
+| Allowances 1, 3 and 5 plus joint challenge | `revision_results/budget_study/` | All 504 safe records, 147 stratum-metric rows and 357 paired-metric rows |
+| Primary acceptance, resources and failures | `revision_results/primary/` | All 576 records and paired batch/sensitivity calculations |
+| Issuance timing and authorization order | `revision_results/local_runtime/` | All 6,000 timings, 30 run/phase groups and 14 saved boundary traces |
+| Compact paired and termination summaries | `revision_results/review_tables/` | Regenerated from complete numerical inputs |
+| Additional-study actor runtime | `revision_results/agent_runtime/` | 13 offline test methods with network/process tripwires |
+
+The additions are included in this source revision. Existing `code-v1.3.0`
+material and fixed historical releases remain unchanged.
 
 ## Online agent evidence
 
 | Study or result | Public material | Verification scope |
 |---|---|---|
-| Primary shared-budget study; main Figures 3/4 and Table 1 | [online_results](../online_results/README.md) | All 576 scalar records; 96 tasks, 24 batches, two model profiles, three controls, two response conditions, two repeats |
+| Primary shared-budget study; current Figures 3/4 and primary outcome table | [online_results](../online_results/README.md) | All 576 scalar records; 96 tasks, 24 batches, two model profiles, three controls, two response conditions, two repeats |
 | Later DeepSeek and Gemini evaluations | Same package, separate study projections | All 576 planned assignments, including provider, worker and usage-audit failures |
 | Later Claude evaluation | Same package, separate study projections | All 288 planned assignments, including eight provider failures |
 | Feedback-driven actor loop and execution controllers | [online_agent](../online_agent/README.md) | Public implementation, protocol and offline tests; fresh online use requires explicit model and sandbox configuration |
@@ -36,7 +58,7 @@ clusters and preserves pairing, following each package's documented scope.
 
 | Study or result | Code / saved evidence | Check and interpretation |
 |---|---|---|
-| Raw-request lifecycle; main Table 2 | [checkpoint observations](../plots/current/data/S8_CHECKPOINT_COUNTS.csv), [42 audits](../plots/current/data/checkpoint_audits/) | Seven checkpoints, two clients, three repetitions; 36 lifecycle runs produced 78 effects and receipts |
+| Raw-request lifecycle; current lifecycle outcome table | [checkpoint observations](../plots/current/data/S8_CHECKPOINT_COUNTS.csv), [42 audits](../plots/current/data/checkpoint_audits/) | Seven checkpoints, two clients, three repetitions; 36 lifecycle runs produced 78 effects and receipts |
 | Delivery latency | [run-level observations](../plots/current/data/S6_performance_runs.csv) | 30 runs / 1,920 timed requests; summaries of five run-level 95th-percentile latencies per setting |
 | Finite-model boundary; main Figure 5 | [model and verification](../iasc_model_check/PORTABLE_REPRODUCTION.md), [current renderer](../online_results/README.md) | Normal configurations: 684 and 21,960 reachable states; unsafe trace retains all 13 states |
 | Airline qualification | [iasc_airline](../iasc_airline/README.md) | 600 contexts / 200 reservations; 2,400 condition runs; 129 eligible, 117 known-ineligible and 354 unresolved contexts |

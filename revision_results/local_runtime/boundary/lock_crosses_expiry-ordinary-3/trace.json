@@ -1,0 +1,106 @@
+{
+  "arm": "ordinary",
+  "case": "lock_crosses_expiry",
+  "repetition": 3,
+  "expiry": "2026-10-17T02:18:45.499871Z",
+  "events": {
+    "blocker_acquired": {
+      "utc": "2026-10-17T02:18:43.516444Z",
+      "monotonic_ns": 153974411572100
+    },
+    "invoked": {
+      "utc": "2026-10-17T02:18:43.516444Z",
+      "monotonic_ns": 153974411862400
+    },
+    "supplied_at": "2026-10-17T02:18:43.516444Z",
+    "begin_attempt": {
+      "utc": "2026-10-17T02:18:43.519168Z",
+      "monotonic_ns": 153974412179100
+    },
+    "release_started": {
+      "utc": "2026-10-17T02:18:45.550585Z",
+      "monotonic_ns": 153976443416000
+    },
+    "release_returned": {
+      "utc": "2026-10-17T02:18:45.550585Z",
+      "monotonic_ns": 153976443438300
+    },
+    "lock_acquired": {
+      "utc": "2026-10-17T02:18:45.615049Z",
+      "monotonic_ns": 153976508001500
+    },
+    "intent_inserted": {
+      "utc": "2026-10-17T02:18:45.615049Z",
+      "monotonic_ns": 153976508325500
+    },
+    "commit_returned": {
+      "utc": "2026-10-17T02:18:45.616570Z",
+      "monotonic_ns": 153976509781600
+    },
+    "job": {
+      "permit_id": "ordinary-permit-f035b3afbb0285af9e525f2800bf4b66",
+      "permit_hash": "fc9da129ab0e2dd8d16b0599085135ad10b93c61f82fc3ebd15a8c196645565f",
+      "idempotency_key": "ordinary-permit-f035b3afbb0285af9e525f2800bf4b66",
+      "payload_json": "{\"decision_id\":\"target\",\"permitted_claim_ids\":[\"notify\"],\"route\":\"alert\",\"used_evidence_ids\":[\"e-target\"]}",
+      "payload_hash": "1fa4a3fb390be91316864456efd037204a5578f1b66ae58393e5418eb08433ea",
+      "state": "armed",
+      "receipt_json": null,
+      "ack_json": null,
+      "armed_at": "2026-10-17T02:18:43.516444Z"
+    },
+    "returned": {
+      "utc": "2026-10-17T02:18:45.616570Z",
+      "monotonic_ns": 153976509876500
+    }
+  },
+  "expected_error": null,
+  "cleanup": null,
+  "state": {
+    "request_count": 1,
+    "permit_count": 1,
+    "hold_count": 1,
+    "held": 1,
+    "spent": 0,
+    "intent_count": 1,
+    "receipt_count": 0,
+    "budgets": [
+      {
+        "policy_id": "cmc-local-runtime-v1",
+        "policy_revision": 1,
+        "scope_key": "boundary",
+        "resource": "alert",
+        "ceiling": 1,
+        "held": 1,
+        "spent": 0,
+        "state_revision": 1,
+        "capacity_limit": 1,
+        "reserved": 1,
+        "committed": 0
+      }
+    ],
+    "jobs": [
+      {
+        "permit_id": "ordinary-permit-f035b3afbb0285af9e525f2800bf4b66",
+        "idempotency_key": "ordinary-permit-f035b3afbb0285af9e525f2800bf4b66",
+        "state": "armed",
+        "armed_at": "2026-10-17T02:18:43.516444Z",
+        "permit_hash": "fc9da129ab0e2dd8d16b0599085135ad10b93c61f82fc3ebd15a8c196645565f"
+      }
+    ],
+    "request_states": {
+      "issued": 1
+    },
+    "hold_statuses": {
+      "reserved": 1
+    },
+    "checks_passed": true
+  },
+  "pragmas": {
+    "journal_mode": "wal",
+    "synchronous": 2,
+    "busy_timeout": 30000,
+    "page_size": 4096
+  },
+  "passed": true,
+  "service_dispatch_performed": false
+}

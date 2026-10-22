@@ -1,0 +1,9 @@
+model,condition,comparator,observed_difference_pp,minimum_leave_one_batch_out_pp,maximum_leave_one_batch_out_pp,range_type
+gpt-4.1-mini-2025-04-14,normal,prompt_only,43.22916666666667,41.84782608695652,45.108695652173914,influence_range_not_confidence_interval
+gpt-4.1-mini-2025-04-14,normal,ordinary,-0.5208333333333333,-1.0869565217391304,0.0,influence_range_not_confidence_interval
+gpt-4.1-mini-2025-04-14,hidden_first_result,prompt_only,61.979166666666664,61.41304347826087,64.67391304347827,influence_range_not_confidence_interval
+gpt-4.1-mini-2025-04-14,hidden_first_result,ordinary,-3.125,-4.3478260869565215,-1.6304347826086956,influence_range_not_confidence_interval
+gpt-6-luna,normal,prompt_only,6.770833333333333,4.891304347826087,7.608695652173914,influence_range_not_confidence_interval
+gpt-6-luna,normal,ordinary,2.604166666666667,1.0869565217391304,3.260869565217391,influence_range_not_confidence_interval
+gpt-6-luna,hidden_first_result,prompt_only,11.458333333333332,9.782608695652174,13.043478260869565,influence_range_not_confidence_interval
+gpt-6-luna,hidden_first_result,ordinary,0.0,-1.0869565217391304,1.0869565217391304,influence_range_not_confidence_interval

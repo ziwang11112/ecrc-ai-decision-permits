@@ -1,0 +1,48 @@
+{
+  "arm": "ecrc",
+  "case": "revocation_before_arm",
+  "repetition": 1,
+  "expiry": "2026-10-16T12:00:02.000000Z",
+  "events": {},
+  "expected_error": {
+    "type": "RevokedPolicyError",
+    "message": "policy 'cmc-local-runtime-v1' is revoked"
+  },
+  "cleanup": null,
+  "state": {
+    "request_count": 1,
+    "permit_count": 1,
+    "hold_count": 1,
+    "held": 1,
+    "spent": 0,
+    "intent_count": 0,
+    "receipt_count": 0,
+    "budgets": [
+      {
+        "policy_id": "cmc-local-runtime-v1",
+        "policy_revision": 1,
+        "scope_key": "boundary",
+        "resource": "alert",
+        "capacity_limit": 1,
+        "reserved": 1,
+        "committed": 0
+      }
+    ],
+    "jobs": [],
+    "request_states": {
+      "issued": 1
+    },
+    "hold_statuses": {
+      "reserved": 1
+    },
+    "checks_passed": true
+  },
+  "pragmas": {
+    "journal_mode": "wal",
+    "synchronous": 2,
+    "busy_timeout": 30000,
+    "page_size": 4096
+  },
+  "passed": true,
+  "service_dispatch_performed": false
+}

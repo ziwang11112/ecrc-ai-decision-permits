@@ -1,0 +1,103 @@
+{
+  "arm": "ecrc",
+  "case": "lock_crosses_expiry",
+  "repetition": 3,
+  "expiry": "2026-10-17T02:18:51.950093Z",
+  "events": {
+    "blocker_acquired": {
+      "utc": "2026-10-17T02:18:49.978066Z",
+      "monotonic_ns": 153980871795500
+    },
+    "invoked": {
+      "utc": "2026-10-17T02:18:49.979065Z",
+      "monotonic_ns": 153980872007300
+    },
+    "supplied_at": "2026-10-17T02:18:49.979065Z",
+    "begin_attempt": {
+      "utc": "2026-10-17T02:18:49.979065Z",
+      "monotonic_ns": 153980872611300
+    },
+    "release_started": {
+      "utc": "2026-10-17T02:18:52.002623Z",
+      "monotonic_ns": 153982895449800
+    },
+    "release_returned": {
+      "utc": "2026-10-17T02:18:52.002623Z",
+      "monotonic_ns": 153982895469700
+    },
+    "lock_acquired": {
+      "utc": "2026-10-17T02:18:52.032233Z",
+      "monotonic_ns": 153982925081100
+    },
+    "intent_inserted": {
+      "utc": "2026-10-17T02:18:52.032233Z",
+      "monotonic_ns": 153982926043200
+    },
+    "commit_returned": {
+      "utc": "2026-10-17T02:18:52.033288Z",
+      "monotonic_ns": 153982927077200
+    },
+    "job": {
+      "permit_id": "permit_3fd588f4b3da482c13ef076bc49c9f9d",
+      "permit_hash": "4bcac1eab05419e28a220524a7d20d46128230bdba55fc95663a7d25c343cd60",
+      "idempotency_key": "permit_3fd588f4b3da482c13ef076bc49c9f9d",
+      "permit_json": "{\"admitted_evidence_ids\":[\"e-target\"],\"blocked_claim_ids\":[\"clinical_benefit\",\"review_request\"],\"decision_id\":\"target\",\"evidence_hash\":\"53391ab11a5eb088ce11288bda07c16af13380b72fff44d0aede2c7e7dacdcac\",\"excluded_evidence_ids\":[],\"expires_at\":\"2026-10-17T02:18:51.950093Z\",\"issued_at\":\"2026-10-17T02:18:49.969702Z\",\"permit_id\":\"permit_3fd588f4b3da482c13ef076bc49c9f9d\",\"permitted_claim_ids\":[\"notify\"],\"policy_hash\":\"a49ee07c9a677c1bb9bf70fe73fe53663e09d2fb9527e741e1ca2f48b8cffed1\",\"policy_id\":\"cmc-local-runtime-v1\",\"policy_revision\":1,\"post_state_revision\":1,\"pre_state_revision\":0,\"proposal_hash\":\"68e1be50d907d63ed70324de73d1e130e9d1114e6f87aa68475f9b6630cd142a\",\"reason_code\":\"score_above_review_band\",\"request_hash\":\"37b2a9a906fde2b6256d99b4c273f70a5fe6660199d28b20f5c8bd3fb6b2ac2a\",\"reservation_id\":\"res_ef38266a83c9ab897fcad53dcd9c4aec\",\"reserved_resource\":\"alert\",\"route\":\"alert\",\"used_evidence_ids\":[\"e-target\"]}",
+      "payload_json": "{\"decision_id\":\"target\",\"permitted_claim_ids\":[\"notify\"],\"route\":\"alert\",\"used_evidence_ids\":[\"e-target\"]}",
+      "payload_hash": "1fa4a3fb390be91316864456efd037204a5578f1b66ae58393e5418eb08433ea",
+      "state": "armed",
+      "receipt_json": null,
+      "ack_json": null,
+      "armed_at": "2026-10-17T02:18:49.979065Z"
+    },
+    "returned": {
+      "utc": "2026-10-17T02:18:52.033288Z",
+      "monotonic_ns": 153982927176100
+    }
+  },
+  "expected_error": null,
+  "cleanup": null,
+  "state": {
+    "request_count": 1,
+    "permit_count": 1,
+    "hold_count": 1,
+    "held": 1,
+    "spent": 0,
+    "intent_count": 1,
+    "receipt_count": 0,
+    "budgets": [
+      {
+        "policy_id": "cmc-local-runtime-v1",
+        "policy_revision": 1,
+        "scope_key": "boundary",
+        "resource": "alert",
+        "capacity_limit": 1,
+        "reserved": 1,
+        "committed": 0
+      }
+    ],
+    "jobs": [
+      {
+        "permit_id": "permit_3fd588f4b3da482c13ef076bc49c9f9d",
+        "idempotency_key": "permit_3fd588f4b3da482c13ef076bc49c9f9d",
+        "state": "armed",
+        "armed_at": "2026-10-17T02:18:49.979065Z",
+        "permit_hash": "4bcac1eab05419e28a220524a7d20d46128230bdba55fc95663a7d25c343cd60"
+      }
+    ],
+    "request_states": {
+      "issued": 1
+    },
+    "hold_statuses": {
+      "reserved": 1
+    },
+    "checks_passed": true
+  },
+  "pragmas": {
+    "journal_mode": "wal",
+    "synchronous": 2,
+    "busy_timeout": 30000,
+    "page_size": 4096
+  },
+  "passed": true,
+  "service_dispatch_performed": false
+}

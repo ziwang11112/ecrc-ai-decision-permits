@@ -1,0 +1,934 @@
+{
+  "schema": "shared-agent-scale-id-only-selection-v1",
+  "selection_seed": "ECRC-Shared-Agent-Scale-2026-10-07-v1",
+  "hash_expression": "sha256((selection_seed + '|' + task_id).encode('utf-8')).hexdigest()",
+  "ordering": "(selection_hash ascending, numeric task ID ascending)",
+  "selection_rule": "Take the first 96 of 115 eligible IDs and split consecutively into 24 batches of four; keep hash order inside each batch.",
+  "reference_solutions_used_for_selection": false,
+  "model_outcome_files_read": false,
+  "eligible_count": 115,
+  "selected_count": 96,
+  "unselected_count": 19,
+  "eligible_tasks_in_hash_order": [
+    {
+      "task_id": "HumanEval/89",
+      "selection_hash": "01f684c305012d873d8cf49ce45a54bca6873ada8ce0ac9baec3a255b85c237d",
+      "rank": 1,
+      "selected": true,
+      "batch_id": "batch-01",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/33",
+      "selection_hash": "079c952cb82ccac733f144887d3ba1be6ccce9fc0d252617b49aacf5cff6e086",
+      "rank": 2,
+      "selected": true,
+      "batch_id": "batch-01",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/122",
+      "selection_hash": "09c5267e046ae892727f686576f4005511870585fdd030ec3edbfe7349345774",
+      "rank": 3,
+      "selected": true,
+      "batch_id": "batch-01",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/59",
+      "selection_hash": "0a477dfe9930accaa115deff5d1489d9beef816ade851ef25b00932534a8af55",
+      "rank": 4,
+      "selected": true,
+      "batch_id": "batch-01",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/96",
+      "selection_hash": "0b8f3dd4e0c20e04d9001bafeb855942e4166173b0aee175fab256809085a3d0",
+      "rank": 5,
+      "selected": true,
+      "batch_id": "batch-02",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/47",
+      "selection_hash": "0e0ee40cea0756e69e43986746ea4be2b1834f3b8551b8aa7e7e3ce7ae9c7d34",
+      "rank": 6,
+      "selected": true,
+      "batch_id": "batch-02",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/130",
+      "selection_hash": "0ed1cee029523177af9920a411b911d00ab380af8ac661197023fd2edf8909bb",
+      "rank": 7,
+      "selected": true,
+      "batch_id": "batch-02",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/125",
+      "selection_hash": "10ff5b09e2165aaff6fb670e649de3491d9ce2f312c463b7625e8bc51744b5f4",
+      "rank": 8,
+      "selected": true,
+      "batch_id": "batch-02",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/64",
+      "selection_hash": "125ea32ff763b17c87fa504a83febfb2eecbf0f6d06fbaf042f03545d75d1b1d",
+      "rank": 9,
+      "selected": true,
+      "batch_id": "batch-03",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/126",
+      "selection_hash": "132b33c511efb466e25f7292ff3cb38207a6143c58579647d9a462564300cc2b",
+      "rank": 10,
+      "selected": true,
+      "batch_id": "batch-03",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/141",
+      "selection_hash": "13334285d63963f0c9e5c27a4fbd779656faa6eed15016ee3aa8aac6bfbbf075",
+      "rank": 11,
+      "selected": true,
+      "batch_id": "batch-03",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/11",
+      "selection_hash": "14981eb0f00d7800dab6a9df9cfbc733f95b34e0f04287fc5b996cc79d9b952e",
+      "rank": 12,
+      "selected": true,
+      "batch_id": "batch-03",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/67",
+      "selection_hash": "1cd9f52640a7a85ffc1decde135e2d789eedf29db45e605b63a0b40022482aca",
+      "rank": 13,
+      "selected": true,
+      "batch_id": "batch-04",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/26",
+      "selection_hash": "208d8e23dee1606fe24c2a73d68ca1726eeab099e30ec671144a3f6e24cbc53f",
+      "rank": 14,
+      "selected": true,
+      "batch_id": "batch-04",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/111",
+      "selection_hash": "20d64c3516b8ce9097c2ed6340beb951e7c1e46bd4cd90f55aac3232b5e5f05b",
+      "rank": 15,
+      "selected": true,
+      "batch_id": "batch-04",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/116",
+      "selection_hash": "237d0b2b05df89ece455cb0720061671f7bc8547f5ad94026575b06fada3ccc7",
+      "rank": 16,
+      "selected": true,
+      "batch_id": "batch-04",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/132",
+      "selection_hash": "24c4db151ea93e31cf32b9fa22d40b4ba991390bfe539439ae228fb9d95026d3",
+      "rank": 17,
+      "selected": true,
+      "batch_id": "batch-05",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/121",
+      "selection_hash": "24e8d35a7b9388610b2a7fd45046af579a072836fc6cf296138243908ce0a0db",
+      "rank": 18,
+      "selected": true,
+      "batch_id": "batch-05",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/32",
+      "selection_hash": "275c70672e0ea8e90fe2dada1a7329482a0eb10bf6da07576e228484720487b6",
+      "rank": 19,
+      "selected": true,
+      "batch_id": "batch-05",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/97",
+      "selection_hash": "2a7b7230be89fafaee89550319fa075112d197a7fd3ea26f3510137830499491",
+      "rank": 20,
+      "selected": true,
+      "batch_id": "batch-05",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/100",
+      "selection_hash": "2b19655c724db6b30644bf09d56c53ab871f947d879c5e912ae8c7c1395b0081",
+      "rank": 21,
+      "selected": true,
+      "batch_id": "batch-06",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/102",
+      "selection_hash": "2be1f9daf306c858aaedefd13f50c84db0faf826cc5f8e84792f6ddd86df8f5b",
+      "rank": 22,
+      "selected": true,
+      "batch_id": "batch-06",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/50",
+      "selection_hash": "2c2ef0c5468e3bf5a48e85a09915e64d204d5e3934024d74753373bc10793ca5",
+      "rank": 23,
+      "selected": true,
+      "batch_id": "batch-06",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/86",
+      "selection_hash": "2e4a47c3a21e257b39d2fd1fb927c738f50d7927cf9b42c2bf319b4561eb8c58",
+      "rank": 24,
+      "selected": true,
+      "batch_id": "batch-06",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/78",
+      "selection_hash": "3014556e316111e272d1712754f013bfcfdef1d5bc3465c67b1e88b0e221bf35",
+      "rank": 25,
+      "selected": true,
+      "batch_id": "batch-07",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/17",
+      "selection_hash": "3216afa320e74564e52816dcebc6601600abfd94a625108431058ebf1cedf6d0",
+      "rank": 26,
+      "selected": true,
+      "batch_id": "batch-07",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/79",
+      "selection_hash": "35548e2ee1be82e68f679199c518f27683aecf2cff018141e89608bcaf9d2690",
+      "rank": 27,
+      "selected": true,
+      "batch_id": "batch-07",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/25",
+      "selection_hash": "3682d4ce91bb6eb5ba47c69f32bbcd4c0a1470e083020c0371959d26b6226faa",
+      "rank": 28,
+      "selected": true,
+      "batch_id": "batch-07",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/153",
+      "selection_hash": "377d8ed9b2e1e42daed6113eddedc8d97ed3916bef247e758232839d2542839c",
+      "rank": 29,
+      "selected": true,
+      "batch_id": "batch-08",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/5",
+      "selection_hash": "38f255f6ebaa9255ee5692e29b82c20826b96b7773bf934b3919132b527476dc",
+      "rank": 30,
+      "selected": true,
+      "batch_id": "batch-08",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/92",
+      "selection_hash": "3e960ad9dfb47216f22cc662836368bf98ed46634fff3526a2252fb6f6b3a842",
+      "rank": 31,
+      "selected": true,
+      "batch_id": "batch-08",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/133",
+      "selection_hash": "3e9fd70bd504118c20e00cc5cf3e0b698f7f418b1667f22a8b127c24bab5ed79",
+      "rank": 32,
+      "selected": true,
+      "batch_id": "batch-08",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/139",
+      "selection_hash": "3f71a68fc69a9ea66777e0d37601899b67c0d02651413e5118847fa30ec35d22",
+      "rank": 33,
+      "selected": true,
+      "batch_id": "batch-09",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/24",
+      "selection_hash": "3ff27c74c61c49ecc0ced6763dccc5d75355ed269aafd76a4941950c2ef50b09",
+      "rank": 34,
+      "selected": true,
+      "batch_id": "batch-09",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/159",
+      "selection_hash": "4381375962cadb147996e2ad3b9fd288cd6b95ed70ff07250c87371d1a75eb75",
+      "rank": 35,
+      "selected": true,
+      "batch_id": "batch-09",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/38",
+      "selection_hash": "43b200290c53ac5719f9cf289be199e03f6949da1cd6a4e06c6c075dc3ec8837",
+      "rank": 36,
+      "selected": true,
+      "batch_id": "batch-09",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/69",
+      "selection_hash": "442ab786cad75f0f3a381551c23b1a5864a2de929f9326049f5d8d2c1ebe82ce",
+      "rank": 37,
+      "selected": true,
+      "batch_id": "batch-10",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/68",
+      "selection_hash": "468b60a749acb2c2e58e4fcbc126d5be77d484124fb7b4f4843f2558a6f3c2bc",
+      "rank": 38,
+      "selected": true,
+      "batch_id": "batch-10",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/98",
+      "selection_hash": "496aeb641062ad6dcfd1c7b5c2f8132ff3c1ad193907cd7abaed094cd35d1ed3",
+      "rank": 39,
+      "selected": true,
+      "batch_id": "batch-10",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/80",
+      "selection_hash": "4fe4f817f94f40b699fb6e2f6eb32d1bbfb11aa25d287cd1637953b2136930f0",
+      "rank": 40,
+      "selected": true,
+      "batch_id": "batch-10",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/44",
+      "selection_hash": "50a8010199628644a8330b7607042d87bb0c2988a0c9546c9079b2d73d5a24b6",
+      "rank": 41,
+      "selected": true,
+      "batch_id": "batch-11",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/6",
+      "selection_hash": "51b4ab6513b75fd82258f3d6365fe0d50f2eb3dd6ca3c0a4e6f134044c387fd9",
+      "rank": 42,
+      "selected": true,
+      "batch_id": "batch-11",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/16",
+      "selection_hash": "53248ee49a86b9f6d70a5f7a704622fbb741dcb726e9b57afc9e4ee0791e279b",
+      "rank": 43,
+      "selected": true,
+      "batch_id": "batch-11",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/21",
+      "selection_hash": "537b1537e7a5fc1b4eed9ad2dde8531cae3005596254375edf906a349d9a8933",
+      "rank": 44,
+      "selected": true,
+      "batch_id": "batch-11",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/120",
+      "selection_hash": "58a593e2a0b29a2444f14b0adcc17e66d38864c4aeae4d52cf1df0a2929a086b",
+      "rank": 45,
+      "selected": true,
+      "batch_id": "batch-12",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/127",
+      "selection_hash": "64cc5bb62b4ed83a5a382889c52f88259cfcfccb634ddbfd0a5021c9b4ed891b",
+      "rank": 46,
+      "selected": true,
+      "batch_id": "batch-12",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/148",
+      "selection_hash": "66f7a268cdf630faba7e5fdb23d77b29de48b371734a190bb644458d9344e3a1",
+      "rank": 47,
+      "selected": true,
+      "batch_id": "batch-12",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/152",
+      "selection_hash": "67c81b63c065889a3add9b5ae4eaf322d7c2ddf87ff9a3a9ba8b084c458331c8",
+      "rank": 48,
+      "selected": true,
+      "batch_id": "batch-12",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/151",
+      "selection_hash": "67e1e550585c6ca7d68782e5af217102337cda06a0cba465045a05f1d76b07a5",
+      "rank": 49,
+      "selected": true,
+      "batch_id": "batch-13",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/52",
+      "selection_hash": "6ad02026ef006d4ccdbf33faf7f013cf380a8bf957fd5137e066e608bb0b7b41",
+      "rank": 50,
+      "selected": true,
+      "batch_id": "batch-13",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/147",
+      "selection_hash": "706b19925098bb69f712efef06cfffffa39868820e3b107d8529eb8830086f68",
+      "rank": 51,
+      "selected": true,
+      "batch_id": "batch-13",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/53",
+      "selection_hash": "718b4b966c18862505ba3dfe422408cacf55db1599caa465abb6d26732e0d5ce",
+      "rank": 52,
+      "selected": true,
+      "batch_id": "batch-13",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/95",
+      "selection_hash": "77441f778f2594ff02f9f5f3ca9ee36d6783f903a61bfff6f2274d6f2b44ba2e",
+      "rank": 53,
+      "selected": true,
+      "batch_id": "batch-14",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/110",
+      "selection_hash": "77bd2ed318b0ac8a8756cf9296909c575d98ef95ce95db6502fadfa5b92a4d1e",
+      "rank": 54,
+      "selected": true,
+      "batch_id": "batch-14",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/117",
+      "selection_hash": "79b8cdf5100556c909b40002fbe497a6121f9d46a4bd33921295ff19c324c279",
+      "rank": 55,
+      "selected": true,
+      "batch_id": "batch-14",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/124",
+      "selection_hash": "7a12300251f10f64a32b4f75d80f3d9b3ea0ae878cbf82fe1cbaa9508c626204",
+      "rank": 56,
+      "selected": true,
+      "batch_id": "batch-14",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/131",
+      "selection_hash": "805fb03a6f84417898c9e31400c8e0577af3b0cdb5b6920495ce368b5aa91c8c",
+      "rank": 57,
+      "selected": true,
+      "batch_id": "batch-15",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/0",
+      "selection_hash": "8065d66a17f0edb331aab02026a864154a953e144b82cc25c38afbc6f93bfd94",
+      "rank": 58,
+      "selected": true,
+      "batch_id": "batch-15",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/144",
+      "selection_hash": "83c6be7d2234945ab5a6febf9f67c62c76ada74c0fb3b8afbc513cc9b9d0a758",
+      "rank": 59,
+      "selected": true,
+      "batch_id": "batch-15",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/75",
+      "selection_hash": "864a136ee1e86f6ac7455544e55aafc5e8f2785b95debeb98a3aa39d3ccf51d8",
+      "rank": 60,
+      "selected": true,
+      "batch_id": "batch-15",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/84",
+      "selection_hash": "865b5f8ab185cbaf7469cd16450ddf7dee6955078994ee5c84cceed7fe53c424",
+      "rank": 61,
+      "selected": true,
+      "batch_id": "batch-16",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/14",
+      "selection_hash": "873ee9c37253998db0ba4acfa612310e1fafca7b4fd26c02c061fb044988325a",
+      "rank": 62,
+      "selected": true,
+      "batch_id": "batch-16",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/106",
+      "selection_hash": "87b85c0b10c0c732bada7c80c37d528b171cdbd4a8baa642b4371c8565c66123",
+      "rank": 63,
+      "selected": true,
+      "batch_id": "batch-16",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/99",
+      "selection_hash": "8aea669b885625aefff42ab334d4f43a7e06351974a6f72cc53fcf9d61ec9593",
+      "rank": 64,
+      "selected": true,
+      "batch_id": "batch-16",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/113",
+      "selection_hash": "8e25cade238fbb08727b2c7faf9197e1e78aa676277f115e3277eecdda0553f0",
+      "rank": 65,
+      "selected": true,
+      "batch_id": "batch-17",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/88",
+      "selection_hash": "8e53a67550fdd62cac6a745e88d92a88ae872c5991a0972de59c9981ae189cb1",
+      "rank": 66,
+      "selected": true,
+      "batch_id": "batch-17",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/56",
+      "selection_hash": "8f582136ddd755127fab7b15450cce0de077e74db7e3860595dcc5c2809eb94f",
+      "rank": 67,
+      "selected": true,
+      "batch_id": "batch-17",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/143",
+      "selection_hash": "91915a3d51f028e3e035a67abe1497656eb3d05cd18f28b5d0cf8e0a99a40fcb",
+      "rank": 68,
+      "selected": true,
+      "batch_id": "batch-17",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/149",
+      "selection_hash": "932bfa1a2f6581fa57bed7713ace610c1618407e80be9ad3748916f92b20b4d2",
+      "rank": 69,
+      "selected": true,
+      "batch_id": "batch-18",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/93",
+      "selection_hash": "961a499e2c367e572854d5838a6f8580ea082b4a7151915c167fbde6d8632779",
+      "rank": 70,
+      "selected": true,
+      "batch_id": "batch-18",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/45",
+      "selection_hash": "9ab11d5fbfc75a19cb87fe1b8c65c2827f54edaf8baa72357508d6f0c0aa9035",
+      "rank": 71,
+      "selected": true,
+      "batch_id": "batch-18",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/107",
+      "selection_hash": "9bc1f64d51f25b0adb43e8bbd32bc7b5f9bc3bc3febf91285347fed9415938b3",
+      "rank": 72,
+      "selected": true,
+      "batch_id": "batch-18",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/34",
+      "selection_hash": "a25a68c6e5812af58034baac7a9c8164f7df161aa0e58091af35e5b42db5466b",
+      "rank": 73,
+      "selected": true,
+      "batch_id": "batch-19",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/9",
+      "selection_hash": "a325161b97f5ff59f9bde0b459398fee90046b11fd81ee53dfafe826b37663b9",
+      "rank": 74,
+      "selected": true,
+      "batch_id": "batch-19",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/150",
+      "selection_hash": "a38c1d8318f52a02391debeef78059a2309740f7fad7a376bc7a4aa4d891050a",
+      "rank": 75,
+      "selected": true,
+      "batch_id": "batch-19",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/70",
+      "selection_hash": "a5efad67f036b0f77f1c8b19701be15a84210dd4bca0a0c7a2798c519209b0a8",
+      "rank": 76,
+      "selected": true,
+      "batch_id": "batch-19",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/7",
+      "selection_hash": "a7fac8a5c75f3c8f0d930be2676da8cd6963692c6499a9ff5aba63e9278d2ee1",
+      "rank": 77,
+      "selected": true,
+      "batch_id": "batch-20",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/62",
+      "selection_hash": "a8cca3e746d29b6d34fd05422d5c6bbbbb807192941daa44f83b86884b3a6644",
+      "rank": 78,
+      "selected": true,
+      "batch_id": "batch-20",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/85",
+      "selection_hash": "a9ebe861428252082ebf14cb646b5b7733543f14846871ed27daf352f950801b",
+      "rank": 79,
+      "selected": true,
+      "batch_id": "batch-20",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/103",
+      "selection_hash": "aa218ca5eb242694933d66efd9aab1964059787fe7483e8cb20e0503d09a4ef6",
+      "rank": 80,
+      "selected": true,
+      "batch_id": "batch-20",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/4",
+      "selection_hash": "ae7d37f9e261733471d24b0fcfaddb256ed977987f4af7d772ea0e40f092cbe8",
+      "rank": 81,
+      "selected": true,
+      "batch_id": "batch-21",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/71",
+      "selection_hash": "b300d52678e3f431ce6e4c0cb6885be8bf77389674d15850d51d8440f9a90e10",
+      "rank": 82,
+      "selected": true,
+      "batch_id": "batch-21",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/18",
+      "selection_hash": "b304c15d4930cc871bdfbafc56e63d4daaa1a1e0a2e3d35ebffa79b7ea6c85a2",
+      "rank": 83,
+      "selected": true,
+      "batch_id": "batch-21",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/39",
+      "selection_hash": "b3318220e990b76e8d4af25e0f26e282b08fed9d75d6036e047f3af77a93f1aa",
+      "rank": 84,
+      "selected": true,
+      "batch_id": "batch-21",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/76",
+      "selection_hash": "b381d42fb1196d67f67506828e0af72ec65169212ab34f462f813f91a8c6b7a3",
+      "rank": 85,
+      "selected": true,
+      "batch_id": "batch-22",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/142",
+      "selection_hash": "bc7073cc3e4c8005c8fc781150420b2e51929ded3d19f205f87007caba01a444",
+      "rank": 86,
+      "selected": true,
+      "batch_id": "batch-22",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/119",
+      "selection_hash": "bdbb358f59d4bfe787c8ee7ad748fcb6aa9350cfb13550200f58e8b9a82b4a36",
+      "rank": 87,
+      "selected": true,
+      "batch_id": "batch-22",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/42",
+      "selection_hash": "bdc99710f529ba289a7c15234a2a0ad4b82294736b83133f10b06d51a4f9d6ec",
+      "rank": 88,
+      "selected": true,
+      "batch_id": "batch-22",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/156",
+      "selection_hash": "be4554317e1e7f5ffcbc10d5e1a4b2c4de70e3d93a3ef470901a1d0f51a24943",
+      "rank": 89,
+      "selected": true,
+      "batch_id": "batch-23",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/29",
+      "selection_hash": "c320b248f12fac2a8f65cc7dc13e2d60f64072aa3ff1069fdf6cc9bcaea5b703",
+      "rank": 90,
+      "selected": true,
+      "batch_id": "batch-23",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/58",
+      "selection_hash": "c32baa3520a0043a5416a53f0c57f2cf06427b6951ab816390961d348e08999b",
+      "rank": 91,
+      "selected": true,
+      "batch_id": "batch-23",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/54",
+      "selection_hash": "c37f16b09100e58ed8a5ceaa992aaae55dd17588e3bca893d0e4fee7ab94b083",
+      "rank": 92,
+      "selected": true,
+      "batch_id": "batch-23",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/104",
+      "selection_hash": "c3a56dadb18be6416ef37e36d082611609661d9a1e7fb88201c8886ac144d35c",
+      "rank": 93,
+      "selected": true,
+      "batch_id": "batch-24",
+      "position_in_batch": 1
+    },
+    {
+      "task_id": "HumanEval/94",
+      "selection_hash": "c43fe3d88e0656156aa99893d7b856bb73bbd5049ea448aaf2417104f862c3c2",
+      "rank": 94,
+      "selected": true,
+      "batch_id": "batch-24",
+      "position_in_batch": 2
+    },
+    {
+      "task_id": "HumanEval/108",
+      "selection_hash": "c4a2c8a8eb9597b97f23785ddab58f69d568a1c6f0da8d2762e3ab11288fc562",
+      "rank": 95,
+      "selected": true,
+      "batch_id": "batch-24",
+      "position_in_batch": 3
+    },
+    {
+      "task_id": "HumanEval/30",
+      "selection_hash": "c5ba677462984bbf915cb47bfa4972bd23a75a04e7c8370eec335e49071f53a0",
+      "rank": 96,
+      "selected": true,
+      "batch_id": "batch-24",
+      "position_in_batch": 4
+    },
+    {
+      "task_id": "HumanEval/123",
+      "selection_hash": "c7f7a6b60c3230a68469da82758a81a7e66adfe837f7acdfe734811d6658aea5",
+      "rank": 97,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/129",
+      "selection_hash": "c9842e5d0866ebdf7001c228b1f886533f133eb7016e4c13b091896d154e5ed2",
+      "rank": 98,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/49",
+      "selection_hash": "cb0df1b82701fd6dae2ec77fa5073e68c4125e320750dc500a6aa0e6f211f52f",
+      "rank": 99,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/48",
+      "selection_hash": "cc516cde6bb41a35feacd8ac307b62f0569f673cd388699e9a38ed1000e8d36b",
+      "rank": 100,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/90",
+      "selection_hash": "ce85df713bd0dd733e8e9c32bb5a387af3a8065f2e8ae0a780df90c1cce76b79",
+      "rank": 101,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/36",
+      "selection_hash": "d1226a00a91f8860b1cb0beb3a1b36a325fda675009ef217538944c2964e4d59",
+      "rank": 102,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/57",
+      "selection_hash": "d6086d4e423e3bd8b28e1b016bd024fe6938281752eafd2a99f3b8bfe34716f4",
+      "rank": 103,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/61",
+      "selection_hash": "d85ea789ea6d6a4bfc3c1bb6ea35650261f9d3a29f6f068b8518e359599b807a",
+      "rank": 104,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/3",
+      "selection_hash": "e0defdbcda25461e85c2cbaac47ee706143418705db08278c33b6434b787795c",
+      "rank": 105,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/154",
+      "selection_hash": "e32ae4d1e71eb75491f16c87bab49f08aa25a8eadbc1453db8c5a9b60e095696",
+      "rank": 106,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/31",
+      "selection_hash": "e519a2f2dd7d3a2986561cfc99577a662e08ec812de24f13e12af6ca5de2fbe8",
+      "rank": 107,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/157",
+      "selection_hash": "e5b344eaa346be4c59edc6c25740c45fc15c4d7dcd982a3b7677c92ffe67a0e5",
+      "rank": 108,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/136",
+      "selection_hash": "e7f6fd7c3940dc6aab3202644ddf29d856ee4535cb92714f2bcafc91a5c5f60b",
+      "rank": 109,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/115",
+      "selection_hash": "e9efc9881c1242e59c00453112c1d042fc60f29ca34e7c72e84a5f7a8ce82843",
+      "rank": 110,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/72",
+      "selection_hash": "eef6ef954bc03efb7bac401ba99d6942a200fa9d13f51dcfbd30f1f25e051f5f",
+      "rank": 111,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/83",
+      "selection_hash": "f0a17539fa13087586d77baab9e20af26e8a42cfcc04d5050b43ea919b6ac0fa",
+      "rank": 112,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/40",
+      "selection_hash": "f24f0a238747023bd74138a87dcb8a7c767b9474db484d788801ec1bc5ca34eb",
+      "rank": 113,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/8",
+      "selection_hash": "f5575ab1b63869ba4aa2b1c60de210e19da85df8d8b5d0e9c4f037fc02b74059",
+      "rank": 114,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    },
+    {
+      "task_id": "HumanEval/134",
+      "selection_hash": "fa66f4b20d1cb97d4d2429acf317a7ae0e87acff9741a705cf0c642a21ea9989",
+      "rank": 115,
+      "selected": false,
+      "batch_id": null,
+      "position_in_batch": null
+    }
+  ]
+}

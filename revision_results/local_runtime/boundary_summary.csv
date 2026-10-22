@@ -1,0 +1,15 @@
+arm,case,repetition,passed,held,spent,intents,receipts,lock_wait_ms,commit_return_after_expiry_ms,supplied_before_expiry_ms
+ordinary,lock_crosses_expiry,1,True,1,0,1,0,2062.0291,82.456,1982.944
+ordinary,lock_crosses_expiry,2,True,1,0,1,0,2116.5405,131.295,1986.335
+ordinary,lock_crosses_expiry,3,True,1,0,1,0,2095.8224,116.699,1983.4270000000001
+ordinary,at_expiry_rejected,1,True,1,0,0,0,,,
+ordinary,revocation_before_arm,1,True,1,0,0,0,,,
+ordinary,cleanup_before_arm,1,True,0,0,0,0,,,
+ordinary,arm_before_cleanup_revocation,1,True,1,0,1,0,,,
+ecrc,lock_crosses_expiry,1,True,1,0,1,0,2099.4902,121.074,1995.547
+ecrc,lock_crosses_expiry,2,True,1,0,1,0,2109.2565,133.572,1983.133
+ecrc,lock_crosses_expiry,3,True,1,0,1,0,2052.4698,83.19500000000001,1971.028
+ecrc,at_expiry_rejected,1,True,1,0,0,0,,,
+ecrc,revocation_before_arm,1,True,1,0,0,0,,,
+ecrc,cleanup_before_arm,1,True,0,0,0,0,,,
+ecrc,arm_before_cleanup_revocation,1,True,1,0,1,0,,,

@@ -1,0 +1,43 @@
+{
+  "absolute_numeric_tolerance": 1e-12,
+  "all_504_assigned_rows_retained": true,
+  "amended_execution": true,
+  "api_calls": 0,
+  "builder_sha256": "abf8c5da5705620f1bd771e05e6711265767b1ff347ecbbf28ffff68b2705b33",
+  "candidate_executions": 0,
+  "contains_private_ledgers_raw_api_candidate_code_credentials": false,
+  "continuation_amendment_sha256": "bbe201f48f899c84aaab5a9f24a5a0d4a9758a1da5bd0288d335d2240900f9ea",
+  "continuation_provenance_sha256": "843d8e463f6ae23dad18d7caf774dd25f0d0e095d4a72d4c3e3b0667603365ce",
+  "distribution_status": "local_only_not_published",
+  "files_sha256": {
+    "CONTINUATION_PROVENANCE.json": "843d8e463f6ae23dad18d7caf774dd25f0d0e095d4a72d4c3e3b0667603365ce",
+    "README.md": "6402ba853c03957c964eab6cf784571c213c6b3e1b6d0da88539f0b8c017652e",
+    "SAFE_ASSIGNED_ROWS.json": "37d3303a8ae108851ce545046df431f9bd4593e5fb6944b56abb6ef829c4a219",
+    "SAFE_PROTOCOL.json": "3581d69ed7b636cb50abcea416ef0c174f27e3f5f6817831630e4a0002defdc2",
+    "TABLES.json": "f55cd0280386daccc288a19fe22792fb9db4ad720b86d94e6866cf2ae4ff51c5",
+    "all_paired_contrasts.csv": "999edb0e897573362e72e3aeac271d7da20d4c58b6628c06c47fc272996f8b0d",
+    "all_strata.csv": "1eb38e04c617ee1476fdb84159fb298c37f27d724d597841ed481472c631b1e6",
+    "analysis.py": "d8c64854f3256b1e17efd722dc4eecf4012f706433885fd7c30e071c6766c0ad",
+    "reproduce.py": "68261df400465a246d5e46c7c2470a1d7f22f0796a61c040c2d12bb033a57529"
+  },
+  "frozen_analysis_byte_identical": true,
+  "independent_audit": {
+    "audit_report_sha256": "39c6274c722b0d8e493c1246930420cfa0db6fee058b22813072b4ae5817b06a",
+    "audit_source_manifest_sha256": "58bb9a7534a53ec8355fc842ebbd38083340a25abe5f3479b1f456370480eab5",
+    "check_count": 176626,
+    "passed": true,
+    "planned_cells": 504,
+    "run_status": "completed"
+  },
+  "numerical_verification_before_write": {
+    "maximum_absolute_difference": 0.0,
+    "numeric_values_verified": 10365
+  },
+  "paired_contrasts": 51,
+  "schema": "cmc-r1-2-local-reproduction-bundle-v1",
+  "source_frozen_protocol_sha256": "5e011c1d436fbcce7587787fa7693209eada00a9fa42e3ee2d30f87a4cfb621f",
+  "source_safe_rows_sha256": "3d951d0c01dae20b5565c8a9b7b38d258a72aa3efcfe44ad9587bb69988870bf",
+  "source_tables_sha256": "f55cd0280386daccc288a19fe22792fb9db4ad720b86d94e6866cf2ae4ff51c5",
+  "strata": 21,
+  "study_id": "cmc-r1-online-formal-v2"
+}

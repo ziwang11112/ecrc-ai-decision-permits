@@ -1,0 +1,53 @@
+{
+  "arm": "ecrc",
+  "case": "cleanup_before_arm",
+  "repetition": 1,
+  "expiry": "2026-10-16T12:00:02.000000Z",
+  "events": {},
+  "expected_error": {
+    "type": "ValueError",
+    "message": "request is absent/cancelled"
+  },
+  "cleanup": {
+    "cancelled": [
+      "target"
+    ],
+    "armed_or_completed_retained": []
+  },
+  "state": {
+    "request_count": 1,
+    "permit_count": 1,
+    "hold_count": 1,
+    "held": 0,
+    "spent": 0,
+    "intent_count": 0,
+    "receipt_count": 0,
+    "budgets": [
+      {
+        "policy_id": "cmc-local-runtime-v1",
+        "policy_revision": 1,
+        "scope_key": "boundary",
+        "resource": "alert",
+        "capacity_limit": 1,
+        "reserved": 0,
+        "committed": 0
+      }
+    ],
+    "jobs": [],
+    "request_states": {
+      "cancelled": 1
+    },
+    "hold_statuses": {
+      "released": 1
+    },
+    "checks_passed": true
+  },
+  "pragmas": {
+    "journal_mode": "wal",
+    "synchronous": 2,
+    "busy_timeout": 30000,
+    "page_size": 4096
+  },
+  "passed": true,
+  "service_dispatch_performed": false
+}

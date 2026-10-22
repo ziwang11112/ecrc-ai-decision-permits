@@ -1,0 +1,9 @@
+model,condition,contrast,comparator,metric,estimate,ci95_low,ci95_high
+openai,normal,ecrc_minus_prompt_only,prompt_only,compliant_verified_yield,0.4322916666666667,0.3020833333333333,0.5520833333333334
+openai,normal,ecrc_minus_ordinary,ordinary,compliant_verified_yield,-0.005208333333333333,-0.020833333333333332,0.010416666666666666
+openai,hidden_first_result,ecrc_minus_prompt_only,prompt_only,compliant_verified_yield,0.6197916666666666,0.5364583333333334,0.6927083333333334
+openai,hidden_first_result,ecrc_minus_ordinary,ordinary,compliant_verified_yield,-0.03125,-0.08333333333333333,0.015625
+luna,normal,ecrc_minus_prompt_only,prompt_only,compliant_verified_yield,0.06770833333333333,0.010416666666666666,0.140625
+luna,normal,ecrc_minus_ordinary,ordinary,compliant_verified_yield,0.026041666666666668,-0.005208333333333333,0.06770833333333333
+luna,hidden_first_result,ecrc_minus_prompt_only,prompt_only,compliant_verified_yield,0.11458333333333333,0.03125,0.20833333333333334
+luna,hidden_first_result,ecrc_minus_ordinary,ordinary,compliant_verified_yield,0.0,-0.041666666666666664,0.041666666666666664

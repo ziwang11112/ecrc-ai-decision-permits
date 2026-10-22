@@ -1,0 +1,13 @@
+model,condition,arm,scheduled_trajectories,unknown_endpoint_trajectories,known_excess_count,full_denominator_excess_lower,full_denominator_excess_upper,raw_yield_lower,raw_yield_upper,latent_compliant_yield_lower,latent_compliant_yield_upper,operational_conservative_compliant_score,interval_type
+deepseek-flash,normal,prompt_only,48,0,0,0.0,0.0,0.7239583333333334,0.7239583333333334,0.7239583333333334,0.7239583333333334,0.7239583333333334,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,normal,ordinary,48,0,0,0.0,0.0,0.734375,0.734375,0.734375,0.734375,0.734375,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,normal,ecrc,48,0,0,0.0,0.0,0.7239583333333334,0.7239583333333334,0.7239583333333334,0.7239583333333334,0.7239583333333334,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,hidden_first_result,prompt_only,48,0,0,0.0,0.0,0.734375,0.734375,0.734375,0.734375,0.734375,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,hidden_first_result,ordinary,48,0,0,0.0,0.0,0.734375,0.734375,0.734375,0.734375,0.734375,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,hidden_first_result,ecrc,48,1,0,0.0,0.020833333333333332,0.703125,0.7239583333333334,0.703125,0.71875,0.703125,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,normal,prompt_only,48,0,2,0.041666666666666664,0.041666666666666664,0.6510416666666666,0.6510416666666666,0.6302083333333334,0.6302083333333334,0.6302083333333334,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,normal,ordinary,48,0,0,0.0,0.0,0.5989583333333334,0.5989583333333334,0.5989583333333334,0.5989583333333334,0.5989583333333334,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,normal,ecrc,48,1,0,0.0,0.020833333333333332,0.6145833333333334,0.6354166666666667,0.6145833333333334,0.6302083333333334,0.6145833333333334,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,hidden_first_result,prompt_only,48,2,4,0.08333333333333333,0.125,0.625,0.6666666666666666,0.5520833333333334,0.5833333333333334,0.5520833333333334,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,hidden_first_result,ordinary,48,0,0,0.0,0.0,0.640625,0.640625,0.640625,0.640625,0.640625,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,hidden_first_result,ecrc,48,0,0,0.0,0.0,0.625,0.625,0.625,0.625,0.625,missing_endpoint_bound_not_confidence_interval

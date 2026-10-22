@@ -1,5 +1,17 @@
 # Changes
 
+## Source revision - 2026-10-22
+
+- Add all 504 additional-study assignments and complete numerical reproduction.
+- Include the formal actor runtime, shared public dependencies and offline tests.
+- Add primary resource/failure reanalysis and local issuance/boundary observations.
+- Add concise paired-yield, missing-acceptance and termination CSV summaries.
+- Clarify joint claim-support terminology while preserving frozen source/data keys.
+- Keep manuscript files, reviewer responses and private execution archives separate.
+
+This source update preserves existing release tags. It adds no paid calls
+or scientific trajectories.
+
 ## code-v1.3.0 - 2026-10-08
 
 - Add the feedback-driven online agent loop, tools, execution controllers and offline integration tests.

@@ -39,3 +39,9 @@ the project's existing derived-evidence terms. HumanEval prompt/test material
 retains its upstream MIT notice in the online package. No model-generated
 candidate bodies or raw provider output are redistributed. Font files and
 provider SDKs/services are not included or relicensed by these packages.
+
+The locally prepared `revision_results/` code and documentation use the same
+MIT terms; its derived scalar/aggregate evidence uses CC BY-SA 4.0. Copied
+HumanEval materials retain `agent_runtime/runtime/data/HUMANEVAL_LICENSE`.
+No generated candidate bodies, provider traffic or original private databases
+are included in this extension.

@@ -9,6 +9,8 @@ This repository contains implementation code, numerical evidence and
 reproduction tools. The manuscript and Overleaf project are maintained separately.
 
 Current software release: [code-v1.3.0](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.3.0).
+The [revision code and evidence](revision_results/README.md) are included in
+this source revision and are separate from that fixed release.
 Start with the [result-to-source map](docs/RESULTS.md) or
 [reproduction guide](REPRODUCIBILITY.md).
 
@@ -16,6 +18,7 @@ Start with the [result-to-source map](docs/RESULTS.md) or
 
 | Material | Entry point |
 |---|---|
+| Additional 504 assignments, primary reanalysis and local runtime checks | [revision results](revision_results/README.md) |
 | Online agent loop, tools, permission controllers and tests | [online_agent](online_agent/README.md) |
 | Primary 576 trajectories and all 864 later provider trajectories | [online_results](online_results/README.md) |
 | Numerical reanalysis and current result plots | [online_results](online_results/README.md) |

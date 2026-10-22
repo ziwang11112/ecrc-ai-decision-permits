@@ -1,0 +1,17 @@
+model,condition,comparator,metric,full_scheduled_denominator_per_arm,lower_difference_pp,upper_difference_pp,interval_type
+deepseek-flash,normal,prompt_only,raw_yield,48,0.0,0.0,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,normal,prompt_only,latent_compliant_yield,48,0.0,0.0,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,normal,ordinary,raw_yield,48,-1.041666666666663,-1.041666666666663,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,normal,ordinary,latent_compliant_yield,48,-1.041666666666663,-1.041666666666663,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,hidden_first_result,prompt_only,raw_yield,48,-3.125,-1.041666666666663,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,hidden_first_result,prompt_only,latent_compliant_yield,48,-3.125,-1.5625,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,hidden_first_result,ordinary,raw_yield,48,-3.125,-1.041666666666663,missing_endpoint_bound_not_confidence_interval
+deepseek-flash,hidden_first_result,ordinary,latent_compliant_yield,48,-3.125,-1.5625,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,normal,prompt_only,raw_yield,48,-3.645833333333326,-1.562499999999989,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,normal,prompt_only,latent_compliant_yield,48,-1.5625,0.0,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,normal,ordinary,raw_yield,48,1.5625,3.645833333333337,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,normal,ordinary,latent_compliant_yield,48,1.5625,3.125,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,hidden_first_result,prompt_only,raw_yield,48,-4.1666666666666625,0.0,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,hidden_first_result,prompt_only,latent_compliant_yield,48,4.1666666666666625,7.2916666666666625,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,hidden_first_result,ordinary,raw_yield,48,-1.5625,-1.5625,missing_endpoint_bound_not_confidence_interval
+gemini-2.5-flash,hidden_first_result,ordinary,latent_compliant_yield,48,-1.5625,-1.5625,missing_endpoint_bound_not_confidence_interval

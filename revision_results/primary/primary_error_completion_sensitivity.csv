@@ -1,0 +1,9 @@
+model,condition,comparator,trajectories_per_arm,ecrc_model_response_errors,comparator_model_response_errors,observed_difference_pp,scenario_lower_pp,scenario_upper_pp,interval_type
+gpt-4.1-mini-2025-04-14,normal,prompt_only,48,2,3,43.22916666666667,38.54166666666667,46.35416666666667,counterfactual_scenario_bound_not_confidence_interval
+gpt-4.1-mini-2025-04-14,normal,ordinary,48,2,2,-0.5208333333333333,-3.6458333333333335,2.604166666666667,counterfactual_scenario_bound_not_confidence_interval
+gpt-4.1-mini-2025-04-14,hidden_first_result,prompt_only,48,3,3,61.979166666666664,57.291666666666664,66.66666666666666,counterfactual_scenario_bound_not_confidence_interval
+gpt-4.1-mini-2025-04-14,hidden_first_result,ordinary,48,3,2,-3.125,-6.25,1.5625,counterfactual_scenario_bound_not_confidence_interval
+gpt-6-luna,normal,prompt_only,48,0,0,6.770833333333333,6.770833333333333,6.770833333333333,counterfactual_scenario_bound_not_confidence_interval
+gpt-6-luna,normal,ordinary,48,0,0,2.604166666666667,2.604166666666667,2.604166666666667,counterfactual_scenario_bound_not_confidence_interval
+gpt-6-luna,hidden_first_result,prompt_only,48,0,0,11.458333333333332,11.458333333333332,11.458333333333332,counterfactual_scenario_bound_not_confidence_interval
+gpt-6-luna,hidden_first_result,ordinary,48,0,0,0.0,0.0,0.0,counterfactual_scenario_bound_not_confidence_interval
