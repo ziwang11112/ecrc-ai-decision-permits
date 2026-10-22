@@ -18,7 +18,7 @@ their original names, with an explicit terminology mapping in the guide.
 
 | Revision result | Source | Offline check |
 |---|---|---|
-| Allowances 1, 3 and 5 plus joint challenge | `revision_results/budget_study/` | All 504 safe records, 147 stratum-metric rows and 357 paired-metric rows |
+| Allowances 1, 3 and 5 plus joint challenge | `revision_results/budget_study/` | All 504 safe records, 945 stratum-metric rows and 357 paired-metric rows |
 | Primary acceptance, resources and failures | `revision_results/primary/` | All 576 records and paired batch/sensitivity calculations |
 | Issuance timing and authorization order | `revision_results/local_runtime/` | All 6,000 timings, 30 run/phase groups and 14 saved boundary traces |
 | Compact paired and termination summaries | `revision_results/review_tables/` | Regenerated from complete numerical inputs |
