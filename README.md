@@ -13,6 +13,12 @@ result and records expenditure without starting a new job or refunding a unit.
 This repository provides implementation code, retained numerical evidence and
 reproduction tools for **Permission and Budget Control for Language Model Agents**.
 
+![Figure 1 from the manuscript: online agent workflow and cumulative budget responsibility](docs/assets/paper-figure-1.png)
+
+**Figure 1.** Online agent workflow and cumulative budget responsibility.
+Recovery preserves the operation identity and settles the held unit without
+another verification job or a budget refund. [Vector PDF](docs/assets/paper-figure-1.pdf).
+
 **Current release:** [code-v1.4.0](https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.4.0),
 including the additional 504-assignment study and local runtime measurements.
 **Exact evidence snapshot cited in the manuscript:**

@@ -1,10 +1,10 @@
 {
   "artifact": "ecrc-ai-decision-permits",
-  "version": "code-v1.4.0",
-  "base_release": "code-v1.3.0",
-  "base_commit": "be6bb2121cbfead548a9d54463646f9b1d6f200f",
-  "status": "release",
-  "scope": "Complete code and evidence view with current revision materials. Historical frozen source mappings remain in SOURCE_VIEW.json.",
+  "version": "main-docs-after-code-v1.4.0",
+  "base_release": "code-v1.4.0",
+  "base_commit": "7a6ed699abe845d7eb09d12aa619314c77f0e7a6",
+  "status": "documentation_update",
+  "scope": "Current source view with the original manuscript Figure 1 for README navigation. Scientific source and records remain unchanged from the fixed release.",
   "files": [
     {
       "path": ".gitattributes",
@@ -53,8 +53,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6345,
-      "sha256": "8ba2a713204175def20d2fc5466ed5c4fcc5070a686a1755f999cc753af6d335"
+      "bytes": 6712,
+      "sha256": "a3b95ca1eaf261b42d785e6caff6e438d44d643a20720643ba10fa5ba22a95eb"
     },
     {
       "path": "RELEASE_QA.json",
@@ -115,6 +115,16 @@
       "path": "docs/REVISION_VALIDATION.json",
       "bytes": 1686,
       "sha256": "7a33fb30de715456013a926086408d5cd937d91ef60a0de5041bf6fddb1ec79d"
+    },
+    {
+      "path": "docs/assets/paper-figure-1.pdf",
+      "bytes": 67997,
+      "sha256": "4f9a5649ebeeed05f42caecbdda08eb8c3b240ef5b2c070c796ca603c82626f4"
+    },
+    {
+      "path": "docs/assets/paper-figure-1.png",
+      "bytes": 71102,
+      "sha256": "e357bb37584ade0a9f992bfd5b1d6ec0157826981a119818712f3a2d8c6240a7"
     },
     {
       "path": "iasc/README.md",
