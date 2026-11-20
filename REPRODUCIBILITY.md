@@ -6,6 +6,31 @@ for each new run; the two figure builders intentionally share its new output
 directory. A saved-evidence check, a supplemental QA
 run and a new scientific reproduction answer different questions.
 
+## Quick verification of this release
+
+The complete current package is `code-v1.4.0`. The manuscript cites the fixed
+evidence commit
+[`be6bb21`](https://github.com/ziwang11112/ecrc-ai-decision-permits/tree/be6bb2121cbfead548a9d54463646f9b1d6f200f).
+This release retains its scientific code and records. The earlier `code-v1.3.0`
+tag predates the additional 504-assignment bundle.
+
+Use Python 3.12 in a virtual environment, then run from the repository root:
+
+```console
+git checkout code-v1.4.0
+python -m pip install numpy==2.4.5
+python -B scripts/verify_release.py
+python -B scripts/verify_source_view.py
+python -B revision_results/verify.py
+python -B scripts/verify_current_results.py
+```
+
+Expected results are a checksum PASS, a historical-source mapping PASS,
+revision verification with 504 retained assignments and zero numerical
+difference, and six successful saved-result checks. No model calls or candidate
+executions are made. Installing the full package and starting a live sandbox
+are unnecessary for these checks.
+
 ## 1. Verify the checkout and run the small supplemental QA
 
 ```console
@@ -42,8 +67,8 @@ summaries. The second uses scripted responses and inert runner fixtures;
 choose a new short tag on each run. Neither makes model calls or executes
 candidate programs. See [the revision guide](revision_results/README.md)
 for the 504-assignment bundle, primary resources, terminology mapping and
-separate fresh-execution requirements. These additions are versioned in the
-source history; existing release tags retain their original contents.
+separate fresh-execution requirements. These additions are included in `code-v1.4.0`; earlier fixed release tags
+retain their original contents.
 
 
 ```console
@@ -236,9 +261,10 @@ audit checked their entry points but did not execute another formal suite.
 ## Verification status and update policy
 
 The cleanup audit is reported in [completeness and scope](docs/ARTIFACT_COMPLETENESS.md).
-Repository GitHub Actions were disabled when audited. The workflow file is
-provided and its broken wrapper command is corrected, but no cloud-CI pass is
-claimed. Local checks and their scope are recorded separately.
+The supplied GitHub Actions workflow is separate from the recorded local
+validation. See [the release check record](docs/RELEASE_VALIDATION_1.4.0.json)
+for commands, environment and scope. This release does not claim a hosted CI
+result or change the repository's existing Actions settings.
 
 The root `MANIFEST.json` / `SHA256SUMS.txt` describe the current Git source
 revision. `SOURCE_VIEW.json` records intentional manuscript-material omissions

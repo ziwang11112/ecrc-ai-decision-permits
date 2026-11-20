@@ -1,0 +1,69 @@
+{
+  "release": "code-v1.4.0",
+  "date": "2026-11-20",
+  "status": "PASS_LOCAL_OFFLINE_CHECKS",
+  "evidence_base_commit": "be6bb2121cbfead548a9d54463646f9b1d6f200f",
+  "environment": {
+    "platform": "Windows",
+    "python": "3.12.10",
+    "numpy": "2.4.5",
+    "fresh_dependency_install": false
+  },
+  "checks": [
+    {
+      "command": "python -B scripts/verify_release.py",
+      "result": "PASS"
+    },
+    {
+      "command": "python -B scripts/verify_source_view.py",
+      "result": "PASS",
+      "inventory_entries": {
+        "included": 420,
+        "omitted": 29,
+        "overlay": 7
+      }
+    },
+    {
+      "command": "python -B revision_results/verify.py",
+      "result": "PASS",
+      "additional_assignments": 504,
+      "numeric_values_verified": 10365,
+      "maximum_absolute_difference": 0.0,
+      "primary_trajectories": 576,
+      "timing_observations": 6000,
+      "boundary_traces": 14
+    },
+    {
+      "command": "python -B scripts/verify_current_results.py",
+      "result": "PASS",
+      "component_checks": 6,
+      "online_scalar_records": 1440,
+      "online_numeric_comparisons": 2298
+    },
+    {
+      "command": "python -B revision_results/agent_runtime/tests/test_runtime_offline.py --tag pub1120a",
+      "result": "PASS",
+      "test_methods": 13,
+      "network_and_process_tripwires": true
+    }
+  ],
+  "preservation": {
+    "base_manifest_entries_unchanged_outside_documentation_and_metadata": 1340,
+    "scientific_source_and_records_modified": false,
+    "earlier_release_tags_modified": false
+  },
+  "publication_review": {
+    "manuscript_tex_word_or_rebuttal_files_in_active_tree": 0,
+    "tracked_pdf_files": 12,
+    "pdf_scope": "Standalone one-page figures",
+    "tested_credential_patterns_found": 0,
+    "relative_markdown_links": "verified",
+    "historical_environment_paths": "Retained in frozen source/log metadata; portable entry points are documented."
+  },
+  "model_api_calls": 0,
+  "candidate_executions": 0,
+  "new_scientific_trajectories": 0,
+  "cloud_ci_pass_claimed": false,
+  "actions_settings_changed": false,
+  "scope": "Saved numerical evidence, inert runtime fixtures and publication integrity. Fresh live inference and candidate execution were not run."
+}

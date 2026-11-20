@@ -1,10 +1,10 @@
 {
   "artifact": "ecrc-ai-decision-permits",
-  "version": "revision-2026-10-22",
+  "version": "code-v1.4.0",
   "base_release": "code-v1.3.0",
-  "base_commit": "e9216ee11703ec692f5d63fe68e8b8d089f3b82c",
-  "status": "source_revision",
-  "scope": "Source and data inventory for the 22 October revision; fixed release tags are unchanged. Frozen historical source mappings remain in SOURCE_VIEW.json.",
+  "base_commit": "be6bb2121cbfead548a9d54463646f9b1d6f200f",
+  "status": "release",
+  "scope": "Complete code and evidence view with current revision materials. Historical frozen source mappings remain in SOURCE_VIEW.json.",
   "files": [
     {
       "path": ".gitattributes",
@@ -18,8 +18,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 269,
-      "sha256": "521f585bf7e502699d01e1ad02bff6f262e23258b803cbef12c123e631d7b21a"
+      "bytes": 390,
+      "sha256": "7ac17ef3ee19613e47dc0a6b3c46100383d7c81bb19c990fe853cd90fbe5d6d0"
     },
     {
       "path": "ARTIFACTS.json",
@@ -28,18 +28,23 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2615,
-      "sha256": "20084634e1f42be94e9a6203fcb90bb916b669e2f89574498bcecfffeed4258e"
+      "bytes": 3555,
+      "sha256": "9bb3a79461b87cbc34350c8ade57fb29dfe899cc95932c5db49597610f573060"
     },
     {
       "path": "CITATION.cff",
       "bytes": 524,
-      "sha256": "a5bfdcd10ba3a73205fe391d857029b10eb4438471b6809c44efb7b29783da5f"
+      "sha256": "b28e1e6a16013bafab81bec33909d326b28129beaebe41cb04180a1f349bc133"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1559,
+      "sha256": "2ef51ff59504dacd6feaf27ea0ccacbc851c956b930f57609453ae0403a11c1a"
     },
     {
       "path": "LICENSE",
-      "bytes": 1074,
-      "sha256": "1d0dde41ece0f9620937f1a81a67e295ace0eae180c009d862006e8f3b288458"
+      "bytes": 1078,
+      "sha256": "4e1bf96de3ada900d3e38aaba524d0d5cb0fdc6bd10ba8eb438eb1f69dfcc0df"
     },
     {
       "path": "LICENSES.md",
@@ -48,18 +53,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 4363,
-      "sha256": "6c989dddaa51b1b40540ce32716c01fd6ba16365af89d6ecaeaab8e51f0552e1"
+      "bytes": 6345,
+      "sha256": "8ba2a713204175def20d2fc5466ed5c4fcc5070a686a1755f999cc753af6d335"
     },
     {
       "path": "RELEASE_QA.json",
-      "bytes": 627,
-      "sha256": "230d0d56db289b0771761eba164574e9b7626f63578d1977b811b4330a1066cf"
+      "bytes": 314,
+      "sha256": "ba6c4d0219d663cb2aef5703475ee9ca60eb8a0721d07e5e9bd954a595fc6d85"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 13665,
-      "sha256": "9036e80606d08d004a11e3b42aa991e5b33fe726a3165d630dffe39cac8d02ba"
+      "bytes": 14765,
+      "sha256": "78cc172c6b21026bde98ce0d94d0c5fc6f1f354e141f46f72b86706bb26a9304"
     },
     {
       "path": "SOURCE_VIEW.json",
@@ -68,8 +73,8 @@
     },
     {
       "path": "docs/ARTIFACT_COMPLETENESS.md",
-      "bytes": 3778,
-      "sha256": "0f4a3b492dd9f5075dba415b11dcab8b1facce40177e8e267412f0ed118b0f99"
+      "bytes": 3897,
+      "sha256": "fd7b1b7aa6d9ca1e15f1ed29a0e635cc0f0a8ac35af1a8b4983d045cbc01b993"
     },
     {
       "path": "docs/ARTIFACT_VALIDATION.json",
@@ -78,8 +83,8 @@
     },
     {
       "path": "docs/CLAIM_TO_ARTIFACT.md",
-      "bytes": 1668,
-      "sha256": "24cb78a186cefcbfe540d898eaaf45b5bfbd62104f03596773fd3e63e2613ea2"
+      "bytes": 2205,
+      "sha256": "306c3142ce2f45cb372dde7a69933b8712f5cfc961c32f5ee2c4f386e4f4fa80"
     },
     {
       "path": "docs/DATA_ACCESS.md",
@@ -92,14 +97,19 @@
       "sha256": "56dc468cb9317513345a0b817cf2c53b709bd3c1df5370f0c0a4ca4124e84776"
     },
     {
+      "path": "docs/RELEASE_VALIDATION_1.4.0.json",
+      "bytes": 2230,
+      "sha256": "af7637810c9d77477609f5c47a5dbe6a38d27aae5f8da06669a70aae9b4f315c"
+    },
+    {
       "path": "docs/REPRODUCIBILITY.md",
       "bytes": 354,
       "sha256": "62b416c445131c50c47880bded79e700d5f79ee2c1ec74ca59a3b6ebb18cada9"
     },
     {
       "path": "docs/RESULTS.md",
-      "bytes": 7183,
-      "sha256": "23b1b4d6a637bba8cb56752c644e43fbaf11b5c6abce303ddf7be82c3e70ce4f"
+      "bytes": 7379,
+      "sha256": "b346cf18f2ad65421ca46f4f56d61c030bb08593865984d2541d0c81f853fc18"
     },
     {
       "path": "docs/REVISION_VALIDATION.json",
@@ -6189,7 +6199,7 @@
     {
       "path": "pyproject.toml",
       "bytes": 961,
-      "sha256": "756b1634e7fedaa4f171aa797bf3200002555aeb2ad4b4ed0f3f929778c4b004"
+      "sha256": "ca2e5d782618be080ce80c446c8fc039fbead45f88bf9dccac69528b17c605e8"
     },
     {
       "path": "revision_results/MANIFEST.json",

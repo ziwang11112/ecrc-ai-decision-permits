@@ -1,7 +1,7 @@
 # Results and source map
 
 Artifact index for **Permission and Budget Control for Language Model Agents**,
-updated 22 October 2026 with the additional revision evidence. Manuscript prose, LaTeX and paper PDFs are maintained
+updated 20 November 2026 for release `code-v1.4.0`. Manuscript prose, LaTeX and paper PDFs are maintained
 separately. Historical S8/S9-C/S10/S11/S12 codes identify studies, not current
 supplementary table numbers.
 
@@ -24,14 +24,15 @@ their original names, with an explicit terminology mapping in the guide.
 | Compact paired and termination summaries | `revision_results/review_tables/` | Regenerated from complete numerical inputs |
 | Additional-study actor runtime | `revision_results/agent_runtime/` | 13 offline test methods with network/process tripwires |
 
-The additions are included in this source revision. Existing `code-v1.3.0`
-material and fixed historical releases remain unchanged.
+Release `code-v1.4.0` packages this evidence with updated navigation. The
+[manuscript-cited snapshot](https://github.com/ziwang11112/ecrc-ai-decision-permits/tree/be6bb2121cbfead548a9d54463646f9b1d6f200f)
+and all earlier fixed releases remain available with their original contents.
 
 ## Online agent evidence
 
 | Study or result | Public material | Verification scope |
 |---|---|---|
-| Primary shared-budget study; current Figures 3/4 and primary outcome table | [online_results](../online_results/README.md) | All 576 scalar records; 96 tasks, 24 batches, two model profiles, three controls, two response conditions, two repeats |
+| Primary shared-budget study; verification-work and verified-yield plots, plus the primary outcome table | [online_results](../online_results/README.md) | All 576 scalar records; 96 tasks, 24 batches, two model profiles, three controls, two response conditions, two repeats |
 | Later DeepSeek and Gemini evaluations | Same package, separate study projections | All 576 planned assignments, including provider, worker and usage-audit failures |
 | Later Claude evaluation | Same package, separate study projections | All 288 planned assignments, including eight provider failures |
 | Feedback-driven actor loop and execution controllers | [online_agent](../online_agent/README.md) | Public implementation, protocol and offline tests; fresh online use requires explicit model and sandbox configuration |
@@ -60,7 +61,7 @@ clusters and preserves pairing, following each package's documented scope.
 |---|---|---|
 | Raw-request lifecycle; current lifecycle outcome table | [checkpoint observations](../plots/current/data/S8_CHECKPOINT_COUNTS.csv), [42 audits](../plots/current/data/checkpoint_audits/) | Seven checkpoints, two clients, three repetitions; 36 lifecycle runs produced 78 effects and receipts |
 | Delivery latency | [run-level observations](../plots/current/data/S6_performance_runs.csv) | 30 runs / 1,920 timed requests; summaries of five run-level 95th-percentile latencies per setting |
-| Finite-model boundary; main Figure 5 | [model and verification](../iasc_model_check/PORTABLE_REPRODUCTION.md), [current renderer](../online_results/README.md) | Normal configurations: 684 and 21,960 reachable states; unsafe trace retains all 13 states |
+| Finite-model boundary; unresolved-operation counterexample plot | [model and verification](../iasc_model_check/PORTABLE_REPRODUCTION.md), [current renderer](../online_results/README.md) | Normal configurations: 684 and 21,960 reachable states; unsafe trace retains all 13 states |
 | Airline qualification | [iasc_airline](../iasc_airline/README.md) | 600 contexts / 200 reservations; 2,400 condition runs; 129 eligible, 117 known-ineligible and 354 unresolved contexts |
 | Constructed airline boundaries | Same source package | 16 fixtures times four controls, excluded from the native cohort denominator |
 | Archived-program verification | [S9-C](../iasc_application/context_correction/README.md) | 112 original + 32 replacement = 144 trajectories; 1,769 jobs / 188 response losses |

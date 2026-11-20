@@ -5,7 +5,7 @@ type: software
 authors:
   - name: "ECRC research project"
 repository-code: "https://github.com/ziwang11112/ecrc-ai-decision-permits"
-url: "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.3.0"
-version: "1.3.0"
-date-released: "2026-10-08"
+url: "https://github.com/ziwang11112/ecrc-ai-decision-permits/releases/tag/code-v1.4.0"
+version: "1.4.0"
+date-released: "2026-11-20"
 license: MIT

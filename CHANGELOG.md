@@ -1,5 +1,21 @@
 # Changes
 
+## code-v1.4.0 - 2026-11-20
+
+- Package the 22 October revision evidence in a named release: 504 additional
+  assignments, primary reanalysis, local runtime measurements and offline tests.
+- Point the quick start to the complete package and include both numerical
+  verifiers. Preserve the exact `be6bb21` snapshot cited in the manuscript.
+- Organize the project overview, code navigation and reproduction paths; replace
+  outdated figure numbers with stable plot descriptions.
+- Add contribution guidance, refresh software metadata and replace the legacy
+  anonymous copyright label with the existing project attribution.
+- Record current local verification and refresh the complete file inventory.
+
+Scientific code and records are byte-identical to `be6bb21`. This release adds
+no experimental trajectories or model calls. Earlier tags and assets remain
+unchanged. Manuscript files and editorial correspondence are maintained separately.
+
 ## Source revision - 2026-10-22
 
 - Add all 504 additional-study assignments and complete numerical reproduction.

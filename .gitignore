@@ -1,4 +1,14 @@
 .venv/
+
+# Local credentials and provider configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
 __pycache__/
 *.py[cod]
 .pytest_cache/
